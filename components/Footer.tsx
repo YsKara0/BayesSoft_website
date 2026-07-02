@@ -41,8 +41,8 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col gap-4 pt-7 text-sm text-bayes-silver/55 md:flex-row md:items-center md:justify-between">
-          <p>&copy; {new Date().getFullYear()} Bayessoft. Software and technology team.</p>
-          <p>Next.js &middot; Tailwind CSS &middot; Framer Motion</p>
+          <p>&copy; {new Date().getFullYear()} BayesSoft. Software and technology team.</p>
+          <p>All rights reserved.</p>
         </div>
       </div>
     </footer>

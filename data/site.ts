@@ -47,13 +47,13 @@ const profileLinks = ({
 export const teamMembers: TeamMember[] = [
   {
     name: "Batuhan Ersan",
-    role: "Software Engineer / Backend Systems",
+    role: "Full-Stack Developer / Mobile Developer",
     letter: "B",
     initials: "BE",
     image: "/team/batuhan_ersan.jpg",
     accent: "blue",
-    skills: ["Node.js", "API Design", "Databases", "Cloud"],
-    bio: "Builds reliable service layers, clean APIs, and the technical foundations that keep products steady under pressure.",
+    skills: ["React", "Flutter", "Express", "Javascript", "Node.js"],
+    bio: "Software Developer with experience in full-stack and mobile application development with flutter.",
     socials: profileLinks({
       website: "https://example.com/batuhan-ersan",
       github: "https://github.com/BatuErsann",
@@ -62,12 +62,12 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Ahmet Buğrahan Çınar",
-    role: "Software Engineer / Product Interfaces",
+    role: "Software Engineer / Backend Developer",
     letter: "A",
     initials: "AÇ",
     image: "/team/bugrahan_cinar.jpeg",
     accent: "teal",
-    skills: ["React", "Next.js", "TypeScript", "UI Systems"],
+    skills: ["Spring Boot", "API Design", "Databases", "WebSocket"],
     bio: "Turns complex flows into crisp, fast interfaces with a strong eye for interaction quality and product clarity.",
     socials: profileLinks({
       website: "https://example.com/ahmet-bugrahan-cinar",
@@ -77,13 +77,13 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Yavuz Selim Kara",
-    role: "Software Engineer / Full-Stack Product",
+    role: "Software Engineer / Mobile Developer",
     letter: "Y",
     initials: "YS",
     image: "/team/yavuz_selim_kara.jpg",
     accent: "navy",
-    skills: ["Next.js", "Node.js", "Architecture", "Product Systems"],
-    bio: "Connects product vision with full-stack execution, shaping Bayessoft builds from first idea to production-ready system.",
+    skills: ["Mobile", "Flutter", "Firebase", "Product Systems"],
+    bio: "Connects product vision with full-stack execution, shaping BayesSoft builds from first idea to production-ready system.",
     socials: profileLinks({
       website: "https://example.com/yavuz-selim-kara",
       github: "https://github.com/YsKara0",
@@ -92,12 +92,12 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Enes Keleş",
-    role: "Software Engineer / Experience Systems",
+    role: "Software Engineer / Frontend Developer",
     letter: "E",
     initials: "EK",
     image: "/team/enes_keles.jpeg",
     accent: "gold",
-    skills: ["Frontend", "Motion", "Mobile UX", "Design Systems"],
+    skills: ["Frontend", "React", "Typescript", "Design Systems"],
     bio: "Focuses on polished user experiences, smooth interaction patterns, and product details that make software feel premium.",
     socials: profileLinks({
       website: "https://example.com/enes-keles",
@@ -107,13 +107,13 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Sefa Ağardan",
-    role: "Software Engineer / Data & Automation",
+    role: "Backend Engineer / Full-Stack Developer",
     letter: "S",
     initials: "SA",
     image: "/team/sefa_agardan.jpg",
     accent: "silver",
-    skills: ["Python", "AI Workflows", "Analytics", "DevOps"],
-    bio: "Creates automation, data workflows, and engineering tools that reduce repetitive work and raise product intelligence.",
+    skills: ["Spring Boot", "API Design", "Security", "Computer Vision" , "React"],
+    bio: "Building scalable backend systems and AI-powered applications. Experienced in multi-tenant architectures, secure REST APIs, and production-grade computer vision pipelines.",
     socials: profileLinks({
       website: "https://g4stly.tr/",
       github: "https://github.com/g4stlyx",

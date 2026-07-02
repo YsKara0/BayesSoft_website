@@ -31,7 +31,7 @@ export function Hero() {
             Engineering digital products with quiet precision
           </div>
           <h1 className="max-w-5xl text-5xl font-semibold leading-[1.02] text-bayes-frost md:text-7xl lg:text-8xl">
-            Bayessoft
+            BayesSoft
           </h1>
           <p className="mt-7 max-w-2xl text-lg leading-8 text-bayes-silver/76 md:text-xl">
             A software and technology team building premium web platforms, AI-assisted

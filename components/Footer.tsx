@@ -30,7 +30,7 @@ export function Footer() {
                 <a
                   key={social.label}
                   href={social.href}
-                  aria-label={`Bayessoft ${social.label}`}
+                  aria-label={`BayesSoft ${social.label}`}
                   className="flex size-11 items-center justify-center rounded-md border border-white/10 bg-white/[0.04] text-bayes-silver/76 transition hover:border-bayes-teal/45 hover:text-bayes-frost"
                 >
                   <SocialIcon icon={social.icon} className="size-4" />

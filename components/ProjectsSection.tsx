@@ -26,7 +26,7 @@ export function ProjectsSection() {
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/12 to-transparent" />
       <div className="mx-auto max-w-7xl">
         <SectionIntro eyebrow="Portfolio" title="Systems with a polished surface and a serious core.">
-          Explore collaborative Bayessoft builds and standout individual projects from the
+          Explore collaborative BayesSoft builds and standout individual projects from the
           people behind the team.
         </SectionIntro>
 

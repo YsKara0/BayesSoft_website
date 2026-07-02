@@ -53,7 +53,7 @@ export function TeamSection() {
 
       <div className="relative mx-auto max-w-7xl">
         <SectionIntro eyebrow="Team" title="BAYES is built from the people behind it.">
-          The name Bayessoft carries the initials of the team: Batuhan, Ahmet
+          The name BayesSoft carries the initials of the team: Batuhan, Ahmet
           Buğrahan, Yavuz, Enes, and Sefa. Hover a card to bring that member
           into color while the rest of the system holds back.
         </SectionIntro>

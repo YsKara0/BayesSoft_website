@@ -5,23 +5,25 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
-  title: "Bayessoft | Software and Technology Team",
+  title: "BayesSoft | Software and Technology Team",
   description:
-    "Bayessoft is a software and technology team building polished digital products, reliable platforms, and modern engineering systems.",
+    "BayesSoft is a software and technology team building polished digital products, reliable platforms, and modern engineering systems.",
   keywords: [
-    "Bayessoft",
-    "software team",
+    "BayesSoft",
     "technology portfolio",
     "web development",
     "AI engineering",
     "cloud architecture"
   ],
+  icons: {
+    icon: "/bayes_logo_white.png",
+  },
   openGraph: {
-    title: "Bayessoft | Software and Technology Team",
+    title: "BayesSoft | Software and Technology Team",
     description:
-      "Premium software engineering, product design, cloud systems, and AI-powered technology from the Bayessoft team.",
+      "Premium software engineering, product design, cloud systems, and AI-powered technology from the BayesSoft team.",
     url: siteConfig.siteUrl,
-    siteName: "Bayessoft",
+    siteName: "BayesSoft",
     type: "website"
   },
   alternates: {

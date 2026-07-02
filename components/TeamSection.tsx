@@ -61,6 +61,21 @@ export function TeamSection() {
         <div className="mb-8 grid grid-cols-5 gap-2 rounded-md border border-white/10 bg-white/[0.035] p-2">
           {teamMembers.map((member) => {
             const isActive = activeMember === member.name;
+            const isDefaultActive = member.name === teamMembers[0].name;
+
+            const buttonStyles = (() => {
+              if (activeMember) {
+                return isActive
+                  ? "bg-bayes-frost text-bayes-ink"
+                  : "text-bayes-silver/42 hover:text-bayes-frost";
+              } else {
+                if (isDefaultActive) {
+                  return "bg-bayes-frost text-bayes-ink lg:bg-transparent lg:text-bayes-silver/42 lg:hover:text-bayes-frost";
+                } else {
+                  return "text-bayes-silver/42 hover:text-bayes-frost";
+                }
+              }
+            })();
 
             return (
               <button
@@ -71,11 +86,7 @@ export function TeamSection() {
                 onFocus={() => setHoveredMember(member.name)}
                 onBlur={() => setHoveredMember(null)}
                 onClick={() => setSelectedMember(member.name)}
-                className={`relative min-h-14 rounded-md text-2xl font-semibold transition md:text-3xl ${
-                  isActive
-                    ? "bg-bayes-frost text-bayes-ink"
-                    : "text-bayes-silver/42 hover:text-bayes-frost"
-                }`}
+                className={`relative min-h-14 rounded-md text-2xl font-semibold transition md:text-3xl ${buttonStyles}`}
                 aria-label={`Select ${member.name}`}
               >
                 {member.letter}
@@ -89,6 +100,103 @@ export function TeamSection() {
             const isActive = activeMember === member.name;
             const isMuted = activeMember !== null && activeMember !== member.name;
             const accent = accentMap[member.accent];
+            const isDefaultActive = index === 0;
+            const isCardVisibleOnMobile = activeMember ? isActive : isDefaultActive;
+
+            const cardStyles = (() => {
+              let classes = "group relative cursor-pointer flex-col overflow-hidden rounded-md border transition duration-500 focus:outline-none focus:ring-2 focus:ring-bayes-teal/45";
+              
+              // 1. Visibility class: flex on mobile if active/default, otherwise hidden on mobile and flex on lg
+              classes += isCardVisibleOnMobile ? " flex" : " hidden lg:flex";
+
+              // 2. Active border and shadow (glow)
+              if (activeMember) {
+                if (isActive) {
+                  classes += ` border-bayes-teal/45 ${accent.glow}`;
+                } else {
+                  classes += " border-white/10 hover:border-white/20";
+                }
+              } else {
+                if (isDefaultActive) {
+                  classes += ` border-bayes-teal/45 ${accent.glow} lg:border-white/10 lg:hover:border-white/20 lg:shadow-none`;
+                } else {
+                  classes += " border-white/10 hover:border-white/20";
+                }
+              }
+
+              // 3. Muted opacity
+              if (activeMember) {
+                if (isMuted) {
+                  classes += " opacity-[0.72]";
+                } else {
+                  classes += " opacity-100";
+                }
+              } else {
+                classes += " opacity-100";
+              }
+
+              return classes;
+            })();
+
+            const imageStyles = (() => {
+              let classes = "object-cover object-center transition duration-700 ease-out";
+              if (activeMember) {
+                classes += isActive
+                  ? " scale-105 grayscale-0 saturate-125"
+                  : " scale-100 grayscale contrast-125 saturate-0";
+              } else {
+                if (isDefaultActive) {
+                  classes += " scale-105 grayscale-0 saturate-125 lg:scale-100 lg:grayscale lg:contrast-125 lg:saturate-0";
+                } else {
+                  classes += " scale-100 grayscale contrast-125 saturate-0";
+                }
+              }
+              return classes;
+            })();
+
+            const gradientStyles = (() => {
+              let classes = `absolute inset-0 bg-gradient-to-t ${accent.gradient} transition duration-700`;
+              if (activeMember) {
+                classes += isActive ? " opacity-[0.88]" : " opacity-30";
+              } else {
+                if (isDefaultActive) {
+                  classes += " opacity-[0.88] lg:opacity-30";
+                } else {
+                  classes += " opacity-30";
+                }
+              }
+              return classes;
+            })();
+
+            const bgLetterStyles = (() => {
+              let classes = "absolute -bottom-7 right-3 text-[8.5rem] font-semibold leading-none text-white transition-all duration-700";
+              if (activeMember) {
+                classes += isActive ? " opacity-[0.28] translate-y-[-8px]" : " opacity-[0.13] translate-y-0";
+              } else {
+                if (isDefaultActive) {
+                  classes += " opacity-[0.28] translate-y-[-8px] lg:opacity-[0.13] lg:translate-y-0";
+                } else {
+                  classes += " opacity-[0.13] translate-y-0";
+                }
+              }
+              return classes;
+            })();
+
+            const arrowStyles = (() => {
+              let classes = "size-4 transition duration-300";
+              if (activeMember) {
+                classes += isActive
+                  ? " translate-x-0.5 -translate-y-0.5 text-bayes-teal"
+                  : " text-bayes-silver/42";
+              } else {
+                if (isDefaultActive) {
+                  classes += " translate-x-0.5 -translate-y-0.5 text-bayes-teal lg:translate-x-0 lg:translate-y-0 lg:text-bayes-silver/42";
+                } else {
+                  classes += " text-bayes-silver/42";
+                }
+              }
+              return classes;
+            })();
 
             return (
               <motion.article
@@ -112,11 +220,7 @@ export function TeamSection() {
                   ease: [0.22, 1, 0.36, 1],
                   layout: { duration: 0.42, ease: [0.22, 1, 0.36, 1] }
                 }}
-                className={`group relative flex min-h-[620px] cursor-pointer flex-col overflow-hidden rounded-md border bg-white/[0.04] transition duration-500 focus:outline-none focus:ring-2 focus:ring-bayes-teal/45 ${
-                  isActive
-                    ? `border-bayes-teal/45 ${accent.glow}`
-                    : "border-white/10 hover:border-white/20"
-                } ${isMuted ? "opacity-[0.72]" : "opacity-100"}`}
+                className={cardStyles}
               >
                 <div className="relative aspect-[4/5] min-h-[300px] overflow-hidden">
                   <Image
@@ -124,30 +228,15 @@ export function TeamSection() {
                     alt={member.name}
                     fill
                     sizes="(min-width: 1024px) 20vw, (min-width: 768px) 33vw, 100vw"
-                    className={`object-cover object-center transition duration-700 ease-out ${
-                      isActive
-                        ? "scale-105 grayscale-0 saturate-125"
-                        : "scale-100 grayscale contrast-125 saturate-0"
-                    }`}
+                    className={imageStyles}
                     priority={index < 2}
                   />
-                  <div
-                    className={`absolute inset-0 bg-gradient-to-t ${accent.gradient} transition duration-700 ${
-                      isActive ? "opacity-[0.88]" : "opacity-30"
-                    }`}
-                  />
+                  <div className={gradientStyles} />
                   <div className="absolute inset-0 bg-gradient-to-t from-bayes-ink via-bayes-ink/12 to-transparent" />
 
-                  <motion.span
-                    aria-hidden="true"
-                    animate={{
-                      opacity: isActive ? 0.28 : 0.13,
-                      y: isActive ? -8 : 0
-                    }}
-                    className="absolute -bottom-7 right-3 text-[8.5rem] font-semibold leading-none text-white"
-                  >
+                  <span aria-hidden="true" className={bgLetterStyles}>
                     {member.letter}
-                  </motion.span>
+                  </span>
 
                   <div className="absolute left-4 top-4 flex items-center gap-2 rounded-md border border-white/12 bg-black/20 px-3 py-1.5 backdrop-blur-md">
                     <span className={`text-sm font-semibold ${accent.text}`}>{member.letter}</span>
@@ -191,13 +280,7 @@ export function TeamSection() {
                         </a>
                       ))}
                     </div>
-                    <ArrowUpRight
-                      className={`size-4 transition duration-300 ${
-                        isActive
-                          ? "translate-x-0.5 -translate-y-0.5 text-bayes-teal"
-                          : "text-bayes-silver/42"
-                      }`}
-                    />
+                    <ArrowUpRight className={arrowStyles} />
                   </div>
                 </div>
               </motion.article>

@@ -1,4 +1,4 @@
-* [ ] mobil görünümde harflere basılınca kişi değişmeli. (sadece o kişi açılabilir herkesi göstermek yerine)
+* [x] mobil görünümde harflere basılınca kişi değişmeli. (sadece o kişi açılabilir herkesi göstermek yerine)
 * [ ] kişi rolleri, bio'ları, linkleri güncellenecek.
 * [ ] projeler yüklenecek
 * [ ] favicon değişecek

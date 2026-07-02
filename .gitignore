@@ -1,0 +1,16 @@
+node_modules/
+.next/
+.turbo/
+out/
+dist/
+*.tsbuildinfo
+*.log
+dev-server*.log
+.env*
+!.env.example
+.agents/
+.codex/
+.vercel/
+.netlify/
+.DS_Store
+Thumbs.db

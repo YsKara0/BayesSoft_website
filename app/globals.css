@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  background: #070a12;
+  --page-bg: #070a12;
+  --section-primary: #070a12;
+  --section-secondary: #090d15;
+  --hero-base: #070a12;
+  --hero-overlay: linear-gradient(
+    180deg,
+    rgba(7, 10, 18, 0.18) 0%,
+    rgba(7, 10, 18, 0.7) 78%,
+    #070a12 100%
+  );
+  --header-bg: rgba(7, 10, 18, 0.78);
+  --mobile-menu-bg: rgba(7, 10, 18, 0.94);
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  background: #f5f8fb;
+  --page-bg: #f5f8fb;
+  --section-primary: #f5f8fb;
+  --section-secondary: #edf3f8;
+  --hero-base: #eef4fa;
+  --hero-overlay: linear-gradient(
+    180deg,
+    rgba(245, 248, 251, 0.2) 0%,
+    rgba(245, 248, 251, 0.76) 78%,
+    #f5f8fb 100%
+  );
+  --header-bg: rgba(245, 248, 251, 0.82);
+  --mobile-menu-bg: rgba(245, 248, 251, 0.95);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--page-bg);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    linear-gradient(180deg, #070a12 0%, #0b0f19 48%, #070a12 100%);
+  color: #f5f8fb;
+  font-family:
+    Inter, "Plus Jakarta Sans", Geist, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[data-theme="light"] body {
+  background:
+    linear-gradient(180deg, #f5f8fb 0%, #edf3f8 52%, #f8fbff 100%);
+  color: #07111f;
+}
+
+::selection {
+  background: rgba(81, 214, 202, 0.28);
+  color: #f5f8fb;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.theme-section-primary {
+  background: var(--section-primary);
+}
+
+.theme-section-secondary {
+  background: var(--section-secondary);
+}
+
+.theme-hero-base {
+  background: var(--hero-base);
+}
+
+.theme-hero-overlay {
+  background: var(--hero-overlay);
+}
+
+.theme-header-scrolled {
+  background: var(--header-bg);
+}
+
+.theme-mobile-menu {
+  background: var(--mobile-menu-bg);
+}
+
+[data-theme="light"] .theme-logo-dark {
+  display: none;
+}
+
+[data-theme="light"] .theme-logo-light {
+  display: block;
+}
+
+[data-theme="light"] .text-bayes-frost {
+  color: #07111f;
+}
+
+[data-theme="light"] [class*="text-bayes-silver"] {
+  color: rgba(24, 38, 58, 0.68);
+}
+
+[data-theme="light"] .text-bayes-ink {
+  color: #f8fbff;
+}
+
+[data-theme="light"] .bg-bayes-frost {
+  background-color: #07111f;
+}
+
+[data-theme="light"] [class*="border-white"] {
+  border-color: rgba(13, 27, 42, 0.12);
+}
+
+[data-theme="light"] [class*="bg-white/"] {
+  background-color: rgba(255, 255, 255, 0.68);
+}
+
+[data-theme="light"] [class*="bg-black/"] {
+  background-color: rgba(7, 17, 31, 0.08);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -116,6 +116,28 @@ In GitHub:
 bayessoft.com.tr
 ```
 
+### If the Domain Shows GitHub's 404 Page
+
+If `bayessoft.com.tr` shows:
+
+```txt
+There isn't a GitHub Pages site here.
+```
+
+but GitHub says **DNS check successful**, the DNS is usually fine. The problem is normally that GitHub Pages has not deployed a site yet.
+
+Check these items:
+
+1. Go to **Repository > Settings > Pages**
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**
+3. Go to **Repository > Actions**
+4. Open **Deploy GitHub Pages**
+5. If it has not run, click **Run workflow**
+6. If it failed, open the failed run and check the error logs
+7. After a successful deployment, wait a few minutes and refresh the domain
+
+The workflow runs automatically when you push to `main` or `master`.
+
 The repository already includes:
 
 ```txt

@@ -6,9 +6,9 @@ const env = (key: string, fallback: string) => {
 const withoutTrailingSlash = (value: string) => value.replace(/\/+$/, "");
 
 export const siteConfig = {
-  siteUrl: withoutTrailingSlash(env("NEXT_PUBLIC_SITE_URL", "https://bayessoft.com")),
-  contactEmail: env("NEXT_PUBLIC_CONTACT_EMAIL", "hello@bayessoft.com"),
-  githubUrl: env("NEXT_PUBLIC_GITHUB_URL", "https://github.com/bayessoft"),
+  siteUrl: withoutTrailingSlash(env("NEXT_PUBLIC_SITE_URL", "https://bayessoft.com.tr")),
+  contactEmail: env("NEXT_PUBLIC_CONTACT_EMAIL", "info.bayessoft@gmail.com"),
+  githubUrl: env("NEXT_PUBLIC_GITHUB_URL", "https://github.com/bayessoft2024"),
   linkedinUrl: env("NEXT_PUBLIC_LINKEDIN_URL", "https://linkedin.com/company/bayessoft"),
   xUrl: env("NEXT_PUBLIC_X_URL", "https://x.com/bayessoft")
 };

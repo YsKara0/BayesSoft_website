@@ -14,3 +14,4 @@ dev-server*.log
 .netlify/
 .DS_Store
 Thumbs.db
+temp/

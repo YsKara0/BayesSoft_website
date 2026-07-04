@@ -6,18 +6,17 @@ import { ArrowUpRight, Code2, ExternalLink } from "lucide-react";
 import { SectionIntro } from "@/components/SectionIntro";
 import { projects } from "@/data/site";
 
-type Filter = "all" | "team" | "individual";
+type Filter = "team" | "individual";
 
 const filters: { label: string; value: Filter }[] = [
-  { label: "All", value: "all" },
   { label: "Team Projects", value: "team" },
   { label: "Individual Projects", value: "individual" }
 ];
 
 export function ProjectsSection() {
-  const [filter, setFilter] = useState<Filter>("all");
+  const [filter, setFilter] = useState<Filter>("team");
   const filteredProjects = useMemo(
-    () => projects.filter((project) => filter === "all" || project.category === filter),
+    () => projects.filter((project) => project.category === filter),
     [filter]
   );
 
@@ -31,7 +30,7 @@ export function ProjectsSection() {
         </SectionIntro>
 
         <div className="mb-8 flex justify-center">
-          <div className="grid w-full max-w-xl grid-cols-3 rounded-md border border-white/10 bg-white/[0.04] p-1">
+          <div className="grid w-full max-w-xl grid-cols-2 rounded-md border border-white/10 bg-white/[0.04] p-1">
             {filters.map((item) => (
               <button
                 key={item.value}
@@ -104,20 +103,28 @@ export function ProjectsSection() {
                 </div>
 
                 <div className="mt-auto flex gap-2 pt-8">
-                  <a
-                    href={project.liveUrl}
-                    className="group/link inline-flex h-11 flex-1 items-center justify-center gap-2 rounded-md bg-bayes-frost px-4 text-sm font-semibold text-bayes-ink transition hover:bg-white"
-                  >
-                    Demo
-                    <ArrowUpRight className="size-4 transition group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
-                  </a>
-                  <a
-                    href={project.sourceUrl}
-                    className="inline-flex h-11 flex-1 items-center justify-center gap-2 rounded-md border border-white/10 bg-white/[0.04] px-4 text-sm font-semibold text-bayes-frost transition hover:border-bayes-teal/40 hover:bg-white/[0.07]"
-                  >
-                    Source
-                    <Code2 className="size-4" />
-                  </a>
+                  {project.liveUrl && (
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group/link inline-flex h-11 flex-1 items-center justify-center gap-2 rounded-md bg-bayes-frost px-4 text-sm font-semibold text-bayes-ink transition hover:bg-white"
+                    >
+                      Live
+                      <ArrowUpRight className="size-4 transition group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
+                    </a>
+                  )}
+                  {project.sourceUrl && (
+                    <a
+                      href={project.sourceUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex h-11 flex-1 items-center justify-center gap-2 rounded-md border border-white/10 bg-white/[0.04] px-4 text-sm font-semibold text-bayes-frost transition hover:border-bayes-teal/40 hover:bg-white/[0.07]"
+                    >
+                      Source
+                      <Code2 className="size-4" />
+                    </a>
+                  )}
                 </div>
               </motion.article>
             ))}

@@ -26,8 +26,8 @@ export type Project = {
   summary: string;
   impact: string;
   technologies: string[];
-  liveUrl: string;
-  sourceUrl: string;
+  liveUrl?: string;
+  sourceUrl?: string;
 };
 
 const profileLinks = ({
@@ -124,89 +124,83 @@ export const teamMembers: TeamMember[] = [
 
 export const projects: Project[] = [
   {
-    title: "Bayes Cloud Console",
+    title: "Tam Finans Multi-Platform Fintech System",
     category: "team",
     summary:
-      "A unified control surface for provisioning, monitoring, and operating modern application infrastructure.",
-    impact: "Reduced operational handoffs with one clean workflow for teams, services, and deployments.",
-    technologies: ["Next.js", "tRPC", "PostgreSQL", "AWS", "Framer Motion"],
-    liveUrl: "https://example.com/bayes-cloud-console",
-    sourceUrl: "https://github.com/bayessoft/cloud-console"
+      "A multi-platform fintech system developed in collaboration with the Tam Finans Product Team, featuring a Spring Boot backend, a Flutter mobile app, and a React admin web panel.",
+    impact: "Integrated secure end-to-end encrypted messaging, quiz engagement modules, audit logging, push notifications, and local business discovery.",
+    technologies: ["Java", "Spring Boot", "Flutter", "React", "MySQL", "JWT / RBAC", "Firebase FCM", "Cloudflare R2"]
   },
   {
-    title: "SignalOps AI",
+    title: "Smart Hospital System - Kanuni Sultan Süleyman Hospital",
     category: "team",
     summary:
-      "An AI-assisted observability layer that summarizes incidents, correlates signals, and accelerates triage.",
-    impact: "Transforms noisy logs and metrics into readable engineering context in seconds.",
-    technologies: ["Python", "OpenTelemetry", "LLMs", "Redis", "Docker"],
-    liveUrl: "https://example.com/signalops-ai",
-    sourceUrl: "https://github.com/bayessoft/signalops-ai"
+      "An integrated healthcare platform developed for Kanuni Sultan Süleyman Hospital, featuring patient and staff mobile apps, an admin desktop panel, and a Spring Boot backend.",
+    impact: "Designed specifically for low-infrastructure environments to support real-time navigation and emergency coordination.",
+    technologies: ["Java", "Spring Boot", "Flutter", "JavaScript", "Electron", "JWT", "Cloudflare R2"]
   },
   {
-    title: "LaunchGrid",
+    title: "PetNest - Pet-Friendly Venue Finder Platform",
     category: "team",
     summary:
-      "A product launch workspace for roadmaps, release readiness, public changelogs, and stakeholder visibility.",
-    impact: "Gives product and engineering teams a single polished cockpit for shipping.",
-    technologies: ["React", "Node.js", "Prisma", "Stripe", "Tailwind CSS"],
-    liveUrl: "https://example.com/launchgrid",
-    sourceUrl: "https://github.com/bayessoft/launchgrid"
+      "A full-stack venue finder platform for discovering pet-friendly venues. Built with a Spring Boot REST API, a Flutter mobile application, and a React web dashboard.",
+    impact: "Engineered with JWT/Argon2id authentication, TOTP 2FA, rate limiting, and automated backups.",
+    technologies: ["Java", "Spring Boot", "Flutter", "React", "TypeScript", "MySQL", "JWT", "Cloudflare R2"]
   },
   {
-    title: "Vector Notes",
+    title: "Atlı Logistics - Workforce Management System",
+    category: "team",
+    summary:
+      "A workforce management platform designed to streamline logistics operations, including hierarchical admin roles, secure task assignment, and worker verification.",
+    impact: "Built a scalable REST backend and a responsive React dashboard to track payments and coordinate labor.",
+    technologies: ["Java", "Spring Boot", "React", "MySQL", "JWT", "Cloudflare R2"],
+    liveUrl: "https://atlidepohizmetleri.com"
+  },
+  {
+    title: "Military Aircraft Classification System",
+    category: "team",
+    summary:
+      "A deep learning pipeline designed to classify 89 aircraft types across 38,826 images using the EfficientNet-B4 architecture.",
+    impact: "Achieved 92.86% Top-1 accuracy utilizing weighted loss and aggressive image augmentation to mitigate class imbalance.",
+    technologies: ["Python", "PyTorch", "scikit-learn", "NumPy", "Pandas", "EfficientNet-B4"]
+  },
+  {
+    title: "AI-Powered Chatbot Platform",
+    category: "team",
+    summary:
+      "A production-ready chatbot platform powered by Llama3 via Ollama, featuring JWT authentication, TOTP 2FA, and multi-level admin panels.",
+    impact: "Secured with an 8-layer prompt injection protection system, Redis caching, and automated daily database backups.",
+    technologies: ["Java", "Spring Boot", "React", "TypeScript", "MySQL", "Redis", "Docker", "JWT", "Llama3 / Ollama"],
+    sourceUrl: "https://github.com/g4stlyx/chatbot"
+  },
+  {
+    title: "FurtherUp Drive",
     category: "individual",
     owner: "Sefa Ağardan",
     summary:
-      "A local-first research notebook that links notes, embeddings, citations, and generated summaries.",
-    impact: "Makes dense technical research searchable without sacrificing privacy or structure.",
-    technologies: ["Python", "SQLite", "Sentence Transformers", "Electron"],
-    liveUrl: "https://example.com/vector-notes",
-    sourceUrl: "https://github.com/g4stlyx/vector-notes"
+      "An enterprise coaching platform developed for FurtherUp. Features a multi-tenant React and Spring Boot system with secure role-based access control, assessment engines, and marketplace.",
+    impact: "Delivered robust multi-tenant workspace with automated scheduling, assessment workflows, and payment checkout.",
+    technologies: ["Java", "Spring Boot", "React", "TypeScript", "MySQL", "Tailwind CSS", "JWT", "Cloudflare R2", "Iyzico"],
+    liveUrl: "https://drive.further-up.net"
   },
   {
-    title: "MotionKit UI",
+    title: "Maritime Horizon Line Segmentation",
     category: "individual",
-    owner: "Ahmet Buğrahan Çınar",
+    owner: "Sefa Ağardan",
     summary:
-      "A compact component library focused on accessible interactive states, transitions, and premium dashboards.",
-    impact: "Speeds up interface delivery while keeping motion tasteful and performance conscious.",
-    technologies: ["React", "Framer Motion", "Storybook", "Radix UI"],
-    liveUrl: "https://example.com/motionkit-ui",
-    sourceUrl: "https://github.com/BugraCinar/motionkit-ui"
+      "A multi-approach research project in maritime horizon detection, spanning traditional computer vision techniques to deep learning models.",
+    impact: "Achieved real-time object-aware segmentation with U-Net and RT-DETR for sky/water/object separation and pixel distance estimation.",
+    technologies: ["Python", "PyTorch", "OpenCV", "NumPy", "U-Net", "RT-DETR", "YOLOv8-seg"],
+    sourceUrl: "https://github.com/g4stlyx/horizon_line_segmentation"
   },
   {
-    title: "Deploy Ledger",
+    title: "Arelim University Vulnerability Report",
     category: "individual",
-    owner: "Batuhan Ersan",
+    owner: "Sefa Ağardan",
     summary:
-      "A deployment audit product that records releases, environment changes, incidents, and rollback trails.",
-    impact: "Creates a reliable memory of production changes for distributed engineering teams.",
-    technologies: ["Go", "Kubernetes", "PostgreSQL", "Grafana"],
-    liveUrl: "https://example.com/deploy-ledger",
-    sourceUrl: "https://github.com/BatuErsann/deploy-ledger"
-  },
-  {
-    title: "Atlas CMS",
-    category: "individual",
-    owner: "Yavuz Selim Kara",
-    summary:
-      "A modular content platform for fast corporate sites, editorial workflows, and product landing pages.",
-    impact: "Gives teams a clean publishing layer without sacrificing engineering control.",
-    technologies: ["Next.js", "PostgreSQL", "Prisma", "Tailwind CSS"],
-    liveUrl: "https://example.com/atlas-cms",
-    sourceUrl: "https://github.com/YsKara0/atlas-cms"
-  },
-  {
-    title: "Pulse Mobile",
-    category: "individual",
-    owner: "Enes Keleş",
-    summary:
-      "A mobile-first status and operations interface with smooth motion, focused alerts, and compact dashboards.",
-    impact: "Keeps high-priority product signals readable for teams away from their desks.",
-    technologies: ["React Native", "TypeScript", "Expo", "Framer Motion"],
-    liveUrl: "https://example.com/pulse-mobile",
-    sourceUrl: "https://github.com/Enesfreigthinus/pulse-mobile"
+      "A comprehensive security analysis of the university webpage to identify critical vulnerabilities like unauthorized access, REST API leaks, XSS, and SQL injection.",
+    impact: "Outlined detailed exploitation scenarios and provided OWASP-based mitigation strategies to secure student databases.",
+    technologies: ["Broken Access Control", "SQL Injection", "XSS", "OWASP Top 10"]
   }
 ];
 

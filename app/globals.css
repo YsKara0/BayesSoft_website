@@ -3,37 +3,19 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: dark;
-  background: #070a12;
-  --page-bg: #070a12;
-  --section-primary: #070a12;
-  --section-secondary: #090d15;
-  --hero-base: #070a12;
-  --hero-overlay: linear-gradient(
-    180deg,
-    rgba(7, 10, 18, 0.18) 0%,
-    rgba(7, 10, 18, 0.7) 78%,
-    #070a12 100%
-  );
-  --header-bg: rgba(7, 10, 18, 0.78);
-  --mobile-menu-bg: rgba(7, 10, 18, 0.94);
-}
-
-[data-theme="light"] {
   color-scheme: light;
-  background: #f5f8fb;
-  --page-bg: #f5f8fb;
-  --section-primary: #f5f8fb;
-  --section-secondary: #edf3f8;
-  --hero-base: #eef4fa;
-  --hero-overlay: linear-gradient(
-    180deg,
-    rgba(245, 248, 251, 0.2) 0%,
-    rgba(245, 248, 251, 0.76) 78%,
-    #f5f8fb 100%
-  );
-  --header-bg: rgba(245, 248, 251, 0.82);
-  --mobile-menu-bg: rgba(245, 248, 251, 0.95);
+  background: #ddf8f5;
+  --page-bg: #ddf8f5;
+  --section-primary: #f7fffd;
+  --section-secondary: #e9fbf8;
+  --section-inverted: #06272d;
+  --foreground: #06272d;
+  --muted-foreground: #5c7478;
+  --line: rgba(6, 39, 45, 0.18);
+  --line-strong: #06272d;
+  --hero-base: #ddf8f5;
+  --header-bg: rgba(247, 255, 253, 0.88);
+  --mobile-menu-bg: rgba(247, 255, 253, 0.98);
 }
 
 * {
@@ -47,26 +29,28 @@ html {
 body {
   min-height: 100vh;
   margin: 0;
-  background:
-    linear-gradient(180deg, #070a12 0%, #0b0f19 48%, #070a12 100%);
-  color: #f5f8fb;
+  background: var(--page-bg);
+  color: var(--foreground);
   font-family:
-    Inter, "Plus Jakarta Sans", Geist, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", sans-serif;
+    "Source Serif 4", Georgia, Cambria, "Times New Roman", serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-[data-theme="light"] body {
-  background:
-    linear-gradient(180deg, #f5f8fb 0%, #edf3f8 52%, #f8fbff 100%);
-  color: #07111f;
+body::before {
+  pointer-events: none;
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  opacity: 0.018;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
 }
 
 ::selection {
-  background: rgba(81, 214, 202, 0.28);
-  color: #f5f8fb;
+  background: rgba(66, 216, 205, 0.42);
+  color: #06272d;
 }
 
 a {
@@ -90,10 +74,6 @@ a {
   background: var(--hero-base);
 }
 
-.theme-hero-overlay {
-  background: var(--hero-overlay);
-}
-
 .theme-header-scrolled {
   background: var(--header-bg);
 }
@@ -102,40 +82,46 @@ a {
   background: var(--mobile-menu-bg);
 }
 
-[data-theme="light"] .theme-logo-dark {
-  display: none;
-}
+@layer utilities {
+  .font-display {
+    font-family: "Playfair Display", Georgia, Cambria, "Times New Roman", serif;
+  }
 
-[data-theme="light"] .theme-logo-light {
-  display: block;
-}
+  .font-label {
+    font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+  }
 
-[data-theme="light"] .text-bayes-frost {
-  color: #07111f;
-}
+  .texture-lines {
+    background-image: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 1px,
+      rgba(6, 39, 45, 0.08) 1px,
+      rgba(6, 39, 45, 0.08) 2px
+    );
+    background-size: 100% 5px;
+  }
 
-[data-theme="light"] [class*="text-bayes-silver"] {
-  color: rgba(24, 38, 58, 0.68);
-}
+  .texture-diagonal {
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 34px,
+      rgba(6, 39, 45, 0.08) 34px,
+      rgba(6, 39, 45, 0.08) 36px
+    );
+  }
 
-[data-theme="light"] .text-bayes-ink {
-  color: #f8fbff;
-}
-
-[data-theme="light"] .bg-bayes-frost {
-  background-color: #07111f;
-}
-
-[data-theme="light"] [class*="border-white"] {
-  border-color: rgba(13, 27, 42, 0.12);
-}
-
-[data-theme="light"] [class*="bg-white/"] {
-  background-color: rgba(255, 255, 255, 0.68);
-}
-
-[data-theme="light"] [class*="bg-black/"] {
-  background-color: rgba(7, 17, 31, 0.08);
+  .texture-inverted {
+    background-image: repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 1px,
+      rgba(255, 255, 255, 0.1) 1px,
+      rgba(255, 255, 255, 0.1) 2px
+    );
+    background-size: 5px 100%;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

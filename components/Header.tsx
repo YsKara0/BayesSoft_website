@@ -1,106 +1,125 @@
 "use client";
 
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion";
-import { Menu, X } from "lucide-react";
-import { contactHref } from "@/data/config";
+import { ArrowUpRight, Menu, X } from "lucide-react";
 import { Logo } from "@/components/Logo";
-import { ThemeToggle } from "@/components/ThemeToggle";
 
 const navItems = [
-  { label: "Team", href: "#team" },
-  { label: "Projects", href: "#projects" },
-  { label: "Contact", href: "#contact" }
+  { label: "Ana Sayfa", href: "/" },
+  { label: "Kurumsal", href: "/hakkimizda" },
+  { label: "Hizmetler", href: "/hizmetler" },
+  { label: "Ekip", href: "/ekip" },
+  { label: "Projeler", href: "/projeler" }
 ];
 
 export function Header() {
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const { scrollYProgress } = useScroll();
   const scaleX = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 16);
+    const onScroll = () => setScrolled(window.scrollY > 12);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
+
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition duration-300 ${
-        scrolled ? "theme-header-scrolled shadow-premium-sm backdrop-blur-xl" : "bg-transparent"
+      className={`fixed inset-x-0 top-0 z-50 border-b border-bayes-ink/10 transition duration-100 ${
+        scrolled ? "theme-header-scrolled backdrop-blur-xl" : "bg-bayes-aqua/70 backdrop-blur-md"
       }`}
     >
       <motion.div
-        className="absolute inset-x-0 bottom-0 h-px origin-left bg-gradient-to-r from-bayes-teal via-bayes-blue to-bayes-gold"
+        className="absolute inset-x-0 bottom-0 h-1 origin-left bg-bayes-ink"
         style={{ scaleX }}
       />
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 md:px-8">
         <Logo />
 
-        <div className="hidden items-center gap-1 md:flex">
-          {navItems.map((item) => (
-            <a
-              key={item.href}
-              href={item.href}
-              className="rounded-md px-4 py-2 text-sm font-medium text-bayes-silver/72 transition hover:bg-white/[0.06] hover:text-bayes-frost"
-            >
-              {item.label}
-            </a>
-          ))}
+        <div className="hidden items-center gap-1 lg:flex">
+          {navItems.map((item) => {
+            const active = pathname === item.href;
+
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`border border-transparent px-4 py-3 font-label text-xs uppercase tracking-[0.16em] transition duration-100 focus-visible:border-bayes-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 ${
+                  active
+                    ? "bg-bayes-ink text-bayes-paper"
+                    : "text-bayes-ink hover:border-bayes-ink hover:bg-bayes-paper"
+                }`}
+              >
+                {item.label}
+              </Link>
+            );
+          })}
         </div>
 
-        <div className="hidden items-center gap-2 md:flex">
-          <ThemeToggle />
-          <a
-            href={contactHref}
-            className="items-center justify-center rounded-md border border-bayes-teal/35 bg-bayes-teal/10 px-4 py-2 text-sm font-semibold text-bayes-frost transition hover:border-bayes-teal hover:bg-bayes-teal/16 md:flex"
+        <div className="hidden items-center gap-2 lg:flex">
+          <Link
+            href="/iletisim"
+            className="group inline-flex min-h-11 items-center justify-center gap-2 border-2 border-bayes-ink bg-bayes-paper px-4 font-label text-xs font-semibold uppercase tracking-[0.14em] text-bayes-ink transition duration-100 hover:bg-bayes-ink hover:text-bayes-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bayes-ink"
           >
-            Start a project
-          </a>
+            Proje İçin Görüşelim
+            <ArrowUpRight className="size-4 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+          </Link>
         </div>
 
-        <div className="flex items-center gap-2 md:hidden">
-          <ThemeToggle />
-          <button
-            type="button"
-            aria-label="Toggle navigation menu"
-            aria-expanded={open}
-            onClick={() => setOpen((current) => !current)}
-            className="flex size-10 items-center justify-center rounded-md border border-white/12 bg-white/[0.04] text-bayes-frost"
-          >
-            {open ? <X className="size-5" /> : <Menu className="size-5" />}
-          </button>
-        </div>
+        <button
+          type="button"
+          aria-label="Menüyü aç/kapat"
+          aria-expanded={open}
+          onClick={() => setOpen((current) => !current)}
+          className="flex size-11 items-center justify-center border border-bayes-ink bg-bayes-paper text-bayes-ink lg:hidden"
+        >
+          {open ? <X className="size-5" /> : <Menu className="size-5" />}
+        </button>
       </nav>
 
       <AnimatePresence>
         {open ? (
           <motion.div
-            initial={{ opacity: 0, y: -12 }}
+            initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -12 }}
-            transition={{ duration: 0.22 }}
-            className="theme-mobile-menu border-t border-white/10 px-5 pb-5 backdrop-blur-xl md:hidden"
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.1 }}
+            className="theme-mobile-menu border-t border-bayes-ink/12 px-5 pb-5 backdrop-blur-xl lg:hidden"
           >
-            <div className="mx-auto flex max-w-7xl flex-col gap-2 pt-4">
-              {navItems.map((item) => (
-                <a
-                  key={item.href}
-                  href={item.href}
-                  onClick={() => setOpen(false)}
-                  className="rounded-md px-4 py-3 text-sm font-medium text-bayes-silver/78 hover:bg-white/[0.06] hover:text-bayes-frost"
-                >
-                  {item.label}
-                </a>
-              ))}
-              <a
-                href={contactHref}
-                className="mt-2 rounded-md border border-bayes-teal/35 bg-bayes-teal/10 px-4 py-3 text-center text-sm font-semibold text-bayes-frost"
+            <div className="mx-auto grid max-w-7xl gap-2 pt-4">
+              {navItems.map((item) => {
+                const active = pathname === item.href;
+
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className={`border px-4 py-4 font-label text-xs uppercase tracking-[0.16em] ${
+                      active
+                        ? "border-bayes-ink bg-bayes-ink text-bayes-paper"
+                        : "border-bayes-ink/16 bg-bayes-paper text-bayes-ink"
+                    }`}
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
+              <Link
+                href="/iletisim"
+                className="mt-2 border-2 border-bayes-ink bg-bayes-ink px-4 py-4 text-center font-label text-xs font-semibold uppercase tracking-[0.16em] text-bayes-paper"
               >
-                Start a project
-              </a>
+                Proje İçin Görüşelim
+              </Link>
             </div>
           </motion.div>
         ) : null}

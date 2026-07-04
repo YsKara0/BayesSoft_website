@@ -1,76 +1,77 @@
-"use client";
-
-import { motion } from "framer-motion";
-import { ArrowUpRight, Cpu, Layers3, ShieldCheck } from "lucide-react";
-import { AmbientCanvas } from "@/components/AmbientCanvas";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowUpRight, Layers3, ShieldCheck, Sparkles } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
 
-const capabilities = [
-  { icon: Cpu, label: "AI-ready systems" },
-  { icon: Layers3, label: "Product engineering" },
-  { icon: ShieldCheck, label: "Reliable platforms" }
+const signals = [
+  { label: "Web, mobil ve backend tek ekipte", icon: Layers3 },
+  { label: "JWT, RBAC ve güvenlik odaklı mimari", icon: ShieldCheck },
+  { label: "AI destekli ürün ve otomasyon", icon: Sparkles }
 ];
 
 export function Hero() {
   return (
-    <section id="top" className="relative overflow-hidden pt-32 md:pt-36">
-      <div className="theme-hero-base absolute inset-0" />
-      <div className="absolute inset-0 bg-mesh-lines bg-[size:58px_58px] opacity-70" />
-      <AmbientCanvas />
-      <div className="theme-hero-overlay absolute inset-0" />
+    <section className="theme-hero-base relative isolate overflow-hidden border-b-4 border-bayes-ink px-5 pt-32 md:px-8 md:pt-36">
+      <div className="texture-lines absolute inset-0 opacity-60" />
+      <Image
+        src="/bayes.png"
+        alt=""
+        width={840}
+        height={840}
+        priority
+        className="absolute right-[-180px] top-10 -z-10 w-[760px] max-w-none opacity-[0.08] md:right-[-120px] md:top-0"
+      />
 
-      <div className="relative mx-auto flex min-h-[74svh] max-w-7xl flex-col justify-center px-5 pb-14 md:min-h-[76svh] md:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 18 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="max-w-5xl"
-        >
-          <div className="mb-7 inline-flex items-center gap-2 rounded-md border border-white/12 bg-white/[0.05] px-3 py-2 text-sm text-bayes-silver/78 backdrop-blur-md">
-            <span className="size-2 rounded-full bg-bayes-teal shadow-[0_0_16px_rgba(81,214,202,0.7)]" />
-            Engineering digital products with quiet precision
+      <div className="relative mx-auto flex min-h-[76svh] max-w-7xl flex-col justify-center pb-14">
+        <Reveal className="max-w-6xl">
+          <div className="mb-8 flex items-center gap-3">
+            <span className="size-4 border-2 border-bayes-ink bg-bayes-teal" aria-hidden="true" />
+            <span className="font-label text-xs font-semibold uppercase tracking-[0.2em] text-bayes-blue">
+              Kurumsal yazılım, mobil ürün ve yapay zeka mühendisliği
+            </span>
           </div>
-          <h1 className="max-w-5xl text-5xl font-semibold leading-[1.02] text-bayes-frost md:text-7xl lg:text-8xl">
+
+          <h1 className="font-display text-6xl leading-none text-bayes-ink sm:text-7xl md:text-8xl lg:text-9xl">
             BayesSoft
           </h1>
-          <p className="mt-7 max-w-2xl text-lg leading-8 text-bayes-silver/76 md:text-xl">
-            A software and technology team building premium web platforms, AI-assisted
-            workflows, and resilient cloud products for teams that care about craft.
+          <div className="mt-7 h-2 w-32 bg-bayes-ink" aria-hidden="true" />
+          <p className="mt-8 max-w-3xl text-xl leading-9 text-bayes-deep md:text-2xl">
+            Operasyonunu dijitalleştirmek isteyen kurumlar için yönetim paneli, mobil uygulama,
+            güvenli backend ve AI entegrasyonlarını üretime hazır bir sistem olarak kuruyoruz.
           </p>
 
-          <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-            <motion.a
-              href="#projects"
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.98 }}
-              className="group inline-flex items-center justify-center gap-2 rounded-md bg-bayes-frost px-5 py-3 text-sm font-semibold text-bayes-ink transition hover:bg-white"
+          <div className="mt-10 flex flex-col gap-3 sm:flex-row">
+            <Link
+              href="/iletisim"
+              className="group inline-flex min-h-12 items-center justify-center gap-3 border-2 border-bayes-ink bg-bayes-ink px-6 font-label text-xs font-semibold uppercase tracking-[0.14em] text-bayes-paper transition duration-100 hover:bg-bayes-paper hover:text-bayes-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bayes-ink"
             >
-              View portfolio
-              <ArrowUpRight className="size-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-            </motion.a>
-            <motion.a
-              href="#team"
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.98 }}
-              className="inline-flex items-center justify-center rounded-md border border-white/12 bg-white/[0.05] px-5 py-3 text-sm font-semibold text-bayes-frost backdrop-blur-md transition hover:border-bayes-teal/55 hover:bg-white/[0.08]"
+              Proje İçin Görüşelim
+              <ArrowUpRight className="size-4 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+            </Link>
+            <Link
+              href="/hizmetler"
+              className="inline-flex min-h-12 items-center justify-center border-2 border-bayes-ink bg-bayes-paper px-6 font-label text-xs font-semibold uppercase tracking-[0.14em] text-bayes-ink transition duration-100 hover:bg-bayes-ink hover:text-bayes-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bayes-ink"
             >
-              Meet the team
-            </motion.a>
+              Hizmetleri İncele
+            </Link>
           </div>
-        </motion.div>
+        </Reveal>
 
-        <Reveal delay={0.22} className="mt-16 grid gap-3 md:grid-cols-3">
-          {capabilities.map((capability) => {
-            const Icon = capability.icon;
+        <Reveal delay={0.08} className="mt-16 grid border-y border-bayes-ink md:grid-cols-3">
+          {signals.map((signal) => {
+            const Icon = signal.icon;
+
             return (
               <div
-                key={capability.label}
-                className="flex min-h-20 items-center gap-4 rounded-md border border-white/10 bg-white/[0.045] p-4 backdrop-blur-md"
+                key={signal.label}
+                className="flex min-h-24 items-center gap-4 border-b border-bayes-ink/18 bg-bayes-paper/62 p-5 last:border-b-0 md:border-b-0 md:border-r md:last:border-r-0"
               >
-                <span className="flex size-11 shrink-0 items-center justify-center rounded-md bg-bayes-blue/24 text-bayes-teal">
-                  <Icon className="size-5" />
+                <span className="flex size-11 shrink-0 items-center justify-center border border-bayes-ink bg-bayes-aqua text-bayes-ink">
+                  <Icon className="size-5" strokeWidth={1.5} />
                 </span>
-                <span className="text-sm font-medium text-bayes-silver/82">{capability.label}</span>
+                <span className="font-label text-xs font-semibold uppercase tracking-[0.16em] text-bayes-ink">
+                  {signal.label}
+                </span>
               </div>
             );
           })}

@@ -1,8 +1,9 @@
 "use client";
 
+import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 type LogoProps = {
   compact?: boolean;
@@ -12,43 +13,35 @@ export function Logo({ compact = false }: LogoProps) {
   const [logoReady, setLogoReady] = useState(true);
 
   return (
-    <a href="#top" className="group flex items-center gap-3" aria-label="BayesSoft home">
+    <Link href="/" className="group flex items-center gap-3" aria-label="BayesSoft ana sayfa">
       <motion.span
         aria-hidden="true"
-        className="relative flex size-11 shrink-0 items-center justify-center"
-        whileHover={{ rotate: -3, scale: 1.03 }}
-        transition={{ type: "spring", stiffness: 320, damping: 22 }}
+        className="relative flex size-11 shrink-0 items-center justify-center border border-bayes-ink bg-bayes-paper"
+        whileHover={{ rotate: -2 }}
+        transition={{ duration: 0.1 }}
       >
         {logoReady ? (
-          <>
-            <Image
-              src="/bayes_logo_white.png"
-              alt=""
-              width={32}
-              height={32}
-              unoptimized
-              className="theme-logo-dark size-8 object-contain"
-              onError={() => setLogoReady(false)}
-            />
-            <Image
-              src="/bayes_logo_dark.png"
-              alt=""
-              width={32}
-              height={32}
-              unoptimized
-              className="theme-logo-light hidden size-8 object-contain"
-              onError={() => setLogoReady(false)}
-            />
-          </>
+          <Image
+            src="/bayes_logo_dark.png"
+            alt=""
+            width={32}
+            height={32}
+            unoptimized
+            className="size-8 object-contain"
+            onError={() => setLogoReady(false)}
+          />
         ) : (
-          <span className="text-sm font-semibold text-bayes-frost">B</span>
+          <span className="font-label text-sm font-semibold text-bayes-ink">B</span>
         )}
       </motion.span>
       {!compact ? (
         <span className="flex flex-col leading-none">
-          <span className="text-base font-semibold text-bayes-frost">BayesSoft</span>
+          <span className="font-display text-xl text-bayes-ink">BayesSoft</span>
+          <span className="font-label mt-1 text-[10px] uppercase tracking-[0.18em] text-bayes-silver">
+            Technology
+          </span>
         </span>
       ) : null}
-    </a>
+    </Link>
   );
 }

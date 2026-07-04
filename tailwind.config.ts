@@ -10,25 +10,27 @@ const config: Config = {
     extend: {
       colors: {
         bayes: {
-          navy: "#002244",
-          blue: "#1E3E62",
-          ink: "#070A12",
-          midnight: "#0B0F19",
-          panel: "#101724",
-          line: "#243246",
-          frost: "#F5F8FB",
-          silver: "#DDE7F0",
-          teal: "#51D6CA",
-          gold: "#C7A35A"
+          ink: "#06272D",
+          deep: "#083F47",
+          navy: "#0B5964",
+          blue: "#117C8A",
+          teal: "#42D8CD",
+          aqua: "#DDF8F5",
+          mint: "#BDF0E9",
+          paper: "#F7FFFD",
+          frost: "#FFFFFF",
+          silver: "#5C7478",
+          line: "#96DAD2",
+          sand: "#D8C58C"
         }
       },
       boxShadow: {
-        "premium-sm": "0 18px 60px rgba(0, 20, 48, 0.24)",
-        "premium-lg": "0 30px 120px rgba(0, 18, 44, 0.38)"
+        "premium-sm": "none",
+        "premium-lg": "none"
       },
       backgroundImage: {
         "mesh-lines":
-          "linear-gradient(rgba(221,231,240,0.045) 1px, transparent 1px), linear-gradient(90deg, rgba(221,231,240,0.045) 1px, transparent 1px)"
+          "linear-gradient(rgba(6,39,45,0.075) 1px, transparent 1px), linear-gradient(90deg, rgba(6,39,45,0.075) 1px, transparent 1px)"
       }
     }
   },

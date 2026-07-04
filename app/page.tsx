@@ -1,19 +1,21 @@
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
+import { CallToAction } from "@/components/CallToAction";
+import { FeaturedProjects } from "@/components/FeaturedProjects";
 import { Hero } from "@/components/Hero";
-import { ProjectsSection } from "@/components/ProjectsSection";
-import { TeamSection } from "@/components/TeamSection";
+import { ProcessSection } from "@/components/ProcessSection";
+import { ServicesOverview } from "@/components/ServicesOverview";
+import { StatsBand } from "@/components/StatsBand";
+import { WhyChooseUs } from "@/components/WhyChooseUs";
 
 export default function Home() {
   return (
-    <>
-      <Header />
-      <main>
-        <Hero />
-        <TeamSection />
-        <ProjectsSection />
-      </main>
-      <Footer />
-    </>
+    <main>
+      <Hero />
+      <ServicesOverview />
+      <WhyChooseUs />
+      <FeaturedProjects />
+      <StatsBand />
+      <ProcessSection />
+      <CallToAction />
+    </main>
   );
 }

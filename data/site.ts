@@ -27,6 +27,9 @@ export type Project = {
   technologies: string[];
   liveUrl?: string;
   sourceUrl?: string;
+  slug?: string;
+  hasDetailsPage?: boolean;
+  screenshots?: string[];
 };
 
 export type Service = {
@@ -132,6 +135,8 @@ export const projects: Project[] = [
   {
     title: "Tam Finans Multi-Platform Fintech System",
     domain: "Fintech",
+    slug: "tam-finans-fintech",
+    hasDetailsPage: true,
     problem: "Fintech ekibinin mobil kullanıcı, yönetim paneli ve güvenli servis katmanını aynı akışta yönetmesi gerekiyordu.",
     summary:
       "Tam Finans ürün ekibiyle geliştirilen; Spring Boot backend, Flutter mobil uygulama ve React yönetim panelinden oluşan çok platformlu fintech sistemi.",
@@ -151,6 +156,8 @@ export const projects: Project[] = [
   {
     title: "Smart Hospital System - Kanuni Sultan Süleyman Hospital",
     domain: "Healthcare",
+    slug: "smart-hospital",
+    hasDetailsPage: true,
     problem: "Hastane içinde düşük altyapı koşullarında hasta, personel ve yönetim akışlarının birlikte çalışması gerekiyordu.",
     summary:
       "Hasta ve personel mobil uygulamaları, masaüstü yönetim paneli ve Spring Boot backend içeren entegre sağlık platformu.",
@@ -161,6 +168,8 @@ export const projects: Project[] = [
   {
     title: "PetNest - Pet-Friendly Venue Finder Platform",
     domain: "Marketplace",
+    slug: "petnest-platform",
+    hasDetailsPage: true,
     problem: "Mekan keşfi, kullanıcı güvenliği ve işletme yönetimi tek ürün içinde ölçeklenebilir şekilde kurgulanmalıydı.",
     summary:
       "Evcil hayvan dostu mekanları keşfetmek için Spring Boot REST API, Flutter mobil uygulama ve React panel ile geliştirilen platform.",
@@ -171,6 +180,8 @@ export const projects: Project[] = [
   {
     title: "Atlı Logistics - Workforce Management System",
     domain: "Operations",
+    slug: "atli-logistics",
+    hasDetailsPage: true,
     problem: "Lojistik operasyonlarında görev dağıtımı, çalışan doğrulama ve ödeme takibi merkezi bir sistem gerektiriyordu.",
     summary:
       "Lojistik operasyonları için hiyerarşik admin rolleri, güvenli görev atama ve çalışan doğrulama akışları içeren iş gücü yönetim sistemi.",
@@ -182,6 +193,8 @@ export const projects: Project[] = [
   {
     title: "Military Aircraft Classification System",
     domain: "Computer Vision",
+    slug: "military-aircraft-classification",
+    hasDetailsPage: true,
     problem: "Çok sınıflı ve dengesiz görsel veri setinde yüksek doğrulukla uçak sınıflandırması yapılması gerekiyordu.",
     summary:
       "EfficientNet-B4 mimarisiyle 38.826 görselde 89 askeri uçak tipini sınıflandıran derin öğrenme hattı.",
@@ -192,6 +205,8 @@ export const projects: Project[] = [
   {
     title: "AI-Powered Chatbot Platform",
     domain: "AI Platform",
+    slug: "ai-chatbot",
+    hasDetailsPage: true,
     problem: "LLM tabanlı sohbet deneyiminin kimlik doğrulama, yönetim paneli ve prompt güvenliğiyle üretime hazır hale gelmesi gerekiyordu.",
     summary:
       "Ollama üzerinden Llama3 ile çalışan, JWT kimlik doğrulama, TOTP 2FA ve çok seviyeli admin panelleri içeren chatbot platformu.",
@@ -203,6 +218,8 @@ export const projects: Project[] = [
   {
     title: "FurtherUp Drive",
     domain: "Enterprise Coaching",
+    slug: "furtherup-drive",
+    hasDetailsPage: true,
     problem: "Kurumsal koçluk operasyonları için birden fazla kullanıcı tipli, güvenli ve ödeme akışı bulunan çalışma alanı gerekiyordu.",
     summary:
       "FurtherUp için geliştirilen; React ve Spring Boot mimarisi, güvenli rol tabanlı erişim, değerlendirme motoru, abonelik sistemi ve pazar yeri içeren koçluk platformu.",
@@ -214,6 +231,8 @@ export const projects: Project[] = [
   {
     title: "Maritime Horizon Line Segmentation",
     domain: "Computer Vision",
+    slug: "maritime-horizon-segmentation",
+    hasDetailsPage: true,
     problem: "Deniz görüntülerinde ufuk çizgisi, gökyüzü, su ve nesne ayrımının gerçek zamanlı tahmin edilmesi hedeflendi.",
     summary:
       "Deniz ufuk çizgisi tespiti için geleneksel bilgisayarlı görü yöntemlerinden derin öğrenme modellerine uzanan araştırma projesi.",
@@ -225,6 +244,8 @@ export const projects: Project[] = [
   {
     title: "Arelim University Vulnerability Report",
     domain: "Cybersecurity",
+    slug: "arelim-vulnerability-report",
+    hasDetailsPage: false,
     problem: "Üniversite web varlığında kritik veri sızıntısı ve yetkisiz erişim risklerinin görünür hale getirilmesi gerekiyordu.",
     summary:
       "Yetkisiz erişim, REST API sızıntıları, XSS ve SQL injection gibi kritik açıkları belirlemek için hazırlanan kapsamlı güvenlik analizi.",

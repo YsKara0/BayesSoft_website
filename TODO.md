@@ -4,5 +4,8 @@
 * [x] favicon değişecek
 * [x] header ve footer'daki logo değişecek.
 * [x] Türkçe desteği eklenecek
-* [ ] Proje detay sayfası oluşturalacak. her proje detaylı (daha teknik belki) anlatılacak, ss vs. eklenecek.
+* [ ] Proje detay sayfası oluşturulacak. Her proje detaylı (daha teknik belki) anlatılacak, ss vs. eklenecek.
+    * [x] Sistem altyapısı
+    * [ ] Proje bilgileri girilecek (KSS), girilmiş olanlar kontrol edilecek.
+    * [ ] Ekran görüntüleri eklenecek.
 * [ ] footerdaki linkler güncellenecek (.env'den yönetiliyor)

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ArrowUpRight, Code2, ExternalLink } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
 import { SectionIntro } from "@/components/SectionIntro";
@@ -29,7 +30,13 @@ export function ProjectsSection() {
                   </span>
                 </div>
 
-                <h3 className="font-display text-3xl leading-tight">{project.title}</h3>
+                {project.hasDetailsPage ? (
+                  <Link href={`/projeler/${project.slug}`} className="hover:text-bayes-blue group-hover:hover:text-bayes-mint transition duration-100">
+                    <h3 className="font-display text-3xl leading-tight hover:underline">{project.title}</h3>
+                  </Link>
+                ) : (
+                  <h3 className="font-display text-3xl leading-tight">{project.title}</h3>
+                )}
 
                 <div className="mt-6 grid gap-5">
                   <div>
@@ -70,6 +77,15 @@ export function ProjectsSection() {
                 </div>
 
                 <div className="mt-auto flex gap-2 pt-8">
+                  {project.hasDetailsPage ? (
+                    <Link
+                      href={`/projeler/${project.slug}`}
+                      className="group/link inline-flex h-11 flex-1 items-center justify-center gap-2 border-2 border-current px-4 font-label text-xs font-semibold uppercase tracking-[0.12em] transition duration-100 hover:bg-bayes-ink hover:text-bayes-paper group-hover:hover:bg-bayes-paper group-hover:hover:text-bayes-ink"
+                    >
+                      Detaylar
+                      <ArrowUpRight className="size-4 transition duration-100 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
+                    </Link>
+                  ) : null}
                   {project.liveUrl ? (
                     <a
                       href={project.liveUrl}

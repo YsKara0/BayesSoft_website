@@ -32,7 +32,13 @@ export function FeaturedProjects() {
                   </span>
                   <span className="font-display text-5xl leading-none text-bayes-ink/18">0{index + 1}</span>
                 </div>
-                <h3 className="font-display mt-8 text-3xl leading-tight text-bayes-ink">{project.title}</h3>
+                {project.hasDetailsPage ? (
+                  <Link href={`/projeler/${project.slug}`} className="hover:text-bayes-blue transition duration-100">
+                    <h3 className="font-display mt-8 text-3xl leading-tight text-bayes-ink hover:underline">{project.title}</h3>
+                  </Link>
+                ) : (
+                  <h3 className="font-display mt-8 text-3xl leading-tight text-bayes-ink">{project.title}</h3>
+                )}
                 <p className="mt-5 leading-8 text-bayes-silver">{project.summary}</p>
                 <p className="mt-auto border-l-4 border-bayes-teal pl-4 pt-7 text-sm leading-7 text-bayes-deep">
                   {project.impact}

@@ -67,8 +67,8 @@ export function TeamSection() {
                 tabIndex={0}
                 role="button"
                 aria-pressed={active}
-                className={`group flex min-h-[520px] cursor-pointer flex-col bg-bayes-paper transition duration-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bayes-ink lg:min-h-[560px] ${
-                  active ? "text-bayes-ink" : "text-bayes-ink hover:bg-bayes-aqua"
+                className={`group min-h-[520px] cursor-pointer flex-col bg-bayes-paper transition duration-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bayes-ink lg:min-h-[560px] ${
+                  active ? "flex text-bayes-ink" : "hidden lg:flex text-bayes-ink hover:bg-bayes-aqua"
                 }`}
               >
                 <div className="relative aspect-[4/5] min-h-[220px] overflow-hidden border-b border-bayes-ink lg:min-h-[250px]">

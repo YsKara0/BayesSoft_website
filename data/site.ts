@@ -119,7 +119,7 @@ export const teamMembers: TeamMember[] = [
     image: "/team/sefa_agardan.jpg",
     accent: "silver",
     skills: ["Spring Boot", "API Design", "Security", "Computer Vision", "React"],
-    bio: "Ölçeklenebilir backend sistemleri, güvenli REST API'ler, çok kiracılı mimariler ve üretim seviyesinde yapay zeka hatları geliştirir.",
+    bio: "Ölçeklenebilir backend sistemleri, güvenli REST API'ler, mimariler ve üretim seviyesinde yapay zeka hatları geliştirir.",
     socials: profileLinks({
       website: "https://g4stly.tr/",
       github: "https://github.com/g4stlyx",
@@ -203,9 +203,9 @@ export const projects: Project[] = [
   {
     title: "FurtherUp Drive",
     domain: "Enterprise Coaching",
-    problem: "Kurumsal koçluk operasyonları için çok kiracılı, güvenli ve ödeme akışı bulunan çalışma alanı gerekiyordu.",
+    problem: "Kurumsal koçluk operasyonları için birden fazla kullanıcı tipli, güvenli ve ödeme akışı bulunan çalışma alanı gerekiyordu.",
     summary:
-      "FurtherUp için geliştirilen; çok kiracılı React ve Spring Boot mimarisi, güvenli rol tabanlı erişim, değerlendirme motoru ve marketplace içeren koçluk platformu.",
+      "FurtherUp için geliştirilen; React ve Spring Boot mimarisi, güvenli rol tabanlı erişim, değerlendirme motoru, abonelik sistemi ve pazar yeri içeren koçluk platformu.",
     impact:
       "Otomatik takvimleme, assessment akışları ve ödeme deneyimi olan sağlam bir kurumsal çalışma alanı teslim edildi.",
     technologies: ["Java", "Spring Boot", "React", "TypeScript", "MySQL", "Tailwind CSS", "JWT", "Cloudflare R2", "Iyzico"],

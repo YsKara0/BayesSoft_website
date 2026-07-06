@@ -61,7 +61,7 @@ const profileLinks = ({
 export const teamMembers: TeamMember[] = [
   {
     name: "Batuhan Ersan",
-    role: "Co-Founder",
+    role: "Full-Stack Developer",
     id: "batuhan-ersan",
     letter: "B",
     image: "/team/batuhan_ersan.jpg",
@@ -75,7 +75,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Ahmet B. Çınar",
-    role: "Co-Founder",
+    role: "Backend Developer",
     id: "ahmet-bugrahan-cinar",
     letter: "A",
     image: "/team/bugrahan_cinar.jpeg",
@@ -89,7 +89,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Yavuz Selim Kara",
-    role: "Co-Founder",
+    role: "Mobile Developer",
     id: "yavuz-selim-kara",
     letter: "Y",
     image: "/team/yavuz_selim_kara.jpg",
@@ -103,7 +103,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Enes Keleş",
-    role: "Co-Founder",
+    role: "Full-Stack Developer",
     id: "enes-keles",
     letter: "E",
     image: "/team/enes_keles.jpeg",
@@ -117,7 +117,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Sefa Ağardan",
-    role: "Co-Founder",
+    role: "Backend Developer",
     id: "sefa-agardan",
     letter: "S",
     image: "/team/sefa_agardan.jpg",

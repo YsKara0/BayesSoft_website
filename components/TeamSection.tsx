@@ -8,7 +8,16 @@ import { SectionIntro } from "@/components/SectionIntro";
 import { SocialIcon } from "@/components/SocialIcon";
 import { teamMembers, type TeamMember } from "@/data/site";
 
+const accentClasses: Record<TeamMember["accent"], string> = {
+  blue: "bg-bayes-blue text-bayes-paper",
+  teal: "bg-bayes-teal text-bayes-ink",
+  gold: "bg-bayes-sand text-bayes-ink",
+  silver: "bg-bayes-silver text-bayes-paper",
+  navy: "bg-bayes-navy text-bayes-paper",
+};
+
 export function TeamSection() {
+  const [activeMemberId, setActiveMemberId] = useState<string | null>(null);
   const [selectedMember, setSelectedMember] = useState<TeamMember | null>(null);
 
   useEffect(() => {
@@ -43,46 +52,93 @@ export function TeamSection() {
           ölçeklenebilir projelerimizin mimarlarını daha yakından tanıyın
         </SectionIntro>
 
-        <div className="grid gap-5 sm:grid-cols-2 md:gap-6 lg:grid-cols-5">
-          {teamMembers.map((member, index) => (
-            <motion.article
-              key={member.id}
-              initial={{ opacity: 0, y: 18 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-80px" }}
-              transition={{ duration: 0.28, delay: index * 0.04 }}
-              className="group relative isolate aspect-[4/5] overflow-hidden border border-bayes-ink bg-bayes-ink shadow-[0_18px_45px_rgba(6,39,45,0.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(6,39,45,0.18)] focus-within:-translate-y-1 focus-within:shadow-[0_24px_60px_rgba(6,39,45,0.18)]"
-            >
-              <Image
-                src={member.image}
-                alt={`${member.name}, ${member.role}`}
-                fill
-                sizes="(min-width: 1024px) 20vw, (min-width: 640px) 50vw, 100vw"
-                className="object-cover object-center transition duration-500 group-hover:scale-[1.04]"
-                priority={index < 2}
-              />
+        <div
+          className="mb-7 grid grid-cols-5 border border-bayes-ink bg-bayes-ink"
+          aria-label="BAYES"
+          onMouseLeave={() => setActiveMemberId(null)}
+        >
+          {teamMembers.map((member) => {
+            const isActive = activeMemberId === member.id;
 
-              <div className="absolute inset-0 bg-gradient-to-t from-bayes-ink via-bayes-ink/30 to-transparent opacity-85 transition duration-300 group-hover:opacity-95" />
-              <div className="absolute inset-0 bg-bayes-ink/0 transition duration-300 group-hover:bg-bayes-ink/20" />
+            return (
+              <button
+                key={member.id}
+                type="button"
+                aria-label={`${member.name} harfi`}
+                onFocus={() => setActiveMemberId(member.id)}
+                onMouseEnter={() => setActiveMemberId(member.id)}
+                className={`font-display flex min-h-14 items-center justify-center border-r border-bayes-ink text-4xl leading-none transition duration-300 last:border-r-0 sm:min-h-16 sm:text-5xl md:min-h-20 md:text-6xl ${
+                  isActive
+                    ? accentClasses[member.accent]
+                    : "bg-bayes-paper/80 text-bayes-ink/40 hover:bg-bayes-aqua"
+                }`}
+              >
+                {member.letter}
+              </button>
+            );
+          })}
+        </div>
 
-              <div className="absolute inset-x-0 bottom-0 z-10 p-4 text-bayes-paper md:p-5">
-                <h3 className="font-display text-2xl leading-tight">
-                  {member.name}
-                </h3>
-                <p className="font-label mt-2 text-[10px] font-semibold uppercase leading-5 tracking-[0.12em] text-bayes-mint">
-                  {member.role}
-                </p>
-                <button
-                  type="button"
-                  onClick={() => setSelectedMember(member)}
-                  className="mt-4 inline-flex items-center gap-2 border border-bayes-paper/80 bg-bayes-paper px-3 py-2 font-label text-[10px] font-semibold uppercase tracking-[0.12em] text-bayes-ink opacity-100 outline-offset-4 transition duration-300 hover:bg-bayes-mint focus-visible:outline focus-visible:outline-2 focus-visible:outline-bayes-paper lg:translate-y-2 lg:opacity-0 lg:group-hover:translate-y-0 lg:group-hover:opacity-100 lg:group-focus-within:translate-y-0 lg:group-focus-within:opacity-100"
-                >
-                  Daha Fazla
-                  <ArrowUpRight className="size-3.5" strokeWidth={1.8} />
-                </button>
-              </div>
-            </motion.article>
-          ))}
+        <div
+          className="grid gap-5 sm:grid-cols-2 md:gap-6 lg:grid-cols-5"
+          onMouseLeave={() => setActiveMemberId(null)}
+        >
+          {teamMembers.map((member, index) => {
+            const isActive = activeMemberId === member.id;
+
+            return (
+              <motion.article
+                key={member.id}
+                initial={{ opacity: 0, y: 18 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-80px" }}
+                transition={{ duration: 0.28, delay: index * 0.04 }}
+                onFocus={() => setActiveMemberId(member.id)}
+                onMouseEnter={() => setActiveMemberId(member.id)}
+                className="group relative isolate aspect-[4/5] overflow-hidden border border-bayes-ink bg-bayes-ink shadow-[0_18px_45px_rgba(6,39,45,0.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(6,39,45,0.18)] focus-within:-translate-y-1 focus-within:shadow-[0_24px_60px_rgba(6,39,45,0.18)]"
+              >
+                <Image
+                  src={member.image}
+                  alt={`${member.name}, ${member.role}`}
+                  fill
+                  sizes="(min-width: 1024px) 20vw, (min-width: 640px) 50vw, 100vw"
+                  className={`object-cover object-center transition duration-500 group-hover:scale-[1.04] ${
+                    isActive
+                      ? "grayscale-0 saturate-110"
+                      : "grayscale saturate-0 contrast-110 opacity-80"
+                  }`}
+                  priority={index < 2}
+                />
+
+                <div
+                  className={`absolute inset-0 bg-gradient-to-t from-bayes-ink via-bayes-ink/30 to-transparent transition duration-300 ${
+                    isActive ? "opacity-75" : "opacity-90"
+                  }`}
+                />
+                <div
+                  className={`absolute inset-0 transition duration-300 ${
+                    isActive ? "bg-bayes-ink/0" : "bg-bayes-ink/25"
+                  }`}
+                />
+                <div className="absolute inset-x-0 bottom-0 z-10 p-4 text-bayes-paper md:p-5">
+                  <h3 className="font-display text-2xl leading-tight">
+                    {member.name}
+                  </h3>
+                  <p className="font-label mt-2 text-[10px] font-semibold uppercase leading-5 tracking-[0.12em] text-bayes-mint">
+                    {member.role}
+                  </p>
+                  <button
+                    type="button"
+                    onClick={() => setSelectedMember(member)}
+                    className="mt-4 inline-flex items-center gap-2 border border-bayes-paper/80 bg-bayes-paper px-3 py-2 font-label text-[10px] font-semibold uppercase tracking-[0.12em] text-bayes-ink opacity-100 outline-offset-4 transition duration-300 hover:bg-bayes-mint focus-visible:outline focus-visible:outline-2 focus-visible:outline-bayes-paper lg:translate-y-2 lg:opacity-0 lg:group-hover:translate-y-0 lg:group-hover:opacity-100 lg:group-focus-within:translate-y-0 lg:group-focus-within:opacity-100"
+                  >
+                    Daha Fazla
+                    <ArrowUpRight className="size-3.5" strokeWidth={1.8} />
+                  </button>
+                </div>
+              </motion.article>
+            );
+          })}
         </div>
       </div>
 

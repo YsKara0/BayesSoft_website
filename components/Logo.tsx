@@ -6,42 +6,37 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 type LogoProps = {
-  compact?: boolean;
+  variant?: "dark" | "light";
+  large?: boolean;
 };
 
-export function Logo({ compact = false }: LogoProps) {
+export function Logo({ variant = "dark", large = false }: LogoProps) {
   const [logoReady, setLogoReady] = useState(true);
+  const source = variant === "light"
+    ? "/bayes_logo_white_cropped.png"
+    : "/bayes_logo_dark_cropped.png";
 
   return (
-    <Link href="/" className="group flex items-center gap-3" aria-label="BayesSoft ana sayfa">
+    <Link href="/" className="group flex items-center" aria-label="BayesSoft">
       <motion.span
-        aria-hidden="true"
-        className="relative flex size-11 shrink-0 items-center justify-center border border-bayes-ink bg-bayes-paper"
-        whileHover={{ rotate: -2 }}
-        transition={{ duration: 0.1 }}
+        className="flex shrink-0 items-center"
+        whileHover={{ scale: 1.025 }}
+        transition={{ duration: 0.2 }}
       >
         {logoReady ? (
           <Image
-            src="/bayes_logo_dark.png"
+            src={source}
             alt=""
-            width={32}
-            height={32}
+            width={1327}
+            height={539}
             unoptimized
-            className="size-8 object-contain"
+            className={large ? "h-20 w-auto object-contain md:h-24" : "h-12 w-auto object-contain md:h-14"}
             onError={() => setLogoReady(false)}
           />
         ) : (
-          <span className="font-label text-sm font-semibold text-bayes-ink">B</span>
+          <span className={`font-display text-xl ${variant === "light" ? "text-white" : "text-bayes-ink"}`}>BayesSoft</span>
         )}
       </motion.span>
-      {!compact ? (
-        <span className="flex flex-col leading-none">
-          <span className="font-display text-xl text-bayes-ink">BayesSoft</span>
-          <span className="font-label mt-1 text-[10px] uppercase tracking-[0.18em] text-bayes-silver">
-            Technology
-          </span>
-        </span>
-      ) : null}
     </Link>
   );
 }

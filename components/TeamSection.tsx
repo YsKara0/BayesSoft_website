@@ -7,6 +7,7 @@ import { ArrowUpRight, X } from "lucide-react";
 import { SectionIntro } from "@/components/SectionIntro";
 import { SocialIcon } from "@/components/SocialIcon";
 import { teamMembers, type TeamMember } from "@/data/site";
+import { useLanguage } from "@/components/LanguageProvider";
 
 const accentClasses: Record<TeamMember["accent"], string> = {
   blue: "bg-bayes-blue text-bayes-paper",
@@ -17,6 +18,7 @@ const accentClasses: Record<TeamMember["accent"], string> = {
 };
 
 export function TeamSection() {
+  const { copy } = useLanguage();
   const [activeMemberId, setActiveMemberId] = useState<string | null>(null);
   const [selectedMember, setSelectedMember] = useState<TeamMember | null>(null);
 
@@ -47,9 +49,8 @@ export function TeamSection() {
       <div className="texture-lines absolute inset-0 opacity-35" />
 
       <div className="relative mx-auto max-w-7xl">
-        <SectionIntro eyebrow="Ekip" title="Biz Kimiz">
-          İsmimiz kurucuların isimlerinin baş harflerinden gelir. Büyük ve
-          ölçeklenebilir projelerimizin mimarlarını daha yakından tanıyın
+        <SectionIntro eyebrow={copy.team.eyebrow} title={copy.team.title}>
+          {copy.team.intro}
         </SectionIntro>
 
         <div
@@ -121,18 +122,18 @@ export function TeamSection() {
                   }`}
                 />
                 <div className="absolute inset-x-0 bottom-0 z-10 p-4 text-bayes-paper md:p-5">
-                  <h3 className="font-display text-2xl leading-tight">
+                  <h3 className="font-subheading text-2xl leading-tight">
                     {member.name}
                   </h3>
                   <p className="font-label mt-2 text-[10px] font-semibold uppercase leading-5 tracking-[0.12em] text-bayes-mint">
-                    {member.role}
+                    {copy.team.roles[index] ?? member.role}
                   </p>
                   <button
                     type="button"
                     onClick={() => setSelectedMember(member)}
                     className="mt-4 inline-flex items-center gap-2 border border-bayes-paper/80 bg-bayes-paper px-3 py-2 font-label text-[10px] font-semibold uppercase tracking-[0.12em] text-bayes-ink opacity-100 outline-offset-4 transition duration-300 hover:bg-bayes-mint focus-visible:outline focus-visible:outline-2 focus-visible:outline-bayes-paper lg:translate-y-2 lg:opacity-0 lg:group-hover:translate-y-0 lg:group-hover:opacity-100 lg:group-focus-within:translate-y-0 lg:group-focus-within:opacity-100"
                   >
-                    Daha Fazla
+                    {copy.team.more}
                     <ArrowUpRight className="size-3.5" strokeWidth={1.8} />
                   </button>
                 </div>
@@ -165,7 +166,7 @@ export function TeamSection() {
               <div className="relative min-h-[320px] border-b border-bayes-ink md:border-b-0 md:border-r">
                 <Image
                   src={selectedMember.image}
-                  alt={`${selectedMember.name}, ${selectedMember.role}`}
+                  alt={selectedMember.name}
                   fill
                   sizes="(min-width: 768px) 320px, 100vw"
                   className="object-cover object-center"
@@ -176,7 +177,7 @@ export function TeamSection() {
               <div className="relative flex flex-col items-center justify-center p-6 text-center md:p-8">
                 <button
                   type="button"
-                  aria-label="Close team member details"
+                  aria-label={copy.team.close}
                   onClick={() => setSelectedMember(null)}
                   className="absolute right-4 top-4 flex size-10 items-center justify-center border border-bayes-ink bg-bayes-paper text-bayes-ink transition duration-150 hover:bg-bayes-ink hover:text-bayes-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bayes-ink"
                 >
@@ -185,15 +186,15 @@ export function TeamSection() {
 
                 <h3
                   id={`team-member-${selectedMember.id}-title`}
-                  className="font-display max-w-full px-12 text-4xl leading-tight text-bayes-ink"
+                  className="font-subheading max-w-full px-12 text-4xl leading-tight text-bayes-ink"
                 >
                   {selectedMember.name}
                 </h3>
                 <p className="font-label mt-3 text-xs font-semibold uppercase leading-6 tracking-[0.12em] text-bayes-blue">
-                  {selectedMember.role}
+                  {copy.team.roles[teamMembers.findIndex((member) => member.id === selectedMember.id)] ?? selectedMember.role}
                 </p>
                 <p className="mt-6 leading-8 text-bayes-silver">
-                  {selectedMember.bio}
+                  {copy.team.bios[teamMembers.findIndex((member) => member.id === selectedMember.id)] ?? selectedMember.bio}
                 </p>
 
                 {selectedMember.socials.length > 0 ? (

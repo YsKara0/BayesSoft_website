@@ -6,17 +6,41 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion";
 import { ArrowUpRight, Menu, X } from "lucide-react";
 import { Logo } from "@/components/Logo";
+import { useLanguage } from "@/components/LanguageProvider";
+import { localeOptions, type Locale } from "@/data/i18n";
 
 const navItems = [
-  { label: "Ana Sayfa", href: "/" },
-  { label: "Kurumsal", href: "/hakkimizda" },
-  { label: "Hizmetler", href: "/hizmetler" },
-  { label: "Ekip", href: "/ekip" },
-  { label: "Projeler", href: "/projeler" }
-];
+  { key: "home", href: "/" },
+  { key: "about", href: "/hakkimizda" },
+  { key: "services", href: "/hizmetler" },
+  { key: "team", href: "/ekip" },
+  { key: "projects", href: "/projeler" },
+] as const;
+
+function LanguageSwitch({ compact = false }: { compact?: boolean }) {
+  const { locale, setLocale, copy } = useLanguage();
+
+  return (
+    <div className={`flex items-center rounded-xl border border-bayes-ink/10 bg-bayes-frost p-1 ${compact ? "w-full" : ""}`} role="group" aria-label={copy.language.label}>
+      {localeOptions.map((option) => (
+        <button
+          key={option}
+          type="button"
+          title={copy.language.names[option]}
+          aria-pressed={locale === option}
+          onClick={() => setLocale(option as Locale)}
+          className={`min-h-8 rounded-lg px-2.5 font-label text-[10px] font-semibold uppercase tracking-[0.12em] transition ${compact ? "flex-1" : ""} ${locale === option ? "bg-bayes-ink text-white shadow-sm" : "text-bayes-silver hover:bg-bayes-aqua hover:text-bayes-ink"}`}
+        >
+          {option}
+        </button>
+      ))}
+    </div>
+  );
+}
 
 export function Header() {
   const pathname = usePathname();
+  const { copy } = useLanguage();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const { scrollYProgress } = useScroll();
@@ -29,96 +53,50 @@ export function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  useEffect(() => {
-    setOpen(false);
-  }, [pathname]);
+  useEffect(() => setOpen(false), [pathname]);
 
   return (
-    <header
-      className={`fixed inset-x-0 top-0 z-50 border-b border-bayes-ink/10 transition duration-100 ${
-        scrolled ? "theme-header-scrolled backdrop-blur-xl" : "bg-bayes-aqua/70 backdrop-blur-md"
-      }`}
-    >
-      <motion.div
-        className="absolute inset-x-0 bottom-0 h-1 origin-left bg-bayes-ink"
-        style={{ scaleX }}
-      />
-      <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 md:px-8">
+    <header className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled ? "theme-header-scrolled border-b border-bayes-ink/10 shadow-premium-sm backdrop-blur-xl" : "bg-transparent"}`}>
+      <motion.div className="absolute inset-x-0 bottom-0 h-0.5 origin-left bg-bayes-teal" style={{ scaleX }} />
+      <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 md:px-8" aria-label="Main navigation">
         <Logo />
 
-        <div className="hidden items-center gap-1 lg:flex">
+        <div className="hidden items-center gap-1 rounded-2xl border border-bayes-ink/10 bg-white/80 p-1.5 shadow-premium-sm backdrop-blur lg:flex">
           {navItems.map((item) => {
             const active = pathname === item.href;
-
             return (
-              <Link
-                key={item.href}
-                href={item.href}
-                className={`border border-transparent px-4 py-3 font-label text-xs uppercase tracking-[0.16em] transition duration-100 focus-visible:border-bayes-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 ${
-                  active
-                    ? "bg-bayes-ink text-bayes-paper"
-                    : "text-bayes-ink hover:border-bayes-ink hover:bg-bayes-paper"
-                }`}
-              >
-                {item.label}
+              <Link key={item.href} href={item.href} className={`rounded-xl px-3.5 py-2.5 font-label text-[10px] uppercase tracking-[0.12em] transition ${active ? "bg-bayes-aqua text-bayes-ink" : "text-bayes-silver hover:bg-bayes-frost hover:text-bayes-ink"}`}>
+                {copy.nav[item.key]}
               </Link>
             );
           })}
         </div>
 
         <div className="hidden items-center gap-2 lg:flex">
-          <Link
-            href="/iletisim"
-            className="group inline-flex min-h-11 items-center justify-center gap-2 border-2 border-bayes-ink bg-bayes-paper px-4 font-label text-xs font-semibold uppercase tracking-[0.14em] text-bayes-ink transition duration-100 hover:bg-bayes-ink hover:text-bayes-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bayes-ink"
-          >
-            Proje İçin Görüşelim
-            <ArrowUpRight className="size-4 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+          <LanguageSwitch />
+          <Link href="/iletisim" className="group inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-bayes-coral px-4 font-label text-[10px] font-semibold uppercase tracking-[0.12em] text-white shadow-premium-sm transition hover:-translate-y-0.5 hover:bg-bayes-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bayes-coral">
+            {copy.nav.cta}
+            <ArrowUpRight className="size-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
         </div>
 
-        <button
-          type="button"
-          aria-label="Menüyü aç/kapat"
-          aria-expanded={open}
-          onClick={() => setOpen((current) => !current)}
-          className="flex size-11 items-center justify-center border border-bayes-ink bg-bayes-paper text-bayes-ink lg:hidden"
-        >
+        <button type="button" aria-label={copy.nav.menu} aria-expanded={open} onClick={() => setOpen((current) => !current)} className="flex size-11 items-center justify-center rounded-xl border border-bayes-ink/10 bg-white text-bayes-ink shadow-premium-sm lg:hidden">
           {open ? <X className="size-5" /> : <Menu className="size-5" />}
         </button>
       </nav>
 
       <AnimatePresence>
         {open ? (
-          <motion.div
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.1 }}
-            className="theme-mobile-menu border-t border-bayes-ink/12 px-5 pb-5 backdrop-blur-xl lg:hidden"
-          >
+          <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} transition={{ duration: 0.2 }} className="theme-mobile-menu border-t border-bayes-ink/10 px-5 pb-5 shadow-premium-lg backdrop-blur-xl lg:hidden">
             <div className="mx-auto grid max-w-7xl gap-2 pt-4">
-              {navItems.map((item) => {
-                const active = pathname === item.href;
-
-                return (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className={`border px-4 py-4 font-label text-xs uppercase tracking-[0.16em] ${
-                      active
-                        ? "border-bayes-ink bg-bayes-ink text-bayes-paper"
-                        : "border-bayes-ink/16 bg-bayes-paper text-bayes-ink"
-                    }`}
-                  >
-                    {item.label}
-                  </Link>
-                );
-              })}
-              <Link
-                href="/iletisim"
-                className="mt-2 border-2 border-bayes-ink bg-bayes-ink px-4 py-4 text-center font-label text-xs font-semibold uppercase tracking-[0.16em] text-bayes-paper"
-              >
-                Proje İçin Görüşelim
+              {navItems.map((item) => (
+                <Link key={item.href} href={item.href} className={`rounded-xl border px-4 py-3.5 font-label text-xs uppercase tracking-[0.14em] ${pathname === item.href ? "border-bayes-teal bg-bayes-aqua text-bayes-ink" : "border-bayes-ink/10 bg-white text-bayes-silver"}`}>
+                  {copy.nav[item.key]}
+                </Link>
+              ))}
+              <LanguageSwitch compact />
+              <Link href="/iletisim" className="mt-1 rounded-xl bg-bayes-coral px-4 py-4 text-center font-label text-xs font-semibold uppercase tracking-[0.14em] text-white">
+                {copy.nav.cta}
               </Link>
             </div>
           </motion.div>

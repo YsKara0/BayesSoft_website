@@ -1,15 +1,21 @@
+"use client";
+
 import { ArrowUpRight, Github, Linkedin, Mail, Send } from "lucide-react";
 import { PageHero } from "@/components/PageHero";
 import { SocialIcon } from "@/components/SocialIcon";
 import { contactHref, siteConfig } from "@/data/config";
 import { socialLinks } from "@/data/site";
+import { useLanguage } from "@/components/LanguageProvider";
 
 export default function ContactPage() {
+  const { copy } = useLanguage();
+  const page = copy.pages.contact;
+  const form = copy.contact;
+
   return (
     <main>
-      <PageHero eyebrow="İletişim" title="Yeni proje, teknik danışmanlık ya da ürün geliştirme için konuşalım.">
-        İhtiyacınız ürün fikri, kurumsal panel, mobil uygulama, yapay zeka entegrasyonu veya
-        mevcut sistem modernizasyonu olabilir. İlk adım net bir teknik çerçeve çıkarmak.
+      <PageHero eyebrow={page.eyebrow} title={page.title}>
+        {page.body}
       </PageHero>
 
       <section className="theme-section-primary px-5 py-20 md:px-8 md:py-28">
@@ -23,10 +29,10 @@ export default function ContactPage() {
             <div className="mb-8 flex items-start justify-between gap-6">
               <div>
                 <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue">
-                  Proje Formu
+                  {form.form}
                 </p>
                 <h2 className="font-display mt-4 max-w-2xl text-4xl leading-tight text-bayes-ink md:text-5xl">
-                  İhtiyacı kısaca anlat, teknik çerçeveyi birlikte netleştirelim.
+                  {form.title}
                 </h2>
               </div>
               <Send className="hidden size-8 shrink-0 md:block" strokeWidth={1.5} />
@@ -35,7 +41,7 @@ export default function ContactPage() {
             <div className="grid gap-5 md:grid-cols-2">
               <label className="grid gap-2">
                 <span className="font-label text-[11px] font-semibold uppercase tracking-[0.14em] text-bayes-blue">
-                  Ad Soyad
+                  {form.name}
                 </span>
                 <input
                   name="Ad Soyad"
@@ -45,7 +51,7 @@ export default function ContactPage() {
               </label>
               <label className="grid gap-2">
                 <span className="font-label text-[11px] font-semibold uppercase tracking-[0.14em] text-bayes-blue">
-                  E-posta
+                  {form.email}
                 </span>
                 <input
                   name="E-posta"
@@ -56,39 +62,35 @@ export default function ContactPage() {
               </label>
               <label className="grid gap-2">
                 <span className="font-label text-[11px] font-semibold uppercase tracking-[0.14em] text-bayes-blue">
-                  Proje Türü
+                  {form.projectType}
                 </span>
                 <select
                   name="Proje Türü"
                   className="min-h-12 border-2 border-bayes-ink bg-bayes-paper px-4 text-base text-bayes-ink outline-none transition duration-100 focus:border-b-4"
-                  defaultValue="Kurumsal yazılım"
+                  defaultValue={form.types[0]}
                 >
-                  <option>Kurumsal yazılım</option>
-                  <option>Mobil uygulama</option>
-                  <option>Yapay zeka entegrasyonu</option>
-                  <option>Bulut / güvenlik / DevOps</option>
-                  <option>Diğer</option>
+                  {form.types.map((type) => <option key={type}>{type}</option>)}
                 </select>
               </label>
               <label className="grid gap-2">
                 <span className="font-label text-[11px] font-semibold uppercase tracking-[0.14em] text-bayes-blue">
-                  Bütçe / Zamanlama
+                  {form.budget}
                 </span>
                 <input
                   name="Bütçe / Zamanlama"
-                  placeholder="Örn. 6-8 hafta içinde MVP"
+                  placeholder={form.budgetPlaceholder}
                   className="min-h-12 border-2 border-bayes-ink bg-bayes-paper px-4 text-base text-bayes-ink outline-none transition duration-100 placeholder:text-bayes-silver focus:border-b-4"
                 />
               </label>
               <label className="grid gap-2 md:col-span-2">
                 <span className="font-label text-[11px] font-semibold uppercase tracking-[0.14em] text-bayes-blue">
-                  Mesaj
+                  {form.message}
                 </span>
                 <textarea
                   name="Mesaj"
                   required
                   rows={6}
-                  placeholder="Projenin hedefini, kullanıcılarını ve beklenen çıktıyı kısaca yazabilirsin."
+                  placeholder={form.messagePlaceholder}
                   className="resize-y border-2 border-bayes-ink bg-bayes-paper px-4 py-3 text-base leading-8 text-bayes-ink outline-none transition duration-100 placeholder:text-bayes-silver focus:border-b-4"
                 />
               </label>
@@ -96,13 +98,13 @@ export default function ContactPage() {
 
             <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <p className="text-sm leading-7 text-bayes-silver">
-                Genelde 24 saat içinde dönüş yaparız. Form mail istemcin üzerinden gönderilir.
+                {form.note}
               </p>
               <button
                 type="submit"
                 className="inline-flex min-h-12 items-center justify-center gap-3 border-2 border-bayes-ink bg-bayes-ink px-6 font-label text-xs font-semibold uppercase tracking-[0.14em] text-bayes-paper transition duration-100 hover:bg-bayes-paper hover:text-bayes-ink"
               >
-                Gönder
+                {form.send}
                 <ArrowUpRight className="size-4" />
               </button>
             </div>
@@ -116,9 +118,9 @@ export default function ContactPage() {
               <Mail className="size-8" strokeWidth={1.5} />
               <div>
                 <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue group-hover:text-bayes-mint">
-                  E-posta
+                  {form.emailLabel}
                 </p>
-                <h2 className="font-display mt-4 text-3xl">{siteConfig.contactEmail}</h2>
+                <h2 className="font-subheading mt-4 break-all text-2xl">{siteConfig.contactEmail}</h2>
               </div>
               <ArrowUpRight className="size-5 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </a>
@@ -132,7 +134,7 @@ export default function ContactPage() {
                 <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue group-hover:text-bayes-mint">
                   GitHub
                 </p>
-                <h2 className="font-display mt-4 text-3xl">Kod ve çalışmalar</h2>
+                <h2 className="font-subheading mt-4 text-3xl">{form.code}</h2>
               </div>
               <ArrowUpRight className="size-5 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </a>
@@ -146,7 +148,7 @@ export default function ContactPage() {
                 <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue group-hover:text-bayes-mint">
                   LinkedIn
                 </p>
-                <h2 className="font-display mt-4 text-3xl">Kurumsal profil</h2>
+                <h2 className="font-subheading mt-4 text-3xl">{form.profile}</h2>
               </div>
               <ArrowUpRight className="size-5 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </a>
@@ -155,7 +157,7 @@ export default function ContactPage() {
 
         <div className="mx-auto mt-10 max-w-7xl border-4 border-bayes-ink bg-bayes-aqua p-7 md:p-10">
           <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue">
-            Sosyal Bağlantılar
+            {form.social}
           </p>
           <div className="mt-6 flex flex-wrap gap-2">
             {socialLinks.map((social) => (

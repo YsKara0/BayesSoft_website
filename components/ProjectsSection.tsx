@@ -1,27 +1,33 @@
+"use client";
+
 import Link from "next/link";
 import { ArrowUpRight, Code2, ExternalLink } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
 import { SectionIntro } from "@/components/SectionIntro";
 import { projects } from "@/data/site";
+import { useLanguage } from "@/components/LanguageProvider";
+import { localizeProject } from "@/data/projectTranslations";
 
 export function ProjectsSection() {
+  const { copy, locale } = useLanguage();
+  const localizedProjects = projects.map((project) => localizeProject(project, locale));
+
   return (
     <section className="theme-section-primary relative px-5 py-20 md:px-8 md:py-28">
       <div className="mx-auto max-w-7xl">
-        <SectionIntro eyebrow="Projeler" title="Problem, çözüm ve etki üzerinden okunan teknik işler.">
-          Projeleri ekip ya da bireysel diye bölmeden; hangi problemi çözdüğünü, nasıl bir sistem
-          kurulduğunu ve hangi etkiyi ürettiğini öne çıkarıyoruz.
+        <SectionIntro eyebrow={copy.projects.eyebrow} title={copy.projects.title}>
+          {copy.projects.intro}
         </SectionIntro>
 
-        <div className="grid gap-px border border-bayes-ink bg-bayes-ink md:grid-cols-2 xl:grid-cols-3">
-          {projects.map((project, index) => (
+        <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+          {localizedProjects.map((project, index) => (
             <Reveal key={project.title} delay={(index % 3) * 0.03} className="h-full">
-              <article className="group flex h-full min-h-[430px] flex-col bg-bayes-paper p-6 transition duration-100 hover:bg-bayes-ink hover:text-bayes-paper md:p-7">
+              <article className="group flex h-full min-h-[430px] flex-col rounded-[1.5rem] border border-bayes-ink/10 bg-bayes-paper p-6 shadow-premium-sm transition duration-300 hover:-translate-y-1 hover:bg-bayes-ink hover:text-bayes-paper hover:shadow-premium-lg md:p-7">
                 <div className="mb-7 flex items-start justify-between gap-4">
                   <span className="border border-current px-3 py-1.5 font-label text-[11px] font-semibold uppercase tracking-[0.14em] text-bayes-blue group-hover:text-bayes-mint">
                     {project.domain}
                   </span>
-                  <span className="flex size-11 items-center justify-center border border-current">
+                  <span className="flex size-11 items-center justify-center rounded-xl border border-current">
                     {project.liveUrl ? (
                       <ExternalLink className="size-5" strokeWidth={1.5} />
                     ) : (
@@ -32,16 +38,16 @@ export function ProjectsSection() {
 
                 {project.hasDetailsPage ? (
                   <Link href={`/projeler/${project.slug}`} className="hover:text-bayes-blue group-hover:hover:text-bayes-mint transition duration-100">
-                    <h3 className="font-display text-3xl leading-tight hover:underline">{project.title}</h3>
+                    <h3 className="font-subheading text-3xl leading-tight hover:underline">{project.title}</h3>
                   </Link>
                 ) : (
-                  <h3 className="font-display text-3xl leading-tight">{project.title}</h3>
+                  <h3 className="font-subheading text-3xl leading-tight">{project.title}</h3>
                 )}
 
                 <div className="mt-6 grid gap-5">
                   <div>
                     <p className="font-label text-[10px] font-semibold uppercase tracking-[0.14em] text-bayes-blue group-hover:text-bayes-mint">
-                      Problem
+                      {copy.projects.problem}
                     </p>
                     <p className="mt-2 text-sm leading-7 text-bayes-silver group-hover:text-bayes-aqua">
                       {project.problem}
@@ -49,7 +55,7 @@ export function ProjectsSection() {
                   </div>
                   <div>
                     <p className="font-label text-[10px] font-semibold uppercase tracking-[0.14em] text-bayes-blue group-hover:text-bayes-mint">
-                      Çözüm
+                      {copy.projects.solution}
                     </p>
                     <p className="mt-2 text-sm leading-7 text-bayes-silver group-hover:text-bayes-aqua">
                       {project.summary}
@@ -57,7 +63,7 @@ export function ProjectsSection() {
                   </div>
                   <div className="border-l-4 border-bayes-teal pl-4 group-hover:border-bayes-paper">
                     <p className="font-label text-[10px] font-semibold uppercase tracking-[0.14em] text-bayes-blue group-hover:text-bayes-mint">
-                      Etki
+                      {copy.projects.impact}
                     </p>
                     <p className="mt-2 text-sm leading-7 text-bayes-deep group-hover:text-bayes-paper">
                       {project.impact}
@@ -80,9 +86,9 @@ export function ProjectsSection() {
                   {project.hasDetailsPage ? (
                     <Link
                       href={`/projeler/${project.slug}`}
-                      className="group/link inline-flex h-11 flex-1 items-center justify-center gap-2 border-2 border-current px-4 font-label text-xs font-semibold uppercase tracking-[0.12em] transition duration-100 hover:bg-bayes-ink hover:text-bayes-paper group-hover:hover:bg-bayes-paper group-hover:hover:text-bayes-ink"
+                      className="group/link inline-flex h-11 flex-1 items-center justify-center gap-2 rounded-xl border border-current px-4 font-label text-xs font-semibold uppercase tracking-[0.12em] transition hover:bg-bayes-ink hover:text-bayes-paper group-hover:hover:bg-bayes-paper group-hover:hover:text-bayes-ink"
                     >
-                      Detaylar
+                      {copy.projects.details}
                       <ArrowUpRight className="size-4 transition duration-100 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
                     </Link>
                   ) : null}
@@ -91,9 +97,9 @@ export function ProjectsSection() {
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="group/link inline-flex h-11 flex-1 items-center justify-center gap-2 border-2 border-current bg-bayes-ink px-4 font-label text-xs font-semibold uppercase tracking-[0.12em] text-bayes-paper transition duration-100 group-hover:bg-bayes-paper group-hover:text-bayes-ink"
+                      className="group/link inline-flex h-11 flex-1 items-center justify-center gap-2 rounded-xl bg-bayes-coral px-4 font-label text-xs font-semibold uppercase tracking-[0.12em] text-white transition group-hover:bg-bayes-paper group-hover:text-bayes-ink"
                     >
-                      Live
+                      {copy.projects.live}
                       <ArrowUpRight className="size-4 transition duration-100 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
                     </a>
                   ) : null}
@@ -102,9 +108,9 @@ export function ProjectsSection() {
                       href={project.sourceUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex h-11 flex-1 items-center justify-center gap-2 border-2 border-current px-4 font-label text-xs font-semibold uppercase tracking-[0.12em] transition duration-100"
+                      className="inline-flex h-11 flex-1 items-center justify-center gap-2 rounded-xl border border-current px-4 font-label text-xs font-semibold uppercase tracking-[0.12em] transition"
                     >
-                      Source
+                      {copy.projects.source}
                       <Code2 className="size-4" strokeWidth={1.5} />
                     </a>
                   ) : null}

@@ -1,14 +1,19 @@
+"use client";
+
 import { CallToAction } from "@/components/CallToAction";
 import { PageHero } from "@/components/PageHero";
 import { ProcessSection } from "@/components/ProcessSection";
 import { ServicesOverview } from "@/components/ServicesOverview";
+import { useLanguage } from "@/components/LanguageProvider";
 
 export default function ServicesPage() {
+  const { copy } = useLanguage();
+  const page = copy.pages.services;
+
   return (
     <main>
-      <PageHero eyebrow="Hizmetler" title="Kurumsal ürünleri uçtan uca tasarlayan yazılım hizmetleri.">
-        Web panellerinden mobil uygulamalara, yapay zeka entegrasyonlarından bulut altyapısına
-        kadar ürünün ihtiyacı olan parçaları aynı sistem içinde kuruyoruz.
+      <PageHero eyebrow={page.eyebrow} title={page.title}>
+        {page.body}
       </PageHero>
       <ServicesOverview compact />
       <ProcessSection />

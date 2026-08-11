@@ -2,6 +2,7 @@
 
 import { PageHero } from "@/components/PageHero";
 import { StatsBand } from "@/components/StatsBand";
+import { TeamSection } from "@/components/TeamSection";
 import { useLanguage } from "@/components/LanguageProvider";
 
 export default function AboutPage() {
@@ -39,6 +40,7 @@ export default function AboutPage() {
       </section>
 
       <StatsBand />
+      <TeamSection />
     </main>
   );
 }

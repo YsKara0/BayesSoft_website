@@ -4,7 +4,7 @@ const tr = {
   language: { label: "Dil", names: { tr: "Türkçe", en: "English", de: "Deutsch" } },
   nav: {
     home: "Ana Sayfa",
-    about: "Kurumsal",
+    about: "Hakkımızda",
     services: "Hizmetler",
     team: "Ekip",
     projects: "Projeler",
@@ -53,6 +53,7 @@ const tr = {
     ],
   },
   featured: { eyebrow: "Seçili Projeler", title: "Farklı sektörlerde aynı mühendislik disiplini.", intro: "Fintech, sağlık ve yapay zeka projelerinde ortak hedefimiz net: güvenli mimari, anlaşılır ürün akışı ve üretime hazır sistem.", all: "Tüm projeler" },
+  references: { eyebrow: "Referanslarımız", title: "Birlikte çalıştığımız kurum ve markalar." },
   stats: [
     { value: "09", label: "yayınlanmış ve araştırma odaklı proje" },
     { value: "05", label: "ürün, backend, mobil ve AI alanında ekip üyesi" },
@@ -72,7 +73,7 @@ const tr = {
   },
   cta: { eyebrow: "Başlayalım", title: "Yeni ürününüz için net bir teknik yol haritası çıkaralım.", mail: "E-posta gönder", page: "İletişim sayfası" },
   pages: {
-    about: { eyebrow: "Kurumsal", title: "Uygulanabilir teknoloji kararları üreten bir yazılım ekibiyiz.", body: "Kurumsal ihtiyaçları ürün mantığıyla ele alır; backend, mobil, web panel, yapay zeka ve bulut katmanlarını aynı mühendislik bütünlüğü içinde geliştiririz.", approach: "Yaklaşım", approachTitle: "Küçük ve odaklı bir ekip, büyük sistem ciddiyetiyle çalışır.", principles: [
+    about: { eyebrow: "Hakkımızda", title: "Uygulanabilir teknoloji kararları üreten bir yazılım ekibiyiz.", body: "Kurumsal ihtiyaçları ürün mantığıyla ele alır; backend, mobil, web panel, yapay zeka ve bulut katmanlarını aynı mühendislik bütünlüğü içinde geliştiririz.", approach: "Yaklaşım", approachTitle: "Küçük ve odaklı bir ekip, büyük sistem ciddiyetiyle çalışır.", principles: [
       { title: "Mimari önce gelir", text: "Ürün hızını yalnızca arayüzle değil; doğru veri modeli, güvenli yetkilendirme ve temiz servis sınırlarıyla kurarız." },
       { title: "Arayüz üretimin parçasıdır", text: "Yönetim panelleri, mobil deneyimler ve müşteri ekranları ürün mimarisinin görünen tarafıdır." },
       { title: "Güvenlik varsayılan davranıştır", text: "JWT, RBAC, 2FA, rate limiting, audit log ve yedekleme kararlarını proje ihtiyacına göre erken aşamada planlarız." },
@@ -98,7 +99,7 @@ const tr = {
 
 const en = {
   language: { label: "Language", names: { tr: "Türkçe", en: "English", de: "Deutsch" } },
-  nav: { home: "Home", about: "Company", services: "Services", team: "Team", projects: "Projects", contact: "Contact", menu: "Open or close menu", cta: "Discuss your project" },
+  nav: { home: "Home", about: "About Us", services: "Services", team: "Team", projects: "Projects", contact: "Contact", menu: "Open or close menu", cta: "Discuss your project" },
   hero: { eyebrow: "Enterprise software · Mobile products · Artificial intelligence", titleLead: "We turn complex ideas", titleAccent: "into products", titleEnd: "that work.", body: "We design and build secure backends, web dashboards, mobile apps and AI layers as one coherent product system for ambitious organizations.", primary: "Discuss your project", secondary: "Explore services", status: "Systems online", cardTitle: "Product engineering", cardBody: "One team from idea to production, with clear architecture and measurable outcomes.", signals: ["Web, mobile and backend in one team", "Secure, scalable architecture", "AI-powered products and automation"] },
   services: { eyebrow: "Services", title: "We do more than code products. We build complete systems.", intro: "We treat backend, mobile, dashboards, security and AI as connected parts of one product architecture.", more: "All services", items: [
     { title: "Enterprise Software", summary: "We turn operational needs into measurable, secure and maintainable web systems.", outcome: "Delivery: admin dashboard, role-based access, API documentation and a sustainable backend.", points: ["Admin dashboards", "REST API design", "Database architecture"] },
@@ -113,6 +114,7 @@ const en = {
     { title: "Support after launch", text: "After launch, we stay with you for maintenance, improvements and new features." },
   ] },
   featured: { eyebrow: "Selected Projects", title: "One engineering discipline across different industries.", intro: "Across fintech, healthcare and AI, our goal is consistent: secure architecture, clear product flows and production-ready systems.", all: "All projects" },
+  references: { eyebrow: "Our References", title: "Organizations and brands we have worked with." },
   stats: [{ value: "09", label: "published and research-driven projects" }, { value: "05", label: "specialists across product, backend, mobile and AI" }, { value: "04", label: "core disciplines: web, mobile, AI and cloud" }],
   process: { eyebrow: "Process", title: "A measurable delivery flow that reduces uncertainty.", intro: "We make architecture decisions visible first, then move design and development forward in the same rhythm.", step: "Stage", items: [
     { title: "Discovery and Architecture", summary: "We clarify business goals, user roles, data flows and technical risks to create an actionable system map." },
@@ -122,7 +124,7 @@ const en = {
   ] },
   cta: { eyebrow: "Let’s begin", title: "Let’s create a clear technical roadmap for your next product.", mail: "Send an email", page: "Contact page" },
   pages: {
-    about: { eyebrow: "Company", title: "We are a software team that makes technology decisions actionable.", body: "We approach enterprise needs with a product mindset and build backend, mobile, web, AI and cloud layers as one engineering whole.", approach: "Approach", approachTitle: "A small, focused team working with enterprise-level rigor.", principles: [
+    about: { eyebrow: "About Us", title: "We are a software team that makes technology decisions actionable.", body: "We approach enterprise needs with a product mindset and build backend, mobile, web, AI and cloud layers as one engineering whole.", approach: "Approach", approachTitle: "A small, focused team working with enterprise-level rigor.", principles: [
       { title: "Architecture comes first", text: "Product speed comes from the right data model, secure authorization and clean service boundaries—not only the interface." },
       { title: "Interface is part of delivery", text: "Dashboards, mobile experiences and customer screens are the visible surface of the product architecture." },
       { title: "Security is the default", text: "We plan JWT, RBAC, 2FA, rate limits, audit logs and backups early according to the product’s needs." },
@@ -146,7 +148,7 @@ const en = {
 
 const de = {
   language: { label: "Sprache", names: { tr: "Türkçe", en: "English", de: "Deutsch" } },
-  nav: { home: "Start", about: "Unternehmen", services: "Leistungen", team: "Team", projects: "Projekte", contact: "Kontakt", menu: "Menü öffnen oder schließen", cta: "Projekt besprechen" },
+  nav: { home: "Start", about: "Über uns", services: "Leistungen", team: "Team", projects: "Projekte", contact: "Kontakt", menu: "Menü öffnen oder schließen", cta: "Projekt besprechen" },
   hero: { eyebrow: "Unternehmenssoftware · Mobile Produkte · Künstliche Intelligenz", titleLead: "Wir machen aus komplexen Ideen", titleAccent: "Produkte", titleEnd: "die funktionieren.", body: "Wir konzipieren und entwickeln sichere Backends, Web-Dashboards, mobile Apps und KI-Komponenten als ein zusammenhängendes Produktsystem.", primary: "Projekt besprechen", secondary: "Leistungen ansehen", status: "Systeme online", cardTitle: "Product Engineering", cardBody: "Ein Team von der Idee bis zur Produktion – mit klarer Architektur und messbaren Ergebnissen.", signals: ["Web, Mobile und Backend aus einem Team", "Sichere, skalierbare Architektur", "KI-gestützte Produkte und Automatisierung"] },
   services: { eyebrow: "Leistungen", title: "Wir programmieren nicht nur Produkte. Wir bauen vollständige Systeme.", intro: "Backend, Mobile, Dashboards, Sicherheit und KI behandeln wir als verbundene Teile einer Produktarchitektur.", more: "Alle Leistungen", items: [
     { title: "Unternehmenssoftware", summary: "Wir verwandeln operative Anforderungen in messbare, sichere und wartbare Websysteme.", outcome: "Lieferumfang: Admin-Dashboard, rollenbasierter Zugriff, API-Dokumentation und nachhaltiges Backend.", points: ["Admin-Dashboards", "REST-API-Design", "Datenbankarchitektur"] },
@@ -161,6 +163,7 @@ const de = {
     { title: "Unterstützung nach dem Start", text: "Auch nach dem Start helfen wir bei Wartung, Verbesserungen und neuen Funktionen weiter." },
   ] },
   featured: { eyebrow: "Ausgewählte Projekte", title: "Eine Engineering-Disziplin für verschiedene Branchen.", intro: "In Fintech, Gesundheit und KI bleibt unser Ziel gleich: sichere Architektur, klare Produktabläufe und produktionsreife Systeme.", all: "Alle Projekte" },
+  references: { eyebrow: "Unsere Referenzen", title: "Organisationen und Marken, mit denen wir zusammengearbeitet haben." },
   stats: [{ value: "09", label: "veröffentlichte und forschungsorientierte Projekte" }, { value: "05", label: "Spezialisten für Produkt, Backend, Mobile und KI" }, { value: "04", label: "Kerndisziplinen: Web, Mobile, KI und Cloud" }],
   process: { eyebrow: "Prozess", title: "Ein messbarer Ablauf, der Unsicherheit reduziert.", intro: "Wir machen Architekturentscheidungen zuerst sichtbar und führen Design und Entwicklung anschließend im selben Rhythmus.", step: "Phase", items: [
     { title: "Analyse und Architektur", summary: "Wir klären Geschäftsziele, Nutzerrollen, Datenflüsse und technische Risiken in einer umsetzbaren Systemkarte." },
@@ -170,7 +173,7 @@ const de = {
   ] },
   cta: { eyebrow: "Los geht’s", title: "Erstellen wir einen klaren technischen Fahrplan für Ihr nächstes Produkt.", mail: "E-Mail senden", page: "Kontaktseite" },
   pages: {
-    about: { eyebrow: "Unternehmen", title: "Wir machen Technologieentscheidungen umsetzbar.", body: "Wir betrachten Unternehmensanforderungen aus Produktsicht und entwickeln Backend, Mobile, Web, KI und Cloud als ein technisches Ganzes.", approach: "Ansatz", approachTitle: "Ein kleines, fokussiertes Team mit Enterprise-Anspruch.", principles: [
+    about: { eyebrow: "Über uns", title: "Wir machen Technologieentscheidungen umsetzbar.", body: "Wir betrachten Unternehmensanforderungen aus Produktsicht und entwickeln Backend, Mobile, Web, KI und Cloud als ein technisches Ganzes.", approach: "Ansatz", approachTitle: "Ein kleines, fokussiertes Team mit Enterprise-Anspruch.", principles: [
       { title: "Architektur zuerst", text: "Produktgeschwindigkeit entsteht durch das richtige Datenmodell, sichere Berechtigungen und klare Servicegrenzen." },
       { title: "Die Oberfläche gehört zum Produkt", text: "Dashboards, mobile Erlebnisse und Kundensichten sind die sichtbare Seite der Produktarchitektur." },
       { title: "Sicherheit ist Standard", text: "JWT, RBAC, 2FA, Rate Limits, Audit-Logs und Backups planen wir früh nach Produktbedarf." },

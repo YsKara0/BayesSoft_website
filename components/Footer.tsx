@@ -15,7 +15,6 @@ const footerSocialLinks = [
 const footerLinks = [
   { key: "about", href: "/hakkimizda" },
   { key: "services", href: "/hizmetler" },
-  { key: "team", href: "/ekip" },
   { key: "projects", href: "/projeler" },
   { key: "contact", href: "/iletisim" }
 ] as const;

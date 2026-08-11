@@ -13,7 +13,6 @@ const navItems = [
   { key: "home", href: "/" },
   { key: "about", href: "/hakkimizda" },
   { key: "services", href: "/hizmetler" },
-  { key: "team", href: "/ekip" },
   { key: "projects", href: "/projeler" },
 ] as const;
 

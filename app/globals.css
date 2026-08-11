@@ -183,8 +183,46 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 @keyframes orbit { to { transform: rotate(360deg); } }
 
+.reference-ticker {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+}
+
+.reference-ticker-track {
+  display: flex;
+  width: max-content;
+  animation: reference-ticker 34s linear infinite;
+  will-change: transform;
+}
+
+.reference-ticker-group {
+  display: flex;
+  flex-shrink: 0;
+  gap: 1rem;
+  padding-right: 1rem;
+}
+
+.reference-ticker:hover .reference-ticker-track,
+.reference-ticker:focus-within .reference-ticker-track {
+  animation-play-state: paused;
+}
+
+@keyframes reference-ticker {
+  to { transform: translateX(-50%); }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .hero-video { display: none; }
+
+  .reference-ticker {
+    overflow-x: auto;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .reference-ticker-track { animation: none; }
+  .reference-ticker-group:nth-child(2) { display: none; }
 
   *, *::before, *::after {
     animation-duration: 0.01ms !important;

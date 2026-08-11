@@ -9,16 +9,18 @@
     * [ ] Proje bilgileri girilecek (KSS), girilmiş olanlar kontrol edilecek.
     * [ ] Ekran görüntüleri eklenecek.
 * [ ] footerdaki linkler güncellenecek (.env'den yönetiliyor)
-    * [ ] footerdaki  x ve github kaldirilicak
+    * [x] footerdaki  x ve github kaldirilicak
     * [x] footerdaki logo degisicek ve yazi kalkicak
     * [ ] footerdakı maıl guncellenecek
 * [x] header da bulunan logo duzeltilicek (hem yazi hem logo olmaz)
     * [x] dil secenegi eklenecek (tr \en \de)
 * [x] font degisicek
-* [ ] hero section yeniden tasarlanacak hareketli biseyler olabilir
+* [x] hero section yeniden tasarlanacak hareketli biseyler olabilir
 * [x] genel renk duzeni ayarlanacak
 * [ ] butun yazilar kontrol edilicek
-* [ ] projeler ozet gorunumden anahtar kelimeleri kaldir
+* [x] projeler ozet gorunumden anahtar kelimeleri kaldir
 * [ ] iletisim formu apiye baglanacak
-* [ ] kurumsal sayfayi detaylandir (resim vesaire eklenebilir)
-    * [ ] kurumsal sayfa sayi verileri degistirilicek ve duzenlenecek
+* [x] kurumsal sayfayi kaldir
+* [x] ekip ve hakkimizda tek sayfada olucak 
+* [ ] referanslar ekleyelim hareketli slider tarzi bisey olabilir (kss,reviel,metek,further up,tam finans,arel,teskilat icom,)
+* [ ] 

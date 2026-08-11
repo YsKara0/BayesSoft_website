@@ -44,7 +44,7 @@ export function TeamSection() {
   }, [selectedMember]);
 
   return (
-    <section className="theme-section-primary relative overflow-hidden px-5 py-20 md:px-8 md:py-28">
+    <section id="ekip" className="theme-section-primary relative overflow-hidden px-5 py-20 md:px-8 md:py-28">
       <div className="absolute inset-x-0 top-0 h-1 bg-bayes-ink" />
       <div className="texture-lines absolute inset-0 opacity-35" />
 

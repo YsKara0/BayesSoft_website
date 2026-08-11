@@ -20,16 +20,16 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: npm
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Install dependencies
         run: npm ci
@@ -42,6 +42,9 @@ jobs:
           NEXT_PUBLIC_GITHUB_URL: https://github.com/bayessoft2024
           NEXT_PUBLIC_LINKEDIN_URL: https://linkedin.com/company/bayessoft
           NEXT_PUBLIC_X_URL: https://x.com/bayessoft
+
+      - name: Verify static export
+        run: test -f ./out/index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5

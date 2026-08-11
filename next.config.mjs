@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
-  distDir: process.env.NODE_ENV === "development" ? ".next-dev" : ".next-build",
+  distDir: process.env.NODE_ENV === "development" ? ".next-dev" : ".next",
   images: {
     unoptimized: true
   },

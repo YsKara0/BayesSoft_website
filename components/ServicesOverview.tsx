@@ -28,11 +28,13 @@ export function ServicesOverview({ compact = false }: ServicesOverviewProps) {
 
             return (
               <Reveal key={service.title} delay={index * 0.03} className="h-full">
-                <article className="group flex h-full min-h-[330px] flex-col rounded-[1.5rem] border border-bayes-ink/10 bg-bayes-paper p-7 shadow-premium-sm transition duration-300 hover:-translate-y-1 hover:border-bayes-teal/40 hover:bg-bayes-ink hover:text-bayes-paper hover:shadow-premium-lg md:p-8">
-                  <div className="mb-8 flex items-start justify-between gap-4">
-                    <span className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue group-hover:text-bayes-mint">
-                      0{index + 1}
-                    </span>
+                <article className={`group flex h-full flex-col rounded-[1.5rem] border border-bayes-ink/10 bg-bayes-paper p-7 shadow-premium-sm transition duration-300 hover:-translate-y-1 hover:border-bayes-teal/40 hover:bg-bayes-ink hover:text-bayes-paper hover:shadow-premium-lg md:p-8 ${compact ? "min-h-[330px]" : "min-h-[290px]"}`}>
+                  <div className={`mb-8 flex items-start gap-4 ${compact ? "justify-between" : "justify-end"}`}>
+                    {compact ? (
+                      <span className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue group-hover:text-bayes-mint">
+                        0{index + 1}
+                      </span>
+                    ) : null}
                     <span className="flex size-12 items-center justify-center rounded-xl border border-current">
                       <Icon className="size-5" strokeWidth={1.5} />
                     </span>
@@ -44,16 +46,18 @@ export function ServicesOverview({ compact = false }: ServicesOverviewProps) {
                   <p className="mt-5 border-l-4 border-bayes-teal pl-4 text-sm leading-7 text-bayes-deep group-hover:border-bayes-paper group-hover:text-bayes-paper">
                     {service.outcome}
                   </p>
-                  <div className="mt-auto flex flex-wrap gap-2 pt-8">
-                    {service.points.map((point) => (
-                      <span
-                        key={point}
-                        className="border border-current px-3 py-1.5 font-label text-[11px] uppercase tracking-[0.12em]"
-                      >
-                        {point}
-                      </span>
-                    ))}
-                  </div>
+                  {compact ? (
+                    <div className="mt-auto flex flex-wrap gap-2 pt-8">
+                      {service.points.map((point) => (
+                        <span
+                          key={point}
+                          className="border border-current px-3 py-1.5 font-label text-[11px] uppercase tracking-[0.12em]"
+                        >
+                          {point}
+                        </span>
+                      ))}
+                    </div>
+                  ) : null}
                 </article>
               </Reveal>
             );

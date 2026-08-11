@@ -22,10 +22,7 @@ export function WhyChooseUs() {
 
             return (
               <article key={reason.title} className="group min-h-[300px] rounded-[1.5rem] border border-bayes-ink/10 bg-bayes-paper p-7 shadow-premium-sm transition duration-300 hover:-translate-y-1 hover:bg-bayes-ink hover:text-bayes-paper hover:shadow-premium-lg">
-                <div className="flex items-start justify-between gap-4">
-                  <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue group-hover:text-bayes-mint">
-                    0{index + 1}
-                  </p>
+                <div className="flex justify-end">
                   <span className="flex size-12 items-center justify-center rounded-xl border border-current">
                     <Icon className="size-5" strokeWidth={1.5} />
                   </span>

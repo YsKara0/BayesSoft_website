@@ -8,17 +8,17 @@
     * [x] Sistem altyapısı
     * [ ] Proje bilgileri girilecek (KSS), girilmiş olanlar kontrol edilecek.
     * [ ] Ekran görüntüleri eklenecek.
-* [x] footerdaki linkler güncellenecek (.env'den yönetiliyor)
-    * [x] footerdaki likedin x ve github kaldirilicak
+* [ ] footerdaki linkler güncellenecek (.env'den yönetiliyor)
+    * [ ] footerdaki  x ve github kaldirilicak
     * [x] footerdaki logo degisicek ve yazi kalkicak
     * [ ] footerdakı maıl guncellenecek
 * [x] header da bulunan logo duzeltilicek (hem yazi hem logo olmaz)
     * [x] dil secenegi eklenecek (tr \en \de)
 * [x] font degisicek
-* [x] hero section yeniden tasarlanacak hareketli biseyler olabilir
+* [ ] hero section yeniden tasarlanacak hareketli biseyler olabilir
 * [x] genel renk duzeni ayarlanacak
 * [ ] butun yazilar kontrol edilicek
-* [x] projeler ozet gorunumden anahtar kelimeleri kaldir
+* [ ] projeler ozet gorunumden anahtar kelimeleri kaldir
 * [ ] iletisim formu apiye baglanacak
 * [ ] kurumsal sayfayi detaylandir (resim vesaire eklenebilir)
     * [ ] kurumsal sayfa sayi verileri degistirilicek ve duzenlenecek

@@ -22,7 +22,7 @@ export function ProjectsSection() {
         <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
           {localizedProjects.map((project, index) => (
             <Reveal key={project.title} delay={(index % 3) * 0.03} className="h-full">
-              <article className="group flex h-full min-h-[430px] flex-col rounded-[1.5rem] border border-bayes-ink/10 bg-bayes-paper p-6 shadow-premium-sm transition duration-300 hover:-translate-y-1 hover:bg-bayes-ink hover:text-bayes-paper hover:shadow-premium-lg md:p-7">
+              <article className="group flex h-full min-h-[370px] flex-col rounded-[1.5rem] border border-bayes-ink/10 bg-bayes-paper p-6 shadow-premium-sm transition duration-300 hover:-translate-y-1 hover:bg-bayes-ink hover:text-bayes-paper hover:shadow-premium-lg md:p-7">
                 <div className="mb-7 flex items-start justify-between gap-4">
                   <span className="border border-current px-3 py-1.5 font-label text-[11px] font-semibold uppercase tracking-[0.14em] text-bayes-blue group-hover:text-bayes-mint">
                     {project.domain}
@@ -69,17 +69,6 @@ export function ProjectsSection() {
                       {project.impact}
                     </p>
                   </div>
-                </div>
-
-                <div className="mt-7 flex flex-wrap gap-2">
-                  {project.technologies.map((technology) => (
-                    <span
-                      key={technology}
-                      className="border border-current px-2.5 py-1 font-label text-[10px] uppercase tracking-[0.1em]"
-                    >
-                      {technology}
-                    </span>
-                  ))}
                 </div>
 
                 <div className="mt-auto flex gap-2 pt-8">

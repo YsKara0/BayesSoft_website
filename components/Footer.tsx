@@ -5,8 +5,12 @@ import { ArrowUpRight, Mail } from "lucide-react";
 import { Logo } from "@/components/Logo";
 import { SocialIcon } from "@/components/SocialIcon";
 import { contactHref, siteConfig } from "@/data/config";
-import { socialLinks } from "@/data/site";
 import { useLanguage } from "@/components/LanguageProvider";
+
+const footerSocialLinks = [
+  { label: "LinkedIn", href: siteConfig.linkedinUrl, icon: "linkedin" as const },
+  { label: "Website", href: siteConfig.siteUrl, icon: "website" as const },
+];
 
 const footerLinks = [
   { key: "about", href: "/hakkimizda" },
@@ -41,7 +45,7 @@ export function Footer() {
               <ArrowUpRight className="size-4 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </a>
             <div className="mt-6 flex flex-wrap gap-2">
-              {socialLinks.map((social) => (
+              {footerSocialLinks.map((social) => (
                 <a
                   key={social.label}
                   href={social.href}

@@ -18,7 +18,10 @@ export const siteConfig = {
     "info@bayessoft.com.tr"
   ),
   contactApiUrl: withProtocol(
-    env(process.env.NEXT_PUBLIC_CONTACT_API_URL, "")
+    env(
+      process.env.NEXT_PUBLIC_CONTACT_API_URL,
+      "https://api.bayessoft.com.tr/api/v1/contact"
+    )
   ),
   githubUrl: env(
     process.env.NEXT_PUBLIC_GITHUB_URL,

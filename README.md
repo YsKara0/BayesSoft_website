@@ -37,13 +37,28 @@ Current public config:
 
 ```env
 NEXT_PUBLIC_SITE_URL=https://bayessoft.com.tr
-NEXT_PUBLIC_CONTACT_EMAIL=hello@bayessoft.com
+NEXT_PUBLIC_CONTACT_EMAIL=info@bayessoft.com.tr
+NEXT_PUBLIC_CONTACT_API_URL=https://api.bayessoft.com.tr/api/v1/contact
 NEXT_PUBLIC_GITHUB_URL=https://github.com/bayessoft
 NEXT_PUBLIC_LINKEDIN_URL=https://linkedin.com/company/bayessoft
 NEXT_PUBLIC_X_URL=https://x.com/bayessoft
 ```
 
 These are `NEXT_PUBLIC_*` values, so they are safe for static frontend usage and become part of the generated site.
+
+The contact endpoint receives a JSON `POST` request with the following shape:
+
+```json
+{
+  "full_name": "Full name",
+  "email": "name@example.com",
+  "project_type": "Enterprise software",
+  "budget_timeline": "MVP within 6-8 weeks",
+  "message": "Project details"
+}
+```
+
+The API must allow requests from the website origin through its CORS configuration.
 
 ## Local Development
 

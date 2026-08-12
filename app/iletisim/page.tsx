@@ -1,6 +1,7 @@
 "use client";
 
-import { ArrowUpRight, Github, Linkedin, Mail, Send } from "lucide-react";
+import { type FormEvent, useState } from "react";
+import { AlertCircle, ArrowUpRight, CheckCircle2, Github, Linkedin, LoaderCircle, Mail, Send } from "lucide-react";
 import { PageHero } from "@/components/PageHero";
 import { SocialIcon } from "@/components/SocialIcon";
 import { contactHref, siteConfig } from "@/data/config";
@@ -11,6 +12,47 @@ export default function ContactPage() {
   const { copy } = useLanguage();
   const page = copy.pages.contact;
   const form = copy.contact;
+  const [formStatus, setFormStatus] = useState<"idle" | "sending" | "success" | "error" | "configuration-error">("idle");
+
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    if (!siteConfig.contactApiUrl) {
+      setFormStatus("configuration-error");
+      return;
+    }
+
+    const formElement = event.currentTarget;
+    const formData = new FormData(formElement);
+
+    setFormStatus("sending");
+
+    try {
+      const response = await fetch(siteConfig.contactApiUrl, {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          full_name: String(formData.get("full_name") ?? ""),
+          email: String(formData.get("email") ?? ""),
+          project_type: String(formData.get("project_type") ?? ""),
+          budget_timeline: String(formData.get("budget_timeline") ?? ""),
+          message: String(formData.get("message") ?? ""),
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Contact request failed with status ${response.status}`);
+      }
+
+      formElement.reset();
+      setFormStatus("success");
+    } catch {
+      setFormStatus("error");
+    }
+  };
 
   return (
     <main>
@@ -21,9 +63,7 @@ export default function ContactPage() {
       <section className="theme-section-primary px-5 py-20 md:px-8 md:py-28">
         <div className="mx-auto grid max-w-7xl gap-px border border-bayes-ink bg-bayes-ink lg:grid-cols-[1.15fr_0.85fr]">
           <form
-            action={contactHref}
-            method="post"
-            encType="text/plain"
+            onSubmit={handleSubmit}
             className="bg-bayes-paper p-7 md:p-9"
           >
             <div className="mb-8 flex items-start justify-between gap-6">
@@ -44,7 +84,8 @@ export default function ContactPage() {
                   {form.name}
                 </span>
                 <input
-                  name="Ad Soyad"
+                  name="full_name"
+                  autoComplete="name"
                   required
                   className="min-h-12 border-2 border-bayes-ink bg-bayes-paper px-4 text-base text-bayes-ink outline-none transition duration-100 focus:border-b-4"
                 />
@@ -54,8 +95,9 @@ export default function ContactPage() {
                   {form.email}
                 </span>
                 <input
-                  name="E-posta"
+                  name="email"
                   type="email"
+                  autoComplete="email"
                   required
                   className="min-h-12 border-2 border-bayes-ink bg-bayes-paper px-4 text-base text-bayes-ink outline-none transition duration-100 focus:border-b-4"
                 />
@@ -65,7 +107,7 @@ export default function ContactPage() {
                   {form.projectType}
                 </span>
                 <select
-                  name="Proje Türü"
+                  name="project_type"
                   className="min-h-12 border-2 border-bayes-ink bg-bayes-paper px-4 text-base text-bayes-ink outline-none transition duration-100 focus:border-b-4"
                   defaultValue={form.types[0]}
                 >
@@ -77,7 +119,7 @@ export default function ContactPage() {
                   {form.budget}
                 </span>
                 <input
-                  name="Bütçe / Zamanlama"
+                  name="budget_timeline"
                   placeholder={form.budgetPlaceholder}
                   className="min-h-12 border-2 border-bayes-ink bg-bayes-paper px-4 text-base text-bayes-ink outline-none transition duration-100 placeholder:text-bayes-silver focus:border-b-4"
                 />
@@ -87,7 +129,7 @@ export default function ContactPage() {
                   {form.message}
                 </span>
                 <textarea
-                  name="Mesaj"
+                  name="message"
                   required
                   rows={6}
                   placeholder={form.messagePlaceholder}
@@ -97,15 +139,34 @@ export default function ContactPage() {
             </div>
 
             <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-              <p className="text-sm leading-7 text-bayes-silver">
-                {form.note}
-              </p>
+              <div className="max-w-xl text-sm leading-7">
+                <p className="text-bayes-silver">{form.note}</p>
+                <div className="mt-2 min-h-7" aria-live="polite">
+                  {formStatus === "success" && (
+                    <p className="inline-flex items-center gap-2 font-semibold text-emerald-700">
+                      <CheckCircle2 className="size-4 shrink-0" aria-hidden="true" />
+                      {form.success}
+                    </p>
+                  )}
+                  {(formStatus === "error" || formStatus === "configuration-error") && (
+                    <p className="inline-flex items-center gap-2 font-semibold text-red-700">
+                      <AlertCircle className="size-4 shrink-0" aria-hidden="true" />
+                      {formStatus === "configuration-error" ? form.configurationError : form.error}
+                    </p>
+                  )}
+                </div>
+              </div>
               <button
                 type="submit"
-                className="inline-flex min-h-12 items-center justify-center gap-3 border-2 border-bayes-ink bg-bayes-ink px-6 font-label text-xs font-semibold uppercase tracking-[0.14em] text-bayes-paper transition duration-100 hover:bg-bayes-paper hover:text-bayes-ink"
+                disabled={formStatus === "sending"}
+                className="inline-flex min-h-12 items-center justify-center gap-3 border-2 border-bayes-ink bg-bayes-ink px-6 font-label text-xs font-semibold uppercase tracking-[0.14em] text-bayes-paper transition duration-100 hover:bg-bayes-paper hover:text-bayes-ink disabled:cursor-wait disabled:opacity-65"
               >
-                {form.send}
-                <ArrowUpRight className="size-4" />
+                {formStatus === "sending" ? form.sending : form.send}
+                {formStatus === "sending" ? (
+                  <LoaderCircle className="size-4 animate-spin" aria-hidden="true" />
+                ) : (
+                  <ArrowUpRight className="size-4" aria-hidden="true" />
+                )}
               </button>
             </div>
           </form>

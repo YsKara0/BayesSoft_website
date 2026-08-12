@@ -4,13 +4,21 @@ const env = (value: string | undefined, fallback: string) => {
 
 const withoutTrailingSlash = (value: string) => value.replace(/\/+$/, "");
 
+const withProtocol = (value: string) => {
+  if (!value) return "";
+  return /^https?:\/\//i.test(value) ? value : `https://${value}`;
+};
+
 export const siteConfig = {
   siteUrl: withoutTrailingSlash(
     env(process.env.NEXT_PUBLIC_SITE_URL, "https://bayessoft.com.tr")
   ),
   contactEmail: env(
     process.env.NEXT_PUBLIC_CONTACT_EMAIL,
-    "info.bayessoft@gmail.com"
+    "info@bayessoft.com.tr"
+  ),
+  contactApiUrl: withProtocol(
+    env(process.env.NEXT_PUBLIC_CONTACT_API_URL, "")
   ),
   githubUrl: env(
     process.env.NEXT_PUBLIC_GITHUB_URL,

@@ -24,3 +24,9 @@
 * [x] ekip ve hakkimizda tek sayfada olucak 
 * [ ] referanslar ekleyelim hareketli slider tarzi bisey olabilir (kss,reviel,metek,further up,tam finans,arel,teskilat icom,)
 * [ ] 
+
+### SEO gereklilikleri
+
+* [ ] FAQ eklenmeli
+* [ ] Sitede daha çok görsel kullanılmalı
+* [ ] Başlıklarda keyword kullanılmalı

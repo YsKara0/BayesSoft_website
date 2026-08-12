@@ -30,3 +30,9 @@
 * [ ] FAQ eklenmeli
 * [ ] Sitede daha çok görsel kullanılmalı
 * [ ] Başlıklarda keyword kullanılmalı
+
+
+### MAIL gereklilikleri
+* [ ] logo eklenecek
+* [ ] imza altyazi gibi bisey eklenecek
+* [ ] kullanici ismi belirlenecek

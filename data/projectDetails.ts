@@ -171,6 +171,10 @@ export const projectDetails: Record<string, ProjectDetail> = {
       "JJWT (JSON Web Token)",
       "TOTP 2FA & Argon2id"
     ],
+    screenshots: [
+      "/projects/furtherup-drive/further-up-1.png",
+      "/projects/furtherup-drive/further-up-2.png"
+    ],
     liveUrl: "https://drive.further-up.net"
   },
   "maritime-horizon-segmentation": {

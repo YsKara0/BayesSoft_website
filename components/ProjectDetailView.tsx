@@ -1,8 +1,9 @@
 "use client";
 
+import { useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft, ArrowUpRight, Code2, LockKeyhole } from "lucide-react";
+import { ArrowLeft, ArrowUpRight, ChevronLeft, ChevronRight, Code2, LockKeyhole } from "lucide-react";
 import { useLanguage } from "@/components/LanguageProvider";
 import { localizeProject } from "@/data/projectTranslations";
 import type { ProjectDetail } from "@/data/projectDetails";
@@ -10,6 +11,8 @@ import type { Project } from "@/data/site";
 
 export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; project: Project }) {
   const { copy, locale } = useLanguage();
+  const screenshotsRef = useRef<HTMLDivElement>(null);
+  const [currentScreenshot, setCurrentScreenshot] = useState(0);
   const labels = copy.projects;
   const localized = localizeProject(project, locale);
   const isCompact = locale !== "tr";
@@ -18,6 +21,26 @@ export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; 
     : detail;
   const liveUrl = project.liveUrl || detail.liveUrl;
   const sourceUrl = project.sourceUrl || detail.sourceUrl;
+
+  const goToScreenshot = (index: number) => {
+    const slider = screenshotsRef.current;
+    if (!slider || !view.screenshots) return;
+
+    const nextIndex = Math.min(
+      Math.max(index, 0),
+      view.screenshots.length - 1
+    );
+
+    slider.scrollTo({
+      left: nextIndex * (slider.clientWidth + 16),
+      behavior: "smooth",
+    });
+    setCurrentScreenshot(nextIndex);
+  };
+
+  const scrollScreenshots = (direction: -1 | 1) => {
+    goToScreenshot(currentScreenshot + direction);
+  };
 
   return (
     <main className="min-h-screen bg-bayes-frost pb-24 pt-28">
@@ -48,8 +71,69 @@ export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; 
             {view.screenshots?.length ? (
               <section className="rounded-[1.5rem] border border-bayes-ink/10 bg-white p-6 shadow-premium-sm md:p-9">
                 <h2 className="font-display text-2xl text-bayes-ink md:text-3xl">{labels.screenshots}</h2>
-                <div className="mt-6 grid gap-4 sm:grid-cols-2">
-                  {view.screenshots.map((src, index) => <div key={src} className="relative h-64 overflow-hidden rounded-xl bg-bayes-aqua"><Image src={src} alt={`${view.title} ${index + 1}`} fill className="object-cover transition duration-500 hover:scale-105" /></div>)}
+                <div className="relative mt-6">
+                  <div
+                    ref={screenshotsRef}
+                    onScroll={(event) => {
+                      const slider = event.currentTarget;
+                      setCurrentScreenshot(Math.round(slider.scrollLeft / (slider.clientWidth + 16)));
+                    }}
+                    className="flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-smooth [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+                  >
+                    {view.screenshots.map((src, index) => (
+                      <div key={src} className="relative aspect-video w-full shrink-0 snap-center overflow-hidden rounded-xl border border-bayes-ink/10 bg-bayes-aqua">
+                        <Image
+                          src={src}
+                          alt={`${view.title} ${index + 1}`}
+                          fill
+                          sizes="(min-width: 1280px) 800px, (min-width: 1024px) 60vw, 100vw"
+                          className="object-contain transition duration-500 hover:scale-[1.02]"
+                        />
+                      </div>
+                    ))}
+                  </div>
+
+                  {view.screenshots.length > 1 ? (
+                    <>
+                      <div className="pointer-events-none absolute inset-x-2 top-1/2 flex -translate-y-1/2 justify-between md:inset-x-4">
+                        <button
+                          type="button"
+                          onClick={() => scrollScreenshots(-1)}
+                          disabled={currentScreenshot === 0}
+                          aria-label={labels.previousScreenshot}
+                          className="pointer-events-auto flex size-9 items-center justify-center rounded-full border border-bayes-ink/10 bg-white/90 text-bayes-ink shadow-premium-sm backdrop-blur transition hover:bg-bayes-aqua disabled:opacity-0 md:size-11"
+                        >
+                          <ChevronLeft className="size-4" aria-hidden="true" />
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => scrollScreenshots(1)}
+                          disabled={currentScreenshot === view.screenshots.length - 1}
+                          aria-label={labels.nextScreenshot}
+                          className="pointer-events-auto flex size-9 items-center justify-center rounded-full border border-bayes-ink/10 bg-white/90 text-bayes-ink shadow-premium-sm backdrop-blur transition hover:bg-bayes-aqua disabled:opacity-0 md:size-11"
+                        >
+                          <ChevronRight className="size-4" aria-hidden="true" />
+                        </button>
+                      </div>
+
+                      <div className="mt-4 flex items-center justify-center gap-2">
+                        {view.screenshots.map((src, index) => (
+                          <button
+                            key={src}
+                            type="button"
+                            onClick={() => goToScreenshot(index)}
+                            aria-label={`${labels.screenshots} ${index + 1}`}
+                            aria-current={currentScreenshot === index ? "true" : undefined}
+                            className={`h-2 rounded-full transition-all ${
+                              currentScreenshot === index
+                                ? "w-6 bg-bayes-teal"
+                                : "w-2 bg-bayes-ink/20"
+                            }`}
+                          />
+                        ))}
+                      </div>
+                    </>
+                  ) : null}
                 </div>
               </section>
             ) : null}

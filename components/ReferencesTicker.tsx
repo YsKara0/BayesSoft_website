@@ -11,7 +11,11 @@ const references = [
     name: "Kanuni Sultan Süleyman Eğitim ve Araştırma Hastanesi",
     src: "/references/kanuni_sultan_suleyman_hastanesi.png",
   },
-  { name: "Metek Makina", src: "/references/metek.png" },
+  {
+    name: "Metek Makina",
+    src: "/references/metek.png",
+    website: "https://metekmakina.com/",
+  },
   { name: "Reviel", src: "/references/reviel.png" },
   { name: "Tam Finans", src: "/references/tamfinans.png" },
   { name: "Teşkilat ICOM", src: "/references/teskilat-icom.png", dark: true },
@@ -53,15 +57,13 @@ export function ReferencesTicker() {
               className="reference-ticker-group"
               aria-hidden={groupIndex === 1}
             >
-              {references.map((reference) => (
-                <div
-                  key={`${groupIndex}-${reference.name}`}
-                  className={`flex h-24 w-[210px] shrink-0 items-center justify-center rounded-2xl border p-4 shadow-[0_16px_40px_rgba(0,0,0,0.18)] md:h-28 md:w-[250px] md:p-5 ${
-                    reference.dark
-                      ? "border-white/20 bg-[#071424]"
-                      : "border-white/70 bg-white/95"
-                  }`}
-                >
+              {references.map((reference) => {
+                const cardClassName = `flex h-24 w-[210px] shrink-0 items-center justify-center rounded-2xl border p-4 shadow-[0_16px_40px_rgba(0,0,0,0.18)] md:h-28 md:w-[250px] md:p-5 ${
+                  reference.dark
+                    ? "border-white/20 bg-[#071424]"
+                    : "border-white/70 bg-white/95"
+                }`;
+                const logo = (
                   <div className="relative h-full w-full">
                     <Image
                       src={reference.src}
@@ -71,8 +73,25 @@ export function ReferencesTicker() {
                       className="object-contain"
                     />
                   </div>
-                </div>
-              ))}
+                );
+
+                return reference.website && groupIndex === 0 ? (
+                  <a
+                    key={`${groupIndex}-${reference.name}`}
+                    href={reference.website}
+                    target="_blank"
+                    rel="noopener"
+                    className={`${cardClassName} transition duration-200 hover:-translate-y-1 hover:border-bayes-teal focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-bayes-teal focus-visible:ring-offset-4 focus-visible:ring-offset-bayes-ink`}
+                    title={`${reference.name} web sitesi`}
+                  >
+                    {logo}
+                  </a>
+                ) : (
+                  <div key={`${groupIndex}-${reference.name}`} className={cardClassName}>
+                    {logo}
+                  </div>
+                );
+              })}
             </div>
           ))}
         </div>

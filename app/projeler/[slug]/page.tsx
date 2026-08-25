@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ProjectDetailView } from "@/components/ProjectDetailView";
 import { projectDetails } from "@/data/projectDetails";
 import { projects } from "@/data/site";
+import { createPageMetadata } from "@/data/seo";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -14,8 +15,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const detail = projectDetails[slug];
   return detail
-    ? { title: `${detail.title} | BayesSoft`, description: detail.overview }
-    : { title: "Proje Bulunamadı | BayesSoft" };
+    ? createPageMetadata({
+        title: detail.title,
+        description: detail.overview,
+        path: `/projeler/${slug}`,
+        keywords: [detail.title, detail.domain, ...detail.techStack],
+      })
+    : { title: "Proje Bulunamadı", robots: { index: false, follow: false } };
 }
 
 export default async function ProjectDetailPage({ params }: Props) {

@@ -57,7 +57,7 @@ export function FeaturedProjects() {
         <div className="mt-10 flex justify-center">
           <Link
             href="/projeler"
-            className="group inline-flex min-h-12 items-center justify-center gap-3 rounded-xl bg-bayes-ink px-6 font-label text-xs font-semibold uppercase tracking-[0.12em] text-bayes-paper shadow-premium-sm transition hover:-translate-y-0.5 hover:bg-bayes-teal hover:text-bayes-ink"
+            className="action-primary group"
           >
             {copy.featured.all}
             <ArrowUpRight className="size-4 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />

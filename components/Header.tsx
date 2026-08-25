@@ -132,7 +132,7 @@ export function Header() {
 
         <div className="hidden items-center gap-2 lg:flex">
           <LanguageSwitch />
-          <Link href="/iletisim" className="group inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-bayes-coral px-4 font-label text-[10px] font-semibold uppercase tracking-[0.12em] text-white shadow-premium-sm transition hover:-translate-y-0.5 hover:bg-bayes-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bayes-coral">
+          <Link href="/iletisim" className="action-primary group min-h-11 gap-2 px-4 text-[10px]">
             {copy.nav.cta}
             <ArrowUpRight className="size-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
@@ -153,7 +153,7 @@ export function Header() {
                 </Link>
               ))}
               <LanguageSwitch compact />
-              <Link href="/iletisim" className="mt-1 rounded-xl bg-bayes-coral px-4 py-4 text-center font-label text-xs font-semibold uppercase tracking-[0.14em] text-white">
+              <Link href="/iletisim" className="action-primary mt-1 px-4 py-4 text-center tracking-[0.14em]">
                 {copy.nav.cta}
               </Link>
             </div>

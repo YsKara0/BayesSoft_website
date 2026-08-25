@@ -3,51 +3,93 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import { siteConfig } from "@/data/config";
+import { createPageMetadata } from "@/data/seo";
 import "flag-icons/css/flag-icons.min.css";
 import "./globals.css";
 
-export const metadata: Metadata = {
-  metadataBase: new URL(siteConfig.siteUrl),
-  title: "BayesSoft | Kurumsal Yazılım ve Teknoloji",
+const homeTitle =
+  "BayesSoft | Kurumsal Yazılım, Mobil Uygulama ve Yapay Zekâ";
+
+const homeMetadata = createPageMetadata({
+  title: homeTitle,
   description:
-    "BayesSoft; kurumsal yazılım, mobil uygulama, yapay zeka destekli sistemler ve modern mühendislik çözümleri geliştiren teknoloji ekibidir.",
+    "BayesSoft; kurumsal yazılım, mobil uygulama, yapay zekâ ve bulut çözümlerini fikirden canlıya taşıyan ürün mühendisliği ekibidir.",
+  path: "/",
   keywords: [
     "BayesSoft",
-    "kurumsal yazılım",
-    "web geliştirme",
-    "mobil uygulama",
-    "yapay zeka",
-    "bulut mimarisi"
+    "kurumsal yazılım şirketi",
+    "özel yazılım geliştirme",
+    "mobil uygulama geliştirme",
+    "yapay zekâ çözümleri",
+    "web uygulama geliştirme",
+    "bulut ve DevOps",
   ],
+});
+
+export const metadata: Metadata = {
+  ...homeMetadata,
+  metadataBase: new URL(siteConfig.siteUrl),
+  title: {
+    default: homeTitle,
+    template: "%s | BayesSoft",
+  },
+  applicationName: "BayesSoft",
+  authors: [{ name: "BayesSoft", url: siteConfig.siteUrl }],
+  creator: "BayesSoft",
+  publisher: "BayesSoft",
+  category: "technology",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
   icons: {
     icon: "/bayes_logo_dark.png",
   },
-  openGraph: {
-    title: "BayesSoft | Kurumsal Yazılım ve Teknoloji",
-    description:
-      "Kurumsal ürün mühendisliği, mobil uygulamalar, bulut sistemleri ve yapay zeka destekli teknoloji çözümleri.",
-    url: siteConfig.siteUrl,
-    siteName: "BayesSoft",
-    type: "website",
-    images: [
-      {
-        url: `${siteConfig.siteUrl}/og.png`,
-        width: 1733,
-        height: 907,
-        alt: "BayesSoft — Fikirden üretime, tek sistem.",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "BayesSoft | Kurumsal Yazılım ve Teknoloji",
-    description: "Fikirden üretime, tek sistem.",
-    images: [`${siteConfig.siteUrl}/og.png`],
-  },
-  alternates: {
-    canonical: siteConfig.siteUrl
-  }
 };
+
+const structuredData = JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${siteConfig.siteUrl}/#organization`,
+      name: "BayesSoft",
+      url: siteConfig.siteUrl,
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteConfig.siteUrl}/bayes_logo_dark.png`,
+      },
+      email: siteConfig.contactEmail,
+      sameAs: [
+        siteConfig.linkedinUrl,
+        siteConfig.githubUrl,
+        siteConfig.xUrl,
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${siteConfig.siteUrl}/#website`,
+      url: siteConfig.siteUrl,
+      name: "BayesSoft",
+      inLanguage: ["tr", "en", "de"],
+      publisher: {
+        "@id": `${siteConfig.siteUrl}/#organization`,
+      },
+    },
+  ],
+}).replace(/</g, "\\u003c");
 
 export const viewport: Viewport = {
   themeColor: "#0B192C",
@@ -62,6 +104,10 @@ export default function RootLayout({
   return (
     <html lang="tr" className="scroll-smooth" data-theme="light" suppressHydrationWarning>
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: structuredData }}
+        />
         <LanguageProvider>
           <Header />
           {children}

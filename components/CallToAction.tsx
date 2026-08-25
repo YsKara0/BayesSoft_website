@@ -22,14 +22,14 @@ export function CallToAction() {
         <div className="flex flex-col gap-3 sm:flex-row lg:flex-col">
           <a
             href={contactHref}
-            className="group inline-flex min-h-12 items-center justify-center gap-3 rounded-xl bg-bayes-coral px-6 font-label text-xs font-semibold uppercase tracking-[0.12em] text-white transition hover:bg-white hover:text-bayes-ink"
+            className="action-primary-on-dark group"
           >
             <Mail className="size-4" />
             {copy.cta.mail}
           </a>
           <Link
             href="/iletisim"
-            className="group inline-flex min-h-12 items-center justify-center gap-3 rounded-xl border border-white/20 bg-white/5 px-6 font-label text-xs font-semibold uppercase tracking-[0.12em] text-white transition hover:bg-white hover:text-bayes-ink"
+            className="action-secondary-on-dark group"
           >
             {copy.cta.page}
             <ArrowUpRight className="size-4 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />

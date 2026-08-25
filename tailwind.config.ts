@@ -22,7 +22,7 @@ const config: Config = {
           frost: "#FFFFFF",
           silver: "#5B6978",
           line: "#B5E7E3",
-          sand: "#FF6B6B"
+          sand: "#BDF4EF"
         }
       },
       boxShadow: {

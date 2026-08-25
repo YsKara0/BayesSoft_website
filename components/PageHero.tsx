@@ -13,7 +13,7 @@ export function PageHero({ eyebrow, title, children }: PageHeroProps) {
       <div className="absolute -right-32 top-10 size-96 rounded-full bg-bayes-teal/15 blur-3xl" />
       <div className="relative mx-auto max-w-7xl">
         <div className="mb-8 flex items-center gap-3">
-          <span className="size-3 rounded-full bg-bayes-coral shadow-[0_0_0_6px_rgba(255,107,107,0.12)]" aria-hidden="true" />
+          <span className="size-3 rounded-full bg-bayes-teal shadow-[0_0_0_6px_rgba(0,196,182,0.14)]" aria-hidden="true" />
           <p className="font-label text-xs font-semibold uppercase tracking-[0.2em] text-bayes-blue">
             {eyebrow}
           </p>

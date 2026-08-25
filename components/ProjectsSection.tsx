@@ -86,7 +86,7 @@ export function ProjectsSection() {
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="group/link inline-flex h-11 flex-1 items-center justify-center gap-2 rounded-xl bg-bayes-coral px-4 font-label text-xs font-semibold uppercase tracking-[0.12em] text-white transition group-hover:bg-bayes-paper group-hover:text-bayes-ink"
+                      className="group/link inline-flex h-11 flex-1 items-center justify-center gap-2 rounded-lg border border-bayes-ink bg-bayes-ink px-4 font-label text-xs font-semibold uppercase tracking-[0.12em] text-white transition duration-200 hover:-translate-y-0.5 group-hover:border-bayes-teal group-hover:bg-bayes-teal group-hover:text-bayes-ink"
                     >
                       {copy.projects.live}
                       <ArrowUpRight className="size-4 transition duration-100 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />

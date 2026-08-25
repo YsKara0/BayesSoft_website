@@ -57,7 +57,7 @@ export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; 
         </header>
 
         {isCompact ? <div className="mt-6 flex items-start gap-3 rounded-2xl border border-bayes-teal/25 bg-bayes-aqua p-5 text-sm leading-7 text-bayes-deep"><LockKeyhole className="mt-1 size-4 shrink-0 text-bayes-blue" />{labels.compactNotice}</div> : null}
-        {view.note ? <div className="mt-6 rounded-2xl border border-bayes-coral/30 bg-bayes-coral/10 p-6"><p className="font-label text-[10px] font-semibold uppercase tracking-[0.14em] text-bayes-coral">{labels.privacy}</p><p className="mt-3 text-sm leading-7 text-bayes-ink">{view.note}</p></div> : null}
+        {view.note ? <div className="mt-6 rounded-2xl border border-bayes-teal/35 bg-bayes-aqua p-6"><p className="font-label text-[10px] font-semibold uppercase tracking-[0.14em] text-bayes-blue">{labels.privacy}</p><p className="mt-3 text-sm leading-7 text-bayes-ink">{view.note}</p></div> : null}
 
         <div className="mt-10 grid gap-8 lg:grid-cols-[1fr_360px]">
           <div className="space-y-6">
@@ -143,7 +143,7 @@ export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; 
             <section className="rounded-[1.5rem] bg-bayes-ink p-6 text-white shadow-premium-lg">
               <h2 className="font-subheading text-xl text-bayes-teal">{labels.features}</h2>
               <ul className="mt-5 space-y-4">
-                {view.keyFeatures.map((feature) => <li key={feature} className="border-l-2 border-bayes-coral pl-4 text-sm leading-7 text-white/70">{feature}</li>)}
+                {view.keyFeatures.map((feature) => <li key={feature} className="border-l-2 border-bayes-teal pl-4 text-sm leading-7 text-white/70">{feature}</li>)}
               </ul>
             </section>
 
@@ -153,8 +153,8 @@ export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; 
             </section>
 
             {(liveUrl || sourceUrl) ? <div className="grid gap-3">
-              {liveUrl ? <a href={liveUrl} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-bayes-coral px-5 font-label text-xs font-semibold uppercase tracking-[0.12em] text-white transition hover:bg-bayes-ink">{labels.live}<ArrowUpRight className="size-4" /></a> : null}
-              {sourceUrl ? <a href={sourceUrl} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-bayes-ink/15 bg-white px-5 font-label text-xs font-semibold uppercase tracking-[0.12em] text-bayes-ink transition hover:border-bayes-teal hover:bg-bayes-aqua">{labels.source}<Code2 className="size-4" /></a> : null}
+              {liveUrl ? <a href={liveUrl} target="_blank" rel="noopener noreferrer" className="action-primary gap-2 px-5">{labels.live}<ArrowUpRight className="size-4" /></a> : null}
+              {sourceUrl ? <a href={sourceUrl} target="_blank" rel="noopener noreferrer" className="action-secondary gap-2 px-5">{labels.source}<Code2 className="size-4" /></a> : null}
             </div> : null}
           </aside>
         </div>

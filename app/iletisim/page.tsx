@@ -181,7 +181,7 @@ export default function ContactPage() {
                 <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue group-hover:text-bayes-mint">
                   {form.emailLabel}
                 </p>
-                <h2 className="font-subheading mt-4 break-all text-2xl">{siteConfig.contactEmail}</h2>
+                <h3 className="font-subheading mt-4 break-all text-2xl">{siteConfig.contactEmail}</h3>
               </div>
               <ArrowUpRight className="size-5 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </a>
@@ -195,7 +195,7 @@ export default function ContactPage() {
                 <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue group-hover:text-bayes-mint">
                   GitHub
                 </p>
-                <h2 className="font-subheading mt-4 text-3xl">{form.code}</h2>
+                <h3 className="font-subheading mt-4 text-3xl">{form.code}</h3>
               </div>
               <ArrowUpRight className="size-5 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </a>
@@ -209,7 +209,7 @@ export default function ContactPage() {
                 <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue group-hover:text-bayes-mint">
                   LinkedIn
                 </p>
-                <h2 className="font-subheading mt-4 text-3xl">{form.profile}</h2>
+                <h3 className="font-subheading mt-4 text-3xl">{form.profile}</h3>
               </div>
               <ArrowUpRight className="size-5 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </a>

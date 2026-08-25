@@ -29,15 +29,15 @@ export function Footer() {
         <div className="relative grid gap-10 border-b border-white/10 pb-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
           <div>
             <Logo variant="light" large />
-            <h2 className="font-display mt-8 max-w-2xl text-4xl leading-[1.08] text-white md:text-6xl">
+            <p className="font-display mt-8 max-w-2xl text-4xl leading-[1.08] text-white md:text-6xl">
               {copy.footer.statement}
-            </h2>
+            </p>
           </div>
 
           <div className="lg:justify-self-end">
             <a
               href={contactHref}
-              className="group inline-flex min-h-12 items-center justify-center gap-3 rounded-xl bg-bayes-coral px-5 font-label text-xs font-semibold uppercase tracking-[0.12em] text-white transition hover:-translate-y-0.5 hover:bg-white hover:text-bayes-ink"
+              className="action-primary-on-dark group px-5"
             >
               <Mail className="size-4" />
               {siteConfig.contactEmail}

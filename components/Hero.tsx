@@ -69,14 +69,14 @@ export function Hero() {
           <motion.div variants={revealItem} className="mt-9 flex flex-col gap-3 sm:flex-row">
             <Link
               href="/iletisim"
-              className="group inline-flex min-h-[52px] items-center justify-center gap-3 rounded-xl bg-bayes-coral px-6 font-label text-xs font-semibold uppercase tracking-[0.12em] text-white shadow-premium-lg transition hover:-translate-y-1 hover:bg-white hover:text-bayes-ink"
+              className="action-primary-on-dark group min-h-[52px]"
             >
               {copy.hero.primary}
               <ArrowUpRight className="size-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </Link>
             <Link
               href="/hizmetler"
-              className="inline-flex min-h-[52px] items-center justify-center rounded-xl border border-white/25 bg-white/10 px-6 font-label text-xs font-semibold uppercase tracking-[0.12em] text-white backdrop-blur-md transition hover:-translate-y-1 hover:border-bayes-teal hover:bg-bayes-teal hover:text-bayes-ink"
+              className="action-secondary-on-dark min-h-[52px] backdrop-blur-md"
             >
               {copy.hero.secondary}
             </Link>

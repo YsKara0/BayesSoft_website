@@ -2,6 +2,7 @@
 
 import { PageHero } from "@/components/PageHero";
 import { ProjectsSection } from "@/components/ProjectsSection";
+import { CallToAction } from "@/components/CallToAction";
 import { useLanguage } from "@/components/LanguageProvider";
 
 export default function ProjectsPage() {
@@ -14,6 +15,7 @@ export default function ProjectsPage() {
         {page.body}
       </PageHero>
       <ProjectsSection />
+      <CallToAction />
     </main>
   );
 }

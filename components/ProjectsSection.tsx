@@ -15,19 +15,17 @@ export function ProjectsSection() {
   return (
     <section className="theme-section-primary relative px-5 py-20 md:px-8 md:py-28">
       <div className="mx-auto max-w-7xl">
-        <SectionIntro eyebrow={copy.projects.eyebrow} title={copy.projects.title}>
+        <SectionIntro eyebrow={copy.projects.eyebrow} title={copy.projects.title} align="left">
           {copy.projects.intro}
         </SectionIntro>
 
-        <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+        <div className="border-t border-bayes-ink/15">
           {localizedProjects.map((project, index) => (
-            <Reveal key={project.title} delay={(index % 3) * 0.03} className="h-full">
-              <article className="group flex h-full min-h-[370px] flex-col rounded-[1.5rem] border border-bayes-ink/10 bg-bayes-paper p-6 shadow-premium-sm transition duration-300 hover:-translate-y-1 hover:bg-bayes-ink hover:text-bayes-paper hover:shadow-premium-lg md:p-7">
-                <div className="mb-7 flex items-start justify-between gap-4">
-                  <span className="border border-current px-3 py-1.5 font-label text-[11px] font-semibold uppercase tracking-[0.14em] text-bayes-blue group-hover:text-bayes-mint">
-                    {project.domain}
-                  </span>
-                  <span className="flex size-11 items-center justify-center rounded-xl border border-current">
+            <Reveal key={project.title}>
+              <article className="group grid gap-7 border-b border-bayes-ink/15 py-10 md:py-12 lg:grid-cols-[110px_.85fr_1.15fr] lg:gap-10">
+                <div className="flex items-start justify-between lg:block">
+                  <span className="font-display text-5xl leading-none text-bayes-ink/20">{String(index + 1).padStart(2, "0")}</span>
+                  <span className="mt-1 flex size-11 items-center justify-center rounded-full border border-bayes-ink/15 text-bayes-blue transition group-hover:border-bayes-teal group-hover:bg-bayes-aqua lg:mt-8">
                     {project.liveUrl ? (
                       <ExternalLink className="size-5" strokeWidth={1.5} />
                     ) : (
@@ -36,20 +34,20 @@ export function ProjectsSection() {
                   </span>
                 </div>
 
-                {project.hasDetailsPage ? (
-                  <Link href={`/projeler/${project.slug}`} className="hover:text-bayes-blue group-hover:hover:text-bayes-mint transition duration-100">
-                    <h3 className="font-subheading text-3xl leading-tight hover:underline">{project.title}</h3>
-                  </Link>
-                ) : (
-                  <h3 className="font-subheading text-3xl leading-tight">{project.title}</h3>
-                )}
+                <div>
+                  <span className="font-label text-[10px] font-semibold uppercase tracking-[.16em] text-bayes-blue">{project.domain}</span>
+                  {project.hasDetailsPage ? <Link href={`/projeler/${project.slug}`}><h3 className="font-subheading mt-4 text-3xl leading-tight text-bayes-ink transition hover:text-bayes-blue md:text-4xl">{project.title}</h3></Link> : <h3 className="font-subheading mt-4 text-3xl leading-tight text-bayes-ink md:text-4xl">{project.title}</h3>}
+                  <div className="mt-7 flex flex-wrap gap-2">
+                    {project.technologies.slice(0, 4).map((tech) => <span key={tech} className="rounded-full border border-bayes-ink/10 px-3 py-2 font-label text-[9px] uppercase tracking-[.1em] text-bayes-silver">{tech}</span>)}
+                  </div>
+                </div>
 
-                <div className="mt-6 grid gap-5">
+                <div className="grid gap-5 lg:border-l lg:border-bayes-ink/10 lg:pl-9">
                   <div>
                     <p className="font-label text-[10px] font-semibold uppercase tracking-[0.14em] text-bayes-blue group-hover:text-bayes-mint">
                       {copy.projects.problem}
                     </p>
-                    <p className="mt-2 text-sm leading-7 text-bayes-silver group-hover:text-bayes-aqua">
+                    <p className="mt-2 text-sm leading-7 text-bayes-silver">
                       {project.problem}
                     </p>
                   </div>
@@ -57,21 +55,21 @@ export function ProjectsSection() {
                     <p className="font-label text-[10px] font-semibold uppercase tracking-[0.14em] text-bayes-blue group-hover:text-bayes-mint">
                       {copy.projects.solution}
                     </p>
-                    <p className="mt-2 text-sm leading-7 text-bayes-silver group-hover:text-bayes-aqua">
+                    <p className="mt-2 text-sm leading-7 text-bayes-silver">
                       {project.summary}
                     </p>
                   </div>
-                  <div className="border-l-4 border-bayes-teal pl-4 group-hover:border-bayes-paper">
+                  <div className="border-l-2 border-bayes-teal pl-4">
                     <p className="font-label text-[10px] font-semibold uppercase tracking-[0.14em] text-bayes-blue group-hover:text-bayes-mint">
                       {copy.projects.impact}
                     </p>
-                    <p className="mt-2 text-sm leading-7 text-bayes-deep group-hover:text-bayes-paper">
+                    <p className="mt-2 text-sm leading-7 text-bayes-deep">
                       {project.impact}
                     </p>
                   </div>
                 </div>
 
-                <div className="mt-auto flex gap-2 pt-8">
+                <div className="flex flex-wrap gap-2 lg:col-start-3 lg:pl-9">
                   {project.hasDetailsPage ? (
                     <Link
                       href={`/projeler/${project.slug}`}

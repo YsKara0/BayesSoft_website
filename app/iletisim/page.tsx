@@ -61,10 +61,10 @@ export default function ContactPage() {
       </PageHero>
 
       <section className="theme-section-primary px-5 py-20 md:px-8 md:py-28">
-        <div className="mx-auto grid max-w-7xl gap-px border border-bayes-ink bg-bayes-ink lg:grid-cols-[1.15fr_0.85fr]">
+        <div className="mx-auto grid max-w-7xl gap-6 lg:grid-cols-[1.15fr_0.85fr]">
           <form
             onSubmit={handleSubmit}
-            className="bg-bayes-paper p-7 md:p-9"
+            className="rounded-[2rem] border border-bayes-ink/10 bg-white p-7 shadow-premium-sm md:p-10"
           >
             <div className="mb-8 flex items-start justify-between gap-6">
               <div>
@@ -87,7 +87,7 @@ export default function ContactPage() {
                   name="full_name"
                   autoComplete="name"
                   required
-                  className="min-h-12 border-2 border-bayes-ink bg-bayes-paper px-4 text-base text-bayes-ink outline-none transition duration-100 focus:border-b-4"
+                  className="min-h-12 rounded-xl border border-bayes-ink/15 bg-bayes-frost px-4 text-base text-bayes-ink outline-none transition focus:border-bayes-teal focus:ring-4 focus:ring-bayes-teal/10"
                 />
               </label>
               <label className="grid gap-2">
@@ -99,7 +99,7 @@ export default function ContactPage() {
                   type="email"
                   autoComplete="email"
                   required
-                  className="min-h-12 border-2 border-bayes-ink bg-bayes-paper px-4 text-base text-bayes-ink outline-none transition duration-100 focus:border-b-4"
+                  className="min-h-12 rounded-xl border border-bayes-ink/15 bg-bayes-frost px-4 text-base text-bayes-ink outline-none transition focus:border-bayes-teal focus:ring-4 focus:ring-bayes-teal/10"
                 />
               </label>
               <label className="grid gap-2">
@@ -108,7 +108,7 @@ export default function ContactPage() {
                 </span>
                 <select
                   name="project_type"
-                  className="min-h-12 border-2 border-bayes-ink bg-bayes-paper px-4 text-base text-bayes-ink outline-none transition duration-100 focus:border-b-4"
+                  className="min-h-12 rounded-xl border border-bayes-ink/15 bg-bayes-frost px-4 text-base text-bayes-ink outline-none transition focus:border-bayes-teal focus:ring-4 focus:ring-bayes-teal/10"
                   defaultValue={form.types[0]}
                 >
                   {form.types.map((type) => <option key={type}>{type}</option>)}
@@ -121,7 +121,7 @@ export default function ContactPage() {
                 <input
                   name="budget_timeline"
                   placeholder={form.budgetPlaceholder}
-                  className="min-h-12 border-2 border-bayes-ink bg-bayes-paper px-4 text-base text-bayes-ink outline-none transition duration-100 placeholder:text-bayes-silver focus:border-b-4"
+                  className="min-h-12 rounded-xl border border-bayes-ink/15 bg-bayes-frost px-4 text-base text-bayes-ink outline-none transition placeholder:text-bayes-silver focus:border-bayes-teal focus:ring-4 focus:ring-bayes-teal/10"
                 />
               </label>
               <label className="grid gap-2 md:col-span-2">
@@ -133,7 +133,7 @@ export default function ContactPage() {
                   required
                   rows={6}
                   placeholder={form.messagePlaceholder}
-                  className="resize-y border-2 border-bayes-ink bg-bayes-paper px-4 py-3 text-base leading-8 text-bayes-ink outline-none transition duration-100 placeholder:text-bayes-silver focus:border-b-4"
+                  className="resize-y rounded-xl border border-bayes-ink/15 bg-bayes-frost px-4 py-3 text-base leading-8 text-bayes-ink outline-none transition placeholder:text-bayes-silver focus:border-bayes-teal focus:ring-4 focus:ring-bayes-teal/10"
                 />
               </label>
             </div>
@@ -159,7 +159,7 @@ export default function ContactPage() {
               <button
                 type="submit"
                 disabled={formStatus === "sending"}
-                className="inline-flex min-h-12 items-center justify-center gap-3 border-2 border-bayes-ink bg-bayes-ink px-6 font-label text-xs font-semibold uppercase tracking-[0.14em] text-bayes-paper transition duration-100 hover:bg-bayes-paper hover:text-bayes-ink disabled:cursor-wait disabled:opacity-65"
+                className="action-primary gap-3 px-6 disabled:cursor-wait disabled:opacity-65"
               >
                 {formStatus === "sending" ? form.sending : form.send}
                 {formStatus === "sending" ? (
@@ -171,14 +171,14 @@ export default function ContactPage() {
             </div>
           </form>
 
-          <div className="grid gap-px bg-bayes-ink">
+          <div className="grid gap-4">
             <a
               href={contactHref}
-              className="group flex min-h-[220px] flex-col justify-between bg-bayes-paper p-7 transition duration-100 hover:bg-bayes-ink hover:text-bayes-paper"
+              className="group flex min-h-[200px] flex-col justify-between rounded-[1.5rem] bg-bayes-ink p-7 text-white shadow-premium-lg transition duration-300 hover:-translate-y-1"
             >
               <Mail className="size-8" strokeWidth={1.5} />
               <div>
-                <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue group-hover:text-bayes-mint">
+                <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-mint">
                   {form.emailLabel}
                 </p>
                 <h3 className="font-subheading mt-4 break-all text-2xl">{siteConfig.contactEmail}</h3>
@@ -188,11 +188,11 @@ export default function ContactPage() {
 
             <a
               href={siteConfig.githubUrl}
-              className="group flex min-h-[220px] flex-col justify-between bg-bayes-paper p-7 transition duration-100 hover:bg-bayes-ink hover:text-bayes-paper"
+              className="group flex min-h-[190px] flex-col justify-between rounded-[1.5rem] border border-bayes-ink/10 bg-white p-7 shadow-premium-sm transition duration-300 hover:-translate-y-1 hover:border-bayes-teal"
             >
               <Github className="size-8" strokeWidth={1.5} />
               <div>
-                <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue group-hover:text-bayes-mint">
+                <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue">
                   GitHub
                 </p>
                 <h3 className="font-subheading mt-4 text-3xl">{form.code}</h3>
@@ -202,11 +202,11 @@ export default function ContactPage() {
 
             <a
               href={siteConfig.linkedinUrl}
-              className="group flex min-h-[220px] flex-col justify-between bg-bayes-paper p-7 transition duration-100 hover:bg-bayes-ink hover:text-bayes-paper"
+              className="group flex min-h-[190px] flex-col justify-between rounded-[1.5rem] border border-bayes-ink/10 bg-white p-7 shadow-premium-sm transition duration-300 hover:-translate-y-1 hover:border-bayes-teal"
             >
               <Linkedin className="size-8" strokeWidth={1.5} />
               <div>
-                <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue group-hover:text-bayes-mint">
+                <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue">
                   LinkedIn
                 </p>
                 <h3 className="font-subheading mt-4 text-3xl">{form.profile}</h3>
@@ -216,7 +216,7 @@ export default function ContactPage() {
           </div>
         </div>
 
-        <div className="mx-auto mt-10 max-w-7xl border-4 border-bayes-ink bg-bayes-aqua p-7 md:p-10">
+        <div className="mx-auto mt-10 max-w-7xl rounded-[2rem] border border-bayes-teal/30 bg-bayes-aqua p-7 md:p-10">
           <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue">
             {form.social}
           </p>
@@ -226,7 +226,7 @@ export default function ContactPage() {
                 key={social.label}
                 href={social.href}
                 aria-label={`BayesSoft ${social.label}`}
-                className="flex min-h-11 items-center gap-3 border border-bayes-ink bg-bayes-paper px-4 font-label text-xs font-semibold uppercase tracking-[0.12em] text-bayes-ink transition duration-100 hover:bg-bayes-ink hover:text-bayes-paper"
+                className="flex min-h-11 items-center gap-3 rounded-xl border border-bayes-ink/15 bg-white px-4 font-label text-xs font-semibold uppercase tracking-[0.12em] text-bayes-ink transition hover:border-bayes-ink hover:bg-bayes-ink hover:text-white"
               >
                 <SocialIcon icon={social.icon} className="size-4" />
                 {social.label}

@@ -54,7 +54,7 @@ export function TeamSection() {
         </SectionIntro>
 
         <div
-          className="mb-7 grid grid-cols-5 border border-bayes-ink bg-bayes-ink"
+          className="mb-7 grid grid-cols-5 overflow-hidden rounded-2xl border border-bayes-ink/15 bg-bayes-ink/10"
           aria-label="BAYES"
           onMouseLeave={() => setActiveMemberId(null)}
         >
@@ -96,7 +96,7 @@ export function TeamSection() {
                 transition={{ duration: 0.28, delay: index * 0.04 }}
                 onFocus={() => setActiveMemberId(member.id)}
                 onMouseEnter={() => setActiveMemberId(member.id)}
-                className="group relative isolate aspect-[4/5] overflow-hidden border border-bayes-ink bg-bayes-ink shadow-[0_18px_45px_rgba(6,39,45,0.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(6,39,45,0.18)] focus-within:-translate-y-1 focus-within:shadow-[0_24px_60px_rgba(6,39,45,0.18)]"
+                className="group relative isolate aspect-[4/5] overflow-hidden rounded-[1.5rem] border border-bayes-ink/10 bg-bayes-ink shadow-[0_18px_45px_rgba(6,39,45,0.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(6,39,45,0.18)] focus-within:-translate-y-1 focus-within:shadow-[0_24px_60px_rgba(6,39,45,0.18)]"
               >
                 <Image
                   src={member.image}
@@ -160,7 +160,7 @@ export function TeamSection() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 18, scale: 0.98 }}
             transition={{ duration: 0.2 }}
-            className="max-h-[90vh] w-full max-w-3xl overflow-y-auto border border-bayes-ink bg-bayes-paper text-bayes-ink shadow-[0_28px_90px_rgba(0,0,0,0.28)]"
+            className="max-h-[90vh] w-full max-w-3xl overflow-y-auto rounded-[2rem] border border-bayes-ink/10 bg-bayes-paper text-bayes-ink shadow-[0_28px_90px_rgba(0,0,0,0.28)]"
           >
             <div className="grid md:grid-cols-[0.78fr_1fr]">
               <div className="relative min-h-[320px] border-b border-bayes-ink md:border-b-0 md:border-r">

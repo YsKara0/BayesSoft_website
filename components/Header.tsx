@@ -11,9 +11,9 @@ import { localeOptions, type Locale } from "@/data/i18n";
 
 const navItems = [
   { key: "home", href: "/" },
-  { key: "about", href: "/hakkimizda" },
-  { key: "services", href: "/hizmetler" },
   { key: "projects", href: "/projeler" },
+  { key: "services", href: "/hizmetler" },
+  { key: "about", href: "/hakkimizda" },
 ] as const;
 
 const localeFlagClasses: Record<Locale, string> = {
@@ -103,6 +103,7 @@ export function Header() {
   const [scrolled, setScrolled] = useState(false);
   const { scrollYProgress } = useScroll();
   const scaleX = useTransform(scrollYProgress, [0, 1], [0, 1]);
+  const hasDarkPageHero = ["/", "/hakkimizda", "/hizmetler", "/projeler", "/iletisim"].includes(pathname);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -117,7 +118,7 @@ export function Header() {
     <header className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled ? "theme-header-scrolled border-b border-bayes-ink/10 shadow-premium-sm backdrop-blur-xl" : "bg-transparent"}`}>
       <motion.div className="absolute inset-x-0 bottom-0 h-0.5 origin-left bg-bayes-teal" style={{ scaleX }} />
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 md:px-8" aria-label="Main navigation">
-        <Logo variant={pathname === "/" && !scrolled ? "light" : "dark"} />
+        <Logo variant={hasDarkPageHero && !scrolled ? "light" : "dark"} />
 
         <div className="hidden items-center gap-1 rounded-2xl border border-white/25 bg-white/60 p-1.5 shadow-premium-sm backdrop-blur-xl lg:flex">
           {navItems.map((item) => {

@@ -1,20 +1,24 @@
 import { CallToAction } from "@/components/CallToAction";
-import { FeaturedProjects } from "@/components/FeaturedProjects";
+import { CapabilitiesSection } from "@/components/CapabilitiesSection";
+import { ClientsSection } from "@/components/ClientsSection";
+import { FeaturedCaseStudy } from "@/components/FeaturedCaseStudy";
 import { Hero } from "@/components/Hero";
+import { OneTeamSection } from "@/components/OneTeamSection";
 import { ProcessSection } from "@/components/ProcessSection";
-import { ReferencesTicker } from "@/components/ReferencesTicker";
-import { ServicesOverview } from "@/components/ServicesOverview";
-import { WhyChooseUs } from "@/components/WhyChooseUs";
+import { SelectedWorkSection } from "@/components/SelectedWorkSection";
+import { WebToMobileTransition } from "@/components/WebToMobileTransition";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <ServicesOverview />
-      <WhyChooseUs />
-      <FeaturedProjects />
-      <ReferencesTicker />
+      <WebToMobileTransition />
+      <CapabilitiesSection />
+      <FeaturedCaseStudy />
+      <SelectedWorkSection />
+      <ClientsSection />
       <ProcessSection />
+      <OneTeamSection />
       <CallToAction />
     </main>
   );

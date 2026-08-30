@@ -8,12 +8,12 @@ import "flag-icons/css/flag-icons.min.css";
 import "./globals.css";
 
 const homeTitle =
-  "BayesSoft | Kurumsal Yazılım, Mobil Uygulama ve Yapay Zekâ";
+  "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ";
 
 const homeMetadata = createPageMetadata({
   title: homeTitle,
   description:
-    "BayesSoft; kurumsal yazılım, mobil uygulama, yapay zekâ ve bulut çözümlerini fikirden canlıya taşıyan ürün mühendisliği ekibidir.",
+    "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir.",
   path: "/",
   keywords: [
     "BayesSoft",

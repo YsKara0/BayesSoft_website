@@ -3,9 +3,9 @@
   display: flex;
   min-height: 100svh;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   overflow: hidden;
-  padding: 9rem 1.5rem 5rem;
+  padding: 8.5rem 1.5rem 5rem;
   background-color: #060A10;
   color: white;
 }
@@ -29,55 +29,23 @@
   min-height: 100%;
   object-fit: cover;
   transform: translate(-50%, -50%);
-  opacity: 0.9;
+  opacity: 1;
+  filter: saturate(0.5) brightness(0.75) contrast(1.15);
 }
 
-/* Layer 1: Balanced Dark Navy Color Grade & Tint (60% opacity) */
+/* High-Performance Gradient Overlay (Zero backdrop-filter blur for silky smooth 60fps playback) */
 .overlayTint {
   position: absolute;
   inset: 0;
   z-index: 2;
-  background: rgba(6, 10, 16, 0.60);
-  pointer-events: none;
-}
-
-/* Layer 2: Subtle Radial Vignette & Edge Feathering */
-.overlayVignette {
-  position: absolute;
-  inset: 0;
-  z-index: 3;
-  background:
-    radial-gradient(ellipse at 50% 50%, rgba(6, 10, 16, 0.15) 0%, rgba(6, 10, 16, 0.75) 75%, #060A10 100%),
-    linear-gradient(to bottom, rgba(6, 10, 16, 0.5) 0%, transparent 20%, transparent 80%, #060A10 100%);
-  pointer-events: none;
-}
-
-/* Layer 3: Tech Grid Overlay */
-.overlayGrid {
-  position: absolute;
-  inset: 0;
-  z-index: 4;
-  pointer-events: none;
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
-  background-size: 48px 48px;
-  mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 85%);
-}
-
-/* Layer 4: Ambient Blue Glow Spotlight */
-.ambientGlow {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  z-index: 5;
-  width: 70vw;
-  max-width: 850px;
-  height: 450px;
-  transform: translate(-50%, -50%);
-  border-radius: 9999px;
-  background: radial-gradient(circle, rgba(0, 102, 255, 0.16) 0%, transparent 70%);
-  filter: blur(60px);
+  background: linear-gradient(
+    to right,
+    rgba(4, 6, 8, 0.95) 0%,
+    rgba(4, 6, 8, 0.85) 30%,
+    rgba(6, 10, 16, 0.60) 55%,
+    rgba(6, 10, 16, 0.20) 80%,
+    transparent 100%
+  );
   pointer-events: none;
 }
 
@@ -86,11 +54,25 @@
   z-index: 10;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
   width: 100%;
-  max-width: 1040px;
+  max-width: 1280px;
   margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Strong text shadow for maximum legibility */
+.headline {
+  text-shadow:
+    0 2px 10px rgba(0, 0, 0, 0.95),
+    0 8px 30px rgba(0, 0, 0, 0.85);
+}
+
+.subtitle {
+  text-shadow:
+    0 1px 6px rgba(0, 0, 0, 0.9),
+    0 4px 16px rgba(0, 0, 0, 0.8);
 }
 
 .signal {
@@ -117,6 +99,8 @@
   .hero {
     padding-top: 8rem;
     padding-bottom: 4.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
 
@@ -124,5 +108,7 @@
   .hero {
     padding-top: 7rem;
     padding-bottom: 3.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }

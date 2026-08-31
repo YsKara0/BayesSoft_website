@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowDown, ArrowUpRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { useLanguage } from "@/components/LanguageProvider";
 import { homeCopy } from "@/data/home";
@@ -12,14 +12,14 @@ const container = {
   hidden: {},
   visible: {
     transition: {
-      delayChildren: 0.2,
-      staggerChildren: 0.14,
+      delayChildren: 0.15,
+      staggerChildren: 0.12,
     },
   },
 };
 
 const revealItem = {
-  hidden: { opacity: 0, y: 28, filter: "blur(8px)" },
+  hidden: { opacity: 0, y: 24, filter: "blur(6px)" },
   visible: {
     opacity: 1,
     y: 0,
@@ -41,55 +41,45 @@ export function Hero() {
           initial="hidden"
           animate="visible"
         >
-          {/* Eyebrow */}
-          <motion.p variants={revealItem} className="font-label mb-6 flex items-center gap-3 text-[10px] font-semibold uppercase tracking-[0.2em] text-bayes-blue md:text-xs">
-            <span className="size-2 rounded-none bg-bayes-blue shadow-[0_0_12px_#0066FF]" />
-            {copy.eyebrow}
-          </motion.p>
-
-          {/* Punchy Main Headline */}
-          <motion.div variants={revealItem} className="overflow-hidden pb-1">
-            <h1 className="font-display max-w-4xl text-[clamp(2.85rem,5.8vw,5.9rem)] leading-[0.95] tracking-tight text-white">
+          {/* Main Headline - Solid White, Compact Tracking-Tighter & Extra Bold */}
+          <motion.div variants={revealItem} className="pb-1 text-left">
+            <h1 className="font-display max-w-4xl text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[1.02] tracking-tighter text-white drop-shadow-2xl">
               {copy.titleLead}{" "}
-              <span className="text-bayes-blue drop-shadow-[0_0_24px_rgba(0,102,255,0.4)]">{copy.titleAccent}</span>
+              <span className="text-white">{copy.titleAccent}</span>
             </h1>
           </motion.div>
 
-          {/* Simplified Single High-Impact Subtitle */}
-          <motion.p variants={revealItem} className="mt-6 max-w-2xl text-lg leading-relaxed text-bayes-silver md:text-xl md:leading-8">
+          {/* Clean Subtitle */}
+          <motion.p
+            variants={revealItem}
+            className="mt-6 max-w-2xl text-left text-base sm:text-lg lg:text-xl font-normal leading-relaxed text-gray-300 drop-shadow-md"
+          >
             {copy.body}
           </motion.p>
 
-          {/* Sharp Modern Buttons */}
-          <motion.div variants={revealItem} className="mt-9 flex flex-col gap-3 sm:flex-row">
+          {/* Sharp Modern Buttons - Solid Matte White Primary & Glassmorphism Secondary */}
+          <motion.div
+            variants={revealItem}
+            className="mt-9 flex flex-col items-stretch gap-3.5 sm:flex-row sm:items-center"
+          >
             <Link
               href="/iletisim"
-              className="action-primary-on-dark group min-h-[52px]"
+              className="group inline-flex min-h-[48px] items-center justify-center gap-2.5 px-7 border border-white bg-white text-[#040608] text-xs sm:text-sm font-semibold uppercase tracking-wider hover:bg-gray-200 hover:-translate-y-0.5 transition-all duration-200 shadow-xl shadow-black/50"
             >
               {copy.primary}
               <ArrowUpRight className="size-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </Link>
             <Link
               href="/projeler"
-              className="action-secondary-on-dark min-h-[52px] backdrop-blur-md"
+              className="group inline-flex min-h-[48px] items-center justify-center gap-2.5 px-7 border border-white/15 bg-white/5 text-white backdrop-blur-md text-xs sm:text-sm font-semibold uppercase tracking-wider hover:bg-white/10 hover:border-white/30 hover:-translate-y-0.5 transition-all duration-200 shadow-xl shadow-black/50"
             >
               {copy.secondary}
-              <ArrowUpRight className="size-4" />
+              <ArrowUpRight className="size-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </Link>
-          </motion.div>
-
-          {/* Modern Engineering Telemetry Tag */}
-          <motion.div variants={revealItem} className="mt-12 flex items-center gap-4 text-white/50">
-            <span className="flex size-9 items-center justify-center rounded-none border border-white/15 bg-white/5 text-white/70">
-              <ArrowDown className="size-4 animate-bounce" aria-hidden="true" />
-            </span>
-            <span className="font-label text-[10px] uppercase tracking-[0.18em] text-white/60">Web · Mobile · AI</span>
-            <span className="text-white/20">|</span>
-            <div className={styles.signal}>{copy.signal}</div>
           </motion.div>
         </motion.div>
 
-        {/* Visual Concept 1: Interactive 3D Geometric Tech Mesh */}
+        {/* Visual Concept 1: Interactive 3D Geometric Tech Mesh (Untouched) */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}

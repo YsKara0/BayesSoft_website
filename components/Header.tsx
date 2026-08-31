@@ -59,7 +59,7 @@ function LanguageSwitch({ compact = false }: { compact?: boolean }) {
         aria-expanded={open}
         aria-haspopup="listbox"
         onClick={() => setOpen((current) => !current)}
-        className="flex min-h-10 w-full items-center justify-center gap-1.5 rounded-none border border-white/20 bg-white/5 px-2 text-white shadow-sm backdrop-blur-xl transition hover:border-bayes-blue hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bayes-blue"
+        className="flex min-h-10 w-full items-center justify-center gap-1.5 rounded-none border border-white/15 bg-white/5 px-2 text-white shadow-sm backdrop-blur-xl transition hover:border-white/30 hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/40"
       >
         <span aria-hidden="true" className={`${localeFlagClasses[locale]} language-flag`} />
         <ChevronDown className={`size-3 shrink-0 text-white/50 transition-transform ${open ? "rotate-180" : ""}`} aria-hidden="true" />
@@ -83,7 +83,7 @@ function LanguageSwitch({ compact = false }: { compact?: boolean }) {
                   aria-selected={locale === option}
                   onClick={() => chooseLocale(option)}
                   aria-label={copy.language.names[option]}
-                  className={`flex min-h-10 items-center justify-center rounded-none px-2 transition ${locale === option ? "border border-bayes-blue/40 bg-bayes-blue/20 text-white" : "hover:bg-white/5"}`}
+                  className={`flex min-h-10 items-center justify-center rounded-none px-2 transition ${locale === option ? "border border-white/20 bg-white/10 text-white" : "hover:bg-white/5"}`}
                 >
                   <span aria-hidden="true" className={`${localeFlagClasses[option]} language-flag`} />
                 </button>
@@ -115,7 +115,7 @@ export function Header() {
 
   return (
     <header className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled ? "border-b border-white/10 bg-[#06090E]/90 shadow-premium-sm backdrop-blur-xl" : "bg-transparent"}`}>
-      <motion.div className="absolute inset-x-0 bottom-0 h-0.5 origin-left bg-bayes-blue shadow-[0_0_10px_#0066FF]" style={{ scaleX }} />
+      <motion.div className="absolute inset-x-0 bottom-0 h-[1px] origin-left bg-white/25" style={{ scaleX }} />
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 md:px-8" aria-label="Main navigation">
         <Logo variant="light" />
 
@@ -123,7 +123,15 @@ export function Header() {
           {navItems.map((item) => {
             const active = pathname === item.href;
             return (
-              <Link key={item.href} href={item.href} className={`rounded-none px-4 py-2.5 font-label text-[10px] uppercase tracking-[0.14em] transition ${active ? "bg-bayes-blue text-white shadow-[0_0_15px_rgba(0,102,255,0.4)]" : "text-white/70 hover:bg-white/10 hover:text-white"}`}>
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`rounded-none px-4 py-2 font-mono text-[11px] font-semibold uppercase tracking-wider transition-all duration-200 ${
+                  active
+                    ? "border border-white/15 bg-white/10 text-white shadow-sm"
+                    : "border border-transparent text-white/70 hover:border-white/10 hover:bg-white/10 hover:text-white"
+                }`}
+              >
                 {copy.nav[item.key]}
               </Link>
             );
@@ -132,9 +140,12 @@ export function Header() {
 
         <div className="hidden items-center gap-2 lg:flex">
           <LanguageSwitch />
-          <Link href="/iletisim" className="action-primary group min-h-10 gap-2 px-4 text-[10px]">
+          <Link
+            href="/iletisim"
+            className="group inline-flex min-h-10 items-center justify-center gap-2 rounded-none border border-white/15 bg-white/5 px-4 font-mono text-[11px] font-semibold uppercase tracking-wider text-white backdrop-blur-md transition-all duration-200 hover:border-white/30 hover:bg-white/10 hover:-translate-y-0.5 shadow-sm"
+          >
             {copy.nav.cta}
-            <ArrowUpRight className="size-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+            <ArrowUpRight className="size-3.5 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
         </div>
 
@@ -148,13 +159,25 @@ export function Header() {
           <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} transition={{ duration: 0.2 }} className="border-t border-white/10 bg-[#06090E]/95 px-5 pb-5 shadow-premium-lg backdrop-blur-2xl lg:hidden">
             <div className="mx-auto grid max-w-7xl gap-2 pt-4">
               {navItems.map((item) => (
-                <Link key={item.href} href={item.href} className={`rounded-none border px-4 py-3.5 font-label text-xs uppercase tracking-[0.14em] ${pathname === item.href ? "border-bayes-blue bg-bayes-blue text-white" : "border-white/10 bg-white/5 text-white/70"}`}>
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={`rounded-none border px-4 py-3.5 font-mono text-xs font-semibold uppercase tracking-wider transition ${
+                    pathname === item.href
+                      ? "border-white/20 bg-white/10 text-white"
+                      : "border-white/10 bg-white/5 text-white/70 hover:bg-white/10 hover:text-white"
+                  }`}
+                >
                   {copy.nav[item.key]}
                 </Link>
               ))}
               <LanguageSwitch compact />
-              <Link href="/iletisim" className="action-primary mt-1 px-4 py-4 text-center tracking-[0.14em]">
+              <Link
+                href="/iletisim"
+                className="mt-1 inline-flex min-h-11 items-center justify-center gap-2 rounded-none border border-white/15 bg-white/5 px-4 font-mono text-xs font-semibold uppercase tracking-wider text-white backdrop-blur-md transition hover:bg-white/10"
+              >
                 {copy.nav.cta}
+                <ArrowUpRight className="size-4" />
               </Link>
             </div>
           </motion.div>

@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { Plus_Jakarta_Sans, Inter, JetBrains_Mono } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { LanguageProvider } from "@/components/LanguageProvider";
@@ -6,6 +7,26 @@ import { siteConfig } from "@/data/config";
 import { createPageMetadata } from "@/data/seo";
 import "flag-icons/css/flag-icons.min.css";
 import "./globals.css";
+
+const jakarta = Plus_Jakarta_Sans({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-jakarta",
+  display: "swap",
+  weight: ["300", "400", "500", "600", "700", "800"],
+});
+
+const inter = Inter({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-inter",
+  display: "swap",
+  weight: ["300", "400", "500", "600", "700", "800"],
+});
+
+const mono = JetBrains_Mono({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-mono",
+  display: "swap",
+});
 
 const homeTitle =
   "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ";
@@ -102,8 +123,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr" className="scroll-smooth" data-theme="dark" suppressHydrationWarning>
-      <body className="bg-[#060A10] text-white selection:bg-bayes-blue selection:text-white">
+    <html
+      lang="tr"
+      className={`scroll-smooth ${jakarta.variable} ${inter.variable} ${mono.variable}`}
+      data-theme="dark"
+      suppressHydrationWarning
+    >
+      <body className="bg-[#060A10] text-white selection:bg-bayes-blue selection:text-white font-sans antialiased">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: structuredData }}

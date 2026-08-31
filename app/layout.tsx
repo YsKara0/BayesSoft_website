@@ -92,8 +92,8 @@ const structuredData = JSON.stringify({
 }).replace(/</g, "\\u003c");
 
 export const viewport: Viewport = {
-  themeColor: "#0B192C",
-  colorScheme: "light"
+  themeColor: "#060A10",
+  colorScheme: "dark"
 };
 
 export default function RootLayout({
@@ -102,8 +102,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr" className="scroll-smooth" data-theme="light" suppressHydrationWarning>
-      <body>
+    <html lang="tr" className="scroll-smooth" data-theme="dark" suppressHydrationWarning>
+      <body className="bg-[#060A10] text-white selection:bg-bayes-blue selection:text-white">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: structuredData }}

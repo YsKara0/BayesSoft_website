@@ -10,11 +10,11 @@ type LogoProps = {
   large?: boolean;
 };
 
-export function Logo({ variant = "dark", large = false }: LogoProps) {
+export function Logo({ variant = "light", large = false }: LogoProps) {
   const [logoReady, setLogoReady] = useState(true);
-  const source = variant === "light"
-    ? "/bayes_logo_white_cropped.png"
-    : "/bayes_logo_dark_cropped.png";
+  const source = variant === "dark"
+    ? "/bayes_logo_dark_cropped.png"
+    : "/bayes_logo_white_cropped.png";
 
   return (
     <Link href="/" className="group flex items-center" aria-label="BayesSoft">
@@ -26,7 +26,7 @@ export function Logo({ variant = "dark", large = false }: LogoProps) {
         {logoReady ? (
           <Image
             src={source}
-            alt=""
+            alt="BayesSoft"
             width={1327}
             height={539}
             unoptimized
@@ -34,7 +34,9 @@ export function Logo({ variant = "dark", large = false }: LogoProps) {
             onError={() => setLogoReady(false)}
           />
         ) : (
-          <span className={`font-display text-xl ${variant === "light" ? "text-white" : "text-bayes-ink"}`}>BayesSoft</span>
+          <span className="font-display text-2xl tracking-wider text-white">
+            BAYES<span className="text-bayes-blue">SOFT</span>
+          </span>
         )}
       </motion.span>
     </Link>

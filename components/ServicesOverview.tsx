@@ -17,21 +17,21 @@ export function ServicesOverview({ compact = false }: ServicesOverviewProps) {
 
   if (compact) {
     return (
-      <section className="theme-section-primary border-b border-bayes-ink/10 px-5 py-24 md:px-8 md:py-32">
+      <section className="border-b border-white/10 bg-[#060A10] px-5 py-24 text-white md:px-8 md:py-32">
         <div className="mx-auto max-w-7xl">
           <SectionIntro eyebrow={copy.services.eyebrow} title={copy.services.title} align="left">{copy.services.intro}</SectionIntro>
-          <div className="border-t border-bayes-ink/15">
+          <div className="border-t border-white/15">
             {copy.services.items.map((service, index) => {
               const Icon = icons[index] ?? Code2;
               return (
                 <Reveal key={service.title}>
-                  <article className="group grid gap-6 border-b border-bayes-ink/15 py-10 md:py-12 lg:grid-cols-[110px_.8fr_1.2fr] lg:gap-10">
+                  <article className="group grid gap-6 border-b border-white/10 py-10 transition-colors hover:bg-white/[0.015] md:py-12 lg:grid-cols-[110px_.8fr_1.2fr] lg:gap-10">
                     <div className="flex items-start justify-between lg:block">
-                      <span className="font-display text-5xl leading-none text-bayes-ink/20">0{index + 1}</span>
-                      <span className="mt-1 flex size-11 items-center justify-center rounded-full border border-bayes-ink/15 text-bayes-blue group-hover:border-bayes-teal group-hover:bg-bayes-aqua lg:mt-8"><Icon className="size-5" strokeWidth={1.5} /></span>
+                      <span className="font-display text-5xl leading-none text-white/20 transition group-hover:text-white">0{index + 1}</span>
+                      <span className="mt-1 flex size-11 items-center justify-center rounded-none border border-white/15 bg-white/5 text-white transition group-hover:border-white/40 group-hover:bg-white/10 lg:mt-8"><Icon className="size-5" strokeWidth={1.5} /></span>
                     </div>
-                    <div><h3 className="font-subheading text-3xl leading-tight text-bayes-ink md:text-4xl">{service.title}</h3><p className="mt-5 leading-8 text-bayes-silver">{service.summary}</p></div>
-                    <div className="lg:border-l lg:border-bayes-ink/10 lg:pl-9"><p className="leading-8 text-bayes-deep">{service.outcome}</p><div className="mt-6 flex flex-wrap gap-2">{service.points.map((point) => <span key={point} className="rounded-full border border-bayes-ink/12 bg-bayes-aqua px-3 py-2 font-label text-[9px] uppercase tracking-[.12em] text-bayes-deep">{point}</span>)}</div></div>
+                    <div><h3 className="font-subheading text-3xl leading-tight text-white md:text-4xl">{service.title}</h3><p className="mt-5 leading-8 text-bayes-silver">{service.summary}</p></div>
+                    <div className="lg:border-l lg:border-white/10 lg:pl-9"><p className="leading-8 text-white/85">{service.outcome}</p><div className="mt-6 flex flex-wrap gap-2">{service.points.map((point) => <span key={point} className="rounded-none border border-white/15 bg-white/5 px-3 py-2 font-label text-[9px] uppercase tracking-[.12em] text-white/80">{point}</span>)}</div></div>
                   </article>
                 </Reveal>
               );
@@ -43,7 +43,7 @@ export function ServicesOverview({ compact = false }: ServicesOverviewProps) {
   }
 
   return (
-    <section className="theme-section-primary relative border-b border-bayes-ink/10 px-5 py-20 md:px-8 md:py-28">
+    <section className="relative border-b border-white/10 bg-[#060A10] px-5 py-20 text-white md:px-8 md:py-28">
       <div className="mx-auto max-w-7xl">
         <SectionIntro eyebrow={copy.services.eyebrow} title={copy.services.title}>
           {copy.services.intro}
@@ -55,22 +55,22 @@ export function ServicesOverview({ compact = false }: ServicesOverviewProps) {
 
             return (
               <Reveal key={service.title} delay={index * 0.03} className="h-full">
-                <article className={`group flex h-full flex-col rounded-[1.5rem] border border-bayes-ink/10 bg-bayes-paper p-7 shadow-premium-sm transition duration-300 hover:-translate-y-1 hover:border-bayes-teal/40 hover:bg-bayes-ink hover:text-bayes-paper hover:shadow-premium-lg md:p-8 ${compact ? "min-h-[330px]" : "min-h-[290px]"}`}>
+                <article className={`group flex h-full flex-col rounded-none border border-white/15 bg-[#0C1420] p-7 text-white shadow-premium-sm transition duration-300 hover:-translate-y-1 hover:border-white/30 hover:shadow-premium-lg md:p-8 ${compact ? "min-h-[330px]" : "min-h-[290px]"}`}>
                   <div className={`mb-8 flex items-start gap-4 ${compact ? "justify-between" : "justify-end"}`}>
                     {compact ? (
-                      <span className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue group-hover:text-bayes-mint">
+                      <span className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue">
                         0{index + 1}
                       </span>
                     ) : null}
-                    <span className="flex size-12 items-center justify-center rounded-xl border border-current">
+                    <span className="flex size-12 items-center justify-center rounded-none border border-white/15 bg-white/5 text-white transition group-hover:border-white/30 group-hover:bg-white/10">
                       <Icon className="size-5" strokeWidth={1.5} />
                     </span>
                   </div>
-                  <h3 className="font-subheading text-3xl leading-tight">{service.title}</h3>
-                  <p className="mt-5 text-base leading-8 text-bayes-silver group-hover:text-bayes-aqua">
+                  <h3 className="font-subheading text-3xl leading-tight text-white">{service.title}</h3>
+                  <p className="mt-5 text-base leading-8 text-bayes-silver">
                     {service.summary}
                   </p>
-                  <p className="mt-5 border-l-4 border-bayes-teal pl-4 text-sm leading-7 text-bayes-deep group-hover:border-bayes-paper group-hover:text-bayes-paper">
+                  <p className="mt-5 border-l-2 border-bayes-blue pl-4 text-sm leading-7 text-white/90">
                     {service.outcome}
                   </p>
                   {compact ? (
@@ -78,7 +78,7 @@ export function ServicesOverview({ compact = false }: ServicesOverviewProps) {
                       {service.points.map((point) => (
                         <span
                           key={point}
-                          className="border border-current px-3 py-1.5 font-label text-[11px] uppercase tracking-[0.12em]"
+                          className="border border-white/15 bg-white/5 px-3 py-1.5 font-label text-[11px] uppercase tracking-[0.12em] text-white/80"
                         >
                           {point}
                         </span>

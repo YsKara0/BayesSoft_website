@@ -23,8 +23,8 @@ export function Footer() {
   const { copy } = useLanguage();
 
   return (
-    <footer className="relative overflow-hidden bg-bayes-ink px-5 py-14 text-white md:px-8">
-      <div className="absolute -right-28 -top-28 size-96 rounded-full bg-bayes-teal/10 blur-3xl" />
+    <footer className="relative overflow-hidden bg-[#040608] px-5 py-14 text-white md:px-8">
+      <div className="absolute -right-28 -top-28 size-96 bg-[#0E1A2B]/40 blur-3xl" />
       <div className="mx-auto max-w-7xl">
         <div className="relative grid gap-10 border-b border-white/10 pb-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
           <div>
@@ -49,7 +49,7 @@ export function Footer() {
                   key={social.label}
                   href={social.href}
                   aria-label={`BayesSoft ${social.label}`}
-                  className="flex size-11 items-center justify-center rounded-xl border border-white/15 bg-white/5 text-white transition hover:border-bayes-teal hover:bg-bayes-teal hover:text-bayes-ink"
+                  className="flex size-11 items-center justify-center rounded-none border border-white/15 bg-white/5 text-white transition duration-200 hover:border-white/40 hover:bg-white/10 hover:text-white"
                 >
                   <SocialIcon icon={social.icon} className="size-4" />
                 </a>
@@ -59,10 +59,10 @@ export function Footer() {
         </div>
 
         <div className="relative grid gap-6 pt-7 text-sm text-white/55 md:grid-cols-[1fr_auto] md:items-center">
-          <p>&copy; {new Date().getFullYear()} BayesSoft. {copy.footer.rights}</p>
+          <p>&copy; {new Date().getFullYear()} <span className="font-semibold text-white">BAYES<span className="text-bayes-blue">SOFT</span></span>. {copy.footer.rights}</p>
           <div className="flex flex-wrap gap-x-5 gap-y-2">
             {footerLinks.map((link) => (
-              <Link key={link.href} href={link.href} className="transition hover:text-bayes-teal">
+              <Link key={link.href} href={link.href} className="font-label text-xs uppercase tracking-[0.12em] transition hover:text-bayes-blue">
                 {copy.nav[link.key]}
               </Link>
             ))}

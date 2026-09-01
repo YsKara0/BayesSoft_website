@@ -60,22 +60,22 @@ export default function ContactPage() {
         {page.body}
       </PageHero>
 
-      <section className="theme-section-primary px-5 py-20 md:px-8 md:py-28">
-        <div className="mx-auto grid max-w-7xl gap-px border border-bayes-ink bg-bayes-ink lg:grid-cols-[1.15fr_0.85fr]">
+      <section className="border-b border-white/10 bg-[#060A10] px-5 py-20 text-white md:px-8 md:py-28">
+        <div className="mx-auto grid max-w-7xl gap-6 lg:grid-cols-[1.15fr_0.85fr]">
           <form
             onSubmit={handleSubmit}
-            className="bg-bayes-paper p-7 md:p-9"
+            className="rounded-none border border-white/15 bg-[#0C1420] p-7 shadow-premium-sm md:p-10"
           >
             <div className="mb-8 flex items-start justify-between gap-6">
               <div>
                 <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue">
                   {form.form}
                 </p>
-                <h2 className="font-display mt-4 max-w-2xl text-4xl leading-tight text-bayes-ink md:text-5xl">
+                <h2 className="font-display mt-4 max-w-2xl text-4xl leading-tight text-white md:text-5xl">
                   {form.title}
                 </h2>
               </div>
-              <Send className="hidden size-8 shrink-0 md:block" strokeWidth={1.5} />
+              <Send className="hidden size-8 shrink-0 text-bayes-blue md:block" strokeWidth={1.5} />
             </div>
 
             <div className="grid gap-5 md:grid-cols-2">
@@ -87,7 +87,7 @@ export default function ContactPage() {
                   name="full_name"
                   autoComplete="name"
                   required
-                  className="min-h-12 border-2 border-bayes-ink bg-bayes-paper px-4 text-base text-bayes-ink outline-none transition duration-100 focus:border-b-4"
+                  className="min-h-12 rounded-none border border-white/15 bg-[#080E17] px-4 text-base text-white outline-none transition focus:border-bayes-blue focus:ring-1 focus:ring-bayes-blue"
                 />
               </label>
               <label className="grid gap-2">
@@ -99,7 +99,7 @@ export default function ContactPage() {
                   type="email"
                   autoComplete="email"
                   required
-                  className="min-h-12 border-2 border-bayes-ink bg-bayes-paper px-4 text-base text-bayes-ink outline-none transition duration-100 focus:border-b-4"
+                  className="min-h-12 rounded-none border border-white/15 bg-[#080E17] px-4 text-base text-white outline-none transition focus:border-bayes-blue focus:ring-1 focus:ring-bayes-blue"
                 />
               </label>
               <label className="grid gap-2">
@@ -108,10 +108,10 @@ export default function ContactPage() {
                 </span>
                 <select
                   name="project_type"
-                  className="min-h-12 border-2 border-bayes-ink bg-bayes-paper px-4 text-base text-bayes-ink outline-none transition duration-100 focus:border-b-4"
+                  className="min-h-12 rounded-none border border-white/15 bg-[#080E17] px-4 text-base text-white outline-none transition focus:border-bayes-blue focus:ring-1 focus:ring-bayes-blue"
                   defaultValue={form.types[0]}
                 >
-                  {form.types.map((type) => <option key={type}>{type}</option>)}
+                  {form.types.map((type) => <option key={type} className="bg-[#080E17] text-white">{type}</option>)}
                 </select>
               </label>
               <label className="grid gap-2">
@@ -121,7 +121,7 @@ export default function ContactPage() {
                 <input
                   name="budget_timeline"
                   placeholder={form.budgetPlaceholder}
-                  className="min-h-12 border-2 border-bayes-ink bg-bayes-paper px-4 text-base text-bayes-ink outline-none transition duration-100 placeholder:text-bayes-silver focus:border-b-4"
+                  className="min-h-12 rounded-none border border-white/15 bg-[#080E17] px-4 text-base text-white outline-none transition placeholder:text-white/30 focus:border-bayes-blue focus:ring-1 focus:ring-bayes-blue"
                 />
               </label>
               <label className="grid gap-2 md:col-span-2">
@@ -133,7 +133,7 @@ export default function ContactPage() {
                   required
                   rows={6}
                   placeholder={form.messagePlaceholder}
-                  className="resize-y border-2 border-bayes-ink bg-bayes-paper px-4 py-3 text-base leading-8 text-bayes-ink outline-none transition duration-100 placeholder:text-bayes-silver focus:border-b-4"
+                  className="resize-y rounded-none border border-white/15 bg-[#080E17] px-4 py-3 text-base leading-8 text-white outline-none transition placeholder:text-white/30 focus:border-bayes-blue focus:ring-1 focus:ring-bayes-blue"
                 />
               </label>
             </div>
@@ -143,13 +143,13 @@ export default function ContactPage() {
                 <p className="text-bayes-silver">{form.note}</p>
                 <div className="mt-2 min-h-7" aria-live="polite">
                   {formStatus === "success" && (
-                    <p className="inline-flex items-center gap-2 font-semibold text-emerald-700">
+                    <p className="inline-flex items-center gap-2 font-semibold text-emerald-400">
                       <CheckCircle2 className="size-4 shrink-0" aria-hidden="true" />
                       {form.success}
                     </p>
                   )}
                   {(formStatus === "error" || formStatus === "configuration-error") && (
-                    <p className="inline-flex items-center gap-2 font-semibold text-red-700">
+                    <p className="inline-flex items-center gap-2 font-semibold text-bayes-blue">
                       <AlertCircle className="size-4 shrink-0" aria-hidden="true" />
                       {formStatus === "configuration-error" ? form.configurationError : form.error}
                     </p>
@@ -159,7 +159,7 @@ export default function ContactPage() {
               <button
                 type="submit"
                 disabled={formStatus === "sending"}
-                className="inline-flex min-h-12 items-center justify-center gap-3 border-2 border-bayes-ink bg-bayes-ink px-6 font-label text-xs font-semibold uppercase tracking-[0.14em] text-bayes-paper transition duration-100 hover:bg-bayes-paper hover:text-bayes-ink disabled:cursor-wait disabled:opacity-65"
+                className="action-primary gap-3 px-6 disabled:cursor-wait disabled:opacity-65"
               >
                 {formStatus === "sending" ? form.sending : form.send}
                 {formStatus === "sending" ? (
@@ -171,52 +171,52 @@ export default function ContactPage() {
             </div>
           </form>
 
-          <div className="grid gap-px bg-bayes-ink">
+          <div className="grid gap-4">
             <a
               href={contactHref}
-              className="group flex min-h-[220px] flex-col justify-between bg-bayes-paper p-7 transition duration-100 hover:bg-bayes-ink hover:text-bayes-paper"
+              className="group flex min-h-[200px] flex-col justify-between rounded-none border border-white/15 bg-[#040608] p-7 text-white shadow-premium-lg transition duration-300 hover:-translate-y-1 hover:border-bayes-blue/70 hover:shadow-[0_0_30px_rgba(0,102,255,0.2)]"
             >
-              <Mail className="size-8" strokeWidth={1.5} />
+              <Mail className="size-8 text-bayes-blue" strokeWidth={1.5} />
               <div>
-                <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue group-hover:text-bayes-mint">
+                <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue">
                   {form.emailLabel}
                 </p>
-                <h3 className="font-subheading mt-4 break-all text-2xl">{siteConfig.contactEmail}</h3>
+                <h3 className="font-subheading mt-4 break-all text-2xl text-white">{siteConfig.contactEmail}</h3>
               </div>
-              <ArrowUpRight className="size-5 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+              <ArrowUpRight className="size-5 text-white/40 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-bayes-blue" />
             </a>
 
             <a
               href={siteConfig.githubUrl}
-              className="group flex min-h-[220px] flex-col justify-between bg-bayes-paper p-7 transition duration-100 hover:bg-bayes-ink hover:text-bayes-paper"
+              className="group flex min-h-[190px] flex-col justify-between rounded-none border border-white/15 bg-[#0C1420] p-7 text-white shadow-premium-sm transition duration-300 hover:-translate-y-1 hover:border-bayes-blue/70 hover:shadow-[0_0_30px_rgba(0,102,255,0.2)]"
             >
-              <Github className="size-8" strokeWidth={1.5} />
+              <Github className="size-8 text-white/70 group-hover:text-bayes-blue transition" strokeWidth={1.5} />
               <div>
-                <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue group-hover:text-bayes-mint">
+                <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue">
                   GitHub
                 </p>
-                <h3 className="font-subheading mt-4 text-3xl">{form.code}</h3>
+                <h3 className="font-subheading mt-4 text-3xl text-white">{form.code}</h3>
               </div>
-              <ArrowUpRight className="size-5 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+              <ArrowUpRight className="size-5 text-white/40 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-bayes-blue" />
             </a>
 
             <a
               href={siteConfig.linkedinUrl}
-              className="group flex min-h-[220px] flex-col justify-between bg-bayes-paper p-7 transition duration-100 hover:bg-bayes-ink hover:text-bayes-paper"
+              className="group flex min-h-[190px] flex-col justify-between rounded-none border border-white/15 bg-[#0C1420] p-7 text-white shadow-premium-sm transition duration-300 hover:-translate-y-1 hover:border-bayes-blue/70 hover:shadow-[0_0_30px_rgba(0,102,255,0.2)]"
             >
-              <Linkedin className="size-8" strokeWidth={1.5} />
+              <Linkedin className="size-8 text-[#0A66C2] group-hover:text-bayes-blue transition" strokeWidth={1.5} />
               <div>
-                <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue group-hover:text-bayes-mint">
+                <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue">
                   LinkedIn
                 </p>
-                <h3 className="font-subheading mt-4 text-3xl">{form.profile}</h3>
+                <h3 className="font-subheading mt-4 text-3xl text-white">{form.profile}</h3>
               </div>
-              <ArrowUpRight className="size-5 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+              <ArrowUpRight className="size-5 text-white/40 transition duration-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-bayes-blue" />
             </a>
           </div>
         </div>
 
-        <div className="mx-auto mt-10 max-w-7xl border-4 border-bayes-ink bg-bayes-aqua p-7 md:p-10">
+        <div className="mx-auto mt-10 max-w-7xl rounded-none border border-white/15 bg-[#0C1420] p-7 md:p-10">
           <p className="font-label text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue">
             {form.social}
           </p>
@@ -226,7 +226,7 @@ export default function ContactPage() {
                 key={social.label}
                 href={social.href}
                 aria-label={`BayesSoft ${social.label}`}
-                className="flex min-h-11 items-center gap-3 border border-bayes-ink bg-bayes-paper px-4 font-label text-xs font-semibold uppercase tracking-[0.12em] text-bayes-ink transition duration-100 hover:bg-bayes-ink hover:text-bayes-paper"
+                className="flex min-h-11 items-center gap-3 rounded-none border border-white/15 bg-white/5 px-4 font-label text-xs font-semibold uppercase tracking-[0.12em] text-white transition hover:border-bayes-blue hover:bg-bayes-blue hover:text-white hover:shadow-[0_0_12px_#0066FF]"
               >
                 <SocialIcon icon={social.icon} className="size-4" />
                 {social.label}

@@ -1,0 +1,599 @@
+.section {
+  position: relative;
+  height: 340svh;
+  overflow: clip;
+  background: #060A10;
+  color: #fff;
+}
+
+.stage {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  min-height: 620px;
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    radial-gradient(circle at 50% 48%, rgba(0, 102, 255, 0.12), transparent 45%),
+    linear-gradient(180deg, #060A10 0%, #080E17 50%, #0A1118 100%);
+}
+
+.stage::before {
+  position: absolute;
+  inset: 0;
+  z-index: -3;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 64px 64px;
+  content: "";
+  mask-image: radial-gradient(circle at center, #000 0%, transparent 75%);
+}
+
+.stage::after {
+  position: absolute;
+  inset: 0;
+  z-index: 8;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(6, 10, 16, 0.6), transparent 20%, transparent 80%, rgba(6, 10, 16, 0.6));
+  content: "";
+}
+
+.ambient {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  z-index: -2;
+  width: min(82vw, 920px);
+  aspect-ratio: 1;
+  border-radius: 0px;
+  background: rgba(0, 102, 255, 0.08);
+  filter: blur(100px);
+  transform: translate(-50%, -50%);
+}
+
+.copyBlock {
+  position: absolute;
+  top: 50%;
+  z-index: 7;
+  width: min(29vw, 420px);
+  will-change: transform, opacity;
+}
+
+.webCopy { left: max(5vw, calc((100vw - 1280px) / 2)); }
+.mobileCopy { right: max(5vw, calc((100vw - 1280px) / 2)); }
+.aiCopy { left: max(5vw, calc((100vw - 1280px) / 2)); }
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin: 0 0 1.15rem;
+  color: #0066FF;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.eyebrow::before {
+  width: 1.8rem;
+  height: 2px;
+  background: #0066FF;
+  content: "";
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: clamp(2rem, 3vw, 3.9rem);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1.04;
+  text-wrap: balance;
+  color: #FFFFFF;
+}
+
+.body {
+  max-width: 36rem;
+  margin: 1.3rem 0 0;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: clamp(0.92rem, 1.1vw, 1.06rem);
+  line-height: 1.8;
+}
+
+/* Polygonal Wireframe Matrix */
+.worldScene {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  z-index: 2;
+  width: clamp(290px, 35vw, 560px);
+  aspect-ratio: 1;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+.orbit,
+.orbitSecondary {
+  position: absolute;
+  inset: 3%;
+  border: 1px solid rgba(0, 102, 255, 0.2);
+  transform: rotate(45deg);
+}
+
+.orbitSecondary {
+  inset: 16%;
+  border-color: rgba(255, 255, 255, 0.08);
+  transform: rotate(-45deg);
+}
+
+.orbit::after,
+.orbitSecondary::after {
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  border: 1px solid #FFFFFF;
+  background: #0066FF;
+  box-shadow: 0 0 10px rgba(0, 102, 255, 0.8);
+  content: "";
+}
+
+.globeShell {
+  position: absolute;
+  inset: 12%;
+  overflow: hidden;
+  border: 1px solid rgba(0, 102, 255, 0.35);
+  background:
+    radial-gradient(circle at 34% 26%, rgba(0, 102, 255, 0.2), transparent 45%),
+    radial-gradient(circle at 62% 64%, rgba(10, 18, 30, 0.9), transparent 60%),
+    rgba(6, 10, 16, 0.95);
+  box-shadow:
+    inset 0 0 50px rgba(0, 0, 0, 0.8),
+    0 0 40px rgba(0, 102, 255, 0.2);
+  transform: rotate(45deg);
+}
+
+.globeInnerMesh {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.globeSvg {
+  width: 82%;
+  height: 82%;
+  transform: rotate(-45deg);
+}
+
+.networkLine {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.15);
+  stroke-width: 1;
+}
+
+.core {
+  position: absolute;
+  inset: 38%;
+  background: #0F1D30;
+  border: 1px solid rgba(0, 102, 255, 0.5);
+  box-shadow: 0 0 25px rgba(0, 102, 255, 0.3);
+  transform: rotate(45deg);
+}
+
+.phoneScene {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  z-index: 3;
+  width: clamp(235px, 24vw, 360px);
+  will-change: transform, opacity;
+}
+
+.nodeAi,
+.nodeWeb,
+.nodeMobile,
+.nodeCore {
+  position: absolute;
+  z-index: 6;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: #080E17;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.nodeAi { top: 2%; left: 50%; transform: translateX(-50%); border-color: rgba(0, 102, 255, 0.6); color: #FFFFFF; }
+.nodeWeb { top: 50%; left: 0; transform: translateY(-50%); }
+.nodeMobile { top: 50%; right: 0; transform: translateY(-50%); }
+.nodeCore { bottom: 1%; left: 50%; transform: translateX(-50%); border-color: rgba(255, 255, 255, 0.2); }
+
+/* Realistic iPhone 17 Pro Hardware Frame */
+.phone {
+  position: relative;
+  aspect-ratio: 0.485;
+  padding: 8px;
+  border-radius: 52px;
+  border: 3.5px solid #475569;
+  background: linear-gradient(140deg, #334155 0%, #1E293B 25%, #0F172A 60%, #334155 100%);
+  box-shadow:
+    0 45px 120px rgba(0, 0, 0, 0.9),
+    0 0 0 1px rgba(255, 255, 255, 0.18),
+    inset 0 0 0 1px rgba(0, 0, 0, 0.7);
+}
+
+/* Side Hardware Buttons */
+.btnAction {
+  position: absolute;
+  top: 17%;
+  left: -6.5px;
+  width: 3.5px;
+  height: 20px;
+  border-radius: 2px 0 0 2px;
+  background: #64748B;
+  box-shadow: -1px 0 2px rgba(0,0,0,0.5);
+}
+
+.btnVolUp {
+  position: absolute;
+  top: 25%;
+  left: -6.5px;
+  width: 3.5px;
+  height: 38px;
+  border-radius: 2px 0 0 2px;
+  background: #475569;
+  box-shadow: -1px 0 2px rgba(0,0,0,0.5);
+}
+
+.btnVolDown {
+  position: absolute;
+  top: 36%;
+  left: -6.5px;
+  width: 3.5px;
+  height: 38px;
+  border-radius: 2px 0 0 2px;
+  background: #475569;
+  box-shadow: -1px 0 2px rgba(0,0,0,0.5);
+}
+
+.btnPower {
+  position: absolute;
+  top: 27%;
+  right: -6.5px;
+  width: 3.5px;
+  height: 52px;
+  border-radius: 0 2px 2px 0;
+  background: #475569;
+  box-shadow: 1px 0 2px rgba(0,0,0,0.5);
+}
+
+/* iPhone 17 Pro Dynamic Island */
+.dynamicIsland {
+  position: absolute;
+  top: 13px;
+  left: 50%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 78px;
+  height: 23px;
+  padding: 0 8px;
+  border-radius: 13px;
+  background: #000000;
+  box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.15), 0 2px 6px rgba(0, 0, 0, 0.7);
+  transform: translateX(-50%);
+}
+
+.islandLens {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #1e3a8a 0%, #030712 70%);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.islandSensor {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #090e17;
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+
+.screen {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 44px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background:
+    radial-gradient(circle at 50% 19%, rgba(0, 102, 255, 0.22), transparent 45%),
+    linear-gradient(180deg, #09111D 0%, #050910 75%);
+}
+
+.screenGrid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.35;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 24px 24px;
+  mask-image: linear-gradient(to bottom, #000, transparent 75%);
+}
+
+.statusBar {
+  position: relative;
+  z-index: 4;
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 20px 0;
+  color: rgba(255, 255, 255, 0.85);
+  font-family: var(--font-mono), monospace;
+  font-size: 7.5px;
+  letter-spacing: 0.08em;
+}
+
+.statusBar span:last-child {
+  color: #38BDF8;
+}
+
+.screenGlobe {
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  width: 78%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 102, 255, 0.3);
+  background:
+    radial-gradient(circle at 35% 30%, rgba(0, 102, 255, 0.35), transparent 60%),
+    rgba(8, 14, 24, 0.95);
+  box-shadow: 0 0 35px rgba(0, 102, 255, 0.25);
+  transform: translateX(-50%);
+  will-change: transform, opacity;
+}
+
+.screenGlobe::before {
+  position: absolute;
+  inset: 18%;
+  border-radius: 50%;
+  border: 1px dashed rgba(255, 255, 255, 0.18);
+  content: "";
+}
+
+.appUi {
+  position: absolute;
+  inset: 8% 0 0;
+  z-index: 3;
+  padding: 2.25rem 1.15rem 1rem;
+  will-change: transform, opacity;
+}
+
+.appKicker {
+  color: #0066FF;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.appTitle {
+  margin-top: 0.36rem;
+  font-family: var(--font-jakarta), sans-serif;
+  font-size: clamp(1.05rem, 1.3vw, 1.3rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+
+/* In-Screen Chart Graphic */
+.appHero {
+  position: relative;
+  height: 33%;
+  margin-top: 0.85rem;
+  overflow: hidden;
+  border: 1px solid rgba(0, 102, 255, 0.25);
+  border-radius: 12px;
+  background: #0B1320;
+}
+
+.appHero::before {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(0, 102, 255, 0.25), transparent 70%);
+  content: "";
+}
+
+.appHeroLine {
+  position: absolute;
+  right: 8%;
+  bottom: 12%;
+  left: 8%;
+  height: 40%;
+}
+
+.appCards { display: grid; grid-template-columns: 1fr 1fr; gap: 0.55rem; margin-top: 0.6rem; }
+
+.appCard {
+  min-height: 68px;
+  padding: 0.65rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  background: #0C1524;
+}
+
+.appCardIcon {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background: #0066FF;
+  box-shadow: 0 0 12px rgba(0, 102, 255, 0.5);
+}
+
+.appCard:nth-child(2) .appCardIcon {
+  background: #38BDF8;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.4);
+}
+
+.appCardLine {
+  display: block;
+  width: 72%;
+  height: 4px;
+  margin-top: 0.75rem;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.appCardLineShort { width: 46%; margin-top: 0.35rem; opacity: 0.44; }
+
+.homeBar {
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  width: 76px;
+  height: 3.5px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.55);
+  transform: translateX(-50%);
+}
+
+.phoneWrap {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  z-index: 5;
+  width: clamp(240px, 20vw, 320px);
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+.ecosystem {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  z-index: 4;
+  width: min(58vw, 700px);
+  aspect-ratio: 1;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+.ecosystemLines { position: absolute; inset: 0; width: 100%; height: 100%; }
+.ecosystemLines path { fill: none; stroke: rgba(0, 102, 255, 0.3); stroke-width: 1.2; stroke-dasharray: 4 6; }
+
+.ecosystemNode {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  min-width: 86px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 102, 255, 0.35);
+  background: #0B1422;
+  color: #FFFFFF;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.timeline {
+  position: absolute;
+  right: clamp(1.3rem, 3vw, 3rem);
+  bottom: clamp(1.3rem, 4vh, 2.5rem);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: rgba(255, 255, 255, 0.55);
+  font-family: var(--font-mono), monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.timelineTrack { width: clamp(80px, 10vw, 145px); height: 2px; overflow: hidden; background: rgba(255, 255, 255, 0.15); }
+.timelineProgress { width: 100%; height: 100%; background: #0066FF; box-shadow: 0 0 10px #0066FF; transform-origin: left; will-change: transform; }
+
+.scrollHint {
+  position: absolute;
+  bottom: clamp(1.3rem, 4vh, 2.5rem);
+  left: clamp(1.3rem, 3vw, 3rem);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--font-mono), monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.scrollLine { width: 2px; height: 28px; background: linear-gradient(#0066FF, transparent); }
+
+.reducedStory { display: none; }
+
+@media (max-width: 1023px) {
+  .section { height: 280svh; }
+  .copyBlock { top: 16%; width: min(42vw, 360px); }
+  .webCopy { left: 5vw; }
+  .mobileCopy { right: 5vw; text-align: right; }
+  .mobileCopy .eyebrow { justify-content: flex-end; }
+  .aiCopy { left: 5vw; }
+  .worldScene { width: clamp(310px, 48vw, 480px); }
+  .phoneWrap { width: clamp(225px, 28vw, 285px); }
+}
+
+@media (max-width: 767px) {
+  .section { height: 260svh; }
+  .stage { min-height: 560px; }
+  .stage::after { background: linear-gradient(180deg, rgba(4, 6, 8, 0.6), transparent 20%, transparent 80%, rgba(4, 6, 8, 0.6)); }
+  .copyBlock { top: max(6.5rem, 12svh); right: 1.25rem; left: 1.25rem; width: auto; text-align: center; }
+  .copyBlock .eyebrow { justify-content: center; margin-bottom: 0.75rem; }
+  .title { max-width: 22rem; margin-inline: auto; font-size: clamp(1.75rem, 8vw, 2.6rem); }
+  .body { display: none; }
+  .worldScene { top: 59%; width: min(88vw, 410px); }
+  .phoneWrap { top: 59%; width: min(58vw, 250px); }
+  .ecosystem { top: 59%; width: min(96vw, 430px); }
+  .ecosystemNode { min-width: 65px; height: 28px; font-size: 0.48rem; }
+  .timeline { right: 1.25rem; bottom: 1.15rem; }
+  .timeline span:first-child { display: none; }
+  .timelineTrack { width: 94px; }
+  .scrollHint { bottom: 1.15rem; left: 1.25rem; }
+}
+
+@media (max-height: 700px) and (min-width: 768px) {
+  .stage { min-height: 560px; }
+  .copyBlock { top: 47%; }
+  .worldScene { width: min(31vw, 390px); }
+  .phoneWrap { width: min(17vw, 235px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .section { height: auto; overflow: hidden; }
+  .stage { display: none; }
+  .reducedStory {
+    display: grid;
+    gap: 2rem;
+    padding: 5rem 1.25rem;
+    background:
+      radial-gradient(circle at 50% 46%, rgba(0, 102, 255, 0.15), transparent 34%),
+      #040608;
+  }
+  .reducedCard { max-width: 34rem; margin: 0 auto; text-align: center; }
+  .reducedArrow { color: #0066FF; font-size: 2rem; text-align: center; }
+  .reducedVisual { position: relative; width: min(72vw, 270px); margin: 0 auto; }
+  .reducedVisual .phoneWrap { position: relative; inset: auto; width: 100%; opacity: 1 !important; transform: none !important; }
+  .reducedVisual .screenGlobe { opacity: 0.38 !important; transform: translateX(-50%) !important; }
+  .reducedVisual .appUi { opacity: 1 !important; transform: none !important; }
+}

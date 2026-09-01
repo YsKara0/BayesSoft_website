@@ -4,13 +4,13 @@ const tr = {
   language: { label: "Dil", names: { tr: "Türkçe", en: "English", de: "Deutsch" } },
   nav: {
     home: "Ana Sayfa",
-    about: "Hakkımızda",
-    services: "Hizmetler",
+    about: "Şirket",
+    services: "Yetkinlikler",
     team: "Ekip",
-    projects: "Projeler",
+    projects: "Çalışmalar",
     contact: "İletişim",
     menu: "Menüyü aç veya kapat",
-    cta: "Projenizi konuşalım",
+    cta: "İletişim",
   },
   hero: {
     eyebrow: "Kurumsal yazılım · Mobil ürün · Yapay zeka",
@@ -60,18 +60,18 @@ const tr = {
     { value: "04", label: "temel uzmanlık alanı: web, mobil, AI, bulut" },
   ],
   process: {
-    eyebrow: "Süreç",
-    title: "Belirsizliği azaltan, ölçülebilir bir üretim akışı.",
-    intro: "Her projede önce mimari kararları görünür hale getirir, sonra tasarım ve geliştirme disiplinini aynı ritimde ilerletiriz.",
-    step: "Aşama",
+    eyebrow: "Nasıl çalışıyoruz",
+    title: "Operasyonu anlamaktan ürünü işletmeye kadar.",
+    intro: "İşinizi öğrenir, doğru ürün ve mimariyi tasarlar, tüm katmanları birlikte geliştirir ve yayından sonra iyileştirmeye devam ederiz.",
+    step: "Adım",
     items: [
-      { title: "Keşif ve Mimari", summary: "İş hedeflerini, kullanıcı rollerini, veri akışlarını ve teknik riskleri netleştirerek uygulanabilir bir sistem haritası çıkarırız." },
-      { title: "Tasarım ve Prototip", summary: "Arayüzleri, yönetim panellerini ve temel ürün akışlarını erken aşamada test edilebilir prototiplere dönüştürürüz." },
-      { title: "Geliştirme ve Entegrasyon", summary: "Backend, mobil, web panel, kimlik doğrulama, depolama ve bildirim servislerini tek bir ürün mimarisinde birleştiririz." },
-      { title: "Yayın ve İyileştirme", summary: "Yayına alma sonrası performans, güvenlik, kullanım verisi ve yeni modül ihtiyaçlarını düzenli olarak iyileştiririz." },
+      { title: "Anla", summary: "İşletmenin ve operasyonun gerçekte nasıl çalıştığını; hedefleri, rolleri, veriyi ve darboğazları birlikte öğreniriz." },
+      { title: "Tasarla", summary: "Ürün deneyimini, sistem mimarisini ve doğru teknik çözümü görünür ve test edilebilir hale getiririz." },
+      { title: "Geliştir", summary: "Web, backend, mobil ve entegrasyonları aynı ürün mimarisi içinde birlikte inşa ederiz." },
+      { title: "İşlet", summary: "Ürünü yayınlar, izler, bakımını yapar ve işletmenizin ihtiyaçlarıyla birlikte sürekli geliştiririz." },
     ],
   },
-  cta: { eyebrow: "Başlayalım", title: "Yeni ürününüz için net bir teknik yol haritası çıkaralım.", mail: "E-posta gönder", page: "İletişim sayfası" },
+  cta: { eyebrow: "Bir sonraki ürün", title: "Dijital ürüne dönüşmesi gereken bir operasyonunuz mu var?", body: "İşinizin nasıl çalıştığını anlatın. Yazılımın onun etrafında nasıl çalışması gerektiğini birlikte çıkaralım.", mail: "E-posta gönder", page: "Birlikte geliştirelim" },
   pages: {
     about: { eyebrow: "Hakkımızda", title: "Uygulanabilir teknoloji kararları üreten bir yazılım ekibiyiz.", body: "Kurumsal ihtiyaçları ürün mantığıyla ele alır; backend, mobil, web panel, yapay zeka ve bulut katmanlarını aynı mühendislik bütünlüğü içinde geliştiririz.", approach: "Yaklaşım", approachTitle: "Küçük ve odaklı bir ekip, büyük sistem ciddiyetiyle çalışır.", principles: [
       { title: "Mimari önce gelir", text: "Ürün hızını yalnızca arayüzle değil; doğru veri modeli, güvenli yetkilendirme ve temiz servis sınırlarıyla kurarız." },
@@ -94,12 +94,12 @@ const tr = {
     eyebrow: "Projeler", title: "Problem, çözüm ve etki üzerinden okunan teknik işler.", intro: "Projeleri kimin yaptığına göre değil; hangi problemi çözdüğüne, nasıl bir sistem kurduğuna ve hangi etkiyi ürettiğine göre anlatıyoruz.", problem: "Problem", solution: "Çözüm", impact: "Etki", details: "Detaylar", live: "Canlı", source: "Kaynak", back: "Projelere geri dön", technicalProblem: "Teknik problem ve gereksinim", architecture: "Mimari ve teknik çözüm", screenshots: "Ekran görüntüleri", previousScreenshot: "Önceki ekran görüntüsü", nextScreenshot: "Sonraki ekran görüntüsü", features: "Öne çıkan özellikler", technologies: "Kullanılan teknolojiler", privacy: "Önemli bilgi / Gizlilik notu", compactNotice: "Bu vaka çalışmasının seçtiğiniz dilde özet sürümü gösteriliyor.",
   },
   contact: { form: "Proje formu", title: "İhtiyacı kısaca anlatın, teknik çerçeveyi birlikte netleştirelim.", name: "Ad Soyad", email: "E-posta", projectType: "Proje türü", budget: "Bütçe / Zamanlama", budgetPlaceholder: "Örn. 6-8 hafta içinde MVP", message: "Mesaj", messagePlaceholder: "Projenin hedefini, kullanıcılarını ve beklenen çıktıyı kısaca yazabilirsiniz.", note: "Genelde 24 saat içinde dönüş yaparız. Bilgileriniz doğrudan iletişim servisimize gönderilir.", send: "Gönder", sending: "Gönderiliyor", success: "Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.", error: "Mesaj gönderilemedi. Lütfen tekrar deneyin veya bize e-posta gönderin.", configurationError: "İletişim servisi henüz yapılandırılmadı.", emailLabel: "E-posta", code: "Kod ve çalışmalar", profile: "Kurumsal profil", social: "Sosyal bağlantılar", types: ["Kurumsal yazılım", "Mobil uygulama", "Yapay zeka entegrasyonu", "Bulut / güvenlik / DevOps", "Diğer"] },
-  footer: { statement: "Net mimari, güçlü ürün, ölçülebilir teknoloji.", rights: "Tüm hakları saklıdır." },
+  footer: { statement: "İş operasyonlarından yaşayan dijital ürünlere.", rights: "Tüm hakları saklıdır." },
 };
 
 const en = {
   language: { label: "Language", names: { tr: "Türkçe", en: "English", de: "Deutsch" } },
-  nav: { home: "Home", about: "About Us", services: "Services", team: "Team", projects: "Projects", contact: "Contact", menu: "Open or close menu", cta: "Discuss your project" },
+  nav: { home: "Home", about: "Company", services: "Capabilities", team: "Team", projects: "Work", contact: "Contact", menu: "Open or close menu", cta: "Contact" },
   hero: { eyebrow: "Enterprise software · Mobile products · Artificial intelligence", titleLead: "We turn complex ideas", titleAccent: "into products", titleEnd: "that work.", body: "We design and build secure backends, web dashboards, mobile apps and AI layers as one coherent product system for ambitious organizations.", primary: "Discuss your project", secondary: "Explore services", status: "Systems online", cardTitle: "Product engineering", cardBody: "One team from idea to production, with clear architecture and measurable outcomes.", signals: ["Web, mobile and backend in one team", "Secure, scalable architecture", "AI-powered products and automation"] },
   services: { eyebrow: "Services", title: "We do more than code products. We build complete systems.", intro: "We treat backend, mobile, dashboards, security and AI as connected parts of one product architecture.", more: "All services", items: [
     { title: "Enterprise Software", summary: "We turn operational needs into measurable, secure and maintainable web systems.", outcome: "Delivery: admin dashboard, role-based access, API documentation and a sustainable backend.", points: ["Admin dashboards", "REST API design", "Database architecture"] },
@@ -116,13 +116,13 @@ const en = {
   featured: { eyebrow: "Selected Projects", title: "One engineering discipline across different industries.", intro: "Across fintech, healthcare and AI, our goal is consistent: secure architecture, clear product flows and production-ready systems.", all: "All projects" },
   references: { eyebrow: "Our References", title: "Organizations and brands we have worked with." },
   stats: [{ value: "09", label: "published and research-driven projects" }, { value: "05", label: "specialists across product, backend, mobile and AI" }, { value: "04", label: "core disciplines: web, mobile, AI and cloud" }],
-  process: { eyebrow: "Process", title: "A measurable delivery flow that reduces uncertainty.", intro: "We make architecture decisions visible first, then move design and development forward in the same rhythm.", step: "Stage", items: [
-    { title: "Discovery and Architecture", summary: "We clarify business goals, user roles, data flows and technical risks to create an actionable system map." },
-    { title: "Design and Prototype", summary: "We turn interfaces, dashboards and core product journeys into testable prototypes early." },
-    { title: "Development and Integration", summary: "We combine backend, mobile, web, identity, storage and notifications in one product architecture." },
-    { title: "Launch and Improvement", summary: "After launch, we continuously improve performance, security, usage insights and new modules." },
+  process: { eyebrow: "How we work", title: "From understanding the operation to operating the product.", intro: "We learn the business, design the right product and architecture, build every layer together and keep improving after launch.", step: "Step", items: [
+    { title: "Understand", summary: "We learn how the business and operation actually work — its goals, roles, data and constraints." },
+    { title: "Design", summary: "We define the product experience, system architecture and technical solution in a visible, testable form." },
+    { title: "Build", summary: "We develop web, backend, mobile and integrations together within one product architecture." },
+    { title: "Operate", summary: "We launch, monitor, maintain and continuously improve the product as the business evolves." },
   ] },
-  cta: { eyebrow: "Let’s begin", title: "Let’s create a clear technical roadmap for your next product.", mail: "Send an email", page: "Contact page" },
+  cta: { eyebrow: "Your next product", title: "Have an operation that should be a product?", body: "Tell us how your business works. We’ll figure out how software should work around it.", mail: "Send an email", page: "Let’s build it" },
   pages: {
     about: { eyebrow: "About Us", title: "We are a software team that makes technology decisions actionable.", body: "We approach enterprise needs with a product mindset and build backend, mobile, web, AI and cloud layers as one engineering whole.", approach: "Approach", approachTitle: "A small, focused team working with enterprise-level rigor.", principles: [
       { title: "Architecture comes first", text: "Product speed comes from the right data model, secure authorization and clean service boundaries—not only the interface." },
@@ -143,12 +143,12 @@ const en = {
   ] },
   projects: { eyebrow: "Projects", title: "Technical work explained through problem, solution and impact.", intro: "We present projects by the problem solved, the system built and the impact created—not by who worked on them.", problem: "Problem", solution: "Solution", impact: "Impact", details: "Details", live: "Live", source: "Source", back: "Back to projects", technicalProblem: "Technical problem and requirements", architecture: "Architecture and technical solution", screenshots: "Screenshots", previousScreenshot: "Previous screenshot", nextScreenshot: "Next screenshot", features: "Key features", technologies: "Technologies", privacy: "Important information / Privacy note", compactNotice: "A concise version of this case study is shown in your selected language." },
   contact: { form: "Project brief", title: "Tell us what you need and we’ll shape the technical frame together.", name: "Full name", email: "Email", projectType: "Project type", budget: "Budget / Timeline", budgetPlaceholder: "e.g. MVP within 6–8 weeks", message: "Message", messagePlaceholder: "Briefly describe the goal, users and expected outcome.", note: "We usually reply within 24 hours. Your information is sent directly to our contact service.", send: "Send", sending: "Sending", success: "Your message was sent successfully. We’ll get back to you shortly.", error: "Your message could not be sent. Please try again or email us directly.", configurationError: "The contact service has not been configured yet.", emailLabel: "Email", code: "Code and work", profile: "Company profile", social: "Social links", types: ["Enterprise software", "Mobile application", "AI integration", "Cloud / security / DevOps", "Other"] },
-  footer: { statement: "Clear architecture, strong products, measurable technology.", rights: "All rights reserved." },
+  footer: { statement: "From business operations to living digital products.", rights: "All rights reserved." },
 };
 
 const de = {
   language: { label: "Sprache", names: { tr: "Türkçe", en: "English", de: "Deutsch" } },
-  nav: { home: "Start", about: "Über uns", services: "Leistungen", team: "Team", projects: "Projekte", contact: "Kontakt", menu: "Menü öffnen oder schließen", cta: "Projekt besprechen" },
+  nav: { home: "Start", about: "Unternehmen", services: "Kompetenzen", team: "Team", projects: "Projekte", contact: "Kontakt", menu: "Menü öffnen oder schließen", cta: "Kontakt" },
   hero: { eyebrow: "Unternehmenssoftware · Mobile Produkte · Künstliche Intelligenz", titleLead: "Wir machen aus komplexen Ideen", titleAccent: "Produkte", titleEnd: "die funktionieren.", body: "Wir konzipieren und entwickeln sichere Backends, Web-Dashboards, mobile Apps und KI-Komponenten als ein zusammenhängendes Produktsystem.", primary: "Projekt besprechen", secondary: "Leistungen ansehen", status: "Systeme online", cardTitle: "Product Engineering", cardBody: "Ein Team von der Idee bis zur Produktion – mit klarer Architektur und messbaren Ergebnissen.", signals: ["Web, Mobile und Backend aus einem Team", "Sichere, skalierbare Architektur", "KI-gestützte Produkte und Automatisierung"] },
   services: { eyebrow: "Leistungen", title: "Wir programmieren nicht nur Produkte. Wir bauen vollständige Systeme.", intro: "Backend, Mobile, Dashboards, Sicherheit und KI behandeln wir als verbundene Teile einer Produktarchitektur.", more: "Alle Leistungen", items: [
     { title: "Unternehmenssoftware", summary: "Wir verwandeln operative Anforderungen in messbare, sichere und wartbare Websysteme.", outcome: "Lieferumfang: Admin-Dashboard, rollenbasierter Zugriff, API-Dokumentation und nachhaltiges Backend.", points: ["Admin-Dashboards", "REST-API-Design", "Datenbankarchitektur"] },
@@ -165,13 +165,13 @@ const de = {
   featured: { eyebrow: "Ausgewählte Projekte", title: "Eine Engineering-Disziplin für verschiedene Branchen.", intro: "In Fintech, Gesundheit und KI bleibt unser Ziel gleich: sichere Architektur, klare Produktabläufe und produktionsreife Systeme.", all: "Alle Projekte" },
   references: { eyebrow: "Unsere Referenzen", title: "Organisationen und Marken, mit denen wir zusammengearbeitet haben." },
   stats: [{ value: "09", label: "veröffentlichte und forschungsorientierte Projekte" }, { value: "05", label: "Spezialisten für Produkt, Backend, Mobile und KI" }, { value: "04", label: "Kerndisziplinen: Web, Mobile, KI und Cloud" }],
-  process: { eyebrow: "Prozess", title: "Ein messbarer Ablauf, der Unsicherheit reduziert.", intro: "Wir machen Architekturentscheidungen zuerst sichtbar und führen Design und Entwicklung anschließend im selben Rhythmus.", step: "Phase", items: [
-    { title: "Analyse und Architektur", summary: "Wir klären Geschäftsziele, Nutzerrollen, Datenflüsse und technische Risiken in einer umsetzbaren Systemkarte." },
-    { title: "Design und Prototyp", summary: "Oberflächen, Dashboards und zentrale Produktabläufe werden früh als testbare Prototypen umgesetzt." },
-    { title: "Entwicklung und Integration", summary: "Backend, Mobile, Web, Identität, Speicher und Benachrichtigungen werden in einer Architektur vereint." },
-    { title: "Go-live und Verbesserung", summary: "Nach dem Start verbessern wir Performance, Sicherheit, Nutzungsdaten und neue Module kontinuierlich." },
+  process: { eyebrow: "So arbeiten wir", title: "Vom Verständnis der Abläufe bis zum Betrieb des Produkts.", intro: "Wir lernen das Unternehmen kennen, gestalten Produkt und Architektur, bauen alle Ebenen gemeinsam und entwickeln nach dem Launch weiter.", step: "Schritt", items: [
+    { title: "Verstehen", summary: "Wir lernen, wie Unternehmen und Betrieb wirklich funktionieren — Ziele, Rollen, Daten und Einschränkungen." },
+    { title: "Gestalten", summary: "Wir definieren Produkterlebnis, Systemarchitektur und technische Lösung sichtbar und testbar." },
+    { title: "Bauen", summary: "Wir entwickeln Web, Backend, Mobile und Integrationen gemeinsam in einer Produktarchitektur." },
+    { title: "Betreiben", summary: "Wir launchen, überwachen, warten und verbessern das Produkt gemeinsam mit dem Unternehmen." },
   ] },
-  cta: { eyebrow: "Los geht’s", title: "Erstellen wir einen klaren technischen Fahrplan für Ihr nächstes Produkt.", mail: "E-Mail senden", page: "Kontaktseite" },
+  cta: { eyebrow: "Ihr nächstes Produkt", title: "Haben Sie einen Ablauf, der ein Produkt werden sollte?", body: "Erzählen Sie uns, wie Ihr Unternehmen arbeitet. Wir entwickeln, wie Software darum funktionieren sollte.", mail: "E-Mail senden", page: "Gemeinsam entwickeln" },
   pages: {
     about: { eyebrow: "Über uns", title: "Wir machen Technologieentscheidungen umsetzbar.", body: "Wir betrachten Unternehmensanforderungen aus Produktsicht und entwickeln Backend, Mobile, Web, KI und Cloud als ein technisches Ganzes.", approach: "Ansatz", approachTitle: "Ein kleines, fokussiertes Team mit Enterprise-Anspruch.", principles: [
       { title: "Architektur zuerst", text: "Produktgeschwindigkeit entsteht durch das richtige Datenmodell, sichere Berechtigungen und klare Servicegrenzen." },
@@ -192,7 +192,7 @@ const de = {
   ] },
   projects: { eyebrow: "Projekte", title: "Technische Arbeit erklärt durch Problem, Lösung und Wirkung.", intro: "Wir zeigen Projekte anhand des gelösten Problems, des gebauten Systems und der erzielten Wirkung.", problem: "Problem", solution: "Lösung", impact: "Wirkung", details: "Details", live: "Live", source: "Quellcode", back: "Zurück zu den Projekten", technicalProblem: "Technisches Problem und Anforderungen", architecture: "Architektur und technische Lösung", screenshots: "Screenshots", previousScreenshot: "Vorheriger Screenshot", nextScreenshot: "Nächster Screenshot", features: "Kernfunktionen", technologies: "Technologien", privacy: "Wichtige Information / Datenschutzhinweis", compactNotice: "Diese Fallstudie wird in Ihrer Sprache als kompakte Fassung angezeigt." },
   contact: { form: "Projektanfrage", title: "Beschreiben Sie kurz Ihren Bedarf – den technischen Rahmen klären wir gemeinsam.", name: "Vor- und Nachname", email: "E-Mail", projectType: "Projekttyp", budget: "Budget / Zeitplan", budgetPlaceholder: "z. B. MVP in 6–8 Wochen", message: "Nachricht", messagePlaceholder: "Beschreiben Sie kurz Ziel, Nutzer und erwartetes Ergebnis.", note: "Wir antworten in der Regel innerhalb von 24 Stunden. Ihre Angaben werden direkt an unseren Kontaktdienst gesendet.", send: "Senden", sending: "Wird gesendet", success: "Ihre Nachricht wurde erfolgreich gesendet. Wir melden uns in Kürze.", error: "Ihre Nachricht konnte nicht gesendet werden. Versuchen Sie es erneut oder schreiben Sie uns eine E-Mail.", configurationError: "Der Kontaktdienst ist noch nicht konfiguriert.", emailLabel: "E-Mail", code: "Code und Projekte", profile: "Unternehmensprofil", social: "Soziale Links", types: ["Unternehmenssoftware", "Mobile Anwendung", "KI-Integration", "Cloud / Sicherheit / DevOps", "Sonstiges"] },
-  footer: { statement: "Klare Architektur, starke Produkte, messbare Technologie.", rights: "Alle Rechte vorbehalten." },
+  footer: { statement: "Von Geschäftsabläufen zu lebendigen digitalen Produkten.", rights: "Alle Rechte vorbehalten." },
 };
 
 export const translations = { tr, en, de };

@@ -10,7 +10,7 @@ export function WhyChooseUs() {
   const { copy } = useLanguage();
 
   return (
-    <section className="theme-section-secondary border-b border-bayes-ink/10 px-5 py-20 md:px-8 md:py-28">
+    <section className="border-b border-white/10 bg-[#0A1018] px-5 py-20 text-white md:px-8 md:py-28">
       <div className="mx-auto max-w-7xl">
         <SectionIntro eyebrow={copy.why.eyebrow} title={copy.why.title}>
           {copy.why.intro}
@@ -21,14 +21,14 @@ export function WhyChooseUs() {
             const Icon = icons[index] ?? Workflow;
 
             return (
-              <article key={reason.title} className="group min-h-[300px] rounded-[1.5rem] border border-bayes-ink/10 bg-bayes-paper p-7 shadow-premium-sm transition duration-300 hover:-translate-y-1 hover:bg-bayes-ink hover:text-bayes-paper hover:shadow-premium-lg">
+              <article key={reason.title} className="group min-h-[300px] rounded-none border border-white/15 bg-[#0C1420] p-7 shadow-premium-sm transition duration-300 hover:-translate-y-1 hover:border-white/30 hover:shadow-premium-lg">
                 <div className="flex justify-end">
-                  <span className="flex size-12 items-center justify-center rounded-xl border border-current">
+                  <span className="flex size-12 items-center justify-center rounded-none border border-white/15 bg-white/5 text-white transition group-hover:border-white/30 group-hover:bg-white/10">
                     <Icon className="size-5" strokeWidth={1.5} />
                   </span>
                 </div>
-                <h3 className="font-subheading mt-10 text-3xl leading-tight">{reason.title}</h3>
-                <p className="mt-5 leading-8 text-bayes-silver group-hover:text-bayes-aqua">{reason.text}</p>
+                <h3 className="font-subheading mt-10 text-3xl leading-tight text-white">{reason.title}</h3>
+                <p className="mt-5 leading-8 text-bayes-silver">{reason.text}</p>
               </article>
             );
           })}

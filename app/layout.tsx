@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { Plus_Jakarta_Sans, Inter, JetBrains_Mono } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { LanguageProvider } from "@/components/LanguageProvider";
@@ -7,13 +8,33 @@ import { createPageMetadata } from "@/data/seo";
 import "flag-icons/css/flag-icons.min.css";
 import "./globals.css";
 
+const jakarta = Plus_Jakarta_Sans({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-jakarta",
+  display: "swap",
+  weight: ["300", "400", "500", "600", "700", "800"],
+});
+
+const inter = Inter({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-inter",
+  display: "swap",
+  weight: ["300", "400", "500", "600", "700", "800"],
+});
+
+const mono = JetBrains_Mono({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-mono",
+  display: "swap",
+});
+
 const homeTitle =
-  "BayesSoft | Kurumsal Yazılım, Mobil Uygulama ve Yapay Zekâ";
+  "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ";
 
 const homeMetadata = createPageMetadata({
   title: homeTitle,
   description:
-    "BayesSoft; kurumsal yazılım, mobil uygulama, yapay zekâ ve bulut çözümlerini fikirden canlıya taşıyan ürün mühendisliği ekibidir.",
+    "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir.",
   path: "/",
   keywords: [
     "BayesSoft",
@@ -92,8 +113,8 @@ const structuredData = JSON.stringify({
 }).replace(/</g, "\\u003c");
 
 export const viewport: Viewport = {
-  themeColor: "#0B192C",
-  colorScheme: "light"
+  themeColor: "#060A10",
+  colorScheme: "dark"
 };
 
 export default function RootLayout({
@@ -102,8 +123,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr" className="scroll-smooth" data-theme="light" suppressHydrationWarning>
-      <body>
+    <html
+      lang="tr"
+      className={`scroll-smooth ${jakarta.variable} ${inter.variable} ${mono.variable}`}
+      data-theme="dark"
+      suppressHydrationWarning
+    >
+      <body className="bg-[#060A10] text-white selection:bg-bayes-blue selection:text-white font-sans antialiased">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: structuredData }}

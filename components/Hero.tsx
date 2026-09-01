@@ -1,98 +1,121 @@
 "use client";
 
+import { useEffect, useRef } from "react";
 import Link from "next/link";
-import { ArrowDown, ArrowUpRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { useLanguage } from "@/components/LanguageProvider";
+import { homeCopy } from "@/data/home";
+import styles from "./Hero.module.css";
 
 const container = {
   hidden: {},
   visible: {
     transition: {
-      delayChildren: 0.25,
-      staggerChildren: 0.17,
+      delayChildren: 0.15,
+      staggerChildren: 0.12,
     },
   },
 };
 
 const revealItem = {
-  hidden: { opacity: 0, y: 34, filter: "blur(10px)" },
+  hidden: { opacity: 0, y: 24, filter: "blur(6px)" },
   visible: {
     opacity: 1,
     y: 0,
     filter: "blur(0px)",
-    transition: { duration: 0.85, ease: [0.22, 1, 0.36, 1] as const },
+    transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] as const },
   },
 };
 
 export function Hero() {
-  const { copy } = useLanguage();
+  const { locale } = useLanguage();
+  const copy = homeCopy[locale].hero;
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  // Guarantee programmatic muted playback across all browsers
+  useEffect(() => {
+    const video = videoRef.current;
+    if (video) {
+      video.muted = true;
+      video.play().catch(() => {
+        // Fallback gracefully if browser has strict policy
+      });
+    }
+  }, []);
 
   return (
-    <section className="relative isolate flex min-h-[92svh] items-end overflow-hidden border-b border-white/10 bg-bayes-ink px-5 pb-14 pt-32 md:px-8 md:pb-20">
-      <video
-        className="hero-video absolute inset-0 -z-30 size-full object-cover"
-        autoPlay
-        muted
-        loop
-        playsInline
-        preload="auto"
-        aria-hidden="true"
-        tabIndex={-1}
-      >
-        <source src="/background.mp4" type="video/mp4" />
-      </video>
+    <section className={styles.hero}>
+      {/* Background Cinematic Video Layer */}
+      <div className={styles.videoWrapper} aria-hidden="true">
+        <video
+          ref={videoRef}
+          className={`${styles.bgVideo} saturate-[0.5] brightness-[0.75] contrast-[1.15]`}
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+        >
+          <source src="/Glowing_3D_geometric_data_network_202608311617.mp4" type="video/mp4" />
+          <source src="/assets/Glowing_3D_geometric_data_network_202608311617.mp4" type="video/mp4" />
+          <source src="/hero-bg.mp4" type="video/mp4" />
+          <source src="/background_new2.mp4" type="video/mp4" />
+          <source src="/background.mp4" type="video/mp4" />
+        </video>
+      </div>
 
-      <div className="absolute inset-0 -z-20 bg-[linear-gradient(90deg,rgba(11,25,44,0.94)_0%,rgba(11,25,44,0.72)_48%,rgba(11,25,44,0.28)_100%)]" />
-      <div className="absolute inset-0 -z-20 bg-[linear-gradient(0deg,rgba(11,25,44,0.88)_0%,transparent_55%)]" />
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_78%_30%,rgba(0,196,182,0.16),transparent_34%)]" />
+      {/* Optimized Linear Gradient Overlay */}
+      <div className={styles.overlayTint} aria-hidden="true" />
 
-      <div className="relative mx-auto w-full max-w-7xl">
+      {/* Main Hero Content */}
+      <div className={styles.inner}>
         <motion.div
-          className="max-w-4xl"
+          className="flex w-full max-w-2xl flex-col items-start text-left lg:max-w-3xl"
           variants={container}
           initial="hidden"
           animate="visible"
         >
-          <motion.div variants={revealItem} className="overflow-hidden pb-2">
-            <h1 className="font-display text-[clamp(3.2rem,7.5vw,7rem)] leading-[0.96] text-white">
-              {copy.hero.titleLead}{" "}
-              <span className="text-bayes-teal">{copy.hero.titleAccent}</span>{" "}
-              {copy.hero.titleEnd}
+          {/* Main Headline - Compact Tracking-Tighter & Extra Bold */}
+          <motion.div variants={revealItem} className="pb-1 text-left">
+            <h1
+              className={`font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter text-white leading-[1.02] drop-shadow-2xl ${styles.headline}`}
+            >
+              {copy.titleLead}{" "}
+              <span className="text-bayes-blue drop-shadow-[0_0_35px_rgba(0,102,255,0.45)]">
+                {copy.titleAccent}
+              </span>
             </h1>
           </motion.div>
 
-          <motion.p variants={revealItem} className="mt-7 max-w-2xl text-lg leading-8 text-white/70 md:text-xl md:leading-9">
-            {copy.hero.body}
+          {/* Clean Subtitle */}
+          <motion.p
+            variants={revealItem}
+            className={`mt-6 max-w-xl text-left text-base sm:text-lg lg:text-xl font-normal leading-relaxed text-gray-300 drop-shadow-md ${styles.subtitle}`}
+          >
+            {copy.body}
           </motion.p>
 
-          <motion.div variants={revealItem} className="mt-9 flex flex-col gap-3 sm:flex-row">
+          {/* Sharp Modern Buttons - Solid Matte White Primary & Glassmorphism Secondary */}
+          <motion.div
+            variants={revealItem}
+            className="mt-9 flex flex-col items-stretch gap-3.5 sm:flex-row sm:items-center"
+          >
             <Link
               href="/iletisim"
-              className="action-primary-on-dark group min-h-[52px]"
+              className="group inline-flex min-h-[48px] items-center justify-center gap-2.5 px-7 border border-white bg-white text-[#040608] text-xs sm:text-sm font-semibold uppercase tracking-wider hover:bg-gray-200 hover:-translate-y-0.5 transition-all duration-200 shadow-xl shadow-black/50"
             >
-              {copy.hero.primary}
+              {copy.primary}
               <ArrowUpRight className="size-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </Link>
             <Link
-              href="/hizmetler"
-              className="action-secondary-on-dark min-h-[52px] backdrop-blur-md"
+              href="/projeler"
+              className="group inline-flex min-h-[48px] items-center justify-center gap-2.5 px-7 border border-white/15 bg-white/5 text-white backdrop-blur-md text-xs sm:text-sm font-semibold uppercase tracking-wider hover:bg-white/10 hover:border-white/30 hover:-translate-y-0.5 transition-all duration-200 shadow-xl shadow-black/50"
             >
-              {copy.hero.secondary}
+              {copy.secondary}
+              <ArrowUpRight className="size-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </Link>
           </motion.div>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.05, duration: 0.65 }}
-          className="mt-14 flex items-center gap-3 text-white/45"
-        >
-          <span className="flex size-9 items-center justify-center rounded-full border border-white/15">
-            <ArrowDown className="size-4 animate-bounce" aria-hidden="true" />
-          </span>
-          <span className="font-label text-[10px] uppercase tracking-[0.18em]">BayesSoft</span>
         </motion.div>
       </div>
     </section>

@@ -176,7 +176,7 @@ export function HeroGeometricMesh() {
     // Rotation angles
     let angleX = 0.25;
     let angleY = 0.35;
-    let angleZ = 0;
+    const angleZ = 0;
 
     // Main Render Loop
     const render = () => {
@@ -230,16 +230,16 @@ export function HeroGeometricMesh() {
         n.z = n.baseZ + Math.sin(angleZ * 2 + i) * 6;
 
         // Rotation around Y
-        let x1 = n.x * cosY - n.z * sinY;
-        let z1 = n.z * cosY + n.x * sinY;
+        const x1 = n.x * cosY - n.z * sinY;
+        const z1 = n.z * cosY + n.x * sinY;
 
         // Rotation around X
-        let y1 = n.y * cosX - z1 * sinX;
-        let z2 = z1 * cosX + n.y * sinX;
+        const y1 = n.y * cosX - z1 * sinX;
+        const z2 = z1 * cosX + n.y * sinX;
 
         // Rotation around Z
-        let x2 = x1 * cosZ - y1 * sinZ;
-        let y2 = y1 * cosZ + x1 * sinZ;
+        const x2 = x1 * cosZ - y1 * sinZ;
+        const y2 = y1 * cosZ + x1 * sinZ;
 
         // Perspective projection
         const depth = z2 + 500;

@@ -13,11 +13,11 @@ export function SectionIntro({ eyebrow, title, align = "center", children }: Sec
 
   return (
     <Reveal className={`mb-12 max-w-3xl md:mb-16 ${alignment}`}>
-      <p className="font-label mb-4 text-xs font-semibold uppercase tracking-[0.18em] text-bayes-blue">
+      <p className="font-label mb-4 text-xs font-semibold uppercase tracking-[0.18em] text-[color:var(--bs-tone-accent)]">
         {eyebrow}
       </p>
-      <h2 className="font-display text-4xl leading-[1.05] text-white md:text-6xl">{title}</h2>
-      <p className="mt-5 text-lg leading-8 text-bayes-silver">{children}</p>
+      <h2 className="font-display text-4xl leading-[1.15] text-[color:var(--bs-tone-text)] md:text-6xl">{title}</h2>
+      <p className="mt-5 text-lg leading-8 text-[color:var(--bs-tone-muted)]">{children}</p>
     </Reveal>
   );
 }

@@ -1,0 +1,60 @@
+/* Balanced Premium — shared semantic system. Motion scene internals remain Phase 2. */
+:root {
+  --bs-foundation: #101827;
+  --bs-surface-dark: #17263f;
+  --bs-background: #f5f7fb;
+  --bs-surface-alt: #e9eef5;
+  --bs-surface: #ffffff;
+  --bs-primary: #2563eb;
+  --bs-primary-hover: #1d4ed8;
+  --bs-accent: #72b8ff;
+  --bs-text: #152238;
+  --bs-text-muted: #53647b;
+  --bs-text-on-dark: #ffffff;
+  --bs-muted-on-dark: #c0cde0;
+  --bs-border: #d5deeb;
+  --bs-border-on-dark: rgba(192, 205, 224, 0.24);
+  --bs-focus-light: #2563eb;
+  --bs-focus-dark: #72b8ff;
+  --bs-radius-control: 8px;
+  --bs-radius-panel: 12px;
+  --bs-shadow-soft: 0 8px 28px rgba(16, 24, 39, 0.08);
+  --bs-header-height: 88px;
+  --bs-success: #166534;
+  --bs-danger: #b91c1c;
+  --bs-tone-bg: var(--bs-foundation);
+  --bs-tone-card: var(--bs-surface-dark);
+  --bs-tone-soft: #21334e;
+  --bs-tone-text: var(--bs-text-on-dark);
+  --bs-tone-muted: var(--bs-muted-on-dark);
+  --bs-tone-border: var(--bs-border-on-dark);
+  --bs-tone-accent: var(--bs-accent);
+}
+
+.theme-light {
+  color-scheme: light;
+  --bs-tone-bg: var(--bs-background);
+  --bs-tone-card: var(--bs-surface);
+  --bs-tone-soft: var(--bs-surface-alt);
+  --bs-tone-text: var(--bs-text);
+  --bs-tone-muted: var(--bs-text-muted);
+  --bs-tone-border: var(--bs-border);
+  --bs-tone-accent: var(--bs-primary);
+  color: var(--bs-tone-text);
+}
+
+.theme-dark {
+  color-scheme: dark;
+  --bs-tone-bg: var(--bs-foundation);
+  --bs-tone-card: var(--bs-surface-dark);
+  --bs-tone-soft: #21334e;
+  --bs-tone-text: var(--bs-text-on-dark);
+  --bs-tone-muted: var(--bs-muted-on-dark);
+  --bs-tone-border: var(--bs-border-on-dark);
+  --bs-tone-accent: var(--bs-accent);
+  color: var(--bs-tone-text);
+}
+
+@media (max-width: 1023px) {
+  :root { --bs-header-height: 76px; }
+}

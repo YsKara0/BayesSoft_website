@@ -23,13 +23,13 @@ export function Footer() {
   const { copy } = useLanguage();
 
   return (
-    <footer className="relative overflow-hidden bg-[#040608] px-5 py-14 text-white md:px-8">
-      <div className="absolute -right-28 -top-28 size-96 bg-[#0E1A2B]/40 blur-3xl" />
-      <div className="mx-auto max-w-7xl">
-        <div className="relative grid gap-10 border-b border-white/10 pb-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
+    <footer className="theme-dark bs-footer bs-section relative overflow-hidden bg-[var(--bs-tone-bg)] px-5 py-14 text-[color:var(--bs-tone-text)] md:px-8">
+      <div className="absolute -right-28 -top-28 size-96 bg-[var(--bs-surface-dark)] blur-3xl" />
+      <div className="mx-auto max-w-[1216px]">
+        <div className="relative grid gap-10 border-b border-[color:var(--bs-tone-border)] pb-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
           <div>
             <Logo variant="light" large />
-            <p className="font-display mt-8 max-w-2xl text-4xl leading-[1.08] text-white md:text-6xl">
+            <p className="font-display mt-8 max-w-2xl text-4xl leading-[1.08] text-[color:var(--bs-tone-text)] md:text-6xl">
               {copy.footer.statement}
             </p>
           </div>
@@ -49,7 +49,7 @@ export function Footer() {
                   key={social.label}
                   href={social.href}
                   aria-label={`BayesSoft ${social.label}`}
-                  className="flex size-11 items-center justify-center rounded-none border border-white/15 bg-white/5 text-white transition duration-200 hover:border-white/40 hover:bg-white/10 hover:text-white"
+                  className="flex size-11 items-center justify-center rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-soft)] text-[color:var(--bs-tone-text)] transition duration-200 hover:border-[color:var(--bs-tone-border)] hover:bg-[var(--bs-tone-soft)] hover:text-[color:var(--bs-tone-text)]"
                 >
                   <SocialIcon icon={social.icon} className="size-4" />
                 </a>
@@ -58,11 +58,11 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="relative grid gap-6 pt-7 text-sm text-white/55 md:grid-cols-[1fr_auto] md:items-center">
-          <p>&copy; {new Date().getFullYear()} <span className="font-semibold text-white">BAYES<span className="text-bayes-blue">SOFT</span></span>. {copy.footer.rights}</p>
+        <div className="relative grid gap-6 pt-7 text-sm text-[color:var(--bs-tone-muted)] md:grid-cols-[1fr_auto] md:items-center">
+          <p>&copy; {new Date().getFullYear()} <span className="font-semibold text-[color:var(--bs-tone-text)]">BAYES<span className="text-[color:var(--bs-tone-accent)]">SOFT</span></span>. {copy.footer.rights}</p>
           <div className="flex flex-wrap gap-x-5 gap-y-2">
             {footerLinks.map((link) => (
-              <Link key={link.href} href={link.href} className="font-label text-xs uppercase tracking-[0.12em] transition hover:text-bayes-blue">
+              <Link key={link.href} href={link.href} className="font-label text-xs uppercase tracking-[0.12em] transition hover:text-[color:var(--bs-tone-accent)]">
                 {copy.nav[link.key]}
               </Link>
             ))}

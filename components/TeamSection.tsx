@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import { ArrowUpRight, X } from "lucide-react";
 import { SectionIntro } from "@/components/SectionIntro";
 import { SocialIcon } from "@/components/SocialIcon";
@@ -10,15 +10,16 @@ import { teamMembers, type TeamMember } from "@/data/site";
 import { useLanguage } from "@/components/LanguageProvider";
 
 const accentClasses: Record<TeamMember["accent"], string> = {
-  blue: "bg-bayes-blue text-white shadow-[0_0_15px_#0066FF]",
-  teal: "bg-bayes-blue text-white shadow-[0_0_15px_#0066FF]",
-  gold: "bg-bayes-cobalt text-white shadow-[0_0_15px_#0052CC]",
-  silver: "bg-white/10 text-white border-white/30",
-  navy: "bg-[#101B2A] text-white border-bayes-blue/40",
+  blue: "bg-[var(--bs-primary)] text-white shadow-[var(--bs-shadow-soft)]",
+  teal: "bg-[var(--bs-primary)] text-white shadow-[var(--bs-shadow-soft)]",
+  gold: "bg-[var(--bs-primary)] text-white shadow-[var(--bs-shadow-soft)]",
+  silver: "bg-[var(--bs-tone-soft)] text-[color:var(--bs-tone-text)] border-[color:var(--bs-tone-border)]",
+  navy: "bg-[var(--bs-tone-card)] text-[color:var(--bs-tone-text)] border-[color:var(--bs-primary)]",
 };
 
 export function TeamSection() {
   const { copy } = useLanguage();
+  const reducedMotion = useReducedMotion();
   const [activeMemberId, setActiveMemberId] = useState<string | null>(null);
   const [selectedMember, setSelectedMember] = useState<TeamMember | null>(null);
 
@@ -44,17 +45,17 @@ export function TeamSection() {
   }, [selectedMember]);
 
   return (
-    <section id="ekip" className="relative overflow-hidden border-b border-white/10 bg-[#060A10] px-5 py-20 text-white md:px-8 md:py-28">
-      <div className="absolute inset-x-0 top-0 h-1 bg-bayes-blue shadow-[0_0_10px_#0066FF]" />
+    <section id="ekip" className="theme-dark bs-section relative overflow-hidden border-b border-[color:var(--bs-tone-border)] bg-[var(--bs-surface-dark)] px-5 py-20 text-[color:var(--bs-tone-text)] md:px-8 md:py-28">
+      <div className="absolute inset-x-0 top-0 h-1 bg-[var(--bs-primary)] shadow-[var(--bs-shadow-soft)]" />
       <div className="texture-lines absolute inset-0 opacity-25" />
 
-      <div className="relative mx-auto max-w-7xl">
+      <div className="relative mx-auto max-w-[1216px]">
         <SectionIntro eyebrow={copy.team.eyebrow} title={copy.team.title}>
           {copy.team.intro}
         </SectionIntro>
 
         <div
-          className="mb-7 grid grid-cols-5 overflow-hidden rounded-none border border-white/15 bg-white/5"
+          className="mb-7 grid grid-cols-5 overflow-hidden rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-soft)]"
           aria-label="BAYES"
           onMouseLeave={() => setActiveMemberId(null)}
         >
@@ -68,10 +69,10 @@ export function TeamSection() {
                 aria-label={`${member.name} harfi`}
                 onFocus={() => setActiveMemberId(member.id)}
                 onMouseEnter={() => setActiveMemberId(member.id)}
-                className={`font-display flex min-h-14 items-center justify-center border-r border-white/15 text-4xl leading-none transition duration-300 last:border-r-0 sm:min-h-16 sm:text-5xl md:min-h-20 md:text-6xl ${
+                className={`font-display flex min-h-14 items-center justify-center border-r border-[color:var(--bs-tone-border)] text-4xl leading-none transition duration-300 last:border-r-0 sm:min-h-16 sm:text-5xl md:min-h-20 md:text-6xl ${
                   isActive
                     ? accentClasses[member.accent]
-                    : "bg-white/[0.03] text-white/40 hover:bg-white/[0.08] hover:text-white"
+                    : "bg-[var(--bs-tone-soft)] text-[color:var(--bs-tone-muted)] hover:bg-[var(--bs-tone-soft)] hover:text-[color:var(--bs-tone-text)]"
                 }`}
               >
                 {member.letter}
@@ -90,13 +91,13 @@ export function TeamSection() {
             return (
               <motion.article
                 key={member.id}
-                initial={{ opacity: 0, y: 18 }}
+                initial={reducedMotion ? false : { opacity: 0, y: 18 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-80px" }}
-                transition={{ duration: 0.28, delay: index * 0.04 }}
+                transition={{ duration: reducedMotion ? 0 : 0.28, delay: reducedMotion ? 0 : index * 0.04 }}
                 onFocus={() => setActiveMemberId(member.id)}
                 onMouseEnter={() => setActiveMemberId(member.id)}
-                className="group relative isolate aspect-[4/5] overflow-hidden rounded-none border border-white/15 bg-[#0C1420] shadow-premium-sm transition duration-300 hover:-translate-y-1 hover:border-bayes-blue/70 hover:shadow-[0_0_30px_rgba(0,102,255,0.25)] focus-within:-translate-y-1"
+                className="theme-dark bs-team-card group relative isolate aspect-[4/5] overflow-hidden rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-card)] shadow-[var(--bs-shadow-soft)] transition duration-300 hover:-translate-y-1 hover:border-[color:var(--bs-primary)] hover:shadow-[var(--bs-shadow-soft)] focus-within:-translate-y-1"
               >
                 <Image
                   src={member.image}
@@ -116,17 +117,17 @@ export function TeamSection() {
                     isActive ? "opacity-80" : "opacity-90"
                   }`}
                 />
-                <div className="absolute inset-x-0 bottom-0 z-10 p-4 text-white md:p-5">
-                  <h3 className="font-subheading text-2xl leading-tight text-white">
+                <div className="absolute inset-x-0 bottom-0 z-10 p-4 text-[color:var(--bs-tone-text)] md:p-5">
+                  <h3 className="font-subheading text-2xl leading-tight text-[color:var(--bs-tone-text)]">
                     {member.name}
                   </h3>
-                  <p className="font-label mt-2 text-[10px] font-semibold uppercase leading-5 tracking-[0.12em] text-bayes-blue">
+                  <p className="font-label mt-2 text-[10px] font-semibold uppercase leading-5 tracking-[0.12em] text-[color:var(--bs-tone-accent)]">
                     {copy.team.roles[index] ?? member.role}
                   </p>
                   <button
                     type="button"
                     onClick={() => setSelectedMember(member)}
-                    className="mt-4 inline-flex items-center gap-2 border border-bayes-blue bg-bayes-blue px-3 py-2 font-label text-[10px] font-semibold uppercase tracking-[0.12em] text-white opacity-100 outline-offset-4 transition duration-300 hover:bg-blue-600 lg:translate-y-2 lg:opacity-0 lg:group-hover:translate-y-0 lg:group-hover:opacity-100 lg:group-focus-within:translate-y-0 lg:group-focus-within:opacity-100"
+                    className="mt-4 inline-flex items-center gap-2 border border-[color:var(--bs-primary)] bg-[var(--bs-primary)] px-3 py-2 font-label text-[10px] font-semibold uppercase tracking-[0.12em] text-white opacity-100 outline-offset-4 transition duration-300 hover:bg-blue-600 lg:translate-y-2 lg:opacity-0 lg:group-hover:translate-y-0 lg:group-hover:opacity-100 lg:group-focus-within:translate-y-0 lg:group-focus-within:opacity-100"
                   >
                     {copy.team.more}
                     <ArrowUpRight className="size-3.5" strokeWidth={1.8} />
@@ -151,14 +152,14 @@ export function TeamSection() {
             role="dialog"
             aria-modal="true"
             aria-labelledby={`team-member-${selectedMember.id}-title`}
-            initial={{ opacity: 0, y: 18, scale: 0.98 }}
+            initial={reducedMotion ? false : { opacity: 0, y: 18, scale: 0.98 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: 18, scale: 0.98 }}
-            transition={{ duration: 0.2 }}
-            className="max-h-[90vh] w-full max-w-3xl overflow-y-auto rounded-none border border-white/20 bg-[#080E17] text-white shadow-premium-lg"
+            exit={reducedMotion ? { opacity: 0 } : { opacity: 0, y: 18, scale: 0.98 }}
+            transition={{ duration: reducedMotion ? 0 : 0.2 }}
+            className="theme-dark max-h-[90vh] w-full max-w-3xl overflow-y-auto rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-card)] text-[color:var(--bs-tone-text)] shadow-[var(--bs-shadow-soft)]"
           >
             <div className="grid md:grid-cols-[0.78fr_1fr]">
-              <div className="relative min-h-[320px] border-b border-white/15 md:border-b-0 md:border-r">
+              <div className="relative min-h-[320px] border-b border-[color:var(--bs-tone-border)] md:border-b-0 md:border-r">
                 <Image
                   src={selectedMember.image}
                   alt={selectedMember.name}
@@ -174,21 +175,21 @@ export function TeamSection() {
                   type="button"
                   aria-label={copy.team.close}
                   onClick={() => setSelectedMember(null)}
-                  className="absolute right-4 top-4 flex size-10 items-center justify-center border border-white/20 bg-white/5 text-white transition duration-150 hover:border-bayes-blue hover:bg-bayes-blue hover:text-white"
+                  className="absolute right-4 top-4 flex size-10 items-center justify-center border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-soft)] text-[color:var(--bs-tone-text)] transition duration-150 hover:border-[color:var(--bs-primary)] hover:bg-[var(--bs-primary)] hover:text-white"
                 >
                   <X className="size-4" strokeWidth={1.8} />
                 </button>
 
                 <h3
                   id={`team-member-${selectedMember.id}-title`}
-                  className="font-subheading max-w-full px-12 text-4xl leading-tight text-white"
+                  className="font-subheading max-w-full px-12 text-4xl leading-tight text-[color:var(--bs-tone-text)]"
                 >
                   {selectedMember.name}
                 </h3>
-                <p className="font-label mt-3 text-xs font-semibold uppercase leading-6 tracking-[0.12em] text-bayes-blue">
+                <p className="font-label mt-3 text-xs font-semibold uppercase leading-6 tracking-[0.12em] text-[color:var(--bs-tone-accent)]">
                   {copy.team.roles[teamMembers.findIndex((member) => member.id === selectedMember.id)] ?? selectedMember.role}
                 </p>
-                <p className="mt-6 leading-8 text-bayes-silver">
+                <p className="mt-6 leading-8 text-[color:var(--bs-tone-muted)]">
                   {copy.team.bios[teamMembers.findIndex((member) => member.id === selectedMember.id)] ?? selectedMember.bio}
                 </p>
 
@@ -201,7 +202,7 @@ export function TeamSection() {
                         target="_blank"
                         rel="noreferrer"
                         aria-label={`${selectedMember.name} ${social.label}`}
-                        className="inline-flex items-center gap-2 border border-white/20 bg-white/5 px-3 py-2 font-label text-[10px] font-semibold uppercase tracking-[0.12em] text-white transition duration-150 hover:border-bayes-blue hover:bg-bayes-blue hover:text-white"
+                        className="inline-flex items-center gap-2 border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-soft)] px-3 py-2 font-label text-[10px] font-semibold uppercase tracking-[0.12em] text-[color:var(--bs-tone-text)] transition duration-150 hover:border-[color:var(--bs-primary)] hover:bg-[var(--bs-primary)] hover:text-white"
                       >
                         <SocialIcon icon={social.icon} className="size-4" />
                         {social.label}

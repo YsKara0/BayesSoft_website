@@ -8,6 +8,7 @@ import { ArrowUpRight, ChevronDown, Menu, X } from "lucide-react";
 import { Logo } from "@/components/Logo";
 import { useLanguage } from "@/components/LanguageProvider";
 import { localeOptions, type Locale } from "@/data/i18n";
+import styles from "./Header.module.css";
 
 const navItems = [
   { key: "home", href: "/" },
@@ -50,7 +51,7 @@ function LanguageSwitch({ compact = false }: { compact?: boolean }) {
   };
 
   return (
-    <div ref={rootRef} className={`relative ${compact ? "w-full" : "w-16"}`}>
+    <div ref={rootRef} className={`${styles.languageRoot} ${compact ? styles.languageCompact : ""}`}>
       <button
         type="button"
         role="combobox"
@@ -59,10 +60,10 @@ function LanguageSwitch({ compact = false }: { compact?: boolean }) {
         aria-expanded={open}
         aria-haspopup="listbox"
         onClick={() => setOpen((current) => !current)}
-        className="flex min-h-10 w-full items-center justify-center gap-1.5 rounded-none border border-white/15 bg-white/5 px-2 text-white shadow-sm backdrop-blur-xl transition hover:border-white/30 hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/40"
+        className={styles.languageButton}
       >
         <span aria-hidden="true" className={`${localeFlagClasses[locale]} language-flag`} />
-        <ChevronDown className={`size-3 shrink-0 text-white/50 transition-transform ${open ? "rotate-180" : ""}`} aria-hidden="true" />
+        <ChevronDown className={`${styles.chevron} ${open ? styles.chevronOpen : ""}`} aria-hidden="true" />
       </button>
 
       <AnimatePresence>
@@ -72,7 +73,7 @@ function LanguageSwitch({ compact = false }: { compact?: boolean }) {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -4, scale: 0.98 }}
             transition={{ duration: 0.16 }}
-            className="absolute inset-x-0 top-[calc(100%+0.45rem)] z-[70] overflow-hidden rounded-none border border-white/15 bg-[#080E17] p-1.5 shadow-premium-lg"
+            className={styles.languageMenu}
           >
             <div id={menuId} role="listbox" aria-label={copy.language.label} className="grid gap-1">
               {localeOptions.map((option) => (
@@ -83,7 +84,7 @@ function LanguageSwitch({ compact = false }: { compact?: boolean }) {
                   aria-selected={locale === option}
                   onClick={() => chooseLocale(option)}
                   aria-label={copy.language.names[option]}
-                  className={`flex min-h-10 items-center justify-center rounded-none px-2 transition ${locale === option ? "border border-white/20 bg-white/10 text-white" : "hover:bg-white/5"}`}
+                  className={`${styles.languageOption} ${locale === option ? styles.languageSelected : ""}`}
                 >
                   <span aria-hidden="true" className={`${localeFlagClasses[option]} language-flag`} />
                 </button>
@@ -114,23 +115,20 @@ export function Header() {
   useEffect(() => setOpen(false), [pathname]);
 
   return (
-    <header className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled ? "border-b border-white/10 bg-[#06090E]/90 shadow-premium-sm backdrop-blur-xl" : "bg-transparent"}`}>
-      <motion.div className="absolute inset-x-0 bottom-0 h-[1px] origin-left bg-white/25" style={{ scaleX }} />
-      <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 md:px-8" aria-label="Main navigation">
-        <Logo variant="light" />
+    <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
+      <motion.div className={styles.progress} style={{ scaleX }} />
+      <nav className={styles.nav} aria-label="Main navigation">
+        <div className={styles.logo}><Logo variant="light" /></div>
 
-        <div className="hidden items-center gap-1 rounded-none border border-white/15 bg-white/5 p-1.5 shadow-premium-sm backdrop-blur-xl lg:flex">
+        <div className={styles.desktopLinks}>
           {navItems.map((item) => {
             const active = pathname === item.href;
             return (
               <Link
                 key={item.href}
                 href={item.href}
-                className={`rounded-none px-4 py-2 font-mono text-[11px] font-semibold uppercase tracking-wider transition-all duration-200 ${
-                  active
-                    ? "border border-white/15 bg-white/10 text-white shadow-sm"
-                    : "border border-transparent text-white/70 hover:border-white/10 hover:bg-white/10 hover:text-white"
-                }`}
+                aria-current={active ? "page" : undefined}
+                className={`${styles.navLink} ${active ? styles.active : ""}`}
               >
                 {copy.nav[item.key]}
               </Link>
@@ -138,35 +136,32 @@ export function Header() {
           })}
         </div>
 
-        <div className="hidden items-center gap-2 lg:flex">
+        <div className={styles.desktopActions}>
           <LanguageSwitch />
           <Link
             href="/iletisim"
-            className="group inline-flex min-h-10 items-center justify-center gap-2 rounded-none border border-white/15 bg-white/5 px-4 font-mono text-[11px] font-semibold uppercase tracking-wider text-white backdrop-blur-md transition-all duration-200 hover:border-white/30 hover:bg-white/10 hover:-translate-y-0.5 shadow-sm"
+            className={`group ${styles.contactButton}`}
           >
             {copy.nav.cta}
             <ArrowUpRight className="size-3.5 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
         </div>
 
-        <button type="button" aria-label={copy.nav.menu} aria-expanded={open} onClick={() => setOpen((current) => !current)} className="flex size-11 items-center justify-center rounded-none border border-white/20 bg-white/5 text-white shadow-premium-sm backdrop-blur-xl lg:hidden">
+        <button type="button" aria-label={copy.nav.menu} aria-expanded={open} onClick={() => setOpen((current) => !current)} aria-controls="site-mobile-menu" className={styles.menuButton}>
           {open ? <X className="size-5" /> : <Menu className="size-5" />}
         </button>
       </nav>
 
       <AnimatePresence>
         {open ? (
-          <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} transition={{ duration: 0.2 }} className="border-t border-white/10 bg-[#06090E]/95 px-5 pb-5 shadow-premium-lg backdrop-blur-2xl lg:hidden">
-            <div className="mx-auto grid max-w-7xl gap-2 pt-4">
+          <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} transition={{ duration: 0.2 }} id="site-mobile-menu" className={styles.mobileMenu}>
+            <div className={styles.mobileLinks}>
               {navItems.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`rounded-none border px-4 py-3.5 font-mono text-xs font-semibold uppercase tracking-wider transition ${
-                    pathname === item.href
-                      ? "border-white/20 bg-white/10 text-white"
-                      : "border-white/10 bg-white/5 text-white/70 hover:bg-white/10 hover:text-white"
-                  }`}
+                  aria-current={pathname === item.href ? "page" : undefined}
+                  className={`${styles.mobileLink} ${pathname === item.href ? styles.active : ""}`}
                 >
                   {copy.nav[item.key]}
                 </Link>
@@ -174,7 +169,7 @@ export function Header() {
               <LanguageSwitch compact />
               <Link
                 href="/iletisim"
-                className="mt-1 inline-flex min-h-11 items-center justify-center gap-2 rounded-none border border-white/15 bg-white/5 px-4 font-mono text-xs font-semibold uppercase tracking-wider text-white backdrop-blur-md transition hover:bg-white/10"
+                className={styles.contactButton}
               >
                 {copy.nav.cta}
                 <ArrowUpRight className="size-4" />

@@ -49,26 +49,29 @@ export function ClientsSection() {
         <div ref={tickerRef} className="reference-ticker-track">
           {[0, 1].map((groupIndex) => (
             <div key={groupIndex} className="reference-ticker-group" aria-hidden={groupIndex === 1}>
-              {clientReferences.map((reference) => (
-                <a
-                  key={`${reference.name}-${groupIndex}`}
-                  href={reference.website || "#"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={reference.name}
-                  className="group flex h-24 w-52 shrink-0 items-center justify-center rounded-xl border border-white/15 bg-white p-5 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-bayes-blue/50 hover:shadow-[0_12px_28px_rgba(0,102,255,0.25)] md:h-28 md:w-60"
-                >
-                  <div className="relative h-11 w-full transition duration-300 group-hover:scale-105">
-                    <Image
-                      src={reference.src}
-                      alt={reference.name}
-                      fill
-                      sizes="240px"
-                      className="object-contain"
-                    />
-                  </div>
-                </a>
-              ))}
+              {clientReferences.map((reference) => {
+                const Card = reference.website ? "a" : "div";
+                return (
+                  <Card
+                    key={`${reference.name}-${groupIndex}`}
+                    href={reference.website}
+                    target={reference.website ? "_blank" : undefined}
+                    rel={reference.website ? "noopener noreferrer" : undefined}
+                    aria-label={reference.name}
+                    className={`flex h-24 w-52 shrink-0 items-center justify-center rounded-xl border border-white/15 bg-white p-5 shadow-sm md:h-28 md:w-60 ${reference.website ? "group transition duration-300 hover:-translate-y-1 hover:border-bayes-blue/50 hover:shadow-[0_12px_28px_rgba(0,102,255,0.25)]" : ""}`}
+                  >
+                    <div className="relative h-11 w-full transition duration-300 group-hover:scale-105">
+                      <Image
+                        src={reference.src}
+                        alt={reference.name}
+                        fill
+                        sizes="240px"
+                        className="object-contain"
+                      />
+                    </div>
+                  </Card>
+                );
+              })}
             </div>
           ))}
         </div>

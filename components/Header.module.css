@@ -10,7 +10,7 @@
 .navLink.active:after { content:""; position:absolute; bottom:4px; left:0; right:0; height:2px; background:var(--bs-primary); }
 .desktopActions { display:flex; align-items:center; gap:16px; }
 .contactButton { display:inline-flex; align-items:center; justify-content:center; gap:17px; padding:13px 20px; min-height:46px; border-radius:var(--bs-radius-control); border:1px solid var(--bs-primary); background:var(--bs-primary); color:var(--bs-text-on-dark); font-size:12px; font-weight:600; transition:background .2s; }
-.contactButton:hover { background:var(--bs-primary-hover); }
+.contactButton:hover { background:var(--bs-primary-hover); border-color:var(--bs-primary-hover); }
 .languageRoot { position:relative; width:62px; }.languageCompact { width:100%; }
 .languageButton { display:flex; align-items:center; justify-content:center; width:100%; min-height:44px; gap:8px; border:1px solid var(--bs-border); border-radius:var(--bs-radius-control); background:var(--bs-surface); color:var(--bs-text); transition:border-color .2s; }.languageButton:hover { border-color:var(--bs-primary); }
 .chevron { width:12px; height:12px; color:var(--bs-text-muted); transition:transform .2s; }.chevronOpen { transform:rotate(180deg); }

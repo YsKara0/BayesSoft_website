@@ -1,5 +1,98 @@
 # 04 — BayesSoft 2.0 Roadmap
 
+## 11 Ekim 2026 — Vitrin son küçük ayarlar
+
+- [x] Kontrollü canlı UI vurguları; alt caption kaldırıldı, hero alt boşluğu azaltıldı.
+- [x] TypeScript, hedefli lint, CSS parse/caption kontrolü ve diff-check.
+- [ ] Kullanıcı manuel görsel değerlendirmesi.
+
+Detay: [[logs/2026-10-11-showcase-final-tweaks]].
+
+## 11 Ekim 2026 — Telefon açık tema
+
+- [x] Telefon örnek arayüzü soft blue-gray zemin/beyaz kart/lacivert metinle açık temaya geçirildi; web paneli koyu kaldı.
+- [x] CSS parse/tema ayrımı ve diff-check.
+- [ ] Kullanıcı manuel değerlendirmesi; kompozisyon ve diğer bölümler korundu.
+
+Detay: [[logs/2026-10-11-phone-light-theme]].
+
+## 11 Ekim 2026 — Premium web paneli ve telefon çerçevesi
+
+- [x] Laptop kabuğu/perspektifi kaldırıldı; örnek web paneli ince kenarlık/gölge ile sunuldu.
+- [x] Ön plan telefon bezel/köşe/island ve kenar detayları rafine edildi.
+- [x] TypeScript, hedefli lint, CSS/sınıf kontrolü ve diff-check.
+- [ ] Kullanıcı manuel kompozisyon değerlendirmesi.
+
+Detay: [[logs/2026-10-11-showcase-web-panel]].
+
+## 11 Ekim 2026 — Laptop/arayüz kontrast revizyonu
+
+- [x] Laptop %10 küçültülüp yukarı dengelendi; telefon boyutu korundu.
+- [x] Web/mobil örnek ekran yüzeyleri, ikincil metin ve mavi/mor göstergeler güçlendirildi.
+- [x] CSS parse, ölçek/telefon genişliği hesabı ve diff-check.
+- [ ] Kullanıcı manuel ilk viewport ve ekran kontrastı değerlendirmesi.
+
+Detay: [[logs/2026-10-11-showcase-contrast]].
+
+## 11 Ekim 2026 — Hero örnek arayüz geçişi
+
+- [x] Hero üst etiketi kaldırıldı; üst boşluk ve CTA–cihaz aralığı azaltıldı, cihazlar küçültülmedi.
+- [x] BayesSoft örnek web/mobil çalışma alanı: projeler/görevler/ekip/aktiviteler, TR/EN/DE.
+- [x] TypeScript, hedefli lint, CSS parse/sınıf kontrolü ve diff-check.
+- [ ] Kullanıcı manuel cihaz ekranı ve ilk viewport değerlendirmesi (MacBook boyutları dahil).
+
+Web–Mobil–AI scroll geçişi bu kapsamda değişmedi. Detay: [[logs/2026-10-11-hero-sample-interfaces]].
+
+## 11 Ekim 2026 — Vitrin ölçek revizyonu
+
+- [x] Masaüstü cihaz kompozisyonu %12 küçültüldü; hero başlığı ve CTA–vitrin aralığı dengelendi. Mobil/tablet ve placeholder korunur.
+- [x] CSS parse, 1280/1440/1512px ölçek hesabı ve diff-check.
+- [ ] Kullanıcı manuel görsel değerlendirmesi; cihaz ekranı tasarımı sonraki adımdır.
+
+Detay: [[logs/2026-10-11-showcase-scale]].
+
+## 11 Ekim 2026 — Hero cihaz vitrini
+
+- [x] Yeni HeroShowcase: responsive statik laptop + önde solda telefon, sade placeholder ekranlar.
+- [x] TypeScript, hedefli lint, CSS parse ve diff-check.
+- [ ] Kullanıcı manuel cihaz kompozisyonu değerlendirmesi.
+
+Detaylı dashboard ve yeni animasyon bu aşamada uygulanmadı. Detay: [[logs/2026-10-11-hero-showcase]].
+
+## 11 Ekim 2026 — Hero ölçek revizyonu
+
+- [x] Masaüstü başlık yaklaşık %24 küçültüldü; mobil ölçek korundu. Dikey ritim ve içerik yüksekliği gelecekteki ürün görseline uygun düzenlendi.
+- [x] CSS parse, masaüstü ölçek hesabı ve diff-check geçti.
+- [ ] Kullanıcının son hero görünümünü manuel değerlendirmesi; ürün görseli henüz eklenmedi.
+
+Detay: [[logs/2026-10-11-hero-scale]].
+
+## 11 Ekim 2026 — Hero sade kompozisyon geçişi
+
+- [x] Space Grotesk hero fontu kullanıcı tarafından beğenildi; korunur.
+- [x] Ortalanmış hero başlık/açıklama/CTA ve hafif lacivert-mavi/mor glow uygulandı; video kullanımı kaldırıldı, dosyalar korundu.
+- [x] TypeScript, hedefli lint, CSS/içerik-CTA kontrolü ve diff-check.
+- [ ] Bu hero kompozisyonunun kullanıcı manuel görsel değerlendirmesi.
+
+Bu tur diğer bölümlere ve Web–Mobil–AI sahnelerine dokunulmadı. Detay: [[logs/2026-10-11-hero-centered]].
+
+## 11 Ekim 2026 — Phase 2 hero tipografi denemesi
+
+- [x] Yalnızca hero H1 için yerel Space Grotesk 700 denemesi; Inter ve mevcut hero içeriği/işlevi korunur.
+- [x] Türkçe glifler ve tek font varlığı üretimi kontrol edildi; typecheck/lint/diff-check geçti.
+- [ ] Montserrat ile kullanıcı görsel karşılaştırması ve font tercihi.
+
+Web–Mobil–AI sahne yeniden tasarımı başlamadı. Detay: [[logs/2026-10-11-hero-space-grotesk]].
+
+## 11 Ekim 2026 — Küçük iyileştirme geçişi
+
+- [x] Kullanıcının onayladığı sekiz iyileştirme: bölüm ritmi/boşluk, mobil kart yüksekliği, başlıklar, proje hizası/kontrastı, referans logoları, footer ve token tutarlılığı.
+- [x] 768–1023px animasyon metin sütunlarında CSS düzeltmesi; sahneler ve çalışma mantığı korunur.
+- [x] TypeScript, ESLint, Tailwind CSS üretimi ve diff-check.
+- [ ] Bu revizyonun kullanıcı tarafından manuel görsel kontrolü ve kabulü (1440/768/390px, TR/EN/DE).
+
+Lacivert kimlik/açık alan dağılımı ve hero videosu korunur. Phase 2 başlamadı. Önceki Mac tarayıcı incelemesi yapıldı; aşağıdaki Windows engeli bu tur için geçerli değildir. Bu turda kapsamlı tarayıcı QA veya build çalıştırılmadı. Detay: [[logs/2026-10-11-phase1-refinements]].
+
 ## 10 Ekim 2026 — Güncel lacivert ağırlıklı revizyon
 
 Kullanıcının son açıklaması: beyaz detaylar, lacivert üzerinde premium çoğunluk. Bu yön, ZIP'teki geniş açık bölüm ritmi önerisini ve ilk uygulamadaki açık header/süreç alanlarını geçersiz kılar. Sabit bir renk yüzdesi onaylanmadı.

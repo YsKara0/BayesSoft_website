@@ -11,7 +11,7 @@ export function ProcessSection() {
   const { copy } = useLanguage();
 
   return (
-    <section className="theme-dark bs-section relative overflow-hidden border-b border-[color:var(--bs-tone-border)] bg-[var(--bs-foundation)] px-5 py-24 text-[color:var(--bs-tone-text)] md:px-8 md:py-32">
+    <section className="theme-dark bs-section bs-home-section relative overflow-hidden border-b border-[color:var(--bs-tone-border)] bg-[var(--bs-foundation)] px-5 text-[color:var(--bs-tone-text)] md:px-8">
       <div className="texture-diagonal absolute inset-0 opacity-20" />
       <div className="relative mx-auto max-w-[1216px]">
         <SectionIntro eyebrow={copy.process.eyebrow} title={copy.process.title}>

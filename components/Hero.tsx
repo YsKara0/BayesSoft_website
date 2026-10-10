@@ -1,12 +1,21 @@
 "use client";
 
-import { useEffect, useRef } from "react";
 import Link from "next/link";
+import localFont from "next/font/local";
 import { ArrowUpRight } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
 import { useLanguage } from "@/components/LanguageProvider";
+import { HeroShowcase } from "@/components/HeroShowcase";
 import { homeCopy } from "@/data/home";
 import styles from "./Hero.module.css";
+
+const heroFont = localFont({
+  src: "./fonts/SpaceGrotesk-Bold.woff2",
+  weight: "700",
+  style: "normal",
+  display: "swap",
+  variable: "--font-hero",
+});
 
 const container = {
   hidden: {},
@@ -31,48 +40,10 @@ const revealItem = {
 export function Hero() {
   const { locale } = useLanguage();
   const copy = homeCopy[locale].hero;
-  const videoRef = useRef<HTMLVideoElement>(null);
   const reducedMotion = useReducedMotion();
-
-  // Guarantee programmatic muted playback across all browsers
-  useEffect(() => {
-    const video = videoRef.current;
-    if (video) {
-      if (reducedMotion) {
-        video.pause();
-        return;
-      }
-      video.muted = true;
-      video.play().catch(() => {
-        // Fallback gracefully if browser has strict policy
-      });
-    }
-  }, [reducedMotion]);
 
   return (
     <section className={styles.hero}>
-      {/* Background Cinematic Video Layer */}
-      <div className={styles.videoWrapper} aria-hidden="true">
-        <video
-          ref={videoRef}
-          className={`${styles.bgVideo} saturate-[0.5] brightness-[0.75] contrast-[1.15]`}
-          autoPlay={!reducedMotion}
-          loop
-          muted
-          playsInline
-          preload="auto"
-        >
-          <source src="/Glowing_3D_geometric_data_network_202608311617.mp4" type="video/mp4" />
-          <source src="/assets/Glowing_3D_geometric_data_network_202608311617.mp4" type="video/mp4" />
-          <source src="/hero-bg.mp4" type="video/mp4" />
-          <source src="/background_new2.mp4" type="video/mp4" />
-          <source src="/background.mp4" type="video/mp4" />
-        </video>
-      </div>
-
-      {/* Optimized Linear Gradient Overlay */}
-      <div className={styles.overlayTint} aria-hidden="true" />
-
       {/* Main Hero Content */}
       <div className={styles.inner}>
         <motion.div
@@ -81,11 +52,10 @@ export function Hero() {
           initial={reducedMotion ? false : "hidden"}
           animate="visible"
         >
-          <p className={styles.eyebrow}><span aria-hidden="true" />{copy.eyebrow}</p>
           {/* Existing copy and reveal sequence, styled with Balanced Premium tokens. */}
-          <motion.div variants={revealItem} className="pb-1 text-left">
+          <motion.div variants={revealItem} className="pb-1">
             <h1
-              className={styles.headline}
+              className={`${styles.headline} ${heroFont.variable}`}
             >
               {copy.titleLead}{" "}
               <span className={styles.accent}>
@@ -123,6 +93,7 @@ export function Hero() {
             </Link>
           </motion.div>
         </motion.div>
+        <HeroShowcase />
       </div>
     </section>
   );

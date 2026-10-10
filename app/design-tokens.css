@@ -7,6 +7,8 @@
   --bs-surface: #ffffff;
   --bs-primary: #2563eb;
   --bs-primary-hover: #1d4ed8;
+  --bs-primary-glow: rgba(37, 99, 235, 0.14);
+  --bs-section-space: clamp(4rem, 7vw, 6.5rem);
   --bs-accent: #72b8ff;
   --bs-text: #152238;
   --bs-text-muted: #53647b;

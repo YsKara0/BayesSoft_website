@@ -1,5 +1,13 @@
 # 02 — Design System / Phase 1
 
+## 11 Ekim 2026 — Mevcut yüzeyler üzerinde dengeleme
+
+Lacivert #101827/#17263F yüzeyler ve mevcut seçici açık kart/bantlar korunur. Açık alanları artırma hedefi yok. Ana sayfa hizmet/proje/süreç bölüm aralığı `--bs-section-space: clamp(4rem, 7vw, 6.5rem)`; mavi dekoratif vurgu `--bs-primary-glow` üzerinden ortaklaştırıldı. İnce mevcut bölüm ayraçlarına footer üst sınırı eklendi.
+
+Başlıklar dengeli satır kırar; tablet ortak başlık ölçeği 48px, büyük masaüstü 60px. Mobil hizmet kartlarında padding 24px, liste satırları en az 44px; metin içeriği korunur. Proje sütunları masaüstünde ortak başlık satırını subgrid ile paylaşır; kartlar zorla eşit yüksekliğe uzatılmaz. Tam Finans logosu küçük beyaz logo yüzeyinde orijinal renkleriyle gösterilir. Referanslarda yatay logolar 44px, kare/dikey logolar 64px yüksekliğe sahip kutularda contain kullanır. Footer sloganı 28–56px arasında dengeli ölçeklenir.
+
+Görsel kabul bu revizyon sonrası kullanıcıda; otomatik kontroller görsel doğrulama yerine geçmez. Detay: [[logs/2026-10-11-phase1-refinements]].
+
 ## 10 Ekim 2026 — Güncel lacivert ağırlıklı revizyon
 
 Kullanıcının son açıklaması: beyaz detaylar, lacivert üzerinde premium çoğunluk. Bu yön, ZIP'teki geniş açık bölüm ritmi önerisini ve ilk uygulamadaki açık header/süreç alanlarını geçersiz kılar. Sabit bir renk yüzdesi onaylanmadı.

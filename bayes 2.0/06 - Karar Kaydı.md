@@ -1,5 +1,11 @@
 # 05 — Decision Log (confirmed vs proposals)
 
+## 11 Ekim 2026 — D-017: Sınırlı tasarım iyileştirme onayı
+
+Kullanıcı sekiz önerinin tamamını onayladı. Mevcut açık alan miktarı yeterlidir; hizmetler/projeler/süreç tamamen açık temaya geçirilmez. Lacivert premium kimlik ve hero videosu korunur. 768px tablette Web–Mobil–AI metin çakışması CSS yerleşimi ile düzeltilebilir; sahneler ve çalışma mantığı değiştirilemez. Yeni hero ve animasyon yönü Phase 2'ye aittir.
+
+Bu turda yalnızca gerekli kod kontrolleri; kapsamlı tarayıcı analizi/çok sayıda ekran görüntüsü yok. Görsel kontrol kullanıcıda. Obsidian güncellenir, feature dalında kalınır; commit/push/deploy yapılmaz. Bu karar önceki “animasyon kaynakları hiç değişmez” kuralına yalnızca tablet metin yerleşimi istisnasını getirir.
+
 ## 10 Ekim 2026 — Güncel lacivert ağırlıklı revizyon
 
 Kullanıcının son açıklaması: beyaz detaylar, lacivert üzerinde premium çoğunluk. Bu yön, ZIP'teki geniş açık bölüm ritmi önerisini ve ilk uygulamadaki açık header/süreç alanlarını geçersiz kılar. Sabit bir renk yüzdesi onaylanmadı.

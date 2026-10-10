@@ -554,6 +554,15 @@
   .phoneWrap { width: clamp(225px, 28vw, 285px); }
 }
 
+/* Reserve a clear side column around the centered phone on tablets.
+   Scene timing, transforms and scroll height are unchanged. */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .copyBlock { width: calc((100vw - clamp(225px, 28vw, 285px) * 1.05) / 2 - 5vw - 1.5rem); }
+  .title { font-size: clamp(1.5rem, 2.8vw, 1.9rem); line-height: 1.15; }
+  .body { margin-top: 1rem; font-size: 0.9375rem; line-height: 1.65; }
+  .eyebrow { letter-spacing: 0.1em; }
+}
+
 @media (max-width: 767px) {
   .section { height: 260svh; }
   .stage { min-height: 560px; }

@@ -1,5 +1,11 @@
 # Phase 1 — Site Geneli Balanced Premium
 
+## 11 Ekim 2026 — Sekiz iyileştirme onaylandı ve uygulandı
+
+Bölüm geçişleri, boşluklar, mobil hizmet kartı yüksekliği, başlık satırları, proje hizası/Tam Finans kontrastı, referans logo dengesi, footer ve renk tokenları düzenlendi. Mevcut lacivert ağırlık/açık yüzey dağılımı ve hero videosu korunur. Tablet Web–Mobil–AI metin çakışması için CSS sütun genişliği ve yazı ölçeği düzeltmesi eklendi; Phase 2 sahne değişikliği yapılmadı.
+
+Kod kontrolleri geçti; bu revizyonun görsel değerlendirmesini kullanıcı manuel yapacak. Yeni ekran görüntüsü/tarayıcı analizi ve commit/push/deploy yok. Detay: [[logs/2026-10-11-phase1-refinements]].
+
 ## 10 Ekim 2026 — Güncel lacivert ağırlıklı revizyon
 
 Kullanıcının son açıklaması: beyaz detaylar, lacivert üzerinde premium çoğunluk. Bu yön, ZIP'teki geniş açık bölüm ritmi önerisini ve ilk uygulamadaki açık header/süreç alanlarını geçersiz kılar. Sabit bir renk yüzdesi onaylanmadı.

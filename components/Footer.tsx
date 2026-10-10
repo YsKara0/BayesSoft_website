@@ -23,13 +23,13 @@ export function Footer() {
   const { copy } = useLanguage();
 
   return (
-    <footer className="theme-dark bs-footer bs-section relative overflow-hidden bg-[var(--bs-tone-bg)] px-5 py-14 text-[color:var(--bs-tone-text)] md:px-8">
+    <footer className="theme-dark bs-footer bs-section relative border-t border-[color:var(--bs-tone-border)] overflow-hidden bg-[var(--bs-tone-bg)] px-5 py-14 text-[color:var(--bs-tone-text)] md:px-8">
       <div className="absolute -right-28 -top-28 size-96 bg-[var(--bs-surface-dark)] blur-3xl" />
       <div className="mx-auto max-w-[1216px]">
-        <div className="relative grid gap-10 border-b border-[color:var(--bs-tone-border)] pb-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
+        <div className="relative grid gap-8 border-b border-[color:var(--bs-tone-border)] pb-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
           <div>
             <Logo variant="light" large />
-            <p className="font-display mt-8 max-w-2xl text-4xl leading-[1.08] text-[color:var(--bs-tone-text)] md:text-6xl">
+            <p className="bs-footer-statement font-display mt-6 max-w-2xl leading-[1.15] text-[color:var(--bs-tone-text)]">
               {copy.footer.statement}
             </p>
           </div>
@@ -49,7 +49,7 @@ export function Footer() {
                   key={social.label}
                   href={social.href}
                   aria-label={`BayesSoft ${social.label}`}
-                  className="flex size-11 items-center justify-center rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-soft)] text-[color:var(--bs-tone-text)] transition duration-200 hover:border-[color:var(--bs-tone-border)] hover:bg-[var(--bs-tone-soft)] hover:text-[color:var(--bs-tone-text)]"
+                  className="flex size-11 items-center justify-center rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-soft)] text-[color:var(--bs-tone-text)] transition duration-200 hover:border-[color:var(--bs-tone-accent)] hover:bg-[var(--bs-tone-card)] hover:text-[color:var(--bs-tone-accent)]"
                 >
                   <SocialIcon icon={social.icon} className="size-4" />
                 </a>

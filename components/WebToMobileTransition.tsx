@@ -7,6 +7,10 @@ import {
   useSpring,
   useTransform,
 } from "framer-motion";
+import { AIScene } from "@/components/AIScene";
+import { heroFont } from "@/components/heroFont";
+import { MobileScene } from "@/components/MobileScene";
+import { WebScene } from "@/components/WebScene";
 import { useLanguage } from "@/components/LanguageProvider";
 import type { Locale } from "@/data/i18n";
 import styles from "./WebToMobileTransition.module.css";
@@ -23,157 +27,47 @@ const storyCopy: Record<Locale, {
   aiBody: string;
   scroll: string;
   progress: string;
-  appKicker: string;
-  appTitle: string;
 }> = {
   tr: {
     webEyebrow: "Web deneyimi",
-    webTitle: "İşiniz. Web ile bağlantılı.",
-    webBody: "Müşteri portalı, operasyon paneli ve web platformu aynı iş akışını görünür ve yönetilebilir hale getirir.",
+    webTitle: "İş süreçleriniz, tek ekranda.",
+    webBody: "İşinize özel yönetim panelleri, müşteri portalları ve kurumsal web platformları geliştiriyoruz.",
     mobileEyebrow: "Mobil ürün",
-    mobileTitle: "Aynı ürün. Müşterilerinizin elinde.",
-    mobileBody: "Web’de çalışan ürün çekirdeği, aynı veri ve servislerle akıcı bir mobil deneyime dönüşür.",
+    mobileTitle: "İşiniz, her an yanınızda.",
+    mobileBody: "İşinize özel mobil uygulamalar geliştiriyoruz. Görevleriniz ve bildirimleriniz her an yanınızda.",
     aiEyebrow: "Akıllı katman",
-    aiTitle: "Ve yapay zekâ ile daha akıllı.",
-    aiBody: "Otomasyonlar ve AI katmanları web ile mobili ayrı ürünler değil, öğrenen tek bir ekosistem haline getirir.",
+    aiTitle: "Tekrarlayan işleri akıllı akışlara dönüştürün.",
+    aiBody: "İşinize özel AI çözümleriyle talepleri özetleyip sınıflandırıyoruz; görev oluşturma kararını ekibiniz onaylıyor.",
     scroll: "Dönüşümü keşfet",
     progress: "Web → Mobil → AI",
-    appKicker: "Canlı sistem",
-    appTitle: "Her an, her yerde.",
   },
   en: {
     webEyebrow: "Web experience",
-    webTitle: "Your business. Connected to the web.",
-    webBody: "A customer portal, operations dashboard and web platform make the same business flow visible and manageable.",
+    webTitle: "Your business processes, in one place.",
+    webBody: "We build custom admin panels, customer portals and corporate web platforms for your business.",
     mobileEyebrow: "Mobile product",
-    mobileTitle: "The same product. In your customers’ hands.",
-    mobileBody: "The product core that runs on the web becomes a fluid mobile experience using the same data and services.",
+    mobileTitle: "Your business, always with you.",
+    mobileBody: "We build mobile apps for your business. Your tasks and notifications stay within reach.",
     aiEyebrow: "Intelligence layer",
-    aiTitle: "And smarter with AI.",
-    aiBody: "Automation and AI connect web and mobile into one product ecosystem that learns, assists and evolves.",
+    aiTitle: "Turn repetitive work into intelligent workflows.",
+    aiBody: "Our custom AI solutions summarize and classify requests, while your team approves task creation.",
     scroll: "Explore the transition",
     progress: "Web → Mobile → AI",
-    appKicker: "Live system",
-    appTitle: "Ready everywhere.",
   },
   de: {
     webEyebrow: "Web-Erlebnis",
-    webTitle: "Ihr Unternehmen. Mit dem Web verbunden.",
-    webBody: "Kundenportal, Operations-Dashboard und Web-Plattform machen denselben Geschäftsablauf sichtbar und steuerbar.",
+    webTitle: "Ihre Geschäftsprozesse, auf einen Blick.",
+    webBody: "Wir entwickeln individuelle Verwaltungsoberflächen, Kundenportale und Unternehmensplattformen für Ihr Geschäft.",
     mobileEyebrow: "Mobiles Produkt",
-    mobileTitle: "Dasselbe Produkt. In den Händen Ihrer Kunden.",
-    mobileBody: "Der Produktkern aus dem Web wird mit denselben Daten und Services zu einem flüssigen mobilen Erlebnis.",
+    mobileTitle: "Ihr Geschäft, immer dabei.",
+    mobileBody: "Wir entwickeln mobile Apps für Ihr Geschäft. Aufgaben und Benachrichtigungen sind jederzeit dabei.",
     aiEyebrow: "Intelligente Ebene",
-    aiTitle: "Und intelligenter mit KI.",
-    aiBody: "Automation und KI verbinden Web und Mobile zu einem lernenden, unterstützenden Produktökosystem.",
+    aiTitle: "Verwandeln Sie Routinearbeit in intelligente Abläufe.",
+    aiBody: "Unsere individuellen KI-Lösungen fassen Anfragen zusammen und ordnen sie ein. Ihr Team bestätigt die Aufgabenerstellung.",
     scroll: "Transformation entdecken",
     progress: "Web → Mobil → KI",
-    appKicker: "Live-System",
-    appTitle: "Überall bereit.",
   },
 };
-
-function DigitalGlobe() {
-  return (
-    <>
-      <span className={styles.orbit} />
-      <span className={styles.orbitSecondary} />
-      <div className={styles.globeShell}>
-        <div className={styles.globeInnerMesh}>
-          <svg className={styles.globeSvg} viewBox="0 0 300 300" aria-hidden="true">
-            <defs>
-              <linearGradient id="polyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stopColor="#0066FF" stopOpacity="0.35" />
-                <stop offset="100%" stopColor="#003D99" stopOpacity="0.05" />
-              </linearGradient>
-            </defs>
-            {/* Polygonal Icosahedron Matrix */}
-            <polygon points="150,30 250,85 250,215 150,270 50,215 50,85" stroke="rgba(255,255,255,0.18)" strokeWidth="1" fill="none" />
-            <polygon points="150,75 220,115 220,185 150,225 80,185 80,115" stroke="rgba(0,102,255,0.4)" strokeWidth="1.2" fill="url(#polyGrad)" />
-            
-            <path className={styles.networkLine} d="M50 85 L150 75 L250 85 M50 215 L150 225 L250 215 M150 30 L150 75 M150 225 L150 270 M80 115 L220 185 M80 185 L220 115" />
-            <line x1="150" y1="75" x2="150" y2="225" stroke="#0066FF" strokeWidth="1.5" />
-            
-            {/* Vertex Markers */}
-            <rect x="146" y="26" width="8" height="8" fill="#0066FF" transform="rotate(45 150 30)" />
-            <rect x="246" y="81" width="8" height="8" fill="#FFFFFF" transform="rotate(45 250 85)" />
-            <rect x="246" y="211" width="8" height="8" fill="#38BDF8" transform="rotate(45 250 215)" />
-            <rect x="146" y="266" width="8" height="8" fill="#FFFFFF" transform="rotate(45 150 270)" />
-            <rect x="46" y="211" width="8" height="8" fill="#0066FF" transform="rotate(45 50 215)" />
-            <rect x="46" y="81" width="8" height="8" fill="#FFFFFF" transform="rotate(45 50 85)" />
-            
-            <rect x="145" y="70" width="10" height="10" fill="#0066FF" transform="rotate(45 150 75)" />
-            <rect x="145" y="220" width="10" height="10" fill="#38BDF8" transform="rotate(45 150 225)" />
-          </svg>
-        </div>
-        <span className={styles.core} />
-      </div>
-    </>
-  );
-}
-
-function PhoneVisual({
-  appKicker,
-  appTitle,
-  globeStyle,
-  uiStyle,
-}: {
-  appKicker: string;
-  appTitle: string;
-  globeStyle?: React.ComponentProps<typeof motion.div>["style"];
-  uiStyle?: React.ComponentProps<typeof motion.div>["style"];
-}) {
-  return (
-    <div className={styles.phone}>
-      {/* iPhone 17 Pro Physical Buttons */}
-      <span className={styles.btnAction} aria-hidden="true" />
-      <span className={styles.btnVolUp} aria-hidden="true" />
-      <span className={styles.btnVolDown} aria-hidden="true" />
-      <span className={styles.btnPower} aria-hidden="true" />
-
-      <div className={styles.screen}>
-        {/* iPhone 17 Pro Dynamic Island */}
-        <div className={styles.dynamicIsland} aria-hidden="true">
-          <span className={styles.islandLens} />
-          <span className={styles.islandSensor} />
-        </div>
-
-        <div className={styles.screenGrid} />
-        <div className={styles.statusBar}><span>09:41</span><span>● 5G / LIVE</span></div>
-        <motion.div className={styles.screenGlobe} style={globeStyle} />
-        <motion.div className={styles.appUi} style={uiStyle}>
-          <div className={styles.appKicker}>{appKicker}</div>
-          <div className={styles.appTitle}>{appTitle}</div>
-          <div className={styles.appHero}>
-            <svg className={styles.appHeroLine} viewBox="0 0 180 50" preserveAspectRatio="none" aria-hidden="true">
-              <defs>
-                <linearGradient id="chartFill" x1="0%" y1="0%" x2="0%" y2="100%">
-                  <stop offset="0%" stopColor="#0066FF" stopOpacity="0.45" />
-                  <stop offset="100%" stopColor="#0066FF" stopOpacity="0" />
-                </linearGradient>
-              </defs>
-              <polygon points="0,42 35,28 75,38 115,14 148,22 180,4 180,50 0,50" fill="url(#chartFill)" />
-              <polyline points="0,42 35,28 75,38 115,14 148,22 180,4" fill="none" stroke="#0066FF" strokeWidth="2.5" />
-              <rect x="32" y="25" width="6" height="6" fill="#FFFFFF" transform="rotate(45 35 28)" />
-              <rect x="112" y="11" width="6" height="6" fill="#38BDF8" transform="rotate(45 115 14)" />
-              <rect x="177" y="1" width="6" height="6" fill="#0066FF" transform="rotate(45 180 4)" />
-            </svg>
-          </div>
-          <div className={styles.appCards}>
-            {[0, 1].map((item) => (
-              <div className={styles.appCard} key={item}>
-                <span className={styles.appCardIcon} />
-                <span className={styles.appCardLine} />
-                <span className={`${styles.appCardLine} ${styles.appCardLineShort}`} />
-              </div>
-            ))}
-          </div>
-        </motion.div>
-        <span className={styles.homeBar} aria-hidden="true" />
-      </div>
-    </div>
-  );
-}
 
 export function WebToMobileTransition() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -185,31 +79,21 @@ export function WebToMobileTransition() {
   });
   const progress = useSpring(scrollYProgress, { stiffness: 95, damping: 30, mass: 0.22 });
 
-  // Paced animation transforms with generous hold at the end
-  const webOpacity = useTransform(progress, [0, 0.18, 0.32], [1, 1, 0]);
-  const webY = useTransform(progress, [0, 0.32], [0, -60]);
-  const worldScale = useTransform(progress, [0, 0.30, 0.44], [1, 3.8, 5.3]);
-  const worldOpacity = useTransform(progress, [0, 0.28, 0.44], [1, 0.95, 0]);
-  const worldRotate = useTransform(progress, [0, 0.44], [-7, 16]);
+  // Shared 8% crossfades: Web holds to 28%, Mobile holds 36–70%, AI holds from 78%.
+  // Text and visual use the same opacity, so no scene disappears ahead of its copy.
+  const webOpacity = useTransform(progress, [0, 0.28, 0.36], [1, 1, 0]);
+  const webY = useTransform(progress, [0.28, 0.36], [0, -60]);
+  const webPanelScale = useTransform(progress, [0, 0.28, 0.36], [1, 1, 1.04]);
 
-  const phoneOpacity = useTransform(progress, [0.30, 0.42, 1], [0, 1, 1]);
-  const phoneScale = useTransform(progress, [0.30, 0.52, 0.68, 1], [0.58, 1.05, 1, 1]);
-  const phoneY = useTransform(progress, [0.30, 0.52], ["calc(-50% + 90px)", "-50%"]);
-  const phoneRotateX = useTransform(progress, [0.30, 0.52], [14, 0]);
-  const phoneRotateY = useTransform(progress, [0.30, 0.52], [-10, 0]);
+  const mobileOpacity = useTransform(progress, [0.28, 0.36, 0.70, 0.78], [0, 1, 1, 0]);
+  const phoneScale = useTransform(progress, [0.28, 0.34, 0.36, 1], [0.58, 1.05, 1, 1]);
+  const phoneY = useTransform(progress, [0.28, 0.36], ["calc(-50% + 90px)", "-50%"]);
+  const phoneRotateX = useTransform(progress, [0.28, 0.36], [14, 0]);
+  const phoneRotateY = useTransform(progress, [0.28, 0.36], [-10, 0]);
+  const mobileY = useTransform(progress, [0.28, 0.36], [58, 0]);
 
-  const screenGlobeScale = useTransform(progress, [0.30, 0.50, 0.68], [3.5, 1.12, 0.7]);
-  const screenGlobeY = useTransform(progress, [0.30, 0.68], [85, -34]);
-  const screenGlobeOpacity = useTransform(progress, [0.52, 0.70], [0.94, 0.3]);
-  const uiOpacity = useTransform(progress, [0.50, 0.64], [0, 1]);
-  const uiY = useTransform(progress, [0.50, 0.68], [24, 0]);
-
-  const mobileOpacity = useTransform(progress, [0.38, 0.50, 0.65, 0.72], [0, 1, 1, 0]);
-  const mobileY = useTransform(progress, [0.38, 0.52], [58, 0]);
   const aiOpacity = useTransform(progress, [0.70, 0.78], [0, 1]);
   const aiY = useTransform(progress, [0.70, 0.78], [48, 0]);
-  const ecosystemOpacity = useTransform(progress, [0.65, 0.76], [0, 1]);
-  const ecosystemScale = useTransform(progress, [0.65, 0.78], [0.82, 1]);
   const hintOpacity = useTransform(progress, [0, 0.12], [1, 0]);
 
   return (
@@ -217,57 +101,38 @@ export function WebToMobileTransition() {
       <div className={styles.stage}>
         <div className={styles.ambient} />
 
-        <motion.div
-          className={`${styles.copyBlock} ${styles.webCopy}`}
-          style={{ opacity: webOpacity, y: webY }}
-        >
-          <p className={styles.eyebrow}>{copy.webEyebrow}</p>
-          <h2 className={styles.title}>{copy.webTitle}</h2>
-          <p className={styles.body}>{copy.webBody}</p>
-        </motion.div>
+        <div className={styles.webEntry}>
+          <motion.div
+            className={`${styles.copyBlock} ${styles.webCopy} ${heroFont.variable}`}
+            style={{ opacity: webOpacity, y: webY }}
+          >
+            <p className={styles.eyebrow}>{copy.webEyebrow}</p>
+            <h2 className={styles.title}>{copy.webTitle}</h2>
+            <p className={styles.body}>{copy.webBody}</p>
+          </motion.div>
 
-        <motion.div
-          className={styles.worldScene}
-          style={{
-            opacity: worldOpacity,
-            scale: worldScale,
-            rotate: worldRotate,
-            x: "-50%",
-            y: "-50%",
-          }}
-          aria-hidden="true"
-        >
-          <DigitalGlobe />
-        </motion.div>
-
-        <motion.div
-          className={styles.phoneWrap}
-          style={{
-            opacity: phoneOpacity,
-            scale: phoneScale,
-            x: "-50%",
-            y: phoneY,
-            rotateX: phoneRotateX,
-            rotateY: phoneRotateY,
-            transformPerspective: 1100,
-          }}
-          aria-hidden="true"
-        >
-          <PhoneVisual
-            appKicker={copy.appKicker}
-            appTitle={copy.appTitle}
-            globeStyle={{
-              opacity: screenGlobeOpacity,
-              scale: screenGlobeScale,
-              x: "-50%",
-              y: screenGlobeY,
+          <motion.div
+            className={styles.webVisual}
+            style={{
+              opacity: webOpacity,
+              scale: webPanelScale,
             }}
-            uiStyle={{ opacity: uiOpacity, y: uiY }}
-          />
+            aria-hidden="true"
+          >
+            <WebScene locale={locale} />
+          </motion.div>
+        </div>
+
+        <motion.div
+          className={`${styles.phoneWrap} ${styles.mobilePhoneWrap}`}
+          style={{ opacity: mobileOpacity, scale: phoneScale, x: "-50%", y: phoneY, rotateX: phoneRotateX, rotateY: phoneRotateY, transformPerspective: 1100 }}
+          aria-hidden="true"
+        >
+          <MobileScene locale={locale} />
         </motion.div>
 
         <motion.div
-          className={`${styles.copyBlock} ${styles.mobileCopy}`}
+          className={`${styles.copyBlock} ${styles.mobileCopy} ${heroFont.variable}`}
           style={{ opacity: mobileOpacity, y: mobileY }}
         >
           <p className={styles.eyebrow}>{copy.mobileEyebrow}</p>
@@ -275,17 +140,11 @@ export function WebToMobileTransition() {
           <p className={styles.body}>{copy.mobileBody}</p>
         </motion.div>
 
-        <motion.div className={styles.ecosystem} style={{ opacity: ecosystemOpacity, scale: ecosystemScale, x: "-50%", y: "-50%" }} aria-hidden="true">
-          <svg className={styles.ecosystemLines} viewBox="0 0 600 600" preserveAspectRatio="none">
-            <path d="M300 300 300 54M300 300 60 300M300 300 540 300M300 300 300 546" />
-          </svg>
-          <span className={`${styles.ecosystemNode} ${styles.nodeAi}`}>AI</span>
-          <span className={`${styles.ecosystemNode} ${styles.nodeWeb}`}>Web</span>
-          <span className={`${styles.ecosystemNode} ${styles.nodeMobile}`}>Mobile</span>
-          <span className={`${styles.ecosystemNode} ${styles.nodeCore}`}>Product core</span>
+        <motion.div className={styles.aiVisual} style={{ opacity: aiOpacity, x: "-50%", y: aiY }}>
+          <AIScene locale={locale} />
         </motion.div>
 
-        <motion.div className={`${styles.copyBlock} ${styles.aiCopy}`} style={{ opacity: aiOpacity, y: aiY }}>
+        <motion.div className={`${styles.copyBlock} ${styles.aiCopy} ${heroFont.variable}`} style={{ opacity: aiOpacity, y: aiY }}>
           <p className={styles.eyebrow}>{copy.aiEyebrow}</p>
           <h3 className={styles.title}>{copy.aiTitle}</h3>
           <p className={styles.body}>{copy.aiBody}</p>
@@ -305,27 +164,29 @@ export function WebToMobileTransition() {
       </div>
 
       <div className={styles.reducedStory}>
-        <div className={styles.reducedCard}>
+        <div className={`${styles.reducedCard} ${heroFont.variable}`}>
           <p className={styles.eyebrow}>{copy.webEyebrow}</p>
           <h2 className={styles.title}>{copy.webTitle}</h2>
           <p className={styles.body}>{copy.webBody}</p>
+          <WebScene locale={locale} />
         </div>
         <div className={styles.reducedArrow} aria-hidden="true">↓</div>
         <div className={styles.reducedVisual} aria-hidden="true">
           <div className={styles.phoneWrap}>
-            <PhoneVisual appKicker={copy.appKicker} appTitle={copy.appTitle} />
+            <MobileScene locale={locale} />
           </div>
         </div>
-        <div className={styles.reducedCard}>
+        <div className={`${styles.reducedCard} ${styles.reducedMobileCopy} ${heroFont.variable}`}>
           <p className={styles.eyebrow}>{copy.mobileEyebrow}</p>
           <h3 className={styles.title}>{copy.mobileTitle}</h3>
           <p className={styles.body}>{copy.mobileBody}</p>
         </div>
         <div className={styles.reducedArrow} aria-hidden="true">↓</div>
-        <div className={styles.reducedCard}>
+        <div className={`${styles.reducedCard} ${styles.reducedAICopy} ${heroFont.variable}`}>
           <p className={styles.eyebrow}>{copy.aiEyebrow}</p>
           <h3 className={styles.title}>{copy.aiTitle}</h3>
           <p className={styles.body}>{copy.aiBody}</p>
+          <AIScene locale={locale} />
         </div>
       </div>
     </section>

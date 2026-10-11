@@ -33,7 +33,7 @@ export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; 
 
     slider.scrollTo({
       left: nextIndex * (slider.clientWidth + 16),
-      behavior: "smooth",
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
     });
     setCurrentScreenshot(nextIndex);
   };
@@ -43,34 +43,34 @@ export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; 
   };
 
   return (
-    <main className="min-h-screen bg-[#060A10] pb-24 pt-28 text-white">
-      <div className="mx-auto max-w-7xl px-5 md:px-8">
-        <Link href="/projeler" className="group inline-flex items-center gap-2 rounded-none border border-white/15 bg-white/5 px-4 py-3 font-label text-[10px] uppercase tracking-[0.12em] text-white shadow-premium-sm transition hover:border-bayes-blue hover:bg-bayes-blue hover:text-white">
+    <main className="theme-dark bs-detail min-h-screen bg-[var(--bs-tone-bg)] pb-24 text-[color:var(--bs-tone-text)]">
+      <div className="mx-auto max-w-[1216px] px-5 md:px-8">
+        <Link href="/projeler" className="group inline-flex items-center gap-2 rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-soft)] px-4 py-3 font-label text-[10px] uppercase tracking-[0.12em] text-[color:var(--bs-tone-text)] shadow-[var(--bs-shadow-soft)] transition hover:border-[color:var(--bs-primary)] hover:bg-[var(--bs-primary)] hover:text-white">
           <ArrowLeft className="size-4 transition group-hover:-translate-x-1" /> {labels.back}
         </Link>
 
-        <header className="relative mt-8 overflow-hidden rounded-none border border-white/15 bg-[#040608] px-6 py-12 text-white shadow-premium-lg md:px-12 md:py-16">
-          <div className="absolute -right-20 -top-20 size-72 bg-bayes-blue/10 blur-3xl" />
-          <span className="relative inline-flex rounded-none border border-bayes-blue/40 bg-bayes-blue/10 px-4 py-2 font-label text-[10px] font-semibold uppercase tracking-[0.14em] text-bayes-blue">{view.domain}</span>
-          <h1 className="font-display relative mt-7 max-w-5xl text-4xl leading-[1.02] text-white md:text-6xl lg:text-7xl">{view.title}</h1>
-          <p className="relative mt-7 max-w-3xl text-lg leading-8 text-white/70 md:text-xl">{view.overview}</p>
+        <header className="theme-dark relative mt-8 overflow-hidden rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-bg)] px-6 py-12 text-[color:var(--bs-tone-text)] shadow-[var(--bs-shadow-soft)] md:px-12 md:py-16">
+          <div className="absolute -right-20 -top-20 size-72 bg-[var(--bs-tone-soft)] blur-3xl" />
+          <span className="relative inline-flex rounded-[var(--bs-radius-control)] border border-[color:var(--bs-primary)] bg-[var(--bs-tone-soft)] px-4 py-2 font-label text-[10px] font-semibold uppercase tracking-[0.14em] text-[color:var(--bs-tone-accent)]">{view.domain}</span>
+          <h1 className="font-display relative mt-7 max-w-5xl text-4xl leading-[1.02] text-[color:var(--bs-tone-text)] md:text-6xl lg:text-7xl">{view.title}</h1>
+          <p className="relative mt-7 max-w-3xl text-lg leading-8 text-[color:var(--bs-tone-muted)] md:text-xl">{view.overview}</p>
         </header>
 
-        {isCompact ? <div className="mt-6 flex items-start gap-3 rounded-none border border-bayes-blue/30 bg-[#0C1420] p-5 text-sm leading-7 text-white/80"><LockKeyhole className="mt-1 size-4 shrink-0 text-bayes-blue" />{labels.compactNotice}</div> : null}
-        {view.note ? <div className="mt-6 rounded-none border border-white/15 bg-[#0C1420] p-6"><p className="font-label text-[10px] font-semibold uppercase tracking-[0.14em] text-bayes-blue">{labels.privacy}</p><p className="mt-3 text-sm leading-7 text-white/80">{view.note}</p></div> : null}
+        {isCompact ? <div className="mt-6 flex items-start gap-3 rounded-[var(--bs-radius-control)] border border-[color:var(--bs-primary)] bg-[var(--bs-tone-card)] p-5 text-sm leading-7 text-[color:var(--bs-tone-muted)]"><LockKeyhole className="mt-1 size-4 shrink-0 text-[color:var(--bs-tone-accent)]" />{labels.compactNotice}</div> : null}
+        {view.note ? <div className="mt-6 rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-card)] p-6"><p className="font-label text-[10px] font-semibold uppercase tracking-[0.14em] text-[color:var(--bs-tone-accent)]">{labels.privacy}</p><p className="mt-3 text-sm leading-7 text-[color:var(--bs-tone-muted)]">{view.note}</p></div> : null}
 
         <div className="mt-10 grid gap-8 lg:grid-cols-[1fr_360px]">
           <div className="space-y-6">
             {[[labels.technicalProblem, view.problem], [labels.architecture, view.solution]].map(([title, text]) => (
-              <section key={title} className="rounded-none border border-white/15 bg-[#0C1420] p-6 shadow-premium-sm md:p-9">
-                <h2 className="font-display text-2xl text-white md:text-3xl">{title}</h2>
-                <p className="mt-5 whitespace-pre-line text-base leading-8 text-bayes-silver md:text-lg">{text}</p>
+              <section key={title} className="theme-light rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-card)] p-6 shadow-[var(--bs-shadow-soft)] md:p-9">
+                <h2 className="font-display text-2xl text-[color:var(--bs-tone-text)] md:text-3xl">{title}</h2>
+                <p className="mt-5 whitespace-pre-line text-base leading-8 text-[color:var(--bs-tone-muted)] md:text-lg">{text}</p>
               </section>
             ))}
 
             {view.screenshots?.length ? (
-              <section className="rounded-none border border-white/15 bg-[#0C1420] p-6 shadow-premium-sm md:p-9">
-                <h2 className="font-display text-2xl text-white md:text-3xl">{labels.screenshots}</h2>
+              <section className="theme-light rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-card)] p-6 shadow-[var(--bs-shadow-soft)] md:p-9">
+                <h2 className="font-display text-2xl text-[color:var(--bs-tone-text)] md:text-3xl">{labels.screenshots}</h2>
                 <div className="relative mt-6">
                   <div
                     ref={screenshotsRef}
@@ -81,7 +81,7 @@ export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; 
                     className="flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-smooth [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
                   >
                     {view.screenshots.map((src, index) => (
-                      <div key={src} className="relative aspect-video w-full shrink-0 snap-center overflow-hidden rounded-none border border-white/10 bg-[#080E17]">
+                      <div key={src} className="relative aspect-video w-full shrink-0 snap-center overflow-hidden rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-card)]">
                         <Image
                           src={src}
                           alt={`${view.title} ${index + 1}`}
@@ -101,7 +101,7 @@ export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; 
                           onClick={() => scrollScreenshots(-1)}
                           disabled={currentScreenshot === 0}
                           aria-label={labels.previousScreenshot}
-                          className="pointer-events-auto flex size-9 items-center justify-center rounded-none border border-white/20 bg-[#080E17]/90 text-white shadow-premium-sm backdrop-blur transition hover:border-bayes-blue hover:bg-bayes-blue hover:text-white disabled:opacity-0 md:size-11"
+                          className="pointer-events-auto flex size-11 items-center justify-center rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-card)] text-[color:var(--bs-tone-text)] shadow-[var(--bs-shadow-soft)] backdrop-blur transition hover:border-[color:var(--bs-primary)] hover:bg-[var(--bs-primary)] hover:text-white disabled:opacity-0 md:size-11"
                         >
                           <ChevronLeft className="size-4" aria-hidden="true" />
                         </button>
@@ -110,7 +110,7 @@ export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; 
                           onClick={() => scrollScreenshots(1)}
                           disabled={currentScreenshot === view.screenshots.length - 1}
                           aria-label={labels.nextScreenshot}
-                          className="pointer-events-auto flex size-9 items-center justify-center rounded-none border border-white/20 bg-[#080E17]/90 text-white shadow-premium-sm backdrop-blur transition hover:border-bayes-blue hover:bg-bayes-blue hover:text-white disabled:opacity-0 md:size-11"
+                          className="pointer-events-auto flex size-11 items-center justify-center rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-card)] text-[color:var(--bs-tone-text)] shadow-[var(--bs-shadow-soft)] backdrop-blur transition hover:border-[color:var(--bs-primary)] hover:bg-[var(--bs-primary)] hover:text-white disabled:opacity-0 md:size-11"
                         >
                           <ChevronRight className="size-4" aria-hidden="true" />
                         </button>
@@ -126,8 +126,8 @@ export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; 
                             aria-current={currentScreenshot === index ? "true" : undefined}
                             className={`h-2 transition-all ${
                               currentScreenshot === index
-                                ? "w-6 bg-bayes-blue"
-                                : "w-2 bg-white/20"
+                                ? "w-6 bg-[var(--bs-primary)]"
+                                : "w-2 bg-[var(--bs-tone-soft)]"
                             }`}
                           />
                         ))}
@@ -140,16 +140,16 @@ export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; 
           </div>
 
           <aside className="space-y-6 lg:sticky lg:top-28 lg:self-start">
-            <section className="rounded-none border border-white/15 bg-[#040608] p-6 text-white shadow-premium-lg">
-              <h2 className="font-subheading text-xl text-bayes-blue">{labels.features}</h2>
+            <section className="rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-bg)] p-6 text-[color:var(--bs-tone-text)] shadow-[var(--bs-shadow-soft)]">
+              <h2 className="font-subheading text-xl text-[color:var(--bs-tone-accent)]">{labels.features}</h2>
               <ul className="mt-5 space-y-4">
-                {view.keyFeatures.map((feature) => <li key={feature} className="border-l-2 border-bayes-blue pl-4 text-sm leading-7 text-white/80">{feature}</li>)}
+                {view.keyFeatures.map((feature) => <li key={feature} className="border-l-2 border-[color:var(--bs-primary)] pl-4 text-sm leading-7 text-[color:var(--bs-tone-muted)]">{feature}</li>)}
               </ul>
             </section>
 
-            <section className="rounded-none border border-white/15 bg-[#0C1420] p-6 shadow-premium-sm">
-              <h2 className="font-subheading text-xl text-white">{labels.technologies}</h2>
-              <div className="mt-5 flex flex-wrap gap-2">{view.techStack.map((tech) => <span key={tech} className="rounded-none border border-white/15 bg-white/5 px-3 py-2 font-label text-[10px] uppercase tracking-[0.08em] text-white/80">{tech}</span>)}</div>
+            <section className="theme-light rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-card)] p-6 shadow-[var(--bs-shadow-soft)]">
+              <h2 className="font-subheading text-xl text-[color:var(--bs-tone-text)]">{labels.technologies}</h2>
+              <div className="mt-5 flex flex-wrap gap-2">{view.techStack.map((tech) => <span key={tech} className="rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-soft)] px-3 py-2 font-label text-[10px] uppercase tracking-[0.08em] text-[color:var(--bs-tone-muted)]">{tech}</span>)}</div>
             </section>
 
             {(liveUrl || sourceUrl) ? <div className="grid gap-3">

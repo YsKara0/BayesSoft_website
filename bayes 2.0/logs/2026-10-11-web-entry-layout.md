@@ -1,0 +1,6 @@
+# 11 Ekim 2026 — Hero → Web giriş yerleşimi
+
+Önceki renk/%4 konum düzeltmesi kullanıcı tarafından yetersiz bulundu. Web başlangıç opacity'si zaten 1; ek fade uygulanmadı. WebToMobileTransition.tsx/module.css içinde yalnızca Web metni/paneli yeni webEntry grid kapsayıcısına alındı. Desktop header + 32px'den başlayan yan yana düzen, tablet header + 24px ve mobil header + 16px'den başlayan üst üste düzen kullanılır. Tablet/mobil panel, viewport'un %65/%72 merkezinde beklemek yerine gerçek metin yüksekliği + 24px/20px boşluk sonrasında gelir. Panelin -50% x/y merkezleme transformları kaldırıldı; ölçek/opacity ve Web metninin çıkış hareketi korunur. Web, stage doğal scroll ile ekrana girerken görünür; sticky başladığında aynı grid konumunu kullanır.
+
+Hero v1 kaynağı/vitrini ve sahne içerikleri değişmedi. Mobil/AI timing ve markup, tüm motion aralıkları/useScroll/spring, stage top/height/min-height, 340/280/260svh yükseklikler ve reduced-motion statik akış birebir korunur. Yeni animasyon/kütüphane yok. TypeScript, hedefli ESLint, CSS parse, Web dışı deklarasyon ve motion/Mobil/AI/reduced-motion kaynak koruma kontrolü, diff-check geçti. Tarayıcı testi yapılmadı; görsel kabul ve özellikle küçük yükseklikli ekran kontrolü kullanıcıda. Commit/push/deploy yok. Detay: [[logs/2026-10-11-web-entry-layout]].
+

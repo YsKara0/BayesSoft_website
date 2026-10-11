@@ -1,0 +1,34 @@
+.section { background: #d8dee8; }
+
+.card {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 208px;
+  height: 96px;
+  padding: 16px;
+  border: 1px solid #d5deeb;
+  border-radius: var(--bs-radius-panel);
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(21, 34, 56, .035);
+}
+a.card { transition: border-color .2s, box-shadow .2s; }
+.card:focus-visible { outline: 3px solid var(--bs-focus-light); outline-offset: 3px; }
+/* Grayscale preserves baked-in white backgrounds against the white cards. */
+.logo img { filter: grayscale(1); transition: filter 300ms ease; }
+.card:focus-visible .logo img { filter: grayscale(0); }
+.logo { position: relative; width: 100%; height: 48px; }
+/* Optical compensation for tall marks and wordmarks with built-in white margins. */
+.logo[data-logo="/references/hypersense.png"],
+.logo[data-logo="/references/arel.png"],
+.logo[data-logo="/references/kanuni_sultan_suleyman_hastanesi.png"] { height: 64px; }
+.logo[data-logo="/references/atli.png"],
+.logo[data-logo="/references/teskilat-icom.png"],
+.logo[data-logo="/references/zirve-cilingir.png"] { height: 56px; }
+@media (min-width: 768px) { .card { width: 240px; height: 112px; padding: 20px; } }
+@media (hover: hover) and (pointer: fine) {
+  .card:hover .logo img { filter: grayscale(0); }
+  a.card:hover { border-color: var(--bs-primary); box-shadow: 0 4px 12px rgba(21, 34, 56, .07); }
+}
+@media (prefers-reduced-motion: reduce) { a.card, .logo img { transition: none; } }

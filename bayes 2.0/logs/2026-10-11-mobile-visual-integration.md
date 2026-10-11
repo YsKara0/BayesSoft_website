@@ -1,0 +1,8 @@
+# 11 Ekim 2026 — Mobil görsel entegrasyonu
+
+Yalnızca CapabilitiesSection.module.css Mobil seçicileri değişti. Kaynak PNG/WebP, TSX, caption ve içerik korunur. Önceki lighten blend kaldırıldı; renkleri değiştiren filtre yok. Görselin dört kenarında dış %5 içinde iki kesişen linear CSS mask ile yumuşak fade (standart intersect + WebKit source-in) kullanılır. Merkezi %90 tam opaktır; kırpma/esnetme/ek panel yok. Kaynak parlak mavi köşeler ve kenara uzanan telefon detayları içerdiğinden CSS tüm afiş hissini detay kaybı olmadan tamamen gideremez; mask dar tutuldu. Kaynağın dış %5'indeki detaylar da hafifçe söner; bu sınırlama görsel kabulde değerlendirilmeli.
+
+Desktop Mobil sütun oranı .9/1.1; gap 32–48px'e çekildi, mevcut 430px metin max-width ve paragraf boşlukları korundu. Görsel normal alanı en fazla 560px, statik scale(1.06) ile yaklaşık 594px sunum; transform ekstra scroll yüksekliği oluşturmaz. Caption üst mesafesi 28px; içerik yüksekliği masaüstü genişliğine göre sınırlı artabilir (1216px inner'da yaklaşık 37px), yeni min-height/padding/scroll alanı yok. Tablet/mobil mevcut genişlikler ve tek sütun düzeni değişmedi; aynı dar edge fade kullanılır. Yeni animasyon yok, reduced-motion için hareket eklenmedi.
+
+PostCSS parse, tur öncesi snapshot'la tüm Mobil dışı deklarasyon eşitliği, blend/filter yokluğu, contain ve mask kontrolü, diff-check geçti. CSS-only işte TypeScript/lint/build/tarayıcı tekrarlanmadı. Canlı görsel bütünlük/kenar detayları manuel değerlendirme bekler. Web/AI ve diğer bölümler değişmedi. Commit/push/deploy yok. Detay: [[logs/2026-10-11-mobile-visual-integration]].
+

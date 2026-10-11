@@ -7,6 +7,7 @@ import { siteConfig } from "@/data/config";
 import { createPageMetadata } from "@/data/seo";
 import "flag-icons/css/flag-icons.min.css";
 import "./globals.css";
+import "./design-tokens.css";
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin", "latin-ext"],
@@ -113,8 +114,8 @@ const structuredData = JSON.stringify({
 }).replace(/</g, "\\u003c");
 
 export const viewport: Viewport = {
-  themeColor: "#060A10",
-  colorScheme: "dark"
+  themeColor: "#101827",
+  colorScheme: "dark light"
 };
 
 export default function RootLayout({
@@ -126,10 +127,10 @@ export default function RootLayout({
     <html
       lang="tr"
       className={`scroll-smooth ${jakarta.variable} ${inter.variable} ${mono.variable}`}
-      data-theme="dark"
+      data-theme="balanced-premium"
       suppressHydrationWarning
     >
-      <body className="bg-[#060A10] text-white selection:bg-bayes-blue selection:text-white font-sans antialiased">
+      <body className="antialiased">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: structuredData }}

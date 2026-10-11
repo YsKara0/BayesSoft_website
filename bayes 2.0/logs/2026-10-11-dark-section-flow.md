@@ -1,0 +1,6 @@
+# 11 Ekim 2026 — Koyu bölüm renk akışı
+
+Kullanıcı mevcut yerleşimleri ve referanslara kadar renk dağılımını onayladı. Yalnızca app/globals.css ve WebToMobileTransition.module.css değişti. Hero → Web mevcut ortak lacivert birleşimi korundu. Sticky sahnenin ve reduced-motion zemininin alt 6rem'inde hafif ambient ana --bs-foundation (#101827) tonuna söner; kenar shading maskesi de alt sınırda şeffaflaşır. Ana sayfadaki Yetkinlikler üst/alt 48–80px içinde aynı ana laciverte birleşir; orta zemin --bs-surface-dark (#17263F) kalır. Yetkinlikler'in dış alt çizgisi yalnızca renk olarak şeffaflaştı (border kalınlığı korunur); Projeler'in mevcut koyu zemini ve açık Referanslar tasarımı değişmedi.
+
+Global ekleme yalnızca main > #capabilities.bs-home-section seçicisine sınırlıdır; diğer sayfa ve header/kartlar etkilenmez. Yeni glow/animasyon/alan yok. Tüm section ölçü/padding ve motion kaynakları korunur. PostCSS parse, globals'ın yalnızca hedefli ek kural içermesi, sahne CSS'inde yalnızca background/mask deklarasyonlarının değişmesi ve diff-check geçti. CSS-only işte TypeScript/build/tarayıcı tekrarlanmadı; görsel kabul kullanıcı manuel kontrolünde. Commit/push/deploy yok. Detay: [[logs/2026-10-11-dark-section-flow]].
+

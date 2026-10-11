@@ -1,4 +1,22 @@
-# Bayessoft Kurumsal Kimlik Kılavuzu
+# BayesSoft — Agent Rehberi
+
+Güncel görsel yön: lacivert ağırlıklı premium; beyaz sadece seçici kart/form/ikon detayları ve kısa referans bandında. Önceki geniş açık bölüm ritmini veya açık header'ı geri getirme. Revizyon sonrası tarayıcı QA henüz yapılmadı.
+
+Ana plan kaynağı kullanıcının ZIP'idir; yerel karşılıklar mevcut bayes 2.0/ kasasındadır. Önce 07 - AI Handoff, 06 - Karar Kaydı, 05 - Yol Haritası, 03 - Tasarım Sistemi ve 08 - Phase 1 Tasarım Önerisi notlarını oku.
+
+
+## 10 Ekim 2026 — Güncel kullanıcı kararı
+
+Mevcut bayes 2.0/ Obsidian kasası korunur. Kullanıcının son talebi “Phase 1’i tamamen yap” ile header/hero sınırı kaldırılmıştır: mevcut tüm sayfalara Balanced Premium renk, tipografi, yüzey, kart, buton, form ve footer sistemi uygulanabilir. İçerikler, URL/SEO ve işlevler korunur. Normal animasyon akışı yeniden tasarlanmaz; erişilebilirlik için azaltılmış hareket tercihi desteklenir. Web/Mobil/AI sahnesinin kaynakları değişmez ve Phase 2’de ele alınır. Commit/push/deploy açık onay gerektirir.
+
+- Feature dalı korunur: feature/bayessoft-2.0.
+- Secret/.env dosyalarını okuma/değiştirme; kullanıcı çalışmalarını koru.
+- SaaS/Ürünler sayfası ekleme. TR/EN/DE ve erişilebilirlik korunur.
+- Handoff, roadmap ve tarihli loga gerçek değişiklik/test sonuçlarını yaz.
+
+## Tarihsel marka kılavuzu
+
+Aşağıdaki önceden mevcut kılavuz referans olarak korunur; Phase 1 için Balanced Premium geçerlidir. Paletleri karıştırma.
 
 ## 🎨 Renk Paleti
 

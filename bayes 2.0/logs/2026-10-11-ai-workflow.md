@@ -1,0 +1,7 @@
+# 11 Ekim 2026 — AI iş akışı / telefon boşluğu
+
+Yeni AIScene.tsx/module.css: üç okunabilir kart, örnek talep formuna öncelik alanı ekleme isteği, AI özet/kategori önerisi, ekip onayından sonra görev oluşturma. Lacivert zemin, ölçülü mavi/mor, Space Grotesk, TR/EN/DE. Statik iş akışı mevcut AI opacity/y girişini kullanır; kartlar gerçek etkileşim veya gerçek SaaS ürünü iddiası taşımaz. Reduced-motion görünümünde de aynı akış.
+
+WebToMobileTransition: eski PhoneVisual ve ona özel screenGlobe/UI dönüşümleri, legacyPhoneOpacity, soyut ekosistem kaldırıldı. CSS'teki artık hiçbir markup tarafından kullanılmayan eski küre/telefon/ekosistem kuralları temizlendi. Onaylı yeni MobileScene çıkış ağırlığı %65–70, AI giriş %70–78 kalır; eski katman geri dönmez. Web/Mobil içerikleri ve mevcut scroll offset/spring/korunan transform aralıkları değişmedi. Telefon top konumu desktop/tablet +2rem, mobil +1rem. Hero ve diğer bölümler değişmedi.
+
+TypeScript noEmit/incremental false, hedefli AIScene/WebToMobileTransition ESLint no-cache, PostCSS parse/sınıf referansları, /tmp değişiklik öncesi kaynakla Web/Mobil içerikleri/korunan scroll transform karşılaştırması, legacy katman yokluğu, diff-check geçti. 340/280/260svh bölüm yükseklikleri korunur. Tarayıcı/build/screenshot yok; özellikle kısa viewport ve uzun DE başlık/kart satırları manuel kontrol bekler. Yeni kütüphane yok; önceki çalışma ağacı korunur. Handoff/roadmap/brief güncellendi. Commit/push/deploy yapılmadı.

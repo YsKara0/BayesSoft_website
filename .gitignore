@@ -17,3 +17,6 @@ dev-server*.log
 .DS_Store
 Thumbs.db
 temp/
+
+# Device-specific Obsidian settings; Markdown vault content is versioned.
+bayes 2.0/.obsidian/

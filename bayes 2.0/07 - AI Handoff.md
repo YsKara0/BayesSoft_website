@@ -1,5 +1,11 @@
 # AI Handoff — Phase 1 Lacivert Revizyonu
 
+## 11 Ekim 2026 — Atlı ve KSS referans bağlantıları
+
+Kullanıcının açık PR talebiyle `data/references.ts` içindeki Atlı Lojistik ve Kanuni Sultan Süleyman Hastanesi kayıtlarına sırasıyla `https://atlidepohizmetleri.com/` ve `https://kanunieah.saglik.gov.tr/` eklendi. Mevcut ClientsSection bağlantı davranışı kullanılır; bileşen/CSS değişikliği yok. Lint, TypeScript, build (18 statik sayfa), üretilen HTML'de iki marquee grubunun href/target/rel ve tab sırası kontrolü geçti. Tarayıcı etkileşim testi yapılmadı.
+
+Başlangıç checkout'u temiz `master`, commit `138c2f9`; 2.0 dalı zaten PR #10 ile master'a birleştirilmişti. Bu düzeltme `codex/reference-logo-links` dalında hazırlandı; kullanıcı talebi bu kapsamın commit/push ve PR açılışını yetkilendirir. Detay: [[logs/2026-10-11-reference-links]].
+
 ## 11 Ekim 2026 — Mobil konseptin zemine entegrasyonu
 
 Yalnızca CapabilitiesSection.module.css Mobil seçicileri değişti. Kaynak PNG/WebP, TSX, caption ve içerik korunur. Önceki lighten blend kaldırıldı; renkleri değiştiren filtre yok. Görselin dört kenarında dış %5 içinde iki kesişen linear CSS mask ile yumuşak fade (standart intersect + WebKit source-in) kullanılır. Merkezi %90 tam opaktır; kırpma/esnetme/ek panel yok. Kaynak parlak mavi köşeler ve kenara uzanan telefon detayları içerdiğinden CSS tüm afiş hissini detay kaybı olmadan tamamen gideremez; mask dar tutuldu. Kaynağın dış %5'indeki detaylar da hafifçe söner; bu sınırlama görsel kabulde değerlendirilmeli.

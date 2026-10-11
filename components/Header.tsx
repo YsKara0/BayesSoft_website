@@ -1,11 +1,12 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion";
 import { ArrowUpRight, ChevronDown, Menu, X } from "lucide-react";
-import { Logo } from "@/components/Logo";
+import headerLogoDraft from "@/assets/logo_v2/bayes-logo-purple.png";
 import { useLanguage } from "@/components/LanguageProvider";
 import { localeOptions, type Locale } from "@/data/i18n";
 import styles from "./Header.module.css";
@@ -118,7 +119,10 @@ export function Header() {
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
       <motion.div className={styles.progress} style={{ scaleX }} />
       <nav className={styles.nav} aria-label="Main navigation">
-        <div className={styles.logo}><Logo variant="light" /></div>
+        {/* Header-only logo trial; shared Logo and its original assets remain unchanged. */}
+        <Link href="/" className={styles.logo} aria-label="BayesSoft">
+          <Image src={headerLogoDraft} alt="BayesSoft" priority />
+        </Link>
 
         <div className={styles.desktopLinks}>
           {navItems.map((item) => {

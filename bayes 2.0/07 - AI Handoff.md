@@ -1,5 +1,111 @@
 # AI Handoff — Phase 1 Lacivert Revizyonu
 
+## 11 Ekim 2026 — Mobil konseptin zemine entegrasyonu
+
+Yalnızca CapabilitiesSection.module.css Mobil seçicileri değişti. Kaynak PNG/WebP, TSX, caption ve içerik korunur. Önceki lighten blend kaldırıldı; renkleri değiştiren filtre yok. Görselin dört kenarında dış %5 içinde iki kesişen linear CSS mask ile yumuşak fade (standart intersect + WebKit source-in) kullanılır. Merkezi %90 tam opaktır; kırpma/esnetme/ek panel yok. Kaynak parlak mavi köşeler ve kenara uzanan telefon detayları içerdiğinden CSS tüm afiş hissini detay kaybı olmadan tamamen gideremez; mask dar tutuldu. Kaynağın dış %5'indeki detaylar da hafifçe söner; bu sınırlama görsel kabulde değerlendirilmeli.
+
+Desktop Mobil sütun oranı .9/1.1; gap 32–48px'e çekildi, mevcut 430px metin max-width ve paragraf boşlukları korundu. Görsel normal alanı en fazla 560px, statik scale(1.06) ile yaklaşık 594px sunum; transform ekstra scroll yüksekliği oluşturmaz. Caption üst mesafesi 28px; içerik yüksekliği masaüstü genişliğine göre sınırlı artabilir (1216px inner'da yaklaşık 37px), yeni min-height/padding/scroll alanı yok. Tablet/mobil mevcut genişlikler ve tek sütun düzeni değişmedi; aynı dar edge fade kullanılır. Yeni animasyon yok, reduced-motion için hareket eklenmedi.
+
+PostCSS parse, tur öncesi snapshot'la tüm Mobil dışı deklarasyon eşitliği, blend/filter yokluğu, contain ve mask kontrolü, diff-check geçti. CSS-only işte TypeScript/lint/build/tarayıcı tekrarlanmadı. Canlı görsel bütünlük/kenar detayları manuel değerlendirme bekler. Web/AI ve diğer bölümler değişmedi. Commit/push/deploy yok. Detay: [[logs/2026-10-11-mobile-visual-integration]].
+
+## 11 Ekim 2026 — Yetkinlikler Mobil konsept görseli
+
+Gerçek kaynak assets/demo/demo_phone.png (1254×1254, RGB, 2.123.883 byte). Kaynak korunarak aynı çözünürlükte assets/demo/demo_phone.webp oluşturuldu (quality 84, 178.818 byte; yaklaşık %92 küçülme). Header/hero veya proje verileriyle ilişkili olmayan, kullanıcı sağladığı konsepttir.
+
+Yalnızca CapabilitiesSection Mobil branch ve mobil CSS: boş telefon/ikon/orbit kaldırıldı. Statik Next Image import ile WebP, intrinsic ölçüler, loading=lazy ve responsive sizes; output:export/unoptimized yapılandırmasında da önceden optimize edilmiş dosya yüklenir. width:100%, height:auto/object-fit:contain; kırpma/esnetme/mask yok. Desktop mevcut metin solda/görsel sağda, kare görsel en fazla 560px; tablet alanı en fazla 520px, mobil %90. Ek min-height/scroll alanı/animasyon yok. CSS mix-blend-mode:lighten ve izole aynı lacivert yüzey ile kaynak koyu pikselleri zemine kaynaşır; aydınlık mavi kenarlar kaynakta kalır. Görselde zaten var olan alt kenar kesimleri kaynak kompozisyonudur; CSS yeni kesim eklemez. TR/EN/DE caption ve alt metni açıkça konsept çalışması der; gerçek/yayındaki müşteri uygulaması iddiası yok.
+
+Web ve AI markup ve tüm Mobil dışı CSS deklarasyonları tur öncesi snapshot'larla birebir karşılaştırıldı. TypeScript, hedefli ESLint, CSS parse, WebP çözünürlük kontrolü ve diff-check geçti. Tarayıcı/screenshot/build yok; lacivert birleşimi ve optik boyut görsel kabulü kullanıcıda. Diğer bölümler değişmedi. Commit/push/deploy yok. Detay: [[logs/2026-10-11-mobile-concept-visual]].
+
+## 11 Ekim 2026 — Yetkinlikler: statik editorial yerleşim
+
+CapabilitiesSection.tsx ve yeni CapabilitiesSection.module.css: üç beyaz kart yerine geniş, zemine bütünleşen Web/Mobil/AI blokları. Desktop Web görsel solda/metin sağda, Mobil metin solda/görsel sağda, AI görsel solda/metin sağda. Web geniş yatay, Mobil içe çekilmiş dikey, AI daha alçak kompozisyon; farklı sütun oranları, hizalar ve boşluklar kullanılır. Tablet/mobil tek sütun, metin → görsel akışı. Mevcut bölüm giriş metinleri, pillar başlık/summary ve mühendislik açıklaması/hizmet linki korunur; uzun items listeleri yalnızca bu görünümden kaldırıldı (data/home.ts değişmedi). Mühendislik altı kutu yerine sade ayırıcı ve bağlantı. Bölüm Reveal animasyonları kaldırıldı; sticky/slider/carousel/yeni motion yok. Ortak mevcut Space Grotesk tanımı kullanılır.
+
+Web görseli mevcut gerçek FurtherUp Drive ekran görüntüsü; proje adıyla ve native 1669/911 oranında, kırpılmadan gösterilir. Mobil ve AI mevcut uygun görsel olmadığı için ürün ekranı çizmek yerine açıkça TR/EN/DE etiketlenmiş statik, değiştirilebilir görsel alanlarıdır. Mobil telefon konturu/ikon, AI sade bağlantı/ikon kompozisyonu; yeni ürün/marka iddiası veya örnek dashboard eklenmedi. Bu alanlar nihai ürün görselleri değildir.
+
+Yetkinlikler lacivert teması ve mevcut bölüm birleşim CSS'i korunur; bölüm yüksekliği içerik odaklı yeni editorial düzenin gereği değişir. Hero, scroll sahneleri, Projeler, Referanslar, header/footer ve veri kaynakları değişmedi. TypeScript, hedefli ESLint, CSS parse, statik kaynak/yerel görsel/link kontrolü ve diff-check geçti. Tarayıcı/screenshot/build yapılmadı; ilk yerleşim ve placeholder kabulü kullanıcı manuel değerlendirmesinde. Commit/push/deploy yok. Detay: [[logs/2026-10-11-capabilities-editorial]].
+
+## 11 Ekim 2026 — Header logo v2 taslak denemesi
+
+Kullanıcı assets/logo_v2 taslağını yalnızca header'da denemeyi istedi. Üç PNG incelendi; tam logo bayes-logo-purple.png (2163×371, şeffaf RGBA) seçildi; 32/192px ikonlar kullanılmadı. Beyaz wordmark/mor simge koyu header üzerinde renk olarak uygun; asset görseli ve alfa pikselleri incelendi, canlı tarayıcı görünümü kontrol edilmedi.
+
+Header.tsx yeni tam logoyu statik Next Image import ile kullanır; yeni public kopyası veya değiştirilmiş görsel yok. Ana sayfa Link/aria-label korunur. Header.module.css: oran korunarak desktop 40px yüksekliğe (~233px genişlik), tablet/mobil 32px (~187px genişlik); block img ve flex ortalama. Navigasyon/dil/menu/progress/header yüksekliği değişmedi. Ortak Logo.tsx, eski logo dosyaları, footer ve favicon değişmedi. Geri dönüş: Header'ta eski Logo import ve `<div className={styles.logo}><Logo variant="light" /></div>` kullanımını geri getir; logo yüksekliğini desktop 46px, tablet/mobil 40px'e döndür. Diğer çalışma ağacını resetleme.
+
+TypeScript, hedefli ESLint, CSS parse, Header kaynağında yalnızca logo değişimi ve ortak Logo korunması, diff-check geçti. Tarayıcı/screenshot/build yok; canlı optik kabul kullanıcıda. Commit/push/deploy yapılmadı. Detay: [[logs/2026-10-11-header-logo-v2]].
+
+## 11 Ekim 2026 — Referanslar monokrom/renkli etkileşimi
+
+ClientsSection.module.css: bant #D8DEE8. Logo görselleri normalde grayscale(1) ile tek renk gri ailesinde; yalnızca ilgili kart fine-pointer hover veya focus-visible aldığında grayscale(0) ile 300ms ease üzerinden orijinal renklerine döner. Beyaz kartlar, kaynak dosyalar ve logo oran/ölçüleri değişmedi. Gömülü beyaz arka planları kaldırmak/koyulaştırmak için brightness, invert, blend veya mask kullanılmadı; beyazlar kartla bütünleşir. Grayscale kaynak parlaklığını koruduğu için logolar aynı sabit lacivert renge zorlanmaz; bu tercih beyaz zeminleri ve tanınabilirliği korur. Mobilde hover bağımlı bilgi yok; logo/isim/linkler korunur ve sticky touch-hover efekti uygulanmaz. Reduced-motion'da renk değişimi anlık olur.
+
+ClientsSection.tsx: bağlantısız ilk grup logo kartları da klavyeyle focus alabilir; gizli ikinci grup tab dışındadır. Linkler ve sıralama aynıdır. Marquee/global CSS, süre/döngü, hover/focus/touch durma ve reduced-motion yatay erişim kuralları değişmedi.
+
+TypeScript, hedefli ESLint, CSS parse ve TSX'in yalnızca tabIndex farkı taşıması, diff-check geçti. Tarayıcı/görsel test yok; manuel kabul kullanıcıda. Başka bölüm değişmedi. Commit/push/deploy yok. Detay: [[logs/2026-10-11-reference-monochrome]].
+
+## 11 Ekim 2026 — Referanslar yüzey ve marquee iyileştirmesi
+
+Yalnızca ClientsSection.tsx, yeni ClientsSection.module.css ve globals.css referans kuralları değişti. Bölüm zemini #E4E9F1; kartlar beyaz, #D5DEEB ince kenar ve çok hafif gölge. Mevcut 208×96 / 240×112px kart ölçüleri korunur; yatay logo alanı 48px, kare/dikey 64px, beyaz boşluğu fazla bazı wordmark'lar 56px. object-contain ve orijinal dosyalar korunur. Hover'da kart/logo hareketi yerine ince kenar/gölge vurgusu kullanılır. Veriler, sıra, bağlantılar ve TR/EN/DE metinleri değişmedi.
+
+İki eşit marquee grubu, 34s linear ve translateX(-50%) döngüsü korundu; yeniden yazılmadı. 10 kart/grup ve son 16px boşlukla grup genişliği mobil 2240px, desktop 2560px; kaydırma tam bir grup genişliğidir. pageshow/visibilitychange sırasında inline running yazan ve hover pause'u geçersiz kılabilen eski handler kaldırıldı; gereksiz global focus blur da kaldırıldı. CSS hover uygun farede, focus-within klavyede ve active dokunma sırasında durdurur; koşul bitince mevcut konumdan devam eder. Gizli kopya linkler tab sırasından çıkarıldı. Reduced-motion animasyonsuz yatay erişim kuralları birebir korunur.
+
+TypeScript, hedefli ESLint, CSS parse, referans veri eşitliği, döngü/reduced-motion kaynak koruma ve diff-check geçti. PNG ölçüleri/görünür piksel sınırları yalnızca okunarak optik ölçek seçimi yapıldı; görseller değiştirilmedi. Tarayıcı/screenshot üretilmedi; optik görünüm ve touch/hover kabulü kullanıcı manuel kontrolünde. Header ve diğer bölümler değişmedi. Commit/push/deploy yok. Detay: [[logs/2026-10-11-reference-polish]].
+
+## 11 Ekim 2026 — Koyu bölüm renk birleşimleri
+
+Kullanıcı mevcut yerleşimleri ve referanslara kadar renk dağılımını onayladı. Yalnızca app/globals.css ve WebToMobileTransition.module.css değişti. Hero → Web mevcut ortak lacivert birleşimi korundu. Sticky sahnenin ve reduced-motion zemininin alt 6rem'inde hafif ambient ana --bs-foundation (#101827) tonuna söner; kenar shading maskesi de alt sınırda şeffaflaşır. Ana sayfadaki Yetkinlikler üst/alt 48–80px içinde aynı ana laciverte birleşir; orta zemin --bs-surface-dark (#17263F) kalır. Yetkinlikler'in dış alt çizgisi yalnızca renk olarak şeffaflaştı (border kalınlığı korunur); Projeler'in mevcut koyu zemini ve açık Referanslar tasarımı değişmedi.
+
+Global ekleme yalnızca main > #capabilities.bs-home-section seçicisine sınırlıdır; diğer sayfa ve header/kartlar etkilenmez. Yeni glow/animasyon/alan yok. Tüm section ölçü/padding ve motion kaynakları korunur. PostCSS parse, globals'ın yalnızca hedefli ek kural içermesi, sahne CSS'inde yalnızca background/mask deklarasyonlarının değişmesi ve diff-check geçti. CSS-only işte TypeScript/build/tarayıcı tekrarlanmadı; görsel kabul kullanıcı manuel kontrolünde. Commit/push/deploy yok. Detay: [[logs/2026-10-11-dark-section-flow]].
+
+## 11 Ekim 2026 — Web giriş boşluğu: içerik yüksekliğine bağlı yerleşim
+
+Önceki renk/%4 konum düzeltmesi kullanıcı tarafından yetersiz bulundu. Web başlangıç opacity'si zaten 1; ek fade uygulanmadı. WebToMobileTransition.tsx/module.css içinde yalnızca Web metni/paneli yeni webEntry grid kapsayıcısına alındı. Desktop header + 32px'den başlayan yan yana düzen, tablet header + 24px ve mobil header + 16px'den başlayan üst üste düzen kullanılır. Tablet/mobil panel, viewport'un %65/%72 merkezinde beklemek yerine gerçek metin yüksekliği + 24px/20px boşluk sonrasında gelir. Panelin -50% x/y merkezleme transformları kaldırıldı; ölçek/opacity ve Web metninin çıkış hareketi korunur. Web, stage doğal scroll ile ekrana girerken görünür; sticky başladığında aynı grid konumunu kullanır.
+
+Hero v1 kaynağı/vitrini ve sahne içerikleri değişmedi. Mobil/AI timing ve markup, tüm motion aralıkları/useScroll/spring, stage top/height/min-height, 340/280/260svh yükseklikler ve reduced-motion statik akış birebir korunur. Yeni animasyon/kütüphane yok. TypeScript, hedefli ESLint, CSS parse, Web dışı deklarasyon ve motion/Mobil/AI/reduced-motion kaynak koruma kontrolü, diff-check geçti. Tarayıcı testi yapılmadı; görsel kabul ve özellikle küçük yükseklikli ekran kontrolü kullanıcıda. Commit/push/deploy yok. Detay: [[logs/2026-10-11-web-entry-layout]].
+
+## 11 Ekim 2026 — Hero → Web görsel devamlılığı
+
+Hero.module.css ve WebToMobileTransition.module.css: önceki #0B111B ara ton geçişi kaldırıldı; iki taraf --bs-foundation (#101827) üzerinde birleşir. Hero'nun son 8rem'inde vurgu renkleri ana zemine söner; sticky stage üstünde aynı lacivertten hafif ambient'e açılır. Hero alt padding desktop 16–32px, tablet 24px, mobil 16px. Yalnızca desktop Web metni ve paneli birlikte stage yüksekliğinin %4'ü kadar yukarı alındı; tablet/mobil Web konumları değişmedi. Reduced-motion statik akışın üst padding'i 80px'den 48px'e indirildi; aynı zemin birleşimi kullanılır.
+
+Hero başlık/CTA/vitrin, üç sahnenin içeriği, Mobil/AI yerleşimleri ve tüm motion kaynakları korunur. Sticky top/height/min-height ve 340/280/260svh bölüm yükseklikleri değişmedi; negatif margin, yeni scroll boşluğu veya animasyon eklenmedi. Web mevcut opacity=1 ile doğal akışta görünür, aynı konumda sticky olur. CSS parse, izin verilen deklarasyonların dışında değişiklik yokluğu, motion TSX birebir korunma ve diff-check geçti. Tarayıcı kontrolü yapılmadı; birleşim ve sticky başlangıcının görsel kabulü kullanıcıda. Önceki ara ton notları tarihsel kayıttır; bu kayıt onları günceller. Commit/push/deploy yok. Detay: [[logs/2026-10-11-hero-web-continuity]].
+
+## 11 Ekim 2026 — Sahne zemini sadeleştirildi
+
+Yalnızca WebToMobileTransition.module.css: grid üreten stage::before kaldırıldı. Ana zemin hero'nun #101827 tokenını kullanır; üst #0B111B birleşim rengi korunur. Mavi/mor ambient .045/.025 opaklıkla çok hafiftir; mevcut kenar shading'i lacivert/.22 seviyesine çekildi. Reduced-motion zemini de aynı palette. Web/Mobil/AI bileşenleri, timing, layout ve header/diğer bölümler değişmedi. CSS parse/grid yokluğu/zemin dışı deklarasyonların korunması ve diff-check geçti; tarayıcı testi yok. Commit/push/deploy yok. Detay: [[logs/2026-10-11-scene-background]].
+
+## 11 Ekim 2026 — Scroll zamanlama iyileştirmesi
+
+Kullanıcı son sahne tasarımlarını beğendi; yalnızca timing revize edildi. WebToMobileTransition.tsx: Web %0–28 tam görünür, %28–36 çıkış; Mobil %28–36 giriş, %36–70 tam görünür/sabit, %70–78 çıkış; AI %70–78 giriş, %78–100 tam görünür. Metin ve görsel ortak opacity kullanır. Telefonun konum/dönüş/scale girişi %36'da tamamlanır; erken kaybolmasına yol açan ayrı opacity çarpımı kaldırıldı. Görsel hareketlerin mevcut uç değerleri korunur.
+
+Sahne tasarımı/içeriği, responsive CSS, reduced-motion markup, scroll offset/spring ve 340/280/260svh yükseklikleri değişmedi. TypeScript, hedefli lint, gerçek opacity eğrileriyle boş aralık olmaması/Mobil hold ve markup korunma kontrolü, diff-check geçti. Tarayıcı/build yok. Commit/push/deploy yok. Detay: [[logs/2026-10-11-scene-timing]].
+
+## 11 Ekim 2026 — AI iş akışı ve telefon header boşluğu
+
+Kullanıcı Mobil sahnesini beğendi. Yeni AIScene; örnek gelen talep → AI özet/kategori önerisi → insan onayından sonra görev iş akışını gösterir. Başlık “Tekrarlayan işleri akıllı akışlara dönüştürün.”, açıklama özel AI çözümleri hizmetini anlatır; lacivert/mavi/mor ve ortak Space Grotesk, TR/EN/DE korunur. AI önerileri açıkça öneri olarak etiketlenir, görev insan onayına bağlıdır; gerçek SaaS iddiası yok.
+
+Eski PhoneVisual/telefon katmanı, screenGlobe, ekosistem etiketleri ve kullanılmayan CSS kaldırıldı. Onaylı yeni Mobil telefon %65–70 aralığında çıkar; AI %70–78 mevcut aralığında gelir. Web/Mobil içerikleri ve mevcut scroll/phone/mobil/AI transform değerleri, 340/280/260svh yükseklikleri korunur. Mobil telefon top konumu desktop/tablet +32px, mobil +16px aşağı alınarak header boşluğu artırıldı. Hero değişmedi.
+
+TypeScript, hedefli lint, CSS/sınıf kontrolü, değişiklik öncesine göre Web/Mobil copy ve korunan timing karşılaştırması, eski katman yokluğu ve diff-check geçti. Tarayıcı/build yok; responsive görünüm kullanıcı manuel kontrolünde. Commit/push/deploy yok. Detay: [[logs/2026-10-11-ai-workflow]].
+
+## 11 Ekim 2026 — Mobil sahnesi yenilendi
+
+Kullanıcı Web sahnesini beğendi; bu tur yalnızca Mobil yenilendi. Yeni MobileScene açık blue-gray zemin/beyaz kart/mavi vurgularla, WebScene'deki aynı görev/sorumlu/checklist'i bildirim ve görev detayı olarak gösterir. Başlık “İşiniz, her an yanınızda.”; açıklama özel mobil uygulama geliştirme hizmetini anlatır. TR/EN/DE ve ortak Space Grotesk korunur.
+
+WebScene ve AI kaynakları/transformları değiştirilmedi. Yeni mobil telefon mevcut phone motion değerlerini kullanır; %65–70 mevcut geçiş aralığında eski telefon geri gelir, AI %70 girişinde orijinal görünümü korur. Mobil küçük ekranda yalnızca yeni telefon/metin geometrisi ayrılır; açıklama görünür. Reduced-motion mobil görünümü aynı statik ekrandır. Bölüm yükseklikleri/scroll offset/spring/süre aralıkları korunur.
+
+TypeScript, hedefli lint, CSS parse, eski PhoneVisual ve mevcut AI/phone zamanlama karşılaştırması, diff-check geçti. Tarayıcı/build yok; manuel görsel kontrol kullanıcıda. Commit/push/deploy yok. Detay: [[logs/2026-10-11-mobile-scene]].
+
+## 11 Ekim 2026 — İlk Web sahnesi uygulaması
+
+Storyboard genel olarak onaylandı; bu tur yalnızca Web sahnesi uygulandı. DigitalGlobe yerine yeni WebScene paneli: BayesSoft markası, yönetim menüsü, kurumsal platform/portal/operasyon projeleri ve seçili görev detayı. Başlık “İş süreçleriniz, tek ekranda.”; açıklama özel yönetim paneli/kurumsal platform hizmetini açıkça anlatır. TR/EN/DE korunur. Hero'daki tek Space Grotesk tanımı heroFont.ts'e taşınıp paylaşılır; hero tasarımı/içeriği değişmedi.
+
+Mevcut useScroll/useSpring, Web fade aralığı ve tüm telefon/AI motion değerleri korunur. Yalnızca Web görselinin aşırı küre zoom'u yerine 1–1.04 ölçek kullanılır. Bölüm yüksekliği 340/280/260svh değişmedi. Tablet Web metni üstte/panel altta, mobil açıklama görünür ve panel sadeleşir. Reduced-motion Web kartında aynı statik panel vardır; mobil/AI kaynakları korunur.
+
+TypeScript, hedefli lint, CSS parse, telefon/AI dönüşümleri ve bölüm yüksekliği karşılaştırması, diff-check geçti. Tarayıcı/build yok; görsel değerlendirme kullanıcıda. Commit/push/deploy yok. Detay: [[logs/2026-10-11-web-scene]].
+
+## 11 Ekim 2026 — Hero / Web–Mobil–AI zemin geçişi
+
+Kullanıcı Hero v1'in tamamlandığını/pushlandığını bildirdi; bu turun başlangıcında feature/bayessoft-2.0 çalışma ağacı temizdi. Yalnızca Hero.module.css ve WebToMobileTransition.module.css zemin birleşimi düzenlendi. Hero alt çizgisi kaldırıldı; son 8rem içinde #0B111B ara laciverte hafif fade, sonraki sticky sahnenin üstünde aynı tondan mevcut laciverte geçiş kullanılır. Sahne kenar gölgesi üst sınırda şeffaf başlayarak mobile dahil yumuşar. Reduced-motion statik görünümü de aynı birleşim rengini kullanır.
+
+Boyut/padding/scroll yüksekliği ve tüm motion/TSX kaynakları değişmedi; ekstra alan/animasyon/kütüphane yok. CSS parse ve Git HEAD ile zemin dışı CSS deklarasyon karşılaştırması, diff-check geçti. Görsel kontrol kullanıcıda, tarayıcı/build yok. Commit/push/deploy yok. Detay: [[logs/2026-10-11-hero-scene-transition]].
+
 ## 11 Ekim 2026 — Son küçük vitrin düzenlemeleri
 
 HeroShowcase UI mavi/mor vurguları hafif canlandırıldı; değişkenler bileşen içinde sınırlı, glow/animasyon artmadı. Vitrin altı caption ve kullanılmayan TR/EN/DE note alanları kaldırıldı; cihaz içi örnek arayüz rozetleri kalır. Hero alt padding masaüstü 32–48px, tablet 40px, mobil 32px'e indirildi. Başlık/CTA, cihaz ölçü/yerleşimi, koyu web/açık telefon ve diğer bölümler korunur. TypeScript, hedefli ESLint, CSS parse/caption yokluğu ve diff-check geçti; tarayıcı kontrolü yok. Commit/push/deploy yok. Detay: [[logs/2026-10-11-showcase-final-tweaks]].

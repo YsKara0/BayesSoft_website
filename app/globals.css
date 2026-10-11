@@ -172,10 +172,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .bs-footer .action-primary-on-dark { overflow-wrap: anywhere; }
   .bs-footer a { min-height: 44px; }
   .bs-footer-statement { font-size: clamp(1.75rem, 4vw, 3.5rem); text-wrap: balance; }
-  .reference-logo { height: 44px; }
-  .reference-logo[data-logo="/references/hypersense.png"],
-  .reference-logo[data-logo="/references/arel.png"],
-  .reference-logo[data-logo="/references/kanuni_sultan_suleyman_hastanesi.png"] { height: 64px; }
+
   .bs-footer :is(a,button) { align-content: center; }
   .bs-section .font-label { letter-spacing: .08em; }
   .bs-section .texture-diagonal, .bs-section .texture-lines { opacity: .08; }
@@ -286,8 +283,14 @@ button, a { -webkit-tap-highlight-color: transparent; }
   padding-right: 1rem;
 }
 
-.reference-ticker:hover .reference-ticker-track {
+/* Keyboard focus and a touch press pause the same uninterrupted CSS loop. */
+.reference-ticker:focus-within .reference-ticker-track,
+.reference-ticker:active .reference-ticker-track {
   animation-play-state: paused;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .reference-ticker:hover .reference-ticker-track { animation-play-state: paused; }
 }
 
 @keyframes reference-ticker {
@@ -312,4 +315,17 @@ button, a { -webkit-tap-highlight-color: transparent; }
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* Homepage dark-section joins only: retain the secondary navy at the center.
+   These painted fades occupy existing padding, without adding layout space. */
+main > #capabilities.bs-home-section {
+  background-image: linear-gradient(
+    180deg,
+    var(--bs-foundation) 0,
+    transparent clamp(3rem, 5vw, 5rem),
+    transparent calc(100% - clamp(3rem, 5vw, 5rem)),
+    var(--bs-foundation) 100%
+  );
+  border-bottom-color: transparent;
 }

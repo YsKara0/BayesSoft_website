@@ -1,0 +1,8 @@
+# 11 Ekim 2026 — Yetkinlikler editorial tasarım
+
+CapabilitiesSection.tsx ve yeni CapabilitiesSection.module.css: üç beyaz kart yerine geniş, zemine bütünleşen Web/Mobil/AI blokları. Desktop Web görsel solda/metin sağda, Mobil metin solda/görsel sağda, AI görsel solda/metin sağda. Web geniş yatay, Mobil içe çekilmiş dikey, AI daha alçak kompozisyon; farklı sütun oranları, hizalar ve boşluklar kullanılır. Tablet/mobil tek sütun, metin → görsel akışı. Mevcut bölüm giriş metinleri, pillar başlık/summary ve mühendislik açıklaması/hizmet linki korunur; uzun items listeleri yalnızca bu görünümden kaldırıldı (data/home.ts değişmedi). Mühendislik altı kutu yerine sade ayırıcı ve bağlantı. Bölüm Reveal animasyonları kaldırıldı; sticky/slider/carousel/yeni motion yok. Ortak mevcut Space Grotesk tanımı kullanılır.
+
+Web görseli mevcut gerçek FurtherUp Drive ekran görüntüsü; proje adıyla ve native 1669/911 oranında, kırpılmadan gösterilir. Mobil ve AI mevcut uygun görsel olmadığı için ürün ekranı çizmek yerine açıkça TR/EN/DE etiketlenmiş statik, değiştirilebilir görsel alanlarıdır. Mobil telefon konturu/ikon, AI sade bağlantı/ikon kompozisyonu; yeni ürün/marka iddiası veya örnek dashboard eklenmedi. Bu alanlar nihai ürün görselleri değildir.
+
+Yetkinlikler lacivert teması ve mevcut bölüm birleşim CSS'i korunur; bölüm yüksekliği içerik odaklı yeni editorial düzenin gereği değişir. Hero, scroll sahneleri, Projeler, Referanslar, header/footer ve veri kaynakları değişmedi. TypeScript, hedefli ESLint, CSS parse, statik kaynak/yerel görsel/link kontrolü ve diff-check geçti. Tarayıcı/screenshot/build yapılmadı; ilk yerleşim ve placeholder kabulü kullanıcı manuel değerlendirmesinde. Commit/push/deploy yok. Detay: [[logs/2026-10-11-capabilities-editorial]].
+

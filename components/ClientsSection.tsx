@@ -1,38 +1,18 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useRef } from "react";
 import { Reveal } from "@/components/Reveal";
 import { useLanguage } from "@/components/LanguageProvider";
 import { homeCopy } from "@/data/home";
 import { clientReferences } from "@/data/references";
+import styles from "./ClientsSection.module.css";
 
 export function ClientsSection() {
   const { locale } = useLanguage();
   const copy = homeCopy[locale].clients;
-  const tickerRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const handlePageShow = () => {
-      // Ensure focus is cleared and track is actively animating after browser back navigation
-      if (document.activeElement instanceof HTMLElement) {
-        document.activeElement.blur();
-      }
-      if (tickerRef.current) {
-        tickerRef.current.style.animationPlayState = "running";
-      }
-    };
-
-    window.addEventListener("pageshow", handlePageShow);
-    document.addEventListener("visibilitychange", handlePageShow);
-    return () => {
-      window.removeEventListener("pageshow", handlePageShow);
-      document.removeEventListener("visibilitychange", handlePageShow);
-    };
-  }, []);
 
   return (
-    <section className="theme-light bs-section overflow-hidden border-y border-[color:var(--bs-tone-border)] bg-[var(--bs-surface-alt)] py-10 text-[color:var(--bs-tone-text)] md:py-12">
+    <section className={`${styles.section} theme-light bs-section overflow-hidden border-y border-[color:var(--bs-tone-border)] py-10 text-[color:var(--bs-tone-text)] md:py-12`}>
       <div className="mx-auto max-w-[1216px] px-5 md:px-8">
         <div className="grid gap-6 lg:grid-cols-[.9fr_1.1fr] lg:items-end">
           <Reveal>
@@ -46,7 +26,7 @@ export function ClientsSection() {
       </div>
 
       <div className="reference-ticker mt-6 py-3">
-        <div ref={tickerRef} className="reference-ticker-track">
+        <div className="reference-ticker-track">
           {[0, 1].map((groupIndex) => (
             <div key={groupIndex} className="reference-ticker-group" aria-hidden={groupIndex === 1}>
               {clientReferences.map((reference) => {
@@ -58,9 +38,10 @@ export function ClientsSection() {
                     target={reference.website ? "_blank" : undefined}
                     rel={reference.website ? "noopener noreferrer" : undefined}
                     aria-label={reference.name}
-                    className={`flex h-24 w-52 shrink-0 items-center justify-center rounded-[var(--bs-radius-panel)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-surface)] p-4 shadow-sm md:h-28 md:w-60 ${reference.website ? "group transition duration-300 hover:-translate-y-1 hover:border-[color:var(--bs-primary)] hover:shadow-[var(--bs-shadow-soft)]" : ""}`}
+                    tabIndex={groupIndex === 1 ? -1 : reference.website ? undefined : 0}
+                    className={`${styles.card} ${reference.website ? "group" : ""}`}
                   >
-                    <div data-logo={reference.src} className="reference-logo relative w-full transition duration-300 group-hover:scale-105">
+                    <div data-logo={reference.src} className={styles.logo}>
                       <Image
                         src={reference.src}
                         alt={reference.name}

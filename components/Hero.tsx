@@ -1,21 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import localFont from "next/font/local";
+import { heroFont } from "@/components/heroFont";
 import { ArrowUpRight } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
 import { useLanguage } from "@/components/LanguageProvider";
 import { HeroShowcase } from "@/components/HeroShowcase";
 import { homeCopy } from "@/data/home";
 import styles from "./Hero.module.css";
-
-const heroFont = localFont({
-  src: "./fonts/SpaceGrotesk-Bold.woff2",
-  weight: "700",
-  style: "normal",
-  display: "swap",
-  variable: "--font-hero",
-});
 
 const container = {
   hidden: {},

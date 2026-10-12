@@ -1,0 +1,8 @@
+# 12 Ekim 2026 — Sticky Process Strip
+
+Yalnızca ProcessSection.tsx ve yeni ProcessSection.module.css: dört eşit kart/texture/Reveal yerine kısa başlık, dört adımlı yatay gösterge ve tek geniş açık #E9EEF5 içerik yüzeyi. Anla/Tasarla/Geliştir/İşlet anlamı yerel TR/EN/DE kısa metinlerle korunur; ortak i18n verileri değişmedi. Space Grotesk başlık, lacivert dış zemin; her adımda küçük ikon ve statik çizgi detayı. Scroll'da dört eşit aralık, 180ms örtüşen opacity; zoom/3D yok. Dört katman aynı grid hücresinde yer kaplar, en uzun içerik yüksekliği sabit kalır; pasif scroll + rAF, state yalnızca adım değişince güncellenir. ResizeObserver panel yüksekliği ölçer; değişmediyse CSS değişkenine tekrar yazılmaz.
+
+Track yüksekliği gerçek panel + yalnızca clamp(240px,32svh,300px) scroll mesafesi. Sticky top header + 16px. Yeni uzun vh hikâyesi/slider/carousel yok; bölüm içerik temellidir. Gösterge düğmeleri fare/klavye ile adımın aralığına native anlık scroll yapar; aria-current=step, görünmeyen içerik aria-hidden. Mobil tek sütun panel, dört sütun gösterge korunur. Reduced-motion veya <=600px viewport yüksekliği: sticky/scroll takibi kapalı, dört kısa adım normal akışta; gösterge yerel anchor olur. Böylece yatay telefon/kısa ekranlarda içerik viewport altında kilitlenmez. Listener/observer/rAF temizlenir.
+
+TypeScript ve hedefli ESLint geçti. İlk sınıf kontrolünde eksik understand stil seçicisi bulundu ve düzeltildi; yeniden PostCSS/sınıf kontrolü, dört aralık ve gösterge hedef hesabı, diff-check geçti. Tarayıcı/build yapılmadı; gerçek scroll/klavye/telefon optik kabulü manuel kontrol bekler. Web–Mobil–AI kaynakları ve diğer bölümler değişmedi; önceki AI çalışma ağacı korundu. Commit/push/deploy yok. Detay: [[logs/2026-10-12-sticky-process-strip]].
+

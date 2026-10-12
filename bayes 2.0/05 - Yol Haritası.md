@@ -55,6 +55,14 @@ Detay: [[logs/2026-10-12-ai-studio-light-surfaces]]. Commit/push/deploy yok.
 
 Detay: [[logs/2026-10-12-ai-workflow-studio]]. Commit/push/deploy yok.
 
+## 11 Ekim 2026 — Eksik referans bağlantıları
+
+- [x] Atlı Lojistik ve KSS logolarına kullanıcının verdiği URL'ler eklendi.
+- [x] Mevcut yeni sekme/klavye davranışı üretim HTML'inde her iki marquee grubunda doğrulandı.
+- [x] Lint, TypeScript ve build (18 statik sayfa) geçti.
+
+Kullanıcı commit/push ve PR açılmasını açıkça istedi; düzeltme master üzerinden `codex/reference-logo-links` dalında hazırlandı. Detay: [[logs/2026-10-11-reference-links]].
+
 ## 11 Ekim 2026 — Mobil görsel bütünlüğü
 
 - [x] Lighten yerine dar edge fade; görsel renkleri korunur.

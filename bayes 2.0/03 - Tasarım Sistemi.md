@@ -1,5 +1,11 @@
 # 02 — Design System / Phase 1
 
+## 12 Ekim 2026 — Süreç bölümünün güncel yerel tasarımı
+
+Nasıl Çalışıyoruz: eski kart/sticky strip/teslim dashboard'u yerine dört gerçek dil/yuva profiliyle birleşen minimal obje. Koyu lacivert bölüm, üç koyu parça ve tek açık #F5F7FB merkez; kontrollü mavi, üst parçada küçük mor ve alt parçada muted yeşil durum işareti. Space Grotesk başlık/etiket, Inter gövde; kısa TR/EN/DE anlamlar ve örnek arayüz açıklaması. Dashboard, KPI, ürün/istemci iddiası yok. Desktop 800×300px obje; mobil aynı birleşim ilişkisini koruyan daha yüksek oranlı geometri. Dört adım açıklaması kutusuzdur.
+
+Bir kez viewport assembly + kısa hover ayrılması; sticky/scroll scrubbing yok. Mobil/touch/reduced-motion tamamlanmış statik obje. Bu karar yalnızca süreç bölümünü değiştirir; global tokenlar ve diğer bölümler korunur. Güncel brief [[bayessoft-how-we-work-assembly-interaction-spec]], doğrulamalar ve manuel görsel kabul sınırları [[logs/2026-10-12-interlocking-assembly]].
+
 ## 11 Ekim 2026 — Mevcut yüzeyler üzerinde dengeleme
 
 Lacivert #101827/#17263F yüzeyler ve mevcut seçici açık kart/bantlar korunur. Açık alanları artırma hedefi yok. Ana sayfa hizmet/proje/süreç bölüm aralığı `--bs-section-space: clamp(4rem, 7vw, 6.5rem)`; mavi dekoratif vurgu `--bs-primary-glow` üzerinden ortaklaştırıldı. İnce mevcut bölüm ayraçlarına footer üst sınırı eklendi.

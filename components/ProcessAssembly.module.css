@@ -1,0 +1,55 @@
+.figure { margin: 0; }
+.hitbox { max-width: 880px; padding: 36px 40px 32px; margin: 0 auto; }
+.artifact { position: relative; width: 100%; aspect-ratio: 8 / 3; isolation: isolate; }
+.piece { position: absolute; inset: 0; pointer-events: none; }
+.desktopShape, .mobileShape { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; filter: drop-shadow(0 2px 3px rgba(0,0,0,.12)); }
+.mobileShape { display: none; }
+.outline { stroke-width: 1; stroke-linejoin: round; }
+.understand .outline { fill: #1b2b42; stroke: #405673; }
+.design .outline { fill: var(--bs-surface-dark); stroke: #485478; }
+.build .outline { fill: var(--bs-background); stroke: #c6d2e0; }
+.operate .outline { fill: #1b293b; stroke: #3c5063; }
+.marks { fill: none; stroke: #8199b8; stroke-width: 2; opacity: .65; }
+.designMarks { fill: none; stroke: #aaa4d2; stroke-width: 2; opacity: .55; }
+.interfaceHint { fill: #8fa1ba; stroke: #c6d2e0; stroke-width: 1; }
+.interfaceHint rect { fill: var(--bs-surface-alt); }
+.interfaceHint path { fill: none; }
+.statusDot { fill: #63a98c; }
+.operationMark { fill: none; stroke: #7f9aaa; stroke-width: 1.5; }
+.label { position: absolute; display: grid; gap: 4px; width: max-content; max-width: 20%; color: var(--bs-text-on-dark); }
+.label > span { font-family: var(--font-inter), Inter, sans-serif; font-size: 10px; color: var(--bs-accent); letter-spacing: .1em; }
+.label > strong { font-family: var(--font-hero), Arial, sans-serif; font-size: clamp(17px, 1.8vw, 23px); font-weight: 700; line-height: 1.15; letter-spacing: -.035em; }
+.understand .label { left: 4%; top: 23%; max-width: 17%; }
+.design .label { left: 29%; top: 6%; display: flex; align-items: baseline; gap: 10px; max-width: 44%; }
+.design .label > strong { font-size: clamp(16px, 1.5vw, 20px); }
+.design .label > span { color: #c5bcdf; }
+.build .label { left: 33%; top: 44%; color: var(--bs-text); max-width: 35%; }
+.build .label > span { color: var(--bs-text-muted); }
+.build .label > strong { font-size: clamp(22px, 2.4vw, 30px); }
+.operate .label { left: 18%; top: 85%; display: flex; align-items: baseline; gap: 10px; max-width: 60%; }
+.operate .label > strong { font-size: clamp(16px, 1.5vw, 20px); }
+.operate .label > span { color: #a9cbbd; }
+.disclosure { margin: 0; color: var(--bs-muted-on-dark); font-size: 10px; text-align: center; }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hitbox { padding: 28px 28px 24px; }
+  .label > strong { font-size: 17px; }
+  .design .label > strong, .operate .label > strong { font-size: 16px; }
+  .build .label > strong { font-size: 24px; }
+}
+@media (max-width: 767px) {
+  .hitbox { max-width: 480px; padding: 20px 8px 16px; }
+  .artifact { aspect-ratio: 50 / 39; }
+  .desktopShape { display: none; }
+  .mobileShape { display: block; }
+  .understand .label { left: 5.6%; top: 23%; max-width: 23%; }
+  .label > strong { font-size: clamp(13px, 3.6vw, 17px); }
+  .label > span { font-size: 9px; }
+  .design .label { left: 34%; top: 5.5%; max-width: 47%; gap: 7px; }
+  .design .label > strong { font-size: 16px; }
+  .build .label { left: 39%; top: 42%; max-width: 53%; }
+  .build .label > strong { font-size: clamp(21px, 5.6vw, 26px); }
+  .operate .label { left: 27%; top: 86%; gap: 7px; }
+  .operate .label > strong { font-size: 16px; }
+  .artifact .piece { transform: none !important; }
+}
+@media (prefers-reduced-motion: reduce) { .artifact .piece { transform: none !important; } }

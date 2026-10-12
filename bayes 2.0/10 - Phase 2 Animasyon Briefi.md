@@ -1,5 +1,9 @@
 # 07 — Phase 2 Animation Design Brief (NOT Phase 1)
 
+## 12 Ekim 2026 — AI sahnesi görsel revizyonu
+
+Üç ayrı iş akışı kartı yerine tek örnek AI Workflow Studio arayüzü: talep listesi, AI özeti/kategori/öncelik önerisi ve insan onaylı aksiyonlar. Normal/reduced-motion aynı statik arayüzü kullanır; scroll aralıkları ve bölüm yüksekliği değişmez. Önceki üç kart görünümü tarihsel kayıttır. Detay: [[logs/2026-10-12-ai-workflow-studio]].
+
 ## 11 Ekim 2026 — Onaylı sahneler için timing revizyonu
 
 Mobil erken kaybolma geri bildirimi sonrası tasarımlar korunarak aralıklar revize edildi: Web hold %0–28, ortak geçiş %28–36, Mobil hold %36–70, ortak geçiş %70–78, AI hold %78–100. Mobil metin ve telefon ortak opacity ile çıkar; telefon %36'da yerleşmiş olur. Önceki %65–70 telefon çıkışı artık geçersizdir. Toplam section yüksekliği/scroll altyapısı/reduced-motion korunur. Detay: [[logs/2026-10-11-scene-timing]].

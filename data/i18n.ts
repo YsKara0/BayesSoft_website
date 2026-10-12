@@ -60,16 +60,32 @@ const tr = {
     { value: "04", label: "temel uzmanlık alanı: web, mobil, AI, bulut" },
   ],
   process: {
-    eyebrow: "Nasıl çalışıyoruz",
-    title: "Operasyonu anlamaktan ürünü işletmeye kadar.",
-    intro: "İşinizi öğrenir, doğru ürün ve mimariyi tasarlar, tüm katmanları birlikte geliştirir ve yayından sonra iyileştirmeye devam ederiz.",
-    step: "Adım",
-    items: [
-      { title: "Anla", summary: "İşletmenin ve operasyonun gerçekte nasıl çalıştığını; hedefleri, rolleri, veriyi ve darboğazları birlikte öğreniriz." },
-      { title: "Tasarla", summary: "Ürün deneyimini, sistem mimarisini ve doğru teknik çözümü görünür ve test edilebilir hale getiririz." },
-      { title: "Geliştir", summary: "Web, backend, mobil ve entegrasyonları aynı ürün mimarisi içinde birlikte inşa ederiz." },
-      { title: "İşlet", summary: "Ürünü yayınlar, izler, bakımını yapar ve işletmenizin ihtiyaçlarıyla birlikte sürekli geliştiririz." },
+    "eyebrow": "Nasıl çalışıyoruz",
+    "title": "Dört adım. Tek bir çalışan ürün.",
+    "intro": "İhtiyacı anlar, deneyimi tasarlar, geliştirir ve birlikte büyütürüz.",
+    "step": "Adım",
+    "items": [
+      {
+        "title": "Anla",
+        "summary": "İhtiyacı ve hedefi netleştiririz."
+      },
+      {
+        "title": "Tasarla",
+        "summary": "Çözümün yapısını kurarız."
+      },
+      {
+        "title": "Geliştir",
+        "summary": "Ürünü birlikte inşa ederiz."
+      },
+      {
+        "title": "İşlet",
+        "summary": "Yayımlar, izler ve iyileştiririz."
+      }
     ],
+    "assembly": {
+      "disclosure": "Örnek arayüz",
+      "description": "Anla, Tasarla, Geliştir ve İşlet: birbirine geçen dört parça, tek bir çalışan ürün."
+    }
   },
   cta: { eyebrow: "Bir sonraki ürün", title: "Dijital ürüne dönüşmesi gereken bir operasyonunuz mu var?", body: "İşinizin nasıl çalıştığını anlatın. Yazılımın onun etrafında nasıl çalışması gerektiğini birlikte çıkaralım.", mail: "E-posta gönder", page: "Birlikte geliştirelim" },
   pages: {
@@ -116,12 +132,34 @@ const en = {
   featured: { eyebrow: "Selected Projects", title: "One engineering discipline across different industries.", intro: "Across fintech, healthcare and AI, our goal is consistent: secure architecture, clear product flows and production-ready systems.", all: "All projects" },
   references: { eyebrow: "Our References", title: "Organizations and brands we have worked with." },
   stats: [{ value: "09", label: "published and research-driven projects" }, { value: "05", label: "specialists across product, backend, mobile and AI" }, { value: "04", label: "core disciplines: web, mobile, AI and cloud" }],
-  process: { eyebrow: "How we work", title: "From understanding the operation to operating the product.", intro: "We learn the business, design the right product and architecture, build every layer together and keep improving after launch.", step: "Step", items: [
-    { title: "Understand", summary: "We learn how the business and operation actually work — its goals, roles, data and constraints." },
-    { title: "Design", summary: "We define the product experience, system architecture and technical solution in a visible, testable form." },
-    { title: "Build", summary: "We develop web, backend, mobile and integrations together within one product architecture." },
-    { title: "Operate", summary: "We launch, monitor, maintain and continuously improve the product as the business evolves." },
-  ] },
+  process: {
+    "eyebrow": "How we work",
+    "title": "Four stages. One working product.",
+    "intro": "We understand the need, design the experience, build, and improve together.",
+    "step": "Step",
+    "items": [
+      {
+        "title": "Understand",
+        "summary": "Clarify the need and the goal."
+      },
+      {
+        "title": "Design",
+        "summary": "Shape the solution."
+      },
+      {
+        "title": "Build",
+        "summary": "Build the product together."
+      },
+      {
+        "title": "Operate",
+        "summary": "Launch, monitor, and improve."
+      }
+    ],
+    "assembly": {
+      "disclosure": "Illustrative interface",
+      "description": "Understand, Design, Build and Operate: four interlocking parts, one working product."
+    }
+  },
   cta: { eyebrow: "Your next product", title: "Have an operation that should be a product?", body: "Tell us how your business works. We’ll figure out how software should work around it.", mail: "Send an email", page: "Let’s build it" },
   pages: {
     about: { eyebrow: "About Us", title: "We are a software team that makes technology decisions actionable.", body: "We approach enterprise needs with a product mindset and build backend, mobile, web, AI and cloud layers as one engineering whole.", approach: "Approach", approachTitle: "A small, focused team working with enterprise-level rigor.", principles: [
@@ -165,12 +203,34 @@ const de = {
   featured: { eyebrow: "Ausgewählte Projekte", title: "Eine Engineering-Disziplin für verschiedene Branchen.", intro: "In Fintech, Gesundheit und KI bleibt unser Ziel gleich: sichere Architektur, klare Produktabläufe und produktionsreife Systeme.", all: "Alle Projekte" },
   references: { eyebrow: "Unsere Referenzen", title: "Organisationen und Marken, mit denen wir zusammengearbeitet haben." },
   stats: [{ value: "09", label: "veröffentlichte und forschungsorientierte Projekte" }, { value: "05", label: "Spezialisten für Produkt, Backend, Mobile und KI" }, { value: "04", label: "Kerndisziplinen: Web, Mobile, KI und Cloud" }],
-  process: { eyebrow: "So arbeiten wir", title: "Vom Verständnis der Abläufe bis zum Betrieb des Produkts.", intro: "Wir lernen das Unternehmen kennen, gestalten Produkt und Architektur, bauen alle Ebenen gemeinsam und entwickeln nach dem Launch weiter.", step: "Schritt", items: [
-    { title: "Verstehen", summary: "Wir lernen, wie Unternehmen und Betrieb wirklich funktionieren — Ziele, Rollen, Daten und Einschränkungen." },
-    { title: "Gestalten", summary: "Wir definieren Produkterlebnis, Systemarchitektur und technische Lösung sichtbar und testbar." },
-    { title: "Bauen", summary: "Wir entwickeln Web, Backend, Mobile und Integrationen gemeinsam in einer Produktarchitektur." },
-    { title: "Betreiben", summary: "Wir launchen, überwachen, warten und verbessern das Produkt gemeinsam mit dem Unternehmen." },
-  ] },
+  process: {
+    "eyebrow": "So arbeiten wir",
+    "title": "Vier Schritte. Ein funktionierendes Produkt.",
+    "intro": "Wir verstehen den Bedarf, gestalten das Erlebnis, entwickeln und verbessern gemeinsam.",
+    "step": "Schritt",
+    "items": [
+      {
+        "title": "Verstehen",
+        "summary": "Bedarf und Ziele klären."
+      },
+      {
+        "title": "Gestalten",
+        "summary": "Die Lösung strukturieren."
+      },
+      {
+        "title": "Entwickeln",
+        "summary": "Das Produkt gemeinsam entwickeln."
+      },
+      {
+        "title": "Betreiben",
+        "summary": "Veröffentlichen, überwachen, verbessern."
+      }
+    ],
+    "assembly": {
+      "disclosure": "Beispieloberfläche",
+      "description": "Verstehen, Gestalten, Entwickeln und Betreiben: vier ineinandergreifende Teile, ein funktionierendes Produkt."
+    }
+  },
   cta: { eyebrow: "Ihr nächstes Produkt", title: "Haben Sie einen Ablauf, der ein Produkt werden sollte?", body: "Erzählen Sie uns, wie Ihr Unternehmen arbeitet. Wir entwickeln, wie Software darum funktionieren sollte.", mail: "E-Mail senden", page: "Gemeinsam entwickeln" },
   pages: {
     about: { eyebrow: "Über uns", title: "Wir machen Technologieentscheidungen umsetzbar.", body: "Wir betrachten Unternehmensanforderungen aus Produktsicht und entwickeln Backend, Mobile, Web, KI und Cloud als ein technisches Ganzes.", approach: "Ansatz", approachTitle: "Ein kleines, fokussiertes Team mit Enterprise-Anspruch.", principles: [

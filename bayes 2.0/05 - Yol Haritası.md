@@ -1,5 +1,60 @@
 # 04 — BayesSoft 2.0 Roadmap
 
+## 12 Ekim 2026 — Güncel geometrik assembly
+
+- [x] Checkpoint 0: eski dashboard incelendi; dört ortak dil/yuva bağlantısı koddan önce tarif edildi.
+- [x] Checkpoint 1–2: sade dört parça, tamamlanmış ve ayrık pozlar; desktop/mobil ortak kenar geometrisi.
+- [x] Checkpoint 3: 1.3s tek viewport girişi; scroll geri dönüşünde replay yok.
+- [x] Checkpoint 4: paylaşılan hover hitbox, kısa ayrılma/yeniden birleşme; motion/state çatışması kontrolü.
+- [x] Checkpoint 5: TypeScript/hedefli lint/build, geometri/state/CSS/kapsam ve beş genişlikte Chrome kontrolleri.
+- [x] Mobil/touch/reduced-motion statik görünüm, kısa TR/EN/DE metin, örnek arayüz açıklaması.
+- [ ] Kullanıcı geometrik kompozisyon ve motion hissi kabulü; gerçek Windows/telefon ve farklı zoom/DPR incelemesi.
+
+Yetki ve güncel tasarım: [[bayessoft-how-we-work-assembly-interaction-spec]]. Eski dashboard/Phase B ve eski Phase C onay kapısı bu tasarım için geçersizdir; tarihsel loglar korunur. Sticky/scroll spacer yok, Web–Mobil–AI değişmedi. Detay: [[logs/2026-10-12-interlocking-assembly]]. Commit/push/merge/deploy yok.
+
+## 12 Ekim 2026 — Modular Product Assembly Phase B
+
+> Tarihsel kayıt; aşağıdaki dashboard ve bekleyen Phase C işi güncel geometrik assembly tarafından değiştirildi.
+
+- [x] Phase A onaylandı; dört tamamlayıcı yapısal modül/topoloji.
+- [x] Tek premium teslim workspace'i; tamamlanmış statik arayüz varsayılan.
+- [x] Ayrık başlangıç pozları CSS'te hazır; giriş animasyonu uygulanmadı.
+- [x] TR/EN/DE, disclosure, mobil/reduced-motion tamamlanmış görünüm.
+- [x] TypeScript/lint/CSS/kapsam kontrolleri; hedefli desktop/tablet/mobil browser ölçümleri.
+- [ ] Kullanıcı Phase B kompozisyon/görsel onayı.
+- [ ] Phase C giriş animasyonu — ayrı onay gerektirir.
+
+Önceki Sticky Process Strip kararı bu brief ile geçersizdir; tarihsel loglar korunur. Detay: [[logs/2026-10-12-process-assembly-phase-b]]. Commit/push/merge/deploy yok.
+
+## 12 Ekim 2026 — Sticky Process Strip
+
+- [x] Dört kart yerine yatay gösterge ve ortak aktif içerik yüzeyi.
+- [x] Kısa TR/EN/DE metin, 180ms crossfade, yalnızca 240–300px ek scroll.
+- [x] Klavye/fare gösterge erişimi; reduced-motion ve kısa viewport statik akış.
+- [x] TypeScript/lint/CSS ve adım aralık kontrolleri, diff-check.
+- [ ] Kullanıcı manuel scroll, klavye ve mobil yerleşim değerlendirmesi.
+
+Web–Mobil–AI ve diğer bölümler korunur. Detay: [[logs/2026-10-12-sticky-process-strip]]. Commit/push/deploy yok.
+
+## 12 Ekim 2026 — AI Studio yüzey hiyerarşisi
+
+- [x] Koyu dış çerçeve + açık talep listesi/beyaz çalışma panelleri.
+- [x] Mavi aktif/aksiyon, soft mor AI etiketi, küçük yeşil aksiyon ikonları.
+- [x] Metin ve responsive yapı korundu; CSS/temel kontrast/diff kontrolleri geçti.
+- [ ] Kullanıcı manuel statik görünüm ve dar ekran değerlendirmesi.
+
+Detay: [[logs/2026-10-12-ai-studio-light-surfaces]]. Commit/push/deploy yok.
+
+## 12 Ekim 2026 — AI scroll sahnesi: Workflow Studio
+
+- [x] Üç kart yerine tek yazılım yüzeyi; talepler, AI taslağı ve insan onayı.
+- [x] Kategori/öncelik önerisi, kısa TR/EN/DE metinler ve örnek arayüz etiketi.
+- [x] Kompakt mobil yerleşim; mevcut sahne zamanlaması/sticky/Web/Mobil korunur.
+- [x] TypeScript/lint/CSS/sınıf ve diff kontrolleri.
+- [ ] Kullanıcı manuel statik görünüm ve mobil okunabilirlik değerlendirmesi.
+
+Detay: [[logs/2026-10-12-ai-workflow-studio]]. Commit/push/deploy yok.
+
 ## 11 Ekim 2026 — Mobil görsel bütünlüğü
 
 - [x] Lighten yerine dar edge fade; görsel renkleri korunur.

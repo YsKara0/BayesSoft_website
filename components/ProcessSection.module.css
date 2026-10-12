@@ -1,0 +1,19 @@
+.section {
+  padding: clamp(2.5rem, 4vw, 3rem) clamp(1.25rem, 3vw, 2rem);
+  border-bottom: 1px solid var(--bs-border-on-dark);
+  background: var(--bs-foundation);
+  color: var(--bs-text-on-dark);
+}
+.inner { max-width: 1120px; margin-inline: auto; }
+.heading { max-width: 900px; margin: 0 auto 1rem; text-align: center; }
+.eyebrow { margin: 0 0 .8rem; color: var(--bs-accent); font-size: 11px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; }
+.title { margin: 0; font-family: var(--font-hero), Arial, sans-serif; font-size: clamp(30px, 3.3vw, 46px); font-weight: 700; line-height: 1.15; letter-spacing: -.04em; text-wrap: balance; }
+.annotations { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 1.5rem; max-width: 800px; margin: 1rem auto 0; padding: 0; list-style: none; }
+.annotations li { display: flex; align-items: start; gap: .65rem; min-width: 0; }
+.number { padding-top: .2rem; color: var(--bs-accent); font-size: 11px; letter-spacing: .06em; }
+.annotations h3 { margin: 0; font-family: var(--font-hero), Arial, sans-serif; font-size: 15px; font-weight: 700; line-height: 1.5; }
+.annotations p { margin: .3rem 0 0; color: var(--bs-muted-on-dark); font-size: 12px; line-height: 1.7; text-wrap: pretty; }
+@media (max-width: 767px) {
+  .heading { margin-bottom: 1rem; }
+  .annotations { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1.25rem 1rem; margin-top: 1.25rem; }
+}

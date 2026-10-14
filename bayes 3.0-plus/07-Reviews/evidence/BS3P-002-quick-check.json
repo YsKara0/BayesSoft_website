@@ -1,0 +1,127 @@
+{
+  "status": 200,
+  "samples": [
+    {
+      "mode": "webgl",
+      "phase": "align",
+      "time": "0.010",
+      "frames": "6",
+      "drawCalls": "5",
+      "triangles": "946",
+      "running": "true",
+      "width": 813.453125,
+      "height": 457.5625
+    },
+    {
+      "mode": "webgl",
+      "phase": "align",
+      "time": "1.010",
+      "frames": "59",
+      "drawCalls": "5",
+      "triangles": "946",
+      "running": "true",
+      "width": 813.453125,
+      "height": 457.5625
+    },
+    {
+      "mode": "webgl",
+      "phase": "connect",
+      "time": "1.910",
+      "frames": "108",
+      "drawCalls": "9",
+      "triangles": "1920",
+      "running": "true",
+      "width": 813.453125,
+      "height": 457.5625
+    },
+    {
+      "mode": "webgl",
+      "phase": "flow",
+      "time": "2.610",
+      "frames": "150",
+      "drawCalls": "10",
+      "triangles": "2218",
+      "running": "true",
+      "width": 813.453125,
+      "height": 457.5625
+    }
+  ],
+  "final": {
+    "mode": "webgl",
+    "phase": "final",
+    "time": "3.350",
+    "frames": "195",
+    "drawCalls": "9",
+    "triangles": "2050",
+    "running": "false",
+    "width": 813.453125,
+    "height": 457.5625
+  },
+  "idle": {
+    "mode": "webgl",
+    "phase": "final",
+    "time": "3.350",
+    "frames": "195",
+    "drawCalls": "9",
+    "triangles": "2050",
+    "running": "false",
+    "width": 813.453125,
+    "height": 457.5625
+  },
+  "idleFrameCountStable": true,
+  "clipping": [
+    {
+      "layer": "data",
+      "transform": "matrix(0.94702, 0.0859751, 0, 0.989004, 170.674, 79.8868)",
+      "clip": "path(evenodd, \"M 0 0 H 300 V 220 H 0 Z M 30.02 -18.4 L 350.02 -18.4 L 350.02 216.6 L 30.02 216.6 Z\")"
+    },
+    {
+      "layer": "rules",
+      "transform": "matrix(0.94702, 0.0859751, 0, 0.989004, 198.774, 64.4686)",
+      "clip": "path(evenodd, \"M 0 0 H 320 V 235 H 0 Z M 84.24 77.11 L 434.24 77.11 L 434.24 317.11 L 84.24 317.11 Z\")"
+    },
+    {
+      "layer": "web",
+      "transform": "matrix(0.94702, 0.0859751, 0, 0.989004, 278.221, 148.174)",
+      "clip": "path(evenodd, \"M 0 0 H 350 V 240 H 0 Z M 304.12 72.46 L 409.12 72.46 L 409.12 260.46 L 304.12 260.46 Z\")"
+    },
+    {
+      "layer": "mobile",
+      "transform": "matrix(0.94702, 0.0859751, 0, 0.989004, 565.899, 246.183)",
+      "clip": "none"
+    }
+  ],
+  "mobile": {
+    "mode": "static",
+    "canvases": 0,
+    "documentWidth": 375,
+    "viewport": 375,
+    "posterReady": true
+  },
+  "mobileLoadedWebGL": false,
+  "errors": [],
+  "failures": [],
+  "desktopCorrection": {
+    "reason": "Rear data/rule labels occluded in first render; widened reveals and added explicit web result port / self-shadows.",
+    "final": {
+      "mode": "webgl",
+      "phase": "final",
+      "time": "3.350",
+      "frames": "198",
+      "drawCalls": "10",
+      "triangles": "2218",
+      "running": "false"
+    },
+    "idle": {
+      "mode": "webgl",
+      "phase": "final",
+      "time": "3.350",
+      "frames": "198",
+      "drawCalls": "10",
+      "triangles": "2218",
+      "running": "false"
+    },
+    "idleFrameCountStable": true,
+    "errors": []
+  }
+}

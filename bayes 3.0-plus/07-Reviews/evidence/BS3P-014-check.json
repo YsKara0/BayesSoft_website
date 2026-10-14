@@ -1,0 +1,57 @@
+{
+  "desktopChecks": {
+    "passedBeforeMobileCapture": true,
+    "order": [
+      "reviel",
+      "furtherup-drive",
+      "ai-chatbot"
+    ],
+    "initialName": "Reviel",
+    "initialHref": null,
+    "initialLinkDisplay": "none",
+    "overflow": 0,
+    "strips": 117,
+    "repeatPanels": 3,
+    "sameSymbol": true,
+    "duration": 1040,
+    "furtherupHref": "/projeler/furtherup-drive",
+    "furtherupVisible": true,
+    "keyboardReturnName": "Reviel",
+    "returnHref": null,
+    "returnLinkHidden": true,
+    "idleAnimations": 0
+  },
+  "mobile": {
+    "name": "Reviel",
+    "description": "Cilt bakımı markası Reviel için geliştirilen, ürünleri ve marka kimliğini öne çıkaran dijital web deneyimi.",
+    "technology": "ASP.NET / C# / HTML / CSS / JavaScript",
+    "category": "Skincare / Digital Experience",
+    "href": null,
+    "linkHidden": true,
+    "linkDisplay": "none",
+    "phase": "idle",
+    "index": "0",
+    "overflow": 0,
+    "animations": 0,
+    "panels": 9,
+    "strips": 117,
+    "order": [
+      "reviel",
+      "furtherup-drive",
+      "ai-chatbot"
+    ],
+    "repeatRefs": [
+      [
+        "#selected-projects-reviel-cover"
+      ],
+      [
+        "#selected-projects-reviel-cover"
+      ],
+      [
+        "#selected-projects-reviel-cover"
+      ]
+    ]
+  },
+  "standaloneR2HtmlIdentical": true,
+  "captureNotes": "Initial desktop and transition assertions passed; mobile clip beyond viewport failed. Only mobile static capture repeated using fullPage+clip. Desktop observations reconstructed from passed assertions, not raw snapshot; console/resource telemetry not retained."
+}

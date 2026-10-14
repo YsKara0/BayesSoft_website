@@ -1,0 +1,26 @@
+@import url("../bs3p-project-showcase-r2/showcase.css");
+
+/* Only the homepage host changes. R2 geometry, art and motion stay shared. */
+#selected-projects{--cy-white:#fff;--cy-mineral:#f3f5f7;--cy-ink:#15263b;--cy-muted:#53677a;--cy-blue:#285bd6;width:100%;margin:0;padding:104px 0;color:var(--cy-ink)}
+#selected-projects,#selected-projects *{box-sizing:border-box}
+#selected-projects .cy-heading{position:relative}
+#selected-projects .cy-heading>.homepage-link{position:absolute;right:0;top:-12px}
+#selected-projects .cy-heading h2{margin:14px 0 0;font-size:clamp(42px,4.45vw,64px);font-weight:500;line-height:1.06;letter-spacing:-2.8px}
+#selected-projects .cy-layout{grid-template-columns:minmax(0,1.8fr) minmax(0,1fr);gap:64px}
+#selected-projects .cy-viewport{height:500px}
+#selected-projects .cy-detail{color:var(--cy-ink)}
+#selected-projects :focus-visible{outline:2px solid var(--cy-blue);outline-offset:5px}
+#selected-projects .cy-stage:focus-visible{outline-offset:-5px}
+
+@media(max-width:1199px){
+  #selected-projects .cy-layout{gap:40px}
+}
+@media(max-width:899px){
+  #selected-projects .cy-layout{grid-template-columns:1fr;gap:32px}
+}
+@media(max-width:699px){
+  #selected-projects{padding:64px 0}
+  #selected-projects .cy-heading h2{font-size:42px;letter-spacing:-1.9px;max-width:12ch;line-height:1.08}
+  #selected-projects .cy-layout{gap:28px}
+  #selected-projects .cy-viewport{height:340px}
+}

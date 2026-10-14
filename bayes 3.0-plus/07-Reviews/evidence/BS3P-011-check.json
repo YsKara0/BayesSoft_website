@@ -1,0 +1,1424 @@
+{
+  "desktop": {
+    "initial": {
+      "phase": "idle",
+      "index": 0,
+      "step": 0,
+      "name": "Atlı Logistics",
+      "href": "/projeler/atli-logistics",
+      "slug": "atli-logistics",
+      "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -185.997, 1)",
+      "mode": "3d",
+      "animations": 0,
+      "scrollWidth": 1440,
+      "width": 1440,
+      "announcement": ""
+    },
+    "links": [
+      {
+        "href": "/projeler/atli-logistics",
+        "status": 200
+      },
+      {
+        "href": "/projeler/furtherup-drive",
+        "status": 200
+      },
+      {
+        "href": "/projeler/ai-chatbot",
+        "status": 200
+      }
+    ],
+    "rotation": [
+      {
+        "phase": "idle",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 0,
+        "visible": [
+          {
+            "left": 134.71875,
+            "right": 779.03125,
+            "top": 337.484375,
+            "bottom": 740.171875
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "idle",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 0,
+        "visible": [
+          {
+            "left": 134.71875,
+            "right": 779.03125,
+            "top": 337.484375,
+            "bottom": 740.171875
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 0,
+        "visible": [
+          {
+            "left": 134.71875,
+            "right": 779.03125,
+            "top": 337.484375,
+            "bottom": 740.171875
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 0.03323154839122379,
+        "visible": [
+          {
+            "left": 134.7932586669922,
+            "right": 779.1056365966797,
+            "top": 337.4634704589844,
+            "bottom": 740.1927490234375
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 0.13708030217378378,
+        "visible": [
+          {
+            "left": 135.02694702148438,
+            "right": 779.3371276855469,
+            "top": 337.398193359375,
+            "bottom": 740.258056640625
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 0.3163143410945279,
+        "visible": [
+          {
+            "left": 135.43338012695312,
+            "right": 779.7336730957031,
+            "top": 337.2855529785156,
+            "bottom": 740.3706665039062
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 0.5800034853692826,
+        "visible": [
+          {
+            "left": 136.03848266601562,
+            "right": 780.3098449707031,
+            "top": 337.1199951171875,
+            "bottom": 740.5362548828125
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 0.9352459577838057,
+        "visible": [
+          {
+            "left": 136.86712646484375,
+            "right": 781.07275390625,
+            "top": 336.8972473144531,
+            "bottom": 740.7589721679688
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 1.3912212424060797,
+        "visible": [
+          {
+            "left": 137.95338439941406,
+            "right": 782.0293121337891,
+            "top": 336.6118469238281,
+            "bottom": 741.04443359375
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 1.9547956458217988,
+        "visible": [
+          {
+            "left": 139.33120727539062,
+            "right": 783.1766662597656,
+            "top": 336.2598571777344,
+            "bottom": 741.3963623046875
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 2.645144195347738,
+        "visible": [
+          {
+            "left": 141.07203674316406,
+            "right": 784.5294342041016,
+            "top": 335.83001708984375,
+            "bottom": 741.8262329101562
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 3.4738667136065695,
+        "visible": [
+          {
+            "left": 143.23904418945312,
+            "right": 786.0769348144531,
+            "top": 335.31597900390625,
+            "bottom": 742.3402709960938
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 4.451999138761445,
+        "visible": [
+          {
+            "left": 145.90521240234375,
+            "right": 787.7965087890625,
+            "top": 334.7122802734375,
+            "bottom": 742.9439697265625
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 5.612145779722583,
+        "visible": [
+          {
+            "left": 149.2197723388672,
+            "right": 789.6866302490234,
+            "top": 334.00079345703125,
+            "bottom": 743.6554565429688
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 6.965464297214728,
+        "visible": [
+          {
+            "left": 153.29483032226562,
+            "right": 791.6875305175781,
+            "top": 333.1776428222656,
+            "bottom": 744.4785766601562
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 8.559306209442349,
+        "visible": [
+          {
+            "left": 158.38143920898438,
+            "right": 793.7642517089844,
+            "top": 332.2185974121094,
+            "bottom": 745.4376220703125
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 10.424631040116063,
+        "visible": [
+          {
+            "left": 164.72816467285156,
+            "right": 795.8142242431641,
+            "top": 331.1119079589844,
+            "bottom": 746.5443115234375
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 12.61014442948157,
+        "visible": [
+          {
+            "left": 172.7001953125,
+            "right": 797.7000122070312,
+            "top": 329.8394470214844,
+            "bottom": 747.8168334960938
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 15.160635331501505,
+        "visible": [
+          {
+            "left": 182.72763061523438,
+            "right": 799.2078552246094,
+            "top": 328.39129638671875,
+            "bottom": 749.2649536132812
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 18.165579702059503,
+        "visible": [
+          {
+            "left": 195.525146484375,
+            "right": 800.0467529296875,
+            "top": 326.7426452636719,
+            "bottom": 750.9136352539062
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 21.770384541766834,
+        "visible": [
+          {
+            "left": 212.24356079101562,
+            "right": 799.7518615722656,
+            "top": 324.85797119140625,
+            "bottom": 752.7982788085938
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 26.014087084062886,
+        "visible": [
+          {
+            "left": 233.75550842285156,
+            "right": 797.6522369384766,
+            "top": 322.7874755859375,
+            "bottom": 754.8687744140625
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 31.114352147575975,
+        "visible": [
+          {
+            "left": 262.055908203125,
+            "right": 792.7437133789062,
+            "top": 320.5409851074219,
+            "bottom": 757.115234375
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 37.148917608084865,
+        "visible": [
+          {
+            "left": 298.6301574707031,
+            "right": 783.7896118164062,
+            "top": 318.27117919921875,
+            "bottom": 759.3850708007812
+          },
+          {
+            "left": 279.7212829589844,
+            "right": 298.6301574707031,
+            "top": 318.27117919921875,
+            "bottom": 759.3850708007812
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 44.237985554249754,
+        "visible": [
+          {
+            "left": 345.1483154296875,
+            "right": 769.2825317382812,
+            "top": 316.2109069824219,
+            "bottom": 761.4453735351562
+          },
+          {
+            "left": 249.49363708496094,
+            "right": 345.1483459472656,
+            "top": 316.2109069824219,
+            "bottom": 761.4453735351562
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 52.14495622868254,
+        "visible": [
+          {
+            "left": 400.2981872558594,
+            "right": 748.5654907226562,
+            "top": 314.76617431640625,
+            "bottom": 762.8900756835938
+          },
+          {
+            "left": 218.11474609375,
+            "right": 400.2981872558594,
+            "top": 314.76617431640625,
+            "bottom": 762.8900756835938
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 60.323577266096706,
+        "visible": [
+          {
+            "left": 459.21685791015625,
+            "right": 722.7603149414062,
+            "top": 314.2824401855469,
+            "bottom": 763.3738403320312
+          },
+          {
+            "left": 188.80418395996094,
+            "right": 459.2168426513672,
+            "top": 314.2824401855469,
+            "bottom": 763.3738403320312
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 68.0599037238586,
+        "visible": [
+          {
+            "left": 514.9092407226562,
+            "right": 694.8604736328125,
+            "top": 314.7916564941406,
+            "bottom": 762.8645629882812
+          },
+          {
+            "left": 164.5948486328125,
+            "right": 514.9092407226562,
+            "top": 314.7916564941406,
+            "bottom": 762.8645629882812
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 74.97798971164843,
+        "visible": [
+          {
+            "left": 563.2614135742188,
+            "right": 667.4886474609375,
+            "top": 316.0262451171875,
+            "bottom": 761.6300048828125
+          },
+          {
+            "left": 146.31976318359375,
+            "right": 563.2614135742188,
+            "top": 316.0262451171875,
+            "bottom": 761.6300048828125
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 81.03471579575599,
+        "visible": [
+          {
+            "left": 603.530029296875,
+            "right": 641.9436645507812,
+            "top": 317.6781311035156,
+            "bottom": 759.9781494140625
+          },
+          {
+            "left": 133.28515625,
+            "right": 603.530029296875,
+            "top": 317.6781311035156,
+            "bottom": 759.9781494140625
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 86.1575293806934,
+        "visible": [
+          {
+            "left": 124.64871215820312,
+            "right": 635.5451049804688,
+            "top": 319.4596862792969,
+            "bottom": 758.1965942382812
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 90.57436529091532,
+        "visible": [
+          {
+            "left": 119.10325622558594,
+            "right": 661.3447723388672,
+            "top": 321.25347900390625,
+            "bottom": 756.4027709960938
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 94.35642301940412,
+        "visible": [
+          {
+            "left": 115.84230041503906,
+            "right": 681.9477081298828,
+            "top": 322.9613342285156,
+            "bottom": 754.6949462890625
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 97.6549539598425,
+        "visible": [
+          {
+            "left": 114.1743392944336,
+            "right": 698.7061996459961,
+            "top": 324.5677795410156,
+            "bottom": 753.0884399414062
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 100.53085093961542,
+        "visible": [
+          {
+            "left": 113.6493148803711,
+            "right": 712.3478012084961,
+            "top": 326.0487365722656,
+            "bottom": 751.6074829101562
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 103.05168639982723,
+        "visible": [
+          {
+            "left": 113.9232177734375,
+            "right": 723.534912109375,
+            "top": 327.40252685546875,
+            "bottom": 750.2537231445312
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 105.25854084575829,
+        "visible": [
+          {
+            "left": 114.7400131225586,
+            "right": 732.7228012084961,
+            "top": 328.6263732910156,
+            "bottom": 749.0298461914062
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 107.22062762846623,
+        "visible": [
+          {
+            "left": 115.92760467529297,
+            "right": 740.4078903198242,
+            "top": 329.7420654296875,
+            "bottom": 747.9141845703125
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 108.95836375540311,
+        "visible": [
+          {
+            "left": 117.34785461425781,
+            "right": 746.8291168212891,
+            "top": 330.74993896484375,
+            "bottom": 746.9063110351562
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 110.49117170263975,
+        "visible": [
+          {
+            "left": 118.89163208007812,
+            "right": 752.1902160644531,
+            "top": 331.65301513671875,
+            "bottom": 746.0032348632812
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 111.85284111874154,
+        "visible": [
+          {
+            "left": 120.49429321289062,
+            "right": 756.7131652832031,
+            "top": 332.4654541015625,
+            "bottom": 745.1907958984375
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 113.0761336149964,
+        "visible": [
+          {
+            "left": 122.12112426757812,
+            "right": 760.5835266113281,
+            "top": 333.2028503417969,
+            "bottom": 744.453369140625
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 114.14804432828484,
+        "visible": [
+          {
+            "left": 123.6931381225586,
+            "right": 763.8242416381836,
+            "top": 333.8543701171875,
+            "bottom": 743.8018798828125
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 115.10281841925632,
+        "visible": [
+          {
+            "left": 125.20934295654297,
+            "right": 766.5922775268555,
+            "top": 334.43865966796875,
+            "bottom": 743.2175903320312
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 115.9407748840593,
+        "visible": [
+          {
+            "left": 126.63030242919922,
+            "right": 768.929313659668,
+            "top": 334.95428466796875,
+            "bottom": 742.7019653320312
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 116.68204795473736,
+        "visible": [
+          {
+            "left": 127.95794677734375,
+            "right": 770.9248657226562,
+            "top": 335.4125061035156,
+            "bottom": 742.2437744140625
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 117.32995979582758,
+        "visible": [
+          {
+            "left": 129.1730194091797,
+            "right": 772.6139984130859,
+            "top": 335.8145446777344,
+            "bottom": 741.8417358398438
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 117.88918395390992,
+        "visible": [
+          {
+            "left": 130.2626953125,
+            "right": 774.0304565429688,
+            "top": 336.16259765625,
+            "bottom": 741.49365234375
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 118.37316317240229,
+        "visible": [
+          {
+            "left": 131.23638916015625,
+            "right": 775.2252807617188,
+            "top": 336.4645690917969,
+            "bottom": 741.191650390625
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 118.78418591276075,
+        "visible": [
+          {
+            "left": 132.08575439453125,
+            "right": 776.2174682617188,
+            "top": 336.7215576171875,
+            "bottom": 740.9346923828125
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 119.12568661233702,
+        "visible": [
+          {
+            "left": 132.80712890625,
+            "right": 777.026123046875,
+            "top": 336.9354553222656,
+            "bottom": 740.7208251953125
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 119.40501011664531,
+        "visible": [
+          {
+            "left": 133.4076690673828,
+            "right": 777.6768951416016,
+            "top": 337.110595703125,
+            "bottom": 740.545654296875
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 119.62861613164719,
+        "visible": [
+          {
+            "left": 133.89523315429688,
+            "right": 778.1908874511719,
+            "top": 337.2509460449219,
+            "bottom": 740.4053344726562
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 119.79485538847615,
+        "visible": [
+          {
+            "left": 134.2617950439453,
+            "right": 778.5691680908203,
+            "top": 337.35540771484375,
+            "bottom": 740.3008422851562
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 119.91073697955888,
+        "visible": [
+          {
+            "left": 134.519287109375,
+            "right": 778.830810546875,
+            "top": 337.4282531738281,
+            "bottom": 740.22802734375
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 119.97816535482707,
+        "visible": [
+          {
+            "left": 134.66989135742188,
+            "right": 778.9823913574219,
+            "top": 337.47064208984375,
+            "bottom": 740.1856079101562
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "transition",
+        "index": 0,
+        "name": "Atlı Logistics",
+        "angle": 120.00001156757612,
+        "visible": [
+          {
+            "left": 134.71875,
+            "right": 779.03125,
+            "top": 337.484375,
+            "bottom": 740.171875
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      },
+      {
+        "phase": "idle",
+        "index": 2,
+        "name": "AI-Powered Chatbot Platform",
+        "angle": 120.00001156757612,
+        "visible": [
+          {
+            "left": 134.71875,
+            "right": 779.03125,
+            "top": 337.484375,
+            "bottom": 740.171875
+          }
+        ],
+        "stage": {
+          "left": 64,
+          "right": 849.765625,
+          "top": 278.828125,
+          "bottom": 798.828125
+        }
+      }
+    ],
+    "firstToLast": {
+      "phase": "idle",
+      "index": 2,
+      "step": -1,
+      "name": "AI-Powered Chatbot Platform",
+      "href": "/projeler/ai-chatbot",
+      "slug": "ai-chatbot",
+      "transform": "matrix3d(-0.5, 0, -0.866025, 0, 0, 1, 0, 0, 0.866025, 0, -0.5, 0, 0, 0, -185.997, 1)",
+      "mode": "3d",
+      "animations": 0,
+      "scrollWidth": 1440,
+      "width": 1440,
+      "announcement": "03 / 03: AI-Powered Chatbot Platform. AI Platform."
+    },
+    "clippedFrames": 0,
+    "lastToFirst": {
+      "phase": "idle",
+      "index": 0,
+      "step": 0,
+      "name": "Atlı Logistics",
+      "href": "/projeler/atli-logistics",
+      "slug": "atli-logistics",
+      "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -185.997, 1)",
+      "mode": "3d",
+      "animations": 0,
+      "scrollWidth": 1440,
+      "width": 1440,
+      "announcement": "01 / 03: Atlı Logistics. Operations."
+    },
+    "keyboard": {
+      "phase": "idle",
+      "index": 1,
+      "step": 1,
+      "name": "FurtherUp Drive",
+      "href": "/projeler/furtherup-drive",
+      "slug": "furtherup-drive",
+      "transform": "matrix3d(-0.5, 0, 0.866025, 0, 0, 1, 0, 0, -0.866025, 0, -0.5, 0, 0, 0, -185.997, 1)",
+      "mode": "3d",
+      "animations": 0,
+      "scrollWidth": 1440,
+      "width": 1440,
+      "announcement": "02 / 03: FurtherUp Drive. Enterprise Coaching."
+    },
+    "focus": {
+      "visible": true,
+      "outline": "2px"
+    },
+    "resources": [
+      "http://127.0.0.1:3000/prototype/bs3p-project-showcase",
+      "http://127.0.0.1:3000/prototype-assets/spatial-hero/instrument-sans.ttf",
+      "http://127.0.0.1:3000/prototype-assets/bs3p-project-showcase/showcase.css",
+      "http://127.0.0.1:3000/prototype-assets/bs3p-project-showcase/entry.js",
+      "http://127.0.0.1:3000/prototype-assets/bs3p-project-showcase/controller.js",
+      "http://127.0.0.1:3000/prototype-assets/bs3p-project-showcase/dom.js",
+      "http://127.0.0.1:3000/prototype-assets/bs3p-project-showcase/state.js",
+      "http://127.0.0.1:3000/prototype-assets/bs3p-project-showcase/stage.js",
+      "http://127.0.0.1:3000/prototype-assets/bs3p-project-showcase/swipe.js"
+    ]
+  },
+  "mobile": {
+    "initial": {
+      "phase": "idle",
+      "index": 0,
+      "step": 0,
+      "name": "Atlı Logistics",
+      "href": "/projeler/atli-logistics",
+      "slug": "atli-logistics",
+      "transform": "none",
+      "mode": "flat",
+      "animations": 0,
+      "scrollWidth": 375,
+      "width": 375,
+      "announcement": ""
+    },
+    "targets": [
+      {
+        "width": 48,
+        "height": 48
+      },
+      {
+        "width": 48,
+        "height": 48
+      }
+    ],
+    "swipe": {
+      "phase": "idle",
+      "index": 1,
+      "step": 1,
+      "name": "FurtherUp Drive",
+      "href": "/projeler/furtherup-drive",
+      "slug": "furtherup-drive",
+      "transform": "none",
+      "mode": "flat",
+      "animations": 0,
+      "scrollWidth": 375,
+      "width": 375,
+      "announcement": "02 / 03: FurtherUp Drive. Enterprise Coaching."
+    },
+    "reduced": {
+      "phase": "idle",
+      "index": 2,
+      "step": 2,
+      "name": "AI-Powered Chatbot Platform",
+      "href": "/projeler/ai-chatbot",
+      "slug": "ai-chatbot",
+      "transform": "none",
+      "mode": "flat",
+      "animations": 0,
+      "scrollWidth": 375,
+      "width": 375,
+      "announcement": "03 / 03: AI-Powered Chatbot Platform. AI Platform."
+    }
+  },
+  "errors": [],
+  "failedResources": [],
+  "projects": [
+    {
+      "slug": "atli-logistics",
+      "name": "Atlı Logistics",
+      "category": "Operations",
+      "description": "İş atamaları, çalışan doğrulamaları ve hak ediş takibi için geliştirilen operasyon platformu.",
+      "detailHref": "/projeler/atli-logistics",
+      "technologyLabel": "Java / Spring Boot / React / Bootstrap",
+      "visual": {
+        "kind": "concept",
+        "theme": "operations",
+        "label": "Talep, atama ve onayı bir araya getiren iş gücü akışı"
+      }
+    },
+    {
+      "slug": "furtherup-drive",
+      "name": "FurtherUp Drive",
+      "category": "Enterprise Coaching",
+      "description": "Koçluk, gelişim değerlendirmeleri ve abonelik süreçlerini bir araya getiren çalışma alanı.",
+      "detailHref": "/projeler/furtherup-drive",
+      "technologyLabel": "Java / Spring Boot / React / TypeScript / Vite",
+      "visual": {
+        "kind": "concept",
+        "theme": "coaching",
+        "label": "Koçluk ve gelişim için tasarlanmış editoryal kapak"
+      }
+    },
+    {
+      "slug": "ai-chatbot",
+      "name": "AI-Powered Chatbot Platform",
+      "category": "AI Platform",
+      "description": "Yerel yapay zekâ modellerini veri filtreleme ve yönetici denetimiyle buluşturan sohbet platformu.",
+      "detailHref": "/projeler/ai-chatbot",
+      "technologyLabel": "React / Vite / Ollama",
+      "visual": {
+        "kind": "concept",
+        "theme": "intelligence",
+        "label": "Girdi, bağlam ve yanıt arasındaki yapılandırılmış diyalog"
+      }
+    }
+  ],
+  "protectedFiles": 499,
+  "protectedChanges": [],
+  "iterationNotes": [
+    "A partial desktop pass stopped because Playwright waited until aria-disabled cleared before sending the second click; rapid input simulation changed to force:true, then the short pass completed.",
+    "One focused art correction tightened right-panel title reserve/spacing before final screenshots.",
+    "After visual validation, headingLevel prop and scoped title/token selectors were added for future reuse. Default h1/h2 output and visual values are unchanged; targeted TS rerun passed. Homepage integration not performed."
+  ],
+  "finalLayout": {
+    "positions": [
+      {
+        "index": 0,
+        "x": 243,
+        "y": 489.734375,
+        "width": 112,
+        "height": 48
+      },
+      {
+        "index": 1,
+        "x": 243,
+        "y": 489.734375,
+        "width": 112,
+        "height": 48
+      },
+      {
+        "index": 2,
+        "x": 243,
+        "y": 489.734375,
+        "width": 112,
+        "height": 48
+      }
+    ],
+    "notes": "Navigation row moved above variable-length metadata, preserving tap targets on mobile. Only final screenshots and stable navigation position checked; previous motion validation retained."
+  }
+}

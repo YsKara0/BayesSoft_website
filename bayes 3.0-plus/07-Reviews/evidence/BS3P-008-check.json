@@ -1,0 +1,344 @@
+{
+  "url": "http://127.0.0.1:3000/prototype/spatial-hero-plus",
+  "desktop": {
+    "initial": {
+      "viewport": [
+        1440,
+        900
+      ],
+      "faceCount": 4,
+      "width": 540,
+      "height": 420,
+      "depth": 210,
+      "firstFont": "81.999px",
+      "otherFont": "60px",
+      "duration": "900ms",
+      "prism": {
+        "face": "0",
+        "angle": "0",
+        "reduced": "false",
+        "auto": "running",
+        "ready": "true"
+      },
+      "scene": {
+        "mode": "webgl",
+        "ready": "true",
+        "phase": "data",
+        "time": "0.442",
+        "layers": "data",
+        "frames": "31",
+        "drawCalls": "3",
+        "triangles": "318",
+        "firstPose": "0.000",
+        "running": "true"
+      },
+      "scrollWidth": 1440
+    },
+    "sweep45": {
+      "angle": -36.704771005958015,
+      "bounds": [
+        {
+          "x": 42.55418395996094,
+          "y": 387.2299499511719,
+          "right": 625.4457855224609,
+          "bottom": 685.790283203125,
+          "width": 582.8916015625,
+          "height": 298.5603332519531
+        },
+        {
+          "x": 42.55418395996094,
+          "y": 199.43206787109375,
+          "right": 625.4457855224609,
+          "bottom": 387.2299499511719,
+          "width": 582.8916015625,
+          "height": 187.79788208007812
+        },
+        {
+          "x": 120.88540649414062,
+          "y": 199.43206787109375,
+          "right": 547.1146240234375,
+          "bottom": 462.4910583496094,
+          "width": 426.2292175292969,
+          "height": 263.0589904785156
+        },
+        {
+          "x": 105.23820495605469,
+          "y": 462.4910583496094,
+          "right": 562.7617645263672,
+          "bottom": 685.790283203125,
+          "width": 457.5235595703125,
+          "height": 223.29922485351562
+        }
+      ],
+      "clipping": [],
+      "viewport": [
+        1440,
+        900
+      ],
+      "elapsed": 5382.5
+    },
+    "sweep135": {
+      "angle": -126.71476347590678,
+      "bounds": [
+        {
+          "x": 105.24822998046875,
+          "y": 462.4569091796875,
+          "right": 562.7517700195312,
+          "bottom": 685.78564453125,
+          "width": 457.5035400390625,
+          "height": 223.3287353515625
+        },
+        {
+          "x": 42.55181121826172,
+          "y": 387.2854309082031,
+          "right": 625.4481735229492,
+          "bottom": 685.78564453125,
+          "width": 582.8963623046875,
+          "height": 298.5002136230469
+        },
+        {
+          "x": 42.55181121826172,
+          "y": 199.4165496826172,
+          "right": 625.4481735229492,
+          "bottom": 387.2854309082031,
+          "width": 582.8963623046875,
+          "height": 187.86888122558594
+        },
+        {
+          "x": 120.87670135498047,
+          "y": 199.4165496826172,
+          "right": 547.1232833862305,
+          "bottom": 462.45689392089844,
+          "width": 426.24658203125,
+          "height": 263.04034423828125
+        }
+      ],
+      "clipping": [],
+      "viewport": [
+        1440,
+        900
+      ],
+      "elapsed": 6331.899999991059
+    },
+    "final": {
+      "scene": {
+        "mode": "webgl",
+        "ready": "true",
+        "phase": "final",
+        "time": "8.400",
+        "layers": "data,rules,web,mobile",
+        "frames": "509",
+        "drawCalls": "11",
+        "triangles": "1290",
+        "firstPose": "0.000",
+        "running": "false"
+      },
+      "prism": {
+        "face": "0",
+        "angle": "-360",
+        "reduced": "false",
+        "auto": "running",
+        "ready": "true",
+        "rotating": "false"
+      },
+      "figure": {
+        "x": 644,
+        "y": 228.125,
+        "right": 1376,
+        "bottom": 639.875,
+        "width": 732,
+        "height": 411.75
+      },
+      "panels": [
+        {
+          "class": "surface-ui data-ui",
+          "bounds": {
+            "x": 729.6863403320312,
+            "y": 349.646484375,
+            "right": 868.2077026367188,
+            "bottom": 522.9541015625,
+            "width": 138.5213623046875,
+            "height": 173.3076171875
+          },
+          "inside": true
+        },
+        {
+          "class": "surface-ui rules-ui",
+          "bounds": {
+            "x": 856.5648193359375,
+            "y": 275.317626953125,
+            "right": 1133.607666015625,
+            "bottom": 384.91436767578125,
+            "width": 277.0428466796875,
+            "height": 109.59674072265625
+          },
+          "inside": true
+        },
+        {
+          "class": "surface-ui web-ui",
+          "bounds": {
+            "x": 865.89697265625,
+            "y": 383.24432373046875,
+            "right": 1189.1136474609375,
+            "bottom": 579.7647094726562,
+            "width": 323.2166748046875,
+            "height": 196.5203857421875
+          },
+          "inside": true
+        },
+        {
+          "class": "surface-ui mobile-ui",
+          "bounds": {
+            "x": 1178.13330078125,
+            "y": 441.58172607421875,
+            "right": 1286.9716796875,
+            "bottom": 605.5075073242188,
+            "width": 108.83837890625,
+            "height": 163.92578125
+          },
+          "inside": true
+        }
+      ],
+      "documentHeight": 900
+    },
+    "staticFrames": "509",
+    "firstVisible": {
+      "at": 148.20000000298023,
+      "mode": "webgl",
+      "ready": "true",
+      "time": "0.000",
+      "first": "0.000",
+      "phase": "data"
+    },
+    "phases": [
+      "data",
+      "rules",
+      "web",
+      "mobile",
+      "align",
+      "final"
+    ],
+    "focus": {
+      "active": true,
+      "visible": false,
+      "outline": "3px"
+    },
+    "keyboardReplay": {
+      "mode": "webgl",
+      "ready": "true",
+      "phase": "data",
+      "time": "0.093",
+      "layers": "",
+      "frames": "516",
+      "drawCalls": "1",
+      "triangles": "2",
+      "firstPose": "0.000",
+      "running": "true"
+    },
+    "pointerReplay": {
+      "mode": "webgl",
+      "ready": "true",
+      "phase": "data",
+      "time": "0.097",
+      "layers": "",
+      "frames": "525",
+      "drawCalls": "1",
+      "triangles": "2",
+      "firstPose": "0.000",
+      "running": "true"
+    },
+    "focusPause": "paused",
+    "hoverPause": "paused",
+    "keyboardFocus": {
+      "active": true,
+      "visible": true,
+      "outline": "2px",
+      "color": "rgb(40, 91, 214)",
+      "name": "Yazılım sistemi animasyonunu yeniden oynat"
+    },
+    "spaceReplay": {
+      "mode": "webgl",
+      "ready": "true",
+      "phase": "data",
+      "time": "0.072",
+      "layers": "",
+      "frames": "39",
+      "drawCalls": "1",
+      "triangles": "2",
+      "firstPose": "0.000",
+      "running": "true"
+    }
+  },
+  "mobile": {
+    "initial": {
+      "viewport": [
+        375,
+        812
+      ],
+      "scrollWidth": 375,
+      "height": 851,
+      "scene": {
+        "mode": "static",
+        "ready": "false",
+        "phase": "final"
+      },
+      "prism": {
+        "face": "0",
+        "angle": "0",
+        "reduced": "true",
+        "auto": "paused",
+        "ready": "true"
+      },
+      "canvases": 0,
+      "replayHidden": true,
+      "faceCount": 4,
+      "controls": [
+        {
+          "text": "Hareket kapalı",
+          "width": 120,
+          "height": 44
+        },
+        {
+          "text": "",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "text": "",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "text": "",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "text": "",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "text": "",
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    "webglRequests": [],
+    "manual": {
+      "face": "1",
+      "angle": "-90",
+      "reduced": "true",
+      "auto": "paused",
+      "ready": "true"
+    }
+  },
+  "videoSource": "/private/tmp/bs3p008-video/page@c89fb40f27ecf9d86c61d5802f731e31.webm",
+  "automationNotes": [
+    "İlk koşuda body dışındaki tıklama hedefi düzeltildi; uygulama kusuru değildi.",
+    "Reduced-motion manuel seçiminde data-rotating bulunmaması özgün kodun normal davranışıdır; yüz=1/açı=-90/anlık seçim ölçümü doğrulandı.",
+    "İlk programatik pointer focus ölçümü yerine gerçek Shift+Tab/Tab klavye focus kontrolü yapıldı."
+  ],
+  "validation": "Hedefli entegrasyon ölçümleri uygun; tam QA değil."
+}

@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true, "rootDir": "../..", "baseUrl": "../..",
+    "paths": { "@/*": ["./*"] }, "types": ["node"]
+  },
+  "include": ["*.ts", "../../app/prototype/spatial-hero-plus/route.ts", "../../next-env.d.ts"]
+}

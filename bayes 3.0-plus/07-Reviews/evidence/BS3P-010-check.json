@@ -1,0 +1,291 @@
+{
+  "desktop": {
+    "initial": {
+      "playState": "running",
+      "transform": "matrix(1, 0, 0, 1, -5.33372, 0)",
+      "duration": "120s",
+      "focusVisible": false,
+      "focusedLogo": false,
+      "scrollLeft": 0,
+      "filters": [
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)"
+      ]
+    },
+    "structure": {
+      "regionTabindex": null,
+      "groupWidths": [
+        2400,
+        2400.000244140625
+      ],
+      "links": [
+        {
+          "href": "https://www.tamfinans.com.tr/",
+          "label": "Tam Finans web sitesi (yeni sekmede açılır)",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://metekmakina.com/",
+          "label": "Metek Makina web sitesi (yeni sekmede açılır)",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://reviel.com.tr/",
+          "label": "Reviel web sitesi (yeni sekmede açılır)",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://drive.further-up.net/",
+          "label": "FurtherUp web sitesi (yeni sekmede açılır)",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.arel.edu.tr/",
+          "label": "Arel Üniversitesi web sitesi (yeni sekmede açılır)",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://atlidepohizmetleri.com/",
+          "label": "Atlı Lojistik web sitesi (yeni sekmede açılır)",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://kanunieah.saglik.gov.tr/",
+          "label": "Kanuni Sultan Süleyman Hastanesi web sitesi (yeni sekmede açılır)",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.teskilat.com.tr/",
+          "label": "Teşkilat ICOM web sitesi (yeni sekmede açılır)",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://hypersense.dev/",
+          "label": "Hypersense web sitesi (yeni sekmede açılır)",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://esenyurtzirvecilingir.com/",
+          "label": "Zirve Çilingir web sitesi (yeni sekmede açılır)",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "cloneTabindexes": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    "hover": {
+      "playState": "paused",
+      "transform": "matrix(1, 0, 0, 1, -7.33456, 0)",
+      "duration": "120s",
+      "focusVisible": false,
+      "focusedLogo": false,
+      "scrollLeft": 0,
+      "filters": [
+        "none",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)"
+      ]
+    },
+    "seam": {
+      "start": 96,
+      "end": 96.02001953125,
+      "delta": 0.02001953125
+    },
+    "clickedUrl": "https://www.tamfinans.com.tr/",
+    "afterClick": {
+      "playState": "running",
+      "transform": "matrix(1, 0, 0, 1, -11.9978, 0)",
+      "duration": "120s",
+      "focusVisible": false,
+      "focusedLogo": true,
+      "scrollLeft": 0,
+      "filters": [
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)"
+      ]
+    },
+    "resumedTransform": "matrix(1, 0, 0, 1, -16.9998, 0)",
+    "keyboard": {
+      "playState": "paused",
+      "transform": "matrix(1, 0, 0, 1, -17.3318, 0)",
+      "duration": "120s",
+      "focusVisible": true,
+      "focusedLogo": true,
+      "scrollLeft": 0,
+      "filters": [
+        "brightness(0) saturate(1) opacity(0.56)",
+        "none",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)",
+        "brightness(0) saturate(1) opacity(0.56)"
+      ]
+    },
+    "focusOutline": "2px"
+  },
+  "mobile": {
+    "width": 375,
+    "scrollWidth": 375,
+    "animationName": "none",
+    "duplicateDisplay": "none",
+    "logos": [
+      {
+        "width": 157.5,
+        "height": 64,
+        "filter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "transition": "0s"
+      },
+      {
+        "width": 157.5,
+        "height": 64,
+        "filter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "transition": "0s"
+      },
+      {
+        "width": 157.5,
+        "height": 64,
+        "filter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "transition": "0s"
+      },
+      {
+        "width": 157.5,
+        "height": 64,
+        "filter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "transition": "0s"
+      },
+      {
+        "width": 157.5,
+        "height": 64,
+        "filter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "transition": "0s"
+      },
+      {
+        "width": 157.5,
+        "height": 64,
+        "filter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "transition": "0s"
+      },
+      {
+        "width": 157.5,
+        "height": 64,
+        "filter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "transition": "0s"
+      },
+      {
+        "width": 157.5,
+        "height": 64,
+        "filter": "grayscale(1) brightness(0) opacity(0.56)",
+        "transition": "0s"
+      },
+      {
+        "width": 157.5,
+        "height": 64,
+        "filter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "transition": "0s"
+      },
+      {
+        "width": 157.5,
+        "height": 64,
+        "filter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+        "transition": "0s"
+      }
+    ]
+  },
+  "pageErrors": [],
+  "visualCorrection": "Opaque white details preserved with grayscale; light-ink source tinted separately. Only logo appearance/hover/mobile checks repeated.",
+  "checkPhases": {
+    "interaction": "First desktop pass: seam, native external click/resume, keyboard focus. Subsequent changes only refined the logo display filter.",
+    "finalVisual": "Desktop/mobile logo-only passes after white-field correction and tone normalization. One partial pass stopped on 0.00024 px width assertion; harness tolerance corrected to 0.5 px. No additional click or hero QA."
+  },
+  "protectedFiles": 486,
+  "protectedChanges": []
+}

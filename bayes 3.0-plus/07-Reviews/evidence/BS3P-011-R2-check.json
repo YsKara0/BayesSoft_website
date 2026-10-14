@@ -1,0 +1,419 @@
+{
+  "url": "http://127.0.0.1:3000/prototype/bs3p-project-showcase-r2",
+  "checks": {
+    "motion": {
+      "during": {
+        "width": 1440,
+        "overflow": 0,
+        "activeIndex": 0,
+        "step": 0,
+        "activeSlot": 0,
+        "name": "Atlı Logistics",
+        "href": "/projeler/atli-logistics",
+        "animations": 1,
+        "mode": "cylinder",
+        "geometry": {
+          "radius": 542.8709375,
+          "perspective": 3369.5437500000003
+        },
+        "scan": {
+          "left": 48,
+          "right": 983.984375,
+          "y": 353.3058753220589
+        },
+        "visibleBands": [
+          {
+            "left": 48,
+            "right": 237
+          },
+          {
+            "left": 252,
+            "right": 594
+          },
+          {
+            "left": 612,
+            "right": 900
+          },
+          {
+            "left": 910,
+            "right": 982
+          }
+        ],
+        "visibleCount": 4
+      },
+      "previous": {
+        "width": 1440,
+        "overflow": 0,
+        "activeIndex": 2,
+        "step": -1,
+        "activeSlot": 8,
+        "name": "AI-Powered Chatbot Platform",
+        "href": "/projeler/ai-chatbot",
+        "animations": 0,
+        "mode": "cylinder",
+        "geometry": {
+          "radius": 542.8709375,
+          "perspective": 3369.5437500000003
+        },
+        "scan": {
+          "left": 48,
+          "right": 983.984375,
+          "y": 353.3058753220589
+        },
+        "visibleBands": [
+          {
+            "left": 48,
+            "right": 77
+          },
+          {
+            "left": 83,
+            "right": 323
+          },
+          {
+            "left": 340,
+            "right": 690
+          },
+          {
+            "left": 707,
+            "right": 947
+          },
+          {
+            "left": 954,
+            "right": 982
+          }
+        ],
+        "visibleCount": 5
+      },
+      "next": {
+        "width": 1440,
+        "overflow": 0,
+        "activeIndex": 0,
+        "step": 0,
+        "activeSlot": 0,
+        "name": "Atlı Logistics",
+        "href": "/projeler/atli-logistics",
+        "animations": 0,
+        "mode": "cylinder",
+        "geometry": {
+          "radius": 542.8709375,
+          "perspective": 3369.5437500000003
+        },
+        "scan": {
+          "left": 48,
+          "right": 983.984375,
+          "y": 353.3058753220589
+        },
+        "visibleBands": [
+          {
+            "left": 48,
+            "right": 77
+          },
+          {
+            "left": 84,
+            "right": 323
+          },
+          {
+            "left": 339,
+            "right": 691
+          },
+          {
+            "left": 707,
+            "right": 947
+          },
+          {
+            "left": 955,
+            "right": 982
+          }
+        ],
+        "visibleCount": 5
+      },
+      "focus": {
+        "visible": true,
+        "width": "2px"
+      },
+      "reverseWrap": true,
+      "forwardWrap": true,
+      "rapidInputLocked": true,
+      "settledMetadata": true
+    },
+    "mobile": {
+      "targets": [
+        {
+          "width": 48,
+          "height": 48
+        },
+        {
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "afterSwipe": {
+        "width": 375,
+        "overflow": 0,
+        "activeIndex": 1,
+        "step": 1,
+        "activeSlot": 1,
+        "name": "FurtherUp Drive",
+        "href": "/projeler/furtherup-drive",
+        "animations": 0,
+        "mode": "compact-cylinder",
+        "geometry": {
+          "radius": 348.40000000000003,
+          "perspective": 1273
+        },
+        "scan": {
+          "left": 20,
+          "right": 355,
+          "y": 267.71390521410876
+        },
+        "visibleBands": [
+          {
+            "left": 20,
+            "right": 65
+          },
+          {
+            "left": 76,
+            "right": 300
+          },
+          {
+            "left": 310,
+            "right": 354
+          }
+        ],
+        "visibleCount": 3
+      },
+      "reduced": {
+        "width": 375,
+        "overflow": 0,
+        "activeIndex": 2,
+        "step": 2,
+        "activeSlot": 2,
+        "name": "AI-Powered Chatbot Platform",
+        "href": "/projeler/ai-chatbot",
+        "animations": 0,
+        "mode": "compact-cylinder",
+        "geometry": {
+          "radius": 348.40000000000003,
+          "perspective": 1273
+        },
+        "scan": {
+          "left": 20,
+          "right": 355,
+          "y": 267.71390521410876
+        },
+        "visibleBands": [
+          {
+            "left": 20,
+            "right": 65
+          },
+          {
+            "left": 76,
+            "right": 299
+          },
+          {
+            "left": 310,
+            "right": 354
+          }
+        ],
+        "visibleCount": 3
+      },
+      "swipe": true,
+      "reducedInstant": true
+    },
+    "consoleClean": true
+  },
+  "desktop": {
+    "width": 1440,
+    "overflow": 0,
+    "activeIndex": 0,
+    "step": 0,
+    "activeSlot": 0,
+    "name": "Atlı Logistics",
+    "href": "/projeler/atli-logistics",
+    "animations": 0,
+    "mode": "cylinder",
+    "geometry": {
+      "radius": 542.8709375,
+      "perspective": 3369.5437500000003
+    },
+    "scan": {
+      "left": 48,
+      "right": 983.984375,
+      "y": 353.3058753220589
+    },
+    "visibleBands": [
+      {
+        "left": 48,
+        "right": 77
+      },
+      {
+        "left": 84,
+        "right": 323
+      },
+      {
+        "left": 339,
+        "right": 691
+      },
+      {
+        "left": 707,
+        "right": 947
+      },
+      {
+        "left": 955,
+        "right": 982
+      }
+    ],
+    "visibleCount": 5
+  },
+  "mobile": {
+    "width": 375,
+    "overflow": 0,
+    "activeIndex": 0,
+    "step": 0,
+    "activeSlot": 0,
+    "name": "Atlı Logistics",
+    "href": "/projeler/atli-logistics",
+    "animations": 0,
+    "mode": "compact-cylinder",
+    "geometry": {
+      "radius": 348.40000000000003,
+      "perspective": 1273
+    },
+    "scan": {
+      "left": 20,
+      "right": 355,
+      "y": 267.71390521410876
+    },
+    "visibleBands": [
+      {
+        "left": 20,
+        "right": 65
+      },
+      {
+        "left": 75,
+        "right": 299
+      },
+      {
+        "left": 310,
+        "right": 354
+      }
+    ],
+    "visibleCount": 3
+  },
+  "errors": [],
+  "failed": [],
+  "recording": {
+    "path": "BS3P-011-R2-motion.webm",
+    "maxDurationSeconds": 7.5,
+    "encoding": "Native Playwright WebM, capped copy",
+    "durationSeconds": 3.88,
+    "codec": "vp9",
+    "fps": 25,
+    "width": 1440,
+    "height": 1000
+  },
+  "reference": {
+    "duration": 5.593333,
+    "width": 2940,
+    "height": 1912,
+    "playbackEnded": true,
+    "frames": [
+      {
+        "time": 0.000959,
+        "target": 0
+      },
+      {
+        "time": 0.511239,
+        "target": 0.5012120909090909
+      },
+      {
+        "time": 1.010575,
+        "target": 1.0024241818181818
+      },
+      {
+        "time": 1.511352,
+        "target": 1.503636272727273
+      },
+      {
+        "time": 2.0091,
+        "target": 2.0048483636363637
+      },
+      {
+        "time": 2.511046,
+        "target": 2.506060454545455
+      },
+      {
+        "time": 3.011414,
+        "target": 3.007272545454546
+      },
+      {
+        "time": 3.527345,
+        "target": 3.508484636363636
+      },
+      {
+        "time": 4.02767,
+        "target": 4.009696727272727
+      },
+      {
+        "time": 4.527562,
+        "target": 4.510908818181819
+      },
+      {
+        "time": 5.027756,
+        "target": 5.01212090909091
+      },
+      {
+        "time": 5.527163,
+        "target": 5.513333
+      }
+    ],
+    "method": "Native Chrome real-time playback, twelve cropped temporal observations, full provided MOV",
+    "source": "02-Research/project-showcase-motion-reference.mov",
+    "format": "ISO Media, Apple QuickTime MOV",
+    "sourceSha256": "4d117d65629adb4a828496eef64bdb759e9af70989291241a4873a507564626a"
+  },
+  "typecheck": {
+    "command": "node prototypes/bs3p-project-showcase-r2/prepare.mjs",
+    "strictTargetedTypeScript": "passed",
+    "productionBuildHookChanged": false
+  },
+  "verificationNotes": [
+    "One initial desktop preview exposed strip seams; one focused overscan/UV correction followed.",
+    "SVG use/zero-size transformed group hit-testing did not measure visible bands correctly; final counts use rendered pixels instead.",
+    "Initial preview harness stdin was closed; only the task-owned idle process was stopped before the automatic short pass.",
+    "Final desktop/mobile, short forward/reverse, keyboard, touch, reduced-motion; no full QA or responsive matrix.",
+    "Optional JPEG extraction failed because the bundled FFmpeg disables image encoders; WebM itself and its 3.88-second VP9 metadata were verified."
+  ],
+  "protectedFileCount": 533,
+  "sourceFiles": [
+    "app/prototype/bs3p-project-showcase-r2/GalleryInfo.ts",
+    "app/prototype/bs3p-project-showcase-r2/GalleryShowcase.ts",
+    "app/prototype/bs3p-project-showcase-r2/GalleryStage.ts",
+    "app/prototype/bs3p-project-showcase-r2/cover-art.ts",
+    "app/prototype/bs3p-project-showcase-r2/route.ts",
+    "app/prototype/bs3p-project-showcase-r2/visuals/coaching.ts",
+    "app/prototype/bs3p-project-showcase-r2/visuals/intelligence.ts",
+    "app/prototype/bs3p-project-showcase-r2/visuals/operations.ts",
+    "prototypes/bs3p-project-showcase-r2/controller.ts",
+    "prototypes/bs3p-project-showcase-r2/entry.ts",
+    "prototypes/bs3p-project-showcase-r2/geometry.ts",
+    "prototypes/bs3p-project-showcase-r2/prepare.mjs",
+    "prototypes/bs3p-project-showcase-r2/stage.ts",
+    "prototypes/bs3p-project-showcase-r2/tsconfig.check.json",
+    "public/prototype-assets/bs3p-project-showcase-r2/controller.js",
+    "public/prototype-assets/bs3p-project-showcase-r2/entry.js",
+    "public/prototype-assets/bs3p-project-showcase-r2/geometry.js",
+    "public/prototype-assets/bs3p-project-showcase-r2/showcase.css",
+    "public/prototype-assets/bs3p-project-showcase-r2/stage.js"
+  ],
+  "screenshots": {
+    "desktop": {
+      "width": 1440,
+      "height": 1000
+    },
+    "mobile": {
+      "width": 375,
+      "height": 946
+    }
+  }
+}

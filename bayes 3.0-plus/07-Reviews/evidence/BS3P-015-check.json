@@ -1,0 +1,206 @@
+{
+  "errors": [],
+  "failed": [],
+  "initial": {
+    "name": "FurtherUp Drive",
+    "description": "Koçluk, gelişim değerlendirmeleri ve abonelik süreçlerini bir araya getiren çalışma alanı.",
+    "technology": "Java / Spring Boot / React / TypeScript / Vite",
+    "category": "Enterprise Coaching",
+    "href": "/projeler/furtherup-drive",
+    "linkHidden": false,
+    "linkDisplay": "flex",
+    "phase": "idle",
+    "index": "0",
+    "overflow": 0,
+    "animations": 0,
+    "panels": 9,
+    "strips": 117,
+    "order": [
+      "furtherup-drive",
+      "reviel",
+      "metek-makina"
+    ],
+    "repeatRefs": [
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ]
+    ]
+  },
+  "desktopDuration": [
+    1040
+  ],
+  "reviel": {
+    "name": "Reviel",
+    "description": "Egzama ve hassas cilt odaklı ürünleri öne çıkaran, ürün tanıtımı ve ürün sayfaları içeren dermokozmetik marka sitesi.",
+    "technology": "ASP.NET / HTML / CSS / JavaScript / C#",
+    "category": "Dermokozmetik / Eczane odaklı cilt bakımı",
+    "href": "https://www.reviel.com.tr/",
+    "linkHidden": false,
+    "linkDisplay": "flex",
+    "phase": "idle",
+    "index": "1",
+    "overflow": 0,
+    "animations": 0,
+    "panels": 9,
+    "strips": 117,
+    "order": [
+      "furtherup-drive",
+      "reviel",
+      "metek-makina"
+    ],
+    "repeatRefs": [
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ]
+    ]
+  },
+  "metek": {
+    "name": "Metek Makina",
+    "description": "Alüminyum döküm, ekstrüzyon ve yüzey işlem alanlarına yönelik mühendislik çözümlerini ve sistemlerini tanıtan endüstriyel kurumsal web sitesi.",
+    "technology": "Kurumsal web / Endüstriyel ürün sunumu",
+    "category": "Endüstriyel sistemler / Makine mühendisliği",
+    "href": "https://metekmakina.com/urunler",
+    "linkHidden": false,
+    "linkDisplay": "flex",
+    "phase": "idle",
+    "index": "2",
+    "overflow": 0,
+    "animations": 0,
+    "panels": 9,
+    "strips": 117,
+    "order": [
+      "furtherup-drive",
+      "reviel",
+      "metek-makina"
+    ],
+    "repeatRefs": [
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ]
+    ]
+  },
+  "standalone": [
+    {
+      "slug": "furtherup-drive",
+      "name": "FurtherUp Drive",
+      "category": "Enterprise Coaching",
+      "description": "Koçluk, gelişim değerlendirmeleri ve abonelik süreçlerini bir araya getiren çalışma alanı.",
+      "detailHref": "/projeler/furtherup-drive",
+      "technologyLabel": "Java / Spring Boot / React / TypeScript / Vite",
+      "visual": {
+        "kind": "image",
+        "src": "/prototype-assets/bs3p-homepage/furtherup-drive-cover.png",
+        "label": "FurtherUp Drive koçluk platformu posteri"
+      }
+    },
+    {
+      "slug": "reviel",
+      "name": "Reviel",
+      "category": "Dermokozmetik / Eczane odaklı cilt bakımı",
+      "description": "Egzama ve hassas cilt odaklı ürünleri öne çıkaran, ürün tanıtımı ve ürün sayfaları içeren dermokozmetik marka sitesi.",
+      "detailHref": "https://www.reviel.com.tr/",
+      "technologyLabel": "ASP.NET / HTML / CSS / JavaScript / C#",
+      "visual": {
+        "kind": "image",
+        "src": "/prototype-assets/bs3p-homepage/reviel-cover.png",
+        "label": "Reviel dijital web deneyimi posteri"
+      }
+    },
+    {
+      "slug": "metek-makina",
+      "name": "Metek Makina",
+      "category": "Endüstriyel sistemler / Makine mühendisliği",
+      "description": "Alüminyum döküm, ekstrüzyon ve yüzey işlem alanlarına yönelik mühendislik çözümlerini ve sistemlerini tanıtan endüstriyel kurumsal web sitesi.",
+      "detailHref": "https://metekmakina.com/urunler",
+      "technologyLabel": "Kurumsal web / Endüstriyel ürün sunumu",
+      "visual": {
+        "kind": "image",
+        "src": "/prototype-assets/bs3p-homepage/metek-makina-cover.png",
+        "label": "Metek Makina endüstriyel kurumsal web sitesi posteri"
+      }
+    }
+  ],
+  "mobileDuration": [
+    700
+  ],
+  "mobileReviel": {
+    "name": "Reviel",
+    "description": "Egzama ve hassas cilt odaklı ürünleri öne çıkaran, ürün tanıtımı ve ürün sayfaları içeren dermokozmetik marka sitesi.",
+    "technology": "ASP.NET / HTML / CSS / JavaScript / C#",
+    "category": "Dermokozmetik / Eczane odaklı cilt bakımı",
+    "href": "https://www.reviel.com.tr/",
+    "linkHidden": false,
+    "linkDisplay": "flex",
+    "phase": "idle",
+    "index": "1",
+    "overflow": 0,
+    "animations": 0,
+    "panels": 9,
+    "strips": 117,
+    "order": [
+      "furtherup-drive",
+      "reviel",
+      "metek-makina"
+    ],
+    "repeatRefs": [
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ]
+    ]
+  },
+  "mobileMetek": {
+    "name": "Metek Makina",
+    "description": "Alüminyum döküm, ekstrüzyon ve yüzey işlem alanlarına yönelik mühendislik çözümlerini ve sistemlerini tanıtan endüstriyel kurumsal web sitesi.",
+    "technology": "Kurumsal web / Endüstriyel ürün sunumu",
+    "category": "Endüstriyel sistemler / Makine mühendisliği",
+    "href": "https://metekmakina.com/urunler",
+    "linkHidden": false,
+    "linkDisplay": "flex",
+    "phase": "idle",
+    "index": "2",
+    "overflow": 0,
+    "animations": 0,
+    "panels": 9,
+    "strips": 117,
+    "order": [
+      "furtherup-drive",
+      "reviel",
+      "metek-makina"
+    ],
+    "repeatRefs": [
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ]
+    ]
+  }
+}

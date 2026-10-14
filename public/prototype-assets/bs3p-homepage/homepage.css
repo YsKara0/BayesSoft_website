@@ -1,0 +1,65 @@
+@import url("./references.css");
+@import url("./projects.css");
+
+.homepage-hero{display:flow-root}
+.homepage-section{padding:104px 0}
+.homepage-section h2{font-size:clamp(32px,3.35vw,48px);font-weight:500;letter-spacing:-.035em;line-height:1.12;text-wrap:balance}
+.homepage-section-heading{display:flex;justify-content:space-between;align-items:baseline;gap:24px;margin-bottom:48px}
+.homepage-link{display:inline-flex;align-items:center;min-height:44px;font-size:15px;font-weight:500;text-decoration:underline;text-decoration-color:#a5b5c7;text-underline-offset:6px}
+.homepage-link:hover,.homepage-link:focus-visible{color:#285bd6;text-decoration-color:currentColor}
+.homepage-band{position:relative;isolation:isolate}
+.homepage-band::before{content:"";position:absolute;inset:0 calc(50% - 50vw);background:#fff;z-index:-1;pointer-events:none}
+
+.homepage-service-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:40px;margin-top:52px}
+.homepage-service{display:block;padding:0 0 32px;border-bottom:1px solid #d7e0e9;transition:color .16s ease,border-color .16s ease}
+.homepage-service h3{font-size:27px;font-weight:500;line-height:1.16;letter-spacing:-.025em;max-width:220px}
+.homepage-service p{font-size:16px;line-height:1.6;color:#53677a;margin-top:24px;max-width:250px}
+.homepage-service:hover,.homepage-service:focus-visible{color:#285bd6;border-bottom-color:#285bd6}
+
+.homepage-approach-list{padding:0;list-style:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:64px;margin-top:56px}
+.homepage-step-number{display:block;color:#647b91;font-size:13px;font-weight:500;margin-bottom:24px}
+.homepage-approach-list h3{font-size:29px;font-weight:500;letter-spacing:-.025em;line-height:1.15}
+.homepage-approach-list p{font-size:17px;line-height:1.65;color:#53677a;margin-top:20px;max-width:340px}
+
+.homepage-contact{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:80px}
+.homepage-contact h2{font-size:clamp(40px,4.7vw,68px);max-width:540px;line-height:1.06}
+.homepage-contact-details{justify-self:end;width:100%;max-width:470px}
+.homepage-contact-details>p{font-size:19px;line-height:1.6;color:#53677a;max-width:370px}
+.homepage-contact-actions{display:flex;align-items:center;flex-wrap:wrap;gap:24px;margin-top:32px}
+.homepage-contact-button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;background:#285bd6;color:#fff;border-radius:3px;font-size:14px;font-weight:500;transition:background .16s ease}
+.homepage-contact-button:hover,.homepage-contact-button:focus-visible{background:#214bb2}
+.homepage-email{display:inline-flex;align-items:center;min-height:44px;font-size:15px;text-decoration:underline;text-decoration-color:#a5b5c7;text-underline-offset:6px}
+.homepage-email:hover,.homepage-email:focus-visible{color:#285bd6}
+
+.homepage-footer{position:relative;display:grid;grid-template-columns:1fr auto;gap:24px 40px;padding:44px 0 20px;border-top:1px solid #d7e0e9}
+.homepage-footer nav{display:flex;align-items:center;flex-wrap:wrap;gap:28px}
+.homepage-footer .homepage-link{text-decoration:none;font-size:14px}
+.homepage-footer>p{grid-column:1/-1;font-size:12px;color:#647b91}
+
+@media(max-width:1199px){
+  .homepage-service-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 56px}
+  .homepage-service h3,.homepage-service p{max-width:none}
+  .homepage-approach-list{gap:32px}
+  .homepage-contact{gap:40px}
+}
+@media(max-width:699px){
+  .homepage-section{padding:64px 0}
+  .homepage-section h2{font-size:33px}
+  .homepage-section-heading{align-items:flex-start;flex-direction:column;gap:10px;margin-bottom:28px}
+  .homepage-link{font-size:14px}
+  .homepage-service-grid{grid-template-columns:1fr;gap:28px;margin-top:32px}
+  .homepage-service{padding-bottom:24px}
+  .homepage-service h3{font-size:25px}
+  .homepage-service p{margin-top:14px;font-size:16px}
+  .homepage-approach-list{grid-template-columns:1fr;gap:36px;margin-top:36px}
+  .homepage-step-number{margin-bottom:12px}
+  .homepage-approach-list h3{font-size:27px}
+  .homepage-approach-list p{margin-top:14px;font-size:16px}
+  .homepage-contact{grid-template-columns:1fr;gap:24px}
+  .homepage-contact h2{font-size:44px}
+  .homepage-contact-details>p{font-size:17px}
+  .homepage-contact-actions{margin-top:24px;gap:16px}
+  .homepage-footer{grid-template-columns:1fr;padding:32px 0 12px;gap:20px}
+  .homepage-footer nav{gap:8px 24px}
+}
+@media(prefers-reduced-motion:reduce){.homepage-service,.homepage-contact-button{transition:none}}

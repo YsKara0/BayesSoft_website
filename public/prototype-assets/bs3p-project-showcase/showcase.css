@@ -1,0 +1,83 @@
+@font-face{font-family:"Instrument Sans";src:url("/prototype-assets/spatial-hero/instrument-sans.ttf") format("truetype");font-weight:100 900;font-display:swap}
+.ps-page,.ps-showcase{--ps-white:#fff;--ps-mineral:#f3f5f7;--ps-ink:#15263b;--ps-muted:#53677a;--ps-blue:#285bd6}
+.ps-page{margin:0;background:var(--ps-white);color:var(--ps-ink);font-family:"Instrument Sans",sans-serif;-webkit-font-smoothing:antialiased}
+.ps-page *{box-sizing:border-box}
+.ps-page a{color:inherit}
+.ps-header,.ps-showcase{width:min(1312px,calc(100% - 128px));margin-inline:auto}
+.ps-header{height:96px;display:flex;align-items:center;justify-content:space-between}
+.ps-wordmark{font-size:27px;letter-spacing:-1.05px;font-weight:650;text-decoration:none}
+.ps-all-projects{font-size:15px;text-underline-offset:6px;text-decoration-thickness:1px}
+.ps-skip{position:fixed;top:12px;left:12px;z-index:5;padding:12px 18px;background:var(--ps-ink);color:white!important;transform:translateY(-150%)}
+.ps-skip:focus{transform:none}
+.ps-showcase{padding:42px 0 64px}
+.ps-kicker{margin:0;font-size:15px;font-weight:500;color:var(--ps-muted)}
+.ps-heading .ps-title{margin:14px 0 0;font-size:clamp(42px,4.45vw,64px);font-weight:500;line-height:1.06;letter-spacing:-2.8px}
+.ps-layout{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:64px;align-items:center;margin-top:40px}
+.ps-visual{min-width:0;margin:0}
+.ps-stage{--stage-radius:180px;--stage-angle:0deg;position:relative;height:520px;perspective:1800px;transform-style:preserve-3d;touch-action:pan-y pinch-zoom;user-select:none}
+.ps-frame{position:absolute;top:50%;left:9%;width:82%;aspect-ratio:16/10;transform:translateY(-50%);transform-style:preserve-3d}
+.ps-rotor{position:absolute;inset:0;transform:translateZ(calc(-1 * var(--stage-radius))) rotateY(var(--stage-angle));transform-style:preserve-3d}
+.ps-face{position:absolute;inset:0;backface-visibility:hidden;transform:rotateY(var(--face-angle)) translateZ(var(--stage-radius));border:1px solid rgba(21,38,59,.12);border-radius:8px;overflow:hidden;background:#e9edf2;box-shadow:0 26px 58px -22px rgba(21,38,59,.32),0 2px 3px rgba(21,38,59,.08)}
+.ps-face>svg,.ps-face>img{position:absolute;inset:0;display:block;width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}
+.ps-face>svg{font-family:"Instrument Sans",sans-serif}
+.ps-showcase[data-phase=transition] .ps-rotor{will-change:transform}
+.ps-visual figcaption{margin-top:8px;padding-left:9%;font-size:13px;line-height:1.5;color:var(--ps-muted)}
+.ps-info{min-width:0;min-height:480px;display:flex;flex-direction:column;padding:10px 0}
+.ps-info-navigation{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.ps-index{margin:0;font-size:14px;line-height:1.4;color:var(--ps-muted);font-variant-numeric:tabular-nums}
+.ps-category{margin:18px 0 6px;font-size:15px;line-height:1.4;font-weight:500}
+.ps-technology{margin:0;font-size:13px;line-height:1.5;color:var(--ps-muted)}
+.ps-info .ps-project-name{min-height:2.08em;max-width:15ch;margin:24px 0 16px;font-size:clamp(36px,3.25vw,47px);font-weight:500;line-height:1.04;letter-spacing:-1.65px;text-wrap:balance;overflow-wrap:normal}
+.ps-description{min-height:4.8em;max-width:35ch;margin:0;font-size:17px;line-height:1.6;color:var(--ps-muted);text-wrap:pretty}
+.ps-detail{display:inline-flex;align-items:center;align-self:flex-start;gap:20px;margin-top:24px;font-size:16px;line-height:1.4;font-weight:500;text-decoration:none}
+.ps-detail svg{flex:none}
+.ps-detail:hover{text-decoration:underline;text-underline-offset:6px}
+.ps-controls{display:flex;gap:12px;margin:0;padding:0}
+.ps-controls[hidden]{display:none}
+.ps-controls button{display:grid;place-items:center;width:48px;height:48px;padding:0;border:1px solid #ccd5df;border-radius:50%;background:transparent;color:var(--ps-ink);cursor:pointer;touch-action:manipulation}
+.ps-controls button:hover{border-color:var(--ps-blue);color:var(--ps-blue)}
+.ps-controls button[aria-disabled=true]{opacity:.55;cursor:progress}
+.ps-page :focus-visible,.ps-showcase :focus-visible{outline:2px solid var(--ps-blue);outline-offset:5px}
+.ps-stage:focus-visible{outline-offset:3px;border-radius:6px}
+.ps-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.ps-stage[data-mode=flat]{height:auto;aspect-ratio:16/10;perspective:none}
+.ps-stage[data-mode=flat] .ps-frame{top:0;left:0;width:100%;height:100%;transform:none}
+.ps-stage[data-mode=flat] .ps-rotor{transform:none}
+.ps-stage[data-mode=flat] .ps-face{transform:none;visibility:hidden;opacity:0;box-shadow:0 12px 30px -18px rgba(21,38,59,.25)}
+.ps-stage[data-mode=flat] .ps-face.is-current{visibility:visible;opacity:1;z-index:1}
+.ps-stage[data-mode=flat] .ps-face.is-entering{visibility:visible;opacity:1;z-index:2}
+@media(max-width:1099px){
+  .ps-header,.ps-showcase{width:calc(100% - 64px)}
+  .ps-layout{gap:36px;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr)}
+  .ps-info .ps-project-name{font-size:38px}
+}
+@media(max-width:899px){
+  .ps-layout{grid-template-columns:1fr;gap:36px}
+  .ps-stage{height:min(64vw,500px)}
+  .ps-info{min-height:0;padding:0;max-width:660px}
+  .ps-info .ps-project-name{min-height:0;margin-top:22px;max-width:20ch}
+  .ps-description{min-height:0;max-width:48ch}
+  .ps-controls{margin:0;padding:0}
+}
+@media(max-width:699px){
+  .ps-header,.ps-showcase{width:calc(100% - 40px)}
+  .ps-header{height:76px}
+  .ps-wordmark{font-size:25px}
+  .ps-all-projects{font-size:14px}
+  .ps-showcase{padding:28px 0 44px}
+  .ps-heading .ps-title{font-size:42px;letter-spacing:-1.9px;max-width:12ch;line-height:1.08}
+  .ps-layout{margin-top:32px;gap:32px}
+  .ps-stage{height:auto;aspect-ratio:16/10;perspective:none}
+  .ps-frame{top:0;left:0;width:100%;height:100%;transform:none}
+  .ps-rotor{transform:none}
+  .ps-face{transform:none;visibility:hidden;opacity:0;box-shadow:0 12px 30px -18px rgba(21,38,59,.25)}
+  .ps-face.is-current{visibility:visible;opacity:1;z-index:1}
+  .ps-face.is-entering{visibility:visible;opacity:1;z-index:2}
+  .ps-face [data-cover-detail]{display:none}
+  .ps-visual figcaption{margin-top:16px;padding-left:0;font-size:12px}
+  .ps-info .ps-project-name{font-size:39px;margin-top:22px;letter-spacing:-1.45px;max-width:14ch}
+  .ps-description{font-size:16px}
+  .ps-category{margin-top:16px}
+  .ps-detail{margin-top:22px}
+  .ps-controls{gap:16px}
+}

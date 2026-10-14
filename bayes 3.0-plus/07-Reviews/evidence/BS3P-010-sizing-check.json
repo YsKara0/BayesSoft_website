@@ -1,0 +1,1360 @@
+{
+  "before": {
+    "window": {
+      "x": 64,
+      "y": 961.4375,
+      "width": 1312,
+      "height": 88
+    },
+    "overflow": "hidden",
+    "duration": "120s",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "logos": [
+      {
+        "name": "Tam Finans web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo",
+        "slot": {
+          "x": 96,
+          "y": 969.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": 96,
+          "y": 973.4375,
+          "width": 176,
+          "height": 64
+        },
+        "neutral": {
+          "x": 96,
+          "y": 973.4375,
+          "width": 176,
+          "height": 64
+        },
+        "color": {
+          "x": 96,
+          "y": 973.4375,
+          "width": 176,
+          "height": 64
+        },
+        "gridRows": "64px",
+        "position": "static",
+        "objectFit": "contain",
+        "maxHeight": "none",
+        "natural": [
+          589,
+          162
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "Metek Makina web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo",
+        "slot": {
+          "x": 336,
+          "y": 969.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": 336,
+          "y": 973.4375,
+          "width": 176,
+          "height": 64
+        },
+        "neutral": {
+          "x": 336,
+          "y": 973.4375,
+          "width": 176,
+          "height": 64
+        },
+        "color": {
+          "x": 336,
+          "y": 973.4375,
+          "width": 176,
+          "height": 64
+        },
+        "gridRows": "64px",
+        "position": "static",
+        "objectFit": "contain",
+        "maxHeight": "none",
+        "natural": [
+          1386,
+          336
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "Reviel web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo",
+        "slot": {
+          "x": 576,
+          "y": 969.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": 576,
+          "y": 973.4375,
+          "width": 176,
+          "height": 64
+        },
+        "neutral": {
+          "x": 576,
+          "y": 973.4375,
+          "width": 176,
+          "height": 64
+        },
+        "color": {
+          "x": 576,
+          "y": 973.4375,
+          "width": 176,
+          "height": 64
+        },
+        "gridRows": "64px",
+        "position": "static",
+        "objectFit": "contain",
+        "maxHeight": "none",
+        "natural": [
+          4221,
+          1046
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "FurtherUp web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo",
+        "slot": {
+          "x": 816,
+          "y": 969.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": 816,
+          "y": 973.4375,
+          "width": 176,
+          "height": 64
+        },
+        "neutral": {
+          "x": 816,
+          "y": 973.4375,
+          "width": 176,
+          "height": 64
+        },
+        "color": {
+          "x": 816,
+          "y": 973.4375,
+          "width": 176,
+          "height": 64
+        },
+        "gridRows": "64px",
+        "position": "static",
+        "objectFit": "contain",
+        "maxHeight": "none",
+        "natural": [
+          1336,
+          166
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "Arel Üniversitesi web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo",
+        "slot": {
+          "x": 1056,
+          "y": 969.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": 1056,
+          "y": 973.4375,
+          "width": 176,
+          "height": 64
+        },
+        "neutral": {
+          "x": 1056,
+          "y": 973.4375,
+          "width": 176,
+          "height": 171.1875
+        },
+        "color": {
+          "x": 1056,
+          "y": 973.4375,
+          "width": 176,
+          "height": 171.1875
+        },
+        "gridRows": "171.188px",
+        "position": "static",
+        "objectFit": "contain",
+        "maxHeight": "none",
+        "natural": [
+          1280,
+          1245
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "Atlı Lojistik web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo",
+        "slot": {
+          "x": 1296,
+          "y": 969.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": 1296,
+          "y": 973.4375,
+          "width": 176,
+          "height": 64
+        },
+        "neutral": {
+          "x": 1296,
+          "y": 973.4375,
+          "width": 176,
+          "height": 65.3125
+        },
+        "color": {
+          "x": 1296,
+          "y": 973.4375,
+          "width": 176,
+          "height": 65.3125
+        },
+        "gridRows": "65.3125px",
+        "position": "static",
+        "objectFit": "contain",
+        "maxHeight": "none",
+        "natural": [
+          1401,
+          520
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "Kanuni Sultan Süleyman Hastanesi web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo",
+        "slot": {
+          "x": 1536,
+          "y": 969.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": 1536,
+          "y": 973.4375,
+          "width": 176,
+          "height": 64
+        },
+        "neutral": {
+          "x": 1536,
+          "y": 973.4375,
+          "width": 176,
+          "height": 176
+        },
+        "color": {
+          "x": 1536,
+          "y": 973.4375,
+          "width": 176,
+          "height": 176
+        },
+        "gridRows": "176px",
+        "position": "static",
+        "objectFit": "contain",
+        "maxHeight": "none",
+        "natural": [
+          447,
+          447
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "Teşkilat ICOM web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-dark",
+        "slot": {
+          "x": 1776,
+          "y": 969.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": 1788,
+          "y": 981.4375,
+          "width": 152,
+          "height": 48
+        },
+        "neutral": {
+          "x": 1788,
+          "y": 981.4375,
+          "width": 152,
+          "height": 48
+        },
+        "color": {
+          "x": 1788,
+          "y": 981.4375,
+          "width": 152,
+          "height": 48
+        },
+        "gridRows": "48px",
+        "position": "static",
+        "objectFit": "contain",
+        "maxHeight": "none",
+        "natural": [
+          344,
+          94
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "Hypersense web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo",
+        "slot": {
+          "x": 2016,
+          "y": 969.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": 2016,
+          "y": 973.4375,
+          "width": 176,
+          "height": 64
+        },
+        "neutral": {
+          "x": 2016,
+          "y": 973.4375,
+          "width": 176,
+          "height": 205.03125
+        },
+        "color": {
+          "x": 2016,
+          "y": 973.4375,
+          "width": 176,
+          "height": 205.03125
+        },
+        "gridRows": "205.031px",
+        "position": "static",
+        "objectFit": "contain",
+        "maxHeight": "none",
+        "natural": [
+          200,
+          233
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "Zirve Çilingir web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo",
+        "slot": {
+          "x": 2256,
+          "y": 969.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": 2256,
+          "y": 973.4375,
+          "width": 176,
+          "height": 64
+        },
+        "neutral": {
+          "x": 2256,
+          "y": 973.4375,
+          "width": 176,
+          "height": 66.9375
+        },
+        "color": {
+          "x": 2256,
+          "y": 973.4375,
+          "width": 176,
+          "height": 66.9375
+        },
+        "gridRows": "66.9375px",
+        "position": "static",
+        "objectFit": "contain",
+        "maxHeight": "none",
+        "natural": [
+          1680,
+          639
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      }
+    ]
+  },
+  "desktop": {
+    "window": {
+      "x": 64,
+      "y": 768.4375,
+      "width": 1312,
+      "height": 88
+    },
+    "overflow": "hidden",
+    "duration": "120s",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "logos": [
+      {
+        "name": "Tam Finans web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-horizontal",
+        "slot": {
+          "x": -864,
+          "y": 776.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": -864,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "neutral": {
+          "x": -864,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "color": {
+          "x": -864,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          589,
+          162
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "Metek Makina web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-horizontal",
+        "slot": {
+          "x": -624,
+          "y": 776.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": -624,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "neutral": {
+          "x": -624,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "color": {
+          "x": -624,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          1386,
+          336
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "Reviel web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-horizontal",
+        "slot": {
+          "x": -384,
+          "y": 776.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": -384,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "neutral": {
+          "x": -384,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "color": {
+          "x": -384,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          4221,
+          1046
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "FurtherUp web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-horizontal",
+        "slot": {
+          "x": -144,
+          "y": 776.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": -144,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "neutral": {
+          "x": -144,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "color": {
+          "x": -144,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          1336,
+          166
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "Arel Üniversitesi web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-round",
+        "slot": {
+          "x": 96,
+          "y": 776.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": 156,
+          "y": 784.4375,
+          "width": 56,
+          "height": 56
+        },
+        "neutral": {
+          "x": 156,
+          "y": 784.4375,
+          "width": 56,
+          "height": 56
+        },
+        "color": {
+          "x": 156,
+          "y": 784.4375,
+          "width": 56,
+          "height": 56
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          1280,
+          1245
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "Atlı Lojistik web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-horizontal",
+        "slot": {
+          "x": 336,
+          "y": 776.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": 336,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "neutral": {
+          "x": 336,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "color": {
+          "x": 336,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          1401,
+          520
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "Kanuni Sultan Süleyman Hastanesi web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-round",
+        "slot": {
+          "x": 576,
+          "y": 776.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": 636,
+          "y": 784.4375,
+          "width": 56,
+          "height": 56
+        },
+        "neutral": {
+          "x": 636,
+          "y": 784.4375,
+          "width": 56,
+          "height": 56
+        },
+        "color": {
+          "x": 636,
+          "y": 784.4375,
+          "width": 56,
+          "height": 56
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          447,
+          447
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "Teşkilat ICOM web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-horizontal homepage-logo-dark",
+        "slot": {
+          "x": 816,
+          "y": 776.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": 828,
+          "y": 788.4375,
+          "width": 152,
+          "height": 48
+        },
+        "neutral": {
+          "x": 828,
+          "y": 788.4375,
+          "width": 152,
+          "height": 48
+        },
+        "color": {
+          "x": 828,
+          "y": 788.4375,
+          "width": 152,
+          "height": 48
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          344,
+          94
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "Hypersense web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-square",
+        "slot": {
+          "x": 1056,
+          "y": 776.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": 1112,
+          "y": 780.4375,
+          "width": 64,
+          "height": 64
+        },
+        "neutral": {
+          "x": 1112,
+          "y": 780.4375,
+          "width": 64,
+          "height": 64
+        },
+        "color": {
+          "x": 1112,
+          "y": 780.4375,
+          "width": 64,
+          "height": 64
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          200,
+          233
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      },
+      {
+        "name": "Zirve Çilingir web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-horizontal",
+        "slot": {
+          "x": 1296,
+          "y": 776.4375,
+          "width": 176,
+          "height": 72
+        },
+        "frame": {
+          "x": 1296,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "neutral": {
+          "x": 1296,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "color": {
+          "x": 1296,
+          "y": 780.4375,
+          "width": 176,
+          "height": 64
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          1680,
+          639
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "opacity",
+        "transitionDuration": "0.2s"
+      }
+    ]
+  },
+  "hover": {
+    "colorOpacity": "1",
+    "neutralOpacity": "0",
+    "colorFilter": "none",
+    "transition": "opacity",
+    "duration": "0.2s"
+  },
+  "clickedUrl": "https://arel.edu.tr/",
+  "afterClick": {
+    "state": "running",
+    "transform": "matrix(1, 0, 0, 1, -964.333, 0)",
+    "focusVisible": false,
+    "retainedFocus": true
+  },
+  "resumed": {
+    "state": "running",
+    "transform": "matrix(1, 0, 0, 1, -969.333, 0)",
+    "focusVisible": false,
+    "retainedFocus": true
+  },
+  "mobile": {
+    "window": {
+      "x": 20,
+      "y": 219.140625,
+      "width": 335,
+      "height": 432
+    },
+    "overflow": "hidden",
+    "duration": "0s",
+    "viewport": 375,
+    "scrollWidth": 375,
+    "logos": [
+      {
+        "name": "Tam Finans web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-horizontal",
+        "slot": {
+          "x": 20,
+          "y": 227.140625,
+          "width": 157.5,
+          "height": 64
+        },
+        "frame": {
+          "x": 20,
+          "y": 231.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "neutral": {
+          "x": 20,
+          "y": 231.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "color": {
+          "x": 20,
+          "y": 231.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          589,
+          162
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "none",
+        "transitionDuration": "0s"
+      },
+      {
+        "name": "Metek Makina web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-horizontal",
+        "slot": {
+          "x": 197.5,
+          "y": 227.140625,
+          "width": 157.5,
+          "height": 64
+        },
+        "frame": {
+          "x": 197.5,
+          "y": 231.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "neutral": {
+          "x": 197.5,
+          "y": 231.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "color": {
+          "x": 197.5,
+          "y": 231.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          1386,
+          336
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "none",
+        "transitionDuration": "0s"
+      },
+      {
+        "name": "Reviel web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-horizontal",
+        "slot": {
+          "x": 20,
+          "y": 315.140625,
+          "width": 157.5,
+          "height": 64
+        },
+        "frame": {
+          "x": 20,
+          "y": 319.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "neutral": {
+          "x": 20,
+          "y": 319.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "color": {
+          "x": 20,
+          "y": 319.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          4221,
+          1046
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "none",
+        "transitionDuration": "0s"
+      },
+      {
+        "name": "FurtherUp web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-horizontal",
+        "slot": {
+          "x": 197.5,
+          "y": 315.140625,
+          "width": 157.5,
+          "height": 64
+        },
+        "frame": {
+          "x": 197.5,
+          "y": 319.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "neutral": {
+          "x": 197.5,
+          "y": 319.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "color": {
+          "x": 197.5,
+          "y": 319.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          1336,
+          166
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "none",
+        "transitionDuration": "0s"
+      },
+      {
+        "name": "Arel Üniversitesi web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-round",
+        "slot": {
+          "x": 20,
+          "y": 403.140625,
+          "width": 157.5,
+          "height": 64
+        },
+        "frame": {
+          "x": 74.75,
+          "y": 411.140625,
+          "width": 48,
+          "height": 48
+        },
+        "neutral": {
+          "x": 74.75,
+          "y": 411.140625,
+          "width": 48,
+          "height": 48
+        },
+        "color": {
+          "x": 74.75,
+          "y": 411.140625,
+          "width": 48,
+          "height": 48
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          1280,
+          1245
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "none",
+        "transitionDuration": "0s"
+      },
+      {
+        "name": "Atlı Lojistik web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-horizontal",
+        "slot": {
+          "x": 197.5,
+          "y": 403.140625,
+          "width": 157.5,
+          "height": 64
+        },
+        "frame": {
+          "x": 197.5,
+          "y": 407.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "neutral": {
+          "x": 197.5,
+          "y": 407.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "color": {
+          "x": 197.5,
+          "y": 407.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          1401,
+          520
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "none",
+        "transitionDuration": "0s"
+      },
+      {
+        "name": "Kanuni Sultan Süleyman Hastanesi web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-round",
+        "slot": {
+          "x": 20,
+          "y": 491.140625,
+          "width": 157.5,
+          "height": 64
+        },
+        "frame": {
+          "x": 74.75,
+          "y": 499.140625,
+          "width": 48,
+          "height": 48
+        },
+        "neutral": {
+          "x": 74.75,
+          "y": 499.140625,
+          "width": 48,
+          "height": 48
+        },
+        "color": {
+          "x": 74.75,
+          "y": 499.140625,
+          "width": 48,
+          "height": 48
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          447,
+          447
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "none",
+        "transitionDuration": "0s"
+      },
+      {
+        "name": "Teşkilat ICOM web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-horizontal homepage-logo-dark",
+        "slot": {
+          "x": 197.5,
+          "y": 491.140625,
+          "width": 157.5,
+          "height": 64
+        },
+        "frame": {
+          "x": 209.5,
+          "y": 501.140625,
+          "width": 133.5,
+          "height": 44
+        },
+        "neutral": {
+          "x": 209.5,
+          "y": 501.140625,
+          "width": 133.5,
+          "height": 44
+        },
+        "color": {
+          "x": 209.5,
+          "y": 501.140625,
+          "width": 133.5,
+          "height": 44
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          344,
+          94
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "none",
+        "transitionDuration": "0s"
+      },
+      {
+        "name": "Hypersense web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-square",
+        "slot": {
+          "x": 20,
+          "y": 579.140625,
+          "width": 157.5,
+          "height": 64
+        },
+        "frame": {
+          "x": 70.75,
+          "y": 583.140625,
+          "width": 56,
+          "height": 56
+        },
+        "neutral": {
+          "x": 70.75,
+          "y": 583.140625,
+          "width": 56,
+          "height": 56
+        },
+        "color": {
+          "x": 70.75,
+          "y": 583.140625,
+          "width": 56,
+          "height": 56
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          200,
+          233
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "none",
+        "transitionDuration": "0s"
+      },
+      {
+        "name": "Zirve Çilingir web sitesi (yeni sekmede açılır)",
+        "shape": "homepage-logo homepage-logo-horizontal",
+        "slot": {
+          "x": 197.5,
+          "y": 579.140625,
+          "width": 157.5,
+          "height": 64
+        },
+        "frame": {
+          "x": 197.5,
+          "y": 583.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "neutral": {
+          "x": 197.5,
+          "y": 583.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "color": {
+          "x": 197.5,
+          "y": 583.140625,
+          "width": 157.5,
+          "height": 56
+        },
+        "gridRows": "none",
+        "position": "absolute",
+        "objectFit": "contain",
+        "maxHeight": "100%",
+        "natural": [
+          1680,
+          639
+        ],
+        "opacity": [
+          "1",
+          "0"
+        ],
+        "colorFilter": "none",
+        "transition": "none",
+        "transitionDuration": "0s"
+      }
+    ],
+    "static": {
+      "animation": "none",
+      "duplicate": "none"
+    }
+  },
+  "protectedFiles": 491,
+  "protectedChanges": []
+}

@@ -1,0 +1,259 @@
+{
+  "url": "http://127.0.0.1:3000/prototype/spatial-hero-plus",
+  "desktop": {
+    "geometry": {
+      "faces": 4,
+      "carrierParts": 0,
+      "transportButtons": 0,
+      "dotButtons": 4,
+      "width": 540,
+      "objectHeight": 420,
+      "faceHeight": 420,
+      "depth": 210,
+      "duration": "900ms",
+      "scrollWidth": 1440
+    },
+    "sweep45": {
+      "bounds": {
+        "left": 41.5637092590332,
+        "right": 626.4362678527832,
+        "top": 170.8348388671875,
+        "bottom": 677.0869750976562
+      },
+      "closest": {
+        "angle": -45.30572173900527,
+        "distance": 0.30572173900527133
+      },
+      "samples": 55,
+      "targetAngle": -90,
+      "headerBottom": 82,
+      "dotsTop": 694,
+      "sceneLeft": 644,
+      "clipping": []
+    },
+    "sweep135": {
+      "bounds": {
+        "left": 41.563724517822266,
+        "right": 626.4362831115723,
+        "top": 170.83489990234375,
+        "bottom": 677.0867309570312
+      },
+      "closest": {
+        "angle": -135.30722096075536,
+        "distance": 0.3072209607553589
+      },
+      "samples": 56,
+      "targetAngle": -180,
+      "headerBottom": 82,
+      "dotsTop": 694,
+      "sceneLeft": 644,
+      "clipping": []
+    },
+    "final": {
+      "firstVisible": {
+        "mode": "webgl",
+        "ready": "true",
+        "phase": "data",
+        "time": "0.000",
+        "layers": "",
+        "frames": "4",
+        "drawCalls": "1",
+        "triangles": "2",
+        "firstPose": "0.000",
+        "running": "true"
+      },
+      "phases": [
+        "data",
+        "rules",
+        "web",
+        "mobile",
+        "align",
+        "final"
+      ],
+      "scene": {
+        "mode": "webgl",
+        "ready": "true",
+        "phase": "final",
+        "time": "8.400",
+        "layers": "data,rules,web,mobile",
+        "frames": "509",
+        "drawCalls": "11",
+        "triangles": "1290",
+        "firstPose": "0.000",
+        "running": "false"
+      },
+      "prism": {
+        "face": "0",
+        "angle": "-360",
+        "reduced": "false",
+        "auto": "running",
+        "ready": "true",
+        "rotating": "false"
+      },
+      "figure": {
+        "width": 732,
+        "height": 457.5,
+        "x": 644,
+        "right": 1376
+      },
+      "panels": [
+        {
+          "class": "surface-ui data-ui",
+          "width": 153.91265869140625,
+          "height": 192.56402587890625,
+          "inside": true
+        },
+        {
+          "class": "surface-ui rules-ui",
+          "width": 307.8253173828125,
+          "height": 121.77418518066406,
+          "inside": true
+        },
+        {
+          "class": "surface-ui web-ui",
+          "width": 359.12957763671875,
+          "height": 218.35598754882812,
+          "inside": true
+        },
+        {
+          "class": "surface-ui mobile-ui",
+          "width": 120.931396484375,
+          "height": 182.13973999023438,
+          "inside": true
+        }
+      ],
+      "colors": {
+        "web": "rgb(33, 79, 186)",
+        "mobile": "rgb(73, 90, 177)",
+        "logic": "rgb(139, 80, 27)",
+        "data": "rgb(41, 74, 104)"
+      },
+      "documentHeight": 900
+    },
+    "webIncrease": 11.11109222744544,
+    "staticFrames": "509",
+    "dotFocus": {
+      "focus": true,
+      "outline": "2px",
+      "label": "1. yüz: İşinize göre yazılım.",
+      "pressed": "true"
+    },
+    "focusPause": "paused",
+    "hoverPause": "paused",
+    "replayFocus": {
+      "focus": true,
+      "outline": "2px"
+    },
+    "replay": {
+      "mode": "webgl",
+      "ready": "true",
+      "phase": "data",
+      "time": "0.074",
+      "layers": "",
+      "frames": "515",
+      "drawCalls": "1",
+      "triangles": "2",
+      "firstPose": "0.000",
+      "running": "true"
+    },
+    "errors": [],
+    "english": {
+      "url": "http://127.0.0.1:3000/",
+      "lang": "en",
+      "preference": "en"
+    }
+  },
+  "mobile": {
+    "initial": {
+      "width": 375,
+      "scrollWidth": 375,
+      "height": 812,
+      "scene": {
+        "mode": "static",
+        "ready": "false",
+        "phase": "final"
+      },
+      "prism": {
+        "face": "0",
+        "angle": "0",
+        "reduced": "true",
+        "auto": "paused",
+        "ready": "true"
+      },
+      "canvas": 0,
+      "buttons": [
+        {
+          "label": "1. yüz: İşinize göre yazılım.",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "2. yüz: Web ve mobil çözümler.",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "3. yüz: Yapay zekâ ile daha fazlası.",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "4. yüz: Size özel yazılım sistemleri.",
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "poster": "/prototype-assets/spatial-hero-plus/system-static.svg?rev=r3"
+    },
+    "webglRequests": [],
+    "manual": {
+      "face": "1",
+      "angle": "-90",
+      "reduced": "true",
+      "auto": "paused",
+      "ready": "true"
+    },
+    "menu": {
+      "left": 35,
+      "right": 355,
+      "bottom": 369,
+      "links": [
+        {
+          "text": "Projeler",
+          "href": "/projeler",
+          "locale": "tr"
+        },
+        {
+          "text": "Hizmetler",
+          "href": "/hizmetler",
+          "locale": "tr"
+        },
+        {
+          "text": "İletişim",
+          "href": "/iletisim",
+          "locale": "tr"
+        },
+        {
+          "text": "EN",
+          "href": "/",
+          "locale": "en"
+        },
+        {
+          "text": "DE",
+          "href": "/",
+          "locale": "de"
+        },
+        {
+          "text": "Birlikte çalışalım",
+          "href": "/iletisim",
+          "locale": "tr"
+        }
+      ]
+    },
+    "german": {
+      "url": "http://127.0.0.1:3000/",
+      "lang": "de",
+      "preference": "de"
+    }
+  }
+}

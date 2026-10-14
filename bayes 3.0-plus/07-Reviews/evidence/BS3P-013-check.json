@@ -1,0 +1,148 @@
+{
+  "errors": [],
+  "failed": [],
+  "beforeImage": {
+    "name": "Atlı Logistics",
+    "href": "/projeler/atli-logistics",
+    "phase": "idle",
+    "index": "0",
+    "overflow": 0,
+    "animations": 0,
+    "panels": 9,
+    "strips": 117,
+    "coverHeight": "385.76747930365906px",
+    "ringAngle": "0deg",
+    "layout": {
+      "x": 64,
+      "y": 1334.265625,
+      "width": 1312,
+      "height": 536.1875,
+      "top": 1334.265625,
+      "right": 1376,
+      "bottom": 1870.453125,
+      "left": 64
+    },
+    "image": "<image href=\"/prototype-assets/bs3p-homepage/furtherup-drive-cover.png\" width=\"1280\" height=\"1600\" preserveAspectRatio=\"xMidYMid meet\"></image>",
+    "repeatRefs": [
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ]
+    ]
+  },
+  "afterImage": {
+    "name": "Atlı Logistics",
+    "href": "/projeler/atli-logistics",
+    "phase": "idle",
+    "index": "0",
+    "overflow": 0,
+    "animations": 0,
+    "panels": 9,
+    "strips": 117,
+    "coverHeight": "385.76747930365906px",
+    "ringAngle": "0deg",
+    "layout": {
+      "x": 64,
+      "y": 1334.265625,
+      "width": 1312,
+      "height": 536.1875,
+      "top": 1334.265625,
+      "right": 1376,
+      "bottom": 1870.453125,
+      "left": 64
+    },
+    "image": "<image href=\"/prototype-assets/bs3p-homepage/furtherup-drive-cover.png\" width=\"1280\" height=\"1600\" preserveAspectRatio=\"xMidYMid meet\"></image>",
+    "repeatRefs": [
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ]
+    ]
+  },
+  "transition": {
+    "phase": "transition",
+    "name": "Atlı Logistics",
+    "durations": [
+      1040
+    ]
+  },
+  "desktop": {
+    "name": "FurtherUp Drive",
+    "href": "/projeler/furtherup-drive",
+    "phase": "idle",
+    "index": "1",
+    "overflow": 0,
+    "animations": 0,
+    "panels": 9,
+    "strips": 117,
+    "coverHeight": "385.76747930365906px",
+    "ringAngle": "-40deg",
+    "layout": {
+      "x": 64,
+      "y": 300.265625,
+      "width": 1312,
+      "height": 536.1875,
+      "top": 300.265625,
+      "right": 1376,
+      "bottom": 836.453125,
+      "left": 64
+    },
+    "image": "<image href=\"/prototype-assets/bs3p-homepage/furtherup-drive-cover.png\" width=\"1280\" height=\"1600\" preserveAspectRatio=\"xMidYMid meet\"></image>",
+    "repeatRefs": [
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ]
+    ]
+  },
+  "mobile": {
+    "name": "FurtherUp Drive",
+    "href": "/projeler/furtherup-drive",
+    "phase": "idle",
+    "index": "1",
+    "overflow": 0,
+    "animations": 0,
+    "panels": 9,
+    "strips": 117,
+    "coverHeight": "288.8345379125416px",
+    "ringAngle": "-40deg",
+    "layout": {
+      "x": 20,
+      "y": -16.5,
+      "width": 335,
+      "height": 691.21875,
+      "top": -16.5,
+      "right": 355,
+      "bottom": 674.71875,
+      "left": 20
+    },
+    "image": "<image href=\"/prototype-assets/bs3p-homepage/furtherup-drive-cover.png\" width=\"1280\" height=\"1600\" preserveAspectRatio=\"xMidYMid meet\"></image>",
+    "repeatRefs": [
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ],
+      [
+        "#selected-projects-furtherup-drive-cover"
+      ]
+    ]
+  },
+  "standaloneR2Identical": true
+}

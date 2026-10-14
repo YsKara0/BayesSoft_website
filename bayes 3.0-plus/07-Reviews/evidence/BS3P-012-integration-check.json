@@ -1,0 +1,251 @@
+{
+  "url": "http://127.0.0.1:3000/prototype/bs3p-homepage",
+  "r2DefaultHtmlIdentical": true,
+  "errors": [],
+  "failed": [],
+  "protectedMarkup": {
+    "header": true,
+    "#hero": true,
+    "#references": true,
+    "#services": true,
+    "#approach": true,
+    "#contact": true,
+    ".homepage-footer": true
+  },
+  "heroCapture": {
+    "mode": "webgl",
+    "ready": "true",
+    "phase": "final",
+    "time": "8.400",
+    "layers": "data,rules,web,mobile",
+    "frames": "367",
+    "drawCalls": "11",
+    "triangles": "1290",
+    "firstPose": "0.000",
+    "running": "false"
+  },
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "overflow": 0,
+    "sectionOrder": [
+      "hero",
+      "references",
+      "selected-projects",
+      "services",
+      "approach",
+      "contact"
+    ],
+    "name": "Atlı Logistics",
+    "index": 0,
+    "step": 0,
+    "phase": "idle",
+    "href": "/projeler/atli-logistics",
+    "heading": "İşlerimiz konuşsun.",
+    "projectHeading": "H3",
+    "animations": 0,
+    "panels": 9,
+    "strips": 117,
+    "mode": "cylinder",
+    "columns": "802.281px 445.719px",
+    "scan": {
+      "left": 64,
+      "right": 866.28125,
+      "y": 399.81630807157296,
+      "backgroundX": 67,
+      "backgroundY": 303.265625
+    },
+    "visibleBands": [
+      {
+        "left": 64,
+        "right": 89
+      },
+      {
+        "left": 95,
+        "right": 299
+      },
+      {
+        "left": 314,
+        "right": 616
+      },
+      {
+        "left": 629,
+        "right": 835
+      },
+      {
+        "left": 841,
+        "right": 865
+      }
+    ]
+  },
+  "galleryControls": {
+    "forward": {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "overflow": 0,
+      "sectionOrder": [
+        "hero",
+        "references",
+        "selected-projects",
+        "services",
+        "approach",
+        "contact"
+      ],
+      "name": "FurtherUp Drive",
+      "index": 1,
+      "step": 1,
+      "phase": "idle",
+      "href": "/projeler/furtherup-drive",
+      "heading": "İşlerimiz konuşsun.",
+      "projectHeading": "H3",
+      "animations": 0,
+      "panels": 9,
+      "strips": 117,
+      "mode": "cylinder",
+      "columns": "802.281px 445.719px",
+      "scan": {
+        "left": 64,
+        "right": 866.28125,
+        "y": 399.81630807157296,
+        "backgroundX": 67,
+        "backgroundY": 303.265625
+      }
+    },
+    "back": {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "overflow": 0,
+      "sectionOrder": [
+        "hero",
+        "references",
+        "selected-projects",
+        "services",
+        "approach",
+        "contact"
+      ],
+      "name": "Atlı Logistics",
+      "index": 0,
+      "step": 0,
+      "phase": "idle",
+      "href": "/projeler/atli-logistics",
+      "heading": "İşlerimiz konuşsun.",
+      "projectHeading": "H3",
+      "animations": 0,
+      "panels": 9,
+      "strips": 117,
+      "mode": "cylinder",
+      "columns": "802.281px 445.719px",
+      "scan": {
+        "left": 64,
+        "right": 866.28125,
+        "y": 399.81630807157296,
+        "backgroundX": 67,
+        "backgroundY": 303.265625
+      }
+    },
+    "keyboardFocus": {
+      "visible": true,
+      "width": "2px"
+    }
+  },
+  "mobile": {
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "overflow": 0,
+    "sectionOrder": [
+      "hero",
+      "references",
+      "selected-projects",
+      "services",
+      "approach",
+      "contact"
+    ],
+    "name": "Atlı Logistics",
+    "index": 0,
+    "step": 0,
+    "phase": "idle",
+    "href": "/projeler/atli-logistics",
+    "heading": "İşlerimiz konuşsun.",
+    "projectHeading": "H3",
+    "animations": 0,
+    "panels": 9,
+    "strips": 117,
+    "mode": "compact-cylinder",
+    "columns": "335px",
+    "scan": {
+      "left": 20,
+      "right": 355,
+      "y": 292.85453021410876,
+      "backgroundX": 23,
+      "backgroundY": 238.5
+    },
+    "visibleBands": [
+      {
+        "left": 20,
+        "right": 64
+      },
+      {
+        "left": 75,
+        "right": 299
+      },
+      {
+        "left": 310,
+        "right": 354
+      }
+    ],
+    "reducedMotionCapture": true
+  },
+  "typecheck": {
+    "command": "node node_modules/typescript/bin/tsc -p prototypes/bs3p-homepage/tsconfig.check.json --jsx preserve",
+    "result": "passed"
+  },
+  "scope": {
+    "desktop": "1440×1000, normal motion; one next and one keyboard previous",
+    "mobile": "375×812 touch viewport, reduced-motion static capture; no normal mobile swipe retest",
+    "recording": "none",
+    "broadQa": "not run"
+  },
+  "iterations": [
+    "Initial desktop-only pass stopped at the white-background pixel-count assumption. Mineral background comparison fixed the harness; application code did not change.",
+    "Capture initially showed the original hero preparation placeholder after a fixed delay; the final driver used software GPU and waited for existing final-ready state. Hero source remained unchanged.",
+    "Final short desktop/mobile/forward-back pass completed; no broad matrix or long capture."
+  ],
+  "screenshots": {
+    "desktop": {
+      "width": 1440,
+      "height": 1000
+    },
+    "mobile": {
+      "width": 375,
+      "height": 4581
+    }
+  },
+  "protectedFileCount": 551,
+  "captureNotes": {
+    "desktop": "Homepage project-section viewport, 1440×1000",
+    "mobile": "Full homepage, 375px / reduced-motion",
+    "limitation": "The test browser full-page screenshot omitted the original hero WebGL layer even after final-ready. Hero source unchanged; final desktop evidence focuses on the integration section.",
+    "finalUpdate": "Only final screenshots and R2 HTML identity repeated after preserving the existing heading link; motion tests not repeated."
+  },
+  "headingAction": {
+    "text": "Tüm projeler",
+    "href": "/projeler",
+    "preserved": true
+  },
+  "changedApplicationFiles": [
+    "app/prototype/bs3p-homepage/route.ts",
+    "app/prototype/bs3p-homepage/compose.ts",
+    "app/prototype/bs3p-homepage/sections/ProjectsShowcase.ts",
+    "public/prototype-assets/bs3p-homepage/projects.css",
+    "app/prototype/bs3p-project-showcase-r2/GalleryShowcase.ts",
+    "app/prototype/bs3p-project-showcase-r2/GalleryInfo.ts"
+  ]
+}

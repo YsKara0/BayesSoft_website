@@ -7,7 +7,9 @@
     "build": "next build",
     "preview": "npx serve out",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prototype:bs3p:prepare": "node prototypes/bs3p-right-3d/prepare.mjs",
+    "prototype:bs3p:typecheck": "tsc -p prototypes/bs3p-right-3d/tsconfig.check.json"
   },
   "dependencies": {
     "flag-icons": "^7.5.0",
@@ -15,12 +17,14 @@
     "lucide-react": "^0.468.0",
     "next": "^15.3.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "three": "0.180.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "@types/three": "0.180.0",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.17.0",
     "eslint-config-next": "^15.3.4",

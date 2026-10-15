@@ -1,0 +1,1 @@
+First verification harness stopped after reading React info text immediately on controller phase=idle: FurtherUp Drive, FurtherUp Drive, Reviel vs expected FurtherUp Drive, Reviel, Metek Makina. Corrected test waits for both idle and committed React text. No application change made for this harness timing issue.

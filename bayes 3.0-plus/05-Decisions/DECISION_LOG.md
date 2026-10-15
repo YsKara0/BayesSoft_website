@@ -177,3 +177,29 @@
 - **Kapsam:**02155source+115belgelistesinden8geçiciQA.cjsçalıştırıcısı son talep uyarınca dışlandı;022'nin4belgesi eklenerek166dosya(55source111belge) staged.177ilgisizuserfile+8harness=185hariç; dosyalar silinmedi/değiştirilmedi. JSON/PNG/TXTkanıtlar ve tarihçeler korundu; açıkNULpathlistesi kullanıldı.
 - **Denetim:** Gerçekindexyolu/mode/blob ve çevrimdışıknownsecretpattern kontrolleri uygun.20mevcutwhitespaceuyarısı gizlenmedi;16MDhardbreak/3rawlogCRLF/1sourceEOFblank korundu. Uygulamakodu sırfbiçimiçin değiştirilmedi.
 - **Referans:** GerçekHEAD1218e589fd5275f45d8b610b5ec87eeac05f6886; yeniRCcommit yok. SonbaşarılıPagesb8c38de…/run38187511219 önceki021teyidine dayanır;rollbackprovasi/oldartifacteksikliği ve021releasekoşulları devam eder. [[../04-Development/BS3P-022-RELEASE-CANDIDATE-GIT-CHECKPOINT]] completed; stagedsonuç kullanıcıcommitonayı bekler.
+
+
+## D-029 — 2026-10-15 — WebKit galeri paint uyumluluğu
+- **Yetki:** Kullanıcı023Safari galeri hatasını düzeltmeyi, gerekliolursa aynıgörünümeyakın en küçükfallback'i onayladı. Yeni tasarım/carousel/motionkonsepti yok; diğerhomepagealanları veChromiumkorunur.
+- **Teşhis:** WebKit27.2'de doğruDOMmatris/HTTPposterlere rağmen içiçepreserve3dpanellerüstüste boyandı; nativeSafari tamamenblankraporunu birebir üretmedi. NativeSafariDriverautomationkapalı. StandartCSSpropertysupport buenginepaintbug'ını algılamıyor.
+- **Uygulama:** WebKitUAguard ayrıadapter; aynıleafperspective/rotate/translate, explicitfacing/depth. ExistingringWAAPIprogress/1040-700msPromise durumuna bağlıtransition-onlyRAF ve cleanup; yeni bağımsızanimasyonsaatimotoru yok.6gatedCSS/8stagebağlantı+küçükmodül;Chromiumnormalyol/pikselfark0. WebKitkenardilimraster/örtüşmeparitesi garanti değil.
+- **Durum:** [[../04-Development/BS3P-023-SAFARI-GALLERY-RENDERING-FIX]] implemented; WebKitdesktop-mobilkontroller/TS-lint-build-isolation geçti. NativeSafari manuelret/onay ve021diğerreleasekoşulları sürer. HEAD02739d1korundu; staging/commit/push/merge/deploy yapılmadı.
+
+
+## D-030 — 2026-10-15 — Gerçek Safari SVG poster boyama yolu
+- Kullanıcı023düzeltmesini gerçekSafari'de kabul etmedi;023B yalnızgaleri için açıkdüzeltmeyetkisi. Önceki023kanıtları tarihselkorunur, nativekabul sayılmaz.
+- Safari27.0nativepencere A/B: assetdecode/DOMboyut/adaptöraktif olmasına rağmen lazySVGsymbol/use boş; aynıCSS/adaptör altında directSVGimage görünür. YalnızGalleryStage.tsx içinde aynıviewBox/oran/URL/lazyresolution ile doğrudangörselreferansı; yeniUAkoşulu/düzposterfallback/yeniCSS yok. DahiliWebKitbugmekanizması kesinleştirilmedi.
+- **PENDING USER SAFARI ACCEPTANCE**: productionnativeposter görünürlüğü gözlendi; AXmotioncompletion görülmedi/document.hidden=true. WebKit27.2QA/Chromiumregresyonu gerçekforegroundSafari kabulünü kapatmaz. Kullanıcımanuelsonuçbeklenir; yeniREADY/Git/yayın yok.
+
+
+## D-031 — 2026-10-15 — Safari galeri kabulü ve scroll davranışını koruma
+- Kullanıcı023Bgaleri poster/motion sonucunu gerçekSafari'de açıkça onayladı;023Bcompleted. Headerkaybolması yok, yenileme konumu023Cayrıgörev.
+- Nativeölçümde plainrootrefresh0→0/aşağı622→622; #projects1093/geçmişdoğru. #hero0→refresh82 normalfragment davranışınıüretir; mevcutHomeURLhedefi. Kullanıcının ilkhatadakitamURL'si bilinmediğinden bütünSafariortamları için hata yok iddiası verilmez.
+- Uygulama hatası doğrulanmadığı için kod/CSS/homehash değişikliği, unconditional scrollTo veya restorationoverride yapılmadı. Tasarım/023B/geriileri/hash davranışı korundu.023C **PENDING USER SAFARI ACCEPTANCE**, yeniREADY/yayın yetkisi yok.
+
+
+## D-032 — 2026-10-15 — Safari kabul checkpoint'i ve deploysiz CI
+- Kullanıcı023B/C'yi gerçekSafari sonuçlarıyla kabul etti; SVGimage+mevcutWebKitprojection beraber korunur. Tasarım/compatcleanup/scrolloverride yok.
+- 024açıkstagingyetkisi yalnız023–024kaynak/altyapı/belge/kanıtları kapsar; commit/push/merge/deployyetkisi yok. Açıkpathmanifesti/indexaudit zorunlu;userarchives/.obsidian/harness/generatedout/secrets hariç.
+- Ayrıfeature-onlyUbuntu22workflowcontentsread/npmci/TS/lint/build/isolation; deploy/upload/publishyok. production-onlyHTTPcheck devservergerektirmez, eski defaultkorunur. Gerçekrunner NOT RUN; Dockerdaemonçalışmıyor. YerelmacOS22başarısı yetmez.
+- SonPagesmasterb8c38de…APIteyitli/oldartifact0; yeniRCcommit henüzyok. Sourcefallbackgüvenlik+isolasyonkapılarınıkorumalı, prova/byteidenticalrestoregarantisi yok. CIbaşarısı, artifactyedek/rollbackkoşulları ve ayrı kullanıcıyayınonayı olmadan releaseotomatikilerlemez.

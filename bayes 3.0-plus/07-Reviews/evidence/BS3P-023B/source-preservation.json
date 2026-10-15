@@ -1,0 +1,15 @@
+{
+  "reference": "BS3P-023 başlangıcındaki 285 kaynak snapshot; 023 öncesi referanstır, 023B başlangıcı değildir",
+  "changedSince023Start": [
+    "components/homepage/GalleryStage.tsx",
+    "components/homepage/homepage.css",
+    "lib/homepage/gallery/stage.ts"
+  ],
+  "new023BApplicationChange": "components/homepage/GalleryStage.tsx",
+  "existing023ChangesPreserved": [
+    "components/homepage/homepage.css",
+    "lib/homepage/gallery/stage.ts",
+    "lib/homepage/gallery/webkit-surfaces.ts"
+  ],
+  "debugCodeRetained": false
+}

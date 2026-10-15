@@ -230,3 +230,33 @@ Kaynakla örtüşen motion: `faces.ts` dört metin; `motion.ts` 5000 ms bekleme/
 - [[../04-Development/BS3P-022-RELEASE-CANDIDATE-GIT-CHECKPOINT]] completed;166dosya(55releasekaynağı/111belge-kanıt) staged,185yereldosya(177ilgisiz/8geçiciQA.cjs) hariç. Tam dosya listeleri022evidence'da; kullanıcıcommitonayı beklenir.
 - Allowlist/mode/secretpattern/blob-worktreekontrolleri uygun;yasakpath0/knownsecretbulgu0/100644mode. Rawcachedcheckexit2/20mevcutbiçimuyarısı notta(16MDhardbreak/3rawlogCRLF/1geometryEOFblank); kod veya tarihselkanıt değiştirilmedi.232korumalısource-userfilehashaynı; broadgitadd yok.
 -021READYWITHCONDITIONS riskleri bu staging ile kapanmadı:Safari/WebKit/UbuntuCI/dev13/lastartifact-rollbackprovası. HEAD1218e58aynı/yeniRCcommit henüz yok;sonPagesb8c38de…önceki021metadatareferansı. Yeni test/build/auditnetwork/deployyok;commit/push/mergeyok.
+
+
+## 2026-10-15 — BS3P-023 Safari gallery paint review
+- [[../04-Development/BS3P-023-SAFARI-GALLERY-RENDERING-FIX]] completed implementation; nativeSafari manuelkabulübeklenir. **B-023-01:** kullanıcınınblankSafari alanı; testWebKit27.2nested3Dpaint bozuk/üstüste durumurepro,HTTP/DOMgeometrydoğru. Tamblankaynıdeğil/nativeSafariDriverkapalı; ilgili sınır gizlenmedi.
+- WebKit-only leafcamera transform/facing-depthfallback; aynı9×13/cylindergeometry/order/data/links/controls veexistingWAAPI1040/700ms. Desktop/mobilposterlergörünür/keyboardreversesync/globalpausemanual/reduced0/DEmenuEscape/nooverflow/noerrorspassed. WebKitkenarörtüşmefarkı olabilir; yeniden tasarım yok. Chromiumaynırenderer/pikselfark0.
+- Node22TS-lint-foundation-build-verifier-isolationpassed;686artifact0proto/dev200-prod404.283/285snapshotaynı;yalnızCSS/stage+newhelper. Idle250msstylewrites0/cleanupkaynakinceleme; genişperf/SPAmatrisiyok. İlkReacttextwait harnesstimingsınırı notta.
+- NativeSafari/gerçekiOSswipe/SR/fullperf/UbuntuCI ve021security-rollbackriskleri açık. Usermanualret/onayöncesitamSafariacceptance/yenireleaseREADYverilmedi. HEAD02739d1aynı;staging/commit/push/merge/deployyok.
+
+
+## 2026-10-15 — BS3P-023B real Safari follow-up review
+- [[../04-Development/BS3P-023B-REAL-SAFARI-GALLERY-FIX]] — **PENDING USER SAFARI ACCEPTANCE**.023kullanıcıret kaydı; eski rapor korunur. Safari27.0nativeblank→directSVGimagevisible A/B ve production screenshot mevcut; asset640×863/863/861,stage821.5625×500/117slice/adaptöraktif.
+- YalnızGalleryStage.tsx; geometri/timing/controller/CTA/023projectionaynı. Chromium803×501öncesonra1RGBkanalfark/1.206.909; WebKit+Chromiumdesktop/mobil/keyboard/pausemanual/reduced0/DEmenüEscape/taşma0/pageerror0;ChromiumCDPtouch→Reviel/3assetisteği.
+- Node22TS/hedeflint/foundation/build/verifier/HTTPisolation geçti;686artifact0prototype. NativeforegroundSafari transitioncompletion/klavye/swipe/console doğrulanmadı (AXclicktransitionpending/document.hidden=true); kullanıcıtesti zorunlu, otomatikWebKit yerine sayılmaz. Gerçekcihaz/CI/diğer021riskleri açık; Gitindexboş/commit/push/merge/deployyok.
+
+
+## 2026-10-15 — BS3P-023C Safari scroll restoration review
+- [[../04-Development/BS3P-023C-SAFARI-REFRESH-SCROLL-RESTORATION]] — PENDING USER SAFARI ACCEPTANCE. Kullanıcı023Bposter/animasyonu onayladı;023Bcompleted ve kabulnotu güncellendi.
+- NativeSafari27.0geçicilocal3020artifactaynası: `/` üstrefresh0/aşağı622,projects1093,geri622/ileri1093;activeBODY/restorationauto/hero718sabit/call0. #heroelle0→refresh82 ile semptom yenidenüretildi; mevcutHome/wordmarkfragment davranışı. İlkuserhataURLkesinbilinmiyor; normal `/` bugüretilemedi.
+- Chromium/WebKitkısatestteüst0/hero82/projects1093; otomatikWebKit anındascrollreload0 ve Playwrightheaderautoscrollhistory0 sınırları nativegözlemlerdenayrıldı. Uygulama/CSS/dependency değişmedi, unconditionalreset/fixedheader eklenmedi. Kaynaklar/023Bkorundu, verifier686file0proto; yeniTS/lint/buildyok.
+- Nativegeçiciteşhis3020kapatıldı/debugoutveapp'eyazılmadı;3019plainrootAX0refreshgörüldü. Belgeler/hamJSONkayıtlandı.023Cmanuelkabul/http://127.0.0.1:3019/ beklenir; staging/commit/push/merge/deploy yok.
+
+
+## 2026-10-15 — BS3P-024 release preparation / staging review
+- [[../04-Development/BS3P-024-RELEASE-PREPARATION]] — prepared; kullanıcı023B/C'yi kabul etti. Branch/HEAD02739d1korundu, yeniRCcommit yok. Kabul edilen4gallerysource/pages.yml/package/lockhashaynı; gereksizcompattemizliği yok.
+- Yeni feature-onlyUbuntu22readpermissionworkflow; npmci/TS/targetlint/foundation/build/verifier/HTTPproduction-only. EskiHTTPscriptindevdefaultkorundu/iki modpassed. GitHubCI NOT RUN/Dockerdaemon yok; workflowYAML/branch/permissionstatikcheckpassed gerçekrunner değildir.
+- YerelmacOSNode22TS/lint/foundation/build/verifier/devprodHTTPpassed;686file0prototype. ChromiumfontTR-EN-DE/pausepersist/reload/resume/link/SEO13route/mobile/rootrefreshpassed; sonreducedearlyreadilkerror saklandı,targetedreadyassertpassed; appfixyok.
+- SaltokunurGitHubAPIsonPagesmasterb8c38de…/38187511219success/oldartifact0yenidenteyit. Localcandidateoutmanifestbackupdeğil; rollbackrunbook/cachebelirsizliği/provasızsourcefallbackve021devsecuritykoşulları raporda.
+- Yalnız023–024hedefli kaynak/belge/kanıt açıkpathlistesi staging/audit. İlgisizarşiv/.obsidian/MOV/logo/harness/out/envhariç; kullanıcıdosyalarısilinmedi. Staginglist/stat/checks024evidence'da. Commit/push/merge/deployyok; kullanıcıonayı beklenir.
+
+- 024finalstaging:90dosya(4app/2CI/11belge-log/73kanıt);185user-harness+1localsnapshotdışarıda. Allowlist/mode/knownsecret/yasakpathkontrolleri uygun. Cacheddiffcheckexit2/15uyarı:6MDhardbreak+9rawbuildsatırsonu; gizlenmedi/kaynakuyarısıyok. YeniSHAyok/HEAD02739d1; commitonayı beklenir.

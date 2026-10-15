@@ -1,0 +1,40 @@
+   ▲ Next.js 15.5.28
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 5.4s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/18) ...
+   Generating static pages (4/18) 
+   Generating static pages (8/18) 
+   Generating static pages (13/18) 
+ ✓ Generating static pages (18/18)
+   Finalizing page optimization ...
+   Collecting build traces ...
+   Exporting (0/2) ...
+ ✓ Exporting (2/2)
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                    14.1 kB         134 kB
+├ ○ /_not-found                            991 B         104 kB
+├ ○ /hakkimizda                          8.28 kB         175 kB
+├ ○ /hizmetler                           6.69 kB         168 kB
+├ ○ /iletisim                            7.82 kB         125 kB
+├ ○ /projeler                            8.96 kB         171 kB
+├ ● /projeler/[slug]                     5.94 kB         131 kB
+├   ├ /projeler/tam-finans-fintech
+├   ├ /projeler/smart-hospital
+├   ├ /projeler/petnest-platform
+├   └ [+5 more paths]
+├ ○ /robots.txt                            139 B         103 kB
+└ ○ /sitemap.xml                           139 B         103 kB
++ First Load JS shared by all             103 kB
+  ├ chunks/5d08d3ca-2cf9d6d008e53af1.js  54.2 kB
+  ├ chunks/950-622eb9bf05a17a1d.js       46.3 kB
+  └ other shared chunks (total)          2.06 kB
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+Verified production export: {"files":686,"prototypeArtifacts":0,"prototypeDependencies":0}

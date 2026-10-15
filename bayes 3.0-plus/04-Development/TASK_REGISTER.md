@@ -153,3 +153,31 @@ Durumlar: `planned` · `in-progress` · `blocked` · `completed` · `deferred` �
 | ID | Görev | Durum | Bağımlılık / kabul ölçütü |
 |---|---|---|---|
 | BS3P-022 | Seçili release candidate staging ve index denetimi | completed | [[BS3P-022-RELEASE-CANDIDATE-GIT-CHECKPOINT]];166staged(55source/111belge),185hariç(177user/8harness). Indexallowlist/mode/knownsecret/çatışma kontrolleri uygun;20mevcutbiçimuyarısı kaydedildi. HEAD1218e58aynı/yeniRCcommit yok; commitonayı beklenir. Kod/CSS/commit/push/merge/deploy yok |
+
+
+## BS3P-023 — 2026-10-15 Safari selected-projects rendering
+
+| ID | Görev | Durum | Bağımlılık / kabul ölçütü |
+|---|---|---|---|
+| BS3P-023 | WebKit silindirikgaleri boyama uyumluluğu | completed | [[BS3P-023-SAFARI-GALLERY-RENDERING-FIX]];nested3Dpaint izole/WebKitonlysamemathprojection; WebKitdesktop-mobil/controls/reducedpassed,Chromiumpixel0,TS-lint-build-isolationpassed. NativeSafariDriverkapalı/tamblankbirebirreproyok;manuelSafari kabulübeklenir.3appdosyası;staging/commit/push/merge/deployyok |
+
+
+## BS3P-023B — 2026-10-15 Real Safari gallery follow-up
+
+| ID | Görev | Durum | Bağımlılık / kabul ölçütü |
+|---|---|---|---|
+| BS3P-023B | Gerçek Safari boş poster yolunun düzeltilmesi | completed — user accepted 2026-10-15 | [[BS3P-023B-REAL-SAFARI-GALLERY-FIX]]; kullanıcı023sonucunu reddetti. Safari27.0nativeblank A/B; SVGuse→directimage ile poster görünür. Chrome/WebKitdesktop-mobil/Node22build-isolation passed; 023C talebinde kullanıcı gerçekSafari poster/animasyonunu onayladı. Önceki pending teslimin tarihsel kaydı023Braporunda. Tekappdosyası, staging/commit/push/merge/deploy yok |
+
+
+## BS3P-023C — 2026-10-15 Safari refresh scroll review
+
+| ID | Görev | Durum | Bağımlılık / kabul ölçütü |
+|---|---|---|---|
+| BS3P-023C | Yenileme scroll restoration teşhisi | completed — user accepted BS3P-024 | [[BS3P-023C-SAFARI-REFRESH-SCROLL-RESTORATION]]; native `/` refreshüst0/aşağı622korunur; #projects1093/geri622/ileri1093; #hero0→82 fragmentrepro. Appbugkanıtlanmadı/kod değişmedi.023Bgaleri kullanıcıkabulü kapandı; artifactizolasyonpassed, yeni build yok. Git/yayın yok |
+
+
+## BS3P-024 — 2026-10-15 Release preparation
+
+| ID | Görev | Durum | Bağımlılık / kabul ölçütü |
+|---|---|---|---|
+| BS3P-024 | Safari checkpoint staging, CI ve rollback hazırlığı | prepared — user approval / Ubuntu CI pending | [[BS3P-024-RELEASE-PREPARATION]];023B/Caccepted.4gallerysourcekorunur;feature-onlyreadpermUbuntu22workflow+prod-onlyHTTPcheck. YerelTS/lint/build/isolation/regressionpassed; gerçekUbuntu NOT RUN. SonPagesb8c38de/artifact0teyitli; rollbackrunbook/provasızyedekriski açık. Stagedallowlist/audit, commit/push/merge/deploy yok |

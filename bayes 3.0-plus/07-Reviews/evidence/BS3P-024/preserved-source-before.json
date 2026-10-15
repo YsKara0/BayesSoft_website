@@ -1,0 +1,9 @@
+{
+  "components/homepage/GalleryStage.tsx": "8d1cfed520cab7bc56b339c66ee74b152d4574476d1b442da0fbe78cb23f87cb",
+  "components/homepage/homepage.css": "868c3eb3da4d21b9dfde4ba913337ef53a1124bddadefceacd0d98f44550ec0d",
+  "lib/homepage/gallery/stage.ts": "1cfceba34686d6fd3c0059bd7e64f0053f285a2f14e7518b9d2b00ff5e6149df",
+  "lib/homepage/gallery/webkit-surfaces.ts": "cd47c97c83572f99c56c0957c698350d930dfbd323db12be96fc94968507ec74",
+  ".github/workflows/pages.yml": "fd06cce519b9464de58b2a81f098101a56de0e0060cfac85654d3bdf8139a455",
+  "package.json": "245468693d880a1546e32de990acc078b76882ac643558c4e20408d0ac9d9164",
+  "package-lock.json": "7ff6b592ec613260ce520bad02e7c1cbb6e051c89f9a42c3aa4d7f2faa66f44f"
+}

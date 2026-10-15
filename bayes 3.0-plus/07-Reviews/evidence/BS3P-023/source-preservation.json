@@ -1,0 +1,10 @@
+{
+  "snapshotFiles": 285,
+  "unchanged": 283,
+  "changed": [
+    "components/homepage/homepage.css",
+    "lib/homepage/gallery/stage.ts"
+  ],
+  "newApplicationFile": "lib/homepage/gallery/webkit-surfaces.ts",
+  "preserved": "Other homepage sections, geometry/state/controller/swipe, translations/project data, original PNG/WebP/font assets, prototypes and build isolation untouched. No dependency/staging/commit/push/deploy."
+}

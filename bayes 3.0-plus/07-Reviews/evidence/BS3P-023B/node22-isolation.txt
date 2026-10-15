@@ -1,0 +1,29 @@
+{
+  "export": {
+    "files": 686,
+    "prototypeArtifacts": 0,
+    "prototypeDependencies": 0
+  },
+  "devRoutes": [
+    "/prototype/bs3p-homepage",
+    "/prototype/bs3p-project-showcase",
+    "/prototype/bs3p-project-showcase-r2",
+    "/prototype/bs3p-right-3d",
+    "/prototype/spatial-hero",
+    "/prototype/spatial-hero-plus"
+  ],
+  "productionDenied": [
+    "/prototype",
+    "/prototype/",
+    "/prototype.html",
+    "/prototype/bs3p-homepage",
+    "/prototype/bs3p-homepage/",
+    "/prototype/bs3p-homepage.html",
+    "/prototype/bs3p-homepage/index.html",
+    "/prototype/bs3p-homepage.txt",
+    "/%70rototype/bs3p-homepage",
+    "/prototype-assets/bs3p-homepage/reviel-cover.png"
+  ],
+  "productionRoutes": "200",
+  "prototypeDevAsset": "200"
+}

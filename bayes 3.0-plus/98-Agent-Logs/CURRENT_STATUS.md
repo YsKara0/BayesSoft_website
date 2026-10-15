@@ -1,10 +1,50 @@
-# CURRENT STATUS — 2026-10-15 BS3P-022 Release Candidate Staging
+# CURRENT STATUS — 2026-10-15 BS3P-024 Release Preparation
 
-**Aktif branch / gerçek HEAD:** `feature/bayessoft-3.0-plus` / `1218e589fd5275f45d8b610b5ec87eeac05f6886`.
-**Aşama:** BS3P-022 completed;166dosya staging'de, commit için kullanıcı onayı beklenir. YeniRCcommit henüz yok.
-**Teslim:** [[../04-Development/BS3P-022-RELEASE-CANDIDATE-GIT-CHECKPOINT]].
-**Yetki:** Yalnız seçili staging/loglar. Uygulama/CSS/tasarım değişmedi; commit/push/merge/deploy yapılmadı.
-**Release durumu:**021READY WITH CONDITIONS korunur; staging yayın/risk kabulü değildir. Safari/WebKit,UbuntuCI,dev10high3moderate,eskiartifact/rollbackprovası koşulları açık.
+**Durum:** PREPARED — stagedcheckpoint kullanıcıonayı; gerçekUbuntuCIbekliyor.
+**Branch / HEAD:** `feature/bayessoft-3.0-plus` / `02739d112d65dbb6fc420eadd6611ff701415561`; yeniRCcommit yok.
+**Teslim:** [[../04-Development/BS3P-024-RELEASE-PREPARATION]].
+- Kullanıcı023B ve023C'yi kabul etti: gerçekSafari poster/motion/normalrootrefresh doğru; #hero82 doğalfragment. Kabulnotları task/report/review'da; eski pending kayıtlar tarihseldir.
+- Kabul edilen4gallerysource ve pages.yml/package/lock hash'leri korundu. Yeni deployiçermeyen feature-only Ubuntu22/npmci validationworkflow ve mevcut HTTPchecker'a --production-only eklendi; tasarım/appedit yok.
+- YerelmacOSNode22TS/lint/foundation/build/ikiizolasyonmodu passed;686file0prototype. Chromiumkısadil/font/motion/links/rootscroll/mobile passed; reducedilkearlyreadkanıtı+targetedreadyconfirmation saklandı.
+- GerçekGitHubUbuntu/npmci NOT RUN; Dockerdaemonçalışmıyor. Push/deployyetkisiyok; YAML/minpermissionsstatikcheckpassed gerçekrunner yerine sayılmaz.
+- GitHubAPIsonPagesmasterb8c38de…/run38187511219success,masterHEADaynı; oldartifact0. Rollbacksourcefallback/provasızlık/cachekontrolönkoşulları raporda. Localcandidateoutmanifest eskiyayınbackup'ı değil.
+- 90hedefdosya staging'e alındı;185user/harness+1localsnapshotdışarıda. Allowlist/mode/secretaudit uygun;15MD/rawlogwhitespaceuyarısı kaydedildi; tamliste024evidence'da. İlgisizuserfiles/.obsidian/eskiarşiv/MOV/harnesslerdışarıda. Commit/push/merge/deploy yok; kullanıcıonayı beklenir.021devsecurity/CI/rollbackkoşulları kapanmışsayılmaz.
+
+## Önceki BS3P-023C durum özeti — tarihsel; kullanıcı artık onayladı
+
+**Durum: PENDING USER SAFARI ACCEPTANCE** — 023C teşhisi tamamlandı; uygulama hatası doğrulanmadı, kod değişmedi.
+**Branch / HEAD:** `feature/bayessoft-3.0-plus` / `02739d112d65dbb6fc420eadd6611ff701415561`.
+**Teslim:** [[../04-Development/BS3P-023C-SAFARI-REFRESH-SCROLL-RESTORATION]].
+- **BS3P-023B kullanıcı tarafından onaylandı/completed:** gerçekSafari posterleri ve silindirik animasyon doğru, header kaybolmuyor. Eski pending kayıtları tarihsel; kabul notu023Braporuna eklendi.
+- KuruluSafari native ölçüm: hash olmayan `/` üst refresh0→0, aşağı refresh622→622, projects hash1093, geri622/ileri1093. ActiveBODY/restorationauto/hero718px sabit; uygulamadan scroll/focus çağrısı yok.
+- `#hero` elle0'a alınıp yenilenince82'ye gider/headerY−52. Mevcut wordmark/AnaSayfa bufragmente bağlı; aynı mekanizma Chromium'da da görülür. Kullanıcının ilk hata anının tamURLkaydı yok, normal `/` sorunu buoturumda üretilemedi.
+- Koşulsuzscroll/fixedheader/hash/historyoverride yok; 023B ve diğer tüm kaynaklar korunur. Mevcutartifactverifier686file/0prototype geçti; yeni build/TS/lint gerekmedi ve çalıştırılmadı.
+- Native3020teşhisaynası kapatıldı,debug repo/artifact'e eklenmedi. Manueltest http://127.0.0.1:3019/ ve /#selected-projects ; 023C kullanıcıkabulü beklenir. Git/staging/yayın yok;021diğerriskler sürer.
+
+## Önceki BS3P-023B durum özeti — tarihsel; kullanıcı artık onayladı
+
+**Durum: PENDING USER SAFARI ACCEPTANCE**
+**Branch / HEAD:** `feature/bayessoft-3.0-plus` / `02739d112d65dbb6fc420eadd6611ff701415561`.
+**Teslim:** [[../04-Development/BS3P-023B-REAL-SAFARI-GALLERY-FIX]]. Kullanıcı023düzeltmesini gerçekSafari'de reddetti; önceki completed/WebKit kaydı native kabul değildir.
+- Safari27.0 native pencerede boş galeri A/B üretildi. Poster decode640×863/863/861, stage821.5625×500,117dilim ve projected-surfaces aktif; SVGsymbol/use yolu boş boyanıyor. DirectSVGimage ile dev ve production posterleri görünür.
+- Yalnız GalleryStage.tsx değişti: aynı dilim/viewBox/oran/lazyWebP; sıfırdefs/use kaldırıldı.023CSS/stage/helper, geometri/motion/veri/diğer bölümler korundu.
+- Chromium piksel farkı1/1.206.909kanal; WebKit+Chromium desktop/mobil kontroller, Chromium touch, Node22TS-lint-foundation-build-isolation geçti.686artifact0prototype,3tekilposteristeği.
+- NativeSafari AX geçiş tamamlanması görülmedi; geçici teşhiste document.hidden=true. Foreground Safari ok/klavye/swipe ve gerçekmobil kabulü kullanıcıya aittir. Debug kaldırıldı; WebKit testi yerine sayılmaz.
+- Manuel production: http://127.0.0.1:3019/?review=023b#selected-projects ; dev3018. Görev kullanıcı sonucu gelene kadar pending; yeniREADY/staging/commit/push/merge/deploy yok.021diğer riskler sürer.
+
+## Önceki BS3P-023 durum özeti — tarihsel; kullanıcı kabul etmedi
+
+**Branch / gerçek HEAD:** `feature/bayessoft-3.0-plus` / `02739d112d65dbb6fc420eadd6611ff701415561`.
+**Aşama:** BS3P-023 implementation completed; WebKit motorunda galeri görünür/kullanılabilir, kuruluSafari manuel kabulü beklenir.
+**Teslim:** [[../04-Development/BS3P-023-SAFARI-GALLERY-RENDERING-FIX]].
+**Git:** Oturum başında022releasecandidate zaten02739d1commit'indeydi/indexboş.023yalnız3uygulamadosyası+belge/kanıt/log değiştirir; yeni staging/commit/push/merge/deploy yok.
+**Yerel:** dev http://127.0.0.1:3018/ ; testproductionartifact http://127.0.0.1:3019/ . Canlıyayın değişmedi.
+
+## Güncel BS3P-023 teslimi
+- WebKit27.2'de posterHTTP/DOMmatrisleri doğru,nestedpreserve3dpaintüstüste bozuk. KullanıcınıntamblankNativeSafari görüntüsü birebirreprodeğil; SafariDriverautomationkapalı. Nativeayardeğişmeden geçiciWebKitheadless/headedbaselineincelendi.
+- İzoleWebKit-onlyper-stripprojection aynıgeometri/9×13/perspective/radius veexistingWAAPIprogress1040/700ms; facing-depth yönetimi/transition-onlyRAF/cleanup. Chromiumeskiyol/pikselfark0; posterdata/CTA/motionlogic/diğerbölümleraynı. WebKitkenardilimörtüşmesifarklıolabilir; motormotorpikseleşitlikiddiasıyok.
+- WebKit+Chromium1440/390poster/ileri-geri/klavye/orderlinks/globalpausemanual/reduced0/DEmenuEscape/nooverflow/noerrors veNode22TS-lint-foundation-build-isolationpassed.686artifact0proto;285snapshot283aynı+2diff+1newhelper. FinalSafari/iOS/SR/perf/UbuntuCI ve021security-rollback koşulları sürer.
+- Task/current/next/session/daily/review/D-029/023kanıtlar güncel. KullanıcıSafari manuelret/onayı beklenir; yeniREADY/yayın/staging yok. Aşağıdaki önceki checkpoint kayıtları tarihseldir; güncelHEAD02739d1'dir.
 
 ## Güncel BS3P-022 teslimi
 - 55releasekaynağı+111belge/kanıt=166staged;185hariç(177ilgisizuserfile+8geçiciQA.cjs).021tamlistesinden açık dosya seçimi yapıldı, genişgitadd kullanılmadı.022staged/excludedlisteleri ve stagingchecks hazır; zorunluObsidian kayıtları dahildir.

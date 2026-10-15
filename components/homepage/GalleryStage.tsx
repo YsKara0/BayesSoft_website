@@ -3,7 +3,6 @@ import type { SelectedProject } from "@/data/selectedProjects";
 import { CYLINDER, cylinderGeometry } from "@/lib/homepage/gallery/geometry";
 import type { HomepageCopy } from "@/data/homepage";
 const WIDTH = 1280, HEIGHT = 1600;
-const coverId = (id: string) => `homepage-${id}-cover`;
 export function GalleryStage({ projects, activeName, t }: { projects: readonly SelectedProject[]; activeName: string; t: HomepageCopy }) {
   const figure = useRef<HTMLElement>(null);
   const [resolution, setResolution] = useState<0 | 640 | 1080>(0);
@@ -32,12 +31,6 @@ export function GalleryStage({ projects, activeName, t }: { projects: readonly S
     return () => { abort.abort(); resize.disconnect(); intersection?.disconnect(); };
   }, []);
   return <figure className="cy-visual" ref={figure} data-poster-resolution={resolution}>
-    <svg className="cy-definitions" width="0" height="0" aria-hidden="true" focusable="false">
-      <defs>{projects.map(project =>
-        <symbol key={project.id} id={coverId(project.id)} viewBox={`0 0 ${WIDTH} ${HEIGHT}`}>
-          <image href={resolution ? resolution === 640 ? project.posterSmallSrc : project.posterSrc : undefined} width={WIDTH} height={HEIGHT} preserveAspectRatio="xMidYMid meet" />
-        </symbol>)}</defs>
-    </svg>
     <div className="cy-viewport">
       <div className="cy-stage" data-stage tabIndex={-1} role="group" aria-label={`${t.gallery}: ${activeName}`} aria-describedby="selected-projects-caption selected-projects-help">
         <div className="cy-ring" data-ring>{Array.from({ length: CYLINDER.slots }, (_, slot) =>
@@ -46,8 +39,9 @@ export function GalleryStage({ projects, activeName, t }: { projects: readonly S
             const overscan = width * (CYLINDER.overlap - 1) / 2;
             const angle = -CYLINDER.arc / 2 + CYLINDER.arc / CYLINDER.strips * (index + .5);
             return <div key={index} className="cy-strip" style={{ "--strip-angle": `${angle}deg` } as CSSProperties} data-strip>
+              {/* Direct image references avoid Safari retaining an empty lazy-loaded symbol/use shadow tree. */}
               <svg viewBox={`${index * width - overscan} 0 ${width * CYLINDER.overlap} ${HEIGHT}`} preserveAspectRatio="none" aria-hidden="true" focusable="false">
-                <use href={`#${coverId(projects[slot % 3].id)}`} width={WIDTH} height={HEIGHT} />
+                <image href={resolution ? resolution === 640 ? projects[slot % 3].posterSmallSrc : projects[slot % 3].posterSrc : undefined} width={WIDTH} height={HEIGHT} preserveAspectRatio="xMidYMid meet" />
               </svg>
             </div>;
           })}</div>)}</div>

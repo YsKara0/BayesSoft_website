@@ -336,6 +336,12 @@
 .bs3p-react-homepage .cy-panel{position:absolute;top:50%;left:50%;width:0;height:0;transform:rotateY(var(--slot-angle));transform-style:preserve-3d}
 .bs3p-react-homepage .cy-strip{position:absolute;left:calc(var(--strip-width)*-.5);top:calc(var(--cover-height)*-.5);width:var(--strip-width);height:var(--cover-height);transform:rotateY(var(--strip-angle)) translateZ(var(--radius));backface-visibility:hidden}
 .bs3p-react-homepage .cy-strip svg{display:block;width:100%;height:100%;overflow:hidden}
+/* WebKit: paint each curved slice with the same complete camera transform,
+   avoiding nested preserve-3d panel compositing. Chromium keeps the original path. */
+.bs3p-react-homepage .cy-stage[data-renderer=projected-surfaces]{perspective:none;transform-style:flat}
+.bs3p-react-homepage .cy-stage[data-renderer=projected-surfaces] .cy-ring{transform:none!important;transform-style:flat}
+.bs3p-react-homepage .cy-stage[data-renderer=projected-surfaces] .cy-panel{display:contents}
+.bs3p-react-homepage .cy-stage[data-renderer=projected-surfaces] .cy-strip{left:calc(50% - var(--strip-width)*.5);top:calc(50% - var(--cover-height)*.5);transform:perspective(var(--perspective)) translateZ(calc(-1 * var(--radius))) rotateY(var(--surface-angle)) translateZ(var(--radius))}
 .bs3p-react-homepage .cy-gesture{position:absolute;inset:0;z-index:1}
 .bs3p-react-homepage .cy-visual figcaption{margin-top:18px;text-align:center;font-size:13px;line-height:1.4;color:var(--cy-muted)}
 .bs3p-react-homepage .cy-info{min-width:0;min-height:472px;padding-block:12px;display:flex;flex-direction:column;align-items:flex-start}

@@ -1,6 +1,7 @@
 import { requiredElement } from "./dom";
 import type { ShowcaseState } from "./types";
 import { CYLINDER, cylinderGeometry, slotForStep } from "./geometry";
+import { createWebKitSurfaces } from "./webkit-surfaces";
 
 export function createCylindricalStage(root: HTMLElement, onEnvironmentChange: () => void) {
   const element = requiredElement<HTMLElement>(root, "[data-stage]");
@@ -11,6 +12,8 @@ export function createCylindricalStage(root: HTMLElement, onEnvironmentChange: (
   let radius = 0;
   let previousEnvironment = "";
   let animation: Animation | null = null;
+  let currentStep = 0;
+  const surfaces = createWebKitSurfaces(element);
 
   function updateGeometry() {
     const width = element.getBoundingClientRect().width;
@@ -25,6 +28,7 @@ export function createCylindricalStage(root: HTMLElement, onEnvironmentChange: (
     element.style.setProperty("--strip-width", `${geometry.stripWidth}px`);
     element.style.setProperty("--cover-height", `${geometry.coverHeight}px`);
     element.dataset.mode = compact.matches ? "compact-cylinder" : "cylinder";
+    surfaces?.commit(currentStep);
   }
 
   const observer = new ResizeObserver(updateGeometry);
@@ -34,9 +38,11 @@ export function createCylindricalStage(root: HTMLElement, onEnvironmentChange: (
   updateGeometry();
 
   function commit(_index: number, step: number) {
+    currentStep = step;
     element.style.setProperty("--ring-angle", `${-step * CYLINDER.step}deg`);
     element.dataset.activeSlot = String(slotForStep(step));
     panels.forEach((panel, slot) => panel.classList.toggle("is-current", slot === slotForStep(step)));
+    surfaces?.commit(step);
     animation?.cancel();
     animation = null;
   }
@@ -48,6 +54,7 @@ export function createCylindricalStage(root: HTMLElement, onEnvironmentChange: (
       duration: compact.matches ? 700 : 1040,
       easing: "cubic-bezier(.42,0,.18,1)", fill: "both",
     });
+    surfaces?.play(animation, state.step, state.targetStep);
     return animation.finished.then(() => undefined);
   }
 
@@ -55,6 +62,7 @@ export function createCylindricalStage(root: HTMLElement, onEnvironmentChange: (
     element, play, commit,
     destroy() {
       animation?.cancel();
+      surfaces?.destroy();
       observer.disconnect();
       compact.removeEventListener("change", updateGeometry);
       reduced.removeEventListener("change", updateGeometry);

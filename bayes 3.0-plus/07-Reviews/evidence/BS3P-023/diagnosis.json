@@ -1,0 +1,280 @@
+{
+  "webkit": {
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+    "resolution": "640",
+    "ready": "true",
+    "images": [
+      "/projects/covers/furtherup-drive-cover-640.webp",
+      "/projects/covers/reviel-cover-640.webp",
+      "/projects/covers/metek-makina-cover-640.webp"
+    ],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:3019/projects/covers/furtherup-drive-cover-640.webp",
+        "bytes": 72610
+      },
+      {
+        "name": "http://127.0.0.1:3019/projects/covers/reviel-cover-640.webp",
+        "bytes": 114566
+      },
+      {
+        "name": "http://127.0.0.1:3019/projects/covers/metek-makina-cover-640.webp",
+        "bytes": 142012
+      }
+    ],
+    "boxes": [
+      {
+        "selector": ".cy-visual",
+        "box": {
+          "x": 64,
+          "y": 249.265625,
+          "width": 802.28125,
+          "height": 536.1875,
+          "top": 249.265625,
+          "right": 866.28125,
+          "bottom": 785.453125,
+          "left": 64
+        },
+        "transform": "none",
+        "contain": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".cy-definitions",
+        "box": {
+          "x": 64,
+          "y": 249.265625,
+          "width": 0,
+          "height": 0,
+          "top": 249.265625,
+          "right": 64,
+          "bottom": 249.265625,
+          "left": 64
+        },
+        "transform": "none",
+        "contain": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".cy-stage",
+        "box": {
+          "x": 64,
+          "y": 249.265625,
+          "width": 802.28125,
+          "height": 500,
+          "top": 249.265625,
+          "right": 866.28125,
+          "bottom": 749.265625,
+          "left": 64
+        },
+        "transform": "none",
+        "contain": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".cy-ring",
+        "box": {
+          "x": 119.66065979003906,
+          "y": 283.95458984375,
+          "width": 690.9599609375,
+          "height": 430.6220703125,
+          "top": 283.95458984375,
+          "right": 810.6206207275391,
+          "bottom": 714.57666015625,
+          "left": 119.66065979003906
+        },
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -465.32312, 1)",
+        "contain": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".cy-panel",
+        "box": {
+          "x": 465.140625,
+          "y": 499.265625,
+          "width": 0,
+          "height": 0,
+          "top": 499.265625,
+          "right": 465.140625,
+          "bottom": 499.265625,
+          "left": 465.140625
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "contain": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".cy-strip",
+        "box": {
+          "x": 314.3711242675781,
+          "y": 307.5777587890625,
+          "width": 23.22747802734375,
+          "height": 383.3912353515625,
+          "top": 307.5777587890625,
+          "right": 337.5986022949219,
+          "bottom": 690.968994140625,
+          "left": 314.3711242675781
+        },
+        "transform": "matrix3d(0.953515, 0, 0.301346, 0, 0, 1, 0, 0, -0.301346, 0, 0.953515, 0, -140.223235, 0, 443.692518, 1)",
+        "contain": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".cy-strip svg",
+        "box": {
+          "x": 314.3711242675781,
+          "y": 307.5777587890625,
+          "width": 23.22747802734375,
+          "height": 383.3912353515625,
+          "top": 307.5777587890625,
+          "right": 337.5986022949219,
+          "bottom": 690.968994140625,
+          "left": 314.3711242675781
+        },
+        "transform": "none",
+        "contain": "none",
+        "overflow": "hidden"
+      }
+    ],
+    "errors": []
+  },
+  "chromium": {
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "resolution": "640",
+    "ready": "true",
+    "images": [
+      "/projects/covers/furtherup-drive-cover-640.webp",
+      "/projects/covers/reviel-cover-640.webp",
+      "/projects/covers/metek-makina-cover-640.webp"
+    ],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:3019/projects/covers/furtherup-drive-cover-640.webp",
+        "bytes": 72610
+      },
+      {
+        "name": "http://127.0.0.1:3019/projects/covers/reviel-cover-640.webp",
+        "bytes": 114566
+      },
+      {
+        "name": "http://127.0.0.1:3019/projects/covers/metek-makina-cover-640.webp",
+        "bytes": 142012
+      }
+    ],
+    "boxes": [
+      {
+        "selector": ".cy-visual",
+        "box": {
+          "x": 64,
+          "y": 250.265625,
+          "width": 802.28125,
+          "height": 536.1875,
+          "top": 250.265625,
+          "right": 866.28125,
+          "bottom": 786.453125,
+          "left": 64
+        },
+        "transform": "none",
+        "contain": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".cy-definitions",
+        "box": {
+          "x": 64,
+          "y": 250.265625,
+          "width": 0,
+          "height": 0,
+          "top": 250.265625,
+          "right": 64,
+          "bottom": 250.265625,
+          "left": 64
+        },
+        "transform": "none",
+        "contain": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".cy-stage",
+        "box": {
+          "x": 64,
+          "y": 250.265625,
+          "width": 802.28125,
+          "height": 500,
+          "top": 250.265625,
+          "right": 866.28125,
+          "bottom": 750.265625,
+          "left": 64
+        },
+        "transform": "none",
+        "contain": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".cy-ring",
+        "box": {
+          "x": 119.66065979003906,
+          "y": 284.9546203613281,
+          "width": 690.9599609375,
+          "height": 430.6219787597656,
+          "top": 284.9546203613281,
+          "right": 810.6206207275391,
+          "bottom": 715.5765991210938,
+          "left": 119.66065979003906
+        },
+        "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -465.323, 1)",
+        "contain": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".cy-panel",
+        "box": {
+          "x": 465.140625,
+          "y": 500.265625,
+          "width": 0,
+          "height": 0,
+          "top": 500.265625,
+          "right": 465.140625,
+          "bottom": 500.265625,
+          "left": 465.140625
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "contain": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".cy-strip",
+        "box": {
+          "x": 314.36871337890625,
+          "y": 308.5770263671875,
+          "width": 23.227569580078125,
+          "height": 383.39276123046875,
+          "top": 308.5770263671875,
+          "right": 337.5962829589844,
+          "bottom": 691.9697875976562,
+          "left": 314.36871337890625
+        },
+        "transform": "matrix3d(0.953515, 0, 0.301346, 0, 0, 1, 0, 0, -0.301346, 0, 0.953515, 0, -140.223, 0, 443.693, 1)",
+        "contain": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".cy-strip svg",
+        "box": {
+          "x": 314.36871337890625,
+          "y": 308.5770263671875,
+          "width": 23.227569580078125,
+          "height": 383.39276123046875,
+          "top": 308.5770263671875,
+          "right": 337.5962829589844,
+          "bottom": 691.9697875976562,
+          "left": 314.36871337890625
+        },
+        "transform": "none",
+        "contain": "none",
+        "overflow": "hidden"
+      }
+    ],
+    "errors": []
+  }
+}

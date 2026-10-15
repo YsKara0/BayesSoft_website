@@ -1,0 +1,41 @@
+{
+  "method": "Native Safari CUA AX + screenshots; temporary diagnostic DOM removed after use",
+  "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+  "loadedImages": [
+    {
+      "project": "FurtherUp Drive",
+      "naturalWidth": 640,
+      "naturalHeight": 863
+    },
+    {
+      "project": "Reviel",
+      "naturalWidth": 640,
+      "naturalHeight": 863
+    },
+    {
+      "project": "Metek Makina",
+      "naturalWidth": 640,
+      "naturalHeight": 861
+    }
+  ],
+  "originalPath": {
+    "renderer": "projected-surfaces",
+    "supportsPreserve3d": true,
+    "resolution": 640,
+    "stage": {
+      "x": 64,
+      "y": 241.265625,
+      "width": 821.5625,
+      "height": 500
+    },
+    "radius": 476.50625,
+    "perspective": 2957.625,
+    "strips": 117,
+    "paint": "blank despite loaded images and active adapter"
+  },
+  "controlledChange": "Retain 023 geometry/projection and replace SVG use -> direct image; remove unused zero-size defs SVG",
+  "result": "Native Safari posters visible in development and production export; screenshots saved",
+  "limit": "Native AX click entered transition but completion not observed; temporary diagnostic reported document.hidden=true. Foreground real Safari motion/keyboard/swipe not accepted by automation. User acceptance required; remote automation setting unchanged.",
+  "console": "Web Inspector unavailable through shortcut; native console not inspected; automated Chromium/WebKit pageerrors zero.",
+  "internalCauseLimit": "The symbol/use lazy image paint path is isolated by A/B. Exact WebKit internal invalidation versus zero-sized definition behavior not separately proven."
+}

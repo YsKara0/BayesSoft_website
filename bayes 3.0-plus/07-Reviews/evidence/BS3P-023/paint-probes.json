@@ -1,0 +1,41 @@
+{
+  "directSvg": {
+    "children": "<svg viewBox=\"-2.461538461538464 0 103.3846153846154 1600\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\"><image width=\"1280\" height=\"1600\" preserveAspectRatio=\"xMidYMid meet\" href=\"/projects/covers/furtherup-drive-cover-640.webp\"></image></svg>",
+    "panelSize": {
+      "x": 465.140625,
+      "y": 499.265625,
+      "width": 0,
+      "height": 0,
+      "top": 499.265625,
+      "right": 465.140625,
+      "bottom": 499.265625,
+      "left": 465.140625
+    }
+  },
+  "htmlImg": {
+    "children": "<img src=\"/projects/covers/furtherup-drive-cover-640.webp\" style=\"position: absolute; max-width: none; width: 1238.095238%; height: 100%; left: 2.380952%; top: 0px; object-fit: contain;\">",
+    "panelSize": {
+      "x": 465.140625,
+      "y": 499.265625,
+      "width": 0,
+      "height": 0,
+      "top": 499.265625,
+      "right": 465.140625,
+      "bottom": 499.265625,
+      "left": 465.140625
+    }
+  },
+  "fullPanels": {
+    "children": "<img src=\"/projects/covers/furtherup-drive-cover-640.webp\" style=\"position: absolute; max-width: none; width: 1238.095238%; height: 100%; left: 2.380952%; top: 0px; object-fit: contain;\">",
+    "panelSize": {
+      "x": 119.66065979003906,
+      "y": 283.95458984375,
+      "width": 690.9599609375,
+      "height": 430.6220703125,
+      "top": 283.95458984375,
+      "right": 810.6206207275391,
+      "bottom": 714.57666015625,
+      "left": 119.66065979003906
+    }
+  }
+}

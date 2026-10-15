@@ -30,14 +30,17 @@ try {
   }
   const denied = ["/prototype", "/prototype/", "/prototype.html", "/prototype/bs3p-homepage", "/prototype/bs3p-homepage/", "/prototype/bs3p-homepage.html", "/prototype/bs3p-homepage/index.html", "/prototype/bs3p-homepage.txt", "/%70rototype/bs3p-homepage", "/prototype-assets/bs3p-homepage/reviel-cover.png"];
   for (const path of denied) assert.equal((await fetch(production + path)).status, 404, path);
+  const productionOnly = process.argv[2] === "--production-only";
   const dev = process.argv[2] ?? "http://127.0.0.1:3018";
   const routes = [];
-  for (const item of await readdir("app/prototype", { withFileTypes: true })) {
-    if (!item.isDirectory()) continue;
-    const path = `/prototype/${item.name}`;
-    assert.equal((await fetch(dev + path)).status, 200, `Development ${path}`);
-    routes.push(path);
+  if (!productionOnly) {
+    for (const item of await readdir("app/prototype", { withFileTypes: true })) {
+      if (!item.isDirectory()) continue;
+      const path = `/prototype/${item.name}`;
+      assert.equal((await fetch(dev + path)).status, 200, `Development ${path}`);
+      routes.push(path);
+    }
+    assert.equal((await fetch(dev + "/prototype-assets/bs3p-homepage/reviel-cover.png")).status, 200);
   }
-  assert.equal((await fetch(dev + "/prototype-assets/bs3p-homepage/reviel-cover.png")).status, 200);
-  console.log(JSON.stringify({ export: exportReport, devRoutes: routes, productionDenied: denied, productionRoutes: "200", prototypeDevAsset: "200" }, null, 2));
+  console.log(JSON.stringify({ export: exportReport, devRoutes: productionOnly ? "not checked" : routes, productionDenied: denied, productionRoutes: "200", prototypeDevAsset: productionOnly ? "not checked" : "200" }, null, 2));
 } finally { await new Promise(resolveClosed => server.close(resolveClosed)); }

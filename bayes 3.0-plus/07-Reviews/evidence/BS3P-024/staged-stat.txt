@@ -1,0 +1,91 @@
+ .github/workflows/release-validation.yml           |   48 +
+ .../BS3P-023-SAFARI-GALLERY-RENDERING-FIX.md       |   69 +
+ .../BS3P-023B-REAL-SAFARI-GALLERY-FIX.md           |   64 +
+ .../BS3P-023C-SAFARI-REFRESH-SCROLL-RESTORATION.md |   66 +
+ .../04-Development/BS3P-024-RELEASE-PREPARATION.md |   84 +
+ bayes 3.0-plus/04-Development/TASK_REGISTER.md     |   28 +
+ bayes 3.0-plus/05-Decisions/DECISION_LOG.md        |   26 +
+ bayes 3.0-plus/07-Reviews/REVIEW_REGISTER.md       |   30 +
+ .../evidence/BS3P-023/ancestor-styles.json         |  170 ++
+ .../evidence/BS3P-023/chromium-after.png           |  Bin 0 -> 363466 bytes
+ .../evidence/BS3P-023/chromium-before.png          |  Bin 0 -> 363466 bytes
+ .../evidence/BS3P-023/chromium-desktop-info.png    |  Bin 0 -> 409662 bytes
+ .../evidence/BS3P-023/chromium-mobile.png          |  Bin 0 -> 140727 bytes
+ .../BS3P-023/chromium-pixel-comparison.json        |   25 +
+ .../evidence/BS3P-023/diagnosis-summary.json       |    9 +
+ .../07-Reviews/evidence/BS3P-023/diagnosis.json    |  280 +++
+ .../evidence/BS3P-023/headful-before.png           |  Bin 0 -> 232454 bytes
+ .../07-Reviews/evidence/BS3P-023/node22-build.txt  |   40 +
+ .../evidence/BS3P-023/node22-checks.json           |   32 +
+ .../evidence/BS3P-023/node22-foundation.txt        |    1 +
+ .../evidence/BS3P-023/node22-isolation.txt         |   29 +
+ .../07-Reviews/evidence/BS3P-023/node22-lint.txt   |    0
+ .../evidence/BS3P-023/node22-typecheck.txt         |    0
+ .../07-Reviews/evidence/BS3P-023/node22-verify.txt |    1 +
+ .../07-Reviews/evidence/BS3P-023/paint-probes.json |   41 +
+ .../evidence/BS3P-023/projection-boxes.json        |   86 +
+ .../evidence/BS3P-023/safari-attempt.json          |   11 +
+ .../evidence/BS3P-023/source-preservation.json     |   10 +
+ .../BS3P-023/verification-harness-initial.txt      |    1 +
+ .../07-Reviews/evidence/BS3P-023/verification.json |   75 +
+ .../07-Reviews/evidence/BS3P-023/webkit-after.png  |  Bin 0 -> 481065 bytes
+ .../07-Reviews/evidence/BS3P-023/webkit-before.png |  Bin 0 -> 232454 bytes
+ .../evidence/BS3P-023/webkit-desktop-info.png      |  Bin 0 -> 536255 bytes
+ .../07-Reviews/evidence/BS3P-023/webkit-mobile.png |  Bin 0 -> 180172 bytes
+ .../evidence/BS3P-023B/chromium-after.png          |  Bin 0 -> 363467 bytes
+ .../evidence/BS3P-023B/chromium-before.png         |  Bin 0 -> 363466 bytes
+ .../evidence/BS3P-023B/chromium-desktop-info.png   |  Bin 0 -> 409663 bytes
+ .../evidence/BS3P-023B/chromium-mobile.png         |  Bin 0 -> 140730 bytes
+ .../BS3P-023B/chromium-pixel-comparison.json       |   24 +
+ .../BS3P-023B/native-safari-diagnosis.json         |   41 +
+ .../07-Reviews/evidence/BS3P-023B/node22-build.txt |   40 +
+ .../evidence/BS3P-023B/node22-checks.json          |   32 +
+ .../evidence/BS3P-023B/node22-foundation.txt       |    1 +
+ .../evidence/BS3P-023B/node22-isolation.txt        |   29 +
+ .../07-Reviews/evidence/BS3P-023B/node22-lint.txt  |    0
+ .../evidence/BS3P-023B/node22-typecheck.txt        |    0
+ .../evidence/BS3P-023B/node22-verify.txt           |    1 +
+ .../BS3P-023B/safari-after-interaction-pending.png |  Bin 0 -> 468022 bytes
+ .../07-Reviews/evidence/BS3P-023B/safari-after.png |  Bin 0 -> 468790 bytes
+ .../evidence/BS3P-023B/safari-before.png           |  Bin 0 -> 202847 bytes
+ .../evidence/BS3P-023B/safari-production-after.png |  Bin 0 -> 466308 bytes
+ .../evidence/BS3P-023B/source-preservation.json    |   15 +
+ .../evidence/BS3P-023B/touch-and-assets.json       |   11 +
+ .../evidence/BS3P-023B/verification-partial.json   |    4 +
+ .../evidence/BS3P-023B/verification.json           |   75 +
+ .../07-Reviews/evidence/BS3P-023B/webkit-after.png |  Bin 0 -> 481343 bytes
+ .../evidence/BS3P-023B/webkit-desktop-info.png     |  Bin 0 -> 536578 bytes
+ .../evidence/BS3P-023B/webkit-mobile.png           |  Bin 0 -> 180312 bytes
+ .../evidence/BS3P-023C/browser-scroll.json         | 2088 ++++++++++++++++++++
+ .../evidence/BS3P-023C/native-safari-scroll.json   |  842 ++++++++
+ .../evidence/BS3P-023C/preservation.json           |   13 +
+ .../07-Reviews/evidence/BS3P-023C/summary.json     |   34 +
+ .../BS3P-024/candidate-artifact-sha256.json        |  693 +++++++
+ .../evidence/BS3P-024/checkpoint-file-list.md      |  285 +++
+ .../evidence/BS3P-024/github-readonly.json         |   25 +
+ .../07-Reviews/evidence/BS3P-024/node22-build.txt  |   40 +
+ .../evidence/BS3P-024/node22-checks.json           |   37 +
+ .../evidence/BS3P-024/node22-foundation.txt        |    1 +
+ .../BS3P-024/node22-isolation-development.txt      |   29 +
+ .../BS3P-024/node22-isolation-production.txt       |   22 +
+ .../07-Reviews/evidence/BS3P-024/node22-lint.txt   |    0
+ .../evidence/BS3P-024/node22-typecheck.txt         |    0
+ .../07-Reviews/evidence/BS3P-024/node22-verify.txt |    1 +
+ .../evidence/BS3P-024/preserved-source-after.json  |    4 +
+ .../evidence/BS3P-024/preserved-source-before.json |    9 +
+ .../BS3P-024/reduced-motion-confirmation.json      |    6 +
+ .../evidence/BS3P-024/regression-summary.json      |   75 +
+ .../07-Reviews/evidence/BS3P-024/regression.json   |  192 ++
+ .../07-Reviews/evidence/BS3P-024/staged-stat.txt   |   91 +
+ .../evidence/BS3P-024/staging-checks.json          |   23 +
+ .../evidence/BS3P-024/workflow-validation.json     |   24 +
+ bayes 3.0-plus/98-Agent-Logs/CURRENT_STATUS.md     |   54 +-
+ .../98-Agent-Logs/DAILY_LOG_2026-10-15.md          |   33 +
+ bayes 3.0-plus/98-Agent-Logs/NEXT_STEPS.md         |   18 +-
+ bayes 3.0-plus/98-Agent-Logs/SESSION_LOG.md        |   33 +
+ components/homepage/GalleryStage.tsx               |   10 +-
+ components/homepage/homepage.css                   |    6 +
+ lib/homepage/gallery/stage.ts                      |    8 +
+ lib/homepage/gallery/webkit-surfaces.ts            |   54 +
+ scripts/check-production-access.mjs                |   17 +-
+ 90 files changed, 6235 insertions(+), 31 deletions(-)

@@ -1,0 +1,23 @@
+{
+  "head": "02739d112d65dbb6fc420eadd6611ff701415561",
+  "branch": "feature/bayessoft-3.0-plus",
+  "stagedFiles": 90,
+  "applicationGalleryFiles": 4,
+  "CIAndTestFiles": 2,
+  "reportsAndLogs": 11,
+  "evidenceAndManifests": 73,
+  "excludedVisibleFiles": 186,
+  "excludedUserAndTemporaryHarnessFiles": 185,
+  "excludedLocalPreparationSnapshot": 1,
+  "forbiddenPaths": [],
+  "knownSecretPatternMatches": [],
+  "fileModes": [
+    "100644"
+  ],
+  "indexWorktreeDifferences": [],
+  "cachedDiffCheckExit": 2,
+  "cachedDiffCheckOutput": "bayes 3.0-plus/04-Development/BS3P-023B-REAL-SAFARI-GALLERY-FIX.md:3: trailing whitespace.\n+**Tarih:** 2026-10-15  \nbayes 3.0-plus/04-Development/BS3P-023B-REAL-SAFARI-GALLERY-FIX.md:4: trailing whitespace.\n+**Durum: ACCEPTED / COMPLETED** — 2026-10-15 BS3P-023C kullanıcı doğrulaması.  \nbayes 3.0-plus/04-Development/BS3P-023C-SAFARI-REFRESH-SCROLL-RESTORATION.md:3: trailing whitespace.\n+**Tarih:** 2026-10-15  \nbayes 3.0-plus/04-Development/BS3P-023C-SAFARI-REFRESH-SCROLL-RESTORATION.md:4: trailing whitespace.\n+**Durum: ACCEPTED / COMPLETED** — kullanıcı BS3P-024 talebinde normal `/` restorasyonunu ve `#hero` doğal fragment davranışını onayladı.  \nbayes 3.0-plus/04-Development/BS3P-024-RELEASE-PREPARATION.md:3: trailing whitespace.\n+**Tarih:** 2026-10-15  \nbayes 3.0-plus/04-Development/BS3P-024-RELEASE-PREPARATION.md:4: trailing whitespace.\n+**Durum:** PREPARED — staging hazır; commit/push ve gerçek Ubuntu CI onayı beklenir.  \nbayes 3.0-plus/07-Reviews/evidence/BS3P-023/node22-build.txt:8: trailing whitespace.\n+   Generating static pages (4/18) \nbayes 3.0-plus/07-Reviews/evidence/BS3P-023/node22-build.txt:9: trailing whitespace.\n+   Generating static pages (8/18) \nbayes 3.0-plus/07-Reviews/evidence/BS3P-023/node22-build.txt:10: trailing whitespace.\n+   Generating static pages (13/18) \nbayes 3.0-plus/07-Reviews/evidence/BS3P-023B/node22-build.txt:8: trailing whitespace.\n+   Generating static pages (4/18) \nbayes 3.0-plus/07-Reviews/evidence/BS3P-023B/node22-build.txt:9: trailing whitespace.\n+   Generating static pages (8/18) \nbayes 3.0-plus/07-Reviews/evidence/BS3P-023B/node22-build.txt:10: trailing whitespace.\n+   Generating static pages (13/18) \nbayes 3.0-plus/07-Reviews/evidence/BS3P-024/node22-build.txt:8: trailing whitespace.\n+   Generating static pages (4/18) \nbayes 3.0-plus/07-Reviews/evidence/BS3P-024/node22-build.txt:9: trailing whitespace.\n+   Generating static pages (8/18) \nbayes 3.0-plus/07-Reviews/evidence/BS3P-024/node22-build.txt:10: trailing whitespace.\n+   Generating static pages (13/18) \n",
+  "secretScanLimit": "Offline known token/private-key patterns; no exhaustive scanner guarantee. Secret/env files not opened.",
+  "commitCreated": false,
+  "pushMergeDeploy": false
+}

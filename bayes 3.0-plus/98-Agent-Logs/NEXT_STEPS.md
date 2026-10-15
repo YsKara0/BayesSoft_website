@@ -1,13 +1,13 @@
 # NEXT STEPS — en fazla 3 aktif öncelik
 
-## 1. BS3P-022 staged checkpoint için commit onayı
-**Durum:** completed — kullanıcı onayı beklenir.
-[[../04-Development/BS3P-022-RELEASE-CANDIDATE-GIT-CHECKPOINT]]:166staged(55source111belge)/185hariç. Tamlisteler/denetim notta;20mevcutbiçimuyarısı açık. HEAD1218e58aynı/yeniRCcommit yok. Kullanıcı açık onay vermeden commit veya push yapma; staging yetkisi bunları kapsamaz. Önerilenmesaj: feat: integrate BayesSoft 3.0+ React homepage release candidate.
+## 1. BS3P-024 staged checkpoint için kullanıcı onayı
+**Durum:** prepared — commit/push yapılmadı.
+[[../04-Development/BS3P-024-RELEASE-PREPARATION]]: tamstagedliste/stat/secretaudit024evidence'da. Safari023B/023C kullanıcıkabulü kapalı. Önerilenmesaj: `fix: ensure Safari compatibility for BayesSoft project gallery`. Yalnız açıkonaydan sonra commit/push; eski userfiles/archives/Obsidian/MOV/harness hariç. Otomatikilerleme yok.
 
-## 2. Yayın öncesi021koşulları
-**Durum:** açık — ayrıca kapama veya açık risk kabulü gerekir.
-READY WITH CONDITIONS: Safari/WebKit eksik; yerelNode22passed fakatUbuntuCI/npmci gate çalışmadı. Dev/build10high3moderate(prod0 önceki audit),globalGoogleFontsbuildağı,eskiPagesartifact0/rollbackprovası yok. Güvenli sourcefallback/izolasyon ve artifactkalıcısaklama planı021raporunda. Bu staging görevi riskleri kapatmadı; merge/deploy/yayın ayrıca açıkonay ister.
+## 2. Gerçek Ubuntu CI ve yayın/rollback kapıları
+**Durum:** NOT RUN / açık koşullar.
+Onaylıfeaturepush sonrası release-validation.yml Ubuntu22/npmci/TS/lint/build/prototype404 geçmeli; deployadımıyok. Dockerdaemon yok/yerelmacOSbaşarısı Ubuntu yerine sayılmaz. Devbuild10high3moderate(021audit), eskiPagesartifact0/sourcefallbackprovası, cache/CDNteyidi ve kalıcıyeniartifactyedekleme yayınöncesi elealınmalı. masterpush veya pages.ymlmanualdispatch deployyapar; ayrıca açıkonay gerekir.
 
-## 3. BS3P-000 — Vault doğrulaması kullanıcı kabulü
-**Durum:** in-progress — önceki yerel doğrulama tamamlandı, kullanıcı kabul kapısı korunur.
-Eski kasa/ayar/araştırmalar staging dışında korunur. Referans/kararşeması kayıtları [[../07-Reviews/REVIEW_REGISTER]] içinde; kullanıcı kabulü olmadan otomatik kapatma yok.
+## 3. BS3P-000 — Vault kullanıcı kabulü
+**Durum:** in-progress — önceki yerel doğrulama tamamlandı, kabul kapısı korunur.
+Eski3.0/4.0kasalar, kişiselObsidianayarları, referansMOV, logo denemeleri ve geçiciQAçalıştırıcıları korunur. Kullanıcıkabulü olmadan otomatik kapatma yok.

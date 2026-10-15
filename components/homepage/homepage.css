@@ -301,7 +301,7 @@
 .bs3p-react-homepage .homepage-logo-window:hover .homepage-logo-track,.bs3p-react-homepage .homepage-logo-window:has(.homepage-logo-target:focus-visible) .homepage-logo-track{animation-play-state:paused}
 @keyframes homepage-reference-scroll{to{transform:translateX(-50%)}}
 
-@media(max-width:699px),(prefers-reduced-motion:reduce){
+@media(min-width:700px) and (prefers-reduced-motion:reduce){
   .bs3p-react-homepage .homepage-logo-track{animation:none;transform:none;width:100%}
   .bs3p-react-homepage .homepage-logo-group[aria-hidden=true]{display:none}
   .bs3p-react-homepage .homepage-logo-group{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));width:100%;gap:24px 32px;padding:0}
@@ -311,7 +311,20 @@
   .bs3p-react-homepage .homepage-logo-square .homepage-logo-artwork{width:56px;height:56px}
   .bs3p-react-homepage .homepage-logo-dark .homepage-logo-artwork{height:44px}
 }
-@media(max-width:699px){.bs3p-react-homepage .homepage-references{margin-top:40px;padding:40px 0}.bs3p-react-homepage .homepage-logo-group{gap:24px 20px}}
+/* The extra leading copy is only needed for bidirectional native mobile scroll. */
+.bs3p-react-homepage .homepage-logo-mobile-prefix{display:none}
+@media(max-width:699px){
+  .bs3p-react-homepage .homepage-references{margin-top:40px;padding:40px 0}
+  .bs3p-react-homepage .homepage-logo-window{overflow-x:auto;overflow-y:hidden;scrollbar-width:none;overscroll-behavior-x:contain}
+  .bs3p-react-homepage .homepage-logo-window::-webkit-scrollbar{display:none}
+  .bs3p-react-homepage .homepage-logo-track{animation:none;transform:none;width:max-content}
+  .bs3p-react-homepage .homepage-logo-group{display:flex;width:auto;gap:20px;padding:0 10px}
+  .bs3p-react-homepage .homepage-logo{width:calc((var(--reference-viewport, 100vw - 40px) - 20px)/2);height:64px}
+  .bs3p-react-homepage .homepage-logo-artwork{height:56px}
+  .bs3p-react-homepage .homepage-logo-round .homepage-logo-artwork{width:48px;height:48px}
+  .bs3p-react-homepage .homepage-logo-square .homepage-logo-artwork{width:56px;height:56px}
+  .bs3p-react-homepage .homepage-logo-dark .homepage-logo-artwork{height:44px}
+}
 @media(prefers-reduced-motion:reduce){.bs3p-react-homepage .homepage-logo img,.bs3p-react-homepage .homepage-logo-dark .homepage-logo-target::before{transition:none}}
 
 /* bs3p-project-showcase-r2/showcase.css */

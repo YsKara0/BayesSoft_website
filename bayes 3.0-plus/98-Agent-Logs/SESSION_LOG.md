@@ -364,3 +364,17 @@
 - 026preflight,029Mac ve029BWindows raporları/tarihçeleri korunur. D-034 kimlik çakışmasında Mac026 D-034/Mac029 D-035 korunur, Windows029B D-036 olarak eşlenir; özgün562d770 referansı kaydedildi. Güncel özet tarihsel HEAD/CI/yayın bekleme ifadelerinden ayrıldı.
 - DPR1 kullanıcı ölçümüyle cap1,5 bu olayın nedeni değildir. Windows A/B’de tutarlı kazanç yok; küçük HTML metni/affine hipotezi kesin kök neden değil. Kalıcı uygulama değişikliği yok. Windows06-Evidence/BS3P-029B klasörü Mac’te yok; görsel/JSON/script doğrulaması yapılmadı.
 - Kontrol: kaynak bloklarının korunması, karar kimliği tekilliği, Markdown diff, GitHEAD/index/stash ve kapsam dışı dosya bütünlüğü. Browser/TS/lint/build/CI/yayın kontrolü bu belge görevinde tekrar çalıştırılmadı. Staging/commit/push/Gitmerge/deploy yok; kullanıcı incelemesi beklenir.
+
+
+## 2026-10-16 — BS3P-030 mobil referans marquee
+- [[../04-Development/BS3P-030-MOBILE-REFERENCES-MARQUEE]]: kullanıcı açık talebiyle master/031c055 üzerinde yerel uygulama; branch değişmedi, başlangıç trackedtree temiz. Yalnız ReferencesMarquee, yeni useMobileReferenceMarquee ve mobil referans CSS’i. Aynı veri/URL/logo oranları; desktop120s aynı.
+- Mobil tek satır/~iki logo/native scroll;120s otomatik grup döngüsü, touch/keyboardfocus pause ve1600ms quiet resume. Globalpause/reduced-motion otomatiği durdurur, manuel gezinti açık. Pointercancel/uzunhold ve DPR1 kesirli ilerleme hedefli testlerle doğrulandı; cleanup mevcut.
+- Chromium320/375/390 tek satır/auto/nooverflow/10tab/0duplicate; native swipe/pause/resume/reduced/focus geçti. Chromium+otomatikWebKit globalpause/seam pixel eşitliği ve üç proje/117poster galeri regresyonu geçti. Desktop eski kurallarla aynı anda piksel fark0. GerçekSafari/iPhone testi veya120s tam loop videosu yok.
+- TS/hedefli lint/nihai productionbuild geçti;18page/686file/0prototype. İlk sandbox fontDNS build başarısız, izinli ağla son build başarılı; ara scroll yuvarlama/JSX/testwait hataları düzeltilip doğrulandı. Kanıtlar07-Reviews/evidence/BS3P-030.
+- Kullanıcı görsel onayı bekleniyor; http://localhost:3030/#references. Hero/galeri/Safari kodu/diğer bölümler ve kişisel.userfiles değişmedi. Yayın/staging/commit/push/PR/Gitmerge/deploy yok.
+
+
+## 2026-10-16 — BS3P-030 kullanıcı görsel onayı / commit handoff
+- Kullanıcı mobil referans marquee tasarımını şimdilik görsel olarak onayladı; mevcut uygulama aynen korunur. Bu kapanışta yeni test veya görsel düzenleme yapılmadı.
+- Yalnız030uygulama/Markdown/kanıt kapsamını stage ve denetleme, master üzerinde `feat: improve mobile references marquee` commit’i için açık yetki verdi. Push/deploy yok; kişisel dosyalar/eski kasalar/MOV/harnessler dışarıda.
+- Commit sonrası gerçek SHA handoff’a yazılacak; ayrı ikinci commit yapılmadan bu son kayıtlar yerelde kalır. Sıradaki görev **BS3P-031 — Sitewide Page Inventory & Skeleton Migration**; henüz başlanmadı.

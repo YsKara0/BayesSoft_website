@@ -1,0 +1,45 @@
+{
+  "desktopPixelDiff": 0,
+  "chromium": {
+    "globalPause": [
+      1850,
+      1850
+    ],
+    "resume": [
+      1853,
+      1859
+    ],
+    "seamPixelsEqual": true,
+    "galleryOrder": [
+      "FurtherUp Drive",
+      "Reviel",
+      "Metek Makina"
+    ],
+    "posters": {
+      "total": 117,
+      "loaded": 117
+    },
+    "overflow": false
+  },
+  "webkit": {
+    "globalPause": [
+      1850,
+      1850
+    ],
+    "resume": [
+      1853,
+      1859
+    ],
+    "seamPixelsEqual": true,
+    "galleryOrder": [
+      "FurtherUp Drive",
+      "Reviel",
+      "Metek Makina"
+    ],
+    "posters": {
+      "total": 117,
+      "loaded": 117
+    },
+    "overflow": false
+  }
+}

@@ -1,15 +1,28 @@
 # NEXT STEPS — en fazla 3 aktif öncelik
 
-## 1. Windows kanıtlarının aktarımı ve kullanıcı incelemesi
+## 1. BS3P-031 — Sitewide Page Inventory & Skeleton Migration
+Kullanıcının belirlediği sıradaki görev; henüz başlatılmadı. Yeni oturumda güncel branch/Git durumu ve AGENTS/workflow okunarak kullanıcı kapsamına göre ilerlenir. Bu kapanışta yeni tasarım veya migration yapılmadı.
+
+## 2. BS3P-030 yerel checkpoint / handoff
+Kullanıcı mobil marquee tasarımını şimdilik görsel onayladı. Mevcut kod değişmeden seçili030dosyaları `feat: improve mobile references marquee` mesajıyla master’da commit edilecek; gerçek SHA sonrası handoff’a yazılır. Yeni test yok. Push/deploy yapılmayacak.
+
+## 3. Koruma
+Kişisel.obsidian/eski kasalar/MOV/test harnessleri ve ilgisiz yerel dosyalar korunur.030kapsamı dışında staging yok. Son commit SHA’sı içeren kapanış notları ikinci commit olmadan yerel kalır; yeni oturum bunları silmemeli.
+
+## Tarihsel NEXT_STEPS — aşağıdakiler030 görevinin aktif talimatı değildir
+
+### NEXT STEPS — en fazla 3 aktif öncelik
+
+#### 1. Windows kanıtlarının aktarımı ve kullanıcı incelemesi
 [[../04-Development/BS3P-029B-WINDOWS-HERO-SHARPNESS]] mevcut; `06-Evidence/BS3P-029B/` Mac’te yok. Kaynak Windows kanıtlarını kayıpsız aktar ve dosyaların bütünlüğünü ayrıca doğrula. 100% /3× A-B-C-D-E karşılaştırmasını kullanıcı değerlendirir; bu görevde yeni aktarım veya görsel kabul yapılmadı.
 
-## 2. Hero: mevcut A’yı koru, kanıtsız düzeltme uygulama
+#### 2. Hero: mevcut A’yı koru, kanıtsız düzeltme uygulama
 [[../04-Development/BS3P-029-LIVE-HERO-SHARPNESS]] ve029B birlikte okunmalı. Windows DPR1 ölçümü cap1,5 hipotezini bu oturum için dışlar; DPR artırma. Backface/rounding/zoom denemelerinde tutarlı kazanç yok. PMREM uyarısını kanıtsız değiştirme. Kalıcı uygulama ancak doğrulanmış aday ve kullanıcı onayıyla; Safari galerisi, tasarım, oranlar ve timing korunur.
 
-## 3. Belge/Git ve koruma sınırı
+#### 3. Belge/Git ve koruma sınırı
 [[../04-Development/BS3P-029C-OBSIDIAN-RECORD-MERGE]] kullanıcı incelemesine hazır. Yerel fixbranch HEADdb53596; Windows docs562d770 kaynak olarak okundu, commit/branch birleştirilmedi. Stash korunur. Sonraki staging/commit/push/PR/yayın ayrı açık yetki ister. Eski kasa/.obsidian/MOV/userfiles ve BS3P-000 kabul kapısı korunur. Aşağıdaki025CIbeklentisi ve026BLOCKED dönemin anlık görüntüsüdür; bugünkü yayın talimatı değildir.
 
-## Tarihsel Windows NEXT_STEPS — aktif talimat değildir
+#### Tarihsel Windows NEXT_STEPS — aktif talimat değildir
 
 ### NEXT STEPS — en fazla 3 aktif öncelik
 
@@ -29,7 +42,7 @@ Açıkonaylıfeaturepush sonrası yeniworkflowSHA'sını doğrula; eski5809965ru
 Eski3.0/4.0kasalar, kişiselObsidianayarları, referansMOV, logo denemeleri ve geçiciQAçalıştırıcıları korunur. Kullanıcıkabulü olmadan otomatik kapatma yok.
 
 
-## Tarihsel Mac NEXT_STEPS — aktif talimat değildir
+#### Tarihsel Mac NEXT_STEPS — aktif talimat değildir
 
 ### NEXT STEPS — en fazla 3 aktif öncelik
 

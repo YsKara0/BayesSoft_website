@@ -1,4 +1,18 @@
-# CURRENT STATUS — 2026-10-16 BS3P-029C Mac / Windows birleşimi
+# CURRENT STATUS — 2026-10-16 BS3P-030 mobil referans marquee
+
+**Durum:** USER VISUALLY APPROVED — mevcut tasarım şimdilik kullanıcı tarafından görsel onaylandı; yerel commit yetkili, push/deploy yok.
+**Branch / HEAD:** `master` / `031c055dbee78197e3e0fa475605136b175856de`; kullanıcı master üzerinde kalınmasını açıkça istedi.
+**Sonraki görev:** BS3P-031 — Sitewide Page Inventory & Skeleton Migration; henüz başlatılmadı.
+**Kapanış:** Uygulama değişmedi, yeni test yok. Gerçek commit SHA’sı commit sonrası handoff’a kaydedilecek.
+**Teslim:** [[../04-Development/BS3P-030-MOBILE-REFERENCES-MARQUEE]].
+- Mobil referanslar tek satır/~iki logo; native swipe +120s otomatik döngü, touch/focus pause ve1600ms quiet resume. Global motion/reduced-motion korunur. Desktop mevcut CSS120s ve görseli aynı; yeni bağımlılık yok.
+- Chromium320/375/390, touch/reduced/focus, desktop piksel0, Chromium+otomatikWebKit seam/globalpause/üç proje galeri regresyonu geçti. TS/lint/nihai build geçti;686artifact/0prototype. GerçekSafari/iPhone/uzun QA yapılmadı.
+- Yalnız üç uygulama dosyası ve030kasa/kanıtları değişti. Hero/galeri/Safari/diğer bölümler ve userfiles korunur; staging/commit/push/PR/Gitmerge/deploy/branch değişimi yok.
+- Yerel inceleme http://localhost:3030/#references; mevcut tasarım kullanıcı tarafından görsel olarak onaylandı. Önceki029araştırmaları aşağıda tarihsel; bu görev hero netliğini değiştirmez.
+
+## Önceki durum — BS3P-029C tarihsel kayıt
+
+### CURRENT STATUS — 2026-10-16 BS3P-029C Mac / Windows birleşimi
 
 **Durum:** Kayıt birleştirme tamamlandı; hero için doğrulanmış kalıcı çözüm yok.
 **Gerçek yerel branch / HEAD:** `fix/bs3p-029-hero-sharpness` / `db535966e27c53fe6095fe2760f520e163fcb033`.

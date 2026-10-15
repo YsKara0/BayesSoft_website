@@ -236,3 +236,16 @@
 - Kullanıcı yalnız Obsidian kayıt birleştirmesini istedi. Mac026/029 ve Windows029B bulguları ayrı kaynak olarak korunur; çelişkili eski durumlar silinmeden tarihsel olarak etiketlenir. Mevcut A korunur; yeni teknik düzeltme veya yayın kararı verilmez.
 - Windows562d770’deki D-034, birleşik kasada D-036 olarak eşlendi. MacD-034 veD-035 aynı kimlikte korunur; Git commit’inin özgün kaydı değiştirilmez.
 - Stash yalnız okundu; apply/pop/drop yok. Windows raporu ve026raporu byte olarak korunur; eksik Windows görsel kanıtlarına test başarısı veya kullanıcı kabulü atfedilmez.
+
+
+## D-038 — 2026-10-16 — BS3P-030 yalnız mobil referans etkileşimi
+- Kullanıcı master üzerinde branch değiştirmeden yerel değişikliği açıkça istedi; genel feature-branch beklentisi yerine bu görev talimatı uygulandı. Git kayıt/yayın yetkisi verilmedi.
+- Aynı logo verisi ve markup katmanları korunur; mobilde üç grup/native scroll/tek rAF ve120s grup döngüsü, desktopta mevcut iki görünür grup/CSS120s aynen kalır. Kopyalar aria-hidden/tabdışı.
+- Ortak motion pause ve reduced-motion üstün; manuel gezinti çalışır. Touch ve görünür klavye odağında pause, son etkileşimden1600ms sonra resume. Native pointercancel touch bitişi sayılmaz; dikey sayfa kaydırması engellenmez.
+- Tasarım/hero/galeri/Safari düzeltmesi ve diğer alanlar korunur; görsel/gerçek cihaz kabulü kullanıcıda. Yayın yapılmadı.
+
+
+## D-039 — 2026-10-16 — BS3P-030 görsel kabul ve yalnız yerel commit yetkisi
+- Kullanıcı mobil marquee tasarımını şimdilik görsel onayladı; yeni uygulama/görsel değişiklik veya ek test istemedi. Önceki gerçek cihaz/test sınırları korunur.
+- Yalnız030uygulama/ilgiliMarkdown/gerekli030kanıtları açık dosya seçimiyle stage edilip master üzerinde `feat: improve mobile references marquee` mesajıyla commit edilir. Push/deploy/PR yetkisi verilmedi; kişisel/arşiv/harness dosyaları hariç.
+- Sonraki oturum görevi BS3P-031 — Sitewide Page Inventory & Skeleton Migration; bu kapanışta başlatılmaz. Gerçek commit SHA’sı oluşturulduktan sonra handoff’a kaydedilir.

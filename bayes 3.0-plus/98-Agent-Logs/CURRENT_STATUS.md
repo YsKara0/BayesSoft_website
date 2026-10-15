@@ -1,4 +1,15 @@
-# CURRENT STATUS — 2026-10-15 BS3P-025 CI Git History Fix
+# CURRENT STATUS — 2026-10-16 BS3P-029B Windows Hero Sharpness
+
+**Durum:** Teşhis ve geçici A/B tamamlandı; belirgin kazanç sağlayan çözüm doğrulanmadı, kullanıcı görsel incelemesi beklenir.
+**Branch / HEAD:** `feature/bayessoft-3.0-plus` / `c3327e1fd59e3775ff8ae07a52b9a6b1141124e1`; oturum başlangıcı tree/index temiz.
+**Teslim:** [[../04-Development/BS3P-029B-WINDOWS-HERO-SHARPNESS]].
+- Windows kurulu Chrome155 headed /1920×1080/DPR1/NVIDIA D3D11: canlı ve yerel 828×517,5 CSS /828×517 backing; panel ölçeği0,82992. Son hero karşılaştırmasında yalnız6 RGB kanal farkı/max4. Gerçek font Instrument Sans custom doğrulandı.
+- Backface hidden zaten var, B fark0. Global piksel hizalama C ve zoom/inverse-matrix D/E, tutarlı belirgin netlik kazancı göstermedi. D kısa replay'de ek layout üretti; tek örnek/test observer maliyeti dahil, GPU benchmark değildir.
+- 764px canvas yerelde viewport1487'de/scale0,76577; scale0,78983 viewport1511'de/788px canvas. Önceki764/0,79 çifti birlikte üretilemedi. Küçük font+affine projeksiyon güçlü hipotez; tek kesin kök neden değil.
+- Kaynak uygulama/CSS/dependency/config değişmedi; yalnız rapor/kanıt/tekrar scriptleri ve kasa kayıtları. Native pencere capture onayı zaman aşımına uğradı; görüntüler gerçek Windows Chrome CDP capture. Safari/physical24inç/ClearType/genişQA kabulü yok.
+- Tanı sunucusu durduruldu. Staging/commit/push/merge/deploy yok. Önceki025/CI kayıtları aşağıda tarihsel; mevcut CI/yayın durumu bu görevde yeniden doğrulanmadı.
+
+## Önceki durum — 2026-10-15 BS3P-025 CI Git History Fix
 
 **Durum:** IMPLEMENTED / LOCAL CHECKS PASSED — commit/push onayı ve yeni UbuntuCI beklenir.
 **Branch / HEAD:** `feature/bayessoft-3.0-plus` / `58099657ec0582c18f29669dbc9918697f25a4cb`.

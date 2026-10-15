@@ -333,3 +333,9 @@
 - Yalnızworkflowcheckoutfetch-depth0eklendi. YAMLkarşılaştırmasıdiğertümadımlar/contentsread/branchguardaynı; Node22foundationveworkflowdiffcheckpassed. foundation/pages.yml/app/Safari/prototype/package değişmedi.
 - Önceki024hazırlığında geçmişbağımlılığı atlanmıştı; testdevredışıbırakılmadı/refdeğişmedi. YeniCI henüzkoşmadı; eski failedrunrerun düzeltmeyi almaz, onaylıyenifeaturepushSHA'sıesas.
 - Rapor/kanıt/task/current/next/session/daily/review/D-033güncel. Staging/commit/push/merge/deploy/forcepush/main-masterişlemiyok; kullanıcıonayı beklenir.
+## 2026-10-16 — BS3P-029B Windows hero sharpness
+- [[../04-Development/BS3P-029B-WINDOWS-HERO-SHARPNESS]]; teşhis tamamlandı, kullanıcı incelemesi beklenir. Feature/HEADc3327e1, başlangıç tree/index temiz; kasa025HEADeski. Uygulama/dependency/config değişmedi.
+- Gerçek Windows kurulu Chrome155 headed/1920×1080/DPR1/NVIDIA D3D11. Canlı/yerel828×517,5/828×517/scale0,82992; InstrumentSanscustom doğrulandı. Son hero fark6kanal/max4. 764px ve0,79 ayrıviewportlarda üretildi; aynıçift doğrulanmadı.
+- B zatenhidden/fark0; Cscreen-snap/Dnormalizedzoom/Ezoom2 geçiciCSSmatrix testleri/etiketli3×kırpıntı. Net tutarlı kazanç yok; D217layout/A11, observerdahil tekshortreplay/GPUbenchmarkdeğil.8,4s timing/finalidle2778→2778. Kök neden hipotez olarak kalır; A'yı koruma önerisi.
+- İlk sandboxNextdependencycheck otomatik kurulum girişimi durduruldu; CI=1ileinstallengellendi, izinlisandboxdışımevcutpaketlerledevçalıştı. Package/lockGitfarkıyok. NativeSkycaptureapprovaltimeout; kanıtlarCDP, fizikselmonitor/ClearType/Safari/QAiddiasıyok.
+- Rapor/PNG/hamJSON/repeatscript/task/current/next/session/daily/D-034 güncellendi. Sunucu kapatıldı; staging/commit/push/merge/deploy yok.

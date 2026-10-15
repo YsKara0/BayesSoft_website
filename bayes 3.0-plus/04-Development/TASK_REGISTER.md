@@ -1,5 +1,11 @@
 # Görev kaydı
 
+## BS3P-029B — 2026-10-16 Windows native hero sharpness
+
+| ID | Görev | Durum | Bağımlılık / kabul ölçütü |
+|---|---|---|---|
+| BS3P-029B | Windows Chrome hero netliği teşhisi ve geçici A/B | completed — investigation only; user review pending | [[BS3P-029B-WINDOWS-HERO-SHARPNESS]]; gerçek headed Chrome155/DPR1/live-local/A-B-C-D-E/PNG/short replay. B fark0; C/D/E belirgin tutarlı kazanç yok. Küçük font+affine hipotezi kesin neden değil. Uygulama değişmedi; Safari/native24inç/fullQA yapılmadı; kalıcı fix/Git/yayın yok |
+
 Durumlar: `planned` · `in-progress` · `blocked` · `completed` · `deferred` · `cancelled`.
 
 | ID | Görev | Durum | Bağımlılık / kabul ölçütü |

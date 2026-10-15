@@ -209,3 +209,8 @@
 - Kullanıcı025yalnızdoğrulanmışCIkök neden düzeltmesini yetkilendirdi. actions/checkoutv6defaultdepth1, foundation'ın1218e58gitshowgereksinimini karşılamaz; baselinefeatureatası. İzoledepth1hata/unshallowbaşarı doğrulandı.
 - Minimumçözüm release-validationcheckoutfetch-depth0; foundation/assert/ref/diğerworkflowadımları vecontentsread izinleri aynen kalır. Prod/Safari/tasarım değişmez, pagesworkflow'asla dokunulmaz.
 - YAML/localNode22foundationbaşarısı gerçekUbuntuCI sonucu değildir. YeniSHAüzerindeyenikoşu ve ayrıcommit/pushonayı beklenir; main/master/merge/forcepush/deployyetkisi yok.
+
+## D-034 — 2026-10-16 — BS3P-029B teşhis sınırı ve çözümü zorlamama
+- Kullanıcı yalnız Windows masaüstü hero teşhisi ve geçici A/B yetkisi verdi; kalıcı uygulama değişikliği ayrıca onay ister.
+- [[../04-Development/BS3P-029B-WINDOWS-HERO-SHARPNESS]]: gerçek Windows Chrome155/DPR1'de B mevcut CSS ile aynı; C/D/E tutarlı belirgin netlik kazancı göstermedi. Küçük glyph+affine projeksiyon hipotezi kesin tek neden olarak kabul edilmedi.
+- Mevcut A'yı koruma önerisi; uygulama/ürün kararı değiştirilmedi. Kalıcı çözüm uygulanmadı. Safari, fiziksel monitör/ClearType ve GPU maliyeti için kabul verilmedi. Kullanıcı görsel incelemesi beklenir; Git/yayın yetkisi yok.

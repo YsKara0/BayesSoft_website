@@ -133,3 +133,47 @@
 - **Denetim sonucu/plan önerisi:** [[../04-Development/BS3P-017-PRODUCTION-MIGRATION-PLAN]]; AppRouter root component adaptasyonu/tekproductionLanguageProvider+dilnamespace, SEO-route-contact koruması, StaticPages artifact staging ile prototype URL izolasyonu, lifecyclecleanup ve küçük0–7 adımlar/rollback/finalQA. Kod yazılmadı; öneriler uygulanmış sayılmaz.
 - **Açık kapılar:** Uygulama planı onayı, gerçek release baseline, Reviel/Metek detay içerikleri, kalıcı motionpause/a11y kararı ve release QA. Plan içinde anılan minimal erişilebilirlik kontrolü bu oturumda eklenmedi.
 - **Durum:** Görsel kabul kullanıcı tarafından verildi; geçiş planı uygulama onayı bekler. Commit/push/merge/deploy ayrıca onay gerektirir.
+
+
+## D-023 — 2026-10-15 — Production foundation yetkisi ve build izolasyonu
+- **Yetki:** Kullanıcı BS3P-018A talebi/checkpoint1218e58; yalnız izolasyon/dil-veri temelini uygula, yeni homepage `/`'a geçmesin. Productioncomponent/motionport veya yayın yetkisi yok.
+- **Uygulama:** Mevcut GitHubPages/staticexport için source-first isolatedbuild + fail-closed verifier/CI/previewgate. Source app/prototype/prototypes/publicprototypeassets Git/dev'de yerinde; yayınout'ta bulunmaz. Staticserver'da dosya yokluğu gerçek404 sağlar, middleware/clientredirect kullanılmaz.
+- **Dil/veri:** ExistingLanguageProvider/API tekana kaynak; typedhomepage namespace additive/legacykeyler aynı/storageguard. SelectedProject locale model/FurtherUp realdetail-live/Reviel-Metek detailnull/realexternalURL/productionposter bytecopies. Katalog/AI-Atlı/SEO/contact/visual unchanged.
+- **Sonuç:** implemented; [[../04-Development/BS3P-018A-PRODUCTION-FOUNDATION]] TS/lint/build/verifier/data/dev-prodHTTP kontrolünü içerir. İlk fontsandboxfail/izinli buildsuccess ayrıdır. Livehost/deploy yok; 018B uygulama ve yayın ayrıca onay bekler.
+
+
+## D-024 — 2026-10-15 — Onaylı homepage'in React root entegrasyonu
+- **Yetki:** Kullanıcı BS3P-018B talebi gerçek `/` görsel entegrasyonunu açıkça onaylar; yayın yetkisi vermez. 018A/checkpoint1218e58 ve demo kaynakları korunur.
+- **Uygulama:** Server composition/ayrı client sorumluluklar/root-only chrome/scopedapprovedCSS/localfont; aynı prizma/Three/R2 algoritmaları React lifecyclecleanup ve callback'lerle productionlib'e alınır. TekLanguageProvider/typednamespace/selectedProjects, yalnız productionassetpaths; ikinci DOM locale motoru yok. İç sayfa chrome/SEO/prototip izolasyonu korunur.
+- **Bağlantılar:** FurtherUp gerçekdetay+canlı; Reviel-Metek null-detail ve gerçekblank/noopener-noreferrer canlı; AI/Atlı kayıtları korunur. Approach yok, footer demo ile aynı.
+- **Durum:** implemented; [[../04-Development/BS3P-018B-REACT-HOMEPAGE-INTEGRATION]]. TS/lint/build/kısa browser/izolasyon geçti. FinalQA/kullanıcı kabulü/yayın ayrı; commit/push/merge/deploy yapılmadı.
+
+
+## D-025 — 2026-10-15 — Görsel kilit ve final QA yayın kapısı
+- **Kullanıcı kararı:** BS3P-019 talebinde018C sonucu onaylandı; görsel tasarım kilitli. Yetki finalQA ve yalnızkritik/güvenlihedeflidüzeltmeler; yayın/commit/push/merge yetkisi yok.
+- **Güvenli düzeltme:** OnaylıdemodakiEN/DEilkfontkurallarının Reactscope'ta uygulanmaması kanıtlandı. Yalnız2selector aynıwrapperhedefiyle düzeltildi; değerler/timing/geometri/fontasset korunur. Bu yeni tasarım değildir.
+- **QA kararı:** [[../04-Development/BS3P-019-FINAL-QA-RELEASE-READINESS]] **NOT READY**; B-019-01kalıcıerişilebilirhareketstop açık. YeniUI/animasyonkontrolü buQA'da eklenmedi; tasarımkilidi içinde ayrı somutuygulamaonayı gerekir. Performans/dependencyaudit/browser/rollback önemli riskleri açık kaydedildi.
+- **Koruma:**018Aizolasyon/tekprovider/projedata,018Bgörselport,018Ckanıt ve tümprotoasset/tarihçe korunur. Build/izolasyon başarılı olmak tekbaşına releasekabulü değildir. Canlısunucuya dokunulmadı; yayın kararı ve eylemi ayrı kullanıcıonayına bağlı.
+
+
+## D-026 — 2026-10-15 — Tek kalıcı hareket kontrolü ve hedefli yayın risk düzeltmeleri
+- **Açık kullanıcı kararı:** Her animasyona büyük stopbutonu yerine hero/header çevresinde tek küçük erişilebilir global kontrol; BS3P-020 implementation yetkisi. Görsel tasarım/geometri/timing kilidi korunur; yayın/commit/push/merge yetkisi yok.
+- **Uygulama:** TekMotionProvider/localStorage; reduced-motion her zaman öncelikli. Prizma gerçektransitions+timestep timer pause/resume, marquee animation-play-state, aktifThree rendererloopnull/aynıtime-resume; completedscene yenidenbaşlatılmaz.8.4s otomatikThree5süzerinde olduğundan aynıkontrole dahil; manualR2autoplayyok/etkileşimaçık. Pause→locale/blur/reloadkorunur; loading/pausedreloadaynıstatikSVG.
+- **Performans/veri:** MobilSVGSSR/koşullupreload; altviewportlazy640/1080WebP/aynısymbolURL. PNGorijinalleri/slicegeometri/fontlar/prototipleraynı. LCP7.964→3.148s tekpair,WebPbyteölçümü notta; tamfieldCWViddiası yok.
+- **Bağımlılık kararı:** Next/eslint-config15.5.28 ve darPostCSS/transitivepatch; sonNext'in desteklediği sharp0.35.5. Force/major/dependencyekleme yok. Prodaudit0,fulldev10high3moderate ayrıtakip. BuildGoogleFontURLparse hatası tekretry'degeçti, kalıcımimari değişim yapılmadı.
+- **Rollback/sonuç:** PublicAPI sonbaşarılıPagesb8c38de…/run38187511219;artifactlistboş,1218e58canlıbaseline sayılmaz. Source-restorerunbookizolasyonverifier'ınıkorumalı; actualrollback/deployyok. [[../04-Development/BS3P-020-RELEASE-BLOCKER-FIXES]] implemented/B-019-01kapandı. Kalanbrowser/CI/toolchain/artifact risklerikabulsüzkoşulsuzREADYverilmedi; kullanıcıincelemesibeklenir.
+
+
+## D-027 — 2026-10-15 — Final release gate kararı ve checkpoint sınırı
+- **Yetki:** Kullanıcı BS3P-020 tamamlandığını kabul etti ve021audit-only görevi verdi. Tasarım kilitli; kanıtlanmış kritik hata dışında uygulama/CSS değişmez. Bu görevde böyle bir hata bulunmadı;296korumalıkaynak aynı.
+- **Teknik sonuç:** Node22.23.3 resmîchecksum/yerelbuild-TS-lint-isolasyon geçti. SafariDriver remoteautomationkapalı/WebKitbinaryyok; testbaşarısı verilemez. Prodaudit0,dev10high3moderate; sonbaşarılıPagesb8c38de…metadata teyitli,eskiartifact0.
+- **Karar:** [[../04-Development/BS3P-021-FINAL-RELEASE-GATE]] **READY WITH CONDITIONS**; açıkbrowser/CIUbuntu/devchain/rollback koşulları kullanıcıincelemesi/kabulüne sunulur. Bu releaseizni veya kullanıcı adına risk kabulü değildir.025/026tarihsel kararları silinmedi;B-019-01kapalı kalır.
+- **Checkpoint önerisi:**55hedeflireleasekaynağı+018A–021belge/kanıt/log;177yereluserfile (eski kasa/ayarlar/logo denemeleri/MOV) hariç. Generatedout/Nodebinary/secrets/packagecache commit'e girmez; tam pathmanifesti raporda. Geniş gitaddönerilmedi; staging/commit/push/merge/deploy ayrı açıkonay bekler.
+- **Rollback sınırı:** EskiSHAhamartifact/build'i körlemesine yayınlanmaz; güvenlik/018Aizolasyonu koruyan rollbackcandidate review/build gerekir. Yeni artifact hash'i geçmiş backup sayılmaz. Canlırunbook çalıştırılmadı.
+
+
+## D-028 — 2026-10-15 — Release candidate staging yetkisi ve commit sınırı
+- **Açık kullanıcı yetkisi:** BS3P-022 yalnız018A–021dosyaları ve zorunlukayıtları staging'e alıp denetlemeyi onaylar. Bu, commit/push/merge/deploy yetkisi değildir; görsel/applicationcodekilidi sürer.
+- **Kapsam:**02155source+115belgelistesinden8geçiciQA.cjsçalıştırıcısı son talep uyarınca dışlandı;022'nin4belgesi eklenerek166dosya(55source111belge) staged.177ilgisizuserfile+8harness=185hariç; dosyalar silinmedi/değiştirilmedi. JSON/PNG/TXTkanıtlar ve tarihçeler korundu; açıkNULpathlistesi kullanıldı.
+- **Denetim:** Gerçekindexyolu/mode/blob ve çevrimdışıknownsecretpattern kontrolleri uygun.20mevcutwhitespaceuyarısı gizlenmedi;16MDhardbreak/3rawlogCRLF/1sourceEOFblank korundu. Uygulamakodu sırfbiçimiçin değiştirilmedi.
+- **Referans:** GerçekHEAD1218e589fd5275f45d8b610b5ec87eeac05f6886; yeniRCcommit yok. SonbaşarılıPagesb8c38de…/run38187511219 önceki021teyidine dayanır;rollbackprovasi/oldartifacteksikliği ve021releasekoşulları devam eder. [[../04-Development/BS3P-022-RELEASE-CANDIDATE-GIT-CHECKPOINT]] completed; stagedsonuç kullanıcıcommitonayı bekler.

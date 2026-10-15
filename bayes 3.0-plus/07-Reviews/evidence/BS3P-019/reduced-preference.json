@@ -1,0 +1,50 @@
+{
+  "lang": "en",
+  "canvasCount": 0,
+  "mode": "static",
+  "marquee": "none",
+  "angle": "-180",
+  "auto": "paused",
+  "preferenceShifts": [
+    {
+      "value": 0.005710557047526042,
+      "time": 92.40000000596046
+    }
+  ],
+  "anchorTargets": [
+    {
+      "href": "#hero",
+      "exists": true
+    },
+    {
+      "href": "#selected-projects",
+      "exists": true
+    },
+    {
+      "href": "#services",
+      "exists": true
+    },
+    {
+      "href": "#contact",
+      "exists": true
+    },
+    {
+      "href": "#hero",
+      "exists": true
+    },
+    {
+      "href": "#selected-projects",
+      "exists": true
+    },
+    {
+      "href": "#services",
+      "exists": true
+    },
+    {
+      "href": "#contact",
+      "exists": true
+    }
+  ],
+  "angleBeforeLocaleChange": "-180",
+  "persistedAfterReload": "en"
+}

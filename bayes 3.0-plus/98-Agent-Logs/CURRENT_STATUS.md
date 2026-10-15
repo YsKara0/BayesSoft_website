@@ -1,12 +1,58 @@
-# CURRENT STATUS — 2026-10-14 BS3P-017 production migration audit/plan
+# CURRENT STATUS — 2026-10-15 BS3P-022 Release Candidate Staging
 
-**Aktif çalışma dalı:** `feature/bayessoft-3.0-plus`  
-**Başlangıç commit'i:** `c5bf841` (3.0'dan dallandı).  
-**Ana karar:** BayesSoft 3.0 Architectural Spatial hero + seçici yeni 3D iyileştirmeler.  
-**Şu anki aşama:** BS3P-017 completed: kaynak denetimi ve production geçiş planı teslim. Kullanıcı 3.0+ homepage görsel tasarımını bu görev talebinde onayladı; entegrasyon veya yayın yetkisi verilmedi. Uygulama kodu aynı.  
-**Teslim:** [[../04-Development/BS3P-017-PRODUCTION-MIGRATION-PLAN]]; BS3P-016 prototip/kaynak/kanıtlar korunur.  
-**Yerel rota:** `/prototype/bs3p-homepage` BS3P-016 hâlinde; production `/` değiştirilmedi. Bu audit server/browse durumunu yeniden test etmedi.  
-**Bekleyen görev:** BS3P-017 planının uygulanması için açık kullanıcı onayı; gerçek yayın baseline/artifact, Reviel-Metek detay eksikleri, kalıcı hareket duraklatma erişilebilirliği, izolasyon ve final QA kapıları planda.  
+**Aktif branch / gerçek HEAD:** `feature/bayessoft-3.0-plus` / `1218e589fd5275f45d8b610b5ec87eeac05f6886`.
+**Aşama:** BS3P-022 completed;166dosya staging'de, commit için kullanıcı onayı beklenir. YeniRCcommit henüz yok.
+**Teslim:** [[../04-Development/BS3P-022-RELEASE-CANDIDATE-GIT-CHECKPOINT]].
+**Yetki:** Yalnız seçili staging/loglar. Uygulama/CSS/tasarım değişmedi; commit/push/merge/deploy yapılmadı.
+**Release durumu:**021READY WITH CONDITIONS korunur; staging yayın/risk kabulü değildir. Safari/WebKit,UbuntuCI,dev10high3moderate,eskiartifact/rollbackprovası koşulları açık.
+
+## Güncel BS3P-022 teslimi
+- 55releasekaynağı+111belge/kanıt=166staged;185hariç(177ilgisizuserfile+8geçiciQA.cjs).021tamlistesinden açık dosya seçimi yapıldı, genişgitadd kullanılmadı.022staged/excludedlisteleri ve stagingchecks hazır; zorunluObsidian kayıtları dahildir.
+- Gerçekindexallowlist/mode/knownsecretpattern/blob eşitliği kontrolleri uygun;yasakpath0/bilinentokenbulgu0/100644mode. `git diff --cached --check`20mevcutbiçimuyarısı veriyor;16MDhardbreak/3rawlogCRLF/1geometryEOFblank tarihçe/kod koruması için değişmedi. Bu sonuç temizdiffcheck diye sunulmadı.
+- 55sourcehashaynı;177hariçdosyadan176aynı/yalnızkişisel.obsidianworkspaceoturumsırasındadışarıdandeğişti(stageedilmedi/gerialınmadı); yeniapp/CSS/dependency/testbuild/browser yok. Finaldarrestaging sonrası index-worktreefarkı0 doğrulanır. Eski3.0/4.0/Obsidian/MOV/logo/temporary/generated çıktılar stagingdışı.
+- GerçekHEAD1218e58aynı.021sonPagesmasterb8c38de…/run38187511219 önceki doğrulanmışrollbackreferansı; yenidenremote sorgusu/rollbackprovası yok. YeniRCcommitSHA ancak ayrıca açıkcommitonayından sonra oluşur.
+- Task/current/next/session/daily/review/D-028/teslim güncel ve staging kapsamında. Önerilenmesaj: feat: integrate BayesSoft 3.0+ React homepage release candidate. Kullanıcıonayı beklenir; sonrakiGit/yayın işlemini otomatik başlatma. Aşağıdakiler tarihsel teslim özetleridir.
+
+## Güncel BS3P-021 teslimi
+- 296uygulama/asset/config hash'i aynı; bu görev yalnız rapor/kanıt/log üretti.55releasekaynağı+ilgiligörevbelgeleri önerilen checkpoint;177yereluserfile hariç, beklenmeyen appdiff yok. Tam dosya manifesti ve44lockpath değişimi notta; diğer kullanıcıkasaları/logo/ayar/MOV korunur.
+- ResmîSHA256Node22.23.3/macOSARM64: TS/targetlint/foundation/temizbuild/verify/HTTPisolation passed;18page/686file/0prototype. GerçekUbuntuCI/temiznpmci tetiklenmedi; localNode22 başarı bunun yerine sayılmaz. GoogleFonts ilkNode22build'de geçti.
+- SafariDriver remoteautomationkapalı/HTTP500,WebKitbinaryyok; test yapılamadı. KısaChromiumfontInstrumentSans,TR-EN-DE/lang/persistentpause/reload/resume/Threeframefreeze/R2üçlink-safe-rel/3WebP/13sitemaproute200/canonical/robots/404/mobilEscape-staticcanvas0-nooverflow/reducedanimationnone0 doğrulandı. Hamharnesserkenokuma sınırları raporda.
+- Prodaudit0/fulldev10high3moderate;13paketpath-versiyon-etki/darpatch-plan incelendi, dependency değişmedi. LastPagesmasterb8c38de…/run38187511219success teyitli;artifact0/rollbackprovasıyok. İzolasyonkoruyanrunbook ve yeniartifacthashmanifesti hazır; eskibackup diye sunulmadı.
+- Rapor/evidence/task/current/next/session/daily/review/D-027 güncel. Yeni koşulsuzREADY/yayın yok; kullanıcıincelemesi ve açık koşul/risk kabulü beklenir. Aşağıdakiler önceki teslimlerin tarihsel özetleridir; güncel eylem NEXT_STEPS'tedir.
+
+## Güncel BS3P-020 teslimi
+- Kullanıcıtekminimalglobalcontrolkararı uygulandı. Hero tekbutton/TR-EN-DE/storage/reducedönceliği; prizma gerçektransition/timerpause,marqueephasepause,aktifThreeaynıframe-timepause-resume. Geometri/5000+900ms/8.4s/120s/R2manualmotor/onaylıyerleşimkorunur.
+- B-019-01kapandı;locale/reload/mouseleave5400ms/midturn/Space-focus2px/reducedsavedrunningçatışması/samecanvasThree/mobilemenuEscape veSSRnoJSposter doğrulandı. TamWCAG/SR/diğerbrowseriddiasıyok.
+- LCPmobilSVGhidrasyonbekliyordu:SSR+koşullupreload. AynıtekcoldlabpairLCP7.964→3.148s,CLS0→.000203/örnekevent24→24ms. Firstviewportposter0;WebPlarge681612B(−87.42%)/small329188B(−93.92%);PNG5418072B/orijinalleraynı. DPR1/3tekvaryant3istek/PNGpairgörselkoruma.
+- Next/eslintconfig15.5.28/PostCSS8.5.30/nanoid3.3.20/source-map-js1.2.2/supportedsharp0.35.5:finalprodaudit0;fullaudit10high3moderatedev/buildtakibiaçık. TS/targetlint/foundation/sonisolatedbuild/routeisolationpassed;686artifact0prototype. BirGoogleFontURLparsefail/tekretrypass; riskraporda. Performansfinalsharp-onlypatchöncesiUIbuild,nihaiCSS/SVG/WebPhashaynı.
+- PublicGitHubsonbaşarılıPagesmasterSHA b8c38de99330def9182eb9c837d8b8f52d1a38e5/run38187511219/deploymentsuccess;artifactlist0/rollbackprovayok.1218e58tasarımcheckpoint'icanlıSHAdeğil. Hostingmutasyonuyok.
+- Rapor/evidence/task/current/next/session/daily/review/D-026güncel.269/281snapshotaynı/12hedeflidiff/0silme;demo/font/PNG/geometri/header-footer/SEO/saklıprojelerkorunur. Aşağıdakiler önceki teslimlerin tarihsel özetleridir; güncel sonraki eylem NEXT_STEPS'tedir.
+
+## Güncel BS3P-019 teslimi
+- Kullanıcı018C onayı/tasarımkilidi; temizproductionbuild/TS/targetlint/foundationdata/sonartifactverifier passed.679dosya/0prototypeartifact-dependency; dev200/prod10varyant404 ve13sitemaproute200/favicon/SEO/404 doğru.
+- TR/EN/DE/persistence/html.lang/Chromium/320-390-768mobil-tablet/keyboard-CDPtouch/reduced/WebGLfallback-contextloss/SPAcleanup doğrulandı. EN/DE ilk yüz CSSscope hatası görünürkesilme üretiyordu; yalnız2selector düzeltildi,12fontcase demoileeşit. Diğer274uygulama dosyası aynı.
+- **BLOCKER B-019-01:** hiddenprismapause/final-state ve hover-focus-onlymarquee; kalıcımotionstop yok. YeniUI/timing değişikliği buQA'da yapılmadı; releaseNOTREADY.
+- Önemli: tekmobil4×CPU/1.6MbpslabLCP7.944s/CLS0; poster5.42MB. npmprodAudit1critical4highpaket(staticserveruygulanabilirliği ayrı). Safariremoteautomationkapalı/WebKit-Firefoxbinaryyok/gerçekcihazyok/CI22teyidyok; lastgoodartifact/rollbacktatbikatı yok. Kanıtlar/limitler raporda açık.
+- Rapor/evidence/task/current/next/session/daily/review/D-025 güncel. CanlıPOST/hosting/deploy yok. Kullanıcıincelemesi/onayı beklenir.
+
+## Güncel BS3P-018C teslimi
+- Kullanıcı olumlu görsel değerlendirmesi kaydedildi; tasarım yeniden düzenlenmedi. CDP gerçek renderedInstrumentSans Regular/Medium/SemiBold, aynı logicaltipografi ve assetbytes; desktop1440×1000/mobil390×844 sabitölçüler eşit.
+- Kısa foregroundprizma/hover-keyboardfocus/dots/Three8.4finalidle/marquee120s-hovercolor/R2ileri-geri-klavye-gerçektouch/reduced/menuEscape aynı. Readyöncesi ölçüm/faz ve otomasyon modality farkları normalize edilerek hamJSON'da korundu; uygulama farkı diye değiştirilmedi.
+- TS/targetlint/artifactverify geçti; yeni build gerekmedi.275uygulama dosyası başlangıç/son hash eşit. Yalnız rapor/evidence/task/current/next/session/daily/review güncellendi.
+- Safari/gerçekcihaz/performance/a11y ve diğer releasekapıları BS3P-019'a bırakıldı. Kullanıcı onayı beklenir; yayın yok.
+
+## Güncel BS3P-018B teslimi
+- Ayrı root React composition/chrome/scopedCSS/localInstrumentSans, production asset paths, tekLanguageProvider/merkezi seçili kayıtlar. Hero/ref/R2 aynı geometri/zamanlama; cleanup/adapters React'e uygun. İç route chrome/SEO/katalog/prototipler korunur; yaklaşım bölümü yok.
+- Desktop demo ölçüleri eşit; mobil/üçdil/canvas korunması/reloadlocale/klavye-gerçektouch/reduced/fallback/Threefinalidle kısa kontroller geçti. TS/lint/nihai isolatedbuild passed;679artifact/0prototype refs. Dev200/prod10varyant404 doğrulandı. Ham harness/capture sınırlamaları raporda açık.
+- FurtherUp detay+canlı, Reviel/Metek yalnız gerçekcanlı/null-detail; AI/Atlı saklı. Evidence/report/task/D-024/review/session/daily güncel.
+- FinalQA yapılmadı; Safari/gerçekcihaz/pausea11y/performans/eksikcase-yasal-izin/releasebaseline kapıları sürer. Kullanıcı onayı beklenir.
+
+## Güncel BS3P-018A teslimi
+- Aktifbranch/HEAD1218e58; başlangıçtrackedtree temiz, kullanıcıuntrackedlogo/vault/research/arşivler korunur. Production app/page-layout/header-footer/SEO/contact/katalog/config/lock checkpoint ile aynı.
+- StatikPages için production-only geçici kaynak build'i: app/prototype/publicprototypeassets/prototyperuntime dışarıda. Source/dev yerinde; aynıdependency/Nextbuild. Zorunlu exportverifier+workflowgate+previewgate,677 export dosyası/0prototypeasset/0dependency; yanlışdemo/assetref fixture reddediliyor.
+- Additive `translations[locale].homepage`, tekLanguageProvider API/storageexceptionguard; legacy3dil ağacıcheckpoint eşit. Data/selectedProjects readonlylocale selector/gerçekURL/detailnull/productionposterpaths; Reviel-Metekdetail uydurulmadı, AI/Atlı kayıtları aynı.
+- TS/hedeflilint/data checks geçti. İlkbuildsandboxGoogleFontsDNSfail; ağizinli tekrar başarılı/18staticpages/prototyperoute yok. Dev6route+asset200; gerçekout yerelstatikmodelinde10prototypevaryantı404/productionroutes200. Canlıhostingtest/deploy/screenshot/Playwright/fullQA yok.
+- Not/evidence/task/current/next/session/2026-10-15günlük/D-023/review güncel. Yeni `/` görseli yok; commit/push/merge/deploy yok. 018B temel hazır, kullanıcıonayı beklenir.
 
 ## Güncel BS3P-017 teslimi ve görsel kabul
 - Görsel tasarım kullanıcı BS3P-017 talebinde onaylandı (D-022); bu kayıt geçmiş testleri değiştirmez ve production uygulama/yayın izni sayılmaz.
@@ -107,11 +153,11 @@ Bu oturumda branch `feature/bayessoft-3.0-plus`, HEAD `c5bf841` doğrulandı. Ö
 - Birleşik route kaynak HTML işaretlerine bağlı; kaynak alt ağaç sınırları değişirse adaptör birlikte gözden geçirilmeli.
 - Prizma initializer'ının iki transport referansı setup adaptöründe karşılanır; kaynak sözleşmesi değişirse adaptör kontrol edilmeli. EN/DE birleşik hero çevirisi uygulanmadı; gerçek siteye yönlendirme açıkça belirtilir.
 - Untracked eski Obsidian evidence ve görseller, Git push ile yedeklenmiyor.
-- Demo rotaları production izolasyonuna henüz alınmadı.
+- BS3P-018A ile production build/export prototype rotalarını ve prototype assetlerini dışlar. Canlı deployment henüz yapılmadı; dev erişimi korunur.
 - Homepage BS3P-016 ile TR/EN/DE UI destekler; kullanıcı BS3P-017 talebinde görsel tasarımı onayladı. Dil tercihinin reload testi hâlâ harness sınırlıdır; production entegrasyonu uygulanmadı. Referanslar müşteri/partner ayrımı ve ayrı kullanım izin belgeleri kaynaklarda yok; yasal sayfa rotası yok. Yayın öncesi kullanıcı içerik teyidi gerekir.
 - Homepage composer kaynak belge sınırlarına bağlı; kaynak hero HTML sözleşmesi değişirse adapter gözden geçirilmeli. Referans PNG payload/uzun loop/final erişilebilirlik release aşamasında değerlendirilmeli.
 
 ## Bir sonraki Codex eylemi
-Kullanıcının BS3P-017 geçiş planı uygulama onayını bekle; BS3P-010/009 inceleme kayıtları korunur. Vitrin entegrasyonu tamamlandı; ek revizyon, çeviri/yasal içerik, A-B/production veya release işlemini otomatik başlatma. Açık kalite/izolasyon/kasa bulguları [[../07-Reviews/REVIEW_REGISTER]] ve ilgili görev notlarında; final QA ayrı kapsamdır.
+Kullanıcının BS3P-018A incelemesini ve BS3P-018B kapsam onayını bekle; BS3P-010/009 inceleme kayıtları korunur. Vitrin entegrasyonu tamamlandı; ek revizyon, çeviri/yasal içerik, A-B/production veya release işlemini otomatik başlatma. Açık kalite/izolasyon/kasa bulguları [[../07-Reviews/REVIEW_REGISTER]] ve ilgili görev notlarında; final QA ayrı kapsamdır.
 
 > Bu dosyayı her oturumda yeniden, yalnızca gerçek duruma göre güncelle. Eski anlık görüntüyü SESSION_LOG'a gömmek yerine gerekiyorsa tarihçede referansla.

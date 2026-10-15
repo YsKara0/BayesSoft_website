@@ -1,0 +1,50 @@
+{
+  "scenePaused": {
+    "time": 1.089,
+    "later": 1.089
+  },
+  "sceneResume": {
+    "time": 1.332,
+    "sameCanvas": true
+  },
+  "reduced": {
+    "disabled": "true",
+    "stored": "paused",
+    "canvasCount": 0,
+    "auto": "paused"
+  },
+  "afterReduced": "true",
+  "mobileBefore": {
+    "posterRequests": [],
+    "resolution": "0",
+    "control": {
+      "x": 239.21875,
+      "y": 66,
+      "width": 130.78125,
+      "height": 44
+    },
+    "overflow": false
+  },
+  "mobilePosters": {
+    "resolution": "640",
+    "requests": [
+      {
+        "url": "http://127.0.0.1:3019/projects/covers/furtherup-drive-cover-640.webp",
+        "bytes": 72610
+      },
+      {
+        "url": "http://127.0.0.1:3019/projects/covers/reviel-cover-640.webp",
+        "bytes": 114566
+      },
+      {
+        "url": "http://127.0.0.1:3019/projects/covers/metek-makina-cover-640.webp",
+        "bytes": 142012
+      }
+    ]
+  },
+  "errors": [],
+  "ssr": {
+    "mode": "loading",
+    "posterVisible": true
+  }
+}

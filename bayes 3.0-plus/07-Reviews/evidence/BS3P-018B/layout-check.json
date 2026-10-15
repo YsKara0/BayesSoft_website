@@ -1,0 +1,84 @@
+{
+  "root": {
+    "#references": {
+      "y": 852,
+      "h": 241.4375
+    },
+    "#selected-projects": {
+      "y": 1093.4375,
+      "h": 881.015625
+    },
+    "#services": {
+      "y": 1974.453125,
+      "h": 523.078125
+    },
+    "#contact": {
+      "y": 2497.53125,
+      "h": 392.078125
+    },
+    ".homepage-footer": {
+      "y": 2889.609375,
+      "h": 440
+    }
+  },
+  "demo": {
+    "#references": {
+      "y": 852,
+      "h": 241.4375
+    },
+    "#selected-projects": {
+      "y": 1093.4375,
+      "h": 881.015625
+    },
+    "#services": {
+      "y": 1974.453125,
+      "h": 523.078125
+    },
+    "#contact": {
+      "y": 2497.53125,
+      "h": 392.078125
+    },
+    ".homepage-footer": {
+      "y": 2889.609375,
+      "h": 440
+    }
+  },
+  "prism": {
+    "face": "1",
+    "angle": "-90",
+    "reduced": "false",
+    "ready": "true",
+    "auto": "running",
+    "rotating": "false"
+  },
+  "scene": {
+    "mode": "webgl",
+    "ready": "true",
+    "phase": "align",
+    "time": "8.399",
+    "layers": "data,rules,web,mobile",
+    "frames": "507",
+    "drawCalls": "11",
+    "triangles": "1290",
+    "firstPose": "0.000",
+    "running": "true"
+  },
+  "framesStable": false,
+  "deOverflow": false,
+  "swipe": "Reviel",
+  "reduced": {
+    "face": "2",
+    "angle": "-180",
+    "reduced": "true",
+    "ready": "true",
+    "auto": "paused",
+    "rotating": "false"
+  },
+  "interior": {
+    "header": 0,
+    "oldHeader": 1
+  },
+  "errors": [
+    "Failed to execute 'setPointerCapture' on 'Element': No active pointer with the given id is found."
+  ]
+}

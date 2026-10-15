@@ -1,0 +1,6 @@
+{
+  "checked": 296,
+  "changed": [],
+  "newApplicationFiles": [],
+  "note": "Application/assets/build/dependency sources only; no secret/.env files read. Generated out and task documents intentionally excluded."
+}

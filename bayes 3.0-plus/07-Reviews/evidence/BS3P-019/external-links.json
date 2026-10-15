@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://drive.further-up.net",
+    "status": 200,
+    "finalUrl": "https://drive.further-up.net/",
+    "method": "HEAD"
+  },
+  {
+    "url": "https://www.reviel.com.tr/",
+    "status": 200,
+    "finalUrl": "https://www.reviel.com.tr/",
+    "method": "HEAD"
+  },
+  {
+    "url": "https://metekmakina.com/urunler",
+    "status": 200,
+    "finalUrl": "https://metekmakina.com/urunler",
+    "method": "HEAD"
+  },
+  {
+    "url": "https://github.com/bayessoft2024",
+    "status": 200,
+    "finalUrl": "https://github.com/bayessoft2024",
+    "method": "HEAD"
+  },
+  {
+    "url": "https://linkedin.com/company/bayessoft",
+    "status": 200,
+    "finalUrl": "https://linkedin.com/company/bayessoft",
+    "method": "HEAD"
+  },
+  {
+    "url": "https://x.com/bayessoft",
+    "status": 200,
+    "finalUrl": "https://x.com/bayessoft",
+    "method": "HEAD"
+  }
+]

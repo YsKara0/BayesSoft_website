@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "persistent_pause_5400ms": true,
+    "pause_mid_turn": true,
+    "keyboard_focus": true,
+    "keyboard_resume": true,
+    "three_resume_without_recreate": true,
+    "locale_persistence": true,
+    "reload_persistence": true,
+    "manual_gallery_while_paused": true,
+    "reduced_precedence": true,
+    "ssr_poster_without_js": true,
+    "mobile_no_overflow": true,
+    "lazy_images": true,
+    "dpr1_three_small_images": true,
+    "dpr3_three_large_images": true,
+    "no_application_errors": true
+  },
+  "harnessLimits": "Initial selector matched two data-motion-paused nodes; corrected to homepage root. Core run stopped at aria-disabled reduced-motion button actionability check; force-click guard verified in continuation. Initial and final raw files retained. No claim of complete WCAG audit."
+}

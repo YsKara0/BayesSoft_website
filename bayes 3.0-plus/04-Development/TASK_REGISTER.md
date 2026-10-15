@@ -28,6 +28,8 @@ Durumlar: `planned` · `in-progress` · `blocked` · `completed` · `deferred` �
 
 | BS3P-017 | Production migration audit ve uygulanabilir plan | completed | [[BS3P-017-PRODUCTION-MIGRATION-PLAN]]; production/prototype kaynak karşılaştırması/tekprovider/SEO/Pages artifact izolasyonu/lifecycle-risk/8 küçük adım/rollback/finalQA listesi. Görsel onay kayıtlı, plan uygulama onayı beklenir; yalnız belgeler değişti, kod/test/yayın yok |
 
+| BS3P-018A | Production foundation: izolasyon / tek dil / ortak seçili veri | completed | [[BS3P-018A-PRODUCTION-FOUNDATION]]; checkpoint1218e58, eski `/` aynı; izole source build+verifier, TR/EN/DE namespace/model/posterlar. TS/lint/build/verifier/data/dev200-prodartifact404 geçti; deploy yok, 018B onayı beklenir |
+
 ## Yeni görev açma şablonu
 `BS3P-### — [Kısa ad]`  
 - **Durum:** planned  
@@ -116,3 +118,38 @@ Durumlar: `planned` · `in-progress` · `blocked` · `completed` · `deferred` �
 - Yaklaşık64,3/35,7 grid, H2/H3/yerel scopedCSS ve mevcut Tüm projeler bağlantısı. Üç gerçek kayıt/konsept kapak; hero/ref/services/approach/contact/footer/production/arşiv korunur.
 - Hedefli TS/kısa desktop ileri/klavye geri, tek touch-reduced mobil görüntü;5/3 yüzey/taşma0/idle0/focus2px/console0. Initial harness/capture sorunları ve son yalnız PNG/hash tekrarları [[BS3P-012-R2-HOMEPAGE-INTEGRATION]] içinde.551 korumalı dosya/altı uygulama dosyası/iki PNG/JSON.
 - Completed/D-017 implemented; R2 onayı kayıtlı, yeni homepage görünümü inceleme bekler. Dependency/Git/yayın yok.
+
+| BS3P-018B | Onaylı homepage React entegrasyonu | completed | [[BS3P-018B-REACT-HOMEPAGE-INTEGRATION]]; gerçek `/`, ayrı bileşenler/tekprovider/aynı motorlar; TS-lint-build/kısa desktop-mobil-dil-swipe-fallback ve izolasyon geçti. 018C/019 finalQA ve kullanıcı incelemesi beklenir; deploy yok |
+
+## BS3P-018C — 2026-10-15 Görsel ve hareket eşdeğerliği
+
+| ID | Görev | Durum | Bağımlılık / kabul ölçütü |
+|---|---|---|---|
+| BS3P-018C | React/demo görsel ve hareket doğrulaması | completed | [[BS3P-018C-VISUAL-MOTION-PARITY]]; gerçekInstrumentSans/desktop-mobil/sabitölçüler/kısamotion eşleşti.275uygulamadosyası aynı; kod/CSS düzeltmesi yok. TS-lint/artifactverify geçti; yeni build yok. BS3P-019 finalQA ve kullanıcı onayı beklenir |
+
+## BS3P-019 — 2026-10-15 Final QA & Release Readiness
+
+| ID | Görev | Durum | Bağımlılık / kabul ölçütü |
+|---|---|---|---|
+| BS3P-019 | Production final QA ve yayın hazırlığı kararı | completed | [[BS3P-019-FINAL-QA-RELEASE-READINESS]]; **NOT READY**:B-019-01kalıcıpausea11y açık. Build/TS/lint/izolasyon/13route/3dil/Chromium/mobile/fallback/cleanup geçti. EN/DE2selector düzeltildi; mobilperf/dependencyaudit/browser/rollback riskleri açık. Yayın yok; kullanıcıonayı beklenir |
+
+
+## BS3P-020 — 2026-10-15 Accessibility Blocker & Performance Fixes
+
+| ID | Görev | Durum | Bağımlılık / kabul ölçütü |
+|---|---|---|---|
+| BS3P-020 | Kalıcı ortak hareket kontrolü, performans ve güvenli patch'ler | completed | [[BS3P-020-RELEASE-BLOCKER-FIXES]]; B-019-01 giderildi; tekminimalcontrol/gerçektimer-transition-RAFpause/TR-EN-DE/reduced/storage; LCP7.964→3.148s tekmobilpair,poster−87.42%large/−93.92%small;prodaudit0/full13devtoolchain. TS-lint-build/isolationpassed;Safari/CI22/lastartifact-rollback açık. Yeni koşulsuzREADY/yayın yok; kullanıcıincelemesi beklenir |
+
+
+## BS3P-021 — 2026-10-15 Final Release Gate
+
+| ID | Görev | Durum | Bağımlılık / kabul ölçütü |
+|---|---|---|---|
+| BS3P-021 | Son teknik yayın kapısı denetimi | completed | [[BS3P-021-FINAL-RELEASE-GATE]]; **READY WITH CONDITIONS**. Node22.23.3 yerel TS/lint/build/izolasyon passed; Safari remoteautomation kapalı/WebKit yok. Prodaudit0/full10high3moderate incelendi; lastPagesSHA teyitli/artifact0/rollbackprovası yok.55source+belgeler checkpoint manifesti/177hariçuserfile;296sourcehashaynı. Koşul/risk kabulü ve kullanıcıonayı beklenir; kod/staging/yayın yok |
+
+
+## BS3P-022 — 2026-10-15 Release Candidate Git Checkpoint
+
+| ID | Görev | Durum | Bağımlılık / kabul ölçütü |
+|---|---|---|---|
+| BS3P-022 | Seçili release candidate staging ve index denetimi | completed | [[BS3P-022-RELEASE-CANDIDATE-GIT-CHECKPOINT]];166staged(55source/111belge),185hariç(177user/8harness). Indexallowlist/mode/knownsecret/çatışma kontrolleri uygun;20mevcutbiçimuyarısı kaydedildi. HEAD1218e58aynı/yeniRCcommit yok; commitonayı beklenir. Kod/CSS/commit/push/merge/deploy yok |

@@ -1,0 +1,55 @@
+{
+  "decision": "NOT READY",
+  "blockers": [
+    {
+      "id": "B-019-01",
+      "classification": "BLOCKER",
+      "finding": "No persistent accessible pause/stop for automatic prism, desktop marquee and >5s scene; hidden transport is not exposed."
+    }
+  ],
+  "important": [
+    {
+      "id": "I-019-01",
+      "status": "fixed",
+      "finding": "EN/DE font scope selectors; 12 locale/viewport comparisons now match demo."
+    },
+    {
+      "id": "I-019-02",
+      "status": "open",
+      "finding": "Throttled mobile local LCP 7944ms; three posters 5418072 bytes; separate load optimization."
+    },
+    {
+      "id": "I-019-03",
+      "status": "open",
+      "finding": "Safari remote automation disabled, Playwright WebKit/Firefox absent; no physical device test."
+    },
+    {
+      "id": "I-019-04",
+      "status": "open",
+      "finding": "npm production audit reports 1 critical + 4 high package findings; static-host applicability and build chain remediation required."
+    },
+    {
+      "id": "I-019-05",
+      "status": "open",
+      "finding": "No retrieved last-good deployed artifact/cache/rollback rehearsal; checkpoint sources retained."
+    }
+  ],
+  "artifact": {
+    "files": 679,
+    "sha256": "cd1df90bea7fe39dc361aef345aefacb45aa3e79fc5080010574421dd8bd1dbe",
+    "prototypeArtifacts": 0,
+    "prototypeDependencies": 0
+  },
+  "codeChanges": [
+    "components/homepage/homepage.css: EN/DE selector scope only"
+  ],
+  "designLocked": true,
+  "deployed": false,
+  "improvements": [
+    {
+      "id": "P-019-03",
+      "classification": "\u0130Y\u0130LE\u015eT\u0130RME",
+      "finding": "Saved DE preference hydration: single 0.005710557 layout shift; distinct from TR lab CLS 0."
+    }
+  ]
+}

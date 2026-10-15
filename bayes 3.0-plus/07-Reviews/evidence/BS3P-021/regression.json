@@ -1,0 +1,183 @@
+{
+  "errors": [],
+  "paused": {
+    "paused": "true",
+    "angle": "0deg",
+    "matrix": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -210, 1)",
+    "marquee": "matrix(1, 0, 0, 1, -3.00066, 0)",
+    "time": "0.054",
+    "frames": "8",
+    "running": "false"
+  },
+  "later": {
+    "paused": "true",
+    "angle": "0deg",
+    "matrix": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -210, 1)",
+    "marquee": "matrix(1, 0, 0, 1, -3.00066, 0)",
+    "time": "0.054",
+    "frames": "8",
+    "running": "false"
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "label": "Resume motion",
+      "paused": "true",
+      "overflow": false
+    },
+    {
+      "lang": "de",
+      "label": "Bewegung fortsetzen",
+      "paused": "true",
+      "overflow": false
+    },
+    {
+      "lang": "tr",
+      "label": "Hareketi sürdür",
+      "paused": "true",
+      "overflow": false
+    }
+  ],
+  "renderedFont": {
+    "fonts": [
+      {
+        "familyName": "Instrument Sans",
+        "postScriptName": "InstrumentSans-Regular_Medium",
+        "isCustomFont": true,
+        "glyphCount": 20
+      }
+    ]
+  },
+  "seo": {
+    "title": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ",
+    "canonical": "https://bayessoft.com.tr/",
+    "h1": 1,
+    "jsonLd": 1,
+    "anchors": [
+      {
+        "href": "#hero",
+        "targetExists": true
+      },
+      {
+        "href": "#selected-projects",
+        "targetExists": true
+      },
+      {
+        "href": "#services",
+        "targetExists": true
+      },
+      {
+        "href": "#contact",
+        "targetExists": true
+      }
+    ]
+  },
+  "reloadPaused": true,
+  "resume": true,
+  "projects": [
+    {
+      "name": "FurtherUp Drive",
+      "detail": "/projeler/furtherup-drive",
+      "live": "https://drive.further-up.net",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "name": "Reviel",
+      "detail": null,
+      "live": "https://www.reviel.com.tr/",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "name": "Metek Makina",
+      "detail": null,
+      "live": "https://metekmakina.com/urunler",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    }
+  ],
+  "posters": [
+    {
+      "name": "http://127.0.0.1:3019/projects/covers/furtherup-drive-cover-640.webp",
+      "bytes": 72610
+    },
+    {
+      "name": "http://127.0.0.1:3019/projects/covers/reviel-cover-640.webp",
+      "bytes": 114566
+    },
+    {
+      "name": "http://127.0.0.1:3019/projects/covers/metek-makina-cover-640.webp",
+      "bytes": 142012
+    }
+  ],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/hakkimizda",
+      "status": 200
+    },
+    {
+      "path": "/hizmetler",
+      "status": 200
+    },
+    {
+      "path": "/projeler",
+      "status": 200
+    },
+    {
+      "path": "/iletisim",
+      "status": 200
+    },
+    {
+      "path": "/projeler/tam-finans-fintech",
+      "status": 200
+    },
+    {
+      "path": "/projeler/smart-hospital",
+      "status": 200
+    },
+    {
+      "path": "/projeler/petnest-platform",
+      "status": 200
+    },
+    {
+      "path": "/projeler/atli-logistics",
+      "status": 200
+    },
+    {
+      "path": "/projeler/military-aircraft-classification",
+      "status": 200
+    },
+    {
+      "path": "/projeler/ai-chatbot",
+      "status": 200
+    },
+    {
+      "path": "/projeler/furtherup-drive",
+      "status": 200
+    },
+    {
+      "path": "/projeler/maritime-horizon-segmentation",
+      "status": 200
+    }
+  ],
+  "robots": 200,
+  "notFound": 404,
+  "mobile": {
+    "lang": "de",
+    "menuOpen": false,
+    "overflow": false,
+    "mode": "static",
+    "poster": 350,
+    "canvases": 0
+  },
+  "reduced": {
+    "disabled": "false",
+    "paused": "true"
+  },
+  "error": "'false' == 'true'"
+}

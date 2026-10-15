@@ -1,0 +1,60 @@
+{
+  "typeScript": "passed: npm run typecheck",
+  "targetedLint": "passed: npx eslint components/homepage components/SiteChrome.tsx lib/homepage data/homepage.ts data/selectedProjects.ts app/page.tsx scripts/check-foundation.mjs scripts/optimize-project-posters.mjs",
+  "foundation": "passed: node scripts/check-foundation.mjs",
+  "build": "passed: Next15.5.28 clean isolated build after final sharp0.35.5 patch,18staticpages",
+  "buildInterruption": "One final build attempt hit existing Google font URL extension parsing TypeError(loader.js122); one unchanged retry passed. No mock font/cache injected.",
+  "productionAudit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "fullAudit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 3,
+    "high": 10,
+    "critical": 0,
+    "total": 13
+  },
+  "isolation": {
+    "export": {
+      "files": 686,
+      "prototypeArtifacts": 0,
+      "prototypeDependencies": 0
+    },
+    "devRoutes": [
+      "/prototype/bs3p-homepage",
+      "/prototype/bs3p-project-showcase",
+      "/prototype/bs3p-project-showcase-r2",
+      "/prototype/bs3p-right-3d",
+      "/prototype/spatial-hero",
+      "/prototype/spatial-hero-plus"
+    ],
+    "productionDenied": [
+      "/prototype",
+      "/prototype/",
+      "/prototype.html",
+      "/prototype/bs3p-homepage",
+      "/prototype/bs3p-homepage/",
+      "/prototype/bs3p-homepage.html",
+      "/prototype/bs3p-homepage/index.html",
+      "/prototype/bs3p-homepage.txt",
+      "/%70rototype/bs3p-homepage",
+      "/prototype-assets/bs3p-homepage/reviel-cover.png"
+    ],
+    "productionRoutes": "200",
+    "prototypeDevAsset": "200"
+  },
+  "notPerformed": [
+    "Safari/WebKit/Firefox",
+    "real devices or screen reader",
+    "CI Node22",
+    "live hosting or rollback deployment",
+    "field CWV or Lighthouse"
+  ],
+  "publicationActions": "No commit, push, merge, deploy, remote mutation or secret/.env read."
+}

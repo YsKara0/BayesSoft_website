@@ -1,13 +1,16 @@
 import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans, Inter, JetBrains_Mono } from "next/font/google";
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
+import localFont from "next/font/local";
+import { SiteChrome } from "@/components/SiteChrome";
+import "@/components/homepage/homepage.css";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import { siteConfig } from "@/data/config";
 import { createPageMetadata } from "@/data/seo";
 import "flag-icons/css/flag-icons.min.css";
 import "./globals.css";
 import "./design-tokens.css";
+
+const instrument = localFont({ src: "../components/fonts/InstrumentSans.ttf", variable: "--font-instrument", weight: "400 700", display: "swap" });
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin", "latin-ext"],
@@ -126,7 +129,7 @@ export default function RootLayout({
   return (
     <html
       lang="tr"
-      className={`scroll-smooth ${jakarta.variable} ${inter.variable} ${mono.variable}`}
+      className={`scroll-smooth ${jakarta.variable} ${inter.variable} ${mono.variable} ${instrument.variable}`}
       data-theme="balanced-premium"
       suppressHydrationWarning
     >
@@ -136,9 +139,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: structuredData }}
         />
         <LanguageProvider>
-          <Header />
-          {children}
-          <Footer />
+          <SiteChrome>{children}</SiteChrome>
         </LanguageProvider>
       </body>
     </html>

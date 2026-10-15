@@ -1,0 +1,43 @@
+{
+  "assets": {
+    "components/fonts/InstrumentSans.ttf": {
+      "source": "public/prototype-assets/spatial-hero/instrument-sans.ttf",
+      "equal": true,
+      "sha256": "b24f1812584816958afcf22e22d08e44318c5e51651e25d2438efdde389b33b1"
+    },
+    "public/hero/system-static.svg": {
+      "source": "public/prototype-assets/spatial-hero-plus/system-static.svg",
+      "equal": true,
+      "sha256": "666a635882b9828a1dac63a3b5eb03a9d70fa7529978e8f1abe2c3a387c69264"
+    },
+    "public/projects/covers/furtherup-drive-cover.png": {
+      "source": "assets/projects/furtherup-drive-cover.png",
+      "equal": true,
+      "sha256": "a90e3b08ae227d0a37246474bd8ff873c8f780cd16a0a49b059ea7870f693b69"
+    },
+    "public/projects/covers/reviel-cover.png": {
+      "source": "assets/projects/reviel-cover.png",
+      "equal": true,
+      "sha256": "6b5ddf3b6e7b6b10ba492e088e3aed1ec4323aa6903e10023df6fe347456b69f"
+    },
+    "public/projects/covers/metek-makina-cover.png": {
+      "source": "assets/projects/metek-makina-cover.png",
+      "equal": true,
+      "sha256": "3b676ba12c576341d7e9b34f634b2fdcd9df0b8d334a554ce3b6e5ae4b5884ac"
+    }
+  },
+  "engines": {
+    "lib/homepage/system/geometry.ts": {
+      "source": "prototypes/bs3p-right-3d/geometry.ts",
+      "equalIgnoringImportExtensions": true
+    },
+    "lib/homepage/system/motion.ts": {
+      "source": "prototypes/bs3p-right-3d/motion.ts",
+      "equalIgnoringImportExtensions": true
+    },
+    "lib/homepage/gallery/geometry.ts": {
+      "source": "prototypes/bs3p-project-showcase-r2/geometry.ts",
+      "equalIgnoringImportExtensions": true
+    }
+  }
+}

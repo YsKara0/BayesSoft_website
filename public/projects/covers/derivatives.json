@@ -1,0 +1,56 @@
+[
+  {
+    "id": "furtherup-drive",
+    "label": "640",
+    "sourceWidth": 1080,
+    "sourceHeight": 1457,
+    "width": 640,
+    "height": 863,
+    "bytes": 72610
+  },
+  {
+    "id": "furtherup-drive",
+    "label": "large",
+    "sourceWidth": 1080,
+    "sourceHeight": 1457,
+    "width": 1080,
+    "height": 1457,
+    "bytes": 151008
+  },
+  {
+    "id": "reviel",
+    "label": "640",
+    "sourceWidth": 1080,
+    "sourceHeight": 1456,
+    "width": 640,
+    "height": 863,
+    "bytes": 114566
+  },
+  {
+    "id": "reviel",
+    "label": "large",
+    "sourceWidth": 1080,
+    "sourceHeight": 1456,
+    "width": 1080,
+    "height": 1456,
+    "bytes": 239932
+  },
+  {
+    "id": "metek-makina",
+    "label": "640",
+    "sourceWidth": 1081,
+    "sourceHeight": 1455,
+    "width": 640,
+    "height": 861,
+    "bytes": 142012
+  },
+  {
+    "id": "metek-makina",
+    "label": "large",
+    "sourceWidth": 1081,
+    "sourceHeight": 1455,
+    "width": 1080,
+    "height": 1454,
+    "bytes": 290672
+  }
+]

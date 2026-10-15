@@ -1,0 +1,32 @@
+{
+  "desktop": {
+    "lcpMs": 64,
+    "lcpElement": "face-heading",
+    "fcpMs": 64,
+    "clsMaxSessionWindow": 0,
+    "maxObservedInteractionDurationMs": 48,
+    "fieldINP": null,
+    "jsCompletedEncodedBytes": 1188052,
+    "completedResourceBytes": 8451052,
+    "longTaskCount": 0,
+    "longTaskTotalMs": 0,
+    "postersCompletedAtSample": 3,
+    "network": "unthrottled loopback",
+    "cpuSlowdown": 1
+  },
+  "mobile": {
+    "lcpMs": 7944,
+    "lcpElement": "static-art",
+    "fcpMs": 3132,
+    "clsMaxSessionWindow": 0,
+    "maxObservedInteractionDurationMs": 24,
+    "fieldINP": null,
+    "jsCompletedEncodedBytes": 618313,
+    "completedResourceBytes": 2401894,
+    "longTaskCount": 1,
+    "longTaskTotalMs": 70,
+    "postersCompletedAtSample": 0,
+    "network": "1.6Mbps down / 0.75Mbps up / 150ms latency",
+    "cpuSlowdown": 4
+  }
+}

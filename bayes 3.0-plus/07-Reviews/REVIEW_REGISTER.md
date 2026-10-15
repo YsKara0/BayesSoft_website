@@ -179,3 +179,54 @@ Kaynakla örtüşen motion: `faces.ts` dört metin; `motion.ts` 5000 ms bekleme/
 - Static export ve ./out Pages upload; noindex/robots erişim engeli değildir, Next15 middleware desteklenmez. Source/dev korunarak temizstagingartifact/CI negatifroute kontrolü ve gerçek404 önerildi; bu oturumda uygulanmadı. Canlıdeployrevision/cachehost durumu bilinmiyor.
 - Açık yayın kapıları: Kalıcı motionpause (prizma/marquee; uzunscene), Safari/gerçekcihaz/WebGLfallback/performance/a11y; Reviel/Metek detailsayfası yok; hukuki/ref/font teyidi; BS3P-016 storageharness sınırlaması. Son iyiartifact/rollback manifesti olmadan release yapılmaz.
 - Plan0–7 küçükadım ve rollback/finalQA listesi içerir; production/asset/bağımsızproto/eski kasalar/Git/yayın değişmedi. Uygulama onayı beklenir.
+
+
+## 2026-10-15 — BS3P-018A foundation review
+- [[../04-Development/BS3P-018A-PRODUCTION-FOUNDATION]] completed; eski `/` ve page/layout/header-footer/SEO/contact/catalog/config/lock checkpoint1218e58 ile aynı. Onlyfoundation/isolatedbuild/dil-veri/poster hazırlığı, motionport yok.
+- TS/targetlint/build(verilen ağ izniyle)/artifactverifier/data locale-baseline checks passed. Out677files/0prototypeassets-dependencies; source/dev6route200, localstaticactualartifactprototype10variants404. No browsermatrix/screens/livehost/deploy.
+- Risk: GoogleFonts ağ bağımlılığı; local.env otomatik prodworkspace'e aktarılmaz (CIpublicenv aynı); gelecekteki sourcefolders explicit allowlist; checker bypass edilerek hamout yayınlanmamalı. Son gerçekrelease/cachehosting bağımsız teyit edilmedi. Reviel-Metekdetail/null, license/ref/legal/lifecycle/pausea11y/Safari/WebGL/performance finalgates sürer.
+- Typedcopy/proje selector/productionassetpaths/securebuild BS3P-018B için hazır; kullanıcıincelemesi ve yeni uygulama onayı beklenir. Commit/push/merge/deploy yok.
+
+
+## 2026-10-15 — BS3P-018B React homepage review
+- [[../04-Development/BS3P-018B-REACT-HOMEPAGE-INTEGRATION]] completed; kullanıcı incelemesi bekler. Demo ile hero/section ölçüleri eşit, aynı motorlar ve posterler/tekproductionprovider; root-only yeni chrome, interior chrome veSEO kaynakları korunur.
+- TS/targetlint/productionbuild geçti;679export/0prototypeartifact-dependency, dev200/prod404 kapısı korundu. Desktop/mobil/3dil/canvaspreservation/localeReload/keyboard/gerçektouch/reduced/WebGLfallback/Threefinalidle kısa kontroller belgeli. İlk sentetikpointerharness hatası ve capturelimitleri gizlenmeden hamJSON'da saklı; viewportkanıtında çalışan sahne görülür.
+- Açık: Safari/gerçekcihaz/contextloss/performance/SR ve kalıcımotionpause, eksikReviel-Metek case/yasal/izinler, gerçek last-good deploy/cache teyidi. TamQA/pikselmatrisi/video/deploy yok. Sonraki018C/019 ancak kullanıcı talebiyle; production-ready release onayı verilmedi.
+
+
+## 2026-10-15 — BS3P-018C parity review
+- Kullanıcı React/demo karşılaştırmasında belirgin tasarım farkı görmediğini bildirdi. [[../04-Development/BS3P-018C-VISUAL-MOTION-PARITY]] completed; finalrelease onayı değildir, kullanıcı incelemesi beklenir.
+- Desktop/mobil computed+CDPrenderedfonts+DOMölçüleri+pairedscreens+sourcehash/kısamotion kanıtları birlikte kullanıldı. GerçekInstrumentSans400/500/600; sabitölçü/tipografi/kolon/logo/R2eşit. Hover/focus/dot/Three8.4idle/marquee/R2key-touch/reduced/Escape aynı. Başlangıçready/faz/modality/harness ayrımları hamtelemetri ve sınırlamalarda açık.
+- Görünür/işlevsel fark doğrulanmadı;0uygulamadeğişikliği/275dosyahasheşit. TS/hedeflilint/mevcutartifactverify passed; yeni build/yayın yok. Kapsamlı Safari/gerçekcihaz/performans/a11y BS3P-019'a bırakıldı; missingcase/legal/izin/pause ve lastgooddeploy/cache/rollback açıkları kapanmadı.
+
+
+## 2026-10-15 — BS3P-019 final QA / NOT READY
+- [[../04-Development/BS3P-019-FINAL-QA-RELEASE-READINESS]] QA completed; kullanıcı018C sonucunu onayladı/tasarım kilitli. B-019-01 **BLOCKER**: kalıcıhareketstop yok; hiddenprismapause/finalstate ve hover-focus-onlymarquee yeterli değil. YeniUI kullanıcıonaylı ayrıiş; releaseNOTREADY.
+- I-019-01 **ÖNEMLİ/düzeltildi**: EN/DEfontscope2selector;12localeviewport demo font-metin eşit. Diğer274sourcehash aynı; tasarım/font/timing/motor/poster aynı. Temizsonbuild/TS/targetlint/foundation/izolasyon/13route/SEO passed.
+- I-019-02 **ÖNEMLİ/açık**: mobilelocallabLCP7.944s/CLS0/5.42MBposter. I-019-03 **ÖNEMLİ/eksik**: Safari otomasyon kapalı/WebKit-Firefox yok/cihaz-SR yok/Node26local-22CI farkı. I-019-04 **ÖNEMLİ/açık**: npmAudit1critical4highpaket; staticruntime vs buildmaruziyet ayrımı/patchtakibi. I-019-05 **ÖNEMLİ/açık**: lastgoodartifact/cache/rollbacktatbikatı teyitsiz.
+- Chromium1440/320-390-768×3dil/persist/keyboard-touch/reduced/AXsemantics/fallback-contextloss/retiredcanvas0-idle kaynakcleanup gözlendi. KapsamtamWCAG/gerçekcihaz/fieldCWV/pentest değildir; hamJSON/önce-sonraPNG veharnesslimitleri raporda.
+- P-019-03 **İYİLEŞTİRME**: kaydedilmişDE hydration başlangıcında0.00571layout-shift; TRlabCLS0 ayrı örnek.
+- P-019-01/02 **İYİLEŞTİRME**: yasal/izin içerik kararları ve Reviel-Metekcase opsiyonu; sahte/bozuk detay gösterilmedi, otomatikblocker değil. CanlıPOST/canlıBayesSofthost/commit/push/merge/deploy yok.
+
+
+## 2026-10-15 — BS3P-020 hedefli düzeltme review
+- [[../04-Development/BS3P-020-RELEASE-BLOCKER-FIXES]] completed; **B-019-01 BLOCKER giderildi**. Tekküçüknativeglobalmotionbutton/TR-EN-DE/persistentchoice/reducedönceliği.5400mspause/midturnrealtransition/samecanvas-timeThree/locale-reload/Space-focus ve reducedsavedrunningçatışması doğrulandı. Bu tamWCAGsertifikası değildir; kullanıcıincelemesibeklenir.
+- **I-019-02 ÖNEMLİ azaltıldı:** aynıcoldmobilpairLCP7.964→3.148s/CLS0→.000203;SVGhidrasyonbeklemiyor. Poster5.418MB→.682MBlarge/.329MBsmall,lazy0initial/3uniqueDPRvariant. PNG/WebPvisualpair belirginfarkyok. FieldCWV/Lighthouse/hostingoptimizasyonu ölçülmedi;3.148s hâlâiyiLCPhedefininüzerinde.
+- **I-019-04 ÖNEMLİ productionaudit kapandı:** Next15.5.28/PostCSS8.5.30/nanoid3.3.20/source-map-js1.2.2/Nextsupportedsharp.35.5; finalprodaudit0. Full13(10high3moderate)dev/build riskleri ayrıtakip; güvenli leafpatchplanı gerekir. Force/majorupdateyok.
+- **I-019-03/I-019-05 ÖNEMLİ açık:** Safari/WebKit/Firefox/gerçekcihaz/SR/CI22yok; lastsuccessfulPagesmasterSHA b8c38de…metadata teyitli,downloadableartifact0/rollbackprovayok. Canlıcache/contenthashteyidyok;1218e58yalnızdesigncheckpoint.
+- TS/targetlint/foundation/finalbuild/isolated686files0prototype/dev200-prod404 passed. BirGoogleFontloaderURLparsebuildfail/tekretrypass,externalfontbuildbağımlılığı **ÖNEMLİ takip**. PerformansfinalsharppatchöncesiUIbuild;nihaiCSS/SVG/WebPaynı/chunkkimlikleriüretilmiş.269/281snapshotaynı/12hedeflidiff/0silme,orijinalasset/protofontgeometrykorunur.
+- Yeni koşulsuzREADY verilmedi; gerçekreleasekapıları ve kullanıcıonayı beklenir. UI/timingyenidentasarım/commit/push/merge/deployyok. Önceki019NOTREADYraporutarihçeolarakkorunur;güncelblockerdurumu020notudur.
+
+
+## 2026-10-15 — BS3P-021 final release gate
+- [[../04-Development/BS3P-021-FINAL-RELEASE-GATE]] completed; **READY WITH CONDITIONS**, yayın izni değildir. **RELEASE BLOCKER:** doğrulanmış aktif kritik uygulama/izolasyon hatası yok;020kalıcıcontrol korunur. Koşulları başarısız yeniCIbuild/verifier doğrudan blocker olur.
+- **ACCEPTED RISK (kullanıcı kabulüne sunulan):** Safari otomasyonu kapalı/WebKitbinaryyok/testyok; Node22yerelmacOSpassed fakat UbuntuCI/npmcifreshyok; devbuild10high3moderate (prod0); eskiPagesartifact0/rollbackprovayok. Kullanıcı adına risk kabulü verilmedi; koşullar notta açık.
+- **IMPROVEMENT:** globalGoogleFontsbuildağı (buNode22buildilkseferdepassed),fieldCWV/gerçekcihaz/SR,uyumlu leafpatch/parentmigrasyonplanı; missingReviel-Metekcase/yasal/izin kayıtları korunur.
+- Node22.23.3 officialchecksum/TS-targetlint-foundation-build-verifier-HTTPisolation passed;18page/686file/0proto. KısaChromium gerçekfont/locale-pause/reload/resume/Threefreeze/R2href-safe-rel/WebP/13route/SEO/mobilEscape-static-nooverflow/reducednone0 passed. Ham harness erkenread/noneplaystate beklenti hataları saklı; uygulama/CSS değişmedi.
+- Başlangıç55releasekaynağı/81belge/177hariçyereldosya; finaltammanifest raporda.296source-assethashaynı;018A-B-C-019-020/untrackeduserfiles korunur. SonPagesb8c38de…/run38187511219success teyitli;artifact0,canlıhash/prova/deployyok. Commit/push/merge/staging yok; kullanıcıonayı beklenir.
+
+
+## 2026-10-15 — BS3P-022 staged release candidate review
+- [[../04-Development/BS3P-022-RELEASE-CANDIDATE-GIT-CHECKPOINT]] completed;166dosya(55releasekaynağı/111belge-kanıt) staged,185yereldosya(177ilgisiz/8geçiciQA.cjs) hariç. Tam dosya listeleri022evidence'da; kullanıcıcommitonayı beklenir.
+- Allowlist/mode/secretpattern/blob-worktreekontrolleri uygun;yasakpath0/knownsecretbulgu0/100644mode. Rawcachedcheckexit2/20mevcutbiçimuyarısı notta(16MDhardbreak/3rawlogCRLF/1geometryEOFblank); kod veya tarihselkanıt değiştirilmedi.232korumalısource-userfilehashaynı; broadgitadd yok.
+-021READYWITHCONDITIONS riskleri bu staging ile kapanmadı:Safari/WebKit/UbuntuCI/dev13/lastartifact-rollbackprovası. HEAD1218e58aynı/yeniRCcommit henüz yok;sonPagesb8c38de…önceki021metadatareferansı. Yeni test/build/auditnetwork/deployyok;commit/push/mergeyok.

@@ -1,0 +1,633 @@
+{
+  "method": "Single cold-context local static production run, identity HTTP transfer, not Lighthouse or field CWV.",
+  "mobile": {
+    "metrics": {
+      "lcp": [
+        {
+          "name": "",
+          "entryType": "largest-contentful-paint",
+          "startTime": 3148,
+          "duration": 0,
+          "navigationId": 7602,
+          "paintTime": 3130.2000000178814,
+          "presentationTime": 3148,
+          "size": 68950,
+          "renderTime": 3148,
+          "loadTime": 3087,
+          "id": "",
+          "url": "http://127.0.0.1:3019/hero/system-static.svg",
+          "element": "IMG",
+          "elementClass": "static-art"
+        }
+      ],
+      "shifts": [
+        {
+          "name": "",
+          "entryType": "layout-shift",
+          "startTime": 7980.300000011921,
+          "duration": 0,
+          "navigationId": 7602,
+          "value": 0.00020302468901163898,
+          "hadRecentInput": false,
+          "lastInputTime": 3126.600000023842,
+          "sources": [
+            {
+              "tag": "BUTTON",
+              "previous": {
+                "x": 239.21875,
+                "y": 66,
+                "width": 130.78125,
+                "height": 44,
+                "top": 66,
+                "right": 370,
+                "bottom": 110,
+                "left": 239.21875
+              },
+              "current": {
+                "x": 230.0625,
+                "y": 66,
+                "width": 139.9375,
+                "height": 44,
+                "top": 66,
+                "right": 370,
+                "bottom": 110,
+                "left": 230.0625
+              }
+            }
+          ]
+        }
+      ],
+      "events": [],
+      "longTasks": [
+        {
+          "name": "self",
+          "entryType": "longtask",
+          "startTime": 7844.800000011921,
+          "duration": 69,
+          "navigationId": 7602,
+          "attribution": [
+            {
+              "name": "unknown",
+              "entryType": "taskattribution",
+              "startTime": 0,
+              "duration": 0,
+              "navigationId": 7602,
+              "containerType": "window",
+              "containerSrc": "",
+              "containerId": "",
+              "containerName": ""
+            }
+          ]
+        }
+      ]
+    },
+    "paint": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 3148,
+        "duration": 0,
+        "navigationId": 7602,
+        "paintTime": 3130.2000000178814,
+        "presentationTime": 3148
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 3148,
+        "duration": 0,
+        "navigationId": 7602,
+        "paintTime": 3130.2000000178814,
+        "presentationTime": 3148
+      }
+    ],
+    "navigation": [
+      {
+        "name": "http://127.0.0.1:3019/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 12734.800000011921,
+        "navigationId": 7602,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.30000001192092896,
+        "domainLookupStart": 0.30000001192092896,
+        "domainLookupEnd": 0.30000001192092896,
+        "connectStart": 0.30000001192092896,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.30000001192092896,
+        "requestStart": 1,
+        "responseStart": 1.300000011920929,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 1.300000011920929,
+        "responseEnd": 1580.5,
+        "transferSize": 79078,
+        "encodedBodySize": 78778,
+        "decodedBodySize": 78778,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 3138.800000011921,
+        "domContentLoadedEventStart": 3138.800000011921,
+        "domContentLoadedEventEnd": 3138.9000000059605,
+        "domComplete": 12734.700000017881,
+        "loadEventStart": 12734.800000011921,
+        "loadEventEnd": 12734.800000011921,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      }
+    ],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:3019/_next/static/media/52e25459168ca65d-s.p.ttf",
+        "startTime": 164.7000000178814,
+        "duration": 5329.699999988079,
+        "transferSize": 194636,
+        "encodedBodySize": 194336,
+        "decodedBodySize": 194336
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+        "startTime": 165.10000002384186,
+        "duration": 633.8999999761581,
+        "transferSize": 15504,
+        "encodedBodySize": 15204,
+        "decodedBodySize": 15204
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+        "startTime": 165.10000002384186,
+        "duration": 792.7999999821186,
+        "transferSize": 21988,
+        "encodedBodySize": 21688,
+        "decodedBodySize": 21688
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+        "startTime": 165.10000002384186,
+        "duration": 926.1999999880791,
+        "transferSize": 27572,
+        "encodedBodySize": 27272,
+        "decodedBodySize": 27272
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+        "startTime": 165.10000002384186,
+        "duration": 2509.5999999940395,
+        "transferSize": 85572,
+        "encodedBodySize": 85272,
+        "decodedBodySize": 85272
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+        "startTime": 165.10000002384186,
+        "duration": 2741.2999999821186,
+        "transferSize": 40780,
+        "encodedBodySize": 40480,
+        "decodedBodySize": 40480
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+        "startTime": 165.10000002384186,
+        "duration": 3478,
+        "transferSize": 48732,
+        "encodedBodySize": 48432,
+        "decodedBodySize": 48432
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/css/a0b90a5851dc9388.css",
+        "startTime": 165.2000000178814,
+        "duration": 1391.2999999821186,
+        "transferSize": 21781,
+        "encodedBodySize": 21481,
+        "decodedBodySize": 21481
+      },
+      {
+        "name": "http://127.0.0.1:3019/hero/system-static.svg",
+        "startTime": 165.2000000178814,
+        "duration": 2765.0999999940395,
+        "transferSize": 4114,
+        "encodedBodySize": 3814,
+        "decodedBodySize": 3814
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/css/84fe0a4fea8e66ee.css",
+        "startTime": 166,
+        "duration": 2126,
+        "transferSize": 36989,
+        "encodedBodySize": 36689,
+        "decodedBodySize": 36689
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/css/50d1030f9011dfe9.css",
+        "startTime": 166,
+        "duration": 2628.5,
+        "transferSize": 61385,
+        "encodedBodySize": 61085,
+        "decodedBodySize": 61085
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/css/42ad901520229d8e.css",
+        "startTime": 169,
+        "duration": 2902.4000000059605,
+        "transferSize": 49674,
+        "encodedBodySize": 49374,
+        "decodedBodySize": 49374
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/webpack-65b30cd4b2dfcc12.js",
+        "startTime": 169.40000000596046,
+        "duration": 2865.0999999940395,
+        "transferSize": 3882,
+        "encodedBodySize": 3582,
+        "decodedBodySize": 3582
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/main-app-a3c57752c623457f.js",
+        "startTime": 169.40000000596046,
+        "duration": 3052.2000000178814,
+        "transferSize": 855,
+        "encodedBodySize": 555,
+        "decodedBodySize": 555
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/924-b462eba0481c96b1.js",
+        "startTime": 169.40000000596046,
+        "duration": 3285.9000000059605,
+        "transferSize": 8837,
+        "encodedBodySize": 8537,
+        "decodedBodySize": 8537
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/5d08d3ca-2cf9d6d008e53af1.js",
+        "startTime": 169.40000000596046,
+        "duration": 7598.4000000059605,
+        "transferSize": 173319,
+        "encodedBodySize": 173019,
+        "decodedBodySize": 173019
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/950-622eb9bf05a17a1d.js",
+        "startTime": 169.40000000596046,
+        "duration": 7673.4000000059605,
+        "transferSize": 174626,
+        "encodedBodySize": 174326,
+        "decodedBodySize": 174326
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/556-5ee5c8d4535db463.js",
+        "startTime": 169.5,
+        "duration": 3855.7000000178814,
+        "transferSize": 14582,
+        "encodedBodySize": 14282,
+        "decodedBodySize": 14282
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/31-24327e44ebaceb10.js",
+        "startTime": 169.5,
+        "duration": 4087.5,
+        "transferSize": 16028,
+        "encodedBodySize": 15728,
+        "decodedBodySize": 15728
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/app/layout-22121198916f2add.js",
+        "startTime": 169.5,
+        "duration": 5003.5,
+        "transferSize": 24383,
+        "encodedBodySize": 24083,
+        "decodedBodySize": 24083
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/705-b25371d2ee37433d.js",
+        "startTime": 169.5,
+        "duration": 5160.600000023842,
+        "transferSize": 40460,
+        "encodedBodySize": 40160,
+        "decodedBodySize": 40160
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/app/page-17b17c1b331976b7.js",
+        "startTime": 169.5,
+        "duration": 6367.200000017881,
+        "transferSize": 43336,
+        "encodedBodySize": 43036,
+        "decodedBodySize": 43036
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/13-6eb35a6e027be468.js",
+        "startTime": 169.5,
+        "duration": 6758.200000017881,
+        "transferSize": 127312,
+        "encodedBodySize": 127012,
+        "decodedBodySize": 127012
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/tamfinans.png",
+        "startTime": 223.40000000596046,
+        "duration": 6650.5,
+        "transferSize": 48530,
+        "encodedBodySize": 48230,
+        "decodedBodySize": 48230
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/metek.png",
+        "startTime": 229.30000001192093,
+        "duration": 5813.5999999940395,
+        "transferSize": 13151,
+        "encodedBodySize": 12851,
+        "decodedBodySize": 12851
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/further-up.png",
+        "startTime": 229.40000000596046,
+        "duration": 6720.800000011921,
+        "transferSize": 7766,
+        "encodedBodySize": 7466,
+        "decodedBodySize": 7466
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/reviel.png",
+        "startTime": 229.40000000596046,
+        "duration": 9255.700000017881,
+        "transferSize": 125982,
+        "encodedBodySize": 125682,
+        "decodedBodySize": 125682
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/arel.png",
+        "startTime": 236.90000000596046,
+        "duration": 11452.90000000596,
+        "transferSize": 213231,
+        "encodedBodySize": 212931,
+        "decodedBodySize": 212931
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/atli.png",
+        "startTime": 237,
+        "duration": 11557.300000011921,
+        "transferSize": 221386,
+        "encodedBodySize": 221086,
+        "decodedBodySize": 221086
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/teskilat-icom.png",
+        "startTime": 245.40000000596046,
+        "duration": 7829.800000011921,
+        "transferSize": 5410,
+        "encodedBodySize": 5110,
+        "decodedBodySize": 5110
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/kanuni_sultan_suleyman_hastanesi.png",
+        "startTime": 245.40000000596046,
+        "duration": 10769.59999999404,
+        "transferSize": 166542,
+        "encodedBodySize": 166242,
+        "decodedBodySize": 166242
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/hypersense.png",
+        "startTime": 251.60000002384186,
+        "duration": 8115,
+        "transferSize": 12963,
+        "encodedBodySize": 12663,
+        "decodedBodySize": 12663
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/zirve-cilingir.png",
+        "startTime": 251.60000002384186,
+        "duration": 12481.09999999404,
+        "transferSize": 367417,
+        "encodedBodySize": 367117,
+        "decodedBodySize": 367117
+      },
+      {
+        "name": "http://127.0.0.1:3019/bayes_logo_dark.png",
+        "startTime": 12737,
+        "duration": 415.7000000178814,
+        "transferSize": 52342,
+        "encodedBodySize": 52042,
+        "decodedBodySize": 52042
+      }
+    ],
+    "ready": "true",
+    "lang": "tr",
+    "loadedPosters": [
+      null,
+      null,
+      null
+    ],
+    "scene": "static",
+    "interactionMetrics": [
+      {
+        "name": "pointerover",
+        "entryType": "event",
+        "startTime": 18213.30000001192,
+        "duration": 24,
+        "navigationId": 7602,
+        "interactionId": 0,
+        "processingStart": 18213.600000023842,
+        "processingEnd": 18214.80000001192,
+        "cancelable": true
+      },
+      {
+        "name": "pointerenter",
+        "entryType": "event",
+        "startTime": 18213.30000001192,
+        "duration": 24,
+        "navigationId": 7602,
+        "interactionId": 0,
+        "processingStart": 18214.80000001192,
+        "processingEnd": 18214.80000001192,
+        "cancelable": false
+      },
+      {
+        "name": "pointerenter",
+        "entryType": "event",
+        "startTime": 18213.30000001192,
+        "duration": 24,
+        "navigationId": 7602,
+        "interactionId": 0,
+        "processingStart": 18214.80000001192,
+        "processingEnd": 18214.80000001192,
+        "cancelable": false
+      },
+      {
+        "name": "pointerenter",
+        "entryType": "event",
+        "startTime": 18213.30000001192,
+        "duration": 24,
+        "navigationId": 7602,
+        "interactionId": 0,
+        "processingStart": 18214.80000001192,
+        "processingEnd": 18214.80000001192,
+        "cancelable": false
+      },
+      {
+        "name": "pointerenter",
+        "entryType": "event",
+        "startTime": 18213.30000001192,
+        "duration": 24,
+        "navigationId": 7602,
+        "interactionId": 0,
+        "processingStart": 18214.80000001192,
+        "processingEnd": 18214.80000001192,
+        "cancelable": false
+      },
+      {
+        "name": "pointerenter",
+        "entryType": "event",
+        "startTime": 18213.30000001192,
+        "duration": 24,
+        "navigationId": 7602,
+        "interactionId": 0,
+        "processingStart": 18214.80000001192,
+        "processingEnd": 18214.80000001192,
+        "cancelable": false
+      },
+      {
+        "name": "pointerenter",
+        "entryType": "event",
+        "startTime": 18213.30000001192,
+        "duration": 24,
+        "navigationId": 7602,
+        "interactionId": 0,
+        "processingStart": 18214.80000001192,
+        "processingEnd": 18214.80000001192,
+        "cancelable": false
+      },
+      {
+        "name": "pointerenter",
+        "entryType": "event",
+        "startTime": 18213.30000001192,
+        "duration": 24,
+        "navigationId": 7602,
+        "interactionId": 0,
+        "processingStart": 18214.80000001192,
+        "processingEnd": 18214.80000001192,
+        "cancelable": false
+      },
+      {
+        "name": "pointerenter",
+        "entryType": "event",
+        "startTime": 18213.30000001192,
+        "duration": 24,
+        "navigationId": 7602,
+        "interactionId": 0,
+        "processingStart": 18214.80000001192,
+        "processingEnd": 18214.80000001192,
+        "cancelable": false
+      },
+      {
+        "name": "mouseover",
+        "entryType": "event",
+        "startTime": 18213.30000001192,
+        "duration": 24,
+        "navigationId": 7602,
+        "interactionId": 0,
+        "processingStart": 18214.80000001192,
+        "processingEnd": 18215.100000023842,
+        "cancelable": true
+      },
+      {
+        "name": "pointerdown",
+        "entryType": "event",
+        "startTime": 18213.40000000596,
+        "duration": 24,
+        "navigationId": 7602,
+        "interactionId": 4968,
+        "processingStart": 18215.70000001788,
+        "processingEnd": 18215.80000001192,
+        "cancelable": true
+      },
+      {
+        "name": "mousedown",
+        "entryType": "event",
+        "startTime": 18213.40000000596,
+        "duration": 24,
+        "navigationId": 7602,
+        "interactionId": 0,
+        "processingStart": 18215.80000001192,
+        "processingEnd": 18215.80000001192,
+        "cancelable": true
+      },
+      {
+        "name": "pointerup",
+        "entryType": "event",
+        "startTime": 18213.40000000596,
+        "duration": 24,
+        "navigationId": 7602,
+        "interactionId": 4968,
+        "processingStart": 18217.100000023842,
+        "processingEnd": 18217.100000023842,
+        "cancelable": true
+      },
+      {
+        "name": "mouseup",
+        "entryType": "event",
+        "startTime": 18213.40000000596,
+        "duration": 24,
+        "navigationId": 7602,
+        "interactionId": 0,
+        "processingStart": 18217.100000023842,
+        "processingEnd": 18217.40000000596,
+        "cancelable": true
+      },
+      {
+        "name": "click",
+        "entryType": "event",
+        "startTime": 18213.40000000596,
+        "duration": 24,
+        "navigationId": 7602,
+        "interactionId": 4968,
+        "processingStart": 18217.5,
+        "processingEnd": 18217.5,
+        "cancelable": true
+      },
+      {
+        "name": "keydown",
+        "entryType": "event",
+        "startTime": 18222.40000000596,
+        "duration": 16,
+        "navigationId": 7602,
+        "interactionId": 4975,
+        "processingStart": 18222.70000001788,
+        "processingEnd": 18223.20000001788,
+        "cancelable": true
+      },
+      {
+        "name": "keyup",
+        "entryType": "event",
+        "startTime": 18223.20000001788,
+        "duration": 16,
+        "navigationId": 7602,
+        "interactionId": 4975,
+        "processingStart": 18223.80000001192,
+        "processingEnd": 18223.80000001192,
+        "cancelable": true
+      }
+    ],
+    "cpuSlowdown": 4,
+    "network": "1.6Mbps down / 0.75Mbps up / 150ms latency"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "before": {
+    "LCPms": 7964,
+    "LCPelement": "img.static-art /hero/system-static.svg",
+    "FCPms": 3160,
+    "CLS": 0,
+    "sampledInteractionMaxMs": 24,
+    "longTasks": 1,
+    "longTaskTotalMs": 68,
+    "completedJsTransferBytes": 621613,
+    "posterHrefs": [
+      "/projects/covers/furtherup-drive-cover.png",
+      "/projects/covers/reviel-cover.png",
+      "/projects/covers/metek-makina-cover.png"
+    ],
+    "sceneMode": "static"
+  },
+  "after": {
+    "LCPms": 3148,
+    "LCPelement": "img.static-art /hero/system-static.svg",
+    "FCPms": 3148,
+    "CLS": 0.00020302468901163898,
+    "sampledInteractionMaxMs": 24,
+    "longTasks": 1,
+    "longTaskTotalMs": 69,
+    "completedJsTransferBytes": 627620,
+    "posterHrefs": [
+      null,
+      null,
+      null
+    ],
+    "sceneMode": "static"
+  },
+  "method": "One cold context per phase; local identity HTTP; Chromium390x844 DPR1; CPU4x; download200000B/s upload93750B/s latency150ms; 15s after DOMContentLoaded; not Lighthouse, not field INP; host load can vary.",
+  "lcpReductionPercent": 60.47212456052235
+}

@@ -1,0 +1,14 @@
+{
+  "filesChecked": 275,
+  "changed": [
+    "components/homepage/homepage.css"
+  ],
+  "new": [],
+  "before": {
+    "components/homepage/homepage.css": "f9a9ade5ec8c59b1f8f11705e1b71470c671cad31a863efaf9e76299f4ed7dd3"
+  },
+  "after": {
+    "components/homepage/homepage.css": "6d6204d7f4013976f3733a386f63f793b6baef48c018f19bd21d6faced42e2dc"
+  },
+  "unchangedCount": 274
+}

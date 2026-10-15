@@ -1,0 +1,1434 @@
+{
+  "desktop": {
+    "react": {
+      "layout": {
+        "items": {
+          ".prototype-header": {
+            "x": 64,
+            "y": 30,
+            "w": 1312,
+            "h": 52,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".plus-composition": {
+            "x": 64,
+            "y": 114,
+            "w": 1312,
+            "h": 620,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".prism-column": {
+            "x": 64,
+            "y": 214,
+            "w": 540,
+            "h": 420,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".architectural-object": {
+            "x": 64,
+            "y": 214,
+            "w": 540,
+            "h": 420,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".plate-space": {
+            "x": 67,
+            "y": 214,
+            "w": 534,
+            "h": 420,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".face-0 .face-heading": {
+            "x": 106.984375,
+            "y": 337.09375,
+            "w": 407.765625,
+            "h": 173.8125,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "81.999px",
+            "fontWeight": "500",
+            "lineHeight": "86.9189px",
+            "letterSpacing": "-1.63998px",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".system-column": {
+            "x": 644,
+            "y": 195.25,
+            "w": 732,
+            "h": 457.5,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".scene": {
+            "x": 644,
+            "y": 195.25,
+            "w": 732,
+            "h": 457.5,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#references": {
+            "x": 64,
+            "y": 852,
+            "w": 1312,
+            "h": 241.4375,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#selected-projects": {
+            "x": 64,
+            "y": 1093.4375,
+            "w": 1312,
+            "h": 881.015625,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(21, 38, 59)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".cy-stage": {
+            "x": 64,
+            "y": 1334.265625,
+            "w": 802.28125,
+            "h": 500,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(21, 38, 59)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".cy-info": {
+            "x": 930.28125,
+            "y": 1349.265625,
+            "w": 445.71875,
+            "h": 506.1875,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(21, 38, 59)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".cy-project-name": {
+            "x": 930.28125,
+            "y": 1478.859375,
+            "w": 314.859375,
+            "h": 96.59375,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "46px",
+            "fontWeight": "500",
+            "lineHeight": "48.3px",
+            "letterSpacing": "-1.9px",
+            "color": "rgb(21, 38, 59)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#services": {
+            "x": 64,
+            "y": 1974.453125,
+            "w": 1312,
+            "h": 523.078125,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".homepage-service h3": {
+            "x": 64,
+            "y": 2251.03125,
+            "w": 220,
+            "h": 31.3125,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "27px",
+            "fontWeight": "500",
+            "lineHeight": "31.32px",
+            "letterSpacing": "-0.675px",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#contact": {
+            "x": 64,
+            "y": 2497.53125,
+            "w": 1312,
+            "h": 392.078125,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".homepage-footer": {
+            "x": 64,
+            "y": 2889.609375,
+            "w": 1312,
+            "h": 440,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        },
+        "overflow": false,
+        "faceText": [
+          "İşinize göre<br>yazılım.",
+          "Web ve mobil<br>çözümler.",
+          "Yapay zekâ ile<br>daha fazlası.",
+          "Size özel yazılım<br>sistemleri."
+        ],
+        "logos": [
+          [
+            176,
+            64
+          ],
+          [
+            176,
+            64
+          ],
+          [
+            176,
+            64
+          ],
+          [
+            176,
+            64
+          ],
+          [
+            56,
+            56
+          ],
+          [
+            176,
+            64
+          ],
+          [
+            56,
+            56
+          ],
+          [
+            152,
+            48
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            176,
+            64
+          ]
+        ],
+        "geometry": {
+          "--radius": "58cqw",
+          "--perspective": "360cqw",
+          "--strip-width": "calc(58cqw*.05358)",
+          "--cover-height": "calc(58cqw*.829031)"
+        },
+        "panels": 9,
+        "strips": 117,
+        "prismTransition": "0s"
+      },
+      "fonts": {
+        ".face-0 .face-heading": [
+          {
+            "familyName": "Instrument Sans",
+            "postScriptName": "InstrumentSans-Regular_Medium",
+            "isCustomFont": true,
+            "glyphCount": 20
+          }
+        ],
+        ".wordmark": [
+          {
+            "familyName": "Instrument Sans",
+            "postScriptName": "InstrumentSans-Regular_SemiBold",
+            "isCustomFont": true,
+            "glyphCount": 9
+          }
+        ],
+        ".homepage-service h3": [
+          {
+            "familyName": "Instrument Sans",
+            "postScriptName": "InstrumentSans-Regular_Medium",
+            "isCustomFont": true,
+            "glyphCount": 14
+          }
+        ],
+        ".cy-description": [
+          {
+            "familyName": "Instrument Sans",
+            "postScriptName": "InstrumentSans-Regular",
+            "isCustomFont": true,
+            "glyphCount": 88
+          }
+        ]
+      },
+      "scene": {
+        "mode": "webgl",
+        "ready": "true",
+        "phase": "final",
+        "time": "8.400",
+        "layers": "data,rules,web,mobile",
+        "frames": "512",
+        "drawCalls": "11",
+        "triangles": "1290",
+        "firstPose": "0.000",
+        "running": "false",
+        "framesStable": true
+      },
+      "events": {
+        "start": 837.7000000178814,
+        "events": [
+          {
+            "target": "prism",
+            "attribute": "data-rotating",
+            "value": "true",
+            "angle": "-90",
+            "time": 5701.9000000059605
+          },
+          {
+            "target": "prism",
+            "attribute": "data-rotating",
+            "value": "false",
+            "angle": "-90",
+            "time": 6634.0999999940395
+          },
+          {
+            "target": "scene",
+            "value": "false",
+            "time": 9250.5
+          }
+        ]
+      },
+      "hoverPause": "paused",
+      "focusPause": "paused",
+      "dot": {
+        "face": "2",
+        "angle": "-540",
+        "reduced": "false",
+        "ready": "true",
+        "auto": "running",
+        "rotating": "false"
+      },
+      "forward": "Reviel",
+      "revielLink": "https://www.reviel.com.tr/",
+      "backward": "FurtherUp Drive",
+      "keyboard": "Reviel",
+      "galleryAnimation": "matrix3d(0.766044, 0, 0.642788, 0, 0, 1, 0, 0, -0.642788, 0, 0.766044, 0, 0, 0, -465.323, 1)",
+      "marqueeHover": {
+        "state": "running",
+        "duration": "120s",
+        "color": "0",
+        "transition": "0.2s"
+      },
+      "marqueeFocus": "paused"
+    },
+    "demo": {
+      "layout": {
+        "items": {
+          ".prototype-header": {
+            "x": 64,
+            "y": 30,
+            "w": 1312,
+            "h": 52,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".plus-composition": {
+            "x": 64,
+            "y": 114,
+            "w": 1312,
+            "h": 620,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".prism-column": {
+            "x": 64,
+            "y": 214,
+            "w": 540,
+            "h": 420,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".architectural-object": {
+            "x": 64,
+            "y": 214,
+            "w": 540,
+            "h": 420,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".plate-space": {
+            "x": 67,
+            "y": 214,
+            "w": 534,
+            "h": 420,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".face-0 .face-heading": {
+            "x": 106.984375,
+            "y": 337.09375,
+            "w": 407.765625,
+            "h": 173.8125,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "81.999px",
+            "fontWeight": "500",
+            "lineHeight": "86.9189px",
+            "letterSpacing": "-1.63998px",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".system-column": {
+            "x": 644,
+            "y": 195.25,
+            "w": 732,
+            "h": 457.5,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".scene": {
+            "x": 644,
+            "y": 195.25,
+            "w": 732,
+            "h": 457.5,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#references": {
+            "x": 64,
+            "y": 852,
+            "w": 1312,
+            "h": 241.4375,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#selected-projects": {
+            "x": 64,
+            "y": 1093.4375,
+            "w": 1312,
+            "h": 881.015625,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(21, 38, 59)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".cy-stage": {
+            "x": 64,
+            "y": 1334.265625,
+            "w": 802.28125,
+            "h": 500,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(21, 38, 59)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".cy-info": {
+            "x": 930.28125,
+            "y": 1349.265625,
+            "w": 445.71875,
+            "h": 506.1875,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(21, 38, 59)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".cy-project-name": {
+            "x": 930.28125,
+            "y": 1478.859375,
+            "w": 314.859375,
+            "h": 96.59375,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "46px",
+            "fontWeight": "500",
+            "lineHeight": "48.3px",
+            "letterSpacing": "-1.9px",
+            "color": "rgb(21, 38, 59)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#services": {
+            "x": 64,
+            "y": 1974.453125,
+            "w": 1312,
+            "h": 523.078125,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".homepage-service h3": {
+            "x": 64,
+            "y": 2251.03125,
+            "w": 220,
+            "h": 31.3125,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "27px",
+            "fontWeight": "500",
+            "lineHeight": "31.32px",
+            "letterSpacing": "-0.675px",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#contact": {
+            "x": 64,
+            "y": 2497.53125,
+            "w": 1312,
+            "h": 392.078125,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".homepage-footer": {
+            "x": 64,
+            "y": 2889.609375,
+            "w": 1312,
+            "h": 440,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        },
+        "overflow": false,
+        "faceText": [
+          "İşinize göre<br>yazılım.",
+          "Web ve mobil<br>çözümler.",
+          "Yapay zekâ ile<br>daha fazlası.",
+          "Size özel yazılım<br>sistemleri."
+        ],
+        "logos": [
+          [
+            176,
+            64
+          ],
+          [
+            176,
+            64
+          ],
+          [
+            176.00006103515625,
+            64
+          ],
+          [
+            176,
+            64
+          ],
+          [
+            56,
+            56
+          ],
+          [
+            176,
+            64
+          ],
+          [
+            56,
+            56
+          ],
+          [
+            152,
+            48
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            176,
+            64
+          ]
+        ],
+        "geometry": {
+          "--radius": "465.32312499999995px",
+          "--perspective": "2888.2125px",
+          "--strip-width": "24.931921946370583px",
+          "--cover-height": "385.76747930365906px"
+        },
+        "panels": 9,
+        "strips": 117,
+        "prismTransition": "0.9s"
+      },
+      "fonts": {
+        ".face-0 .face-heading": [
+          {
+            "familyName": "Instrument Sans",
+            "postScriptName": "InstrumentSans-Regular_Medium",
+            "isCustomFont": true,
+            "glyphCount": 20
+          }
+        ],
+        ".wordmark": [
+          {
+            "familyName": "Instrument Sans",
+            "postScriptName": "InstrumentSans-Regular_SemiBold",
+            "isCustomFont": true,
+            "glyphCount": 9
+          }
+        ],
+        ".homepage-service h3": [
+          {
+            "familyName": "Instrument Sans",
+            "postScriptName": "InstrumentSans-Regular_Medium",
+            "isCustomFont": true,
+            "glyphCount": 14
+          }
+        ],
+        ".cy-description": [
+          {
+            "familyName": "Instrument Sans",
+            "postScriptName": "InstrumentSans-Regular",
+            "isCustomFont": true,
+            "glyphCount": 88
+          }
+        ]
+      },
+      "scene": {
+        "mode": "webgl",
+        "ready": "true",
+        "phase": "final",
+        "time": "8.400",
+        "layers": "data,rules,web,mobile",
+        "frames": "1015",
+        "drawCalls": "11",
+        "triangles": "1290",
+        "firstPose": "0.000",
+        "running": "false",
+        "framesStable": true
+      },
+      "events": {
+        "start": 9644.90000000596,
+        "events": [
+          {
+            "target": "prism",
+            "attribute": "data-rotating",
+            "value": "true",
+            "angle": "-180",
+            "time": 14609.199999988079
+          },
+          {
+            "target": "prism",
+            "attribute": "data-rotating",
+            "value": "false",
+            "angle": "-180",
+            "time": 15540.699999988079
+          },
+          {
+            "target": "scene",
+            "value": "false",
+            "time": 18057
+          }
+        ]
+      },
+      "hoverPause": "paused",
+      "focusPause": "running",
+      "dot": {
+        "face": "2",
+        "angle": "-540",
+        "reduced": "false",
+        "ready": "true",
+        "auto": "running",
+        "rotating": "false"
+      },
+      "forward": "Reviel",
+      "revielLink": "https://www.reviel.com.tr/",
+      "backward": "FurtherUp Drive",
+      "keyboard": "Reviel",
+      "galleryAnimation": "matrix3d(0.766044, 0, 0.642788, 0, 0, 1, 0, 0, -0.642788, 0, 0.766044, 0, 0, 0, -465.323, 1)",
+      "marqueeHover": {
+        "state": "running",
+        "duration": "120s",
+        "color": "0",
+        "transition": "0.2s"
+      },
+      "marqueeFocus": "paused"
+    }
+  },
+  "mobile": {
+    "react": {
+      "layout": {
+        "items": {
+          ".prototype-header": {
+            "x": 20,
+            "y": 16,
+            "w": 350,
+            "h": 48,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".plus-composition": {
+            "x": 20,
+            "y": 80,
+            "w": 350,
+            "h": 650.96875,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".prism-column": {
+            "x": 20,
+            "y": 116,
+            "w": 350,
+            "h": 360.21875,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".architectural-object": {
+            "x": 20,
+            "y": 116,
+            "w": 350,
+            "h": 272.21875,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".plate-space": {
+            "x": 21.9375,
+            "y": 116,
+            "w": 346.125,
+            "h": 272.21875,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".face-0 .face-heading": {
+            "x": 47.859375,
+            "y": 195.78125,
+            "w": 264.28125,
+            "h": 112.65625,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "53.1475px",
+            "fontWeight": "500",
+            "lineHeight": "56.3363px",
+            "letterSpacing": "-1.06295px",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".system-column": {
+            "x": 20,
+            "y": 504.21875,
+            "w": 350,
+            "h": 218.75,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".scene": {
+            "x": 20,
+            "y": 504.21875,
+            "w": 350,
+            "h": 218.75,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#references": {
+            "x": 20,
+            "y": 845.75,
+            "w": 350,
+            "h": 569.4375,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#selected-projects": {
+            "x": 20,
+            "y": 1415.1875,
+            "w": 350,
+            "h": 1075.1875,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(21, 38, 59)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".cy-stage": {
+            "x": 20,
+            "y": 1645.546875,
+            "w": 350,
+            "h": 340,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(21, 38, 59)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".cy-info": {
+            "x": 20,
+            "y": 2044.34375,
+            "w": 350,
+            "h": 382.03125,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(21, 38, 59)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".cy-project-name": {
+            "x": 20,
+            "y": 2149.9375,
+            "w": 269.359375,
+            "h": 40.9375,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "39px",
+            "fontWeight": "500",
+            "lineHeight": "40.95px",
+            "letterSpacing": "-1.45px",
+            "color": "rgb(21, 38, 59)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#services": {
+            "x": 20,
+            "y": 2490.375,
+            "w": 350,
+            "h": 852.296875,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".homepage-service h3": {
+            "x": 20,
+            "y": 2675.703125,
+            "w": 350,
+            "h": 29,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "25px",
+            "fontWeight": "500",
+            "lineHeight": "29px",
+            "letterSpacing": "-0.625px",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#contact": {
+            "x": 20,
+            "y": 3342.671875,
+            "w": 350,
+            "h": 398.03125,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".homepage-footer": {
+            "x": 20,
+            "y": 3740.703125,
+            "w": 350,
+            "h": 554.953125,
+            "fontFamily": "instrument, \"instrument Fallback\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        },
+        "overflow": false,
+        "faceText": [
+          "İşinize göre<br>yazılım.",
+          "Web ve mobil<br>çözümler.",
+          "Yapay zekâ ile<br>daha fazlası.",
+          "Size özel yazılım<br>sistemleri."
+        ],
+        "logos": [
+          [
+            165,
+            56
+          ],
+          [
+            165,
+            56
+          ],
+          [
+            165,
+            56
+          ],
+          [
+            165,
+            56
+          ],
+          [
+            48,
+            48
+          ],
+          [
+            165,
+            56
+          ],
+          [
+            48,
+            48
+          ],
+          [
+            141,
+            44
+          ],
+          [
+            56,
+            56
+          ],
+          [
+            165,
+            56
+          ]
+        ],
+        "geometry": {
+          "--radius": "364px",
+          "--perspective": "1330px",
+          "--strip-width": "19.503048743771103px",
+          "--cover-height": "301.76742766981954px"
+        },
+        "panels": 9,
+        "strips": 117,
+        "prismTransition": "0.9s"
+      },
+      "fonts": {
+        ".face-0 .face-heading": [
+          {
+            "familyName": "Instrument Sans",
+            "postScriptName": "InstrumentSans-Regular_Medium",
+            "isCustomFont": true,
+            "glyphCount": 20
+          }
+        ],
+        ".wordmark": [
+          {
+            "familyName": "Instrument Sans",
+            "postScriptName": "InstrumentSans-Regular_SemiBold",
+            "isCustomFont": true,
+            "glyphCount": 9
+          }
+        ],
+        ".homepage-service h3": [
+          {
+            "familyName": "Instrument Sans",
+            "postScriptName": "InstrumentSans-Regular_Medium",
+            "isCustomFont": true,
+            "glyphCount": 14
+          }
+        ],
+        ".cy-description": [
+          {
+            "familyName": "Instrument Sans",
+            "postScriptName": "InstrumentSans-Regular",
+            "isCustomFont": true,
+            "glyphCount": 89
+          }
+        ]
+      },
+      "mode": "static",
+      "escape": true,
+      "swipe": "Reviel",
+      "reduced": {
+        "face": "3",
+        "auto": "paused",
+        "scene": "static",
+        "marqueeAnimation": "none"
+      },
+      "errors": []
+    },
+    "demo": {
+      "layout": {
+        "items": {
+          ".prototype-header": {
+            "x": 20,
+            "y": 16,
+            "w": 350,
+            "h": 48,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".plus-composition": {
+            "x": 20,
+            "y": 80,
+            "w": 350,
+            "h": 650.96875,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".prism-column": {
+            "x": 20,
+            "y": 116,
+            "w": 350,
+            "h": 360.21875,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".architectural-object": {
+            "x": 20,
+            "y": 116,
+            "w": 350,
+            "h": 272.21875,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".plate-space": {
+            "x": 21.9375,
+            "y": 116,
+            "w": 346.125,
+            "h": 272.21875,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".face-0 .face-heading": {
+            "x": 47.859375,
+            "y": 195.78125,
+            "w": 264.28125,
+            "h": 112.65625,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "53.1475px",
+            "fontWeight": "500",
+            "lineHeight": "56.3363px",
+            "letterSpacing": "-1.06295px",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".system-column": {
+            "x": 20,
+            "y": 504.21875,
+            "w": 350,
+            "h": 218.75,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".scene": {
+            "x": 20,
+            "y": 504.21875,
+            "w": 350,
+            "h": 218.75,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#references": {
+            "x": 20,
+            "y": 845.75,
+            "w": 350,
+            "h": 569.4375,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#selected-projects": {
+            "x": 20,
+            "y": 1415.1875,
+            "w": 350,
+            "h": 1075.1875,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(21, 38, 59)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".cy-stage": {
+            "x": 20,
+            "y": 1645.546875,
+            "w": 350,
+            "h": 340,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(21, 38, 59)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".cy-info": {
+            "x": 20,
+            "y": 2044.34375,
+            "w": 350,
+            "h": 382.03125,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(21, 38, 59)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".cy-project-name": {
+            "x": 20,
+            "y": 2149.9375,
+            "w": 269.359375,
+            "h": 40.9375,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "39px",
+            "fontWeight": "500",
+            "lineHeight": "40.95px",
+            "letterSpacing": "-1.45px",
+            "color": "rgb(21, 38, 59)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#services": {
+            "x": 20,
+            "y": 2490.375,
+            "w": 350,
+            "h": 852.296875,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".homepage-service h3": {
+            "x": 20,
+            "y": 2675.703125,
+            "w": 350,
+            "h": 29,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "25px",
+            "fontWeight": "500",
+            "lineHeight": "29px",
+            "letterSpacing": "-0.625px",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          "#contact": {
+            "x": 20,
+            "y": 3342.671875,
+            "w": 350,
+            "h": 398.03125,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          ".homepage-footer": {
+            "x": 20,
+            "y": 3740.703125,
+            "w": 350,
+            "h": 554.953125,
+            "fontFamily": "\"Instrument Sans\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "color": "rgb(23, 43, 67)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        },
+        "overflow": false,
+        "faceText": [
+          "İşinize göre<br>yazılım.",
+          "Web ve mobil<br>çözümler.",
+          "Yapay zekâ ile<br>daha fazlası.",
+          "Size özel yazılım<br>sistemleri."
+        ],
+        "logos": [
+          [
+            165,
+            56
+          ],
+          [
+            165,
+            56
+          ],
+          [
+            165,
+            56
+          ],
+          [
+            165,
+            56
+          ],
+          [
+            48,
+            48
+          ],
+          [
+            165,
+            56
+          ],
+          [
+            48,
+            48
+          ],
+          [
+            141,
+            44
+          ],
+          [
+            56,
+            56
+          ],
+          [
+            165,
+            56
+          ]
+        ],
+        "geometry": {
+          "--radius": "364px",
+          "--perspective": "1330px",
+          "--strip-width": "19.503048743771103px",
+          "--cover-height": "301.76742766981954px"
+        },
+        "panels": 9,
+        "strips": 117,
+        "prismTransition": "0.9s"
+      },
+      "fonts": {
+        ".face-0 .face-heading": [
+          {
+            "familyName": "Instrument Sans",
+            "postScriptName": "InstrumentSans-Regular_Medium",
+            "isCustomFont": true,
+            "glyphCount": 20
+          }
+        ],
+        ".wordmark": [
+          {
+            "familyName": "Instrument Sans",
+            "postScriptName": "InstrumentSans-Regular_SemiBold",
+            "isCustomFont": true,
+            "glyphCount": 9
+          }
+        ],
+        ".homepage-service h3": [
+          {
+            "familyName": "Instrument Sans",
+            "postScriptName": "InstrumentSans-Regular_Medium",
+            "isCustomFont": true,
+            "glyphCount": 14
+          }
+        ],
+        ".cy-description": [
+          {
+            "familyName": "Instrument Sans",
+            "postScriptName": "InstrumentSans-Regular",
+            "isCustomFont": true,
+            "glyphCount": 89
+          }
+        ]
+      },
+      "mode": "static",
+      "escape": true,
+      "swipe": "Reviel",
+      "reduced": {
+        "face": "3",
+        "auto": "paused",
+        "scene": "static",
+        "marqueeAnimation": "none"
+      },
+      "errors": []
+    }
+  },
+  "harnessNotes": [
+    "Initial moving-logo hover stability timeout; coordinate hover used. Motion measured in foreground to exclude background-tab pause."
+  ],
+  "differences": {
+    "desktop": [
+      "logos.2.0: 176 / 176.00006103515625",
+      "geometry.--radius: \"58cqw\" / \"465.32312499999995px\"",
+      "geometry.--perspective: \"360cqw\" / \"2888.2125px\"",
+      "geometry.--strip-width: \"calc(58cqw*.05358)\" / \"24.931921946370583px\"",
+      "geometry.--cover-height: \"calc(58cqw*.829031)\" / \"385.76747930365906px\"",
+      "prismTransition: \"0s\" / \"0.9s\""
+    ],
+    "mobile": []
+  }
+}

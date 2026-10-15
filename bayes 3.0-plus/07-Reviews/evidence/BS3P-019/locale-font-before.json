@@ -1,0 +1,180 @@
+[
+  {
+    "url": "http://127.0.0.1:3019/",
+    "lang": "en",
+    "fontSize": "53.1475px",
+    "lineHeight": "56.3363px",
+    "text": "Software for\nyour business.",
+    "elementWidth": 294.28125,
+    "scrollWidth": 294,
+    "clientWidth": 294,
+    "faceWidth": 346.125,
+    "rangeRects": [
+      [
+        {
+          "x": 47.859375,
+          "y": 162.609375,
+          "width": 291.515625,
+          "height": 65,
+          "top": 162.609375,
+          "right": 339.375,
+          "bottom": 227.609375,
+          "left": 47.859375
+        }
+      ],
+      [
+        {
+          "x": 47.859375,
+          "y": 218.9375,
+          "width": 106.578125,
+          "height": 65,
+          "top": 218.9375,
+          "right": 154.4375,
+          "bottom": 283.9375,
+          "left": 47.859375
+        },
+        {
+          "x": 47.859375,
+          "y": 275.265625,
+          "width": 220.984375,
+          "height": 65,
+          "top": 275.265625,
+          "right": 268.84375,
+          "bottom": 340.265625,
+          "left": 47.859375
+        }
+      ]
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:3019/",
+    "lang": "de",
+    "fontSize": "53.1475px",
+    "lineHeight": "56.3363px",
+    "text": "Software für\nIhr Unternehmen.",
+    "elementWidth": 345.234375,
+    "scrollWidth": 345,
+    "clientWidth": 345,
+    "faceWidth": 346.125,
+    "rangeRects": [
+      [
+        {
+          "x": 47.859375,
+          "y": 162.609375,
+          "width": 292.375,
+          "height": 65,
+          "top": 162.609375,
+          "right": 340.234375,
+          "bottom": 227.609375,
+          "left": 47.859375
+        }
+      ],
+      [
+        {
+          "x": 47.859375,
+          "y": 218.9375,
+          "width": 62.84375,
+          "height": 65,
+          "top": 218.9375,
+          "right": 110.703125,
+          "bottom": 283.9375,
+          "left": 47.859375
+        },
+        {
+          "x": 47.859375,
+          "y": 275.265625,
+          "width": 345.234375,
+          "height": 65,
+          "top": 275.265625,
+          "right": 393.09375,
+          "bottom": 340.265625,
+          "left": 47.859375
+        }
+      ]
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:3018/prototype/bs3p-homepage",
+    "lang": "en",
+    "fontSize": "42px",
+    "lineHeight": "44.52px",
+    "text": "Software for\nyour business.",
+    "elementWidth": 266.296875,
+    "scrollWidth": 266,
+    "clientWidth": 266,
+    "faceWidth": 346.125,
+    "rangeRects": [
+      [
+        {
+          "x": 47.859375,
+          "y": 203.59375,
+          "width": 230.40625,
+          "height": 52,
+          "top": 203.59375,
+          "right": 278.265625,
+          "bottom": 255.59375,
+          "left": 47.859375
+        }
+      ],
+      [
+        {
+          "x": 47.859375,
+          "y": 248.109375,
+          "width": 266.296875,
+          "height": 52,
+          "top": 248.109375,
+          "right": 314.15625,
+          "bottom": 300.109375,
+          "left": 47.859375
+        }
+      ]
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:3018/prototype/bs3p-homepage",
+    "lang": "de",
+    "fontSize": "40.25px",
+    "lineHeight": "42.665px",
+    "text": "Software für\nIhr Unternehmen.",
+    "elementWidth": 294.28125,
+    "scrollWidth": 294,
+    "clientWidth": 294,
+    "faceWidth": 346.125,
+    "rangeRects": [
+      [
+        {
+          "x": 47.859375,
+          "y": 184.125,
+          "width": 221.46875,
+          "height": 49,
+          "top": 184.125,
+          "right": 269.328125,
+          "bottom": 233.125,
+          "left": 47.859375
+        }
+      ],
+      [
+        {
+          "x": 47.859375,
+          "y": 226.78125,
+          "width": 47.59375,
+          "height": 49,
+          "top": 226.78125,
+          "right": 95.453125,
+          "bottom": 275.78125,
+          "left": 47.859375
+        },
+        {
+          "x": 47.859375,
+          "y": 269.4375,
+          "width": 261.5,
+          "height": 49,
+          "top": 269.4375,
+          "right": 309.359375,
+          "bottom": 318.4375,
+          "left": 47.859375
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,1397 @@
+{
+  "release_source": [
+    {
+      "status": " M",
+      "path": ".github/workflows/pages.yml"
+    },
+    {
+      "status": " M",
+      "path": "app/layout.tsx"
+    },
+    {
+      "status": " M",
+      "path": "app/page.tsx"
+    },
+    {
+      "status": " M",
+      "path": "components/LanguageProvider.tsx"
+    },
+    {
+      "status": " M",
+      "path": "data/i18n.ts"
+    },
+    {
+      "status": " M",
+      "path": "package-lock.json"
+    },
+    {
+      "status": " M",
+      "path": "package.json"
+    },
+    {
+      "status": "??",
+      "path": "components/SiteChrome.tsx"
+    },
+    {
+      "status": "??",
+      "path": "components/fonts/InstrumentSans.ttf"
+    },
+    {
+      "status": "??",
+      "path": "components/homepage/Contact.tsx"
+    },
+    {
+      "status": "??",
+      "path": "components/homepage/Footer.tsx"
+    },
+    {
+      "status": "??",
+      "path": "components/homepage/GalleryStage.tsx"
+    },
+    {
+      "status": "??",
+      "path": "components/homepage/Header.tsx"
+    },
+    {
+      "status": "??",
+      "path": "components/homepage/HeroPrism.tsx"
+    },
+    {
+      "status": "??",
+      "path": "components/homepage/HeroSystemScene.tsx"
+    },
+    {
+      "status": "??",
+      "path": "components/homepage/MotionControl.tsx"
+    },
+    {
+      "status": "??",
+      "path": "components/homepage/MotionProvider.tsx"
+    },
+    {
+      "status": "??",
+      "path": "components/homepage/ReferencesMarquee.tsx"
+    },
+    {
+      "status": "??",
+      "path": "components/homepage/SelectedProjects.tsx"
+    },
+    {
+      "status": "??",
+      "path": "components/homepage/Services.tsx"
+    },
+    {
+      "status": "??",
+      "path": "components/homepage/SpatialHero.tsx"
+    },
+    {
+      "status": "??",
+      "path": "components/homepage/SystemLayers.tsx"
+    },
+    {
+      "status": "??",
+      "path": "components/homepage/homepage.css"
+    },
+    {
+      "status": "??",
+      "path": "components/homepage/useHomepageCopy.ts"
+    },
+    {
+      "status": "??",
+      "path": "data/homepage.ts"
+    },
+    {
+      "status": "??",
+      "path": "data/selectedProjects.ts"
+    },
+    {
+      "status": "??",
+      "path": "lib/homepage/gallery/controller.ts"
+    },
+    {
+      "status": "??",
+      "path": "lib/homepage/gallery/dom.ts"
+    },
+    {
+      "status": "??",
+      "path": "lib/homepage/gallery/geometry.ts"
+    },
+    {
+      "status": "??",
+      "path": "lib/homepage/gallery/stage.ts"
+    },
+    {
+      "status": "??",
+      "path": "lib/homepage/gallery/state.ts"
+    },
+    {
+      "status": "??",
+      "path": "lib/homepage/gallery/swipe.ts"
+    },
+    {
+      "status": "??",
+      "path": "lib/homepage/gallery/types.ts"
+    },
+    {
+      "status": "??",
+      "path": "lib/homepage/prism.ts"
+    },
+    {
+      "status": "??",
+      "path": "lib/homepage/reference-links.ts"
+    },
+    {
+      "status": "??",
+      "path": "lib/homepage/reference-sizing.ts"
+    },
+    {
+      "status": "??",
+      "path": "lib/homepage/system/geometry.ts"
+    },
+    {
+      "status": "??",
+      "path": "lib/homepage/system/motion.ts"
+    },
+    {
+      "status": "??",
+      "path": "lib/homepage/system/scene.ts"
+    },
+    {
+      "status": "??",
+      "path": "public/hero/system-static.svg"
+    },
+    {
+      "status": "??",
+      "path": "public/projects/covers/derivatives.json"
+    },
+    {
+      "status": "??",
+      "path": "public/projects/covers/furtherup-drive-cover-640.webp"
+    },
+    {
+      "status": "??",
+      "path": "public/projects/covers/furtherup-drive-cover-large.webp"
+    },
+    {
+      "status": "??",
+      "path": "public/projects/covers/furtherup-drive-cover.png"
+    },
+    {
+      "status": "??",
+      "path": "public/projects/covers/metek-makina-cover-640.webp"
+    },
+    {
+      "status": "??",
+      "path": "public/projects/covers/metek-makina-cover-large.webp"
+    },
+    {
+      "status": "??",
+      "path": "public/projects/covers/metek-makina-cover.png"
+    },
+    {
+      "status": "??",
+      "path": "public/projects/covers/reviel-cover-640.webp"
+    },
+    {
+      "status": "??",
+      "path": "public/projects/covers/reviel-cover-large.webp"
+    },
+    {
+      "status": "??",
+      "path": "public/projects/covers/reviel-cover.png"
+    },
+    {
+      "status": "??",
+      "path": "scripts/build-production.mjs"
+    },
+    {
+      "status": "??",
+      "path": "scripts/check-foundation.mjs"
+    },
+    {
+      "status": "??",
+      "path": "scripts/check-production-access.mjs"
+    },
+    {
+      "status": "??",
+      "path": "scripts/optimize-project-posters.mjs"
+    },
+    {
+      "status": "??",
+      "path": "scripts/verify-production-export.mjs"
+    }
+  ],
+  "task_docs_evidence": [
+    {
+      "status": " M",
+      "path": "bayes 3.0-plus/04-Development/TASK_REGISTER.md"
+    },
+    {
+      "status": " M",
+      "path": "bayes 3.0-plus/05-Decisions/DECISION_LOG.md"
+    },
+    {
+      "status": " M",
+      "path": "bayes 3.0-plus/07-Reviews/REVIEW_REGISTER.md"
+    },
+    {
+      "status": " M",
+      "path": "bayes 3.0-plus/98-Agent-Logs/CURRENT_STATUS.md"
+    },
+    {
+      "status": " M",
+      "path": "bayes 3.0-plus/98-Agent-Logs/NEXT_STEPS.md"
+    },
+    {
+      "status": " M",
+      "path": "bayes 3.0-plus/98-Agent-Logs/SESSION_LOG.md"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/04-Development/BS3P-018A-PRODUCTION-FOUNDATION.md"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/04-Development/BS3P-018B-REACT-HOMEPAGE-INTEGRATION.md"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/04-Development/BS3P-018C-VISUAL-MOTION-PARITY.md"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/04-Development/BS3P-019-FINAL-QA-RELEASE-READINESS.md"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/04-Development/BS3P-020-RELEASE-BLOCKER-FIXES.md"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/04-Development/BS3P-021-FINAL-RELEASE-GATE.md"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018A-foundation-check.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018B/desktop-hero.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018B/desktop-page.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018B/initial-check.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018B/layout-check.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018B/mobile-page.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018B/protected-sources.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018B/scene-check.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018B/touch-fallback-check.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/demo-desktop-hero.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/demo-desktop-page.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/demo-mobile.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/parity-review.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/react-desktop-hero.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/react-desktop-page.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/react-mobile.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/review-summary.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/settled-review.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/source-check.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/unchanged-source-manifest.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/artifact-security-seo.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/dependency-audit.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/environment.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/external-links.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/lifecycle-contrast.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/locale-font-after.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/locale-font-before.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/performance-raw.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/performance-summary.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/production-browser-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/production-desktop.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/production-mobile-de-after.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/production-mobile-de.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/reduced-preference.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/release-readiness.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/route-isolation.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/safari-attempt.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-019/source-change-manifest.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/audit-after.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/audit-before.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/audit-full.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/checks-summary.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/dependency-paths-after.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/dependency-paths-before.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/desktop-idle-control.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/desktop-motion-control.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/final-smoke-harness.cjs"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/final-smoke.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/gallery-source-png-comparison.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/gallery-webp.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/measured-artifact-comparison.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/mobile-motion-control.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/motion-continuation-harness.cjs"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/motion-first-harness.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/motion-harness.cjs"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/motion-qa-rest.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/motion-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/motion-summary.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/next-patch-metadata.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/performance-after-harness.cjs"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/performance-after-raw.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/performance-before-harness.cjs"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/performance-before-raw.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/performance-summary.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/poster-quality.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/rollback-remote-read.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/rollback-status.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/route-isolation.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-020/source-manifest.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/audit-full.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/audit-production.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/candidate-artifact-sha256.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/checkpoint-file-list.md"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/checkpoint-final-scope.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/checkpoint-lockfile-changes.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/checkpoint-scope.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/dependency-paths.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/desktop-regression.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/initial-git-inventory.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/mobile-regression.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-build.txt"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-checks.cjs"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-checks.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-foundation.txt"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-isolation.txt"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-lint.txt"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-runtime.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-typecheck.txt"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-verify.txt"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/reduced-continuation.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/reduced.cjs"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/regression-initial-harness.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/regression-summary.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/regression.cjs"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/regression.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/rollback-remote-read.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/rollback-verification.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/safari-attempt.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/security-installed.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/security-registry-metadata.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/source-preservation.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/webkit-availability.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/98-Agent-Logs/DAILY_LOG_2026-10-15.md"
+    }
+  ],
+  "exclude_local_user_files": [
+    {
+      "status": "??",
+      "path": "assets/logo_v2/bayes-icon-purple-192.png"
+    },
+    {
+      "status": "??",
+      "path": "assets/logo_v2/bayes-icon-purple-32.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/.obsidian/app.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/.obsidian/appearance.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/.obsidian/core-plugins.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/.obsidian/graph.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/.obsidian/workspace.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0-plus/02-Research/project-showcase-motion-reference.mov"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/.obsidian/app.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/.obsidian/appearance.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/.obsidian/core-plugins.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/.obsidian/graph.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/.obsidian/workspace.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/02-Research/hero-spatial-reference.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/concept-a-desktop.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/concept-a-mobile.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/concept-a1-desktop.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/concept-a1-mobile.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/concept-b-desktop.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/concept-b-mobile.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/concept-c-desktop.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/concept-c-mobile.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/concept-comparison.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/current-contact.jpg"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/current-home-desktop.jpg"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/current-process.jpg"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/integrated-hero-balanced.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/integrated-hero-mobile.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/integrated-hero-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/integrated-hero-visual-emphasis.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/left-c-architectural-spatial.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/left-c-faces.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/left-c-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/left-c-rotation-states.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/left-craft-a-face-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/left-craft-a-face-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/left-craft-b-face-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/left-craft-b-face-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/left-craft-comparison.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/left-craft-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/left-craft-states.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/refined-1a-desktop.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/refined-1a-mobile.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/refined-1b-desktop.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/refined-1b-mobile.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/refined-comparison.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/refined-motion-storyboard.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/spatial-hero-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/spatial-hero-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/spatial-hero-c.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/spatial-left-refined-desktop-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/spatial-left-refined-desktop-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/spatial-left-refined-desktop-c.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/spatial-left-refined-mobile-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/spatial-left-refined-mobile-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/spatial-left-refined-motion.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/spatial-left-refined-reduced-motion.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/spatial-left-refinement-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/spatial-mobile-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/spatial-mobile-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/spatial-motion.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/spatial-project-showcase.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/spatial-reduced-motion.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/03-Design/evidence/spatial-system-detail.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/hero-video-desktop.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/integrated-finish-desktop.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/integrated-finish-mobile.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/production-home-after.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/production-home-before.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/production-reduced-motion-console.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/prototype-1024-face-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/prototype-1024-face-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/prototype-1440-face-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/prototype-1440-face-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/prototype-390-face-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/prototype-390-face-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/prototype-768-face-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/prototype-768-face-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/prototype-accessibility.yml"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/prototype-additional-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/prototype-browser-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/prototype-reduced-motion-face-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/prototype-reduced-motion-face-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/04-Website/evidence/prototype-scope-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-390-angle-045.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-390-face-1.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-390-face-2.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-390-face-3.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-390-face-4.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-after-1440.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-angle-045.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-angle-090.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-angle-135.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-angle-180.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-angle-270.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-angle-360.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-auto-two-cycles.webm"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-before-1440.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-before-390.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-cycles-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-export-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-geometry-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-interaction-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-reduced-motion-face-4.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/fullsize-scope-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-1440-face-0.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-1440-face-1.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-1440-face-2.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-1440-face-3.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-390-angle-045.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-390-face-0.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-390-face-1.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-390-face-2.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-390-face-3.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-accessibility.yml"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-angle-000.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-angle-045.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-angle-090.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-angle-180.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-angle-270.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-angle-360.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-angle-450.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-cycles-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-export-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-four-face-real-browser.webm"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-geometry-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-interaction-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-reduced-motion-face-3.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/prism-scope-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-accessibility.yml"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-after-comparison.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-before-comparison.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-before-desktop.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-before-metrics.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-before-mobile.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-cycles-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-export-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-interaction-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-pass1-1024-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-pass1-1024-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-pass1-1440-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-pass1-1440-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-pass1-390-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-pass1-390-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-pass2-1024-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-pass2-1024-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-pass2-1440-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-pass2-1440-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-pass2-390-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-pass2-390-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-reduced-mobile-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-scope-qa.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-state-captures.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-x-0.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-x-135.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-x-180.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-x-360.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-x-45.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-x-90.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 3.0/07-Reviews/evidence/recovery-x-flip-real-browser.webm"
+    },
+    {
+      "status": "??",
+      "path": "bayes 4.0/.obsidian/app.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 4.0/.obsidian/appearance.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 4.0/.obsidian/core-plugins.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 4.0/.obsidian/graph.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 4.0/.obsidian/workspace.json"
+    },
+    {
+      "status": "??",
+      "path": "bayes 4.0/03-Design/evidence/flagship-direction-01-desktop.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 4.0/03-Design/evidence/flagship-direction-01-mobile.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 4.0/03-Design/evidence/flagship-revision-02-desktop.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 4.0/03-Design/evidence/flagship-revision-02-mobile.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 4.0/03-Design/evidence/flagship-revision-02-study.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 4.0/03-Design/evidence/homepage-directions-01-a.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 4.0/03-Design/evidence/homepage-directions-01-b.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 4.0/03-Design/evidence/homepage-directions-01-c.png"
+    },
+    {
+      "status": "??",
+      "path": "bayes 4.0/04-Prototypes/evidence/experiment-01-modular-desktop.jpg"
+    },
+    {
+      "status": "??",
+      "path": "bayes 4.0/04-Prototypes/evidence/experiment-02-kinetic-compact.jpg"
+    },
+    {
+      "status": "??",
+      "path": "bayes 4.0/04-Prototypes/evidence/experiment-02-kinetic-wide.jpg"
+    },
+    {
+      "status": "??",
+      "path": "bayes 4.0/Başlıksız.canvas"
+    }
+  ],
+  "unexpected": []
+}

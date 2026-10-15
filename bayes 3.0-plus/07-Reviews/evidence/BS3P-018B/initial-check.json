@@ -1,0 +1,197 @@
+{
+  "root": {
+    ".study": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 3242.046875,
+      "font": "instrument, \"instrument Fallback\", sans-serif"
+    },
+    ".plus-composition": {
+      "x": 64,
+      "y": 114,
+      "w": 1312,
+      "h": 620,
+      "font": "instrument, \"instrument Fallback\", sans-serif"
+    },
+    ".architectural-object": {
+      "x": 64,
+      "y": 214,
+      "w": 540,
+      "h": 420,
+      "font": "instrument, \"instrument Fallback\", sans-serif"
+    },
+    ".scene": {
+      "x": 644,
+      "y": 195.25,
+      "w": 732,
+      "h": 457.5,
+      "font": "instrument, \"instrument Fallback\", sans-serif"
+    },
+    "#references": {
+      "x": 64,
+      "y": 852,
+      "w": 1312,
+      "h": 229,
+      "font": "instrument, \"instrument Fallback\", sans-serif"
+    },
+    "#selected-projects": {
+      "x": 64,
+      "y": 1081,
+      "w": 1312,
+      "h": 884.515625,
+      "font": "instrument, \"instrument Fallback\", sans-serif"
+    },
+    ".cy-stage": {
+      "x": 64,
+      "y": 1325.328125,
+      "w": 802.28125,
+      "h": 500,
+      "font": "instrument, \"instrument Fallback\", sans-serif"
+    },
+    "#services": {
+      "x": 64,
+      "y": 1965.515625,
+      "w": 1312,
+      "h": 453.25,
+      "font": "instrument, \"instrument Fallback\", sans-serif"
+    },
+    "#contact": {
+      "x": 64,
+      "y": 2418.765625,
+      "w": 1312,
+      "h": 348.78125,
+      "font": "instrument, \"instrument Fallback\", sans-serif"
+    },
+    ".homepage-footer": {
+      "x": 64,
+      "y": 2767.546875,
+      "w": 1312,
+      "h": 446.5,
+      "font": "instrument, \"instrument Fallback\", sans-serif"
+    }
+  },
+  "scene": {
+    "mode": "webgl",
+    "ready": "true",
+    "phase": "final",
+    "time": "8.400",
+    "layers": "data,rules,web,mobile",
+    "frames": "501",
+    "drawCalls": "11",
+    "triangles": "1290",
+    "firstPose": "0.000",
+    "running": "false"
+  },
+  "reviel": {
+    "name": "Reviel",
+    "live": "https://www.reviel.com.tr/",
+    "details": 0
+  },
+  "metek": "Metek Makina",
+  "en": {
+    "lang": "en",
+    "hero": "Software for your business.",
+    "name": "Metek Makina",
+    "canvasSame": true
+  },
+  "de": {
+    "lang": "de",
+    "hero": "Software für Ihr Unternehmen.",
+    "name": "Metek Makina",
+    "canvasSame": true
+  },
+  "tr": {
+    "lang": "tr",
+    "hero": "İşinize göre yazılım.",
+    "name": "Metek Makina",
+    "canvasSame": true
+  },
+  "prism": {
+    "face": "0",
+    "angle": "-360",
+    "reduced": "false",
+    "ready": "true",
+    "auto": "paused",
+    "rotating": "true"
+  },
+  "demo": {
+    ".study": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 3357.609375,
+      "font": "\"Instrument Sans\", sans-serif"
+    },
+    ".plus-composition": {
+      "x": 64,
+      "y": 114,
+      "w": 1312,
+      "h": 620,
+      "font": "\"Instrument Sans\", sans-serif"
+    },
+    ".architectural-object": {
+      "x": 64,
+      "y": 214,
+      "w": 540,
+      "h": 420,
+      "font": "\"Instrument Sans\", sans-serif"
+    },
+    ".scene": {
+      "x": 644,
+      "y": 195.25,
+      "w": 732,
+      "h": 457.5,
+      "font": "\"Instrument Sans\", sans-serif"
+    },
+    "#references": {
+      "x": 64,
+      "y": 852,
+      "w": 1312,
+      "h": 241.4375,
+      "font": "\"Instrument Sans\", sans-serif"
+    },
+    "#selected-projects": {
+      "x": 64,
+      "y": 1093.4375,
+      "w": 1312,
+      "h": 881.015625,
+      "font": "\"Instrument Sans\", sans-serif"
+    },
+    ".cy-stage": {
+      "x": 64,
+      "y": 1334.265625,
+      "w": 802.28125,
+      "h": 500,
+      "font": "\"Instrument Sans\", sans-serif"
+    },
+    "#services": {
+      "x": 64,
+      "y": 1974.453125,
+      "w": 1312,
+      "h": 523.078125,
+      "font": "\"Instrument Sans\", sans-serif"
+    },
+    "#contact": {
+      "x": 64,
+      "y": 2497.53125,
+      "w": 1312,
+      "h": 392.078125,
+      "font": "\"Instrument Sans\", sans-serif"
+    },
+    ".homepage-footer": {
+      "x": 64,
+      "y": 2889.609375,
+      "w": 1312,
+      "h": 440,
+      "font": "\"Instrument Sans\", sans-serif"
+    }
+  },
+  "mobile": {
+    "overflow": false,
+    "scene": "static",
+    "escape": true,
+    "project": "Reviel"
+  },
+  "errors": []
+}

@@ -1,0 +1,70 @@
+{
+  "pause1": {
+    "paused": "true",
+    "button": "Hareketi sürdür",
+    "pressed": "true",
+    "prism": {
+      "face": "0",
+      "angle": "0",
+      "reduced": "false",
+      "motionPaused": "true",
+      "auto": "paused",
+      "ready": "true"
+    },
+    "matrix": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -210, 1)",
+    "prismAnimations": [],
+    "scene": {
+      "mode": "webgl",
+      "ready": "true",
+      "phase": "data",
+      "time": "1.073",
+      "layers": "data",
+      "frames": "69",
+      "drawCalls": "3",
+      "triangles": "318",
+      "firstPose": "0.000",
+      "running": "false",
+      "paused": "true"
+    },
+    "marquee": {
+      "state": "paused",
+      "transform": "matrix(1, 0, 0, 1, -22.9993, 0)"
+    },
+    "stored": "paused"
+  },
+  "pause1Later": {
+    "paused": "true",
+    "button": "Hareketi sürdür",
+    "pressed": "true",
+    "prism": {
+      "face": "0",
+      "angle": "0",
+      "reduced": "false",
+      "motionPaused": "true",
+      "auto": "paused",
+      "ready": "true"
+    },
+    "matrix": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -210, 1)",
+    "prismAnimations": [],
+    "scene": {
+      "mode": "webgl",
+      "ready": "true",
+      "phase": "data",
+      "time": "1.073",
+      "layers": "data",
+      "frames": "69",
+      "drawCalls": "3",
+      "triangles": "318",
+      "firstPose": "0.000",
+      "running": "false",
+      "paused": "true"
+    },
+    "marquee": {
+      "state": "paused",
+      "transform": "matrix(1, 0, 0, 1, -22.9993, 0)"
+    },
+    "stored": "paused"
+  },
+  "pausedLabels": [],
+  "error": "locator.getAttribute: Error: strict mode violation: locator('[data-motion-paused]') resolved to 2 elements:\n    1) <div data-motion-paused=\"true\" class=\"study plus-shell bs3p-homepage bs3p-react-homepage\">…</div> aka getByText('Skip to contentBayesSoftHomeProjectsServicesContactTRENDELet’s work')\n    2) <div data-face=\"0\" data-angle=\"0\" data-ready=\"true\" aria-hidden=\"true\" data-auto=\"paused\" data-reduced=\"false\" data-motion-paused=\"true\" class=\"architectural-object\">…</div> aka locator('div').filter({ hasText: 'Software foryour business.Web' }).nth(3)\n\nCall log:\n\u001b[2m  - waiting for locator('[data-motion-paused]')\u001b[22m\n"
+}

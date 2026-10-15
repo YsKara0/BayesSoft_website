@@ -1,0 +1,45 @@
+{
+  "A": {
+    "differentChannels": 0,
+    "totalChannels": 1288266,
+    "meanAbsoluteChannelDifference": 0,
+    "maxChannelDifference": 0
+  },
+  "B": {
+    "differentChannels": 0,
+    "totalChannels": 1288266,
+    "meanAbsoluteChannelDifference": 0,
+    "maxChannelDifference": 0
+  },
+  "C": {
+    "differentChannels": 66520,
+    "totalChannels": 1288266,
+    "meanAbsoluteChannelDifference": 0.45974666722555746,
+    "maxChannelDifference": 88
+  },
+  "D": {
+    "differentChannels": 72783,
+    "totalChannels": 1288266,
+    "meanAbsoluteChannelDifference": 0.8192081449017516,
+    "maxChannelDifference": 191
+  },
+  "E": {
+    "differentChannels": 56514,
+    "totalChannels": 1288266,
+    "meanAbsoluteChannelDifference": 0.6716966837594099,
+    "maxChannelDifference": 191
+  },
+  "A-repeat": {
+    "differentChannels": 3541,
+    "totalChannels": 1288266,
+    "meanAbsoluteChannelDifference": 0.002748655945278382,
+    "maxChannelDifference": 1
+  },
+  "liveLocalEqual": false,
+  "liveLocal": {
+    "differentChannels": 6,
+    "totalChannels": 1288266,
+    "maxChannelDifference": 4,
+    "meanAbsoluteChannelDifference": 0.000011643558085053863
+  }
+}

@@ -1,0 +1,40 @@
+/* Homepage-only polish. Physical transforms and both motion engines stay shared. */
+.bs3p-homepage .homepage-header{grid-template-columns:minmax(160px,1fr) auto}
+.homepage-header .desktop-nav{gap:24px}
+.homepage-header .header-actions{gap:18px}
+.homepage-header .language-options button{position:relative;display:grid;place-items:center;min-width:36px;min-height:44px;border:0;background:transparent;color:#53677a;font:inherit;cursor:pointer}
+.homepage-header .language-options button[aria-pressed=true]{color:#285bd6}
+.homepage-header .language-options button[aria-pressed=true]::after{content:"";position:absolute;bottom:8px;width:12px;height:1px;background:currentColor}
+.bs3p-homepage .prism-column .plate-face{background:var(--stage);border:0;box-shadow:none}
+.bs3p-homepage .plate-face::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(21,38,59,.09),transparent 35%,rgba(21,38,59,.035));opacity:0;transition:opacity 900ms ease}
+.bs3p-homepage [data-rotating=true] .plate-face::after{opacity:1}
+.bs3p-homepage .face-heading{position:relative;z-index:1;overflow-wrap:normal}
+html[lang=de] .bs3p-homepage .face-0 .face-heading{font-size:11.5cqw}
+html[lang=en] .bs3p-homepage .face-0 .face-heading{font-size:12cqw}
+#selected-projects .cy-info{min-width:0}
+#selected-projects .cy-project-name,#selected-projects .cy-category,#selected-projects .cy-description{overflow-wrap:anywhere}
+#selected-projects .cy-detail,#selected-projects .homepage-live{min-height:44px;vertical-align:middle;line-height:1.4}
+#selected-projects .homepage-live{display:inline-flex;align-items:center;gap:10px;margin:24px 0 0 24px;font-size:15px;color:#53677a;text-decoration:underline;text-underline-offset:5px}
+#selected-projects .homepage-live[hidden]{display:none}
+#selected-projects .cy-detail[hidden]+.homepage-live{margin-left:0}
+#selected-projects .cy-detail span{white-space:normal}
+.homepage-footer{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr) minmax(0,1fr);gap:64px;padding:72px 0 24px;margin-top:0}
+.homepage-footer-brand p{max-width:320px;margin:24px 0 12px;font-size:18px;line-height:1.6;color:#53677a}
+.homepage-footer nav{display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.homepage-footer nav h2{font-size:14px;font-weight:500;color:#53677a;margin:0 0 12px}
+.homepage-footer nav a{display:inline-flex;align-items:center;gap:8px;min-height:44px;font-size:15px}
+.homepage-footer .homepage-copyright{grid-column:1/-1;padding-top:24px;border-top:1px solid #d7e0e9;font-size:13px;color:#53677a}
+.bs3p-homepage :focus-visible{outline:2px solid #285bd6;outline-offset:5px}
+.homepage-service{cursor:default}
+@media(max-width:1199px){.homepage-header .desktop-nav{gap:16px}.homepage-header .header-actions{gap:12px}.homepage-footer{gap:32px}}
+@media(max-width:899px){.bs3p-homepage .homepage-header{grid-template-columns:minmax(0,1fr) auto}}
+@media(max-width:699px){
+ .homepage-footer{grid-template-columns:1fr 1fr;gap:32px 24px;padding:48px 0 24px}
+ .homepage-footer-brand{grid-column:1/-1}.homepage-footer-brand p{max-width:100%}
+ #selected-projects .cy-heading>.homepage-link{position:static;margin-top:16px}
+ #selected-projects .cy-heading h2{max-width:none}
+ #selected-projects .homepage-live{margin-left:16px}
+ .homepage-contact h2{overflow-wrap:anywhere}
+ .homepage-header .mobile-nav .language-options{gap:12px}
+}
+@media(prefers-reduced-motion:reduce){.bs3p-homepage .plate-face::after{transition:none}}

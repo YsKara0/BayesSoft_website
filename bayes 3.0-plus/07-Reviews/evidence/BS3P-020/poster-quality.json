@@ -1,0 +1,38 @@
+[
+  {
+    "id": "furtherup-drive",
+    "label": "640",
+    "psnrDb": 38.35409924393977,
+    "meanAbsoluteChannelError": 1.1887257387022017
+  },
+  {
+    "id": "furtherup-drive",
+    "label": "large",
+    "psnrDb": 41.14479721090972,
+    "meanAbsoluteChannelError": 0.9663230720997822
+  },
+  {
+    "id": "reviel",
+    "label": "640",
+    "psnrDb": 40.608086956268785,
+    "meanAbsoluteChannelError": 1.4227446649285438
+  },
+  {
+    "id": "reviel",
+    "label": "large",
+    "psnrDb": 43.72855587568648,
+    "meanAbsoluteChannelError": 1.0771132224257225
+  },
+  {
+    "id": "metek-makina",
+    "label": "640",
+    "psnrDb": 38.855327872244374,
+    "meanAbsoluteChannelError": 1.5888858643050716
+  },
+  {
+    "id": "metek-makina",
+    "label": "large",
+    "psnrDb": 39.16833076217982,
+    "meanAbsoluteChannelError": 1.5848081919608743
+  }
+]

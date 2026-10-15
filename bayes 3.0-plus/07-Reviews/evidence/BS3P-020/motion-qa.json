@@ -1,0 +1,281 @@
+{
+  "pause1": {
+    "paused": "true",
+    "button": "Hareketi sürdür",
+    "pressed": "true",
+    "prism": {
+      "face": "0",
+      "angle": "0",
+      "reduced": "false",
+      "motionPaused": "true",
+      "ready": "true",
+      "auto": "paused"
+    },
+    "matrix": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -210, 1)",
+    "prismAnimations": [],
+    "scene": {
+      "mode": "webgl",
+      "ready": "true",
+      "phase": "data",
+      "time": "1.073",
+      "layers": "data",
+      "frames": "69",
+      "drawCalls": "3",
+      "triangles": "318",
+      "firstPose": "0.000",
+      "running": "false",
+      "paused": "true"
+    },
+    "marquee": {
+      "state": "paused",
+      "transform": "matrix(1, 0, 0, 1, -22.9995, 0)"
+    },
+    "stored": "paused"
+  },
+  "pause1Later": {
+    "paused": "true",
+    "button": "Hareketi sürdür",
+    "pressed": "true",
+    "prism": {
+      "face": "0",
+      "angle": "0",
+      "reduced": "false",
+      "motionPaused": "true",
+      "ready": "true",
+      "auto": "paused"
+    },
+    "matrix": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -210, 1)",
+    "prismAnimations": [],
+    "scene": {
+      "mode": "webgl",
+      "ready": "true",
+      "phase": "data",
+      "time": "1.073",
+      "layers": "data",
+      "frames": "69",
+      "drawCalls": "3",
+      "triangles": "318",
+      "firstPose": "0.000",
+      "running": "false",
+      "paused": "true"
+    },
+    "marquee": {
+      "state": "paused",
+      "transform": "matrix(1, 0, 0, 1, -22.9995, 0)"
+    },
+    "stored": "paused"
+  },
+  "pausedLabels": [
+    {
+      "lang": "en",
+      "button": "Resume motion",
+      "state": "true"
+    },
+    {
+      "lang": "de",
+      "button": "Bewegung fortsetzen",
+      "state": "true"
+    },
+    {
+      "lang": "tr",
+      "button": "Hareketi sürdür",
+      "state": "true"
+    }
+  ],
+  "manualGalleryWhilePaused": {
+    "name": "Reviel",
+    "paused": "true"
+  },
+  "midTurn": {
+    "paused": "true",
+    "button": "Hareketi sürdür",
+    "pressed": "true",
+    "prism": {
+      "face": "1",
+      "angle": "-90",
+      "reduced": "false",
+      "motionPaused": "true",
+      "ready": "true",
+      "auto": "paused",
+      "rotating": "true"
+    },
+    "matrix": "matrix3d(1, 0, 0, 0, 0, 0.979955, -0.199219, 0, 0, 0.199219, 0.979955, 0, 0, 0, -210, 1)",
+    "prismAnimations": [
+      {
+        "state": "paused",
+        "time": 200.05800000349973
+      },
+      {
+        "state": "paused",
+        "time": 200.05800000349973
+      },
+      {
+        "state": "paused",
+        "time": 200.05800000349973
+      },
+      {
+        "state": "paused",
+        "time": 200.05800000349973
+      },
+      {
+        "state": "paused",
+        "time": 200.05800000349973
+      }
+    ],
+    "scene": {
+      "mode": "webgl",
+      "ready": "true",
+      "phase": "final",
+      "time": "8.400",
+      "layers": "data,rules,web,mobile",
+      "frames": "70",
+      "drawCalls": "11",
+      "triangles": "1290",
+      "firstPose": "0.000",
+      "running": "false",
+      "paused": "true"
+    },
+    "marquee": {
+      "state": "paused",
+      "transform": "matrix(1, 0, 0, 1, -126.997, 0)"
+    },
+    "stored": "paused"
+  },
+  "midTurnLater": {
+    "paused": "true",
+    "button": "Hareketi sürdür",
+    "pressed": "true",
+    "prism": {
+      "face": "1",
+      "angle": "-90",
+      "reduced": "false",
+      "motionPaused": "true",
+      "ready": "true",
+      "auto": "paused",
+      "rotating": "true"
+    },
+    "matrix": "matrix3d(1, 0, 0, 0, 0, 0.979955, -0.199219, 0, 0, 0.199219, 0.979955, 0, 0, 0, -210, 1)",
+    "prismAnimations": [
+      {
+        "state": "paused",
+        "time": 200.05800000349973
+      },
+      {
+        "state": "paused",
+        "time": 200.05800000349973
+      },
+      {
+        "state": "paused",
+        "time": 200.05800000349973
+      },
+      {
+        "state": "paused",
+        "time": 200.05800000349973
+      },
+      {
+        "state": "paused",
+        "time": 200.05800000349973
+      }
+    ],
+    "scene": {
+      "mode": "webgl",
+      "ready": "true",
+      "phase": "final",
+      "time": "8.400",
+      "layers": "data,rules,web,mobile",
+      "frames": "70",
+      "drawCalls": "11",
+      "triangles": "1290",
+      "firstPose": "0.000",
+      "running": "false",
+      "paused": "true"
+    },
+    "marquee": {
+      "state": "paused",
+      "transform": "matrix(1, 0, 0, 1, -126.997, 0)"
+    },
+    "stored": "paused"
+  },
+  "focus": {
+    "visible": true,
+    "outline": "2px",
+    "style": "solid"
+  },
+  "resumedFinal": {
+    "paused": "false",
+    "button": "Hareketi duraklat",
+    "pressed": "false",
+    "prism": {
+      "face": "1",
+      "angle": "-90",
+      "reduced": "false",
+      "motionPaused": "false",
+      "ready": "true",
+      "auto": "running",
+      "rotating": "false"
+    },
+    "matrix": "matrix3d(1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, -210, 1)",
+    "prismAnimations": [
+      {
+        "state": "running",
+        "time": 0
+      },
+      {
+        "state": "running",
+        "time": 0
+      },
+      {
+        "state": "running",
+        "time": 0
+      },
+      {
+        "state": "running",
+        "time": 0
+      }
+    ],
+    "scene": {
+      "mode": "webgl",
+      "ready": "true",
+      "phase": "final",
+      "time": "8.400",
+      "layers": "data,rules,web,mobile",
+      "frames": "70",
+      "drawCalls": "11",
+      "triangles": "1290",
+      "firstPose": "0.000",
+      "running": "false",
+      "paused": "false"
+    },
+    "marquee": {
+      "state": "running",
+      "transform": "matrix(1, 0, 0, 1, -140.996, 0)"
+    },
+    "stored": "running"
+  },
+  "reloadPaused": {
+    "paused": "true",
+    "button": "Hareketi sürdür",
+    "pressed": "true",
+    "prism": {
+      "face": "0",
+      "angle": "0",
+      "reduced": "false",
+      "motionPaused": "true",
+      "ready": "true",
+      "auto": "paused"
+    },
+    "matrix": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -210, 1)",
+    "prismAnimations": [],
+    "scene": {
+      "mode": "static",
+      "ready": "false",
+      "phase": "final"
+    },
+    "marquee": {
+      "state": "paused",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    "stored": "paused"
+  },
+  "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.homepage-motion-control')\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" aria-pressed=\"true\" aria-disabled=\"true\" class=\"homepage-motion-control\" aria-controls=\"hero references\" aria-describedby=\"homepage-motion-help\" title=\"Sisteminizde azaltılmış hareket açık. Otomatik animasyonlar kapalı kalır.\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    19 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+}

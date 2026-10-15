@@ -1,0 +1,282 @@
+[
+  {
+    "version": "15.5.0",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.0",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.1",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.1",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.2",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.2",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.3",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.3",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.4",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.4",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.5",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.5",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.6",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.6",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.7",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.7",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.8",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.8",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.9",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.9",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.10",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.10",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.11",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.11",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.12",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.12",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.13",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.13",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.14",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.14",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.15",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.15",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.16",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.16",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.18",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.18",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.19",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.19",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.20",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.20",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.21",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.21",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.22",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.22",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.23",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.23",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.24",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.24",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.25",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.25",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.26",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.26",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.27",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.27",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  },
+  {
+    "version": "15.5.28",
+    "dependencies": {
+      "postcss": "8.4.31",
+      "@next/env": "15.5.28",
+      "styled-jsx": "5.1.6",
+      "@swc/helpers": "0.5.15",
+      "caniuse-lite": "^1.0.30001579"
+    }
+  }
+]

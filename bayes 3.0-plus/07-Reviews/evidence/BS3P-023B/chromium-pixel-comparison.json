@@ -1,0 +1,24 @@
+{
+  "before": {
+    "format": "raw",
+    "width": 803,
+    "height": 501,
+    "channels": 3,
+    "depth": "uchar",
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 1206909
+  },
+  "after": {
+    "format": "raw",
+    "width": 803,
+    "height": 501,
+    "channels": 3,
+    "depth": "uchar",
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 1206909
+  },
+  "differentChannels": 1,
+  "totalChannels": 1206909
+}

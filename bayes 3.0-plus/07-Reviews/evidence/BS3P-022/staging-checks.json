@@ -1,0 +1,150 @@
+{
+  "head": "1218e589fd5275f45d8b610b5ec87eeac05f6886",
+  "branch": "feature/bayessoft-3.0-plus",
+  "stagedFiles": 166,
+  "applicationFiles": 55,
+  "taskDocsEvidenceFiles": 111,
+  "excludedUnrelated": 177,
+  "excludedTemporaryHarnesses": 8,
+  "pathMatchesApprovedList": true,
+  "forbiddenPaths": [],
+  "secretPatternFindings": [],
+  "worktreeIndexMismatches": [],
+  "fileModes": [
+    "100644"
+  ],
+  "rawDiffCheckExitCode": 2,
+  "whitespaceWarnings": [
+    {
+      "path": "bayes 3.0-plus/04-Development/BS3P-018A-PRODUCTION-FOUNDATION.md",
+      "line": 3,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/04-Development/BS3P-018A-PRODUCTION-FOUNDATION.md",
+      "line": 4,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/04-Development/BS3P-018A-PRODUCTION-FOUNDATION.md",
+      "line": 5,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/04-Development/BS3P-018B-REACT-HOMEPAGE-INTEGRATION.md",
+      "line": 3,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/04-Development/BS3P-018B-REACT-HOMEPAGE-INTEGRATION.md",
+      "line": 4,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/04-Development/BS3P-018B-REACT-HOMEPAGE-INTEGRATION.md",
+      "line": 5,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/04-Development/BS3P-018B-REACT-HOMEPAGE-INTEGRATION.md",
+      "line": 6,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/04-Development/BS3P-018B-REACT-HOMEPAGE-INTEGRATION.md",
+      "line": 7,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/04-Development/BS3P-018C-VISUAL-MOTION-PARITY.md",
+      "line": 3,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/04-Development/BS3P-018C-VISUAL-MOTION-PARITY.md",
+      "line": 4,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/04-Development/BS3P-018C-VISUAL-MOTION-PARITY.md",
+      "line": 5,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/04-Development/BS3P-018C-VISUAL-MOTION-PARITY.md",
+      "line": 6,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/04-Development/BS3P-019-FINAL-QA-RELEASE-READINESS.md",
+      "line": 3,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/04-Development/BS3P-019-FINAL-QA-RELEASE-READINESS.md",
+      "line": 4,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/04-Development/BS3P-019-FINAL-QA-RELEASE-READINESS.md",
+      "line": 5,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/04-Development/BS3P-019-FINAL-QA-RELEASE-READINESS.md",
+      "line": 6,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-build.txt",
+      "line": 8,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-build.txt",
+      "line": 9,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-build.txt",
+      "line": 10,
+      "kind": "trailing whitespace.",
+      "knownNonfunctional": true
+    },
+    {
+      "path": "lib/homepage/system/geometry.ts",
+      "line": 35,
+      "kind": "new blank line at EOF.",
+      "knownNonfunctional": true
+    }
+  ],
+  "scopeAndContentAuditPassed": true,
+  "limits": "Targeted offline credential-pattern scan of all staged blobs; no guarantee of exhaustive secret detection. Historical Markdown hard breaks, raw build-log CRLF/progress and one source EOF blank intentionally preserved. No .env file read; ignored files not staged. No build/browser/security-network tests repeated.",
+  "status": "completed; exact staged scope and content audited; no commit created",
+  "sourceProtection": {
+    "applicationSourceFiles": 55,
+    "applicationSourceChanges": 0,
+    "excludedUserFiles": 177,
+    "excludedUserFilesUnchanged": 176,
+    "externalChangedExcludedPath": "bayes 3.0-plus/.obsidian/workspace.json",
+    "handling": "No agent write, revert or staging; external change preserved. Origin not established."
+  }
+}

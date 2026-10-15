@@ -1,0 +1,22 @@
+{
+  "export": {
+    "files": 686,
+    "prototypeArtifacts": 0,
+    "prototypeDependencies": 0
+  },
+  "devRoutes": "not checked",
+  "productionDenied": [
+    "/prototype",
+    "/prototype/",
+    "/prototype.html",
+    "/prototype/bs3p-homepage",
+    "/prototype/bs3p-homepage/",
+    "/prototype/bs3p-homepage.html",
+    "/prototype/bs3p-homepage/index.html",
+    "/prototype/bs3p-homepage.txt",
+    "/%70rototype/bs3p-homepage",
+    "/prototype-assets/bs3p-homepage/reviel-cover.png"
+  ],
+  "productionRoutes": "200",
+  "prototypeDevAsset": "not checked"
+}

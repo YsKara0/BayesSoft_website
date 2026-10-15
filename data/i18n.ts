@@ -1,3 +1,5 @@
+import { createHomepageTranslations } from "./homepage";
+
 export type Locale = "tr" | "en" | "de";
 
 const tr = {
@@ -255,6 +257,11 @@ const de = {
   footer: { statement: "Von Geschäftsabläufen zu lebendigen digitalen Produkten.", rights: "Alle Rechte vorbehalten." },
 };
 
-export const translations = { tr, en, de };
+const homepage = createHomepageTranslations({ tr: tr.footer.rights, en: en.footer.rights, de: de.footer.rights });
+export const translations = {
+  tr: { ...tr, homepage: homepage.tr },
+  en: { ...en, homepage: homepage.en },
+  de: { ...de, homepage: homepage.de },
+};
 
 export const localeOptions: Locale[] = ["tr", "en", "de"];

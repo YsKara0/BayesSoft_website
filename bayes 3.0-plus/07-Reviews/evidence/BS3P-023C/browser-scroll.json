@@ -1,0 +1,2088 @@
+{
+  "webkit": {
+    "initial": {
+      "y": 0,
+      "hash": "",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "navigate",
+      "hero": {
+        "x": 64,
+        "y": 82,
+        "width": 1312,
+        "height": 718,
+        "top": 82,
+        "right": 1376,
+        "bottom": 800,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": 30,
+        "width": 1312,
+        "height": 52,
+        "top": 30,
+        "right": 1376,
+        "bottom": 82,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "pageshow",
+          "t": 154,
+          "y": 0,
+          "hash": "",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        }
+      ]
+    },
+    "reloadTop": {
+      "y": 0,
+      "hash": "",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "reload",
+      "hero": {
+        "x": 64,
+        "y": 82,
+        "width": 1312,
+        "height": 718,
+        "top": 82,
+        "right": 1376,
+        "bottom": 800,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": 30,
+        "width": 1312,
+        "height": 52,
+        "top": 30,
+        "right": 1376,
+        "bottom": 82,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "pageshow",
+          "t": 62,
+          "y": 0,
+          "hash": "",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        }
+      ]
+    },
+    "reloadDown": {
+      "y": 0,
+      "hash": "",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "reload",
+      "hero": {
+        "x": 64,
+        "y": 82,
+        "width": 1312,
+        "height": 718,
+        "top": 82,
+        "right": 1376,
+        "bottom": 800,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": 30,
+        "width": 1312,
+        "height": 52,
+        "top": 30,
+        "right": 1376,
+        "bottom": 82,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "pageshow",
+          "t": 60,
+          "y": 0,
+          "hash": "",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        }
+      ]
+    },
+    "hashInitial": {
+      "y": 1093,
+      "hash": "#selected-projects",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "reload",
+      "hero": {
+        "x": 64,
+        "y": -1011,
+        "width": 1312,
+        "height": 718,
+        "top": -1011,
+        "right": 1376,
+        "bottom": -293,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": -1063,
+        "width": 1312,
+        "height": 52,
+        "top": -1063,
+        "right": 1376,
+        "bottom": -1011,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "pageshow",
+          "t": 60,
+          "y": 0,
+          "hash": "",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        },
+        {
+          "type": "hashchange",
+          "t": 983,
+          "y": 0,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1010,
+          "y": 48,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1026,
+          "y": 190,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1043,
+          "y": 391,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1068,
+          "y": 583,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1076,
+          "y": 731,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1093,
+          "y": 851,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1109,
+          "y": 936,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1126,
+          "y": 997,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1143,
+          "y": 1041,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1159,
+          "y": 1069,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1176,
+          "y": 1086,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1193,
+          "y": 1093,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        }
+      ]
+    },
+    "hashReload": {
+      "y": 1093,
+      "hash": "#selected-projects",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "reload",
+      "hero": {
+        "x": 64,
+        "y": -1011,
+        "width": 1312,
+        "height": 718,
+        "top": -1011,
+        "right": 1376,
+        "bottom": -293,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": -1063,
+        "width": 1312,
+        "height": 52,
+        "top": -1063,
+        "right": 1376,
+        "bottom": -1011,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "pageshow",
+          "t": 76,
+          "y": 0,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        },
+        {
+          "type": "scroll",
+          "t": 89,
+          "y": 1093,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        }
+      ]
+    },
+    "homeLink": {
+      "y": 82,
+      "hash": "#hero",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "reload",
+      "hero": {
+        "x": 64,
+        "y": 0,
+        "width": 1312,
+        "height": 718,
+        "top": 0,
+        "right": 1376,
+        "bottom": 718,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": -52,
+        "width": 1312,
+        "height": 52,
+        "top": -52,
+        "right": 1376,
+        "bottom": 0,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "pageshow",
+          "t": 76,
+          "y": 0,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        },
+        {
+          "type": "scroll",
+          "t": 89,
+          "y": 1093,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1050,
+          "y": 0,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "hashchange",
+          "t": 1060,
+          "y": 0,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1080,
+          "y": 3,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1097,
+          "y": 36,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1113,
+          "y": 63,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1130,
+          "y": 76,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1147,
+          "y": 81,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1162,
+          "y": 82,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        }
+      ]
+    },
+    "homeHashReload": {
+      "y": 82,
+      "hash": "#hero",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "reload",
+      "hero": {
+        "x": 64,
+        "y": 0,
+        "width": 1312,
+        "height": 718,
+        "top": 0,
+        "right": 1376,
+        "bottom": 718,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": -52,
+        "width": 1312,
+        "height": 52,
+        "top": -52,
+        "right": 1376,
+        "bottom": 0,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "pageshow",
+          "t": 68,
+          "y": 0,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        },
+        {
+          "type": "scroll",
+          "t": 81,
+          "y": 82,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        }
+      ]
+    },
+    "back": {
+      "y": 0,
+      "hash": "#selected-projects",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "reload",
+      "hero": {
+        "x": 64,
+        "y": 82,
+        "width": 1312,
+        "height": 718,
+        "top": 82,
+        "right": 1376,
+        "bottom": 800,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": 30,
+        "width": 1312,
+        "height": 52,
+        "top": 30,
+        "right": 1376,
+        "bottom": 82,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "pageshow",
+          "t": 68,
+          "y": 0,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        },
+        {
+          "type": "scroll",
+          "t": 81,
+          "y": 82,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "hashchange",
+          "t": 991,
+          "y": 0,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 995,
+          "y": 0,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        }
+      ]
+    },
+    "forward": {
+      "y": 82,
+      "hash": "#hero",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "reload",
+      "hero": {
+        "x": 64,
+        "y": 0,
+        "width": 1312,
+        "height": 718,
+        "top": 0,
+        "right": 1376,
+        "bottom": 718,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": -52,
+        "width": 1312,
+        "height": 52,
+        "top": -52,
+        "right": 1376,
+        "bottom": 0,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "pageshow",
+          "t": 68,
+          "y": 0,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        },
+        {
+          "type": "scroll",
+          "t": 81,
+          "y": 82,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "hashchange",
+          "t": 991,
+          "y": 0,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 995,
+          "y": 0,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "hashchange",
+          "t": 1905,
+          "y": 82,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1910,
+          "y": 82,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        }
+      ]
+    }
+  },
+  "chromium": {
+    "initial": {
+      "y": 0,
+      "hash": "",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "navigate",
+      "hero": {
+        "x": 64,
+        "y": 82,
+        "width": 1312,
+        "height": 718,
+        "top": 82,
+        "right": 1376,
+        "bottom": 800,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": 30,
+        "width": 1312,
+        "height": 52,
+        "top": 30,
+        "right": 1376,
+        "bottom": 82,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "pageshow",
+          "t": 55,
+          "y": 0,
+          "hash": "",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        },
+        {
+          "type": "layout-shift",
+          "t": 86,
+          "y": 0,
+          "hash": "",
+          "active": "BODY",
+          "restoration": "auto",
+          "value": 0.000027200279706790123,
+          "recent": false
+        }
+      ]
+    },
+    "reloadTop": {
+      "y": 0,
+      "hash": "",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "reload",
+      "hero": {
+        "x": 64,
+        "y": 82,
+        "width": 1312,
+        "height": 718,
+        "top": 82,
+        "right": 1376,
+        "bottom": 800,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": 30,
+        "width": 1312,
+        "height": 52,
+        "top": 30,
+        "right": 1376,
+        "bottom": 82,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "pageshow",
+          "t": 42,
+          "y": 0,
+          "hash": "",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        },
+        {
+          "type": "layout-shift",
+          "t": 65,
+          "y": 0,
+          "hash": "",
+          "active": "BODY",
+          "restoration": "auto",
+          "value": 0.000027200279706790123,
+          "recent": false
+        }
+      ]
+    },
+    "reloadDown": {
+      "y": 650,
+      "hash": "",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "reload",
+      "hero": {
+        "x": 64,
+        "y": -568,
+        "width": 1312,
+        "height": 718,
+        "top": -568,
+        "right": 1376,
+        "bottom": 150,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": -620,
+        "width": 1312,
+        "height": 52,
+        "top": -620,
+        "right": 1376,
+        "bottom": -568,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "scroll",
+          "t": 32,
+          "y": 650,
+          "hash": "",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "pageshow",
+          "t": 36,
+          "y": 650,
+          "hash": "",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        }
+      ]
+    },
+    "hashInitial": {
+      "y": 1093,
+      "hash": "#selected-projects",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "reload",
+      "hero": {
+        "x": 64,
+        "y": -1011,
+        "width": 1312,
+        "height": 718,
+        "top": -1011,
+        "right": 1376,
+        "bottom": -293,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": -1063,
+        "width": 1312,
+        "height": 52,
+        "top": -1063,
+        "right": 1376,
+        "bottom": -1011,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "scroll",
+          "t": 32,
+          "y": 650,
+          "hash": "",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "pageshow",
+          "t": 36,
+          "y": 650,
+          "hash": "",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        },
+        {
+          "type": "hashchange",
+          "t": 951,
+          "y": 650,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 993,
+          "y": 652,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1011,
+          "y": 661,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1027,
+          "y": 682,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1043,
+          "y": 726,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1060,
+          "y": 807,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1077,
+          "y": 886,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1093,
+          "y": 938,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1110,
+          "y": 975,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1127,
+          "y": 1002,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1144,
+          "y": 1023,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1160,
+          "y": 1039,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1177,
+          "y": 1052,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1194,
+          "y": 1063,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1210,
+          "y": 1071,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1227,
+          "y": 1078,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1244,
+          "y": 1083,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1260,
+          "y": 1087,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1277,
+          "y": 1090,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1294,
+          "y": 1092,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1310,
+          "y": 1093,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        }
+      ]
+    },
+    "hashReload": {
+      "y": 1093,
+      "hash": "#selected-projects",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "reload",
+      "hero": {
+        "x": 64,
+        "y": -1011,
+        "width": 1312,
+        "height": 718,
+        "top": -1011,
+        "right": 1376,
+        "bottom": -293,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": -1063,
+        "width": 1312,
+        "height": 52,
+        "top": -1063,
+        "right": 1376,
+        "bottom": -1011,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "pageshow",
+          "t": 39,
+          "y": 0,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        },
+        {
+          "type": "scroll",
+          "t": 61,
+          "y": 2,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "layout-shift",
+          "t": 63,
+          "y": 2,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto",
+          "value": 0.000027200279706790123,
+          "recent": false
+        },
+        {
+          "type": "scroll",
+          "t": 93,
+          "y": 10,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 109,
+          "y": 51,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 121,
+          "y": 94,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 137,
+          "y": 162,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 154,
+          "y": 270,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 170,
+          "y": 409,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 187,
+          "y": 536,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 204,
+          "y": 635,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 220,
+          "y": 712,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 236,
+          "y": 772,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 254,
+          "y": 822,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 270,
+          "y": 863,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 286,
+          "y": 898,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 304,
+          "y": 928,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 320,
+          "y": 953,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 337,
+          "y": 975,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 354,
+          "y": 995,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 370,
+          "y": 1011,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 387,
+          "y": 1026,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 403,
+          "y": 1038,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 421,
+          "y": 1049,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 437,
+          "y": 1059,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 454,
+          "y": 1067,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 471,
+          "y": 1073,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 487,
+          "y": 1079,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 504,
+          "y": 1083,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 521,
+          "y": 1087,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 537,
+          "y": 1090,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 554,
+          "y": 1092,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 571,
+          "y": 1093,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        }
+      ]
+    },
+    "homeLink": {
+      "y": 82,
+      "hash": "#hero",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "reload",
+      "hero": {
+        "x": 64,
+        "y": 0,
+        "width": 1312,
+        "height": 718,
+        "top": 0,
+        "right": 1376,
+        "bottom": 718,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": -52,
+        "width": 1312,
+        "height": 52,
+        "top": -52,
+        "right": 1376,
+        "bottom": 0,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "pageshow",
+          "t": 39,
+          "y": 0,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        },
+        {
+          "type": "scroll",
+          "t": 61,
+          "y": 2,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "layout-shift",
+          "t": 63,
+          "y": 2,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto",
+          "value": 0.000027200279706790123,
+          "recent": false
+        },
+        {
+          "type": "scroll",
+          "t": 93,
+          "y": 10,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 109,
+          "y": 51,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 121,
+          "y": 94,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 137,
+          "y": 162,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 154,
+          "y": 270,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 170,
+          "y": 409,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 187,
+          "y": 536,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 204,
+          "y": 635,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 220,
+          "y": 712,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 236,
+          "y": 772,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 254,
+          "y": 822,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 270,
+          "y": 863,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 286,
+          "y": 898,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 304,
+          "y": 928,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 320,
+          "y": 953,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 337,
+          "y": 975,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 354,
+          "y": 995,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 370,
+          "y": 1011,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 387,
+          "y": 1026,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 403,
+          "y": 1038,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 421,
+          "y": 1049,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 437,
+          "y": 1059,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 454,
+          "y": 1067,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 471,
+          "y": 1073,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 487,
+          "y": 1079,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 504,
+          "y": 1083,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 521,
+          "y": 1087,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 537,
+          "y": 1090,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 554,
+          "y": 1092,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 571,
+          "y": 1093,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1033,
+          "y": 0,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "hashchange",
+          "t": 1033,
+          "y": 0,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1054,
+          "y": 3,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1070,
+          "y": 23,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1087,
+          "y": 53,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1103,
+          "y": 66,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1120,
+          "y": 74,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1137,
+          "y": 78,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1153,
+          "y": 80,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1170,
+          "y": 82,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        }
+      ]
+    },
+    "homeHashReload": {
+      "y": 82,
+      "hash": "#hero",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "reload",
+      "hero": {
+        "x": 64,
+        "y": 0,
+        "width": 1312,
+        "height": 718,
+        "top": 0,
+        "right": 1376,
+        "bottom": 718,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": -52,
+        "width": 1312,
+        "height": 52,
+        "top": -52,
+        "right": 1376,
+        "bottom": 0,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "scroll",
+          "t": 42,
+          "y": 82,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "pageshow",
+          "t": 42,
+          "y": 82,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        },
+        {
+          "type": "layout-shift",
+          "t": 94,
+          "y": 82,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto",
+          "value": 0.000027200279706790123,
+          "recent": false
+        }
+      ]
+    },
+    "back": {
+      "y": 0,
+      "hash": "#selected-projects",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "reload",
+      "hero": {
+        "x": 64,
+        "y": 82,
+        "width": 1312,
+        "height": 718,
+        "top": 82,
+        "right": 1376,
+        "bottom": 800,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": 30,
+        "width": 1312,
+        "height": 52,
+        "top": 30,
+        "right": 1376,
+        "bottom": 82,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "scroll",
+          "t": 42,
+          "y": 82,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "pageshow",
+          "t": 42,
+          "y": 82,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        },
+        {
+          "type": "layout-shift",
+          "t": 94,
+          "y": 82,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto",
+          "value": 0.000027200279706790123,
+          "recent": false
+        },
+        {
+          "type": "hashchange",
+          "t": 974,
+          "y": 82,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1008,
+          "y": 79,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1024,
+          "y": 59,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1041,
+          "y": 29,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1057,
+          "y": 16,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1074,
+          "y": 8,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1091,
+          "y": 4,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1108,
+          "y": 2,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1124,
+          "y": 0,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        }
+      ]
+    },
+    "forward": {
+      "y": 82,
+      "hash": "#hero",
+      "active": {
+        "tag": "BODY",
+        "id": ""
+      },
+      "restoration": "auto",
+      "navigation": "reload",
+      "hero": {
+        "x": 64,
+        "y": 0,
+        "width": 1312,
+        "height": 718,
+        "top": 0,
+        "right": 1376,
+        "bottom": 718,
+        "left": 64
+      },
+      "header": {
+        "x": 64,
+        "y": -52,
+        "width": 1312,
+        "height": 52,
+        "top": -52,
+        "right": 1376,
+        "bottom": 0,
+        "left": 64
+      },
+      "font": "loaded",
+      "trace": [
+        {
+          "type": "scroll",
+          "t": 42,
+          "y": 82,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "pageshow",
+          "t": 42,
+          "y": 82,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto",
+          "persisted": false
+        },
+        {
+          "type": "layout-shift",
+          "t": 94,
+          "y": 82,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto",
+          "value": 0.000027200279706790123,
+          "recent": false
+        },
+        {
+          "type": "hashchange",
+          "t": 974,
+          "y": 82,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1008,
+          "y": 79,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1024,
+          "y": 59,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1041,
+          "y": 29,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1057,
+          "y": 16,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1074,
+          "y": 8,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1091,
+          "y": 4,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1108,
+          "y": 2,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1124,
+          "y": 0,
+          "hash": "#selected-projects",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "hashchange",
+          "t": 1885,
+          "y": 0,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1924,
+          "y": 3,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1940,
+          "y": 23,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1957,
+          "y": 53,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1974,
+          "y": 66,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 1991,
+          "y": 74,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 2007,
+          "y": 78,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 2024,
+          "y": 80,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        },
+        {
+          "type": "scroll",
+          "t": 2041,
+          "y": 82,
+          "hash": "#hero",
+          "active": "BODY",
+          "restoration": "auto"
+        }
+      ]
+    }
+  }
+}

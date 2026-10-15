@@ -1,0 +1,24 @@
+{
+  "reducedSavedRunning": {
+    "paused": "true",
+    "disabled": "true",
+    "stored": "running",
+    "canvases": 0
+  },
+  "afterRemovingReduction": {
+    "paused": "false",
+    "disabled": "false",
+    "stored": "running",
+    "canvases": 0
+  },
+  "dpr3Images": [
+    "http://127.0.0.1:3019/projects/covers/furtherup-drive-cover-large.webp",
+    "http://127.0.0.1:3019/projects/covers/reviel-cover-large.webp",
+    "http://127.0.0.1:3019/projects/covers/metek-makina-cover-large.webp"
+  ],
+  "routes": {
+    "/": 200,
+    "/projeler": 200,
+    "/projeler/furtherup-drive": 200
+  }
+}

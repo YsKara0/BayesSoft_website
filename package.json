@@ -4,28 +4,42 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "preview": "npx serve out",
+    "build": "node scripts/build-production.mjs",
+    "verify:production": "node scripts/verify-production-export.mjs out",
+    "preview": "npm run verify:production && npx serve out",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prototype:bs3p:prepare": "node prototypes/bs3p-right-3d/prepare.mjs",
+    "prototype:bs3p:typecheck": "tsc -p prototypes/bs3p-right-3d/tsconfig.check.json"
   },
   "dependencies": {
     "flag-icons": "^7.5.0",
     "framer-motion": "^12.23.0",
     "lucide-react": "^0.468.0",
-    "next": "^15.3.4",
+    "next": "^15.5.28",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "three": "0.180.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "@types/three": "0.180.0",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.17.0",
-    "eslint-config-next": "^15.3.4",
-    "postcss": "^8.4.49",
+    "eslint-config-next": "^15.5.28",
+    "postcss": "^8.5.30",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.2"
+  },
+  "overrides": {
+    "next": {
+      "postcss": "$postcss"
+    },
+    "postcss": {
+      "nanoid": "^3.3.18",
+      "source-map-js": "^1.2.2"
+    }
   }
 }

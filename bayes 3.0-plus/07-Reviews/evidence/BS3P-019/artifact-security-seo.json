@@ -1,0 +1,301 @@
+{
+  "files": 679,
+  "suspiciousFiles": [],
+  "patterns": [],
+  "sourceMaps": 0,
+  "posters": [
+    {
+      "file": "out/projects/covers/furtherup-drive-cover.png",
+      "bytes": 1458998
+    },
+    {
+      "file": "out/projects/covers/metek-makina-cover.png",
+      "bytes": 2061982
+    },
+    {
+      "file": "out/projects/covers/reviel-cover.png",
+      "bytes": 1897092
+    }
+  ],
+  "js": [
+    {
+      "file": "out/_next/static/chunks/764e5a4b.2b5a276fd7a53880.js",
+      "bytes": 322448,
+      "gzipBytes": 75406,
+      "three": true
+    },
+    {
+      "file": "out/_next/static/chunks/dbe9a7b4.cdb40d6d52da3120.js",
+      "bytes": 208906,
+      "gzipBytes": 56605,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/framework-4672b5c6d15b3282.js",
+      "bytes": 189765,
+      "gzipBytes": 59910,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/950-155d32e92dcd89b7.js",
+      "bytes": 173574,
+      "gzipBytes": 46212,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/5d08d3ca-2cf9d6d008e53af1.js",
+      "bytes": 173019,
+      "gzipBytes": 54365,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/main-a62e9bedec51145f.js",
+      "bytes": 128265,
+      "gzipBytes": 37194,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/13-6eb35a6e027be468.js",
+      "bytes": 127012,
+      "gzipBytes": 41640,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "bytes": 112594,
+      "gzipBytes": 39473,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/app/page-26221497d908b39e.js",
+      "bytes": 39624,
+      "gzipBytes": 12553,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/705-9cef30d32de67467.js",
+      "bytes": 39503,
+      "gzipBytes": 14020,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/app/projeler/page-bd1ea34d007fb003.js",
+      "bytes": 27828,
+      "gzipBytes": 9017,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/app/hakkimizda/page-a98b28e02c5137b4.js",
+      "bytes": 26585,
+      "gzipBytes": 8296,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/app/iletisim/page-e4102d083d6f3dbe.js",
+      "bytes": 26075,
+      "gzipBytes": 7844,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/app/layout-b7392be7ea522e66.js",
+      "bytes": 22961,
+      "gzipBytes": 7984,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/app/hizmetler/page-f24ed70541490cbe.js",
+      "bytes": 22948,
+      "gzipBytes": 6746,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/app/projeler/[slug]/page-1bf6274ff8ab86aa.js",
+      "bytes": 17325,
+      "gzipBytes": 5965,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/31-24327e44ebaceb10.js",
+      "bytes": 15728,
+      "gzipBytes": 6381,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/556-d04b40fcd95e10ea.js",
+      "bytes": 14218,
+      "gzipBytes": 5284,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/729.20728d599b968b2c.js",
+      "bytes": 10557,
+      "gzipBytes": 4602,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/924-b462eba0481c96b1.js",
+      "bytes": 8537,
+      "gzipBytes": 3380,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/webpack-046b6bc30b0bee76.js",
+      "bytes": 3582,
+      "gzipBytes": 1824,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/app/_not-found/page-b58ff0cc305bc1e8.js",
+      "bytes": 2668,
+      "gzipBytes": 994,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/aZEI4hj0SkYT1qZklLWPk/_buildManifest.js",
+      "bytes": 780,
+      "gzipBytes": 339,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/main-app-a3c57752c623457f.js",
+      "bytes": 555,
+      "gzipBytes": 222,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/pages/_app-adf199ae5c6b1f5c.js",
+      "bytes": 234,
+      "gzipBytes": 191,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/pages/_error-b8c2091c224c4c4f.js",
+      "bytes": 218,
+      "gzipBytes": 181,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/app/hakkimizda/layout-9806ae9ea16747f8.js",
+      "bytes": 151,
+      "gzipBytes": 140,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/app/hizmetler/layout-9806ae9ea16747f8.js",
+      "bytes": 151,
+      "gzipBytes": 140,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/app/iletisim/layout-9806ae9ea16747f8.js",
+      "bytes": 151,
+      "gzipBytes": 140,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/app/projeler/layout-9806ae9ea16747f8.js",
+      "bytes": 151,
+      "gzipBytes": 140,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/app/robots.txt/route-9806ae9ea16747f8.js",
+      "bytes": 151,
+      "gzipBytes": 140,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/chunks/app/sitemap.xml/route-9806ae9ea16747f8.js",
+      "bytes": 151,
+      "gzipBytes": 140,
+      "three": false
+    },
+    {
+      "file": "out/_next/static/aZEI4hj0SkYT1qZklLWPk/_ssgManifest.js",
+      "bytes": 108,
+      "gzipBytes": 88,
+      "three": false
+    }
+  ],
+  "artifactSha256": "cd1df90bea7fe39dc361aef345aefacb45aa3e79fc5080010574421dd8bd1dbe",
+  "sitemapUrls": [
+    "https://bayessoft.com.tr/",
+    "https://bayessoft.com.tr/hakkimizda",
+    "https://bayessoft.com.tr/hizmetler",
+    "https://bayessoft.com.tr/projeler",
+    "https://bayessoft.com.tr/iletisim",
+    "https://bayessoft.com.tr/projeler/tam-finans-fintech",
+    "https://bayessoft.com.tr/projeler/smart-hospital",
+    "https://bayessoft.com.tr/projeler/petnest-platform",
+    "https://bayessoft.com.tr/projeler/atli-logistics",
+    "https://bayessoft.com.tr/projeler/military-aircraft-classification",
+    "https://bayessoft.com.tr/projeler/ai-chatbot",
+    "https://bayessoft.com.tr/projeler/furtherup-drive",
+    "https://bayessoft.com.tr/projeler/maritime-horizon-segmentation"
+  ],
+  "routes": [
+    {
+      "pathname": "/",
+      "status": 200
+    },
+    {
+      "pathname": "/hakkimizda",
+      "status": 200
+    },
+    {
+      "pathname": "/hizmetler",
+      "status": 200
+    },
+    {
+      "pathname": "/projeler",
+      "status": 200
+    },
+    {
+      "pathname": "/iletisim",
+      "status": 200
+    },
+    {
+      "pathname": "/projeler/tam-finans-fintech",
+      "status": 200
+    },
+    {
+      "pathname": "/projeler/smart-hospital",
+      "status": 200
+    },
+    {
+      "pathname": "/projeler/petnest-platform",
+      "status": 200
+    },
+    {
+      "pathname": "/projeler/atli-logistics",
+      "status": 200
+    },
+    {
+      "pathname": "/projeler/military-aircraft-classification",
+      "status": 200
+    },
+    {
+      "pathname": "/projeler/ai-chatbot",
+      "status": 200
+    },
+    {
+      "pathname": "/projeler/furtherup-drive",
+      "status": 200
+    },
+    {
+      "pathname": "/projeler/maritime-horizon-segmentation",
+      "status": 200
+    }
+  ],
+  "notFound": 404,
+  "seo": {
+    "canonical": "https://bayessoft.com.tr",
+    "title": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ",
+    "robots": "index, follow",
+    "favicon": "/bayes_logo_dark.png",
+    "jsonLd": true,
+    "robotsTxt": "User-Agent: *\nAllow: /\n\nHost: https://bayessoft.com.tr\nSitemap: https://bayessoft.com.tr/sitemap.xml\n",
+    "cname": "bayessoft.com.tr\n"
+  },
+  "faviconStatus": 200
+}

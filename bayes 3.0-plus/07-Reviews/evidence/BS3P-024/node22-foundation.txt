@@ -1,0 +1,1 @@
+Foundation checks passed: legacy copy, TR/EN/DE, project URLs/posters/detail absence, preserved cases and fail-closed export.

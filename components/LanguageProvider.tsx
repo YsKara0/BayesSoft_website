@@ -15,7 +15,9 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>("tr");
 
   useEffect(() => {
-    const saved = window.localStorage.getItem("bayessoft-locale") as Locale | null;
+    let saved: Locale | null = null;
+    try { saved = window.localStorage.getItem("bayessoft-locale") as Locale | null; }
+    catch { /* Browser preference remains available when storage is blocked. */ }
     const browser = window.navigator.language.slice(0, 2).toLowerCase() as Locale;
     const initial = saved && saved in translations ? saved : browser in translations ? browser : "tr";
     setLocaleState(initial);
@@ -23,7 +25,8 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   const setLocale = (nextLocale: Locale) => {
     setLocaleState(nextLocale);
-    window.localStorage.setItem("bayessoft-locale", nextLocale);
+    try { window.localStorage.setItem("bayessoft-locale", nextLocale); }
+    catch { /* In-memory language selection still works. */ }
   };
 
   useEffect(() => {

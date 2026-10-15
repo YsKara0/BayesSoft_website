@@ -1,0 +1,17 @@
+{
+  "chromium": {
+    "executable": "/Users/yavuz/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing",
+    "available": false
+  },
+  "webkit": {
+    "executable": "/Users/yavuz/Library/Caches/ms-playwright/webkit-2370/pw_run.sh",
+    "available": false
+  },
+  "firefox": {
+    "executable": "/Users/yavuz/Library/Caches/ms-playwright/firefox-1555/firefox/Nightly.app/Contents/MacOS/firefox",
+    "available": false
+  },
+  "chrome": true,
+  "nativeSafariInstalled": true,
+  "lighthouseInstalled": false
+}

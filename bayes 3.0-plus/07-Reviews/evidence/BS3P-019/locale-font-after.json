@@ -1,0 +1,858 @@
+{
+  "results": [
+    {
+      "url": "http://127.0.0.1:3019/",
+      "width": 320,
+      "lang": "tr",
+      "fontSize": "42.518px",
+      "lineHeight": "45.0691px",
+      "textWidth": "211.422px",
+      "textHeight": "90.125px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 42.28125,
+          "right": 253.703125,
+          "top": 175.8046875,
+          "bottom": 227.8046875
+        },
+        {
+          "left": 253.703125,
+          "right": 253.703125,
+          "top": 175.8046875,
+          "bottom": 227.8046875
+        },
+        {
+          "left": 42.28125,
+          "right": 181.328125,
+          "top": 220.8671875,
+          "bottom": 272.8671875
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3019/",
+      "width": 320,
+      "lang": "en",
+      "fontSize": "33.6px",
+      "lineHeight": "35.616px",
+      "textWidth": "212.969px",
+      "textHeight": "71.2188px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 42.28125,
+          "right": 226.546875,
+          "top": 186.2578125,
+          "bottom": 227.2578125
+        },
+        {
+          "left": 226.546875,
+          "right": 226.546875,
+          "top": 186.2578125,
+          "bottom": 227.2578125
+        },
+        {
+          "left": 42.28125,
+          "right": 255.25,
+          "top": 221.8671875,
+          "bottom": 262.8671875
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3019/",
+      "width": 320,
+      "lang": "de",
+      "fontSize": "32.2px",
+      "lineHeight": "34.132px",
+      "textWidth": "235.438px",
+      "textHeight": "102.375px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 42.28125,
+          "right": 219.453125,
+          "top": 170.6796875,
+          "bottom": 209.6796875
+        },
+        {
+          "left": 219.453125,
+          "right": 219.453125,
+          "top": 170.6796875,
+          "bottom": 209.6796875
+        },
+        {
+          "left": 42.28125,
+          "right": 80.359375,
+          "top": 204.8046875,
+          "bottom": 243.8046875
+        },
+        {
+          "left": 42.28125,
+          "right": 251.484375,
+          "top": 238.9296875,
+          "bottom": 277.9296875
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3019/",
+      "width": 390,
+      "lang": "tr",
+      "fontSize": "53.1475px",
+      "lineHeight": "56.3363px",
+      "textWidth": "264.281px",
+      "textHeight": "112.656px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 47.859375,
+          "right": 312.140625,
+          "top": 190.78125,
+          "bottom": 255.78125
+        },
+        {
+          "left": 312.140625,
+          "right": 312.140625,
+          "top": 190.78125,
+          "bottom": 255.78125
+        },
+        {
+          "left": 47.859375,
+          "right": 221.671875,
+          "top": 247.109375,
+          "bottom": 312.109375
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3019/",
+      "width": 390,
+      "lang": "en",
+      "fontSize": "42px",
+      "lineHeight": "44.52px",
+      "textWidth": "266.297px",
+      "textHeight": "89.0312px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 47.859375,
+          "right": 278.265625,
+          "top": 203.59375,
+          "bottom": 255.59375
+        },
+        {
+          "left": 278.265625,
+          "right": 278.265625,
+          "top": 203.59375,
+          "bottom": 255.59375
+        },
+        {
+          "left": 47.859375,
+          "right": 314.15625,
+          "top": 248.109375,
+          "bottom": 300.109375
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3019/",
+      "width": 390,
+      "lang": "de",
+      "fontSize": "40.25px",
+      "lineHeight": "42.665px",
+      "textWidth": "294.281px",
+      "textHeight": "127.969px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 47.859375,
+          "right": 269.328125,
+          "top": 184.125,
+          "bottom": 233.125
+        },
+        {
+          "left": 269.328125,
+          "right": 269.328125,
+          "top": 184.125,
+          "bottom": 233.125
+        },
+        {
+          "left": 47.859375,
+          "right": 95.453125,
+          "top": 226.78125,
+          "bottom": 275.78125
+        },
+        {
+          "left": 47.859375,
+          "right": 309.359375,
+          "top": 269.4375,
+          "bottom": 318.4375
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3019/",
+      "width": 768,
+      "lang": "tr",
+      "fontSize": "81.999px",
+      "lineHeight": "86.9189px",
+      "textWidth": "407.766px",
+      "textHeight": "173.812px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 156.984375,
+          "right": 564.75,
+          "top": 250.09375,
+          "bottom": 350.09375
+        },
+        {
+          "left": 564.75,
+          "right": 564.75,
+          "top": 250.09375,
+          "bottom": 350.09375
+        },
+        {
+          "left": 156.984375,
+          "right": 425.15625,
+          "top": 337,
+          "bottom": 437
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3019/",
+      "width": 768,
+      "lang": "en",
+      "fontSize": "64.8px",
+      "lineHeight": "68.688px",
+      "textWidth": "410.859px",
+      "textHeight": "137.344px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 156.984375,
+          "right": 512.46875,
+          "top": 269.328125,
+          "bottom": 348.328125
+        },
+        {
+          "left": 512.46875,
+          "right": 512.46875,
+          "top": 269.328125,
+          "bottom": 348.328125
+        },
+        {
+          "left": 156.984375,
+          "right": 567.84375,
+          "top": 338,
+          "bottom": 417
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3019/",
+      "width": 768,
+      "lang": "de",
+      "fontSize": "62.1px",
+      "lineHeight": "65.826px",
+      "textWidth": "454.031px",
+      "textHeight": "197.438px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 156.984375,
+          "right": 498.671875,
+          "top": 239.28125,
+          "bottom": 315.28125
+        },
+        {
+          "left": 498.671875,
+          "right": 498.671875,
+          "top": 239.28125,
+          "bottom": 315.28125
+        },
+        {
+          "left": 156.984375,
+          "right": 230.421875,
+          "top": 305.09375,
+          "bottom": 381.09375
+        },
+        {
+          "left": 156.984375,
+          "right": 560.4375,
+          "top": 370.90625,
+          "bottom": 446.90625
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3019/",
+      "width": 1440,
+      "lang": "tr",
+      "fontSize": "81.999px",
+      "lineHeight": "86.9189px",
+      "textWidth": "407.766px",
+      "textHeight": "173.812px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 106.984375,
+          "right": 514.75,
+          "top": 330.09375,
+          "bottom": 430.09375
+        },
+        {
+          "left": 514.75,
+          "right": 514.75,
+          "top": 330.09375,
+          "bottom": 430.09375
+        },
+        {
+          "left": 106.984375,
+          "right": 375.15625,
+          "top": 417,
+          "bottom": 517
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3019/",
+      "width": 1440,
+      "lang": "en",
+      "fontSize": "64.8px",
+      "lineHeight": "68.688px",
+      "textWidth": "410.859px",
+      "textHeight": "137.344px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 106.984375,
+          "right": 462.46875,
+          "top": 349.328125,
+          "bottom": 428.328125
+        },
+        {
+          "left": 462.46875,
+          "right": 462.46875,
+          "top": 349.328125,
+          "bottom": 428.328125
+        },
+        {
+          "left": 106.984375,
+          "right": 517.84375,
+          "top": 418,
+          "bottom": 497
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3019/",
+      "width": 1440,
+      "lang": "de",
+      "fontSize": "62.1px",
+      "lineHeight": "65.826px",
+      "textWidth": "454.031px",
+      "textHeight": "197.438px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 106.984375,
+          "right": 448.671875,
+          "top": 319.28125,
+          "bottom": 395.28125
+        },
+        {
+          "left": 448.671875,
+          "right": 448.671875,
+          "top": 319.28125,
+          "bottom": 395.28125
+        },
+        {
+          "left": 106.984375,
+          "right": 180.421875,
+          "top": 385.09375,
+          "bottom": 461.09375
+        },
+        {
+          "left": 106.984375,
+          "right": 510.4375,
+          "top": 450.90625,
+          "bottom": 526.90625
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3018/prototype/bs3p-homepage",
+      "width": 320,
+      "lang": "tr",
+      "fontSize": "42.518px",
+      "lineHeight": "45.0691px",
+      "textWidth": "211.422px",
+      "textHeight": "90.125px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 42.28125,
+          "right": 253.703125,
+          "top": 175.8046875,
+          "bottom": 227.8046875
+        },
+        {
+          "left": 253.703125,
+          "right": 253.703125,
+          "top": 175.8046875,
+          "bottom": 227.8046875
+        },
+        {
+          "left": 42.28125,
+          "right": 181.328125,
+          "top": 220.8671875,
+          "bottom": 272.8671875
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3018/prototype/bs3p-homepage",
+      "width": 320,
+      "lang": "en",
+      "fontSize": "33.6px",
+      "lineHeight": "35.616px",
+      "textWidth": "212.969px",
+      "textHeight": "71.2188px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 42.28125,
+          "right": 226.546875,
+          "top": 186.2578125,
+          "bottom": 227.2578125
+        },
+        {
+          "left": 226.546875,
+          "right": 226.546875,
+          "top": 186.2578125,
+          "bottom": 227.2578125
+        },
+        {
+          "left": 42.28125,
+          "right": 255.25,
+          "top": 221.8671875,
+          "bottom": 262.8671875
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3018/prototype/bs3p-homepage",
+      "width": 320,
+      "lang": "de",
+      "fontSize": "32.2px",
+      "lineHeight": "34.132px",
+      "textWidth": "235.438px",
+      "textHeight": "102.375px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 42.28125,
+          "right": 219.453125,
+          "top": 170.6796875,
+          "bottom": 209.6796875
+        },
+        {
+          "left": 219.453125,
+          "right": 219.453125,
+          "top": 170.6796875,
+          "bottom": 209.6796875
+        },
+        {
+          "left": 42.28125,
+          "right": 80.359375,
+          "top": 204.8046875,
+          "bottom": 243.8046875
+        },
+        {
+          "left": 42.28125,
+          "right": 251.484375,
+          "top": 238.9296875,
+          "bottom": 277.9296875
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3018/prototype/bs3p-homepage",
+      "width": 390,
+      "lang": "tr",
+      "fontSize": "53.1475px",
+      "lineHeight": "56.3363px",
+      "textWidth": "264.281px",
+      "textHeight": "112.656px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 47.859375,
+          "right": 312.140625,
+          "top": 190.78125,
+          "bottom": 255.78125
+        },
+        {
+          "left": 312.140625,
+          "right": 312.140625,
+          "top": 190.78125,
+          "bottom": 255.78125
+        },
+        {
+          "left": 47.859375,
+          "right": 221.671875,
+          "top": 247.109375,
+          "bottom": 312.109375
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3018/prototype/bs3p-homepage",
+      "width": 390,
+      "lang": "en",
+      "fontSize": "42px",
+      "lineHeight": "44.52px",
+      "textWidth": "266.297px",
+      "textHeight": "89.0312px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 47.859375,
+          "right": 278.265625,
+          "top": 203.59375,
+          "bottom": 255.59375
+        },
+        {
+          "left": 278.265625,
+          "right": 278.265625,
+          "top": 203.59375,
+          "bottom": 255.59375
+        },
+        {
+          "left": 47.859375,
+          "right": 314.15625,
+          "top": 248.109375,
+          "bottom": 300.109375
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3018/prototype/bs3p-homepage",
+      "width": 390,
+      "lang": "de",
+      "fontSize": "40.25px",
+      "lineHeight": "42.665px",
+      "textWidth": "294.281px",
+      "textHeight": "127.969px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 47.859375,
+          "right": 269.328125,
+          "top": 184.125,
+          "bottom": 233.125
+        },
+        {
+          "left": 269.328125,
+          "right": 269.328125,
+          "top": 184.125,
+          "bottom": 233.125
+        },
+        {
+          "left": 47.859375,
+          "right": 95.453125,
+          "top": 226.78125,
+          "bottom": 275.78125
+        },
+        {
+          "left": 47.859375,
+          "right": 309.359375,
+          "top": 269.4375,
+          "bottom": 318.4375
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3018/prototype/bs3p-homepage",
+      "width": 768,
+      "lang": "tr",
+      "fontSize": "81.999px",
+      "lineHeight": "86.9189px",
+      "textWidth": "407.766px",
+      "textHeight": "173.812px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 156.984375,
+          "right": 564.75,
+          "top": 250.09375,
+          "bottom": 350.09375
+        },
+        {
+          "left": 564.75,
+          "right": 564.75,
+          "top": 250.09375,
+          "bottom": 350.09375
+        },
+        {
+          "left": 156.984375,
+          "right": 425.15625,
+          "top": 337,
+          "bottom": 437
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3018/prototype/bs3p-homepage",
+      "width": 768,
+      "lang": "en",
+      "fontSize": "64.8px",
+      "lineHeight": "68.688px",
+      "textWidth": "410.859px",
+      "textHeight": "137.344px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 156.984375,
+          "right": 512.46875,
+          "top": 269.328125,
+          "bottom": 348.328125
+        },
+        {
+          "left": 512.46875,
+          "right": 512.46875,
+          "top": 269.328125,
+          "bottom": 348.328125
+        },
+        {
+          "left": 156.984375,
+          "right": 567.84375,
+          "top": 338,
+          "bottom": 417
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3018/prototype/bs3p-homepage",
+      "width": 768,
+      "lang": "de",
+      "fontSize": "62.1px",
+      "lineHeight": "65.826px",
+      "textWidth": "454.031px",
+      "textHeight": "197.438px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 156.984375,
+          "right": 498.671875,
+          "top": 239.28125,
+          "bottom": 315.28125
+        },
+        {
+          "left": 498.671875,
+          "right": 498.671875,
+          "top": 239.28125,
+          "bottom": 315.28125
+        },
+        {
+          "left": 156.984375,
+          "right": 230.421875,
+          "top": 305.09375,
+          "bottom": 381.09375
+        },
+        {
+          "left": 156.984375,
+          "right": 560.4375,
+          "top": 370.90625,
+          "bottom": 446.90625
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3018/prototype/bs3p-homepage",
+      "width": 1440,
+      "lang": "tr",
+      "fontSize": "81.999px",
+      "lineHeight": "86.9189px",
+      "textWidth": "407.766px",
+      "textHeight": "173.812px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 106.984375,
+          "right": 514.75,
+          "top": 330.09375,
+          "bottom": 430.09375
+        },
+        {
+          "left": 514.75,
+          "right": 514.75,
+          "top": 330.09375,
+          "bottom": 430.09375
+        },
+        {
+          "left": 106.984375,
+          "right": 375.15625,
+          "top": 417,
+          "bottom": 517
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3018/prototype/bs3p-homepage",
+      "width": 1440,
+      "lang": "en",
+      "fontSize": "64.8px",
+      "lineHeight": "68.688px",
+      "textWidth": "410.859px",
+      "textHeight": "137.344px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 106.984375,
+          "right": 462.46875,
+          "top": 349.328125,
+          "bottom": 428.328125
+        },
+        {
+          "left": 462.46875,
+          "right": 462.46875,
+          "top": 349.328125,
+          "bottom": 428.328125
+        },
+        {
+          "left": 106.984375,
+          "right": 517.84375,
+          "top": 418,
+          "bottom": 497
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3018/prototype/bs3p-homepage",
+      "width": 1440,
+      "lang": "de",
+      "fontSize": "62.1px",
+      "lineHeight": "65.826px",
+      "textWidth": "454.031px",
+      "textHeight": "197.438px",
+      "overflow": false,
+      "rects": [
+        {
+          "left": 106.984375,
+          "right": 448.671875,
+          "top": 319.28125,
+          "bottom": 395.28125
+        },
+        {
+          "left": 448.671875,
+          "right": 448.671875,
+          "top": 319.28125,
+          "bottom": 395.28125
+        },
+        {
+          "left": 106.984375,
+          "right": 180.421875,
+          "top": 385.09375,
+          "bottom": 461.09375
+        },
+        {
+          "left": 106.984375,
+          "right": 510.4375,
+          "top": 450.90625,
+          "bottom": 526.90625
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "width": 320,
+      "lang": "tr",
+      "sameFontSize": true,
+      "sameTextDimensions": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "sameFontSize": true,
+      "sameTextDimensions": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "sameFontSize": true,
+      "sameTextDimensions": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "lang": "tr",
+      "sameFontSize": true,
+      "sameTextDimensions": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "sameFontSize": true,
+      "sameTextDimensions": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "sameFontSize": true,
+      "sameTextDimensions": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "lang": "tr",
+      "sameFontSize": true,
+      "sameTextDimensions": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "sameFontSize": true,
+      "sameTextDimensions": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "sameFontSize": true,
+      "sameTextDimensions": true,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "tr",
+      "sameFontSize": true,
+      "sameTextDimensions": true,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "sameFontSize": true,
+      "sameTextDimensions": true,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "sameFontSize": true,
+      "sameTextDimensions": true,
+      "overflow": false
+    }
+  ]
+}

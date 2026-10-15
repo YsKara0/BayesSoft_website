@@ -1,0 +1,107 @@
+{
+  "errors": [],
+  "failed": [],
+  "locales": [],
+  "mobile": {
+    "lang": "tr",
+    "overflow": 0,
+    "header": [
+      {
+        "text": "Ana Sayfa",
+        "href": "#hero"
+      },
+      {
+        "text": "Projeler",
+        "href": "#selected-projects"
+      },
+      {
+        "text": "Hizmetler",
+        "href": "#services"
+      },
+      {
+        "text": "İletişim",
+        "href": "#contact"
+      }
+    ],
+    "face": "0",
+    "angle": "0",
+    "faceHeight": 260.546875,
+    "faces": 4,
+    "dots": 4,
+    "duration": "900ms",
+    "facePaint": {
+      "background": "rgb(243, 245, 247)",
+      "border": "0px",
+      "shadow": "none"
+    },
+    "prismAuto": "paused",
+    "project": "FurtherUp Drive",
+    "description": "Koçluk, gelişim değerlendirmeleri ve abonelik süreçlerini bir araya getiren çalışma alanı.",
+    "detail": {
+      "hidden": false,
+      "href": "/projeler/furtherup-drive",
+      "target": null
+    },
+    "live": {
+      "hidden": false,
+      "href": "https://drive.further-up.net",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "aria": "FurtherUp Drive — Canlı site. Yeni sekmede açılır"
+    },
+    "sections": [
+      "hero",
+      "references",
+      "selected-projects",
+      "services",
+      "contact"
+    ],
+    "footerLinks": [
+      "#hero",
+      "#selected-projects",
+      "#services",
+      "#contact",
+      "https://github.com/bayessoft2024",
+      "https://linkedin.com/company/bayessoft",
+      "https://x.com/bayessoft"
+    ],
+    "scene": {
+      "mode": "static",
+      "phase": "final"
+    },
+    "animations": 0
+  },
+  "completedAssertions": {
+    "desktopLocales": [
+      "tr",
+      "en",
+      "de"
+    ],
+    "stayedOnPrototype": true,
+    "desktopOverflow": 0,
+    "germanMobileOverflow": 0,
+    "faces": 4,
+    "dots": 4,
+    "rotationAngle": -90,
+    "rotationDuration": "900ms",
+    "hoverPaused": true,
+    "sectionOrder": [
+      "hero",
+      "references",
+      "selected-projects",
+      "services",
+      "contact"
+    ],
+    "furtherupDetail": "/projeler/furtherup-drive",
+    "furtherupLive": "https://drive.further-up.net",
+    "revielDetailMissing": true,
+    "revielLive": "https://www.reviel.com.tr/",
+    "metekDetailMissing": true,
+    "metekLive": "https://metekmakina.com/urunler",
+    "externalTarget": "_blank",
+    "externalRel": "noopener noreferrer",
+    "mobileEscape": true,
+    "mobileAnchorClosesMenu": true
+  },
+  "testLimitation": "Original harness addInitScript forced DE on every reload, so the final persistence assertion expected TR but got DE. Assertions above passed before that harness failure; only missing mobile capture was repeated. Original raw snapshots/telemetry not retained; capture telemetry below applies only to final mobile capture. Preference round-trip not independently retested."
+}

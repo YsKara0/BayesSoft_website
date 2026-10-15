@@ -1,0 +1,224 @@
+{
+  "url": "http://127.0.0.1:3000/prototype/bs3p-homepage",
+  "desktop": {
+    "structure": {
+      "sections": [
+        "hero",
+        "references",
+        "selected-projects",
+        "services",
+        "approach",
+        "contact"
+      ],
+      "main": 1,
+      "h1": 1,
+      "services": 4,
+      "steps": 3,
+      "placeholder": "Proje görseli\n  \n        FurtherUp Drive için ayrılmış proje görseli alanı; gerçek ekran görüntüsü değildir.",
+      "screenshots": 0,
+      "scrollWidth": 1440
+    },
+    "autoTurn": {
+      "face": "1",
+      "angle": "-90",
+      "reduced": "false",
+      "auto": "running",
+      "ready": "true",
+      "rotating": "false"
+    },
+    "hero": {
+      "firstScene": {
+        "mode": "webgl",
+        "ready": "true",
+        "phase": "data",
+        "time": "0.000",
+        "layers": "",
+        "frames": "4",
+        "drawCalls": "1",
+        "triangles": "2",
+        "firstPose": "0.000",
+        "running": "true"
+      },
+      "scene": {
+        "mode": "webgl",
+        "ready": "true",
+        "phase": "final",
+        "time": "8.400",
+        "layers": "data,rules,web,mobile",
+        "frames": "257",
+        "drawCalls": "11",
+        "triangles": "1290",
+        "firstPose": "0.000",
+        "running": "false"
+      },
+      "faces": 4,
+      "height": 420,
+      "depth": 210,
+      "dots": 4
+    },
+    "references": {
+      "logos": [
+        {
+          "name": "Tam Finans",
+          "src": "/references/tamfinans.png",
+          "width": 589
+        },
+        {
+          "name": "Metek Makina",
+          "src": "/references/metek.png",
+          "width": 1386
+        },
+        {
+          "name": "Reviel",
+          "src": "/references/reviel.png",
+          "width": 4221
+        },
+        {
+          "name": "FurtherUp",
+          "src": "/references/further-up.png",
+          "width": 1336
+        },
+        {
+          "name": "Arel Üniversitesi",
+          "src": "/references/arel.png",
+          "width": 1280
+        },
+        {
+          "name": "Atlı Lojistik",
+          "src": "/references/atli.png",
+          "width": 1401
+        },
+        {
+          "name": "Kanuni Sultan Süleyman Hastanesi",
+          "src": "/references/kanuni_sultan_suleyman_hastanesi.png",
+          "width": 447
+        },
+        {
+          "name": "Teşkilat ICOM",
+          "src": "/references/teskilat-icom.png",
+          "width": 344
+        },
+        {
+          "name": "Hypersense",
+          "src": "/references/hypersense.png",
+          "width": 200
+        },
+        {
+          "name": "Zirve Çilingir",
+          "src": "/references/zirve-cilingir.png",
+          "width": 1680
+        }
+      ],
+      "duration": "120s",
+      "play": "running",
+      "groupWidths": [
+        2400,
+        2400.000244140625
+      ],
+      "trackWidth": 4800,
+      "duplicateHidden": "true"
+    },
+    "referenceHover": "paused",
+    "referenceFocus": {
+      "visible": true,
+      "play": "paused"
+    },
+    "height": 3537,
+    "errors": []
+  },
+  "mobile": {
+    "scrollWidth": 375,
+    "height": 4427,
+    "canvas": 0,
+    "scene": {
+      "mode": "static",
+      "ready": "false",
+      "phase": "final"
+    },
+    "prism": {
+      "face": "0",
+      "angle": "0",
+      "reduced": "true",
+      "auto": "paused",
+      "ready": "true"
+    },
+    "referencesAnimation": "none",
+    "duplicateDisplay": "none",
+    "projectColumns": "335px",
+    "services": 4,
+    "loadedLogos": 10,
+    "webglRequests": []
+  },
+  "links": [
+    {
+      "href": "/",
+      "status": 200
+    },
+    {
+      "href": "/projeler",
+      "status": 200
+    },
+    {
+      "href": "/hizmetler",
+      "status": 200
+    },
+    {
+      "href": "/iletisim",
+      "status": 200
+    },
+    {
+      "href": "/projeler/furtherup-drive",
+      "status": 200
+    },
+    {
+      "href": "/hakkimizda",
+      "status": 200
+    }
+  ],
+  "language": {
+    "url": "http://127.0.0.1:3000/",
+    "lang": "de",
+    "preference": "de"
+  },
+  "capture": {
+    "before": {
+      "dataset": {
+        "mode": "webgl",
+        "ready": "true",
+        "phase": "final",
+        "time": "8.400",
+        "layers": "data,rules,web,mobile",
+        "frames": "33",
+        "drawCalls": "11",
+        "triangles": "1290",
+        "firstPose": "0.000",
+        "running": "false"
+      },
+      "loading": "hidden",
+      "hostHidden": false,
+      "overlayOpacity": "1"
+    },
+    "after": {
+      "mode": "webgl",
+      "ready": "true",
+      "phase": "final",
+      "time": "8.400",
+      "layers": "data,rules,web,mobile",
+      "frames": "33",
+      "drawCalls": "11",
+      "triangles": "1290",
+      "firstPose": "0.000",
+      "running": "false"
+    },
+    "viewport": [
+      1440,
+      3537
+    ],
+    "note": "Final API + görünür hazır durum; capture viewport gezinmeden önce tam belge yüksekliğine sabitlendi, CDP captureBeyondViewport=false. Doğal hero motion ilk1440×900 pass içinde doğrulanmıştı."
+  },
+  "automationNotes": [
+    "Clipped marquee logolarının native lazy loading sorunu eager/low-priority ile düzeltildi.",
+    "Kontrol scriptinin grup genişliği ölçümüne 0.01px alt piksel toleransı eklendi.",
+    "Capture sırasında viewport büyütmek renderer hazırlığını tetikledi; yalnızca desktop teslim görseli için viewport yüklemeden önce sabitlendi. Kaynak/runtime eventleri değiştirilmedi."
+  ]
+}

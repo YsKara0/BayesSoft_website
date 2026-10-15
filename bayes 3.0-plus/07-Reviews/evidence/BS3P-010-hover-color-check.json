@@ -1,0 +1,189 @@
+{
+  "initial": {
+    "neutralOpacity": "1",
+    "colorOpacity": "0",
+    "neutralFilter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+    "colorFilter": "none",
+    "neutralTransition": "opacity",
+    "colorTransition": "opacity",
+    "duration": "0.2s",
+    "aligned": true,
+    "sameSource": true,
+    "artworkHidden": "true",
+    "images": [
+      {
+        "alt": "",
+        "hidden": "true",
+        "tabIndex": -1
+      },
+      {
+        "alt": "",
+        "hidden": "true",
+        "tabIndex": -1
+      }
+    ],
+    "focusVisible": false,
+    "outline": "3px",
+    "playState": "running",
+    "transform": "matrix(1, 0, 0, 1, -0.66722, 0)"
+  },
+  "hoverFrames": [
+    {
+      "ms": 59.70000000298023,
+      "neutralFilter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+      "colorFilter": "none",
+      "neutralOpacity": 1,
+      "colorOpacity": 0
+    },
+    {
+      "ms": 72.1000000089407,
+      "neutralFilter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+      "colorFilter": "none",
+      "neutralOpacity": 1,
+      "colorOpacity": 0
+    },
+    {
+      "ms": 76.20000000298023,
+      "neutralFilter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+      "colorFilter": "none",
+      "neutralOpacity": 0.865194,
+      "colorOpacity": 0.134806
+    },
+    {
+      "ms": 92.5,
+      "neutralFilter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+      "colorFilter": "none",
+      "neutralOpacity": 0.739429,
+      "colorOpacity": 0.260571
+    },
+    {
+      "ms": 109.40000000596046,
+      "neutralFilter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+      "colorFilter": "none",
+      "neutralOpacity": 0.622101,
+      "colorOpacity": 0.377899
+    },
+    {
+      "ms": 225.90000000596046,
+      "neutralFilter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+      "colorFilter": "none",
+      "neutralOpacity": 0.0445024,
+      "colorOpacity": 0.955498
+    },
+    {
+      "ms": 242.79999999701977,
+      "neutralFilter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+      "colorFilter": "none",
+      "neutralOpacity": 0.0119735,
+      "colorOpacity": 0.988026
+    },
+    {
+      "ms": 259.5,
+      "neutralFilter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+      "colorFilter": "none",
+      "neutralOpacity": 0,
+      "colorOpacity": 1
+    },
+    {
+      "ms": 276.20000000298023,
+      "neutralFilter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+      "colorFilter": "none",
+      "neutralOpacity": 0,
+      "colorOpacity": 1
+    },
+    {
+      "ms": 292.70000000298023,
+      "neutralFilter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+      "colorFilter": "none",
+      "neutralOpacity": 0,
+      "colorOpacity": 1
+    }
+  ],
+  "hover": {
+    "neutralOpacity": "0",
+    "colorOpacity": "1",
+    "neutralFilter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+    "colorFilter": "none",
+    "neutralTransition": "opacity",
+    "colorTransition": "opacity",
+    "duration": "0.2s",
+    "aligned": true,
+    "sameSource": true,
+    "artworkHidden": "true",
+    "images": [
+      {
+        "alt": "",
+        "hidden": "true",
+        "tabIndex": -1
+      },
+      {
+        "alt": "",
+        "hidden": "true",
+        "tabIndex": -1
+      }
+    ],
+    "focusVisible": false,
+    "outline": "3px",
+    "playState": "paused",
+    "transform": "matrix(1, 0, 0, 1, -1.66718, 0)"
+  },
+  "clickedUrl": "https://www.tamfinans.com.tr/",
+  "afterClick": {
+    "neutralOpacity": "0.769549",
+    "colorOpacity": "0.230451",
+    "neutralFilter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+    "colorFilter": "none",
+    "neutralTransition": "opacity",
+    "colorTransition": "opacity",
+    "duration": "0.2s",
+    "aligned": true,
+    "sameSource": true,
+    "artworkHidden": "true",
+    "images": [
+      {
+        "alt": "",
+        "hidden": "true",
+        "tabIndex": -1
+      },
+      {
+        "alt": "",
+        "hidden": "true",
+        "tabIndex": -1
+      }
+    ],
+    "focusVisible": false,
+    "outline": "3px",
+    "playState": "running",
+    "transform": "matrix(1, 0, 0, 1, -4.0012, 0)"
+  },
+  "clickedAnchorRetainsFocus": true,
+  "resumedTransform": "matrix(1, 0, 0, 1, -10.9992, 0)",
+  "keyboard": {
+    "neutralOpacity": "0",
+    "colorOpacity": "1",
+    "neutralFilter": "grayscale(1) brightness(0.55) contrast(16) opacity(0.56)",
+    "colorFilter": "none",
+    "neutralTransition": "opacity",
+    "colorTransition": "opacity",
+    "duration": "0.2s",
+    "aligned": true,
+    "sameSource": true,
+    "artworkHidden": "true",
+    "images": [
+      {
+        "alt": "",
+        "hidden": "true",
+        "tabIndex": -1
+      },
+      {
+        "alt": "",
+        "hidden": "true",
+        "tabIndex": -1
+      }
+    ],
+    "focusVisible": true,
+    "outline": "2px",
+    "playState": "paused",
+    "transform": "matrix(1, 0, 0, 1, -11.6652, 0)"
+  }
+}

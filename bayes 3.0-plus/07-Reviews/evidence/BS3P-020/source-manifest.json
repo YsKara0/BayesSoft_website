@@ -1,0 +1,32 @@
+{
+  "snapshotFiles": 281,
+  "unchanged": 269,
+  "changed": [
+    "app/page.tsx",
+    "components/SiteChrome.tsx",
+    "components/homepage/HeroSystemScene.tsx",
+    "components/homepage/SpatialHero.tsx",
+    "components/homepage/GalleryStage.tsx",
+    "components/homepage/homepage.css",
+    "components/homepage/HeroPrism.tsx",
+    "data/homepage.ts",
+    "data/selectedProjects.ts",
+    "lib/homepage/prism.ts",
+    "lib/homepage/system/scene.ts",
+    "scripts/check-foundation.mjs"
+  ],
+  "missing": [],
+  "new": [
+    "components/homepage/MotionControl.tsx",
+    "components/homepage/MotionProvider.tsx",
+    "public/projects/covers/reviel-cover-large.webp",
+    "public/projects/covers/furtherup-drive-cover-640.webp",
+    "public/projects/covers/metek-makina-cover-640.webp",
+    "public/projects/covers/reviel-cover-640.webp",
+    "public/projects/covers/metek-makina-cover-large.webp",
+    "public/projects/covers/derivatives.json",
+    "public/projects/covers/furtherup-drive-cover-large.webp",
+    "scripts/optimize-project-posters.mjs"
+  ],
+  "protectedGroupsUnchanged": true
+}

@@ -1,0 +1,75 @@
+{
+  "chromiumFullRun": "All checks through mobile passed; final immediate reduced aria-disabled assertion read before React effect",
+  "initialErrorPreservedIn": "regression.json",
+  "reducedMotionTargetedConfirmation": {
+    "reduced": true,
+    "disabled": "true",
+    "paused": "true",
+    "marquee": "none"
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "label": "Resume motion",
+      "paused": "true",
+      "overflow": false
+    },
+    {
+      "lang": "de",
+      "label": "Bewegung fortsetzen",
+      "paused": "true",
+      "overflow": false
+    },
+    {
+      "lang": "tr",
+      "label": "Hareketi sürdür",
+      "paused": "true",
+      "overflow": false
+    }
+  ],
+  "renderedFont": {
+    "fonts": [
+      {
+        "familyName": "Instrument Sans",
+        "postScriptName": "InstrumentSans-Regular_Medium",
+        "isCustomFont": true,
+        "glyphCount": 20
+      }
+    ]
+  },
+  "rootInitial": {
+    "y": 0,
+    "hash": "",
+    "restoration": "auto"
+  },
+  "rootRefresh": {
+    "y": 0,
+    "hash": ""
+  },
+  "projects": [
+    {
+      "name": "FurtherUp Drive",
+      "detail": "/projeler/furtherup-drive",
+      "live": "https://drive.further-up.net",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "name": "Reviel",
+      "detail": null,
+      "live": "https://www.reviel.com.tr/",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "name": "Metek Makina",
+      "detail": null,
+      "live": "https://metekmakina.com/urunler",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    }
+  ],
+  "pageErrors": [],
+  "safari": "User accepted real macOS Safari in BS3P-024; not re-run here",
+  "applicationChanged": false
+}

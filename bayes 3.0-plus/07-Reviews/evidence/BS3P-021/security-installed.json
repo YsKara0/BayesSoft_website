@@ -1,0 +1,543 @@
+[
+  {
+    "name": "@next/eslint-plugin-next",
+    "severity": "high",
+    "nodes": [
+      {
+        "path": "node_modules/@next/eslint-plugin-next",
+        "version": "15.5.28",
+        "dev": true
+      }
+    ],
+    "via": [
+      "fast-glob"
+    ],
+    "fix": {
+      "name": "eslint-config-next",
+      "version": "14.2.35",
+      "isSemVerMajor": true
+    }
+  },
+  {
+    "name": "baseline-browser-mapping",
+    "severity": "moderate",
+    "nodes": [
+      {
+        "path": "node_modules/baseline-browser-mapping",
+        "version": "2.10.41",
+        "dev": true
+      }
+    ],
+    "via": [
+      {
+        "source": 1193686,
+        "name": "baseline-browser-mapping",
+        "dependency": "baseline-browser-mapping",
+        "title": "baseline-browser-mapping process termination on invalid input causes denial of service",
+        "url": "https://github.com/advisories/GHSA-w5vr-8v7q-w6rv",
+        "severity": "moderate",
+        "cwe": [
+          "CWE-705"
+        ],
+        "cvss": {
+          "score": 0,
+          "vectorString": null
+        },
+        "range": ">=2.0.0 <2.11.0"
+      }
+    ],
+    "fix": true
+  },
+  {
+    "name": "brace-expansion",
+    "severity": "high",
+    "nodes": [
+      {
+        "path": "node_modules/@typescript-eslint/typescript-estree/node_modules/brace-expansion",
+        "version": "5.0.7",
+        "dev": true
+      },
+      {
+        "path": "node_modules/brace-expansion",
+        "version": "1.1.15",
+        "dev": true
+      }
+    ],
+    "via": [
+      {
+        "source": 1123897,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: DoS via exponential-time expansion of consecutive non-expanding {} groups",
+        "url": "https://github.com/advisories/GHSA-3jxr-9vmj-r5cp",
+        "severity": "high",
+        "cwe": [
+          "CWE-400",
+          "CWE-407"
+        ],
+        "cvss": {
+          "score": 5.3,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+        },
+        "range": "<1.1.16"
+      },
+      {
+        "source": 1130588,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
+        "url": "https://github.com/advisories/GHSA-mh99-v99m-4gvg",
+        "severity": "high",
+        "cwe": [
+          "CWE-400",
+          "CWE-770"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": "<1.1.17"
+      },
+      {
+        "source": 1130591,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
+        "url": "https://github.com/advisories/GHSA-mh99-v99m-4gvg",
+        "severity": "high",
+        "cwe": [
+          "CWE-400",
+          "CWE-770"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": ">=4.0.0 <5.0.8"
+      },
+      {
+        "source": 1130734,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation",
+        "url": "https://github.com/advisories/GHSA-rgw5-rvv9-x895",
+        "severity": "high",
+        "cwe": [
+          "CWE-400",
+          "CWE-770"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": ">=4.0.0 <5.0.9"
+      },
+      {
+        "source": 1130737,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation",
+        "url": "https://github.com/advisories/GHSA-rgw5-rvv9-x895",
+        "severity": "high",
+        "cwe": [
+          "CWE-400",
+          "CWE-770"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": "<1.1.18"
+      },
+      {
+        "source": 1240100,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: Quadratic-time expansion of the `{a},b}` rewrite causes CPU denial of service",
+        "url": "https://github.com/advisories/GHSA-q2hr-2g5m-vwhr",
+        "severity": "moderate",
+        "cwe": [
+          "CWE-400",
+          "CWE-407"
+        ],
+        "cvss": {
+          "score": 5.3,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+        },
+        "range": "<1.1.21"
+      },
+      {
+        "source": 1240103,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: Quadratic-time expansion of the `{a},b}` rewrite causes CPU denial of service",
+        "url": "https://github.com/advisories/GHSA-q2hr-2g5m-vwhr",
+        "severity": "moderate",
+        "cwe": [
+          "CWE-400",
+          "CWE-407"
+        ],
+        "cvss": {
+          "score": 5.3,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+        },
+        "range": ">=4.0.0 <5.0.12"
+      },
+      {
+        "source": 1240104,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: DoS via uncontrolled recursion on nested brace groups causing stack exhaustion",
+        "url": "https://github.com/advisories/GHSA-qhr7-859c-m2p7",
+        "severity": "high",
+        "cwe": [
+          "CWE-400",
+          "CWE-674"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": "<1.1.20"
+      },
+      {
+        "source": 1240107,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: DoS via uncontrolled recursion on nested brace groups causing stack exhaustion",
+        "url": "https://github.com/advisories/GHSA-qhr7-859c-m2p7",
+        "severity": "high",
+        "cwe": [
+          "CWE-400",
+          "CWE-674"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": ">=4.0.0 <5.0.11"
+      },
+      {
+        "source": 1240108,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: DoS via uncontrolled recursion in parseCommaParts causing stack exhaustion",
+        "url": "https://github.com/advisories/GHSA-6j4f-fj2g-mc7p",
+        "severity": "high",
+        "cwe": [
+          "CWE-400",
+          "CWE-674"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": "<1.1.19"
+      },
+      {
+        "source": 1240111,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: DoS via uncontrolled recursion in parseCommaParts causing stack exhaustion",
+        "url": "https://github.com/advisories/GHSA-6j4f-fj2g-mc7p",
+        "severity": "high",
+        "cwe": [
+          "CWE-400",
+          "CWE-674"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": ">=4.0.0 <5.0.10"
+      }
+    ],
+    "fix": true
+  },
+  {
+    "name": "braces",
+    "severity": "high",
+    "nodes": [
+      {
+        "path": "node_modules/braces",
+        "version": "3.0.3",
+        "dev": true
+      }
+    ],
+    "via": [
+      {
+        "source": 1240992,
+        "name": "braces",
+        "dependency": "braces",
+        "title": "braces vulnerable to stack-exhaustion denial of service through deeply nested patterns",
+        "url": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+        "severity": "high",
+        "cwe": [
+          "CWE-674"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": "<=3.0.3"
+      }
+    ],
+    "fix": {
+      "name": "tailwindcss",
+      "version": "4.3.3",
+      "isSemVerMajor": true
+    }
+  },
+  {
+    "name": "browserslist",
+    "severity": "high",
+    "nodes": [
+      {
+        "path": "node_modules/browserslist",
+        "version": "4.28.4",
+        "dev": true
+      }
+    ],
+    "via": [
+      {
+        "source": 1153171,
+        "name": "browserslist",
+        "dependency": "browserslist",
+        "title": "Browserslist: Unbounded memory growth (no cache eviction) via distinct query results, leading to eventual OOM",
+        "url": "https://github.com/advisories/GHSA-c83g-rgw3-j3cx",
+        "severity": "high",
+        "cwe": [
+          "CWE-770"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": "<=4.28.6"
+      },
+      {
+        "source": 1153172,
+        "name": "browserslist",
+        "dependency": "browserslist",
+        "title": "Browserslist: Uncaught crash / prototype write via untrusted browserslist-stats.json custom stats (normalizeStats)",
+        "url": "https://github.com/advisories/GHSA-73wf-gq98-2v4g",
+        "severity": "high",
+        "cwe": [
+          "CWE-248",
+          "CWE-1321"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": "<=4.28.6"
+      }
+    ],
+    "fix": true
+  },
+  {
+    "name": "chokidar",
+    "severity": "high",
+    "nodes": [
+      {
+        "path": "node_modules/chokidar",
+        "version": "3.6.0",
+        "dev": true
+      }
+    ],
+    "via": [
+      "braces"
+    ],
+    "fix": {
+      "name": "tailwindcss",
+      "version": "4.3.3",
+      "isSemVerMajor": true
+    }
+  },
+  {
+    "name": "eslint-config-next",
+    "severity": "high",
+    "nodes": [
+      {
+        "path": "node_modules/eslint-config-next",
+        "version": "15.5.28",
+        "dev": true
+      }
+    ],
+    "via": [
+      "@next/eslint-plugin-next"
+    ],
+    "fix": {
+      "name": "eslint-config-next",
+      "version": "14.2.35",
+      "isSemVerMajor": true
+    }
+  },
+  {
+    "name": "fast-glob",
+    "severity": "high",
+    "nodes": [
+      {
+        "path": "node_modules/fast-glob",
+        "version": "3.3.1",
+        "dev": true
+      },
+      {
+        "path": "node_modules/tailwindcss/node_modules/fast-glob",
+        "version": "3.3.3",
+        "dev": true
+      }
+    ],
+    "via": [
+      "micromatch"
+    ],
+    "fix": {
+      "name": "tailwindcss",
+      "version": "4.3.3",
+      "isSemVerMajor": true
+    }
+  },
+  {
+    "name": "js-yaml",
+    "severity": "high",
+    "nodes": [
+      {
+        "path": "node_modules/js-yaml",
+        "version": "4.3.0",
+        "dev": true
+      }
+    ],
+    "via": [
+      {
+        "source": 1138115,
+        "name": "js-yaml",
+        "dependency": "js-yaml",
+        "title": "JS-YAML: Quadratic CPU consumption in !!omap resolution (3.x and 4.x) — CVE-2026-59870 fix not backported",
+        "url": "https://github.com/advisories/GHSA-5p4m-2wfm-xmqj",
+        "severity": "high",
+        "cwe": [
+          "CWE-407"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": ">=4.0.0 <4.3.1"
+      },
+      {
+        "source": 1193727,
+        "name": "js-yaml",
+        "dependency": "js-yaml",
+        "title": "js-yaml: maxTotalMergeKeys does not limit CPU use for empty merge sources",
+        "url": "https://github.com/advisories/GHSA-2883-xcg3-v3hh",
+        "severity": "high",
+        "cwe": [
+          "CWE-400",
+          "CWE-407"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": ">=4.0.0 <4.3.2"
+      }
+    ],
+    "fix": true
+  },
+  {
+    "name": "micromatch",
+    "severity": "high",
+    "nodes": [
+      {
+        "path": "node_modules/micromatch",
+        "version": "4.0.8",
+        "dev": true
+      }
+    ],
+    "via": [
+      "braces"
+    ],
+    "fix": {
+      "name": "tailwindcss",
+      "version": "4.3.3",
+      "isSemVerMajor": true
+    }
+  },
+  {
+    "name": "postcss-nested",
+    "severity": "moderate",
+    "nodes": [
+      {
+        "path": "node_modules/postcss-nested",
+        "version": "6.2.0",
+        "dev": true
+      }
+    ],
+    "via": [
+      "postcss-selector-parser"
+    ],
+    "fix": {
+      "name": "tailwindcss",
+      "version": "4.3.3",
+      "isSemVerMajor": true
+    }
+  },
+  {
+    "name": "postcss-selector-parser",
+    "severity": "moderate",
+    "nodes": [
+      {
+        "path": "node_modules/postcss-selector-parser",
+        "version": "6.1.4",
+        "dev": true
+      }
+    ],
+    "via": [
+      {
+        "source": 1241232,
+        "name": "postcss-selector-parser",
+        "dependency": "postcss-selector-parser",
+        "title": "PostCSS: Quadratic complexity in flat selector parsing allows CPU exhaustion",
+        "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
+        "severity": "moderate",
+        "cwe": [
+          "CWE-400",
+          "CWE-407"
+        ],
+        "cvss": {
+          "score": 5.9,
+          "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": "<7.1.6"
+      }
+    ],
+    "fix": {
+      "name": "tailwindcss",
+      "version": "4.3.3",
+      "isSemVerMajor": true
+    }
+  },
+  {
+    "name": "tailwindcss",
+    "severity": "high",
+    "nodes": [
+      {
+        "path": "node_modules/tailwindcss",
+        "version": "3.4.19",
+        "dev": true
+      }
+    ],
+    "via": [
+      "chokidar",
+      "fast-glob",
+      "micromatch",
+      "postcss-nested",
+      "postcss-selector-parser"
+    ],
+    "fix": {
+      "name": "tailwindcss",
+      "version": "4.3.3",
+      "isSemVerMajor": true
+    }
+  }
+]

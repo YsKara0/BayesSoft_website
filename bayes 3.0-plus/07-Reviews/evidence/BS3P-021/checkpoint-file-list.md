@@ -1,0 +1,368 @@
+# BS3P-021 — tam checkpoint dosya listesi
+
+HEAD1218e58 ile çalışma ağacı farkı; stage/commit yapılmadı. Dosyalar yalnız öneridir. M=modified, ??=untracked. Generated/ignored dosyalar bu Git envanterine girmez; .env okunmadı.
+
+## release_source — 55 dosya
+
+- ` M` `.github/workflows/pages.yml`
+- ` M` `app/layout.tsx`
+- ` M` `app/page.tsx`
+- ` M` `components/LanguageProvider.tsx`
+- ` M` `data/i18n.ts`
+- ` M` `package-lock.json`
+- ` M` `package.json`
+- `??` `components/SiteChrome.tsx`
+- `??` `components/fonts/InstrumentSans.ttf`
+- `??` `components/homepage/Contact.tsx`
+- `??` `components/homepage/Footer.tsx`
+- `??` `components/homepage/GalleryStage.tsx`
+- `??` `components/homepage/Header.tsx`
+- `??` `components/homepage/HeroPrism.tsx`
+- `??` `components/homepage/HeroSystemScene.tsx`
+- `??` `components/homepage/MotionControl.tsx`
+- `??` `components/homepage/MotionProvider.tsx`
+- `??` `components/homepage/ReferencesMarquee.tsx`
+- `??` `components/homepage/SelectedProjects.tsx`
+- `??` `components/homepage/Services.tsx`
+- `??` `components/homepage/SpatialHero.tsx`
+- `??` `components/homepage/SystemLayers.tsx`
+- `??` `components/homepage/homepage.css`
+- `??` `components/homepage/useHomepageCopy.ts`
+- `??` `data/homepage.ts`
+- `??` `data/selectedProjects.ts`
+- `??` `lib/homepage/gallery/controller.ts`
+- `??` `lib/homepage/gallery/dom.ts`
+- `??` `lib/homepage/gallery/geometry.ts`
+- `??` `lib/homepage/gallery/stage.ts`
+- `??` `lib/homepage/gallery/state.ts`
+- `??` `lib/homepage/gallery/swipe.ts`
+- `??` `lib/homepage/gallery/types.ts`
+- `??` `lib/homepage/prism.ts`
+- `??` `lib/homepage/reference-links.ts`
+- `??` `lib/homepage/reference-sizing.ts`
+- `??` `lib/homepage/system/geometry.ts`
+- `??` `lib/homepage/system/motion.ts`
+- `??` `lib/homepage/system/scene.ts`
+- `??` `public/hero/system-static.svg`
+- `??` `public/projects/covers/derivatives.json`
+- `??` `public/projects/covers/furtherup-drive-cover-640.webp`
+- `??` `public/projects/covers/furtherup-drive-cover-large.webp`
+- `??` `public/projects/covers/furtherup-drive-cover.png`
+- `??` `public/projects/covers/metek-makina-cover-640.webp`
+- `??` `public/projects/covers/metek-makina-cover-large.webp`
+- `??` `public/projects/covers/metek-makina-cover.png`
+- `??` `public/projects/covers/reviel-cover-640.webp`
+- `??` `public/projects/covers/reviel-cover-large.webp`
+- `??` `public/projects/covers/reviel-cover.png`
+- `??` `scripts/build-production.mjs`
+- `??` `scripts/check-foundation.mjs`
+- `??` `scripts/check-production-access.mjs`
+- `??` `scripts/optimize-project-posters.mjs`
+- `??` `scripts/verify-production-export.mjs`
+
+## task_docs_evidence — 115 dosya
+
+- ` M` `bayes 3.0-plus/04-Development/TASK_REGISTER.md`
+- ` M` `bayes 3.0-plus/05-Decisions/DECISION_LOG.md`
+- ` M` `bayes 3.0-plus/07-Reviews/REVIEW_REGISTER.md`
+- ` M` `bayes 3.0-plus/98-Agent-Logs/CURRENT_STATUS.md`
+- ` M` `bayes 3.0-plus/98-Agent-Logs/NEXT_STEPS.md`
+- ` M` `bayes 3.0-plus/98-Agent-Logs/SESSION_LOG.md`
+- `??` `bayes 3.0-plus/04-Development/BS3P-018A-PRODUCTION-FOUNDATION.md`
+- `??` `bayes 3.0-plus/04-Development/BS3P-018B-REACT-HOMEPAGE-INTEGRATION.md`
+- `??` `bayes 3.0-plus/04-Development/BS3P-018C-VISUAL-MOTION-PARITY.md`
+- `??` `bayes 3.0-plus/04-Development/BS3P-019-FINAL-QA-RELEASE-READINESS.md`
+- `??` `bayes 3.0-plus/04-Development/BS3P-020-RELEASE-BLOCKER-FIXES.md`
+- `??` `bayes 3.0-plus/04-Development/BS3P-021-FINAL-RELEASE-GATE.md`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018A-foundation-check.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018B/desktop-hero.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018B/desktop-page.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018B/initial-check.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018B/layout-check.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018B/mobile-page.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018B/protected-sources.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018B/scene-check.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018B/touch-fallback-check.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/demo-desktop-hero.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/demo-desktop-page.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/demo-mobile.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/parity-review.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/react-desktop-hero.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/react-desktop-page.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/react-mobile.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/review-summary.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/settled-review.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/source-check.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-018C/unchanged-source-manifest.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/artifact-security-seo.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/dependency-audit.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/environment.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/external-links.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/lifecycle-contrast.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/locale-font-after.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/locale-font-before.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/performance-raw.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/performance-summary.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/production-browser-qa.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/production-desktop.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/production-mobile-de-after.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/production-mobile-de.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/reduced-preference.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/release-readiness.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/route-isolation.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/safari-attempt.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-019/source-change-manifest.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/audit-after.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/audit-before.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/audit-full.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/checks-summary.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/dependency-paths-after.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/dependency-paths-before.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/desktop-idle-control.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/desktop-motion-control.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/final-smoke-harness.cjs`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/final-smoke.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/gallery-source-png-comparison.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/gallery-webp.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/measured-artifact-comparison.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/mobile-motion-control.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/motion-continuation-harness.cjs`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/motion-first-harness.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/motion-harness.cjs`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/motion-qa-rest.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/motion-qa.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/motion-summary.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/next-patch-metadata.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/performance-after-harness.cjs`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/performance-after-raw.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/performance-before-harness.cjs`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/performance-before-raw.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/performance-summary.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/poster-quality.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/rollback-remote-read.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/rollback-status.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/route-isolation.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-020/source-manifest.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/audit-full.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/audit-production.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/candidate-artifact-sha256.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/checkpoint-file-list.md`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/checkpoint-final-scope.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/checkpoint-lockfile-changes.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/checkpoint-scope.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/dependency-paths.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/desktop-regression.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/initial-git-inventory.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/mobile-regression.png`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-build.txt`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-checks.cjs`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-checks.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-foundation.txt`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-isolation.txt`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-lint.txt`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-runtime.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-typecheck.txt`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/node22-verify.txt`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/reduced-continuation.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/reduced.cjs`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/regression-initial-harness.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/regression-summary.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/regression.cjs`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/regression.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/rollback-remote-read.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/rollback-verification.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/safari-attempt.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/security-installed.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/security-registry-metadata.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/source-preservation.json`
+- `??` `bayes 3.0-plus/07-Reviews/evidence/BS3P-021/webkit-availability.json`
+- `??` `bayes 3.0-plus/98-Agent-Logs/DAILY_LOG_2026-10-15.md`
+
+## exclude_local_user_files — 177 dosya
+
+- `??` `assets/logo_v2/bayes-icon-purple-192.png`
+- `??` `assets/logo_v2/bayes-icon-purple-32.png`
+- `??` `bayes 3.0-plus/.obsidian/app.json`
+- `??` `bayes 3.0-plus/.obsidian/appearance.json`
+- `??` `bayes 3.0-plus/.obsidian/core-plugins.json`
+- `??` `bayes 3.0-plus/.obsidian/graph.json`
+- `??` `bayes 3.0-plus/.obsidian/workspace.json`
+- `??` `bayes 3.0-plus/02-Research/project-showcase-motion-reference.mov`
+- `??` `bayes 3.0/.obsidian/app.json`
+- `??` `bayes 3.0/.obsidian/appearance.json`
+- `??` `bayes 3.0/.obsidian/core-plugins.json`
+- `??` `bayes 3.0/.obsidian/graph.json`
+- `??` `bayes 3.0/.obsidian/workspace.json`
+- `??` `bayes 3.0/02-Research/hero-spatial-reference.png`
+- `??` `bayes 3.0/03-Design/evidence/concept-a-desktop.png`
+- `??` `bayes 3.0/03-Design/evidence/concept-a-mobile.png`
+- `??` `bayes 3.0/03-Design/evidence/concept-a1-desktop.png`
+- `??` `bayes 3.0/03-Design/evidence/concept-a1-mobile.png`
+- `??` `bayes 3.0/03-Design/evidence/concept-b-desktop.png`
+- `??` `bayes 3.0/03-Design/evidence/concept-b-mobile.png`
+- `??` `bayes 3.0/03-Design/evidence/concept-c-desktop.png`
+- `??` `bayes 3.0/03-Design/evidence/concept-c-mobile.png`
+- `??` `bayes 3.0/03-Design/evidence/concept-comparison.png`
+- `??` `bayes 3.0/03-Design/evidence/current-contact.jpg`
+- `??` `bayes 3.0/03-Design/evidence/current-home-desktop.jpg`
+- `??` `bayes 3.0/03-Design/evidence/current-process.jpg`
+- `??` `bayes 3.0/03-Design/evidence/integrated-hero-balanced.png`
+- `??` `bayes 3.0/03-Design/evidence/integrated-hero-mobile.png`
+- `??` `bayes 3.0/03-Design/evidence/integrated-hero-qa.json`
+- `??` `bayes 3.0/03-Design/evidence/integrated-hero-visual-emphasis.png`
+- `??` `bayes 3.0/03-Design/evidence/left-c-architectural-spatial.png`
+- `??` `bayes 3.0/03-Design/evidence/left-c-faces.png`
+- `??` `bayes 3.0/03-Design/evidence/left-c-qa.json`
+- `??` `bayes 3.0/03-Design/evidence/left-c-rotation-states.png`
+- `??` `bayes 3.0/03-Design/evidence/left-craft-a-face-a.png`
+- `??` `bayes 3.0/03-Design/evidence/left-craft-a-face-b.png`
+- `??` `bayes 3.0/03-Design/evidence/left-craft-b-face-a.png`
+- `??` `bayes 3.0/03-Design/evidence/left-craft-b-face-b.png`
+- `??` `bayes 3.0/03-Design/evidence/left-craft-comparison.png`
+- `??` `bayes 3.0/03-Design/evidence/left-craft-qa.json`
+- `??` `bayes 3.0/03-Design/evidence/left-craft-states.png`
+- `??` `bayes 3.0/03-Design/evidence/refined-1a-desktop.png`
+- `??` `bayes 3.0/03-Design/evidence/refined-1a-mobile.png`
+- `??` `bayes 3.0/03-Design/evidence/refined-1b-desktop.png`
+- `??` `bayes 3.0/03-Design/evidence/refined-1b-mobile.png`
+- `??` `bayes 3.0/03-Design/evidence/refined-comparison.png`
+- `??` `bayes 3.0/03-Design/evidence/refined-motion-storyboard.png`
+- `??` `bayes 3.0/03-Design/evidence/spatial-hero-a.png`
+- `??` `bayes 3.0/03-Design/evidence/spatial-hero-b.png`
+- `??` `bayes 3.0/03-Design/evidence/spatial-hero-c.png`
+- `??` `bayes 3.0/03-Design/evidence/spatial-left-refined-desktop-a.png`
+- `??` `bayes 3.0/03-Design/evidence/spatial-left-refined-desktop-b.png`
+- `??` `bayes 3.0/03-Design/evidence/spatial-left-refined-desktop-c.png`
+- `??` `bayes 3.0/03-Design/evidence/spatial-left-refined-mobile-a.png`
+- `??` `bayes 3.0/03-Design/evidence/spatial-left-refined-mobile-b.png`
+- `??` `bayes 3.0/03-Design/evidence/spatial-left-refined-motion.png`
+- `??` `bayes 3.0/03-Design/evidence/spatial-left-refined-reduced-motion.png`
+- `??` `bayes 3.0/03-Design/evidence/spatial-left-refinement-qa.json`
+- `??` `bayes 3.0/03-Design/evidence/spatial-mobile-a.png`
+- `??` `bayes 3.0/03-Design/evidence/spatial-mobile-b.png`
+- `??` `bayes 3.0/03-Design/evidence/spatial-motion.png`
+- `??` `bayes 3.0/03-Design/evidence/spatial-project-showcase.png`
+- `??` `bayes 3.0/03-Design/evidence/spatial-reduced-motion.png`
+- `??` `bayes 3.0/03-Design/evidence/spatial-system-detail.png`
+- `??` `bayes 3.0/04-Website/evidence/hero-video-desktop.png`
+- `??` `bayes 3.0/04-Website/evidence/integrated-finish-desktop.png`
+- `??` `bayes 3.0/04-Website/evidence/integrated-finish-mobile.png`
+- `??` `bayes 3.0/04-Website/evidence/production-home-after.png`
+- `??` `bayes 3.0/04-Website/evidence/production-home-before.png`
+- `??` `bayes 3.0/04-Website/evidence/production-reduced-motion-console.json`
+- `??` `bayes 3.0/04-Website/evidence/prototype-1024-face-a.png`
+- `??` `bayes 3.0/04-Website/evidence/prototype-1024-face-b.png`
+- `??` `bayes 3.0/04-Website/evidence/prototype-1440-face-a.png`
+- `??` `bayes 3.0/04-Website/evidence/prototype-1440-face-b.png`
+- `??` `bayes 3.0/04-Website/evidence/prototype-390-face-a.png`
+- `??` `bayes 3.0/04-Website/evidence/prototype-390-face-b.png`
+- `??` `bayes 3.0/04-Website/evidence/prototype-768-face-a.png`
+- `??` `bayes 3.0/04-Website/evidence/prototype-768-face-b.png`
+- `??` `bayes 3.0/04-Website/evidence/prototype-accessibility.yml`
+- `??` `bayes 3.0/04-Website/evidence/prototype-additional-qa.json`
+- `??` `bayes 3.0/04-Website/evidence/prototype-browser-qa.json`
+- `??` `bayes 3.0/04-Website/evidence/prototype-reduced-motion-face-a.png`
+- `??` `bayes 3.0/04-Website/evidence/prototype-reduced-motion-face-b.png`
+- `??` `bayes 3.0/04-Website/evidence/prototype-scope-qa.json`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-390-angle-045.png`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-390-face-1.png`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-390-face-2.png`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-390-face-3.png`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-390-face-4.png`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-after-1440.png`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-angle-045.png`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-angle-090.png`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-angle-135.png`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-angle-180.png`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-angle-270.png`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-angle-360.png`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-auto-two-cycles.webm`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-before-1440.png`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-before-390.png`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-cycles-qa.json`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-export-qa.json`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-geometry-qa.json`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-interaction-qa.json`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-reduced-motion-face-4.png`
+- `??` `bayes 3.0/07-Reviews/evidence/fullsize-scope-qa.json`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-1440-face-0.png`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-1440-face-1.png`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-1440-face-2.png`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-1440-face-3.png`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-390-angle-045.png`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-390-face-0.png`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-390-face-1.png`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-390-face-2.png`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-390-face-3.png`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-accessibility.yml`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-angle-000.png`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-angle-045.png`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-angle-090.png`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-angle-180.png`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-angle-270.png`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-angle-360.png`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-angle-450.png`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-cycles-qa.json`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-export-qa.json`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-four-face-real-browser.webm`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-geometry-qa.json`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-interaction-qa.json`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-reduced-motion-face-3.png`
+- `??` `bayes 3.0/07-Reviews/evidence/prism-scope-qa.json`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-accessibility.yml`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-after-comparison.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-before-comparison.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-before-desktop.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-before-metrics.json`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-before-mobile.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-cycles-qa.json`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-export-qa.json`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-interaction-qa.json`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-pass1-1024-a.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-pass1-1024-b.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-pass1-1440-a.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-pass1-1440-b.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-pass1-390-a.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-pass1-390-b.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-pass2-1024-a.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-pass2-1024-b.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-pass2-1440-a.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-pass2-1440-b.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-pass2-390-a.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-pass2-390-b.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-reduced-mobile-b.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-scope-qa.json`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-state-captures.json`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-x-0.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-x-135.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-x-180.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-x-360.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-x-45.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-x-90.png`
+- `??` `bayes 3.0/07-Reviews/evidence/recovery-x-flip-real-browser.webm`
+- `??` `bayes 4.0/.obsidian/app.json`
+- `??` `bayes 4.0/.obsidian/appearance.json`
+- `??` `bayes 4.0/.obsidian/core-plugins.json`
+- `??` `bayes 4.0/.obsidian/graph.json`
+- `??` `bayes 4.0/.obsidian/workspace.json`
+- `??` `bayes 4.0/03-Design/evidence/flagship-direction-01-desktop.png`
+- `??` `bayes 4.0/03-Design/evidence/flagship-direction-01-mobile.png`
+- `??` `bayes 4.0/03-Design/evidence/flagship-revision-02-desktop.png`
+- `??` `bayes 4.0/03-Design/evidence/flagship-revision-02-mobile.png`
+- `??` `bayes 4.0/03-Design/evidence/flagship-revision-02-study.png`
+- `??` `bayes 4.0/03-Design/evidence/homepage-directions-01-a.png`
+- `??` `bayes 4.0/03-Design/evidence/homepage-directions-01-b.png`
+- `??` `bayes 4.0/03-Design/evidence/homepage-directions-01-c.png`
+- `??` `bayes 4.0/04-Prototypes/evidence/experiment-01-modular-desktop.jpg`
+- `??` `bayes 4.0/04-Prototypes/evidence/experiment-02-kinetic-compact.jpg`
+- `??` `bayes 4.0/04-Prototypes/evidence/experiment-02-kinetic-wide.jpg`
+- `??` `bayes 4.0/Başlıksız.canvas`
+
+## unexpected — 0 dosya
+
+
+## Ek olarak hariç generated / ignored alanlar
+
+- out/, .next*/, node_modules/, *.tsbuildinfo, *.log, .env*, kişiselagentayarları, geçici Node22binary/cache.
+- 020/production-build.log gitignored;021 node22-*.txt kanıtı aynı amaca ayrılmıştır. Eski log otomatik force-add edilmemeli.
+- Bu liste sadece onaylı dar checkpoint seçimine yardımcıdır; git add . veya git add -A uygulanmadı.

@@ -1,0 +1,24 @@
+{
+  "yamlParse": "passed",
+  "branch": "feature/bayessoft-3.0-plus",
+  "runner": "ubuntu-latest",
+  "node": 22,
+  "permissions": {
+    "contents": "read"
+  },
+  "stepNames": [
+    "Checkout",
+    "Setup Node 22",
+    "Install locked dependencies",
+    "TypeScript",
+    "Lint release sources",
+    "Check translations, project data and isolation fixtures",
+    "Build isolated production site",
+    "Verify production export",
+    "Check production routes and denied prototype URLs"
+  ],
+  "deploySteps": 0,
+  "actualUbuntuRun": "NOT RUN",
+  "localLinux": "Docker daemon unavailable",
+  "actionlint": "not run"
+}

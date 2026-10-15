@@ -1,0 +1,25 @@
+{
+  "changed": [],
+  "removed": [
+    "_next/static/oxjeXIeHdreq63pdGKP0h/_ssgManifest.js",
+    "_next/static/oxjeXIeHdreq63pdGKP0h/_buildManifest.js",
+    "_next/static/chunks/app/page-17b17c1b331976b7.js",
+    "_next/static/chunks/app/layout-22121198916f2add.js",
+    "_next/static/chunks/app/iletisim/page-30c2acd7539c43a1.js",
+    "_next/static/chunks/app/hizmetler/page-5308fbc6f130c913.js",
+    "_next/static/chunks/app/projeler/page-e9532a097e3bfcdb.js",
+    "_next/static/chunks/app/projeler/[slug]/page-29ebd706eed20f61.js",
+    "_next/static/chunks/app/hakkimizda/page-4920d91db35c05ac.js"
+  ],
+  "added": [
+    "_next/static/chunks/app/layout-c8c4c2554fcfcbbc.js",
+    "_next/static/chunks/app/page-257ff0d3ec33189d.js",
+    "_next/static/chunks/app/iletisim/page-41a6968e41a8e35b.js",
+    "_next/static/chunks/app/hizmetler/page-6ed17909317bcc51.js",
+    "_next/static/chunks/app/projeler/page-33447dcec93be4cb.js",
+    "_next/static/chunks/app/projeler/[slug]/page-04c606a327a6ebc9.js",
+    "_next/static/chunks/app/hakkimizda/page-43747ea24a02e0e5.js",
+    "_next/static/aaeBKXWroz8gFH0NY3I8d/_ssgManifest.js",
+    "_next/static/aaeBKXWroz8gFH0NY3I8d/_buildManifest.js"
+  ]
+}

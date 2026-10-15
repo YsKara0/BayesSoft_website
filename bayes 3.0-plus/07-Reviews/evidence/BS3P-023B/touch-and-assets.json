@@ -1,0 +1,11 @@
+{
+  "name": "Reviel",
+  "requests": [
+    "http://127.0.0.1:3019/projects/covers/furtherup-drive-cover-640.webp",
+    "http://127.0.0.1:3019/projects/covers/reviel-cover-640.webp",
+    "http://127.0.0.1:3019/projects/covers/metek-makina-cover-640.webp"
+  ],
+  "svgImages": 117,
+  "uses": 0,
+  "overflow": false
+}

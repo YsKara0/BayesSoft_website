@@ -1,0 +1,453 @@
+{
+  "browser": "155.0.8059.40",
+  "initial": {
+    "lang": "tr",
+    "h1": 1,
+    "main": 1,
+    "headings": [
+      {
+        "level": "H1",
+        "text": "İşinize göre\nyazılım."
+      },
+      {
+        "level": "H2",
+        "text": "Referanslar"
+      },
+      {
+        "level": "H2",
+        "text": "İşlerimiz konuşsun."
+      },
+      {
+        "level": "H3",
+        "text": "FurtherUp Drive"
+      },
+      {
+        "level": "H2",
+        "text": "Hizmetler"
+      },
+      {
+        "level": "H3",
+        "text": "Web geliştirme"
+      },
+      {
+        "level": "H3",
+        "text": "Mobil geliştirme"
+      },
+      {
+        "level": "H3",
+        "text": "Yapay zekâ"
+      },
+      {
+        "level": "H3",
+        "text": "Özel yazılım"
+      },
+      {
+        "level": "H2",
+        "text": "İşinizi konuşalım."
+      },
+      {
+        "level": "H2",
+        "text": "Bağlantılar"
+      },
+      {
+        "level": "H2",
+        "text": "Bizi takip edin"
+      }
+    ],
+    "imagesMissingAlt": [],
+    "pauseButtons": [
+      {
+        "label": "Otomatik dönüşü durdur",
+        "visible": false
+      }
+    ],
+    "prism": {
+      "face": "0",
+      "angle": "0",
+      "reduced": "false",
+      "ready": "true",
+      "auto": "running"
+    },
+    "scene": {
+      "mode": "webgl",
+      "ready": "true",
+      "phase": "data",
+      "time": "0.000",
+      "layers": "",
+      "frames": "4",
+      "drawCalls": "1",
+      "triangles": "2",
+      "firstPose": "0.000",
+      "running": "true"
+    },
+    "marquee": "120s"
+  },
+  "accessibility": {
+    "unnamedControls": [],
+    "landmarks": [
+      {
+        "role": "banner",
+        "name": ""
+      },
+      {
+        "role": "main",
+        "name": ""
+      },
+      {
+        "role": "contentinfo",
+        "name": "Site alt bilgisi"
+      },
+      {
+        "role": "navigation",
+        "name": "Ana gezinme"
+      },
+      {
+        "role": "navigation",
+        "name": "Ana gezinme"
+      },
+      {
+        "role": "navigation",
+        "name": "Bizi takip edin"
+      }
+    ]
+  },
+  "locales": [
+    {
+      "lang": "tr",
+      "header": "Ana Sayfa\nProjeler\nHizmetler\nİletişim",
+      "hero": [
+        "İşinize göre\nyazılım.",
+        "Web ve mobil\nçözümler.",
+        "Yapay zekâ ile\ndaha fazlası.",
+        "Size özel yazılım\nsistemleri."
+      ],
+      "references": "Referanslar",
+      "projects": "İşlerimiz konuşsun.",
+      "projectDescription": "Koçluk, gelişim değerlendirmeleri ve abonelik süreçlerini bir araya getiren çalışma alanı.",
+      "services": "Hizmetler\nWeb geliştirme\n\nİş akışınıza uyum sağlayan web arayüzleri.\n\nMobil geliştirme\n\nGünlük kullanıma odaklanan mobil deneyimler.\n\nYapay zekâ\n\nÜrününüzde anlamlı karşılığı olan akıllı çözümler.\n\nÖzel yazılım\n\nİhtiyacınıza göre şekillenen sistemler ve entegrasyonlar.",
+      "contact": "İşinizi konuşalım.\n\nİhtiyacınızı anlatın. İlk adımı birlikte netleştirelim.\n\nBirlikte çalışalım\ninfo@bayessoft.com.tr",
+      "footer": "BayesSoft\n\nİşinize göre yazılım. Birlikte, uçtan uca.\n\ninfo@bayessoft.com.tr\nBağlantılar\nAna Sayfa\nProjeler\nHizmetler\nİletişim\nBizi takip edin\nGitHub\n↗\nLinkedIn\n↗\nX\n↗\n\n© 2026 BayesSoft. Tüm hakları saklıdır.",
+      "overflow": false,
+      "sceneTime": "0.046",
+      "prismReady": "true",
+      "persistedAfterReload": true
+    },
+    {
+      "lang": "en",
+      "header": "Home\nProjects\nServices\nContact",
+      "hero": [
+        "Software for\nyour business.",
+        "Web and mobile\nsolutions.",
+        "Go further\nwith AI.",
+        "Software systems\nbuilt for you."
+      ],
+      "references": "References",
+      "projects": "Our work speaks.",
+      "projectDescription": "A workspace bringing coaching, development assessments and subscriptions together.",
+      "services": "Services\nWeb development\n\nWeb interfaces that fit the way you work.\n\nMobile development\n\nMobile experiences built for everyday use.\n\nArtificial intelligence\n\nIntelligent solutions with a clear role in your product.\n\nCustom software\n\nSystems and integrations shaped around your needs.",
+      "contact": "Let’s talk about your business.\n\nTell us what you need. We’ll define the next step together.\n\nLet’s work together\ninfo@bayessoft.com.tr",
+      "footer": "BayesSoft\n\nSoftware for your business. Together, from end to end.\n\ninfo@bayessoft.com.tr\nExplore\nHome\nProjects\nServices\nContact\nFollow us\nGitHub\n↗\nLinkedIn\n↗\nX\n↗\n\n© 2026 BayesSoft. All rights reserved.",
+      "overflow": false,
+      "sceneTime": "0.032",
+      "prismReady": "true",
+      "persistedAfterReload": true
+    },
+    {
+      "lang": "de",
+      "header": "Startseite\nProjekte\nLeistungen\nKontakt",
+      "hero": [
+        "Software für\nIhr Unternehmen.",
+        "Lösungen für\nWeb und Mobil.",
+        "Mehr erreichen\nmit KI.",
+        "Softwaresysteme\nnach Maß."
+      ],
+      "references": "Referenzen",
+      "projects": "Unsere Arbeit spricht für sich.",
+      "projectDescription": "Ein gemeinsamer Arbeitsbereich für Coaching, Entwicklungsbewertungen und Abonnements.",
+      "services": "Leistungen\nWebentwicklung\n\nWeboberflächen, die zu Ihren Arbeitsabläufen passen.\n\nMobile Entwicklung\n\nMobile Anwendungen für den täglichen Einsatz.\n\nKünstliche Intelligenz\n\nIntelligente Lösungen mit klarem Nutzen für Ihr Produkt.\n\nIndividuelle Software\n\nSysteme und Integrationen für Ihre Anforderungen.",
+      "contact": "Sprechen wir über Ihr Vorhaben.\n\nErzählen Sie uns, was Sie brauchen. Den nächsten Schritt planen wir gemeinsam.\n\nGemeinsam starten\ninfo@bayessoft.com.tr",
+      "footer": "BayesSoft\n\nSoftware für Ihr Unternehmen. Gemeinsam, von Anfang bis Ende.\n\ninfo@bayessoft.com.tr\nEntdecken\nStartseite\nProjekte\nLeistungen\nKontakt\nFolgen Sie uns\nGitHub\n↗\nLinkedIn\n↗\nX\n↗\n\n© 2026 BayesSoft. Alle Rechte vorbehalten.",
+      "overflow": false,
+      "sceneTime": "0.032",
+      "prismReady": "true",
+      "persistedAfterReload": true
+    }
+  ],
+  "localeContinuity": {
+    "canvasSame": true,
+    "angleBefore": "0",
+    "angleAfter": "0"
+  },
+  "prismKeyboard": {
+    "face": "1",
+    "outline": {
+      "style": "solid",
+      "width": "2px",
+      "focus": true
+    }
+  },
+  "projectLinks": [
+    {
+      "name": "FurtherUp Drive",
+      "links": [
+        {
+          "href": "/projeler/furtherup-drive",
+          "target": "",
+          "rel": "",
+          "name": "Proje detayları"
+        },
+        {
+          "href": "https://drive.further-up.net",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "name": "FurtherUp Drive: Canlı site — Yeni sekmede açılır"
+        }
+      ]
+    },
+    {
+      "name": "Reviel",
+      "links": [
+        {
+          "href": "https://www.reviel.com.tr/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "name": "Reviel: Canlı site — Yeni sekmede açılır"
+        }
+      ]
+    },
+    {
+      "name": "Metek Makina",
+      "links": [
+        {
+          "href": "https://metekmakina.com/urunler",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "name": "Metek Makina: Canlı site — Yeni sekmede açılır"
+        }
+      ]
+    }
+  ],
+  "externalLinks": [
+    {
+      "href": "https://www.tamfinans.com.tr/",
+      "safe": true
+    },
+    {
+      "href": "https://metekmakina.com/",
+      "safe": true
+    },
+    {
+      "href": "https://reviel.com.tr/",
+      "safe": true
+    },
+    {
+      "href": "https://drive.further-up.net/",
+      "safe": true
+    },
+    {
+      "href": "https://www.arel.edu.tr/",
+      "safe": true
+    },
+    {
+      "href": "https://atlidepohizmetleri.com/",
+      "safe": true
+    },
+    {
+      "href": "https://kanunieah.saglik.gov.tr/",
+      "safe": true
+    },
+    {
+      "href": "https://www.teskilat.com.tr/",
+      "safe": true
+    },
+    {
+      "href": "https://hypersense.dev/",
+      "safe": true
+    },
+    {
+      "href": "https://esenyurtzirvecilingir.com/",
+      "safe": true
+    },
+    {
+      "href": "https://www.tamfinans.com.tr/",
+      "safe": true
+    },
+    {
+      "href": "https://metekmakina.com/",
+      "safe": true
+    },
+    {
+      "href": "https://reviel.com.tr/",
+      "safe": true
+    },
+    {
+      "href": "https://drive.further-up.net/",
+      "safe": true
+    },
+    {
+      "href": "https://www.arel.edu.tr/",
+      "safe": true
+    },
+    {
+      "href": "https://atlidepohizmetleri.com/",
+      "safe": true
+    },
+    {
+      "href": "https://kanunieah.saglik.gov.tr/",
+      "safe": true
+    },
+    {
+      "href": "https://www.teskilat.com.tr/",
+      "safe": true
+    },
+    {
+      "href": "https://hypersense.dev/",
+      "safe": true
+    },
+    {
+      "href": "https://esenyurtzirvecilingir.com/",
+      "safe": true
+    },
+    {
+      "href": "https://drive.further-up.net/",
+      "safe": true
+    },
+    {
+      "href": "https://github.com/bayessoft2024",
+      "safe": true
+    },
+    {
+      "href": "https://linkedin.com/company/bayessoft",
+      "safe": true
+    },
+    {
+      "href": "https://x.com/bayessoft",
+      "safe": true
+    }
+  ],
+  "email": "mailto:info@bayessoft.com.tr",
+  "pauseFocus": "paused",
+  "pauseAfterLeavingFocus": "running",
+  "responsive": [
+    {
+      "width": 320,
+      "locales": [
+        {
+          "lang": "tr",
+          "overflow": false,
+          "menuClosed": true,
+          "scene": "static",
+          "canvasCount": 0,
+          "bodyWidth": 320,
+          "heroWidth": 280
+        },
+        {
+          "lang": "en",
+          "overflow": false,
+          "menuClosed": true,
+          "scene": "static",
+          "canvasCount": 0,
+          "bodyWidth": 320,
+          "heroWidth": 280
+        },
+        {
+          "lang": "de",
+          "overflow": false,
+          "menuClosed": true,
+          "scene": "static",
+          "canvasCount": 0,
+          "bodyWidth": 320,
+          "heroWidth": 280
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "locales": [
+        {
+          "lang": "tr",
+          "overflow": false,
+          "menuClosed": true,
+          "scene": "static",
+          "canvasCount": 0,
+          "bodyWidth": 390,
+          "heroWidth": 350
+        },
+        {
+          "lang": "en",
+          "overflow": false,
+          "menuClosed": true,
+          "scene": "static",
+          "canvasCount": 0,
+          "bodyWidth": 390,
+          "heroWidth": 350
+        },
+        {
+          "lang": "de",
+          "overflow": false,
+          "menuClosed": true,
+          "scene": "static",
+          "canvasCount": 0,
+          "bodyWidth": 390,
+          "heroWidth": 350
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "locales": [
+        {
+          "lang": "tr",
+          "overflow": false,
+          "menuClosed": true,
+          "scene": "static",
+          "canvasCount": 0,
+          "bodyWidth": 768,
+          "heroWidth": 540
+        },
+        {
+          "lang": "en",
+          "overflow": false,
+          "menuClosed": true,
+          "scene": "static",
+          "canvasCount": 0,
+          "bodyWidth": 768,
+          "heroWidth": 540
+        },
+        {
+          "lang": "de",
+          "overflow": false,
+          "menuClosed": true,
+          "scene": "static",
+          "canvasCount": 0,
+          "bodyWidth": 768,
+          "heroWidth": 540
+        }
+      ]
+    }
+  ],
+  "reduced": {
+    "face": "3",
+    "auto": "paused",
+    "scene": "static",
+    "marquee": "none",
+    "swipe": "Reviel"
+  },
+  "cleanupBefore": {
+    "sameDocument": true,
+    "sceneDetached": true,
+    "canvasDetached": true,
+    "canvasRemoved": false,
+    "running": "false",
+    "angle": "0",
+    "frames": "9"
+  },
+  "cleanupAfter": {
+    "angle": "0",
+    "frames": "10"
+  },
+  "contextLossFallback": true,
+  "errors": [],
+  "failed": [],
+  "noWebGLFallback": true
+}

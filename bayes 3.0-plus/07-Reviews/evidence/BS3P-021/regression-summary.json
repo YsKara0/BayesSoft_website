@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "pauseAfterCompositorSettles": true,
+    "localePauseStable": true,
+    "renderedInstrumentSans": true,
+    "reloadPause": true,
+    "resume": true,
+    "externalLinkSafety": true,
+    "threeSelectedProjects": true,
+    "threeWebpRequests": true,
+    "sitemapRoutes": true,
+    "mobileMenuEscapeNoOverflow": true,
+    "mobileFallback": true,
+    "reducedNoAnimation": true,
+    "pageErrors": true
+  },
+  "limits": "Core run stopped at final synchronous media-change read. Reduced continuation waits for applied state. Global reduced CSS animation:none!important resets play-state to running while animationName=none and zero animations: absence of motion, not a failure. Initial immediate compositor one-frame offset retained in regression-initial-harness.json. No application code was changed."
+}

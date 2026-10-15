@@ -1,0 +1,40 @@
+.homepage-references{padding:52px 0 44px;margin-top:52px}
+.homepage-references h2{font-size:15px;line-height:1.4;font-weight:500;color:#53677a}
+.homepage-logo-window{overflow:hidden;margin-top:24px;padding:8px 0}
+.homepage-logo-track{display:flex;width:max-content;animation:homepage-reference-scroll 120s linear infinite}
+.homepage-logo-group{display:flex;flex-shrink:0;align-items:center;gap:64px;padding:0 32px;list-style:none}
+.homepage-logo{width:176px;height:72px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.homepage-logo-target{position:relative;display:flex;width:100%;height:100%;align-items:center;justify-content:center}
+.homepage-logo-target:focus-visible{outline:2px solid #285bd6;outline-offset:-2px}
+.homepage-logo-artwork{position:relative;z-index:1;display:block;width:100%;max-width:176px;height:64px}
+.homepage-logo-round .homepage-logo-artwork{width:56px;height:56px}
+.homepage-logo-square .homepage-logo-artwork{width:64px;height:64px}
+/* Definite frames keep both layers out of intrinsic grid-track sizing. */
+.homepage-logo img{position:absolute;inset:0;display:block;width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center;transition:opacity 200ms ease-out}
+/* Fixed filters preserve the neutral artwork; only layer opacity changes. */
+.homepage-logo-neutral{filter:grayscale(1) brightness(.55) contrast(16) opacity(.56);opacity:1}
+.homepage-logo-color{filter:none;opacity:0}
+.homepage-logo-target:hover .homepage-logo-neutral,.homepage-logo-target:focus-visible .homepage-logo-neutral{opacity:0}
+.homepage-logo-target:hover .homepage-logo-color,.homepage-logo-target:focus-visible .homepage-logo-color{opacity:1}
+.homepage-logo-dark .homepage-logo-target{padding:12px}
+.homepage-logo-dark .homepage-logo-target::before{content:"";position:absolute;inset:0;background:#172b43;opacity:0;transition:opacity 200ms ease-out;pointer-events:none}
+.homepage-logo-dark .homepage-logo-target:hover::before,.homepage-logo-dark .homepage-logo-target:focus-visible::before{opacity:1}
+.homepage-logo-dark .homepage-logo-artwork{height:48px}
+/* This source uses light ink on transparent pixels, with no opaque white field. */
+.homepage-logo-dark .homepage-logo-neutral{filter:grayscale(1) brightness(0) opacity(.56)}
+/* Pointer focus may survive a click. Only keyboard-visible focus pauses motion. */
+.homepage-logo-window:hover .homepage-logo-track,.homepage-logo-window:has(.homepage-logo-target:focus-visible) .homepage-logo-track{animation-play-state:paused}
+@keyframes homepage-reference-scroll{to{transform:translateX(-50%)}}
+
+@media(max-width:699px),(prefers-reduced-motion:reduce){
+  .homepage-logo-track{animation:none;transform:none;width:100%}
+  .homepage-logo-group[aria-hidden=true]{display:none}
+  .homepage-logo-group{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));width:100%;gap:24px 32px;padding:0}
+  .homepage-logo{width:100%;height:64px}
+  .homepage-logo-artwork{height:56px}
+  .homepage-logo-round .homepage-logo-artwork{width:48px;height:48px}
+  .homepage-logo-square .homepage-logo-artwork{width:56px;height:56px}
+  .homepage-logo-dark .homepage-logo-artwork{height:44px}
+}
+@media(max-width:699px){.homepage-references{margin-top:40px;padding:40px 0}.homepage-logo-group{gap:24px 20px}}
+@media(prefers-reduced-motion:reduce){.homepage-logo img,.homepage-logo-dark .homepage-logo-target::before{transition:none}}

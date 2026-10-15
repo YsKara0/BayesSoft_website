@@ -1,0 +1,9 @@
+{
+  "environment": "Playwright WebKit27.2, macOS arm64, headless and headed baseline; native SafariDriver session blocked by remote automation setting.",
+  "observedBefore": "Nested panel rotation bounds correct and three assets fetched; painting overlapped posters (last Metek) instead of a cylinder. User native Safari reported fully blank, which was not reproduced exactly in WebKit27.2.",
+  "isolated": "No image HTTP/pageerror/geometry failure. SVG symbol sizing, direct SVG/HTML images, prefixes, overflow/container changes, panel dimensions and compositing hints did not restore original cylinder. Headed baseline also overlapped.",
+  "workaround": "WebKit-only complete per-strip camera/rotation transform, flat intermediate wrappers, explicit backface culling/depth order; old WAAPI timing drives transition-only RAF.",
+  "projectionBoundsSampleMaxDifferencePx": 0.03,
+  "chromiumPixelDifference": 0,
+  "nativeSafariAcceptance": "Manual retest required; not claimed tested."
+}

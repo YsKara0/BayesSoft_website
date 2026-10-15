@@ -1,0 +1,22 @@
+{
+  "errors": [],
+  "paused": {
+    "paused": "true",
+    "angle": "0deg",
+    "matrix": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -210, 1)",
+    "marquee": "matrix(1, 0, 0, 1, -2.33416, 0)",
+    "time": "0.054",
+    "frames": "8",
+    "running": "false"
+  },
+  "later": {
+    "paused": "true",
+    "angle": "0deg",
+    "matrix": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -210, 1)",
+    "marquee": "matrix(1, 0, 0, 1, -2.66616, 0)",
+    "time": "0.054",
+    "frames": "8",
+    "running": "false"
+  },
+  "error": "Expected values to be loosely deep-equal:\n\n{\n  angle: '0deg',\n  frames: '8',\n  marquee: 'matrix(1, 0, 0, 1, -2.33416, 0)',\n  matrix: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -210, 1)',\n  paused: 'true',\n  running: 'false',\n  time: '0.054'\n}\n\nshould loosely deep-equal\n\n{\n  angle: '0deg',\n  frames: '8',\n  marquee: 'matrix(1, 0, 0, 1, -2.66616, 0)',\n  matrix: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -210, 1)',\n  paused: 'true',\n  running: 'false',\n  time: '0.054'\n}"
+}

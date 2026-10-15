@@ -1,0 +1,66 @@
+{
+  "applicationFilesUnchanged": 275,
+  "stableMeasurementDifferences": [],
+  "excludedDynamicMeasurements": [
+    "Projected face bounds at different rotor phases",
+    "Moving marquee X position"
+  ],
+  "desktopFont": {
+    ".face-0 .face-heading": [
+      {
+        "familyName": "Instrument Sans",
+        "postScriptName": "InstrumentSans-Regular_Medium",
+        "isCustomFont": true,
+        "glyphCount": 20
+      }
+    ],
+    ".wordmark": [
+      {
+        "familyName": "Instrument Sans",
+        "postScriptName": "InstrumentSans-Regular_SemiBold",
+        "isCustomFont": true,
+        "glyphCount": 9
+      }
+    ],
+    ".homepage-service h3": [
+      {
+        "familyName": "Instrument Sans",
+        "postScriptName": "InstrumentSans-Regular_Medium",
+        "isCustomFont": true,
+        "glyphCount": 14
+      }
+    ],
+    ".cy-description": [
+      {
+        "familyName": "Instrument Sans",
+        "postScriptName": "InstrumentSans-Regular",
+        "isCustomFont": true,
+        "glyphCount": 88
+      }
+    ]
+  },
+  "mobileMeasurementsEqual": true,
+  "startupMeasurementsNote": "Initial React CSS variables and transition were sampled before data-ready; settled values match demo.",
+  "settledGeometry": {
+    "--radius": "465.32312499999995px",
+    "--perspective": "2888.2125px",
+    "--strip-width": "24.931921946370583px",
+    "--cover-height": "385.76747930365906px"
+  },
+  "prismTransition": "0.9s",
+  "motion": {
+    "react": {
+      "sceneDurationFromMarkerMs": 8412.799999982119,
+      "sceneTime": "8.400",
+      "framesStable": true,
+      "rotationEventDurationMs": 932.1999999880791
+    },
+    "demo": {
+      "sceneDurationFromMarkerMs": 8412.09999999404,
+      "sceneTime": "8.400",
+      "framesStable": true,
+      "rotationEventDurationMs": 931.5
+    }
+  },
+  "noApplicationEdits": true
+}

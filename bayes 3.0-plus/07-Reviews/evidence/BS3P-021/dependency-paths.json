@@ -1,0 +1,3563 @@
+[
+  {
+    "name": "baseline-browser-mapping",
+    "version": "2.10.41",
+    "location": "node_modules/baseline-browser-mapping",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "baseline-browser-mapping",
+        "spec": "^2.10.38",
+        "from": {
+          "name": "browserslist",
+          "version": "4.28.4",
+          "location": "node_modules/browserslist",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "browserslist",
+              "spec": "^4.28.4",
+              "from": {
+                "name": "autoprefixer",
+                "version": "10.5.2",
+                "location": "node_modules/autoprefixer",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "dev",
+                    "name": "autoprefixer",
+                    "spec": "^10.4.20",
+                    "from": {
+                      "location": "/Users/yavuz/Projects/BayesSoft_website"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "browserslist",
+              "spec": ">= 4.21.0",
+              "from": {
+                "name": "update-browserslist-db",
+                "version": "1.2.3",
+                "location": "node_modules/update-browserslist-db",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "update-browserslist-db",
+                    "spec": "^1.2.3",
+                    "from": {
+                      "name": "browserslist",
+                      "version": "4.28.4"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "dev": true,
+          "optional": false,
+          "devOptional": false,
+          "peer": false,
+          "bundled": false,
+          "overridden": false
+        }
+      }
+    ],
+    "dev": true,
+    "optional": false,
+    "devOptional": false,
+    "peer": false,
+    "bundled": false,
+    "overridden": false
+  },
+  {
+    "name": "brace-expansion",
+    "version": "5.0.7",
+    "location": "node_modules/@typescript-eslint/typescript-estree/node_modules/brace-expansion",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "brace-expansion",
+        "spec": "^5.0.5",
+        "from": {
+          "name": "minimatch",
+          "version": "10.2.5",
+          "location": "node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "minimatch",
+              "spec": "^10.2.2",
+              "from": {
+                "name": "@typescript-eslint/typescript-estree",
+                "version": "8.62.1",
+                "location": "node_modules/@typescript-eslint/typescript-estree",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@typescript-eslint/typescript-estree",
+                    "spec": "8.62.1",
+                    "from": {
+                      "name": "@typescript-eslint/parser",
+                      "version": "8.62.1",
+                      "location": "node_modules/@typescript-eslint/parser",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "peer",
+                          "name": "@typescript-eslint/parser",
+                          "spec": "^8.62.1",
+                          "from": {
+                            "name": "@typescript-eslint/eslint-plugin",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/eslint-plugin",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/eslint-plugin",
+                                "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "prod",
+                          "name": "@typescript-eslint/parser",
+                          "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prod",
+                    "name": "@typescript-eslint/typescript-estree",
+                    "spec": "8.62.1",
+                    "from": {
+                      "name": "@typescript-eslint/type-utils",
+                      "version": "8.62.1",
+                      "location": "node_modules/@typescript-eslint/type-utils",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@typescript-eslint/type-utils",
+                          "spec": "8.62.1",
+                          "from": {
+                            "name": "@typescript-eslint/eslint-plugin",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/eslint-plugin",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/eslint-plugin",
+                                "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prod",
+                    "name": "@typescript-eslint/typescript-estree",
+                    "spec": "8.62.1",
+                    "from": {
+                      "name": "@typescript-eslint/utils",
+                      "version": "8.62.1",
+                      "location": "node_modules/@typescript-eslint/utils",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@typescript-eslint/utils",
+                          "spec": "8.62.1",
+                          "from": {
+                            "name": "@typescript-eslint/eslint-plugin",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/eslint-plugin",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/eslint-plugin",
+                                "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "prod",
+                          "name": "@typescript-eslint/utils",
+                          "spec": "8.62.1",
+                          "from": {
+                            "name": "@typescript-eslint/type-utils",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/type-utils",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/type-utils",
+                                "spec": "8.62.1",
+                                "from": {
+                                  "name": "@typescript-eslint/eslint-plugin",
+                                  "version": "8.62.1",
+                                  "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/eslint-plugin",
+                                      "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                      "from": {
+                                        "name": "eslint-config-next",
+                                        "version": "15.5.28",
+                                        "location": "node_modules/eslint-config-next",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "dev",
+                                            "name": "eslint-config-next",
+                                            "spec": "^15.5.28",
+                                            "from": {
+                                              "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "dev": true,
+    "optional": false,
+    "devOptional": false,
+    "peer": false,
+    "bundled": false,
+    "overridden": false
+  },
+  {
+    "name": "brace-expansion",
+    "version": "1.1.15",
+    "location": "node_modules/brace-expansion",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "brace-expansion",
+        "spec": "^1.1.7",
+        "from": {
+          "name": "minimatch",
+          "version": "3.1.5",
+          "location": "node_modules/minimatch",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "minimatch",
+              "spec": "^3.1.5",
+              "from": {
+                "name": "@eslint/config-array",
+                "version": "0.21.2",
+                "location": "node_modules/@eslint/config-array",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@eslint/config-array",
+                    "spec": "^0.21.2",
+                    "from": {
+                      "name": "eslint",
+                      "version": "9.39.4",
+                      "location": "node_modules/eslint",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "dev",
+                          "name": "eslint",
+                          "spec": "^9.17.0",
+                          "from": {
+                            "location": "/Users/yavuz/Projects/BayesSoft_website"
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^6.0.0 || ^7.0.0 || >=8.0.0",
+                          "from": {
+                            "name": "@eslint-community/eslint-utils",
+                            "version": "4.9.1",
+                            "location": "node_modules/@eslint-community/eslint-utils",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@eslint-community/eslint-utils",
+                                "spec": "^4.9.1",
+                                "from": {
+                                  "name": "@typescript-eslint/utils",
+                                  "version": "8.62.1",
+                                  "location": "node_modules/@typescript-eslint/utils",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/utils",
+                                      "spec": "8.62.1",
+                                      "from": {
+                                        "name": "@typescript-eslint/eslint-plugin",
+                                        "version": "8.62.1",
+                                        "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "prod",
+                                            "name": "@typescript-eslint/eslint-plugin",
+                                            "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                            "from": {
+                                              "name": "eslint-config-next",
+                                              "version": "15.5.28",
+                                              "location": "node_modules/eslint-config-next",
+                                              "isWorkspace": false,
+                                              "dependents": [
+                                                {
+                                                  "type": "dev",
+                                                  "name": "eslint-config-next",
+                                                  "spec": "^15.5.28",
+                                                  "from": {
+                                                    "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/utils",
+                                      "spec": "8.62.1",
+                                      "from": {
+                                        "name": "@typescript-eslint/type-utils",
+                                        "version": "8.62.1",
+                                        "location": "node_modules/@typescript-eslint/type-utils",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "prod",
+                                            "name": "@typescript-eslint/type-utils",
+                                            "spec": "8.62.1",
+                                            "from": {
+                                              "name": "@typescript-eslint/eslint-plugin",
+                                              "version": "8.62.1",
+                                              "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                              "isWorkspace": false,
+                                              "dependents": [
+                                                {
+                                                  "type": "prod",
+                                                  "name": "@typescript-eslint/eslint-plugin",
+                                                  "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                                  "from": {
+                                                    "name": "eslint-config-next",
+                                                    "version": "15.5.28",
+                                                    "location": "node_modules/eslint-config-next",
+                                                    "isWorkspace": false,
+                                                    "dependents": [
+                                                      {
+                                                        "type": "dev",
+                                                        "name": "eslint-config-next",
+                                                        "spec": "^15.5.28",
+                                                        "from": {
+                                                          "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "prod",
+                                "name": "@eslint-community/eslint-utils",
+                                "spec": "^4.8.0",
+                                "from": {
+                                  "name": "eslint",
+                                  "version": "9.39.4"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^8.57.0 || ^9.0.0 || ^10.0.0",
+                          "from": {
+                            "name": "@typescript-eslint/eslint-plugin",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/eslint-plugin",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/eslint-plugin",
+                                "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^8.57.0 || ^9.0.0 || ^10.0.0",
+                          "from": {
+                            "name": "@typescript-eslint/parser",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/parser",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "peer",
+                                "name": "@typescript-eslint/parser",
+                                "spec": "^8.62.1",
+                                "from": {
+                                  "name": "@typescript-eslint/eslint-plugin",
+                                  "version": "8.62.1",
+                                  "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/eslint-plugin",
+                                      "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                      "from": {
+                                        "name": "eslint-config-next",
+                                        "version": "15.5.28",
+                                        "location": "node_modules/eslint-config-next",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "dev",
+                                            "name": "eslint-config-next",
+                                            "spec": "^15.5.28",
+                                            "from": {
+                                              "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/parser",
+                                "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^8.57.0 || ^9.0.0 || ^10.0.0",
+                          "from": {
+                            "name": "@typescript-eslint/type-utils",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/type-utils",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/type-utils",
+                                "spec": "8.62.1",
+                                "from": {
+                                  "name": "@typescript-eslint/eslint-plugin",
+                                  "version": "8.62.1",
+                                  "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/eslint-plugin",
+                                      "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                      "from": {
+                                        "name": "eslint-config-next",
+                                        "version": "15.5.28",
+                                        "location": "node_modules/eslint-config-next",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "dev",
+                                            "name": "eslint-config-next",
+                                            "spec": "^15.5.28",
+                                            "from": {
+                                              "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^8.57.0 || ^9.0.0 || ^10.0.0",
+                          "from": {
+                            "name": "@typescript-eslint/utils",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/utils",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/utils",
+                                "spec": "8.62.1",
+                                "from": {
+                                  "name": "@typescript-eslint/eslint-plugin",
+                                  "version": "8.62.1",
+                                  "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/eslint-plugin",
+                                      "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                      "from": {
+                                        "name": "eslint-config-next",
+                                        "version": "15.5.28",
+                                        "location": "node_modules/eslint-config-next",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "dev",
+                                            "name": "eslint-config-next",
+                                            "spec": "^15.5.28",
+                                            "from": {
+                                              "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/utils",
+                                "spec": "8.62.1",
+                                "from": {
+                                  "name": "@typescript-eslint/type-utils",
+                                  "version": "8.62.1",
+                                  "location": "node_modules/@typescript-eslint/type-utils",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/type-utils",
+                                      "spec": "8.62.1",
+                                      "from": {
+                                        "name": "@typescript-eslint/eslint-plugin",
+                                        "version": "8.62.1",
+                                        "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "prod",
+                                            "name": "@typescript-eslint/eslint-plugin",
+                                            "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                            "from": {
+                                              "name": "eslint-config-next",
+                                              "version": "15.5.28",
+                                              "location": "node_modules/eslint-config-next",
+                                              "isWorkspace": false,
+                                              "dependents": [
+                                                {
+                                                  "type": "dev",
+                                                  "name": "eslint-config-next",
+                                                  "spec": "^15.5.28",
+                                                  "from": {
+                                                    "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^7.23.0 || ^8.0.0 || ^9.0.0",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "*",
+                          "from": {
+                            "name": "eslint-import-resolver-typescript",
+                            "version": "3.10.1",
+                            "location": "node_modules/eslint-import-resolver-typescript",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "eslint-import-resolver-typescript",
+                                "spec": "^3.5.2",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8 || ^9",
+                          "from": {
+                            "name": "eslint-plugin-import",
+                            "version": "2.32.0",
+                            "location": "node_modules/eslint-plugin-import",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "eslint-plugin-import",
+                                "spec": "^2.31.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "peerOptional",
+                                "name": "eslint-plugin-import",
+                                "spec": "*",
+                                "from": {
+                                  "name": "eslint-import-resolver-typescript",
+                                  "version": "3.10.1",
+                                  "location": "node_modules/eslint-import-resolver-typescript",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "eslint-import-resolver-typescript",
+                                      "spec": "^3.5.2",
+                                      "from": {
+                                        "name": "eslint-config-next",
+                                        "version": "15.5.28",
+                                        "location": "node_modules/eslint-config-next",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "dev",
+                                            "name": "eslint-config-next",
+                                            "spec": "^15.5.28",
+                                            "from": {
+                                              "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9",
+                          "from": {
+                            "name": "eslint-plugin-jsx-a11y",
+                            "version": "6.10.2",
+                            "location": "node_modules/eslint-plugin-jsx-a11y",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "eslint-plugin-jsx-a11y",
+                                "spec": "^6.10.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7",
+                          "from": {
+                            "name": "eslint-plugin-react",
+                            "version": "7.37.5",
+                            "location": "node_modules/eslint-plugin-react",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "eslint-plugin-react",
+                                "spec": "^7.37.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0",
+                          "from": {
+                            "name": "eslint-plugin-react-hooks",
+                            "version": "5.2.0",
+                            "location": "node_modules/eslint-plugin-react-hooks",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "eslint-plugin-react-hooks",
+                                "spec": "^5.0.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "minimatch",
+              "spec": "^3.1.5",
+              "from": {
+                "name": "@eslint/eslintrc",
+                "version": "3.3.5",
+                "location": "node_modules/@eslint/eslintrc",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@eslint/eslintrc",
+                    "spec": "^3.3.5",
+                    "from": {
+                      "name": "eslint",
+                      "version": "9.39.4",
+                      "location": "node_modules/eslint",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "dev",
+                          "name": "eslint",
+                          "spec": "^9.17.0",
+                          "from": {
+                            "location": "/Users/yavuz/Projects/BayesSoft_website"
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^6.0.0 || ^7.0.0 || >=8.0.0",
+                          "from": {
+                            "name": "@eslint-community/eslint-utils",
+                            "version": "4.9.1",
+                            "location": "node_modules/@eslint-community/eslint-utils",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@eslint-community/eslint-utils",
+                                "spec": "^4.9.1",
+                                "from": {
+                                  "name": "@typescript-eslint/utils",
+                                  "version": "8.62.1",
+                                  "location": "node_modules/@typescript-eslint/utils",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/utils",
+                                      "spec": "8.62.1",
+                                      "from": {
+                                        "name": "@typescript-eslint/eslint-plugin",
+                                        "version": "8.62.1",
+                                        "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "prod",
+                                            "name": "@typescript-eslint/eslint-plugin",
+                                            "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                            "from": {
+                                              "name": "eslint-config-next",
+                                              "version": "15.5.28",
+                                              "location": "node_modules/eslint-config-next",
+                                              "isWorkspace": false,
+                                              "dependents": [
+                                                {
+                                                  "type": "dev",
+                                                  "name": "eslint-config-next",
+                                                  "spec": "^15.5.28",
+                                                  "from": {
+                                                    "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/utils",
+                                      "spec": "8.62.1",
+                                      "from": {
+                                        "name": "@typescript-eslint/type-utils",
+                                        "version": "8.62.1",
+                                        "location": "node_modules/@typescript-eslint/type-utils",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "prod",
+                                            "name": "@typescript-eslint/type-utils",
+                                            "spec": "8.62.1",
+                                            "from": {
+                                              "name": "@typescript-eslint/eslint-plugin",
+                                              "version": "8.62.1",
+                                              "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                              "isWorkspace": false,
+                                              "dependents": [
+                                                {
+                                                  "type": "prod",
+                                                  "name": "@typescript-eslint/eslint-plugin",
+                                                  "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                                  "from": {
+                                                    "name": "eslint-config-next",
+                                                    "version": "15.5.28",
+                                                    "location": "node_modules/eslint-config-next",
+                                                    "isWorkspace": false,
+                                                    "dependents": [
+                                                      {
+                                                        "type": "dev",
+                                                        "name": "eslint-config-next",
+                                                        "spec": "^15.5.28",
+                                                        "from": {
+                                                          "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "prod",
+                                "name": "@eslint-community/eslint-utils",
+                                "spec": "^4.8.0",
+                                "from": {
+                                  "name": "eslint",
+                                  "version": "9.39.4"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^8.57.0 || ^9.0.0 || ^10.0.0",
+                          "from": {
+                            "name": "@typescript-eslint/eslint-plugin",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/eslint-plugin",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/eslint-plugin",
+                                "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^8.57.0 || ^9.0.0 || ^10.0.0",
+                          "from": {
+                            "name": "@typescript-eslint/parser",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/parser",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "peer",
+                                "name": "@typescript-eslint/parser",
+                                "spec": "^8.62.1",
+                                "from": {
+                                  "name": "@typescript-eslint/eslint-plugin",
+                                  "version": "8.62.1",
+                                  "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/eslint-plugin",
+                                      "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                      "from": {
+                                        "name": "eslint-config-next",
+                                        "version": "15.5.28",
+                                        "location": "node_modules/eslint-config-next",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "dev",
+                                            "name": "eslint-config-next",
+                                            "spec": "^15.5.28",
+                                            "from": {
+                                              "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/parser",
+                                "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^8.57.0 || ^9.0.0 || ^10.0.0",
+                          "from": {
+                            "name": "@typescript-eslint/type-utils",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/type-utils",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/type-utils",
+                                "spec": "8.62.1",
+                                "from": {
+                                  "name": "@typescript-eslint/eslint-plugin",
+                                  "version": "8.62.1",
+                                  "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/eslint-plugin",
+                                      "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                      "from": {
+                                        "name": "eslint-config-next",
+                                        "version": "15.5.28",
+                                        "location": "node_modules/eslint-config-next",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "dev",
+                                            "name": "eslint-config-next",
+                                            "spec": "^15.5.28",
+                                            "from": {
+                                              "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^8.57.0 || ^9.0.0 || ^10.0.0",
+                          "from": {
+                            "name": "@typescript-eslint/utils",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/utils",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/utils",
+                                "spec": "8.62.1",
+                                "from": {
+                                  "name": "@typescript-eslint/eslint-plugin",
+                                  "version": "8.62.1",
+                                  "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/eslint-plugin",
+                                      "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                      "from": {
+                                        "name": "eslint-config-next",
+                                        "version": "15.5.28",
+                                        "location": "node_modules/eslint-config-next",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "dev",
+                                            "name": "eslint-config-next",
+                                            "spec": "^15.5.28",
+                                            "from": {
+                                              "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/utils",
+                                "spec": "8.62.1",
+                                "from": {
+                                  "name": "@typescript-eslint/type-utils",
+                                  "version": "8.62.1",
+                                  "location": "node_modules/@typescript-eslint/type-utils",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/type-utils",
+                                      "spec": "8.62.1",
+                                      "from": {
+                                        "name": "@typescript-eslint/eslint-plugin",
+                                        "version": "8.62.1",
+                                        "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "prod",
+                                            "name": "@typescript-eslint/eslint-plugin",
+                                            "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                            "from": {
+                                              "name": "eslint-config-next",
+                                              "version": "15.5.28",
+                                              "location": "node_modules/eslint-config-next",
+                                              "isWorkspace": false,
+                                              "dependents": [
+                                                {
+                                                  "type": "dev",
+                                                  "name": "eslint-config-next",
+                                                  "spec": "^15.5.28",
+                                                  "from": {
+                                                    "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^7.23.0 || ^8.0.0 || ^9.0.0",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "*",
+                          "from": {
+                            "name": "eslint-import-resolver-typescript",
+                            "version": "3.10.1",
+                            "location": "node_modules/eslint-import-resolver-typescript",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "eslint-import-resolver-typescript",
+                                "spec": "^3.5.2",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8 || ^9",
+                          "from": {
+                            "name": "eslint-plugin-import",
+                            "version": "2.32.0",
+                            "location": "node_modules/eslint-plugin-import",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "eslint-plugin-import",
+                                "spec": "^2.31.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "peerOptional",
+                                "name": "eslint-plugin-import",
+                                "spec": "*",
+                                "from": {
+                                  "name": "eslint-import-resolver-typescript",
+                                  "version": "3.10.1",
+                                  "location": "node_modules/eslint-import-resolver-typescript",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "eslint-import-resolver-typescript",
+                                      "spec": "^3.5.2",
+                                      "from": {
+                                        "name": "eslint-config-next",
+                                        "version": "15.5.28",
+                                        "location": "node_modules/eslint-config-next",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "dev",
+                                            "name": "eslint-config-next",
+                                            "spec": "^15.5.28",
+                                            "from": {
+                                              "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9",
+                          "from": {
+                            "name": "eslint-plugin-jsx-a11y",
+                            "version": "6.10.2",
+                            "location": "node_modules/eslint-plugin-jsx-a11y",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "eslint-plugin-jsx-a11y",
+                                "spec": "^6.10.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7",
+                          "from": {
+                            "name": "eslint-plugin-react",
+                            "version": "7.37.5",
+                            "location": "node_modules/eslint-plugin-react",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "eslint-plugin-react",
+                                "spec": "^7.37.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "eslint",
+                          "spec": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0",
+                          "from": {
+                            "name": "eslint-plugin-react-hooks",
+                            "version": "5.2.0",
+                            "location": "node_modules/eslint-plugin-react-hooks",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "eslint-plugin-react-hooks",
+                                "spec": "^5.0.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "minimatch",
+              "spec": "^3.1.5",
+              "from": {
+                "name": "eslint",
+                "version": "9.39.4",
+                "location": "node_modules/eslint",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "dev",
+                    "name": "eslint",
+                    "spec": "^9.17.0",
+                    "from": {
+                      "location": "/Users/yavuz/Projects/BayesSoft_website"
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^6.0.0 || ^7.0.0 || >=8.0.0",
+                    "from": {
+                      "name": "@eslint-community/eslint-utils",
+                      "version": "4.9.1",
+                      "location": "node_modules/@eslint-community/eslint-utils",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@eslint-community/eslint-utils",
+                          "spec": "^4.9.1",
+                          "from": {
+                            "name": "@typescript-eslint/utils",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/utils",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/utils",
+                                "spec": "8.62.1",
+                                "from": {
+                                  "name": "@typescript-eslint/eslint-plugin",
+                                  "version": "8.62.1",
+                                  "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/eslint-plugin",
+                                      "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                      "from": {
+                                        "name": "eslint-config-next",
+                                        "version": "15.5.28",
+                                        "location": "node_modules/eslint-config-next",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "dev",
+                                            "name": "eslint-config-next",
+                                            "spec": "^15.5.28",
+                                            "from": {
+                                              "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/utils",
+                                "spec": "8.62.1",
+                                "from": {
+                                  "name": "@typescript-eslint/type-utils",
+                                  "version": "8.62.1",
+                                  "location": "node_modules/@typescript-eslint/type-utils",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/type-utils",
+                                      "spec": "8.62.1",
+                                      "from": {
+                                        "name": "@typescript-eslint/eslint-plugin",
+                                        "version": "8.62.1",
+                                        "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "prod",
+                                            "name": "@typescript-eslint/eslint-plugin",
+                                            "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                            "from": {
+                                              "name": "eslint-config-next",
+                                              "version": "15.5.28",
+                                              "location": "node_modules/eslint-config-next",
+                                              "isWorkspace": false,
+                                              "dependents": [
+                                                {
+                                                  "type": "dev",
+                                                  "name": "eslint-config-next",
+                                                  "spec": "^15.5.28",
+                                                  "from": {
+                                                    "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "prod",
+                          "name": "@eslint-community/eslint-utils",
+                          "spec": "^4.8.0",
+                          "from": {
+                            "name": "eslint",
+                            "version": "9.39.4"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^8.57.0 || ^9.0.0 || ^10.0.0",
+                    "from": {
+                      "name": "@typescript-eslint/eslint-plugin",
+                      "version": "8.62.1",
+                      "location": "node_modules/@typescript-eslint/eslint-plugin",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@typescript-eslint/eslint-plugin",
+                          "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^8.57.0 || ^9.0.0 || ^10.0.0",
+                    "from": {
+                      "name": "@typescript-eslint/parser",
+                      "version": "8.62.1",
+                      "location": "node_modules/@typescript-eslint/parser",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "peer",
+                          "name": "@typescript-eslint/parser",
+                          "spec": "^8.62.1",
+                          "from": {
+                            "name": "@typescript-eslint/eslint-plugin",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/eslint-plugin",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/eslint-plugin",
+                                "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "prod",
+                          "name": "@typescript-eslint/parser",
+                          "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^8.57.0 || ^9.0.0 || ^10.0.0",
+                    "from": {
+                      "name": "@typescript-eslint/type-utils",
+                      "version": "8.62.1",
+                      "location": "node_modules/@typescript-eslint/type-utils",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@typescript-eslint/type-utils",
+                          "spec": "8.62.1",
+                          "from": {
+                            "name": "@typescript-eslint/eslint-plugin",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/eslint-plugin",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/eslint-plugin",
+                                "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^8.57.0 || ^9.0.0 || ^10.0.0",
+                    "from": {
+                      "name": "@typescript-eslint/utils",
+                      "version": "8.62.1",
+                      "location": "node_modules/@typescript-eslint/utils",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@typescript-eslint/utils",
+                          "spec": "8.62.1",
+                          "from": {
+                            "name": "@typescript-eslint/eslint-plugin",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/eslint-plugin",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/eslint-plugin",
+                                "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "prod",
+                          "name": "@typescript-eslint/utils",
+                          "spec": "8.62.1",
+                          "from": {
+                            "name": "@typescript-eslint/type-utils",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/type-utils",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/type-utils",
+                                "spec": "8.62.1",
+                                "from": {
+                                  "name": "@typescript-eslint/eslint-plugin",
+                                  "version": "8.62.1",
+                                  "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/eslint-plugin",
+                                      "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                      "from": {
+                                        "name": "eslint-config-next",
+                                        "version": "15.5.28",
+                                        "location": "node_modules/eslint-config-next",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "dev",
+                                            "name": "eslint-config-next",
+                                            "spec": "^15.5.28",
+                                            "from": {
+                                              "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^7.23.0 || ^8.0.0 || ^9.0.0",
+                    "from": {
+                      "name": "eslint-config-next",
+                      "version": "15.5.28",
+                      "location": "node_modules/eslint-config-next",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "dev",
+                          "name": "eslint-config-next",
+                          "spec": "^15.5.28",
+                          "from": {
+                            "location": "/Users/yavuz/Projects/BayesSoft_website"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "*",
+                    "from": {
+                      "name": "eslint-import-resolver-typescript",
+                      "version": "3.10.1",
+                      "location": "node_modules/eslint-import-resolver-typescript",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "eslint-import-resolver-typescript",
+                          "spec": "^3.5.2",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8 || ^9",
+                    "from": {
+                      "name": "eslint-plugin-import",
+                      "version": "2.32.0",
+                      "location": "node_modules/eslint-plugin-import",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "eslint-plugin-import",
+                          "spec": "^2.31.0",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peerOptional",
+                          "name": "eslint-plugin-import",
+                          "spec": "*",
+                          "from": {
+                            "name": "eslint-import-resolver-typescript",
+                            "version": "3.10.1",
+                            "location": "node_modules/eslint-import-resolver-typescript",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "eslint-import-resolver-typescript",
+                                "spec": "^3.5.2",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9",
+                    "from": {
+                      "name": "eslint-plugin-jsx-a11y",
+                      "version": "6.10.2",
+                      "location": "node_modules/eslint-plugin-jsx-a11y",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "eslint-plugin-jsx-a11y",
+                          "spec": "^6.10.0",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7",
+                    "from": {
+                      "name": "eslint-plugin-react",
+                      "version": "7.37.5",
+                      "location": "node_modules/eslint-plugin-react",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "eslint-plugin-react",
+                          "spec": "^7.37.0",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0",
+                    "from": {
+                      "name": "eslint-plugin-react-hooks",
+                      "version": "5.2.0",
+                      "location": "node_modules/eslint-plugin-react-hooks",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "eslint-plugin-react-hooks",
+                          "spec": "^5.0.0",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "minimatch",
+              "spec": "^3.1.2",
+              "from": {
+                "name": "eslint-plugin-import",
+                "version": "2.32.0",
+                "location": "node_modules/eslint-plugin-import",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "eslint-plugin-import",
+                    "spec": "^2.31.0",
+                    "from": {
+                      "name": "eslint-config-next",
+                      "version": "15.5.28",
+                      "location": "node_modules/eslint-config-next",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "dev",
+                          "name": "eslint-config-next",
+                          "spec": "^15.5.28",
+                          "from": {
+                            "location": "/Users/yavuz/Projects/BayesSoft_website"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peerOptional",
+                    "name": "eslint-plugin-import",
+                    "spec": "*",
+                    "from": {
+                      "name": "eslint-import-resolver-typescript",
+                      "version": "3.10.1",
+                      "location": "node_modules/eslint-import-resolver-typescript",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "eslint-import-resolver-typescript",
+                          "spec": "^3.5.2",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "minimatch",
+              "spec": "^3.1.2",
+              "from": {
+                "name": "eslint-plugin-jsx-a11y",
+                "version": "6.10.2",
+                "location": "node_modules/eslint-plugin-jsx-a11y",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "eslint-plugin-jsx-a11y",
+                    "spec": "^6.10.0",
+                    "from": {
+                      "name": "eslint-config-next",
+                      "version": "15.5.28",
+                      "location": "node_modules/eslint-config-next",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "dev",
+                          "name": "eslint-config-next",
+                          "spec": "^15.5.28",
+                          "from": {
+                            "location": "/Users/yavuz/Projects/BayesSoft_website"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "minimatch",
+              "spec": "^3.1.2",
+              "from": {
+                "name": "eslint-plugin-react",
+                "version": "7.37.5",
+                "location": "node_modules/eslint-plugin-react",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "eslint-plugin-react",
+                    "spec": "^7.37.0",
+                    "from": {
+                      "name": "eslint-config-next",
+                      "version": "15.5.28",
+                      "location": "node_modules/eslint-config-next",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "dev",
+                          "name": "eslint-config-next",
+                          "spec": "^15.5.28",
+                          "from": {
+                            "location": "/Users/yavuz/Projects/BayesSoft_website"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "dev": true,
+    "optional": false,
+    "devOptional": false,
+    "peer": false,
+    "bundled": false,
+    "overridden": false
+  },
+  {
+    "name": "braces",
+    "version": "3.0.3",
+    "location": "node_modules/braces",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "braces",
+        "spec": "~3.0.2",
+        "from": {
+          "name": "chokidar",
+          "version": "3.6.0",
+          "location": "node_modules/chokidar",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "chokidar",
+              "spec": "^3.6.0",
+              "from": {
+                "name": "tailwindcss",
+                "version": "3.4.19",
+                "location": "node_modules/tailwindcss",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "dev",
+                    "name": "tailwindcss",
+                    "spec": "^3.4.17",
+                    "from": {
+                      "location": "/Users/yavuz/Projects/BayesSoft_website"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "dev": true,
+          "optional": false,
+          "devOptional": false,
+          "peer": false,
+          "bundled": false,
+          "overridden": false
+        }
+      },
+      {
+        "type": "prod",
+        "name": "braces",
+        "spec": "^3.0.3",
+        "from": {
+          "name": "micromatch",
+          "version": "4.0.8",
+          "location": "node_modules/micromatch",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "micromatch",
+              "spec": "^4.0.4",
+              "from": {
+                "name": "fast-glob",
+                "version": "3.3.1",
+                "location": "node_modules/fast-glob",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "fast-glob",
+                    "spec": "3.3.1",
+                    "from": {
+                      "name": "@next/eslint-plugin-next",
+                      "version": "15.5.28",
+                      "location": "node_modules/@next/eslint-plugin-next",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@next/eslint-plugin-next",
+                          "spec": "15.5.28",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "dev": true,
+                "optional": false,
+                "devOptional": false,
+                "peer": false,
+                "bundled": false,
+                "overridden": false
+              }
+            },
+            {
+              "type": "prod",
+              "name": "micromatch",
+              "spec": "^4.0.8",
+              "from": {
+                "name": "tailwindcss",
+                "version": "3.4.19",
+                "location": "node_modules/tailwindcss",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "dev",
+                    "name": "tailwindcss",
+                    "spec": "^3.4.17",
+                    "from": {
+                      "location": "/Users/yavuz/Projects/BayesSoft_website"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "micromatch",
+              "spec": "^4.0.8",
+              "from": {
+                "name": "fast-glob",
+                "version": "3.3.3",
+                "location": "node_modules/tailwindcss/node_modules/fast-glob",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "fast-glob",
+                    "spec": "^3.3.2",
+                    "from": {
+                      "name": "tailwindcss",
+                      "version": "3.4.19",
+                      "location": "node_modules/tailwindcss",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "dev",
+                          "name": "tailwindcss",
+                          "spec": "^3.4.17",
+                          "from": {
+                            "location": "/Users/yavuz/Projects/BayesSoft_website"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "dev": true,
+                "optional": false,
+                "devOptional": false,
+                "peer": false,
+                "bundled": false,
+                "overridden": false
+              }
+            }
+          ],
+          "dev": true,
+          "optional": false,
+          "devOptional": false,
+          "peer": false,
+          "bundled": false,
+          "overridden": false
+        }
+      }
+    ],
+    "dev": true,
+    "optional": false,
+    "devOptional": false,
+    "peer": false,
+    "bundled": false,
+    "overridden": false
+  },
+  {
+    "name": "browserslist",
+    "version": "4.28.4",
+    "location": "node_modules/browserslist",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "browserslist",
+        "spec": "^4.28.4",
+        "from": {
+          "name": "autoprefixer",
+          "version": "10.5.2",
+          "location": "node_modules/autoprefixer",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "dev",
+              "name": "autoprefixer",
+              "spec": "^10.4.20",
+              "from": {
+                "location": "/Users/yavuz/Projects/BayesSoft_website"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "browserslist",
+        "spec": ">= 4.21.0",
+        "from": {
+          "name": "update-browserslist-db",
+          "version": "1.2.3",
+          "location": "node_modules/update-browserslist-db",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "update-browserslist-db",
+              "spec": "^1.2.3",
+              "from": {
+                "name": "browserslist",
+                "version": "4.28.4"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "dev": true,
+    "optional": false,
+    "devOptional": false,
+    "peer": false,
+    "bundled": false,
+    "overridden": false
+  },
+  {
+    "name": "chokidar",
+    "version": "3.6.0",
+    "location": "node_modules/chokidar",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "chokidar",
+        "spec": "^3.6.0",
+        "from": {
+          "name": "tailwindcss",
+          "version": "3.4.19",
+          "location": "node_modules/tailwindcss",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "dev",
+              "name": "tailwindcss",
+              "spec": "^3.4.17",
+              "from": {
+                "location": "/Users/yavuz/Projects/BayesSoft_website"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "dev": true,
+    "optional": false,
+    "devOptional": false,
+    "peer": false,
+    "bundled": false,
+    "overridden": false
+  },
+  {
+    "name": "fast-glob",
+    "version": "3.3.1",
+    "location": "node_modules/fast-glob",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "fast-glob",
+        "spec": "3.3.1",
+        "from": {
+          "name": "@next/eslint-plugin-next",
+          "version": "15.5.28",
+          "location": "node_modules/@next/eslint-plugin-next",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@next/eslint-plugin-next",
+              "spec": "15.5.28",
+              "from": {
+                "name": "eslint-config-next",
+                "version": "15.5.28",
+                "location": "node_modules/eslint-config-next",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "dev",
+                    "name": "eslint-config-next",
+                    "spec": "^15.5.28",
+                    "from": {
+                      "location": "/Users/yavuz/Projects/BayesSoft_website"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "dev": true,
+    "optional": false,
+    "devOptional": false,
+    "peer": false,
+    "bundled": false,
+    "overridden": false
+  },
+  {
+    "name": "fast-glob",
+    "version": "3.3.3",
+    "location": "node_modules/tailwindcss/node_modules/fast-glob",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "fast-glob",
+        "spec": "^3.3.2",
+        "from": {
+          "name": "tailwindcss",
+          "version": "3.4.19",
+          "location": "node_modules/tailwindcss",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "dev",
+              "name": "tailwindcss",
+              "spec": "^3.4.17",
+              "from": {
+                "location": "/Users/yavuz/Projects/BayesSoft_website"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "dev": true,
+    "optional": false,
+    "devOptional": false,
+    "peer": false,
+    "bundled": false,
+    "overridden": false
+  },
+  {
+    "name": "js-yaml",
+    "version": "4.3.0",
+    "location": "node_modules/js-yaml",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "js-yaml",
+        "spec": "^4.1.1",
+        "from": {
+          "name": "@eslint/eslintrc",
+          "version": "3.3.5",
+          "location": "node_modules/@eslint/eslintrc",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@eslint/eslintrc",
+              "spec": "^3.3.5",
+              "from": {
+                "name": "eslint",
+                "version": "9.39.4",
+                "location": "node_modules/eslint",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "dev",
+                    "name": "eslint",
+                    "spec": "^9.17.0",
+                    "from": {
+                      "location": "/Users/yavuz/Projects/BayesSoft_website"
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^6.0.0 || ^7.0.0 || >=8.0.0",
+                    "from": {
+                      "name": "@eslint-community/eslint-utils",
+                      "version": "4.9.1",
+                      "location": "node_modules/@eslint-community/eslint-utils",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@eslint-community/eslint-utils",
+                          "spec": "^4.9.1",
+                          "from": {
+                            "name": "@typescript-eslint/utils",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/utils",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/utils",
+                                "spec": "8.62.1",
+                                "from": {
+                                  "name": "@typescript-eslint/eslint-plugin",
+                                  "version": "8.62.1",
+                                  "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/eslint-plugin",
+                                      "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                      "from": {
+                                        "name": "eslint-config-next",
+                                        "version": "15.5.28",
+                                        "location": "node_modules/eslint-config-next",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "dev",
+                                            "name": "eslint-config-next",
+                                            "spec": "^15.5.28",
+                                            "from": {
+                                              "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/utils",
+                                "spec": "8.62.1",
+                                "from": {
+                                  "name": "@typescript-eslint/type-utils",
+                                  "version": "8.62.1",
+                                  "location": "node_modules/@typescript-eslint/type-utils",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/type-utils",
+                                      "spec": "8.62.1",
+                                      "from": {
+                                        "name": "@typescript-eslint/eslint-plugin",
+                                        "version": "8.62.1",
+                                        "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "prod",
+                                            "name": "@typescript-eslint/eslint-plugin",
+                                            "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                            "from": {
+                                              "name": "eslint-config-next",
+                                              "version": "15.5.28",
+                                              "location": "node_modules/eslint-config-next",
+                                              "isWorkspace": false,
+                                              "dependents": [
+                                                {
+                                                  "type": "dev",
+                                                  "name": "eslint-config-next",
+                                                  "spec": "^15.5.28",
+                                                  "from": {
+                                                    "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "prod",
+                          "name": "@eslint-community/eslint-utils",
+                          "spec": "^4.8.0",
+                          "from": {
+                            "name": "eslint",
+                            "version": "9.39.4"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^8.57.0 || ^9.0.0 || ^10.0.0",
+                    "from": {
+                      "name": "@typescript-eslint/eslint-plugin",
+                      "version": "8.62.1",
+                      "location": "node_modules/@typescript-eslint/eslint-plugin",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@typescript-eslint/eslint-plugin",
+                          "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^8.57.0 || ^9.0.0 || ^10.0.0",
+                    "from": {
+                      "name": "@typescript-eslint/parser",
+                      "version": "8.62.1",
+                      "location": "node_modules/@typescript-eslint/parser",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "peer",
+                          "name": "@typescript-eslint/parser",
+                          "spec": "^8.62.1",
+                          "from": {
+                            "name": "@typescript-eslint/eslint-plugin",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/eslint-plugin",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/eslint-plugin",
+                                "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "prod",
+                          "name": "@typescript-eslint/parser",
+                          "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^8.57.0 || ^9.0.0 || ^10.0.0",
+                    "from": {
+                      "name": "@typescript-eslint/type-utils",
+                      "version": "8.62.1",
+                      "location": "node_modules/@typescript-eslint/type-utils",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@typescript-eslint/type-utils",
+                          "spec": "8.62.1",
+                          "from": {
+                            "name": "@typescript-eslint/eslint-plugin",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/eslint-plugin",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/eslint-plugin",
+                                "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^8.57.0 || ^9.0.0 || ^10.0.0",
+                    "from": {
+                      "name": "@typescript-eslint/utils",
+                      "version": "8.62.1",
+                      "location": "node_modules/@typescript-eslint/utils",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@typescript-eslint/utils",
+                          "spec": "8.62.1",
+                          "from": {
+                            "name": "@typescript-eslint/eslint-plugin",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/eslint-plugin",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/eslint-plugin",
+                                "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "prod",
+                          "name": "@typescript-eslint/utils",
+                          "spec": "8.62.1",
+                          "from": {
+                            "name": "@typescript-eslint/type-utils",
+                            "version": "8.62.1",
+                            "location": "node_modules/@typescript-eslint/type-utils",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@typescript-eslint/type-utils",
+                                "spec": "8.62.1",
+                                "from": {
+                                  "name": "@typescript-eslint/eslint-plugin",
+                                  "version": "8.62.1",
+                                  "location": "node_modules/@typescript-eslint/eslint-plugin",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@typescript-eslint/eslint-plugin",
+                                      "spec": "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+                                      "from": {
+                                        "name": "eslint-config-next",
+                                        "version": "15.5.28",
+                                        "location": "node_modules/eslint-config-next",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "dev",
+                                            "name": "eslint-config-next",
+                                            "spec": "^15.5.28",
+                                            "from": {
+                                              "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^7.23.0 || ^8.0.0 || ^9.0.0",
+                    "from": {
+                      "name": "eslint-config-next",
+                      "version": "15.5.28",
+                      "location": "node_modules/eslint-config-next",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "dev",
+                          "name": "eslint-config-next",
+                          "spec": "^15.5.28",
+                          "from": {
+                            "location": "/Users/yavuz/Projects/BayesSoft_website"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "*",
+                    "from": {
+                      "name": "eslint-import-resolver-typescript",
+                      "version": "3.10.1",
+                      "location": "node_modules/eslint-import-resolver-typescript",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "eslint-import-resolver-typescript",
+                          "spec": "^3.5.2",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8 || ^9",
+                    "from": {
+                      "name": "eslint-plugin-import",
+                      "version": "2.32.0",
+                      "location": "node_modules/eslint-plugin-import",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "eslint-plugin-import",
+                          "spec": "^2.31.0",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peerOptional",
+                          "name": "eslint-plugin-import",
+                          "spec": "*",
+                          "from": {
+                            "name": "eslint-import-resolver-typescript",
+                            "version": "3.10.1",
+                            "location": "node_modules/eslint-import-resolver-typescript",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "eslint-import-resolver-typescript",
+                                "spec": "^3.5.2",
+                                "from": {
+                                  "name": "eslint-config-next",
+                                  "version": "15.5.28",
+                                  "location": "node_modules/eslint-config-next",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "dev",
+                                      "name": "eslint-config-next",
+                                      "spec": "^15.5.28",
+                                      "from": {
+                                        "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9",
+                    "from": {
+                      "name": "eslint-plugin-jsx-a11y",
+                      "version": "6.10.2",
+                      "location": "node_modules/eslint-plugin-jsx-a11y",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "eslint-plugin-jsx-a11y",
+                          "spec": "^6.10.0",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7",
+                    "from": {
+                      "name": "eslint-plugin-react",
+                      "version": "7.37.5",
+                      "location": "node_modules/eslint-plugin-react",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "eslint-plugin-react",
+                          "spec": "^7.37.0",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "eslint",
+                    "spec": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0",
+                    "from": {
+                      "name": "eslint-plugin-react-hooks",
+                      "version": "5.2.0",
+                      "location": "node_modules/eslint-plugin-react-hooks",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "eslint-plugin-react-hooks",
+                          "spec": "^5.0.0",
+                          "from": {
+                            "name": "eslint-config-next",
+                            "version": "15.5.28",
+                            "location": "node_modules/eslint-config-next",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "dev",
+                                "name": "eslint-config-next",
+                                "spec": "^15.5.28",
+                                "from": {
+                                  "location": "/Users/yavuz/Projects/BayesSoft_website"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "dev": true,
+    "optional": false,
+    "devOptional": false,
+    "peer": false,
+    "bundled": false,
+    "overridden": false
+  },
+  {
+    "name": "micromatch",
+    "version": "4.0.8",
+    "location": "node_modules/micromatch",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "micromatch",
+        "spec": "^4.0.4",
+        "from": {
+          "name": "fast-glob",
+          "version": "3.3.1",
+          "location": "node_modules/fast-glob",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "fast-glob",
+              "spec": "3.3.1",
+              "from": {
+                "name": "@next/eslint-plugin-next",
+                "version": "15.5.28",
+                "location": "node_modules/@next/eslint-plugin-next",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@next/eslint-plugin-next",
+                    "spec": "15.5.28",
+                    "from": {
+                      "name": "eslint-config-next",
+                      "version": "15.5.28",
+                      "location": "node_modules/eslint-config-next",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "dev",
+                          "name": "eslint-config-next",
+                          "spec": "^15.5.28",
+                          "from": {
+                            "location": "/Users/yavuz/Projects/BayesSoft_website"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "dev": true,
+          "optional": false,
+          "devOptional": false,
+          "peer": false,
+          "bundled": false,
+          "overridden": false
+        }
+      },
+      {
+        "type": "prod",
+        "name": "micromatch",
+        "spec": "^4.0.8",
+        "from": {
+          "name": "tailwindcss",
+          "version": "3.4.19",
+          "location": "node_modules/tailwindcss",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "dev",
+              "name": "tailwindcss",
+              "spec": "^3.4.17",
+              "from": {
+                "location": "/Users/yavuz/Projects/BayesSoft_website"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "prod",
+        "name": "micromatch",
+        "spec": "^4.0.8",
+        "from": {
+          "name": "fast-glob",
+          "version": "3.3.3",
+          "location": "node_modules/tailwindcss/node_modules/fast-glob",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "fast-glob",
+              "spec": "^3.3.2",
+              "from": {
+                "name": "tailwindcss",
+                "version": "3.4.19",
+                "location": "node_modules/tailwindcss",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "dev",
+                    "name": "tailwindcss",
+                    "spec": "^3.4.17",
+                    "from": {
+                      "location": "/Users/yavuz/Projects/BayesSoft_website"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "dev": true,
+          "optional": false,
+          "devOptional": false,
+          "peer": false,
+          "bundled": false,
+          "overridden": false
+        }
+      }
+    ],
+    "dev": true,
+    "optional": false,
+    "devOptional": false,
+    "peer": false,
+    "bundled": false,
+    "overridden": false
+  },
+  {
+    "name": "postcss-nested",
+    "version": "6.2.0",
+    "location": "node_modules/postcss-nested",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "postcss-nested",
+        "spec": "^6.2.0",
+        "from": {
+          "name": "tailwindcss",
+          "version": "3.4.19",
+          "location": "node_modules/tailwindcss",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "dev",
+              "name": "tailwindcss",
+              "spec": "^3.4.17",
+              "from": {
+                "location": "/Users/yavuz/Projects/BayesSoft_website"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "dev": true,
+    "optional": false,
+    "devOptional": false,
+    "peer": false,
+    "bundled": false,
+    "overridden": false
+  },
+  {
+    "name": "postcss-selector-parser",
+    "version": "6.1.4",
+    "location": "node_modules/postcss-selector-parser",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "postcss-selector-parser",
+        "spec": "^6.1.1",
+        "from": {
+          "name": "postcss-nested",
+          "version": "6.2.0",
+          "location": "node_modules/postcss-nested",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "postcss-nested",
+              "spec": "^6.2.0",
+              "from": {
+                "name": "tailwindcss",
+                "version": "3.4.19",
+                "location": "node_modules/tailwindcss",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "dev",
+                    "name": "tailwindcss",
+                    "spec": "^3.4.17",
+                    "from": {
+                      "location": "/Users/yavuz/Projects/BayesSoft_website"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "dev": true,
+          "optional": false,
+          "devOptional": false,
+          "peer": false,
+          "bundled": false,
+          "overridden": false
+        }
+      },
+      {
+        "type": "prod",
+        "name": "postcss-selector-parser",
+        "spec": "^6.1.2",
+        "from": {
+          "name": "tailwindcss",
+          "version": "3.4.19",
+          "location": "node_modules/tailwindcss",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "dev",
+              "name": "tailwindcss",
+              "spec": "^3.4.17",
+              "from": {
+                "location": "/Users/yavuz/Projects/BayesSoft_website"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "dev": true,
+    "optional": false,
+    "devOptional": false,
+    "peer": false,
+    "bundled": false,
+    "overridden": false
+  }
+]

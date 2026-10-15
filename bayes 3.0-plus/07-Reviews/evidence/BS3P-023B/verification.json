@@ -1,0 +1,75 @@
+{
+  "webkit": {
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+    "renderer": "projected-surfaces",
+    "desktopGeometry": {
+      "width": 802,
+      "radius": "465.32312499999995px",
+      "perspective": "2888.2125px",
+      "panelCount": 9,
+      "slices": 117
+    },
+    "names": [
+      "FurtherUp Drive",
+      "Reviel",
+      "Metek Makina"
+    ],
+    "duration": 1040,
+    "midTurn": "-20.353928549279296deg",
+    "links": {
+      "live": "https://metekmakina.com/urunler",
+      "rel": "noopener noreferrer",
+      "detail": false
+    },
+    "keyboard": true,
+    "idleStyleWrites": 0,
+    "pausedManualGallery": true,
+    "mobile": {
+      "lang": "de",
+      "overflow": false,
+      "renderer": "projected-surfaces",
+      "duration": 700
+    },
+    "reduced": {
+      "name": "Metek Makina",
+      "animations": 0
+    },
+    "errors": []
+  },
+  "chromium": {
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "renderer": null,
+    "desktopGeometry": {
+      "width": 802,
+      "radius": "465.32312499999995px",
+      "perspective": "2888.2125px",
+      "panelCount": 9,
+      "slices": 117
+    },
+    "names": [
+      "FurtherUp Drive",
+      "Reviel",
+      "Metek Makina"
+    ],
+    "duration": 1040,
+    "midTurn": "",
+    "links": {
+      "live": "https://metekmakina.com/urunler",
+      "rel": "noopener noreferrer",
+      "detail": false
+    },
+    "keyboard": true,
+    "pausedManualGallery": true,
+    "mobile": {
+      "lang": "de",
+      "overflow": false,
+      "renderer": null,
+      "duration": 700
+    },
+    "reduced": {
+      "name": "Metek Makina",
+      "animations": 0
+    },
+    "errors": []
+  }
+}

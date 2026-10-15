@@ -1,0 +1,34 @@
+{
+  "nativeSafari": "27.0 CUA AX; production export diagnostic mirror3020, server stopped",
+  "rootTopReload": [
+    0,
+    0
+  ],
+  "rootDownReload": [
+    622,
+    622
+  ],
+  "selectedProjects": 1093,
+  "nativeBack": 622,
+  "nativeForward": 1093,
+  "heroManualTopReload": [
+    0,
+    82
+  ],
+  "active": "BODY",
+  "scrollRestoration": "auto",
+  "heroHeight": 718,
+  "applicationScrollOrFocusCalls": 0,
+  "productionUninstrumented3019RootAXScrollBarAfterReload": 0,
+  "applicationChanges": 0,
+  "rootCause": "Reproduced fragment #hero re-anchoring; hash-free root bug not reproduced; original user URL not recorded",
+  "status": "PENDING USER SAFARI ACCEPTANCE",
+  "limitations": [
+    "Native values from diagnostic response mirror, not persistent app code",
+    "WebKit immediate programmatic down-scroll/reload differed from native Safari",
+    "Playwright locator scrolls header into view, altering saved history position",
+    "Same-document hash changes retain earlier PerformanceNavigationTiming type",
+    "Native Safari CLS not measured; lack of WebKit layout-shift entries is not CLS0 proof",
+    "No new TypeScript/lint/build: unchanged source; existing export verifier passed"
+  ]
+}

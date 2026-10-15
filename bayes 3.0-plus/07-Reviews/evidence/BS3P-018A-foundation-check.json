@@ -1,0 +1,64 @@
+{
+  "checkpoint": "1218e58",
+  "immutableSourcesSha256": {
+    "app/page.tsx": "6a6bf8f670061ab336c6d4b8f30a0b1edf8100562598c403f2ec74a47ae804c2",
+    "app/layout.tsx": "78047c064693cc7e2b40143e0ea42edd2b32203d562c10da3ef0e1dfc4d29f46",
+    "components/Header.tsx": "55a72e2f318212390eb950888297334c7ad6801d204cb2db71aec60235ccbd12",
+    "components/Footer.tsx": "5425c14c003c5e44f228f0f22e26ff4f43a62ed43720505ab604ba96b6d264ee",
+    "data/home.ts": "16e7fc297b8870b3c67972ed58e9f6abd3d53c3fb277a20ab6ba2ae33d210c99",
+    "data/site.ts": "a023718e1b90cd420e249270b133a2ea8ed572246694ac6b625b0d5458ea39df",
+    "data/projectDetails.ts": "443a88ed06ea612a3ce4eb5928018eb635bf0a43a0f66c9eddf927f4c4f6ba53",
+    "data/seo.ts": "9da8bdb04611551c49777ebc5c67a01f34df6cad1568f22d05ae24941ed1116d",
+    "data/config.ts": "ff1a788677ca92806a84d26a603dfc7af20c79a94f6862632845566c8d59d37b",
+    "app/sitemap.ts": "862d3f3771871c522507be4e773bd55102b0760c0dec9e3ecd099c1b568812c1",
+    "app/robots.ts": "c733390c5247f34c3b1fd4bb7411d1ad43f3135a6ee6c45e9d2cc0dd09d35797",
+    "app/iletisim/page.tsx": "06abcfad766df83cad07e7474704c979f42862f184011598bb5dfb072cfb2fb3",
+    "next.config.mjs": "2617779b612e97201dd6c3a54738f4be5b7156f1dd0aad30ca7eb81ce038662d",
+    "package-lock.json": "df8bd93d5f999bbc7436e005364c0b90028ba27d4de2ab1d04e741f5acc60fe6"
+  },
+  "changedBaselineFiles": [
+    "components/LanguageProvider.tsx",
+    "data/i18n.ts",
+    ".github/workflows/pages.yml",
+    "package.json"
+  ],
+  "typecheck": "passed",
+  "targetedLint": "passed",
+  "productionBuild": "passed with network approval; initial sandbox Google Fonts DNS failed",
+  "export": {
+    "files": 677,
+    "prototypeArtifacts": 0,
+    "prototypeDependencies": 0,
+    "canonical": "https://bayessoft.com.tr",
+    "robots": [
+      "index, follow"
+    ],
+    "jsonLdScripts": 2,
+    "sitemapUrls": [
+      "https://bayessoft.com.tr/",
+      "https://bayessoft.com.tr/hakkimizda",
+      "https://bayessoft.com.tr/hizmetler",
+      "https://bayessoft.com.tr/projeler",
+      "https://bayessoft.com.tr/iletisim",
+      "https://bayessoft.com.tr/projeler/tam-finans-fintech",
+      "https://bayessoft.com.tr/projeler/smart-hospital",
+      "https://bayessoft.com.tr/projeler/petnest-platform",
+      "https://bayessoft.com.tr/projeler/atli-logistics",
+      "https://bayessoft.com.tr/projeler/military-aircraft-classification",
+      "https://bayessoft.com.tr/projeler/ai-chatbot",
+      "https://bayessoft.com.tr/projeler/furtherup-drive",
+      "https://bayessoft.com.tr/projeler/maritime-horizon-segmentation"
+    ]
+  },
+  "devRoutes200": [
+    "bs3p-homepage",
+    "bs3p-project-showcase",
+    "bs3p-project-showcase-r2",
+    "bs3p-right-3d",
+    "spatial-hero",
+    "spatial-hero-plus"
+  ],
+  "localStaticPrototypeStatuses": "404 (10 direct/encoded/HTML/asset variants)",
+  "liveHostTested": false,
+  "deploy": false
+}

@@ -1,0 +1,87 @@
+/* R3 overrides are exclusive to the integrated route. Face transforms, prism
+   height/depth, typography, motion timing and the R1 renderer stay shared. */
+:root{color:#172b43;background:#f3f5f7;--paper:#f3f5f7;--stage:#f3f5f7;--muted:#53677a;--blue:#285bd6;--mobile:#6675cf;--logic:#ca823b;--data:#536f89}
+.plus-shell{padding:30px 64px 28px}
+.plus-shell .prototype-header{grid-template-columns:540px minmax(0,1fr);gap:40px}
+.plus-shell .contact-action{border-color:#bdc9d7}
+.header-actions{display:flex;align-items:center;gap:24px}
+.language-options{display:flex;align-items:center;gap:2px;font-size:12px;font-weight:500;color:#53677a}
+.language-options>a,.language-current{min-width:36px;min-height:44px;display:grid;place-items:center;position:relative}
+.language-options>a:hover{color:#285bd6}
+.language-current{color:#285bd6}
+.language-current::after{content:"";position:absolute;bottom:8px;width:12px;height:1px;background:currentColor}
+.integrated-header{position:relative;z-index:10}
+.plus-composition{display:grid;grid-template-columns:540px minmax(0,1fr);gap:40px;align-items:center;margin-top:32px;padding:64px 0;min-height:620px;isolation:isolate}
+.prism-column{position:relative;min-width:0}
+.prism-column>.interaction-region{width:100%;margin:0}
+.prism-column .architectural-object{aspect-ratio:540/420}
+.prism-column .plate-face{border:1px solid #e2e8ee;background:#fff;box-shadow:0 5px 20px rgb(33 53 74 / .035)}
+.prism-column .face-1,.prism-column .face-3{background:#f9fbfd}
+.prism-column .face-2{background:#f6f9fc}
+.prism-column .prism-end{background:#e3eaf1}
+/* The carrier no longer reserves 46px above/below a resting face. This space
+   under the rotor instead protects its square section during a 45° turn. */
+.prism-column>.motion-controls{position:absolute;left:0;top:100%;width:100%;margin-top:60px;justify-content:center}
+.prism-column .face-controls{gap:8px}
+.prism-column .face-controls button{width:44px;height:44px;touch-action:manipulation}
+.prism-column .face-controls button:focus-visible{outline:2px solid #285bd6;outline-offset:-5px}
+.prism-column .face-dot{width:6px;height:6px;border-color:#718499}
+.prism-column .face-controls button[aria-pressed=true] .face-dot{width:8px;height:8px;background:#285bd6;border-color:#285bd6}
+.system-column{position:relative;min-width:0}
+.plus-shell .scene{aspect-ratio:8/5}
+.scene-replay{position:absolute;inset:0;width:100%;height:100%;padding:0;border:0;border-radius:0;background:transparent;color:inherit;z-index:5;cursor:pointer;touch-action:manipulation}
+.scene-replay:disabled{cursor:default}
+.scene-replay:focus-visible{outline:2px solid #285bd6;outline-offset:8px;border-radius:3px}
+.plus-footer{min-height:44px;margin-top:22px;display:flex;align-items:center}
+.plus-footer .service-labels{font-size:18px;gap:14px 32px}
+.plus-shell .surface-ui{pointer-events:none}
+.plus-shell .data-table{color:#2e4b67}
+.plus-shell .data-table em{color:#49667f}
+.plus-shell .data-table i{border-color:#5c7791}
+.plus-shell .data-table>div{border-bottom-color:#9eb3c7}
+.plus-shell .data-table .selected{color:#294a68;font-weight:600}
+.plus-shell .data-baseline span{background:#7993ac}
+.plus-shell .layer-number{color:#536f89}
+.plus-shell .rule-flow .rule-gate{border-color:var(--logic);background:#fbefe3;color:#8b501b}
+.plus-shell .browser-bar{color:#345ca3}
+.plus-shell .record-active{background:#e8f0ff;border-color:#7fa5ef;color:#214fba}
+.plus-shell .record-active>span{font-weight:600}
+.plus-shell .record-active>b{color:#285bd6;background:#d4e3ff}
+.plus-shell .mobile-header{color:#5e6bb7;border-bottom-color:#afb9e3}
+.plus-shell .mobile-header i,.plus-shell .mobile-action{background:#8a97d8}
+.plus-shell .mobile-record{background:#eeeffb;border-color:#949fda;color:#495ab1}
+.plus-shell .mobile-lines{color:#536592}
+@media(max-width:1400px){.plus-shell{padding-inline:40px}}
+@media(max-width:1199px){
+  .plus-shell .prototype-header{grid-template-columns:auto minmax(0,1fr);gap:32px}
+  .plus-composition{grid-template-columns:minmax(0,1fr);gap:40px;padding:56px 0 20px;min-height:0}
+  .prism-column{width:min(100%,540px);margin-inline:auto}
+  .prism-column>.motion-controls{position:static;margin-top:60px;justify-content:center}
+  .system-column{width:min(100%,800px);margin-inline:auto}
+  .plus-footer{justify-content:center;margin-top:28px}
+}
+@media(max-width:899px){
+  .plus-shell{padding:22px 24px 24px}
+  .plus-composition{gap:28px;margin-top:20px;padding-top:40px}
+  .integrated-header .header-links{display:none}
+  .plus-shell .integrated-header{grid-template-columns:minmax(0,1fr) auto}
+  .integrated-header .mobile-nav{display:block;position:relative;justify-self:end;font-size:14px}
+  .integrated-header .mobile-nav summary{cursor:pointer;list-style:none;min-height:44px;display:flex;align-items:center;gap:10px;padding:0 8px}
+  .integrated-header .mobile-nav summary::after{content:"";width:14px;height:8px;border-block:1px solid currentColor}
+  .integrated-header .mobile-nav[open] summary::after{height:1px;border-bottom:0}
+  .integrated-header .mobile-nav summary::-webkit-details-marker{display:none}
+  .integrated-header .mobile-nav nav{position:absolute;top:48px;right:0;display:grid;z-index:4;width:min(320px,calc(100vw - 48px));padding:20px;background:#f9fbfd;border:1px solid #d4dfe9;border-radius:3px;box-shadow:0 12px 32px rgb(23 43 67 / .07)}
+  .integrated-header .mobile-nav a{display:flex;align-items:center;min-height:44px;padding:10px 8px}
+  .integrated-header .mobile-nav .language-options{display:flex;gap:12px;margin-top:12px;border-top:1px solid #dbe4ed;padding-top:12px}
+  .integrated-header .mobile-nav .language-options>a,.integrated-header .mobile-nav .language-current{width:44px;min-height:44px;padding:0}
+  .integrated-header .mobile-nav .contact-action{margin-top:16px;justify-content:center}
+}
+@media(max-width:699px){
+  .plus-shell{padding:16px 20px 24px}
+  .plus-shell .prototype-header{display:flex;min-height:48px;gap:20px}
+  .plus-composition{margin-top:16px;padding:36px 0 8px;gap:28px}
+  .prism-column>.motion-controls{margin-top:44px;justify-content:center}
+  .integrated-header .mobile-nav nav{width:min(320px,calc(100vw - 40px))}
+  .plus-footer{margin-top:22px;justify-content:flex-start}
+  .plus-footer .service-labels{font-size:16px;gap:8px 16px}
+}

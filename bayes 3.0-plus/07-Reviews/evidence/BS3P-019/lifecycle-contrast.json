@@ -1,0 +1,214 @@
+{
+  "final1": {
+    "mode": "webgl",
+    "ready": "true",
+    "phase": "final",
+    "time": "8.400",
+    "layers": "data,rules,web,mobile",
+    "frames": "509",
+    "drawCalls": "11",
+    "triangles": "1290",
+    "firstPose": "0.000",
+    "running": "false"
+  },
+  "final2": {
+    "mode": "webgl",
+    "ready": "true",
+    "phase": "final",
+    "time": "8.400",
+    "layers": "data,rules,web,mobile",
+    "frames": "509",
+    "drawCalls": "11",
+    "triangles": "1290",
+    "firstPose": "0.000",
+    "running": "false"
+  },
+  "finalFramesStable": true,
+  "retired1": {
+    "canvasCount": 0,
+    "frames": "510",
+    "angle": "-90",
+    "running": "false",
+    "connected": false
+  },
+  "retired2": {
+    "canvasCount": 0,
+    "frames": "510",
+    "angle": "-90",
+    "running": "false"
+  },
+  "retiredStable": true,
+  "contrast": [
+    {
+      "selector": "A",
+      "text": "Ana Sayfa",
+      "color": "rgb(23, 43, 67)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 13.133670822957347,
+      "size": "14px",
+      "weight": "500"
+    },
+    {
+      "selector": "A",
+      "text": "Projeler",
+      "color": "rgb(23, 43, 67)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 13.133670822957347,
+      "size": "14px",
+      "weight": "500"
+    },
+    {
+      "selector": "A",
+      "text": "Hizmetler",
+      "color": "rgb(23, 43, 67)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 13.133670822957347,
+      "size": "14px",
+      "weight": "500"
+    },
+    {
+      "selector": "A",
+      "text": "İletişim",
+      "color": "rgb(23, 43, 67)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 13.133670822957347,
+      "size": "14px",
+      "weight": "500"
+    },
+    {
+      "selector": "BUTTON",
+      "text": "TR",
+      "color": "rgb(40, 91, 214)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 5.401008429193435,
+      "size": "12px",
+      "weight": "500"
+    },
+    {
+      "selector": "BUTTON",
+      "text": "EN",
+      "color": "rgb(83, 103, 122)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 5.353962088933145,
+      "size": "12px",
+      "weight": "500"
+    },
+    {
+      "selector": "BUTTON",
+      "text": "DE",
+      "color": "rgb(83, 103, 122)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 5.353962088933145,
+      "size": "12px",
+      "weight": "500"
+    },
+    {
+      "selector": "cy-index",
+      "text": "01 / 03",
+      "color": "rgb(83, 103, 122)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 5.353962088933145,
+      "size": "15px",
+      "weight": "400"
+    },
+    {
+      "selector": "cy-category",
+      "text": "Enterprise Coaching",
+      "color": "rgb(83, 103, 122)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 5.353962088933145,
+      "size": "14px",
+      "weight": "400"
+    },
+    {
+      "selector": "cy-technology",
+      "text": "Java / Spring Boot / React / TypeScript / Vite",
+      "color": "rgb(83, 103, 122)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 5.353962088933145,
+      "size": "13px",
+      "weight": "400"
+    },
+    {
+      "selector": "cy-description",
+      "text": "Koçluk, gelişim değerlendirmeleri ve abonelik süreçlerini bi",
+      "color": "rgb(21, 38, 59)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 14.002183715146872,
+      "size": "17px",
+      "weight": "400"
+    },
+    {
+      "selector": "cy-detail",
+      "text": "Proje detayları",
+      "color": "rgb(21, 38, 59)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 14.002183715146872,
+      "size": "16px",
+      "weight": "500"
+    },
+    {
+      "selector": "homepage-live",
+      "text": "Canlı site ↗",
+      "color": "rgb(83, 103, 122)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 5.353962088933145,
+      "size": "15px",
+      "weight": "400"
+    },
+    {
+      "selector": "P",
+      "text": "İş akışınıza uyum sağlayan web arayüzleri.",
+      "color": "rgb(83, 103, 122)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 5.353962088933145,
+      "size": "16px",
+      "weight": "400"
+    },
+    {
+      "selector": "P",
+      "text": "Günlük kullanıma odaklanan mobil deneyimler.",
+      "color": "rgb(83, 103, 122)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 5.353962088933145,
+      "size": "16px",
+      "weight": "400"
+    },
+    {
+      "selector": "P",
+      "text": "Ürününüzde anlamlı karşılığı olan akıllı çözümler.",
+      "color": "rgb(83, 103, 122)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 5.353962088933145,
+      "size": "16px",
+      "weight": "400"
+    },
+    {
+      "selector": "P",
+      "text": "İhtiyacınıza göre şekillenen sistemler ve entegrasyonlar.",
+      "color": "rgb(83, 103, 122)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 5.353962088933145,
+      "size": "16px",
+      "weight": "400"
+    },
+    {
+      "selector": "P",
+      "text": "İşinize göre yazılım. Birlikte, uçtan uca.",
+      "color": "rgb(83, 103, 122)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 5.353962088933145,
+      "size": "18px",
+      "weight": "400"
+    },
+    {
+      "selector": "homepage-copyright",
+      "text": "© 2026 BayesSoft. Tüm hakları saklıdır.",
+      "color": "rgb(83, 103, 122)",
+      "background": "rgb(243, 245, 247)",
+      "ratio": 5.353962088933145,
+      "size": "13px",
+      "weight": "400"
+    }
+  ]
+}

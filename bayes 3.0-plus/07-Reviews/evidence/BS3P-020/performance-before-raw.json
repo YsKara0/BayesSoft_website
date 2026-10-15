@@ -1,0 +1,594 @@
+{
+  "method": "Single cold-context local static production run, identity HTTP transfer, not Lighthouse or field CWV.",
+  "mobile": {
+    "metrics": {
+      "lcp": [
+        {
+          "name": "",
+          "entryType": "largest-contentful-paint",
+          "startTime": 3160,
+          "duration": 0,
+          "navigationId": 3188,
+          "paintTime": 3133.699999988079,
+          "presentationTime": 3160,
+          "size": 32549,
+          "renderTime": 3160,
+          "loadTime": 0,
+          "id": "",
+          "url": "",
+          "element": "P",
+          "elementClass": "face-heading"
+        },
+        {
+          "name": "",
+          "entryType": "largest-contentful-paint",
+          "startTime": 7964,
+          "duration": 0,
+          "navigationId": 3188,
+          "paintTime": 7955.9000000059605,
+          "presentationTime": 7964,
+          "size": 68950,
+          "renderTime": 7964,
+          "loadTime": 7929.5999999940395,
+          "id": "",
+          "url": "http://127.0.0.1:3019/hero/system-static.svg",
+          "element": "IMG",
+          "elementClass": "static-art"
+        }
+      ],
+      "shifts": [],
+      "events": [],
+      "longTasks": [
+        {
+          "name": "self",
+          "entryType": "longtask",
+          "startTime": 7828.799999982119,
+          "duration": 68,
+          "navigationId": 3188,
+          "attribution": [
+            {
+              "name": "unknown",
+              "entryType": "taskattribution",
+              "startTime": 0,
+              "duration": 0,
+              "navigationId": 3188,
+              "containerType": "window",
+              "containerSrc": "",
+              "containerId": "",
+              "containerName": ""
+            }
+          ]
+        }
+      ]
+    },
+    "paint": [
+      {
+        "name": "first-paint",
+        "entryType": "paint",
+        "startTime": 3160,
+        "duration": 0,
+        "navigationId": 3188,
+        "paintTime": 3133.699999988079,
+        "presentationTime": 3160
+      },
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 3160,
+        "duration": 0,
+        "navigationId": 3188,
+        "paintTime": 3133.699999988079,
+        "presentationTime": 3160
+      }
+    ],
+    "navigation": [
+      {
+        "name": "http://127.0.0.1:3019/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 0,
+        "navigationId": 3188,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.5,
+        "domainLookupStart": 0.5,
+        "domainLookupEnd": 0.5,
+        "connectStart": 0.5,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.5,
+        "requestStart": 1.199999988079071,
+        "responseStart": 2.0999999940395355,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2.0999999940395355,
+        "responseEnd": 1585.5,
+        "transferSize": 78559,
+        "encodedBodySize": 78259,
+        "decodedBodySize": 78259,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 3140.699999988079,
+        "domContentLoadedEventStart": 3140.7999999821186,
+        "domContentLoadedEventEnd": 3140.7999999821186,
+        "domComplete": 0,
+        "loadEventStart": 0,
+        "loadEventEnd": 0,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "low"
+        }
+      }
+    ],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:3019/_next/static/media/52e25459168ca65d-s.p.ttf",
+        "startTime": 170.90000000596046,
+        "duration": 5344,
+        "transferSize": 194636,
+        "encodedBodySize": 194336,
+        "decodedBodySize": 194336
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+        "startTime": 171.59999999403954,
+        "duration": 634.0999999940395,
+        "transferSize": 15504,
+        "encodedBodySize": 15204,
+        "decodedBodySize": 15204
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+        "startTime": 171.59999999403954,
+        "duration": 925.8000000119209,
+        "transferSize": 27572,
+        "encodedBodySize": 27272,
+        "decodedBodySize": 27272
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+        "startTime": 171.59999999403954,
+        "duration": 2502,
+        "transferSize": 85572,
+        "encodedBodySize": 85272,
+        "decodedBodySize": 85272
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+        "startTime": 171.69999998807907,
+        "duration": 790.7000000178814,
+        "transferSize": 21988,
+        "encodedBodySize": 21688,
+        "decodedBodySize": 21688
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+        "startTime": 171.69999998807907,
+        "duration": 2740.5,
+        "transferSize": 40780,
+        "encodedBodySize": 40480,
+        "decodedBodySize": 40480
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/css/a0b90a5851dc9388.css",
+        "startTime": 172.19999998807907,
+        "duration": 1406.800000011921,
+        "transferSize": 21781,
+        "encodedBodySize": 21481,
+        "decodedBodySize": 21481
+      },
+      {
+        "name": "http://127.0.0.1:3019/hero/system-static.svg",
+        "startTime": 172.19999998807907,
+        "duration": 2763.800000011921,
+        "transferSize": 4114,
+        "encodedBodySize": 3814,
+        "decodedBodySize": 3814
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+        "startTime": 172.19999998807907,
+        "duration": 3491.800000011921,
+        "transferSize": 48732,
+        "encodedBodySize": 48432,
+        "decodedBodySize": 48432
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/css/84fe0a4fea8e66ee.css",
+        "startTime": 172.2999999821186,
+        "duration": 2118.600000023842,
+        "transferSize": 36989,
+        "encodedBodySize": 36689,
+        "decodedBodySize": 36689
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/css/830d1fbd9b77b06b.css",
+        "startTime": 172.2999999821186,
+        "duration": 2628,
+        "transferSize": 60459,
+        "encodedBodySize": 60159,
+        "decodedBodySize": 60159
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/webpack-046b6bc30b0bee76.js",
+        "startTime": 176.09999999403954,
+        "duration": 2856.4000000059605,
+        "transferSize": 3882,
+        "encodedBodySize": 3582,
+        "decodedBodySize": 3582
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/css/42ad901520229d8e.css",
+        "startTime": 176.09999999403954,
+        "duration": 2901.4000000059605,
+        "transferSize": 49674,
+        "encodedBodySize": 49374,
+        "decodedBodySize": 49374
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/5d08d3ca-2cf9d6d008e53af1.js",
+        "startTime": 176.7999999821186,
+        "duration": 7581.600000023842,
+        "transferSize": 173319,
+        "encodedBodySize": 173019,
+        "decodedBodySize": 173019
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/950-155d32e92dcd89b7.js",
+        "startTime": 176.7999999821186,
+        "duration": 7649.800000011921,
+        "transferSize": 173874,
+        "encodedBodySize": 173574,
+        "decodedBodySize": 173574
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/main-app-a3c57752c623457f.js",
+        "startTime": 176.90000000596046,
+        "duration": 3043,
+        "transferSize": 855,
+        "encodedBodySize": 555,
+        "decodedBodySize": 555
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/924-b462eba0481c96b1.js",
+        "startTime": 176.90000000596046,
+        "duration": 3276.2999999821186,
+        "transferSize": 8837,
+        "encodedBodySize": 8537,
+        "decodedBodySize": 8537
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/556-d04b40fcd95e10ea.js",
+        "startTime": 176.90000000596046,
+        "duration": 3847.199999988079,
+        "transferSize": 14518,
+        "encodedBodySize": 14218,
+        "decodedBodySize": 14218
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/31-24327e44ebaceb10.js",
+        "startTime": 176.90000000596046,
+        "duration": 4101.199999988079,
+        "transferSize": 16028,
+        "encodedBodySize": 15728,
+        "decodedBodySize": 15728
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/13-6eb35a6e027be468.js",
+        "startTime": 176.90000000596046,
+        "duration": 6734.5,
+        "transferSize": 127312,
+        "encodedBodySize": 127012,
+        "decodedBodySize": 127012
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/app/layout-b7392be7ea522e66.js",
+        "startTime": 177.2999999821186,
+        "duration": 4963,
+        "transferSize": 23261,
+        "encodedBodySize": 22961,
+        "decodedBodySize": 22961
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/705-9cef30d32de67467.js",
+        "startTime": 177.2999999821186,
+        "duration": 5158.700000017881,
+        "transferSize": 39803,
+        "encodedBodySize": 39503,
+        "decodedBodySize": 39503
+      },
+      {
+        "name": "http://127.0.0.1:3019/_next/static/chunks/app/page-26221497d908b39e.js",
+        "startTime": 177.40000000596046,
+        "duration": 6238.299999982119,
+        "transferSize": 39924,
+        "encodedBodySize": 39624,
+        "decodedBodySize": 39624
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/metek.png",
+        "startTime": 229.19999998807907,
+        "duration": 5833.300000011921,
+        "transferSize": 13151,
+        "encodedBodySize": 12851,
+        "decodedBodySize": 12851
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/tamfinans.png",
+        "startTime": 229.19999998807907,
+        "duration": 6643.4000000059605,
+        "transferSize": 48530,
+        "encodedBodySize": 48230,
+        "decodedBodySize": 48230
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/further-up.png",
+        "startTime": 236.2999999821186,
+        "duration": 6592.4000000059605,
+        "transferSize": 7766,
+        "encodedBodySize": 7466,
+        "decodedBodySize": 7466
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/reviel.png",
+        "startTime": 236.2999999821186,
+        "duration": 9471.300000011921,
+        "transferSize": 125982,
+        "encodedBodySize": 125682,
+        "decodedBodySize": 125682
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/kanuni_sultan_suleyman_hastanesi.png",
+        "startTime": 243.19999998807907,
+        "duration": 11661.59999999404,
+        "transferSize": 166542,
+        "encodedBodySize": 166242,
+        "decodedBodySize": 166242
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/arel.png",
+        "startTime": 243.19999998807907,
+        "duration": 12944.5,
+        "transferSize": 213231,
+        "encodedBodySize": 212931,
+        "decodedBodySize": 212931
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/atli.png",
+        "startTime": 243.19999998807907,
+        "duration": 13184.90000000596,
+        "transferSize": 221386,
+        "encodedBodySize": 221086,
+        "decodedBodySize": 221086
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/teskilat-icom.png",
+        "startTime": 251.2999999821186,
+        "duration": 7822.300000011921,
+        "transferSize": 5410,
+        "encodedBodySize": 5110,
+        "decodedBodySize": 5110
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/hypersense.png",
+        "startTime": 251.59999999403954,
+        "duration": 8107,
+        "transferSize": 12963,
+        "encodedBodySize": 12663,
+        "decodedBodySize": 12663
+      },
+      {
+        "name": "http://127.0.0.1:3019/references/zirve-cilingir.png",
+        "startTime": 258.7999999821186,
+        "duration": 16957.100000023842,
+        "transferSize": 367417,
+        "encodedBodySize": 367117,
+        "decodedBodySize": 367117
+      }
+    ],
+    "ready": "true",
+    "lang": "tr",
+    "loadedPosters": [
+      "/projects/covers/furtherup-drive-cover.png",
+      "/projects/covers/reviel-cover.png",
+      "/projects/covers/metek-makina-cover.png"
+    ],
+    "scene": "static",
+    "interactionMetrics": [
+      {
+        "name": "pointerover",
+        "entryType": "event",
+        "startTime": 18192,
+        "duration": 24,
+        "navigationId": 3188,
+        "interactionId": 0,
+        "processingStart": 18192.59999999404,
+        "processingEnd": 18193.09999999404,
+        "cancelable": true
+      },
+      {
+        "name": "pointerenter",
+        "entryType": "event",
+        "startTime": 18192,
+        "duration": 24,
+        "navigationId": 3188,
+        "interactionId": 0,
+        "processingStart": 18193.09999999404,
+        "processingEnd": 18193.09999999404,
+        "cancelable": false
+      },
+      {
+        "name": "pointerenter",
+        "entryType": "event",
+        "startTime": 18192,
+        "duration": 24,
+        "navigationId": 3188,
+        "interactionId": 0,
+        "processingStart": 18193.09999999404,
+        "processingEnd": 18193.09999999404,
+        "cancelable": false
+      },
+      {
+        "name": "pointerenter",
+        "entryType": "event",
+        "startTime": 18192,
+        "duration": 24,
+        "navigationId": 3188,
+        "interactionId": 0,
+        "processingStart": 18193.09999999404,
+        "processingEnd": 18193.09999999404,
+        "cancelable": false
+      },
+      {
+        "name": "pointerenter",
+        "entryType": "event",
+        "startTime": 18192,
+        "duration": 24,
+        "navigationId": 3188,
+        "interactionId": 0,
+        "processingStart": 18193.09999999404,
+        "processingEnd": 18193.09999999404,
+        "cancelable": false
+      },
+      {
+        "name": "pointerenter",
+        "entryType": "event",
+        "startTime": 18192,
+        "duration": 24,
+        "navigationId": 3188,
+        "interactionId": 0,
+        "processingStart": 18193.09999999404,
+        "processingEnd": 18193.09999999404,
+        "cancelable": false
+      },
+      {
+        "name": "pointerenter",
+        "entryType": "event",
+        "startTime": 18192,
+        "duration": 24,
+        "navigationId": 3188,
+        "interactionId": 0,
+        "processingStart": 18193.09999999404,
+        "processingEnd": 18193.09999999404,
+        "cancelable": false
+      },
+      {
+        "name": "pointerenter",
+        "entryType": "event",
+        "startTime": 18192,
+        "duration": 24,
+        "navigationId": 3188,
+        "interactionId": 0,
+        "processingStart": 18193.09999999404,
+        "processingEnd": 18193.09999999404,
+        "cancelable": false
+      },
+      {
+        "name": "pointerenter",
+        "entryType": "event",
+        "startTime": 18192,
+        "duration": 24,
+        "navigationId": 3188,
+        "interactionId": 0,
+        "processingStart": 18193.09999999404,
+        "processingEnd": 18193.09999999404,
+        "cancelable": false
+      },
+      {
+        "name": "mouseover",
+        "entryType": "event",
+        "startTime": 18192,
+        "duration": 24,
+        "navigationId": 3188,
+        "interactionId": 0,
+        "processingStart": 18193.09999999404,
+        "processingEnd": 18193.79999998212,
+        "cancelable": true
+      },
+      {
+        "name": "pointerdown",
+        "entryType": "event",
+        "startTime": 18192,
+        "duration": 24,
+        "navigationId": 3188,
+        "interactionId": 7418,
+        "processingStart": 18194.19999998808,
+        "processingEnd": 18194.29999998212,
+        "cancelable": true
+      },
+      {
+        "name": "mousedown",
+        "entryType": "event",
+        "startTime": 18192,
+        "duration": 24,
+        "navigationId": 3188,
+        "interactionId": 0,
+        "processingStart": 18194.29999998212,
+        "processingEnd": 18194.29999998212,
+        "cancelable": true
+      },
+      {
+        "name": "pointerup",
+        "entryType": "event",
+        "startTime": 18192.09999999404,
+        "duration": 24,
+        "navigationId": 3188,
+        "interactionId": 7418,
+        "processingStart": 18195.79999998212,
+        "processingEnd": 18195.90000000596,
+        "cancelable": true
+      },
+      {
+        "name": "mouseup",
+        "entryType": "event",
+        "startTime": 18192.09999999404,
+        "duration": 24,
+        "navigationId": 3188,
+        "interactionId": 0,
+        "processingStart": 18195.90000000596,
+        "processingEnd": 18196.19999998808,
+        "cancelable": true
+      },
+      {
+        "name": "click",
+        "entryType": "event",
+        "startTime": 18192.09999999404,
+        "duration": 24,
+        "navigationId": 3188,
+        "interactionId": 7418,
+        "processingStart": 18196.19999998808,
+        "processingEnd": 18196.29999998212,
+        "cancelable": true
+      },
+      {
+        "name": "keydown",
+        "entryType": "event",
+        "startTime": 18202.69999998808,
+        "duration": 16,
+        "navigationId": 3188,
+        "interactionId": 7425,
+        "processingStart": 18203,
+        "processingEnd": 18203.90000000596,
+        "cancelable": true
+      }
+    ],
+    "cpuSlowdown": 4,
+    "network": "1.6Mbps down / 0.75Mbps up / 150ms latency"
+  }
+}

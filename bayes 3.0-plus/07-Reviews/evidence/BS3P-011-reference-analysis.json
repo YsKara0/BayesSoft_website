@@ -1,0 +1,65 @@
+{
+  "duration": 5.593333,
+  "width": 2940,
+  "height": 1912,
+  "playbackEnded": true,
+  "frames": [
+    {
+      "time": 0.001123,
+      "target": 0
+    },
+    {
+      "time": 0.506232,
+      "target": 0.5012120909090909
+    },
+    {
+      "time": 1.006455,
+      "target": 1.0024241818181818
+    },
+    {
+      "time": 1.521417,
+      "target": 1.503636272727273
+    },
+    {
+      "time": 2.021006,
+      "target": 2.0048483636363637
+    },
+    {
+      "time": 2.523054,
+      "target": 2.506060454545455
+    },
+    {
+      "time": 3.023391,
+      "target": 3.007272545454546
+    },
+    {
+      "time": 3.522941,
+      "target": 3.508484636363636
+    },
+    {
+      "time": 4.023684,
+      "target": 4.009696727272727
+    },
+    {
+      "time": 4.523385,
+      "target": 4.510908818181819
+    },
+    {
+      "time": 5.021185,
+      "target": 5.01212090909091
+    },
+    {
+      "time": 5.523276,
+      "target": 5.513333
+    }
+  ],
+  "method": "Native Chrome real-time playback, twelve cropped temporal observations, full provided MOV",
+  "source": "bayes 3.0-plus/02-Research/project-showcase-motion-reference.mov",
+  "sourceSha256": "4d117d65629adb4a828496eef64bdb759e9af70989291241a4873a507564626a",
+  "scope": "Additional reference analysis only; no prototype changes or repeated product QA",
+  "limitations": [
+    "Provided MOV is a 5.593333-second excerpt, not the complete reference experience.",
+    "Camera/geometry/easing values and control/autoplay semantics cannot be reliably inferred from the recording.",
+    "Extracted frames stay in temporary storage; no third-party artwork was added to application assets."
+  ]
+}

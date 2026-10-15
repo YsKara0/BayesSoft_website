@@ -1,5 +1,11 @@
 # Görev kaydı
 
+## BS3P-029B — 2026-10-16 Windows native hero sharpness
+
+| ID | Görev | Durum | Bağımlılık / kabul ölçütü |
+|---|---|---|---|
+| BS3P-029B | Windows Chrome hero netliği teşhisi ve geçici A/B | completed — investigation only; user review pending | [[BS3P-029B-WINDOWS-HERO-SHARPNESS]]; gerçek headed Chrome155/DPR1/live-local/A-B-C-D-E/PNG/short replay. B fark0; C/D/E belirgin tutarlı kazanç yok. Küçük font+affine hipotezi kesin neden değil. Uygulama değişmedi; Safari/native24inç/fullQA yapılmadı; kalıcı fix/Git/yayın yok |
+
 Durumlar: `planned` · `in-progress` · `blocked` · `completed` · `deferred` · `cancelled`.
 
 | ID | Görev | Durum | Bağımlılık / kabul ölçütü |
@@ -187,4 +193,25 @@ Durumlar: `planned` · `in-progress` · `blocked` · `completed` · `deferred` �
 
 | ID | Görev | Durum | Bağımlılık / kabul ölçütü |
 |---|---|---|---|
-| BS3P-025 | Foundation baseline için tam checkout geçmişi | implemented — local checks passed / Ubuntu rerun pending | [[BS3P-025-UBUNTU-CI-GIT-HISTORY-FIX]];1218e58featureatası,depth1aynıhata/unshallowpass. Checkoutfetch-depth0;YAML/Node22foundation/diffcheckpassed. Foundation/prod/Safari/permissionsaynı; staging/commit/push/deployyok |
+| BS3P-025 | Foundation baseline için tam checkout geçmişi | completed — Ubuntu CI #2 verified in BS3P-026 | [[BS3P-025-UBUNTU-CI-GIT-HISTORY-FIX]];1218e58featureatası,depth1aynıhata/unshallowpass. Checkoutfetch-depth0;YAML/Node22foundation/diffcheckpassed. Foundation/prod/Safari/permissionsaynı; staging/commit/push/deployyok |
+
+
+## BS3P-026 — 2026-10-15 Production release preflight
+
+| ID | Görev | Durum | Bağımlılık / kabul ölçütü |
+|---|---|---|---|
+| BS3P-026 | Production yayın/rollback preflight | completed audit — RELEASE BLOCKED B-026-01 | [[BS3P-026-PRODUCTION-RELEASE-PREFLIGHT]];RCc332/GitHubsenkron/CI#2allstepssuccess,masterlastdeployb8c38de/mainyok. Diverged5/1ama productiontree=mergebase/conflictdüşük. PrototipözelgenericMP4exportkaçağıkanıtlı; ayrıca fix/yeniRC/CI gerekir. Oldartifact0/rollbackprovasıveSettings/devsecurityriskleriaçık. Sadeceinceleme/belge; Git/yayın/appcodeyok |
+
+
+## BS3P-029 — 2026-10-15 Live hero visual sharpness
+
+| ID | Görev | Durum | Bağımlılık / kabul ölçütü |
+|---|---|---|---|
+| BS3P-029 | Hero canvas/DPR netlik teşhisi; galeri yalnız teşhis | diagnosed — followed up by029B; no fix confirmed | [[BS3P-029-LIVE-HERO-SHARPNESS]];fixbranch/livebasedb53596. Live/localFHD1xpixel0,AAtrue/MSAA4;DPR2cap1.5ve1→2staleratiokanıtlı. İlkMacoturumundaUserWindowsDPR/zoomyoktu;sonrakiDPR1/029Besas,hardwareperfölçülmedi;qualityartışı/appfixyok. Galeri/Safarifixi korunur; TS/build/SafariQA gereksiztekraryok. Commit/push/deployyok |
+
+
+## BS3P-029C — 2026-10-16 Mac / Windows kayıt birleştirme
+
+| ID | Görev | Durum | Bağımlılık / kabul ölçütü |
+|---|---|---|---|
+| BS3P-029C | Mac stash / Windows 562d770 / yerel Obsidian kayıtlarını birleştirme | completed — documentation only; Windows evidence transfer pending | [[BS3P-029C-OBSIDIAN-RECORD-MERGE]]; 026/029/029B geçmişi korunur, D-034 çakışması D-036 eşlemesiyle giderilir. 029B görselleri yerelde yok; app/Git index/stash değişmez. Hero çözümü doğrulanmadı; kullanıcı incelemesi beklenir |

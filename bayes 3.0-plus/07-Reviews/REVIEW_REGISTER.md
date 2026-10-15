@@ -268,3 +268,33 @@ Kaynakla örtüşen motion: `faces.ts` dört metin; `motion.ts` 5000 ms bekleme/
 - Yalnızworkflowcheckoutfetch-depth0eklendi. YAMLkarşılaştırmasıdiğertümadımlar/contentsread/branchguardaynı; Node22foundationveworkflowdiffcheckpassed. foundation/pages.yml/app/Safari/prototype/package değişmedi.
 - Önceki024hazırlığında geçmişbağımlılığı atlanmıştı; testdevredışıbırakılmadı/refdeğişmedi. YeniCI henüzkoşmadı; eski failedrunrerun düzeltmeyi almaz, onaylıyenifeaturepushSHA'sıesas.
 - Rapor/kanıt/task/current/next/session/daily/review/D-033güncel. Staging/commit/push/merge/deploy/forcepush/main-masterişlemiyok; kullanıcıonayı beklenir.
+
+
+## 2026-10-15 — BS3P-026 production release preflight
+- [[../04-Development/BS3P-026-PRODUCTION-RELEASE-PREFLIGHT]] — **BLOCKED/B-026-01**;saltokunurinceleme+belge. Local/GitHubfeatureHEADc3327e1fd59e3775ff8ae07a52b9a6b1141124e1eşit;başlangıçtrackedtree/index temiz, mevcutuntrackeduserfiles/025kanıtlarıkorundu.
+- GerçekGitHubUbuntuCI#2/run38792754250 exactRC'de tümnpmci/TS/lint/foundation/build/export/HTTPadımlarıpassed;025kapısı kapandı. JobsAPIincelendi/rawlogs403, CIartifactyok; mevcuttestler tekrar çalıştırılmadı.
+- GitHubmaster/sonPagesb8c38de99330def9182eb9c837d8b8f52d1a38e5/run38187511219/deploy7003855534success; mainyok. Localmaster/originmasterstale,fetch/refyazımıyok. GitHubcompare5ahead/1behind/prodactualtree=ortakata;483file474A9M,30RC'devarolanbayes3.0belgesiGit'egireryayıngirdisinedeğil. Controlledmerge+RCtreegateönerildi;mergeyapılmadı.
+- Yeni**B-026-01:** yalnızprototype/spatial-hero'nun kullandığı public/videos/bayessoft-spatial-motion-v1.mp4(3.647.493B)publiccopy'denkalır/verifiergenericpath'ireddetmez;öncekiout'takaynaklaaynıhash. CIyeşilsemantikisolationgarantisi değil. Ayrıminimalfix/newRC/CIgerekir, buiştekoddeğişmedi.
+- Eskiartifact0/sourcefallbackprovasız; canlıyalnızHEAD200/Cloudflaremaxage600/lastmodOct12. PagesSettingsAPI404/Nodepatchlog403sınırları açık; CIvsPagespublicenvifadeleriaynı/rebuildartifactayrı. Rollbacktagönerisi/komutşablonlarıçalıştırılmadı;021devsecurity/perf/gerçekcihazrisklerisürer.
+- Task/current/next/session/daily/review/D-034/rapor/metadata güncellendi. Source/workflow/package/GitHEAD/branch/indexkorunur; staging/commit/push/merge/deploy/tag/forcepush/branchdeğişimiyok. Blockerkapanışıveayrıca açıkproductiononayı beklenir.
+
+
+## 2026-10-15 — BS3P-029 hero sharpness diagnosis
+- [[../04-Development/BS3P-029-LIVE-HERO-SHARPNESS]] — diagnosed/WindowsDPRzoomconfirmationpending. UserliveWindows24inchsoftness; layout/boşlukonaylı/gallerydiagnosticonly. threejs-performanceprofilingfirstuygulandı.
+- GitHubreadAPIliveSHA db535966e27c53fe6095fe2760f520e163fcb033/Pages38798593922success; treec332ileaynı. Fetchoriginmastersonrasılivebasedfix/bs3p-029-hero-sharpnessaçıldı;orijinalfeaturec332/önceki026dirtylogs/untrackeduserfileskorundu. Master'daappişlemiyok.
+- Chromiumviewport/DPR emülasyonu (gerçekWindowsdeğil): live/localFHD1xfinalPNG1.286.712RGBkanal0fark;CSS828×517.5/backing828×517,1.25→1035×646,2→1242×776/1.5cap. AAtrue/MSAA4,desktopWebGL/fallbackhidden,mobile390staticSVG. İlkloadingörnekleri stablewaitekölçümüyleayrıldı.
+- AçıkpenceredeDPR1→2eskibuffer1xkalır;sourceDPRyalnızcreate'ta. Windowsşikâyetinebirebirkök nedenolduğuhenüzkanıtlanmadı; asyncWindowsayarlarısoruldu. Cap1.5→2pixelbudget%77.84ek;GPUms/memoryölçümüdeğil. RastgeleDPR/qualityfixuygulanmadı.
+- Galeri640/1080kaynakseçimiveSVGlogicalkoordinatlarincelendi;nominalkaynakpikseliyeterli,WebP94/CSS3Dsoftnessyalnızolasılık. Hiçbirgaleri/Safari/CSS/poster/motionkodu değişmedi.
+- Yalnız029rapor/Obsidian/kanıtlar yazıldı. YeniWindows/Safari/hardwareperf/TS/buildQA yapılmadı(appedit0). Öncekikayıtlar silinmedi;staging/commit/push/merge/deploy yok. KullanıcıWindowsölçümü/uygulamaonayı beklenir.
+
+
+## 2026-10-16 — BS3P-029B Windows incelemesi (aktarılan rapor)
+- [[../04-Development/BS3P-029B-WINDOWS-HERO-SHARPNESS]] /562d770: gerçek Windows Chrome A/B araştırması, kalıcı kazanan yok. Bu Mac oturumunda yeniden test edilmedi; Windows raporunun görsel kanıt dizini yerelde bulunmuyor.
+- DPR1’de cap1,5 neden değil; küçük HTML/affine rasterizasyon hipotez olarak kalır. Safari/physical24inç/ClearType/GPU maliyeti kabulü verilmez.
+
+
+## 2026-10-16 — BS3P-029C Mac / Windows Obsidian kayıt birleştirmesi
+- [[../04-Development/BS3P-029C-OBSIDIAN-RECORD-MERGE]]: mevcut ağacın Windows562d770 ile eşit7MD kaydı karşılaştırıldı; Macstash68ddf869 içindeki7MD değişikliği içerik olarak birleştirildi. Stash uygulanmadı/silinmedi; index/HEAD/branch aynı.
+- 026preflight,029Mac ve029BWindows raporları/tarihçeleri korunur. D-034 kimlik çakışmasında Mac026 D-034/Mac029 D-035 korunur, Windows029B D-036 olarak eşlenir; özgün562d770 referansı kaydedildi. Güncel özet tarihsel HEAD/CI/yayın bekleme ifadelerinden ayrıldı.
+- DPR1 kullanıcı ölçümüyle cap1,5 bu olayın nedeni değildir. Windows A/B’de tutarlı kazanç yok; küçük HTML metni/affine hipotezi kesin kök neden değil. Kalıcı uygulama değişikliği yok. Windows06-Evidence/BS3P-029B klasörü Mac’te yok; görsel/JSON/script doğrulaması yapılmadı.
+- Kontrol: kaynak bloklarının korunması, karar kimliği tekilliği, Markdown diff, GitHEAD/index/stash ve kapsam dışı dosya bütünlüğü. Browser/TS/lint/build/CI/yayın kontrolü bu belge görevinde tekrar çalıştırılmadı. Staging/commit/push/Gitmerge/deploy yok; kullanıcı incelemesi beklenir.

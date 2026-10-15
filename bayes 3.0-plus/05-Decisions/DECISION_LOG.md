@@ -209,3 +209,30 @@
 - Kullanıcı025yalnızdoğrulanmışCIkök neden düzeltmesini yetkilendirdi. actions/checkoutv6defaultdepth1, foundation'ın1218e58gitshowgereksinimini karşılamaz; baselinefeatureatası. İzoledepth1hata/unshallowbaşarı doğrulandı.
 - Minimumçözüm release-validationcheckoutfetch-depth0; foundation/assert/ref/diğerworkflowadımları vecontentsread izinleri aynen kalır. Prod/Safari/tasarım değişmez, pagesworkflow'asla dokunulmaz.
 - YAML/localNode22foundationbaşarısı gerçekUbuntuCI sonucu değildir. YeniSHAüzerindeyenikoşu ve ayrıcommit/pushonayı beklenir; main/master/merge/forcepush/deployyetkisi yok.
+
+
+## D-034 — 2026-10-15 — Production preflight engeli ve merge stratejisi
+- Kullanıcı026yalnızread-onlyGit/GitHubinceleme/plan/belgeyetkisi verdi; Gitcommit/push/merge/tag/branchdeğişimi/deployveapp/tasarımfixyasak. CI#2c332adımlarbaşarılıdoğrulandı;025geçmişkapısı kapanır, bu yayınizni değildir.
+- Güncelmasterb8c38de/latestdeployaynı; mainyok/stalelocalmastera dayanılmaz. Prodactualtreeortakataileaynı olduğundan blockerfix sonrasıexactonaylıRC→masterkontrollümerge+treeeşitliği enazsüreçliöneri. Ayrıintegrationref mevcutfeatureguardnedeniyleCIkoşmuşsayılamaz.
+- **B-026-01 / BLOCKED:** genericpublicvideos'daki prototipözelMP4kopyalanıyor/verifierisimdesenidışında. Aynısource/öncekioutSHA256veyalnızprototipreferansıkanıtlı; currentc332yayınlanmamalı. Kaynak/devprototip korunarak ayrıminimalisolationfix/newRC/CI gerekir; onaysızbuçalışmadayapılmadı.
+- Oldartifact0/sourcefallbackprovasızlık,Cloudflarecache/PagesSettingsyetkiliteyidi/devsecurityriskleri ayrıca takip. Önerilentagoluşturulmadı/rollbackyok; blockerveyenikapılarkapanmadanREADYveya otomatikpublicationkararı verilmez.
+
+
+## D-035 — 2026-10-15 — Hero netliğinde ölçüm önceliği, galeri koruması
+- Kullanıcı029heroqualityteşhisini, ayrıfixbranch'i ve gerekliolursa kanıtlıminimalöneri/düzeltmeyi yetkilendirdi. Galeri için yalnızteşhis; layout/boşluk/geometri/timingdokunulmaz. Commit/push/merge/deployyetkisi yok.
+- Live/localDPR1pikseleşit,cap1.5veDPRchange'destaleratio kaynak/Chromiumilekanıtlandı. KullanıcınınWindowsgerçekDPR/zoomverisiyok; headlessmacOSemülasyonuWindowsGPUsonucu sayılamaz.
+- Kodayarıyükseltilmedi:cap2pixelcost%77.84artırır,hardwareframemaliyetiölçülmedi. ÖncelikWindowsverisindenstaleDPRvarsa aynıcapile senkronönerisi; yoksa rastgeleDPRartışı yok. DOMoverlaytextcanvasdışıdır; tümsoftness'ıcanvasayarınaatfetme.
+- Fixbranchlivebasedb53596/öncekiuserdeğişikliklerikorunur. Bu teslim yalnızbelge/kanıt; Safari/galleryyenifixveCI/buildgereksiztekraryok. GerçekWindowskabulü/sonrakiPRayrıkapı.
+
+## D-036 — 2026-10-16 — BS3P-029B teşhis sınırı ve çözümü zorlamama
+- Kullanıcı yalnız Windows masaüstü hero teşhisi ve geçici A/B yetkisi verdi; kalıcı uygulama değişikliği ayrıca onay ister.
+- [[../04-Development/BS3P-029B-WINDOWS-HERO-SHARPNESS]]: gerçek Windows Chrome155/DPR1'de B mevcut CSS ile aynı; C/D/E tutarlı belirgin netlik kazancı göstermedi. Küçük glyph+affine projeksiyon hipotezi kesin tek neden olarak kabul edilmedi.
+- Mevcut A'yı koruma önerisi; uygulama/ürün kararı değiştirilmedi. Kalıcı çözüm uygulanmadı. Safari, fiziksel monitör/ClearType ve GPU maliyeti için kabul verilmedi. Kullanıcı görsel incelemesi beklenir; Git/yayın yetkisi yok.
+
+- Kimlik eşlemesi (BS3P-029C): Windows 562d770 içindeki özgün D-034 bu birleşik kasada D-036 oldu; karar içeriği değişmedi. Mac D-034 (026 preflight) ve D-035 (029) korundu.
+
+
+## D-037 — 2026-10-16 — BS3P-029C kaynakları ve tarihsel kayıtları koruma
+- Kullanıcı yalnız Obsidian kayıt birleştirmesini istedi. Mac026/029 ve Windows029B bulguları ayrı kaynak olarak korunur; çelişkili eski durumlar silinmeden tarihsel olarak etiketlenir. Mevcut A korunur; yeni teknik düzeltme veya yayın kararı verilmez.
+- Windows562d770’deki D-034, birleşik kasada D-036 olarak eşlendi. MacD-034 veD-035 aynı kimlikte korunur; Git commit’inin özgün kaydı değiştirilmez.
+- Stash yalnız okundu; apply/pop/drop yok. Windows raporu ve026raporu byte olarak korunur; eksik Windows görsel kanıtlarına test başarısı veya kullanıcı kabulü atfedilmez.

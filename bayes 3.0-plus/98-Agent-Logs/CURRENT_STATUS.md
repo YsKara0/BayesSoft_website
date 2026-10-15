@@ -1,4 +1,58 @@
-# CURRENT STATUS — 2026-10-15 BS3P-025 CI Git History Fix
+# CURRENT STATUS — 2026-10-16 BS3P-029C Mac / Windows birleşimi
+
+**Durum:** Kayıt birleştirme tamamlandı; hero için doğrulanmış kalıcı çözüm yok.
+**Gerçek yerel branch / HEAD:** `fix/bs3p-029-hero-sharpness` / `db535966e27c53fe6095fe2760f520e163fcb033`.
+**Kaynaklar:** Mac stash `68ddf86945e64f306c5ef49380f394efcb15a6ef`, Windows dokümantasyon commit’i `562d770a08ac59795246a533c67852ffe933dd9f`, mevcut çalışma ağacı.
+**Teslim:** [[../04-Development/BS3P-029C-OBSIDIAN-RECORD-MERGE]].
+- Mac 026/029 geçmişi ile Windows 029B raporu/logları birleştirildi. Windows kararının eski D-034 kimliği D-036 olarak eşlendi; Mac D-034/D-035 korunur.
+- Kullanıcının Windows ölçümü: innerWidth 1487, DPR 1, yaklaşık764×478 CSS /764×477 backing. Bu oturumda DPR1,5 sınırı neden değildir; artırılmayacak. Windows A/B’de B/C/D/E için belirgin tutarlı netlik kazancı yok; küçük HTML metni + affine projeksiyon hâlâ hipotezdir. Mevcut A korunur.
+- Mac’in sonraki salt okunur incelemesi: yazılar HTML overlay; PMREM 0,045 uyarısı ortam haritasında22→20 örnek sınırından gelir. Global blur veya metin texture’ı değil; kullanıcı bulanıklığıyla nedensel bağ kanıtlanmadı.
+- Mac029’da kayıtlı canlı db53596/Pages38798593922 ve CI#2 c332 başarı bilgisi tarihsel kanıttır; bu birleştirmede GitHub/canlı/CI yeniden sorgulanmadı. Windows c332 HEAD’i araştırmanın kaynak SHA’sıdır, mevcut Mac HEAD’i değildir.
+- Windows raporu commit ile birebir aynı. Bağlı `06-Evidence/BS3P-029B/` yerelde yok; görseller/JSON/scriptler bu oturumda doğrulanamadı. Mac rapor/kanıtları ve026raporu korunur.
+- Yalnız Markdown kayıtları değişti; uygulama/CSS/Safari galerisi/asset/workflow değişmedi. Stash/index/branch/HEAD korundu; staging, commit, push, Git merge ve deploy yok. Yeni browser/build/QA yapılmadı.
+
+## Tarihsel Mac anlık görüntüsü — sonraki Windows bulguları üstte özetlendi
+
+### CURRENT STATUS — 2026-10-15 BS3P-029 Live Hero Sharpness
+
+**Durum:** DIAGNOSED — gerçekWindowsDPR/zoom teyidi beklenir; appfix yapılmadı.
+**Branch / HEAD:** `fix/bs3p-029-hero-sharpness` / `db535966e27c53fe6095fe2760f520e163fcb033`.
+**Teslim:** [[../04-Development/BS3P-029-LIVE-HERO-SHARPNESS]].
+- Canlımasterdb53596/Pages38798593922successAPIteyitli; site artık3.0+yayında. Önceki026preflightnotları aşağıda tarihsel; buoturumyayın yapmadı. Canlıtreeonaylıc332ileaynı,orijinalfeaturec332korundu. Fixbranch'de öncekiuserdirty026logları/untrackedveriler taşındı/korundu.
+- Chromiumlive/local1920DPR1finalhero828×518PNG pikselfark0. StableFHD/QHDcanvas828×517, CSS828×517.5; AAtrue/MSAA4. DesktopgerçekWebGL/posterhidden;mobile390DPR3staticSVG.
+- DPR1.25backing1035×646;DPR2cap1.5backing1242×776. AçıkpenceredeDPR1→2eskibacking828×517kalıyor; setPixelRatioyalnızmount'ta/resizeDPRgüncellemiyor. Bu koddavranışıkanıtlı, kullanıcınınWindowsşikâyetiyleeşleşmesihenüzkanıtlanmadı.
+- Cap1.5→2pixelmaliyeti%77.84artış; gerçekWindowsGPUms/bellekmaliyetiölçülmedi. KeyfiDPR/qualityartışıveapp/CSSdeğişikliği yok. Öncelikliöneri: WindowsstaleDPRteyidinde mevcut1.5politikasını koruyarakDPRsenkronu.
+- Galeriyalnızteşhis:640WebP DPR1/1.25,1080 DPR2/nominalboyutyeterli;CSS3Dresample etkisikanıtlanmadı. SafariSVGfix/galleryposter/geometri/motion veonaylıboşluklaraynı.
+- AsenkronWindowsçözünürlük/ölçek/zoom/tarayıcı soruldu; cevapbeklenir. Koddeğişmediğinden yeniSafari/Windows/GPUprofil/buildQA yapılmadı.029Obsidian/kanıtgüncel; staging/commit/push/merge/deploy yok.
+
+## Önceki BS3P-026 preflight özeti — tarihsel; site sonradan kullanıcı tarafından yayınlandı
+
+**Karar: BLOCKED — B-026-01 prototipe özel genericpublicvideo export'a giriyor.**
+**Branch / RC HEAD:** `feature/bayessoft-3.0-plus` / `c3327e1fd59e3775ff8ae07a52b9a6b1141124e1`; GitHubfeatureaynıSHA.
+**Teslim:** [[../04-Development/BS3P-026-PRODUCTION-RELEASE-PREFLIGHT]].
+- GerçekUbuntuCI#2/run38792754250 exactRC'de Checkout/Node22/npmci/TS/lint/foundation/build/export/HTTPisolationadımları success;025shallowhistorykapısı kapandı. Rawjoblog403, actualCIartifactlist0; minorNode/artifactbyteiddiası yok.
+- GitHubmaster/sonproductiondeploy `b8c38de99330def9182eb9c837d8b8f52d1a38e5`,run38187511219/deployment7003855534success. Mainyok; defaultmaster. Yerelmaster/originmasterstale,refgüncellenmedi.
+- GitHubcomparediverged5ahead/1behind; productionactualtree=mergebaseefcef2c tree. RCile483file(474A9M)fark; sourceconflictbeklenmez ama gerçekmergeyapılmadı. Kontrollümastermerge/RCtreeeşitliği önerisi; ekintegrationbranchşimdilikgereksiz.
+- **B-026-01:** yalnızapp/prototype/spatial-hero/route.ts:64 kullandığı public/videos/bayessoft-spatial-motion-v1.mp4(3.647.493B) mevcutpubliccopyfilter'dankalır/öncekiout'taaynıhash; verifiergenericpath'iyakalayamaz. Ayrıminimalbuildfilter+verifier/HTTPnegativefix/yeniRC/CI gerekir; bupreflightcodefixyapmadı.
+- CanlıHTTPSHEAD200/Cloudflare/maxage600; oldartifact0/sourcefallbackprovasız. PagesSettingsanonimAPI404; yetkiliayarteyidi/rollbackyedek/envbranchpolicy açık. Önceki021devsecurityveperf/cihazrisklerisürer.
+- Yalnızrapor/kanıt/Obsidian güncellendi. Uygulama/workflow/tasarım/sourcebranch/ref/indexaynı; commit/push/merge/tag/deploy/branchdeğişimi yok. B-026-01kapandıktan sonra ayrıca açıkproductionyayınonayı beklenir.
+
+
+## Tarihsel Windows anlık görüntüsü — araştırma sırasındaki branch / HEAD
+
+### CURRENT STATUS — 2026-10-16 BS3P-029B Windows Hero Sharpness
+
+**Durum:** Teşhis ve geçici A/B tamamlandı; belirgin kazanç sağlayan çözüm doğrulanmadı, kullanıcı görsel incelemesi beklenir.
+**Branch / HEAD:** `feature/bayessoft-3.0-plus` / `c3327e1fd59e3775ff8ae07a52b9a6b1141124e1`; oturum başlangıcı tree/index temiz.
+**Teslim:** [[../04-Development/BS3P-029B-WINDOWS-HERO-SHARPNESS]].
+- Windows kurulu Chrome155 headed /1920×1080/DPR1/NVIDIA D3D11: canlı ve yerel 828×517,5 CSS /828×517 backing; panel ölçeği0,82992. Son hero karşılaştırmasında yalnız6 RGB kanal farkı/max4. Gerçek font Instrument Sans custom doğrulandı.
+- Backface hidden zaten var, B fark0. Global piksel hizalama C ve zoom/inverse-matrix D/E, tutarlı belirgin netlik kazancı göstermedi. D kısa replay'de ek layout üretti; tek örnek/test observer maliyeti dahil, GPU benchmark değildir.
+- 764px canvas yerelde viewport1487'de/scale0,76577; scale0,78983 viewport1511'de/788px canvas. Önceki764/0,79 çifti birlikte üretilemedi. Küçük font+affine projeksiyon güçlü hipotez; tek kesin kök neden değil.
+- Kaynak uygulama/CSS/dependency/config değişmedi; yalnız rapor/kanıt/tekrar scriptleri ve kasa kayıtları. Native pencere capture onayı zaman aşımına uğradı; görüntüler gerçek Windows Chrome CDP capture. Safari/physical24inç/ClearType/genişQA kabulü yok.
+- Tanı sunucusu durduruldu. Staging/commit/push/merge/deploy yok. Önceki025/CI kayıtları aşağıda tarihsel; mevcut CI/yayın durumu bu görevde yeniden doğrulanmadı.
+
+
+## Ortak önceki durum — BS3P-025; CI #2 sonucu Mac026’da sonradan doğrulanmıştır
 
 **Durum:** IMPLEMENTED / LOCAL CHECKS PASSED — commit/push onayı ve yeni UbuntuCI beklenir.
 **Branch / HEAD:** `feature/bayessoft-3.0-plus` / `58099657ec0582c18f29669dbc9918697f25a4cb`.

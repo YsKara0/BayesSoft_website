@@ -1,0 +1,52 @@
+{
+  "fonts": {
+    "fonts": [
+      {
+        "familyName": "Instrument Sans",
+        "postScriptName": "InstrumentSans-SemiBold",
+        "isCustomFont": true,
+        "glyphCount": 13
+      }
+    ]
+  },
+  "sizes": [
+    {
+      "viewport": [
+        1487,
+        1080
+      ],
+      "dpr": 1,
+      "canvas": {
+        "width": 764,
+        "height": 477.5,
+        "backing": [
+          764,
+          477
+        ]
+      },
+      "matrix": "matrix(0.764958, 0.0353051, 0, 0.774272, 214.886, 179.889)",
+      "scale": 0.7657722845924956,
+      "effectiveFont14": 10.720811984294938,
+      "effectiveFont11": 8.423495130517452
+    },
+    {
+      "viewport": [
+        1511,
+        1080
+      ],
+      "dpr": 1,
+      "canvas": {
+        "width": 788,
+        "height": 492.5,
+        "backing": [
+          788,
+          492
+        ]
+      },
+      "matrix": "matrix(0.788988, 0.0364142, 0, 0.798595, 221.636, 185.54)",
+      "scale": 0.7898278661237776,
+      "effectiveFont14": 11.057590125732887,
+      "effectiveFont11": 8.688106527361555
+    }
+  ]
+}

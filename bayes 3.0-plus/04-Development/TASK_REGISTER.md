@@ -181,3 +181,10 @@ Durumlar: `planned` · `in-progress` · `blocked` · `completed` · `deferred` �
 | ID | Görev | Durum | Bağımlılık / kabul ölçütü |
 |---|---|---|---|
 | BS3P-024 | Safari checkpoint staging, CI ve rollback hazırlığı | prepared — user approval / Ubuntu CI pending | [[BS3P-024-RELEASE-PREPARATION]];023B/Caccepted.4gallerysourcekorunur;feature-onlyreadpermUbuntu22workflow+prod-onlyHTTPcheck. YerelTS/lint/build/isolation/regressionpassed; gerçekUbuntu NOT RUN. SonPagesb8c38de/artifact0teyitli; rollbackrunbook/provasızyedekriski açık. Stagedallowlist/audit, commit/push/merge/deploy yok |
+
+
+## BS3P-025 — 2026-10-15 Ubuntu CI Git history fix
+
+| ID | Görev | Durum | Bağımlılık / kabul ölçütü |
+|---|---|---|---|
+| BS3P-025 | Foundation baseline için tam checkout geçmişi | implemented — local checks passed / Ubuntu rerun pending | [[BS3P-025-UBUNTU-CI-GIT-HISTORY-FIX]];1218e58featureatası,depth1aynıhata/unshallowpass. Checkoutfetch-depth0;YAML/Node22foundation/diffcheckpassed. Foundation/prod/Safari/permissionsaynı; staging/commit/push/deployyok |

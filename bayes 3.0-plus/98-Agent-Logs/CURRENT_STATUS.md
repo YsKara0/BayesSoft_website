@@ -1,4 +1,15 @@
-# CURRENT STATUS — 2026-10-15 BS3P-024 Release Preparation
+# CURRENT STATUS — 2026-10-15 BS3P-025 CI Git History Fix
+
+**Durum:** IMPLEMENTED / LOCAL CHECKS PASSED — commit/push onayı ve yeni UbuntuCI beklenir.
+**Branch / HEAD:** `feature/bayessoft-3.0-plus` / `58099657ec0582c18f29669dbc9918697f25a4cb`.
+**Teslim:** [[../04-Development/BS3P-025-UBUNTU-CI-GIT-HISTORY-FIX]].
+- Kullanıcı024checkpoint'ini5809965olarak kaydetmiş; buoturumbaşında trackedtree/index temizdi. Eski024staging/02739d1kayıtları aşağıda tarihsel; buoturumcommit/push yapmadı.
+- BildirilenUbuntuCI foundationgitshow1218e58hatası shallowcheckout kaynaklı. Yereldepth1barekopyadaaynıexit128; unshallow sonrasıexit0. Baseline1218e58 mevcutfeatureHEAD'in atası.
+- Yalnızrelease-validation.yml checkout'a fetch-depth0eklendi. Diğerworkflowadımları/branchguard/contentsreadaynı; foundation/pages.yml/homepage/Safari/prod/prototype/package değişmedi.
+- YAML/teksemantikdeğişiklik/atalık/Node22foundation/diffcheck geçti. GerçekUbuntuCI yenidenkoşmadı; yeniSHApush sonrası koşu gerekir. Eski failedrunrerun yeniworkflow'u içermez.
+- 025task/session/daily/review/D-033/rapor/kanıt güncel. Untrackeduserfiles/.obsidian/eskiarşivlerkorundu; staging/commit/push/merge/deploy/forcepush/main-masterişlemi yok. Kullanıcıonayı beklenir.
+
+## Önceki BS3P-024 durum özeti — tarihsel; checkpoint artık5809965
 
 **Durum:** PREPARED — stagedcheckpoint kullanıcıonayı; gerçekUbuntuCIbekliyor.
 **Branch / HEAD:** `feature/bayessoft-3.0-plus` / `02739d112d65dbb6fc420eadd6611ff701415561`; yeniRCcommit yok.

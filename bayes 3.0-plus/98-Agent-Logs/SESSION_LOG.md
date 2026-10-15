@@ -325,3 +325,11 @@
 - Yalnız023–024hedefli kaynak/belge/kanıt açıkpathlistesi staging/audit. İlgisizarşiv/.obsidian/MOV/logo/harness/out/envhariç; kullanıcıdosyalarısilinmedi. Staginglist/stat/checks024evidence'da. Commit/push/merge/deployyok; kullanıcıonayı beklenir.
 
 - 024finalstaging:90dosya(4app/2CI/11belge-log/73kanıt);185user-harness+1localsnapshotdışarıda. Allowlist/mode/knownsecret/yasakpathkontrolleri uygun. Cacheddiffcheckexit2/15uyarı:6MDhardbreak+9rawbuildsatırsonu; gizlenmedi/kaynakuyarısıyok. YeniSHAyok/HEAD02739d1; commitonayı beklenir.
+
+
+## 2026-10-15 — BS3P-025 Ubuntu CI history fix
+- [[../04-Development/BS3P-025-UBUNTU-CI-GIT-HISTORY-FIX]] — implemented/local checks passed; gerçekUbuntu yenidenkoşu beklenir. Branchfeature/HEAD5809965; başlangıçtrackedtree/index temiz, untrackeduserfileskorunur.
+- Checkoutvarsayılandepth1, foundationgitshow1218e58ister. Baselineatalığıexit0; izolelocaldepth1barekopyada aynıinvalidobject/128; testkopyasıunshallow sonrasıexit0. AsılGitgeçmişi değiştirilmedi.
+- Yalnızworkflowcheckoutfetch-depth0eklendi. YAMLkarşılaştırmasıdiğertümadımlar/contentsread/branchguardaynı; Node22foundationveworkflowdiffcheckpassed. foundation/pages.yml/app/Safari/prototype/package değişmedi.
+- Önceki024hazırlığında geçmişbağımlılığı atlanmıştı; testdevredışıbırakılmadı/refdeğişmedi. YeniCI henüzkoşmadı; eski failedrunrerun düzeltmeyi almaz, onaylıyenifeaturepushSHA'sıesas.
+- Rapor/kanıt/task/current/next/session/daily/review/D-033güncel. Staging/commit/push/merge/deploy/forcepush/main-masterişlemiyok; kullanıcıonayı beklenir.

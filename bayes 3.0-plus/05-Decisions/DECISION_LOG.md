@@ -203,3 +203,9 @@
 - 024açıkstagingyetkisi yalnız023–024kaynak/altyapı/belge/kanıtları kapsar; commit/push/merge/deployyetkisi yok. Açıkpathmanifesti/indexaudit zorunlu;userarchives/.obsidian/harness/generatedout/secrets hariç.
 - Ayrıfeature-onlyUbuntu22workflowcontentsread/npmci/TS/lint/build/isolation; deploy/upload/publishyok. production-onlyHTTPcheck devservergerektirmez, eski defaultkorunur. Gerçekrunner NOT RUN; Dockerdaemonçalışmıyor. YerelmacOS22başarısı yetmez.
 - SonPagesmasterb8c38de…APIteyitli/oldartifact0; yeniRCcommit henüzyok. Sourcefallbackgüvenlik+isolasyonkapılarınıkorumalı, prova/byteidenticalrestoregarantisi yok. CIbaşarısı, artifactyedek/rollbackkoşulları ve ayrı kullanıcıyayınonayı olmadan releaseotomatikilerlemez.
+
+
+## D-033 — 2026-10-15 — Foundation kontrolü için tam Git geçmişi
+- Kullanıcı025yalnızdoğrulanmışCIkök neden düzeltmesini yetkilendirdi. actions/checkoutv6defaultdepth1, foundation'ın1218e58gitshowgereksinimini karşılamaz; baselinefeatureatası. İzoledepth1hata/unshallowbaşarı doğrulandı.
+- Minimumçözüm release-validationcheckoutfetch-depth0; foundation/assert/ref/diğerworkflowadımları vecontentsread izinleri aynen kalır. Prod/Safari/tasarım değişmez, pagesworkflow'asla dokunulmaz.
+- YAML/localNode22foundationbaşarısı gerçekUbuntuCI sonucu değildir. YeniSHAüzerindeyenikoşu ve ayrıcommit/pushonayı beklenir; main/master/merge/forcepush/deployyetkisi yok.

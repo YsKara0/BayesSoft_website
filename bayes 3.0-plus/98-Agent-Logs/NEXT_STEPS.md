@@ -1,3 +1,12 @@
+# NEXT STEPS — BS3P-031 Aşama 2D tamamlandı
+
+1. Yayınlanan iskelet sürümü için kullanıcı geri bildirimini bekle; yeni geliştirme başlatma.
+2. Sonraki kullanıcı görevine: Projeler vitrininin görsel polish’i; doğrulanmış SmartHospital içeriği/EN-DE tam vaka metinleri ve ek proje görselleri.
+3. FurtherUp boş poster yeniden görülürse cold-load/video kanıtıyla teşhis; bu QA’da6/6paint geçti, rastgele fix yok. Gerçek cihaz/Safari ve iletişim servisinin gerçek teslimat testi bu tur yapılmadı.
+4. Kişisel/untracked dosyalar, ara kanıtlar ve açık3030devserver korunur.
+
+## Önceki kayıt — tarihsel içerik korunur
+
 # NEXT STEPS — BS3P-031 Aşama 2D
 
 1. Scoped staged liste ve cached diff kontrolünden sonra onaylı mesajla commit/push yap.

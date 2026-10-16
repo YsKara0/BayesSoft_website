@@ -1,0 +1,26 @@
+[
+  {
+    "page": "home",
+    "width": 1440,
+    "pngByteIdentical": true,
+    "sha256": "6b57140449801093f0084bf317573625fe4d87348f2fb674be85dc1ae3462cf1"
+  },
+  {
+    "page": "hakkimizda",
+    "width": 1440,
+    "pngByteIdentical": true,
+    "sha256": "423663b0e1ec2c01ec6acec2a3ef8c7eda1a037ec75fbe35fdde5c6b2987d01d"
+  },
+  {
+    "page": "home",
+    "width": 390,
+    "pngByteIdentical": true,
+    "sha256": "83c2370849ac5c816908edafe5dbeed784ace74d2d53ca2c63ef36187f7a2794"
+  },
+  {
+    "page": "hakkimizda",
+    "width": 390,
+    "pngByteIdentical": true,
+    "sha256": "97b6d7593915ad10cf744ede33e11cc99655eee5d17b75dbb6dd348a622da9f7"
+  }
+]

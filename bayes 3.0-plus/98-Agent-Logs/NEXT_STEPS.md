@@ -1,10 +1,76 @@
+# NEXT STEPS — BS3P-031 Aşama 2D
+
+1. Scoped staged liste ve cached diff kontrolünden sonra onaylı mesajla commit/push yap.
+2. Exact SHA için Pages sonucunu takip et; başarıdan sonra canlı13rota/mobilnav/görseller/form görüntüsü smoke yap. Gerçek form gönderme.
+3. SHA/CI/canlı sonucu kaydet; yeni geliştirme başlatma. SmartHospital içerik ve Projeler polish sonraki kullanıcı görevine bırakıldı.
+
+## Önceki kayıt — tarihsel içerik korunur
+
+# NEXT STEPS — Aşama2C sonrası
+
+1. Sekiz detayın yeni düzenini ve031/2c-final-* görüntülerini görsel incele;2C kullanıcı kabulü bekler. Örnek:http://localhost:3030/projeler/furtherup-drive .
+2. SmartHospitalTRplaceholder ve EN/DE özet farkları için yeni içerik gerekiyorsa kullanıcı kaynağı beklenir;uydurma yok. Projeler vitrininin ileri görsel gelişimi ve gerekirse ilkposterpaint kararlılığı ayrı sonraki iş;bu tur katalog değişmedi.
+3. Master’da kal;commit/push/deploy için açık talimat bekle. Onaylıindexsayfalar/hero/marquee/galeri/ekip/modal/kişisel dosyalar ve dirty geçmiş korunur. GenişQA/gerçekcihaz bu hedefli kontrollerin yerine geçmiş sayılmaz.
+
+## Önceki NEXT_STEPS — tarihsel kayıt
+
+# NEXT STEPS — Projeler vitrin revizyonu sonrası
+
+1. http://localhost:3030/projeler ve `projects-rev-final-*` ekranlarını görsel incele;bu revizyon onay bekler.
+2. Hizmetler/İletişim mevcut2B durumunda korundu;bu turda revize edilmedi. Geri bildirim gelmeden bu sayfalara veya onaylıHome/About’a dokunma.
+3. Master’da kal;commit/push/deploy veAşama2C için ayrı açık talimat gerekir. Önceki dirty/untracked/evidence/harness kayıtları korunur.
+
+## Önceki NEXT_STEPS — tarihsel kayıt
+
+# NEXT STEPS — Aşama2B sonrası
+
+1. http://localhost:3030/hizmetler , /projeler , /iletisim ve031finalPNG’leri görsel incele;Aşama2B kullanıcı onayı bekler. Aşama2A/nav kabul edildi.
+2. Yalnız2Bgeri bildirimlerini mevcutkapsamda ele al;homepage/Hakkımızda/ekip/modal/nav/sekizdetaykaynaklarıkorunur. Formun canlımesajteslimatı bu görevde test edilmedi.
+3. Aşama2C/commit/push/deploy için ayrı açık talimat bekle. Master’da kal;kişisel/dirty/handoff/önceki evidenceve harnesslerkorunur.
+
+## Önceki NEXT_STEPS — tarihsel kayıt
+
+# NEXT STEPS — navigasyon revizyonu sonrası
+
+1. Ana sayfa ve Hakkımızda header’larını http://localhost:3030/ ve /hakkimizda üzerinden görsel incele; son navigasyon revizyonu kullanıcı onayı bekler. Hakkımızda pilot tasarım kabulü alındı.
+2. Yalnız gerekirse bu navigasyona ilişkin geri bildirimi uygula; onaylanan tasarım/BAYES/modallar ve ana sayfa içerikleri korunur.
+3. Master’da kal; Aşama2B/commit/push/deploy için yeni açık talimat gerekir. Önceki kullanıcı dosyaları ve dirty kayıtları koru.
+
+## Önceki NEXT_STEPS — tarihsel kayıt
+
+# NEXT STEPS — BS3P-031 Aşama2A sonrası
+
+## 1. Kullanıcı görsel incelemesi
+http://localhost:3030/hakkimizda ve [[../04-Development/BS3P-031-SITEWIDE-PAGE-INVENTORY|Aşama2A raporu]] hazır.1440/768/390/375finalPNGve modal görüntüleri031kanıtklasöründe. Görsel onay henüz yok; commit/push/deploy yapılmaz.
+
+## 2. Yalnız geri bildirime göre pilot rötuşu
+OrtakçerçeveveHakkımızda yereldehazır. Hero/marquee/galeri/diğersayfalar aynı. Beklenen görselrevizyon varsa yalnızyetkilipilotkapsamında; içerik/TR-EN-DE/foto/link/URL/SEOkorunur.
+
+## 3. Sonraki migration için ayrı kapsam
+Hizmetler/Projeler/İletişim/8detay Aşama2Btalimatını bekler; otomatikbaşlama. GerçekSafari/iPhone/ekranokuyucu/fullQAveyayınayrı kapsamdır. Eskiuserfiles/handoff/harnesslerkorunur.
+
+## Önceki NEXT_STEPS — aynen korundu
+
+# NEXT STEPS — BS3P-031 Aşama 1 sonrası
+
+## 1. Analiz incelemesi ve Aşama 2 kapsam onayı
+[[../04-Development/BS3P-031-SITEWIDE-PAGE-INVENTORY]] hazır:13 canonical sayfa/12 eski,13 yerel üretim sayfası, risk/şablon/8saat planı ve kabul ölçütleri. **Onaysız uygulamaya başlama.**
+
+## 2. Onay sonrası önerilen ilk iş
+BS3P-031 Aşama2A: yalnız iç sayfa shell/intro/scoped stil + Hakkımızda pilotu. Sonra Hizmetler/Projeler/İletişim ve ortak8detay; ekip modalı mevcut sayfada korunur. Slash’siz URL/SEO/TR-EN-DE/form/veri sözleşmeleri korunmalı. Homepage/hero/marquee/galeri değişikliği bu önerinin parçası değildir.
+
+## 3. Koruma ve doğrulama sınırı
+Master’da kal; başlangıçtaki dört dirty handoff kaydı, kişisel.obsidian/eski kasalar/MOV/harness/asset denemeleri korunur. İçerik boşluklarını uydurma; geniş QA/yeniçeviri/özelanimasyon/yayın ayrı kapsamdır. Commit/push/PR/merge/deploy ayrı açık onay ister. Önceki030push/deploynotları tarihsel; bu analiz uzakCI/deploySHA doğrulamadı.
+
+## Önceki NEXT_STEPS — tarihsel kayıt, aynen korundu
+
 # NEXT STEPS — en fazla 3 aktif öncelik
 
 ## 1. BS3P-031 — Sitewide Page Inventory & Skeleton Migration
 Kullanıcının belirlediği sıradaki görev; henüz başlatılmadı. Yeni oturumda güncel branch/Git durumu ve AGENTS/workflow okunarak kullanıcı kapsamına göre ilerlenir. Bu kapanışta yeni tasarım veya migration yapılmadı.
 
 ## 2. BS3P-030 yerel checkpoint / handoff
-Kullanıcı mobil marquee tasarımını şimdilik görsel onayladı. Mevcut kod değişmeden seçili030dosyaları `feat: improve mobile references marquee` mesajıyla master’da commit edilecek; gerçek SHA sonrası handoff’a yazılır. Yeni test yok. Push/deploy yapılmayacak.
+Kullanıcı mobil marquee tasarımını şimdilik görsel onayladı. Mevcut kod değişmeden22seçili dosya `feat: improve mobile references marquee` mesajıyla master’da commit edildi; SHA: `0e4ec3d15072cf78f5b7b3ad060d1d9d1916047c`. Yeni test yok. Push/deploy yapılmayacak.
 
 ## 3. Koruma
 Kişisel.obsidian/eski kasalar/MOV/test harnessleri ve ilgisiz yerel dosyalar korunur.030kapsamı dışında staging yok. Son commit SHA’sı içeren kapanış notları ikinci commit olmadan yerel kalır; yeni oturum bunları silmemeli.

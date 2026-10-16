@@ -1,0 +1,2383 @@
+[
+  {
+    "path": "/projeler/arelim-vulnerability-report",
+    "status": "404",
+    "final_url": "https://bayessoft.com.tr/projeler/arelim-vulnerability-report",
+    "content_type": "text/html; charset=utf-8",
+    "error": "",
+    "title": "404: This page could not be found.BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ",
+    "links": [
+      "/",
+      "/cdn-cgi/l/email-protection#b1d8dfd7def1d3d0c8d4c2c2ded7c59fd2dedc9fc5c3",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler",
+      "https://bayessoft.com.tr",
+      "https://linkedin.com/company/bayessoft"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ],
+    "metadata": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/ttf"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "as": "image",
+        "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/a0b90a5851dc9388.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/bb88dec1857fde07.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "preload",
+        "as": "script",
+        "fetchpriority": "low",
+        "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+      },
+      {
+        "name": "robots",
+        "content": "noindex"
+      },
+      {
+        "name": "next-size-adjust",
+        "content": ""
+      },
+      {
+        "name": "theme-color",
+        "content": "#101827"
+      },
+      {
+        "name": "color-scheme",
+        "content": "dark light"
+      },
+      {
+        "name": "description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "name": "application-name",
+        "content": "BayesSoft"
+      },
+      {
+        "rel": "author",
+        "href": "https://bayessoft.com.tr"
+      },
+      {
+        "name": "author",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "keywords",
+        "content": "BayesSoft,kurumsal yazılım şirketi,özel yazılım geliştirme,mobil uygulama geliştirme,yapay zekâ çözümleri,web uygulama geliştirme,bulut ve DevOps"
+      },
+      {
+        "name": "creator",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "publisher",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      },
+      {
+        "name": "category",
+        "content": "technology"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://bayessoft.com.tr"
+      },
+      {
+        "name": "format-detection",
+        "content": "telephone=no, address=no, email=no"
+      },
+      {
+        "property": "og:title",
+        "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+      },
+      {
+        "property": "og:description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "property": "og:url",
+        "content": "https://bayessoft.com.tr"
+      },
+      {
+        "property": "og:site_name",
+        "content": "BayesSoft"
+      },
+      {
+        "property": "og:locale",
+        "content": "tr_TR"
+      },
+      {
+        "property": "og:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "property": "og:image:width",
+        "content": "1733"
+      },
+      {
+        "property": "og:image:height",
+        "content": "907"
+      },
+      {
+        "property": "og:image:alt",
+        "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "name": "twitter:title",
+        "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+      },
+      {
+        "name": "twitter:description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "rel": "icon",
+        "href": "/bayes_logo_dark.png"
+      }
+    ],
+    "body_file": "5e8b471c827d.body.txt",
+    "headers_file": "5e8b471c827d.headers.txt",
+    "sha256": "8c4e4e7cd0e8f6da92e3b42e191f2abb55fd67399b336be0cd0d33b0297c48e2",
+    "new_marker": false,
+    "legacy_marker": false,
+    "locs": []
+  },
+  {
+    "path": "/prototype/spatial-hero",
+    "status": "404",
+    "final_url": "https://bayessoft.com.tr/prototype/spatial-hero",
+    "content_type": "text/html; charset=utf-8",
+    "error": "",
+    "title": "404: This page could not be found.BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ",
+    "links": [
+      "/",
+      "/cdn-cgi/l/email-protection#e28b8c848da280839b8791918d8496cc818d8fcc9690",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler",
+      "https://bayessoft.com.tr",
+      "https://linkedin.com/company/bayessoft"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ],
+    "metadata": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/ttf"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "as": "image",
+        "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/a0b90a5851dc9388.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/bb88dec1857fde07.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "preload",
+        "as": "script",
+        "fetchpriority": "low",
+        "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+      },
+      {
+        "name": "robots",
+        "content": "noindex"
+      },
+      {
+        "name": "next-size-adjust",
+        "content": ""
+      },
+      {
+        "name": "theme-color",
+        "content": "#101827"
+      },
+      {
+        "name": "color-scheme",
+        "content": "dark light"
+      },
+      {
+        "name": "description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "name": "application-name",
+        "content": "BayesSoft"
+      },
+      {
+        "rel": "author",
+        "href": "https://bayessoft.com.tr"
+      },
+      {
+        "name": "author",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "keywords",
+        "content": "BayesSoft,kurumsal yazılım şirketi,özel yazılım geliştirme,mobil uygulama geliştirme,yapay zekâ çözümleri,web uygulama geliştirme,bulut ve DevOps"
+      },
+      {
+        "name": "creator",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "publisher",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      },
+      {
+        "name": "category",
+        "content": "technology"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://bayessoft.com.tr"
+      },
+      {
+        "name": "format-detection",
+        "content": "telephone=no, address=no, email=no"
+      },
+      {
+        "property": "og:title",
+        "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+      },
+      {
+        "property": "og:description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "property": "og:url",
+        "content": "https://bayessoft.com.tr"
+      },
+      {
+        "property": "og:site_name",
+        "content": "BayesSoft"
+      },
+      {
+        "property": "og:locale",
+        "content": "tr_TR"
+      },
+      {
+        "property": "og:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "property": "og:image:width",
+        "content": "1733"
+      },
+      {
+        "property": "og:image:height",
+        "content": "907"
+      },
+      {
+        "property": "og:image:alt",
+        "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "name": "twitter:title",
+        "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+      },
+      {
+        "name": "twitter:description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "rel": "icon",
+        "href": "/bayes_logo_dark.png"
+      }
+    ],
+    "body_file": "d7a130c8009d.body.txt",
+    "headers_file": "d7a130c8009d.headers.txt",
+    "sha256": "ff4d025e17713f0e2996b0dd7369c372f68ca5bc5bde124b145615260916785a",
+    "new_marker": false,
+    "legacy_marker": false,
+    "locs": []
+  },
+  {
+    "path": "/prototype/spatial-hero-plus",
+    "status": "404",
+    "final_url": "https://bayessoft.com.tr/prototype/spatial-hero-plus",
+    "content_type": "text/html; charset=utf-8",
+    "error": "",
+    "title": "404: This page could not be found.BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ",
+    "links": [
+      "/",
+      "/cdn-cgi/l/email-protection#355c5b535a7557544c5046465a53411b565a581b4147",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler",
+      "https://bayessoft.com.tr",
+      "https://linkedin.com/company/bayessoft"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ],
+    "metadata": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/ttf"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "as": "image",
+        "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/a0b90a5851dc9388.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/bb88dec1857fde07.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "preload",
+        "as": "script",
+        "fetchpriority": "low",
+        "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+      },
+      {
+        "name": "robots",
+        "content": "noindex"
+      },
+      {
+        "name": "next-size-adjust",
+        "content": ""
+      },
+      {
+        "name": "theme-color",
+        "content": "#101827"
+      },
+      {
+        "name": "color-scheme",
+        "content": "dark light"
+      },
+      {
+        "name": "description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "name": "application-name",
+        "content": "BayesSoft"
+      },
+      {
+        "rel": "author",
+        "href": "https://bayessoft.com.tr"
+      },
+      {
+        "name": "author",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "keywords",
+        "content": "BayesSoft,kurumsal yazılım şirketi,özel yazılım geliştirme,mobil uygulama geliştirme,yapay zekâ çözümleri,web uygulama geliştirme,bulut ve DevOps"
+      },
+      {
+        "name": "creator",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "publisher",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      },
+      {
+        "name": "category",
+        "content": "technology"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://bayessoft.com.tr"
+      },
+      {
+        "name": "format-detection",
+        "content": "telephone=no, address=no, email=no"
+      },
+      {
+        "property": "og:title",
+        "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+      },
+      {
+        "property": "og:description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "property": "og:url",
+        "content": "https://bayessoft.com.tr"
+      },
+      {
+        "property": "og:site_name",
+        "content": "BayesSoft"
+      },
+      {
+        "property": "og:locale",
+        "content": "tr_TR"
+      },
+      {
+        "property": "og:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "property": "og:image:width",
+        "content": "1733"
+      },
+      {
+        "property": "og:image:height",
+        "content": "907"
+      },
+      {
+        "property": "og:image:alt",
+        "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "name": "twitter:title",
+        "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+      },
+      {
+        "name": "twitter:description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "rel": "icon",
+        "href": "/bayes_logo_dark.png"
+      }
+    ],
+    "body_file": "153c3343ba9d.body.txt",
+    "headers_file": "153c3343ba9d.headers.txt",
+    "sha256": "5188537a154f1a8194c4972a3eaeb5a5eccc5369c3aaee2947b892f39f484b3a",
+    "new_marker": false,
+    "legacy_marker": false,
+    "locs": []
+  },
+  {
+    "path": "/prototype/bs3p-right-3d",
+    "status": "404",
+    "final_url": "https://bayessoft.com.tr/prototype/bs3p-right-3d",
+    "content_type": "text/html; charset=utf-8",
+    "error": "",
+    "title": "404: This page could not be found.BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ",
+    "links": [
+      "/",
+      "/cdn-cgi/l/email-protection#8ee7e0e8e1ceeceff7ebfdfde1e8faa0ede1e3a0fafc",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler",
+      "https://bayessoft.com.tr",
+      "https://linkedin.com/company/bayessoft"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ],
+    "metadata": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/ttf"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "as": "image",
+        "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/a0b90a5851dc9388.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/bb88dec1857fde07.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "preload",
+        "as": "script",
+        "fetchpriority": "low",
+        "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+      },
+      {
+        "name": "robots",
+        "content": "noindex"
+      },
+      {
+        "name": "next-size-adjust",
+        "content": ""
+      },
+      {
+        "name": "theme-color",
+        "content": "#101827"
+      },
+      {
+        "name": "color-scheme",
+        "content": "dark light"
+      },
+      {
+        "name": "description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "name": "application-name",
+        "content": "BayesSoft"
+      },
+      {
+        "rel": "author",
+        "href": "https://bayessoft.com.tr"
+      },
+      {
+        "name": "author",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "keywords",
+        "content": "BayesSoft,kurumsal yazılım şirketi,özel yazılım geliştirme,mobil uygulama geliştirme,yapay zekâ çözümleri,web uygulama geliştirme,bulut ve DevOps"
+      },
+      {
+        "name": "creator",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "publisher",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      },
+      {
+        "name": "category",
+        "content": "technology"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://bayessoft.com.tr"
+      },
+      {
+        "name": "format-detection",
+        "content": "telephone=no, address=no, email=no"
+      },
+      {
+        "property": "og:title",
+        "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+      },
+      {
+        "property": "og:description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "property": "og:url",
+        "content": "https://bayessoft.com.tr"
+      },
+      {
+        "property": "og:site_name",
+        "content": "BayesSoft"
+      },
+      {
+        "property": "og:locale",
+        "content": "tr_TR"
+      },
+      {
+        "property": "og:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "property": "og:image:width",
+        "content": "1733"
+      },
+      {
+        "property": "og:image:height",
+        "content": "907"
+      },
+      {
+        "property": "og:image:alt",
+        "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "name": "twitter:title",
+        "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+      },
+      {
+        "name": "twitter:description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "rel": "icon",
+        "href": "/bayes_logo_dark.png"
+      }
+    ],
+    "body_file": "b9135e2dfe8f.body.txt",
+    "headers_file": "b9135e2dfe8f.headers.txt",
+    "sha256": "7bad9fbc04ec482f8a92a55625b404b18062a18e5f5363be24c7a3da61bf5004",
+    "new_marker": false,
+    "legacy_marker": false,
+    "locs": []
+  },
+  {
+    "path": "/prototype/bs3p-homepage",
+    "status": "404",
+    "final_url": "https://bayessoft.com.tr/prototype/bs3p-homepage",
+    "content_type": "text/html; charset=utf-8",
+    "error": "",
+    "title": "404: This page could not be found.BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ",
+    "links": [
+      "/",
+      "/cdn-cgi/l/email-protection#0d64636b624d6f6c74687e7e626b79236e626023797f",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler",
+      "https://bayessoft.com.tr",
+      "https://linkedin.com/company/bayessoft"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ],
+    "metadata": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/ttf"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "as": "image",
+        "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/a0b90a5851dc9388.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/bb88dec1857fde07.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "preload",
+        "as": "script",
+        "fetchpriority": "low",
+        "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+      },
+      {
+        "name": "robots",
+        "content": "noindex"
+      },
+      {
+        "name": "next-size-adjust",
+        "content": ""
+      },
+      {
+        "name": "theme-color",
+        "content": "#101827"
+      },
+      {
+        "name": "color-scheme",
+        "content": "dark light"
+      },
+      {
+        "name": "description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "name": "application-name",
+        "content": "BayesSoft"
+      },
+      {
+        "rel": "author",
+        "href": "https://bayessoft.com.tr"
+      },
+      {
+        "name": "author",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "keywords",
+        "content": "BayesSoft,kurumsal yazılım şirketi,özel yazılım geliştirme,mobil uygulama geliştirme,yapay zekâ çözümleri,web uygulama geliştirme,bulut ve DevOps"
+      },
+      {
+        "name": "creator",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "publisher",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      },
+      {
+        "name": "category",
+        "content": "technology"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://bayessoft.com.tr"
+      },
+      {
+        "name": "format-detection",
+        "content": "telephone=no, address=no, email=no"
+      },
+      {
+        "property": "og:title",
+        "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+      },
+      {
+        "property": "og:description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "property": "og:url",
+        "content": "https://bayessoft.com.tr"
+      },
+      {
+        "property": "og:site_name",
+        "content": "BayesSoft"
+      },
+      {
+        "property": "og:locale",
+        "content": "tr_TR"
+      },
+      {
+        "property": "og:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "property": "og:image:width",
+        "content": "1733"
+      },
+      {
+        "property": "og:image:height",
+        "content": "907"
+      },
+      {
+        "property": "og:image:alt",
+        "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "name": "twitter:title",
+        "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+      },
+      {
+        "name": "twitter:description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "rel": "icon",
+        "href": "/bayes_logo_dark.png"
+      }
+    ],
+    "body_file": "849d1b969f39.body.txt",
+    "headers_file": "849d1b969f39.headers.txt",
+    "sha256": "a9e9c6947eb6310b74eba7b8ddad1a5bcf3bc57e1ce780add292e3d80ade50cb",
+    "new_marker": false,
+    "legacy_marker": false,
+    "locs": []
+  },
+  {
+    "path": "/prototype/bs3p-project-showcase",
+    "status": "404",
+    "final_url": "https://bayessoft.com.tr/prototype/bs3p-project-showcase",
+    "content_type": "text/html; charset=utf-8",
+    "error": "",
+    "title": "404: This page could not be found.BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ",
+    "links": [
+      "/",
+      "/cdn-cgi/l/email-protection#e28b8c848da280839b8791918d8496cc818d8fcc9690",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler",
+      "https://bayessoft.com.tr",
+      "https://linkedin.com/company/bayessoft"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ],
+    "metadata": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/ttf"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "as": "image",
+        "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/a0b90a5851dc9388.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/bb88dec1857fde07.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "preload",
+        "as": "script",
+        "fetchpriority": "low",
+        "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+      },
+      {
+        "name": "robots",
+        "content": "noindex"
+      },
+      {
+        "name": "next-size-adjust",
+        "content": ""
+      },
+      {
+        "name": "theme-color",
+        "content": "#101827"
+      },
+      {
+        "name": "color-scheme",
+        "content": "dark light"
+      },
+      {
+        "name": "description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "name": "application-name",
+        "content": "BayesSoft"
+      },
+      {
+        "rel": "author",
+        "href": "https://bayessoft.com.tr"
+      },
+      {
+        "name": "author",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "keywords",
+        "content": "BayesSoft,kurumsal yazılım şirketi,özel yazılım geliştirme,mobil uygulama geliştirme,yapay zekâ çözümleri,web uygulama geliştirme,bulut ve DevOps"
+      },
+      {
+        "name": "creator",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "publisher",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      },
+      {
+        "name": "category",
+        "content": "technology"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://bayessoft.com.tr"
+      },
+      {
+        "name": "format-detection",
+        "content": "telephone=no, address=no, email=no"
+      },
+      {
+        "property": "og:title",
+        "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+      },
+      {
+        "property": "og:description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "property": "og:url",
+        "content": "https://bayessoft.com.tr"
+      },
+      {
+        "property": "og:site_name",
+        "content": "BayesSoft"
+      },
+      {
+        "property": "og:locale",
+        "content": "tr_TR"
+      },
+      {
+        "property": "og:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "property": "og:image:width",
+        "content": "1733"
+      },
+      {
+        "property": "og:image:height",
+        "content": "907"
+      },
+      {
+        "property": "og:image:alt",
+        "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "name": "twitter:title",
+        "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+      },
+      {
+        "name": "twitter:description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "rel": "icon",
+        "href": "/bayes_logo_dark.png"
+      }
+    ],
+    "body_file": "ea4e6ceb8455.body.txt",
+    "headers_file": "ea4e6ceb8455.headers.txt",
+    "sha256": "1d3087f50bb5072aea1af575a39260ba6ec58800d4cd7d11d7e3d82511934301",
+    "new_marker": false,
+    "legacy_marker": false,
+    "locs": []
+  },
+  {
+    "path": "/prototype/bs3p-project-showcase-r2",
+    "status": "404",
+    "final_url": "https://bayessoft.com.tr/prototype/bs3p-project-showcase-r2",
+    "content_type": "text/html; charset=utf-8",
+    "error": "",
+    "title": "404: This page could not be found.BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ",
+    "links": [
+      "/",
+      "/cdn-cgi/l/email-protection#b1d8dfd7def1d3d0c8d4c2c2ded7c59fd2dedc9fc5c3",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler",
+      "https://bayessoft.com.tr",
+      "https://linkedin.com/company/bayessoft"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ],
+    "metadata": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/ttf"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "as": "image",
+        "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/a0b90a5851dc9388.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/bb88dec1857fde07.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "preload",
+        "as": "script",
+        "fetchpriority": "low",
+        "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+      },
+      {
+        "name": "robots",
+        "content": "noindex"
+      },
+      {
+        "name": "next-size-adjust",
+        "content": ""
+      },
+      {
+        "name": "theme-color",
+        "content": "#101827"
+      },
+      {
+        "name": "color-scheme",
+        "content": "dark light"
+      },
+      {
+        "name": "description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "name": "application-name",
+        "content": "BayesSoft"
+      },
+      {
+        "rel": "author",
+        "href": "https://bayessoft.com.tr"
+      },
+      {
+        "name": "author",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "keywords",
+        "content": "BayesSoft,kurumsal yazılım şirketi,özel yazılım geliştirme,mobil uygulama geliştirme,yapay zekâ çözümleri,web uygulama geliştirme,bulut ve DevOps"
+      },
+      {
+        "name": "creator",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "publisher",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      },
+      {
+        "name": "category",
+        "content": "technology"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://bayessoft.com.tr"
+      },
+      {
+        "name": "format-detection",
+        "content": "telephone=no, address=no, email=no"
+      },
+      {
+        "property": "og:title",
+        "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+      },
+      {
+        "property": "og:description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "property": "og:url",
+        "content": "https://bayessoft.com.tr"
+      },
+      {
+        "property": "og:site_name",
+        "content": "BayesSoft"
+      },
+      {
+        "property": "og:locale",
+        "content": "tr_TR"
+      },
+      {
+        "property": "og:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "property": "og:image:width",
+        "content": "1733"
+      },
+      {
+        "property": "og:image:height",
+        "content": "907"
+      },
+      {
+        "property": "og:image:alt",
+        "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "name": "twitter:title",
+        "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+      },
+      {
+        "name": "twitter:description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "rel": "icon",
+        "href": "/bayes_logo_dark.png"
+      }
+    ],
+    "body_file": "d445b2f69408.body.txt",
+    "headers_file": "d445b2f69408.headers.txt",
+    "sha256": "9b9e991b5fc58f45dfb143f050f4b504c57e1a44422dc464d7d38f48a4bef585",
+    "new_marker": false,
+    "legacy_marker": false,
+    "locs": []
+  },
+  {
+    "path": "/hakkimizda/",
+    "status": "404",
+    "final_url": "https://bayessoft.com.tr/hakkimizda/",
+    "content_type": "text/html; charset=utf-8",
+    "error": "",
+    "title": "404: This page could not be found.BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ",
+    "links": [
+      "/",
+      "/cdn-cgi/l/email-protection#89e0e7efe6c9ebe8f0ecfafae6effda7eae6e4a7fdfb",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler",
+      "https://bayessoft.com.tr",
+      "https://linkedin.com/company/bayessoft"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ],
+    "metadata": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/ttf"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "as": "image",
+        "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/a0b90a5851dc9388.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/bb88dec1857fde07.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "preload",
+        "as": "script",
+        "fetchpriority": "low",
+        "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+      },
+      {
+        "name": "robots",
+        "content": "noindex"
+      },
+      {
+        "name": "next-size-adjust",
+        "content": ""
+      },
+      {
+        "name": "theme-color",
+        "content": "#101827"
+      },
+      {
+        "name": "color-scheme",
+        "content": "dark light"
+      },
+      {
+        "name": "description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "name": "application-name",
+        "content": "BayesSoft"
+      },
+      {
+        "rel": "author",
+        "href": "https://bayessoft.com.tr"
+      },
+      {
+        "name": "author",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "keywords",
+        "content": "BayesSoft,kurumsal yazılım şirketi,özel yazılım geliştirme,mobil uygulama geliştirme,yapay zekâ çözümleri,web uygulama geliştirme,bulut ve DevOps"
+      },
+      {
+        "name": "creator",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "publisher",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      },
+      {
+        "name": "category",
+        "content": "technology"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://bayessoft.com.tr"
+      },
+      {
+        "name": "format-detection",
+        "content": "telephone=no, address=no, email=no"
+      },
+      {
+        "property": "og:title",
+        "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+      },
+      {
+        "property": "og:description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "property": "og:url",
+        "content": "https://bayessoft.com.tr"
+      },
+      {
+        "property": "og:site_name",
+        "content": "BayesSoft"
+      },
+      {
+        "property": "og:locale",
+        "content": "tr_TR"
+      },
+      {
+        "property": "og:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "property": "og:image:width",
+        "content": "1733"
+      },
+      {
+        "property": "og:image:height",
+        "content": "907"
+      },
+      {
+        "property": "og:image:alt",
+        "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "name": "twitter:title",
+        "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+      },
+      {
+        "name": "twitter:description",
+        "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "rel": "icon",
+        "href": "/bayes_logo_dark.png"
+      }
+    ],
+    "body_file": "1aa33d76b413.body.txt",
+    "headers_file": "1aa33d76b413.headers.txt",
+    "sha256": "2070777e0a5bd651d0aca5733894d61605fad9bd92130b61d2dcf8b0d4448013",
+    "new_marker": false,
+    "legacy_marker": false,
+    "locs": []
+  },
+  {
+    "path": "/hakkimizda.html",
+    "status": "200",
+    "final_url": "https://bayessoft.com.tr/hakkimizda.html",
+    "content_type": "text/html; charset=utf-8",
+    "error": "",
+    "title": "Hakkımızda | BayesSoft",
+    "links": [
+      "/",
+      "/cdn-cgi/l/email-protection#bed7d0d8d1fedcdfc7dbcdcdd1d8ca90ddd1d390cacc",
+      "/cdn-cgi/l/email-protection#e0898e868fa08281998593938f8694ce838f8dce9492",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler",
+      "https://bayessoft.com.tr",
+      "https://linkedin.com/company/bayessoft"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "Batuhan Ersan, Full-Stack Developer",
+        "decoding": "async",
+        "data-nimg": "fill",
+        "class": "object-cover object-center transition duration-500 group-hover:scale-[1.04] grayscale saturate-0 contrast-110 opacity-70",
+        "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+        "src": "/team/batuhan_ersan.jpg"
+      },
+      {
+        "alt": "Ahmet B. Çınar, Backend Developer",
+        "decoding": "async",
+        "data-nimg": "fill",
+        "class": "object-cover object-center transition duration-500 group-hover:scale-[1.04] grayscale saturate-0 contrast-110 opacity-70",
+        "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+        "src": "/team/bugrahan_cinar.jpeg"
+      },
+      {
+        "alt": "Yavuz Selim Kara, Mobile Developer",
+        "loading": "lazy",
+        "decoding": "async",
+        "data-nimg": "fill",
+        "class": "object-cover object-center transition duration-500 group-hover:scale-[1.04] grayscale saturate-0 contrast-110 opacity-70",
+        "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+        "src": "/team/yavuz_selim_kara.jpg"
+      },
+      {
+        "alt": "Enes Keleş, Full-Stack Developer",
+        "loading": "lazy",
+        "decoding": "async",
+        "data-nimg": "fill",
+        "class": "object-cover object-center transition duration-500 group-hover:scale-[1.04] grayscale saturate-0 contrast-110 opacity-70",
+        "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+        "src": "/team/enes_keles.jpeg"
+      },
+      {
+        "alt": "Sefa Ağardan, Backend Developer",
+        "loading": "lazy",
+        "decoding": "async",
+        "data-nimg": "fill",
+        "class": "object-cover object-center transition duration-500 group-hover:scale-[1.04] grayscale saturate-0 contrast-110 opacity-70",
+        "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+        "src": "/team/sefa_agardan.jpg"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ],
+    "metadata": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/ttf"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      },
+      {
+        "rel": "preload",
+        "as": "image",
+        "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "rel": "preload",
+        "as": "image",
+        "href": "/team/batuhan_ersan.jpg"
+      },
+      {
+        "rel": "preload",
+        "as": "image",
+        "href": "/team/bugrahan_cinar.jpeg"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/a0b90a5851dc9388.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/bb88dec1857fde07.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+        "data-precedence": "next"
+      },
+      {
+        "rel": "preload",
+        "as": "script",
+        "fetchpriority": "low",
+        "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+      },
+      {
+        "name": "next-size-adjust",
+        "content": ""
+      },
+      {
+        "name": "theme-color",
+        "content": "#101827"
+      },
+      {
+        "name": "color-scheme",
+        "content": "dark light"
+      },
+      {
+        "name": "description",
+        "content": "BayesSoft'un kurumsal yazılım, mobil ürünler, yapay zekâ ve bulut sistemleri geliştiren ürün mühendisliği ekibini ve çalışma yaklaşımını tanıyın."
+      },
+      {
+        "name": "application-name",
+        "content": "BayesSoft"
+      },
+      {
+        "rel": "author",
+        "href": "https://bayessoft.com.tr"
+      },
+      {
+        "name": "author",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "keywords",
+        "content": "BayesSoft hakkında,yazılım geliştirme ekibi,ürün mühendisliği ekibi"
+      },
+      {
+        "name": "creator",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "publisher",
+        "content": "BayesSoft"
+      },
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      },
+      {
+        "name": "category",
+        "content": "technology"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://bayessoft.com.tr/hakkimizda"
+      },
+      {
+        "name": "format-detection",
+        "content": "telephone=no, address=no, email=no"
+      },
+      {
+        "property": "og:title",
+        "content": "Hakkımızda | BayesSoft"
+      },
+      {
+        "property": "og:description",
+        "content": "BayesSoft'un kurumsal yazılım, mobil ürünler, yapay zekâ ve bulut sistemleri geliştiren ürün mühendisliği ekibini ve çalışma yaklaşımını tanıyın."
+      },
+      {
+        "property": "og:url",
+        "content": "https://bayessoft.com.tr/hakkimizda"
+      },
+      {
+        "property": "og:site_name",
+        "content": "BayesSoft"
+      },
+      {
+        "property": "og:locale",
+        "content": "tr_TR"
+      },
+      {
+        "property": "og:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "property": "og:image:width",
+        "content": "1733"
+      },
+      {
+        "property": "og:image:height",
+        "content": "907"
+      },
+      {
+        "property": "og:image:alt",
+        "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "name": "twitter:title",
+        "content": "Hakkımızda | BayesSoft"
+      },
+      {
+        "name": "twitter:description",
+        "content": "BayesSoft'un kurumsal yazılım, mobil ürünler, yapay zekâ ve bulut sistemleri geliştiren ürün mühendisliği ekibini ve çalışma yaklaşımını tanıyın."
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://bayessoft.com.tr/og.png"
+      },
+      {
+        "rel": "icon",
+        "href": "/bayes_logo_dark.png"
+      }
+    ],
+    "body_file": "7f8fc695d71d.body.txt",
+    "headers_file": "7f8fc695d71d.headers.txt",
+    "sha256": "46140bcce12a3e1016a3e009e4172d35b01b253989f1b6b09a9d31124f7d1e57",
+    "new_marker": false,
+    "legacy_marker": true,
+    "locs": []
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "images": [
+    {
+      "src": "http://127.0.0.1:3030/projects/covers/furtherup-drive-cover-640.webp",
+      "complete": true,
+      "naturalWidth": 432,
+      "opacity": "1",
+      "visibility": "visible",
+      "rect": {
+        "x": 65,
+        "y": 584.984375,
+        "width": 416.65625,
+        "height": 562.796875,
+        "top": 584.984375,
+        "right": 481.65625,
+        "bottom": 1147.78125,
+        "left": 65
+      }
+    },
+    {
+      "src": "http://127.0.0.1:3030/projects/covers/reviel-cover-640.webp",
+      "complete": true,
+      "naturalWidth": 432,
+      "opacity": "1",
+      "visibility": "visible",
+      "rect": {
+        "x": 511.65625,
+        "y": 584.984375,
+        "width": 416.671875,
+        "height": 562.8125,
+        "top": 584.984375,
+        "right": 928.328125,
+        "bottom": 1147.796875,
+        "left": 511.65625
+      }
+    },
+    {
+      "src": "http://127.0.0.1:3030/projects/covers/metek-makina-cover-640.webp",
+      "complete": true,
+      "naturalWidth": 432,
+      "opacity": "1",
+      "visibility": "visible",
+      "rect": {
+        "x": 958.328125,
+        "y": 584.984375,
+        "width": 416.65625,
+        "height": 562.796875,
+        "top": 584.984375,
+        "right": 1374.984375,
+        "bottom": 1147.78125,
+        "left": 958.328125
+      }
+    }
+  ],
+  "pixelDiff": {
+    "differentChannels": 368252
+  }
+}

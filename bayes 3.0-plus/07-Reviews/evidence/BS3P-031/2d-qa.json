@@ -1,0 +1,1435 @@
+{
+  "started": "2026-10-16T15:59:30.460Z",
+  "states": [
+    {
+      "route": "/",
+      "width": 1440,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 1440,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 1440,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 1440,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/hizmetler",
+      "width": 1440,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/hizmetler",
+      "width": 1440,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/hizmetler",
+      "width": 1440,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler",
+      "width": 1440,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler",
+      "width": 1440,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler",
+      "width": 1440,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/iletisim",
+      "width": 1440,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/iletisim",
+      "width": 1440,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/iletisim",
+      "width": 1440,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/tam-finans-fintech",
+      "width": 1440,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/tam-finans-fintech",
+      "width": 1440,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/tam-finans-fintech",
+      "width": 1440,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/smart-hospital",
+      "width": 1440,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/smart-hospital",
+      "width": 1440,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/smart-hospital",
+      "width": 1440,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/petnest-platform",
+      "width": 1440,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/petnest-platform",
+      "width": 1440,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/petnest-platform",
+      "width": 1440,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/atli-logistics",
+      "width": 1440,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/atli-logistics",
+      "width": 1440,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/atli-logistics",
+      "width": 1440,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/military-aircraft-classification",
+      "width": 1440,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/military-aircraft-classification",
+      "width": 1440,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/military-aircraft-classification",
+      "width": 1440,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/ai-chatbot",
+      "width": 1440,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/ai-chatbot",
+      "width": 1440,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/ai-chatbot",
+      "width": 1440,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 1440,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 1440,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 1440,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/maritime-horizon-segmentation",
+      "width": 1440,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/maritime-horizon-segmentation",
+      "width": 1440,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/projeler/maritime-horizon-segmentation",
+      "width": 1440,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 1440
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 390,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 390,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 390,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/hizmetler",
+      "width": 390,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/hizmetler",
+      "width": 390,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/hizmetler",
+      "width": 390,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler",
+      "width": 390,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler",
+      "width": 390,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler",
+      "width": 390,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/iletisim",
+      "width": 390,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/iletisim",
+      "width": 390,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/iletisim",
+      "width": 390,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/tam-finans-fintech",
+      "width": 390,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/tam-finans-fintech",
+      "width": 390,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/tam-finans-fintech",
+      "width": 390,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/smart-hospital",
+      "width": 390,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/smart-hospital",
+      "width": 390,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/smart-hospital",
+      "width": 390,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/petnest-platform",
+      "width": 390,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/petnest-platform",
+      "width": 390,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/petnest-platform",
+      "width": 390,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/atli-logistics",
+      "width": 390,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/atli-logistics",
+      "width": 390,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/atli-logistics",
+      "width": 390,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/military-aircraft-classification",
+      "width": 390,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/military-aircraft-classification",
+      "width": 390,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/military-aircraft-classification",
+      "width": 390,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/ai-chatbot",
+      "width": 390,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/ai-chatbot",
+      "width": 390,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/ai-chatbot",
+      "width": 390,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 390,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 390,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 390,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/maritime-horizon-segmentation",
+      "width": 390,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/maritime-horizon-segmentation",
+      "width": 390,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/projeler/maritime-horizon-segmentation",
+      "width": 390,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 390
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 375,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 375,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 375,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/hizmetler",
+      "width": 375,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/hizmetler",
+      "width": 375,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/hizmetler",
+      "width": 375,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler",
+      "width": 375,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler",
+      "width": 375,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler",
+      "width": 375,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/iletisim",
+      "width": 375,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/iletisim",
+      "width": 375,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/iletisim",
+      "width": 375,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/tam-finans-fintech",
+      "width": 375,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/tam-finans-fintech",
+      "width": 375,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/tam-finans-fintech",
+      "width": 375,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/smart-hospital",
+      "width": 375,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/smart-hospital",
+      "width": 375,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/smart-hospital",
+      "width": 375,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/petnest-platform",
+      "width": 375,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/petnest-platform",
+      "width": 375,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/petnest-platform",
+      "width": 375,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/atli-logistics",
+      "width": 375,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/atli-logistics",
+      "width": 375,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/atli-logistics",
+      "width": 375,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/military-aircraft-classification",
+      "width": 375,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/military-aircraft-classification",
+      "width": 375,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/military-aircraft-classification",
+      "width": 375,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/ai-chatbot",
+      "width": 375,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/ai-chatbot",
+      "width": 375,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/ai-chatbot",
+      "width": 375,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 375,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 375,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 375,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/maritime-horizon-segmentation",
+      "width": 375,
+      "lang": "tr",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/maritime-horizon-segmentation",
+      "width": 375,
+      "lang": "en",
+      "status": 200,
+      "scrollWidth": 375
+    },
+    {
+      "route": "/projeler/maritime-horizon-segmentation",
+      "width": 375,
+      "lang": "de",
+      "status": 200,
+      "scrollWidth": 375
+    }
+  ],
+  "aliases": [
+    {
+      "route": "/hakkimizda.html",
+      "status": 200
+    },
+    {
+      "route": "/hizmetler.html",
+      "status": 200
+    },
+    {
+      "route": "/projeler.html",
+      "status": 200
+    },
+    {
+      "route": "/iletisim.html",
+      "status": 200
+    },
+    {
+      "route": "/projeler/tam-finans-fintech.html",
+      "status": 200
+    },
+    {
+      "route": "/projeler/smart-hospital.html",
+      "status": 200
+    },
+    {
+      "route": "/projeler/petnest-platform.html",
+      "status": 200
+    },
+    {
+      "route": "/projeler/atli-logistics.html",
+      "status": 200
+    },
+    {
+      "route": "/projeler/military-aircraft-classification.html",
+      "status": 200
+    },
+    {
+      "route": "/projeler/ai-chatbot.html",
+      "status": 200
+    },
+    {
+      "route": "/projeler/furtherup-drive.html",
+      "status": 200
+    },
+    {
+      "route": "/projeler/maritime-horizon-segmentation.html",
+      "status": 200
+    }
+  ],
+  "images": [
+    {
+      "route": "/",
+      "width": 1440,
+      "decoded": true
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 1440,
+      "decoded": true
+    },
+    {
+      "route": "/hizmetler",
+      "width": 1440,
+      "decoded": true
+    },
+    {
+      "route": "/projeler",
+      "width": 1440,
+      "decoded": true
+    },
+    {
+      "route": "/iletisim",
+      "width": 1440,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/tam-finans-fintech",
+      "width": 1440,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/smart-hospital",
+      "width": 1440,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/petnest-platform",
+      "width": 1440,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/atli-logistics",
+      "width": 1440,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/military-aircraft-classification",
+      "width": 1440,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/ai-chatbot",
+      "width": 1440,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 1440,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/maritime-horizon-segmentation",
+      "width": 1440,
+      "decoded": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "decoded": true
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 390,
+      "decoded": true
+    },
+    {
+      "route": "/hizmetler",
+      "width": 390,
+      "decoded": true
+    },
+    {
+      "route": "/projeler",
+      "width": 390,
+      "decoded": true
+    },
+    {
+      "route": "/iletisim",
+      "width": 390,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/tam-finans-fintech",
+      "width": 390,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/smart-hospital",
+      "width": 390,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/petnest-platform",
+      "width": 390,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/atli-logistics",
+      "width": 390,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/military-aircraft-classification",
+      "width": 390,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/ai-chatbot",
+      "width": 390,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 390,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/maritime-horizon-segmentation",
+      "width": 390,
+      "decoded": true
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "decoded": true
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 375,
+      "decoded": true
+    },
+    {
+      "route": "/hizmetler",
+      "width": 375,
+      "decoded": true
+    },
+    {
+      "route": "/projeler",
+      "width": 375,
+      "decoded": true
+    },
+    {
+      "route": "/iletisim",
+      "width": 375,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/tam-finans-fintech",
+      "width": 375,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/smart-hospital",
+      "width": 375,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/petnest-platform",
+      "width": 375,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/atli-logistics",
+      "width": 375,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/military-aircraft-classification",
+      "width": 375,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/ai-chatbot",
+      "width": 375,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 375,
+      "decoded": true
+    },
+    {
+      "route": "/projeler/maritime-horizon-segmentation",
+      "width": 375,
+      "decoded": true
+    }
+  ],
+  "navigation": [
+    {
+      "width": 1440,
+      "servicesCTA": true
+    },
+    {
+      "width": 1440,
+      "slug": "tam-finans-fintech",
+      "roundTrip": true
+    },
+    {
+      "width": 1440,
+      "slug": "smart-hospital",
+      "roundTrip": true
+    },
+    {
+      "width": 1440,
+      "slug": "petnest-platform",
+      "roundTrip": true
+    },
+    {
+      "width": 1440,
+      "slug": "atli-logistics",
+      "roundTrip": true
+    },
+    {
+      "width": 1440,
+      "slug": "military-aircraft-classification",
+      "roundTrip": true
+    },
+    {
+      "width": 1440,
+      "slug": "ai-chatbot",
+      "roundTrip": true
+    },
+    {
+      "width": 1440,
+      "slug": "furtherup-drive",
+      "roundTrip": true
+    },
+    {
+      "width": 1440,
+      "detailGallery": true,
+      "keyboard": true
+    },
+    {
+      "width": 1440,
+      "slug": "maritime-horizon-segmentation",
+      "roundTrip": true
+    },
+    {
+      "width": 390,
+      "servicesCTA": true
+    },
+    {
+      "width": 390,
+      "slug": "tam-finans-fintech",
+      "roundTrip": true
+    },
+    {
+      "width": 390,
+      "slug": "smart-hospital",
+      "roundTrip": true
+    },
+    {
+      "width": 390,
+      "slug": "petnest-platform",
+      "roundTrip": true
+    },
+    {
+      "width": 390,
+      "slug": "atli-logistics",
+      "roundTrip": true
+    },
+    {
+      "width": 390,
+      "slug": "military-aircraft-classification",
+      "roundTrip": true
+    },
+    {
+      "width": 390,
+      "slug": "ai-chatbot",
+      "roundTrip": true
+    },
+    {
+      "width": 390,
+      "slug": "furtherup-drive",
+      "roundTrip": true
+    },
+    {
+      "width": 390,
+      "detailGallery": true,
+      "keyboard": true
+    },
+    {
+      "width": 390,
+      "slug": "maritime-horizon-segmentation",
+      "roundTrip": true
+    },
+    {
+      "width": 375,
+      "servicesCTA": true
+    },
+    {
+      "width": 375,
+      "slug": "tam-finans-fintech",
+      "roundTrip": true
+    },
+    {
+      "width": 375,
+      "slug": "smart-hospital",
+      "roundTrip": true
+    },
+    {
+      "width": 375,
+      "slug": "petnest-platform",
+      "roundTrip": true
+    },
+    {
+      "width": 375,
+      "slug": "atli-logistics",
+      "roundTrip": true
+    },
+    {
+      "width": 375,
+      "slug": "military-aircraft-classification",
+      "roundTrip": true
+    },
+    {
+      "width": 375,
+      "slug": "ai-chatbot",
+      "roundTrip": true
+    },
+    {
+      "width": 375,
+      "slug": "furtherup-drive",
+      "roundTrip": true
+    },
+    {
+      "width": 375,
+      "detailGallery": true,
+      "keyboard": true
+    },
+    {
+      "width": 375,
+      "slug": "maritime-horizon-segmentation",
+      "roundTrip": true
+    }
+  ],
+  "modals": [
+    {
+      "width": 1440,
+      "member": 0,
+      "focusTrap": true,
+      "restore": true,
+      "escapeOrClose": true,
+      "touch": false
+    },
+    {
+      "width": 1440,
+      "member": 1,
+      "focusTrap": true,
+      "restore": true,
+      "escapeOrClose": true,
+      "touch": false
+    },
+    {
+      "width": 1440,
+      "member": 2,
+      "focusTrap": true,
+      "restore": true,
+      "escapeOrClose": true,
+      "touch": false
+    },
+    {
+      "width": 1440,
+      "member": 3,
+      "focusTrap": true,
+      "restore": true,
+      "escapeOrClose": true,
+      "touch": false
+    },
+    {
+      "width": 1440,
+      "member": 4,
+      "focusTrap": true,
+      "restore": true,
+      "escapeOrClose": true,
+      "touch": false
+    },
+    {
+      "width": 390,
+      "member": 0,
+      "focusTrap": true,
+      "restore": true,
+      "escapeOrClose": true,
+      "touch": true
+    },
+    {
+      "width": 390,
+      "member": 1,
+      "focusTrap": true,
+      "restore": true,
+      "escapeOrClose": true,
+      "touch": true
+    },
+    {
+      "width": 390,
+      "member": 2,
+      "focusTrap": true,
+      "restore": true,
+      "escapeOrClose": true,
+      "touch": true
+    },
+    {
+      "width": 390,
+      "member": 3,
+      "focusTrap": true,
+      "restore": true,
+      "escapeOrClose": true,
+      "touch": true
+    },
+    {
+      "width": 390,
+      "member": 4,
+      "focusTrap": true,
+      "restore": true,
+      "escapeOrClose": true,
+      "touch": true
+    },
+    {
+      "width": 375,
+      "member": 0,
+      "focusTrap": true,
+      "restore": true,
+      "escapeOrClose": true,
+      "touch": true
+    },
+    {
+      "width": 375,
+      "member": 1,
+      "focusTrap": true,
+      "restore": true,
+      "escapeOrClose": true,
+      "touch": true
+    },
+    {
+      "width": 375,
+      "member": 2,
+      "focusTrap": true,
+      "restore": true,
+      "escapeOrClose": true,
+      "touch": true
+    },
+    {
+      "width": 375,
+      "member": 3,
+      "focusTrap": true,
+      "restore": true,
+      "escapeOrClose": true,
+      "touch": true
+    },
+    {
+      "width": 375,
+      "member": 4,
+      "focusTrap": true,
+      "restore": true,
+      "escapeOrClose": true,
+      "touch": true
+    }
+  ],
+  "form": {
+    "validation": true,
+    "successReset": true,
+    "sendingLock": true,
+    "httpErrorRetainsValues": true,
+    "networkError": true,
+    "keyboard": true,
+    "intercepted": 3,
+    "realMessages": 0
+  },
+  "poster": [
+    {
+      "width": 1440,
+      "attempt": 0,
+      "coldContext": true,
+      "decoded": true,
+      "colors": 6947,
+      "src": "/projects/covers/furtherup-drive-cover-640.webp",
+      "complete": true,
+      "naturalWidth": 432,
+      "opacity": "1"
+    },
+    {
+      "width": 1440,
+      "attempt": 1,
+      "coldContext": true,
+      "decoded": true,
+      "colors": 6947,
+      "src": "/projects/covers/furtherup-drive-cover-640.webp",
+      "complete": true,
+      "naturalWidth": 432,
+      "opacity": "1"
+    },
+    {
+      "width": 390,
+      "attempt": 0,
+      "coldContext": true,
+      "decoded": true,
+      "colors": 7798,
+      "src": "/projects/covers/furtherup-drive-cover-640.webp",
+      "complete": true,
+      "naturalWidth": 342,
+      "opacity": "1"
+    },
+    {
+      "width": 390,
+      "attempt": 1,
+      "coldContext": true,
+      "decoded": true,
+      "colors": 6972,
+      "src": "/projects/covers/furtherup-drive-cover-640.webp",
+      "complete": true,
+      "naturalWidth": 342,
+      "opacity": "1"
+    },
+    {
+      "width": 375,
+      "attempt": 0,
+      "coldContext": true,
+      "decoded": true,
+      "colors": 7700,
+      "src": "/projects/covers/furtherup-drive-cover-640.webp",
+      "complete": true,
+      "naturalWidth": 327,
+      "opacity": "1"
+    },
+    {
+      "width": 375,
+      "attempt": 1,
+      "coldContext": true,
+      "decoded": true,
+      "colors": 7700,
+      "src": "/projects/covers/furtherup-drive-cover-640.webp",
+      "complete": true,
+      "naturalWidth": 327,
+      "opacity": "1"
+    }
+  ],
+  "errors": [],
+  "badAssets": [],
+  "catalog": {
+    "records": 11,
+    "originalRecords": 9,
+    "uniqueDetails": 8,
+    "noFakeDetail": true
+  },
+  "metadata": {
+    "canonicalAndDescriptionAll13": true,
+    "aliases": 12,
+    "missingAndNinthAndPrototype404": true
+  },
+  "finished": "2026-10-16T16:00:21.113Z",
+  "pass": true
+}

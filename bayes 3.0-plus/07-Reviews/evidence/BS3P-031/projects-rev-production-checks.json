@@ -1,0 +1,34 @@
+{
+  "pages": [
+    {
+      "route": "/projeler",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/projeler",
+      "width": 768,
+      "status": 200
+    },
+    {
+      "route": "/projeler",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/projeler",
+      "width": 375,
+      "status": 200
+    }
+  ],
+  "aliases": [
+    {
+      "route": "/projeler.html",
+      "status": 200,
+      "canonical": true,
+      "activeNav": true
+    }
+  ],
+  "errors": [],
+  "detailRetainsLegacyChrome": true
+}

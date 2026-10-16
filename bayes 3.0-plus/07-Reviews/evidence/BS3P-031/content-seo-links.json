@@ -1,0 +1,1244 @@
+[
+  {
+    "path": "/",
+    "missing_same_document_fragments_ssr": [],
+    "h1_count": 1,
+    "description": [
+      "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+    ],
+    "canonical": [
+      "https://bayessoft.com.tr"
+    ],
+    "internal_links": [
+      "/projeler",
+      "/projeler/furtherup-drive"
+    ],
+    "images": [
+      {
+        "class": "static-art",
+        "src": "/hero/system-static.svg",
+        "width": "960",
+        "height": "540",
+        "alt": "",
+        "decoding": "async",
+        "fetchpriority": "high",
+        "loading": "eager"
+      },
+      {
+        "src": "/hero/system-static.svg",
+        "width": "960",
+        "height": "540",
+        "alt": "Veri, kurallar ve web ile mobil arayüzlerden oluşan yazılım sistemi"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/tamfinans.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/tamfinans.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/metek.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/metek.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/reviel.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/reviel.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/further-up.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/further-up.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/arel.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/arel.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/atli.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/atli.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/kanuni_sultan_suleyman_hastanesi.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/kanuni_sultan_suleyman_hastanesi.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/teskilat-icom.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/teskilat-icom.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/hypersense.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/hypersense.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/zirve-cilingir.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/zirve-cilingir.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/tamfinans.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/tamfinans.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/metek.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/metek.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/reviel.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/reviel.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/further-up.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/further-up.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/arel.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/arel.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/atli.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/atli.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/kanuni_sultan_suleyman_hastanesi.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/kanuni_sultan_suleyman_hastanesi.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/teskilat-icom.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/teskilat-icom.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/hypersense.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/hypersense.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/zirve-cilingir.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/zirve-cilingir.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/tamfinans.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/tamfinans.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/metek.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/metek.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/reviel.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/reviel.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/further-up.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/further-up.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/arel.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/arel.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/atli.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/atli.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/kanuni_sultan_suleyman_hastanesi.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/kanuni_sultan_suleyman_hastanesi.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/teskilat-icom.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/teskilat-icom.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/hypersense.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/hypersense.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-neutral",
+        "src": "/references/zirve-cilingir.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      },
+      {
+        "class": "homepage-logo-color",
+        "src": "/references/zirve-cilingir.png",
+        "alt": "",
+        "aria-hidden": "true",
+        "width": "176",
+        "height": "64",
+        "loading": "eager",
+        "fetchpriority": "low",
+        "decoding": "async"
+      }
+    ]
+  },
+  {
+    "path": "/hakkimizda",
+    "missing_same_document_fragments_ssr": [],
+    "h1_count": 1,
+    "description": [
+      "BayesSoft'un kurumsal yazılım, mobil ürünler, yapay zekâ ve bulut sistemleri geliştiren ürün mühendisliği ekibini ve çalışma yaklaşımını tanıyın."
+    ],
+    "canonical": [
+      "https://bayessoft.com.tr/hakkimizda"
+    ],
+    "internal_links": [
+      "/",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "Batuhan Ersan, Full-Stack Developer",
+        "decoding": "async",
+        "data-nimg": "fill",
+        "class": "object-cover object-center transition duration-500 group-hover:scale-[1.04] grayscale saturate-0 contrast-110 opacity-70",
+        "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+        "src": "/team/batuhan_ersan.jpg"
+      },
+      {
+        "alt": "Ahmet B. Çınar, Backend Developer",
+        "decoding": "async",
+        "data-nimg": "fill",
+        "class": "object-cover object-center transition duration-500 group-hover:scale-[1.04] grayscale saturate-0 contrast-110 opacity-70",
+        "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+        "src": "/team/bugrahan_cinar.jpeg"
+      },
+      {
+        "alt": "Yavuz Selim Kara, Mobile Developer",
+        "loading": "lazy",
+        "decoding": "async",
+        "data-nimg": "fill",
+        "class": "object-cover object-center transition duration-500 group-hover:scale-[1.04] grayscale saturate-0 contrast-110 opacity-70",
+        "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+        "src": "/team/yavuz_selim_kara.jpg"
+      },
+      {
+        "alt": "Enes Keleş, Full-Stack Developer",
+        "loading": "lazy",
+        "decoding": "async",
+        "data-nimg": "fill",
+        "class": "object-cover object-center transition duration-500 group-hover:scale-[1.04] grayscale saturate-0 contrast-110 opacity-70",
+        "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+        "src": "/team/enes_keles.jpeg"
+      },
+      {
+        "alt": "Sefa Ağardan, Backend Developer",
+        "loading": "lazy",
+        "decoding": "async",
+        "data-nimg": "fill",
+        "class": "object-cover object-center transition duration-500 group-hover:scale-[1.04] grayscale saturate-0 contrast-110 opacity-70",
+        "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+        "src": "/team/sefa_agardan.jpg"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ]
+  },
+  {
+    "path": "/hizmetler",
+    "missing_same_document_fragments_ssr": [],
+    "h1_count": 1,
+    "description": [
+      "Kurumsal web yazılımı, Flutter mobil uygulama, yapay zekâ entegrasyonu, bulut, güvenlik ve DevOps hizmetlerini tek ürün mimarisinde sunuyoruz."
+    ],
+    "canonical": [
+      "https://bayessoft.com.tr/hizmetler"
+    ],
+    "internal_links": [
+      "/",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ]
+  },
+  {
+    "path": "/iletisim",
+    "missing_same_document_fragments_ssr": [],
+    "h1_count": 1,
+    "description": [
+      "Kurumsal yazılım, mobil uygulama, yapay zekâ entegrasyonu veya sistem modernizasyonu projeniz için BayesSoft ile iletişime geçin."
+    ],
+    "canonical": [
+      "https://bayessoft.com.tr/iletisim"
+    ],
+    "internal_links": [
+      "/",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ]
+  },
+  {
+    "path": "/projeler",
+    "missing_same_document_fragments_ssr": [],
+    "h1_count": 1,
+    "description": [
+      "BayesSoft'un fintech, sağlık, lojistik, mobil uygulama, yapay zekâ ve kurumsal yazılım alanlarında geliştirdiği projeleri inceleyin."
+    ],
+    "canonical": [
+      "https://bayessoft.com.tr/projeler"
+    ],
+    "internal_links": [
+      "/",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler",
+      "/projeler/ai-chatbot",
+      "/projeler/atli-logistics",
+      "/projeler/furtherup-drive",
+      "/projeler/maritime-horizon-segmentation",
+      "/projeler/military-aircraft-classification",
+      "/projeler/petnest-platform",
+      "/projeler/smart-hospital",
+      "/projeler/tam-finans-fintech"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ]
+  },
+  {
+    "path": "/projeler/ai-chatbot",
+    "missing_same_document_fragments_ssr": [],
+    "h1_count": 1,
+    "description": [
+      "Llama3 modelini Ollama üzerinden yerel altyapıda çalıştıran, gelişmiş veri filtreleme, prompt injection korumaları ve yönetici denetim panelleriyle donatılmı…"
+    ],
+    "canonical": [
+      "https://bayessoft.com.tr/projeler/ai-chatbot"
+    ],
+    "internal_links": [
+      "/",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ]
+  },
+  {
+    "path": "/projeler/atli-logistics",
+    "missing_same_document_fragments_ssr": [],
+    "h1_count": 1,
+    "description": [
+      "Lojistik depolarının ve antrepolarının günlük ve dönemsel iş gücü ihtiyaçlarını karşılamak amacıyla geliştirilmiş; iş atamaları, çalışan doğrulamaları ve fin…"
+    ],
+    "canonical": [
+      "https://bayessoft.com.tr/projeler/atli-logistics"
+    ],
+    "internal_links": [
+      "/",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ]
+  },
+  {
+    "path": "/projeler/furtherup-drive",
+    "missing_same_document_fragments_ssr": [],
+    "h1_count": 1,
+    "description": [
+      "Kurumsal koçluk süreçlerini dijitalleştiren; danışanların gelişimini, koç atamalarını, psikometrik test değerlendirmelerini ve abonelik ödemelerini tek bir p…"
+    ],
+    "canonical": [
+      "https://bayessoft.com.tr/projeler/furtherup-drive"
+    ],
+    "internal_links": [
+      "/",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "FurtherUp Drive 1",
+        "loading": "lazy",
+        "decoding": "async",
+        "data-nimg": "fill",
+        "class": "object-contain transition duration-500 hover:scale-[1.02]",
+        "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+        "src": "/projects/furtherup-drive/further-up-1.png"
+      },
+      {
+        "alt": "FurtherUp Drive 2",
+        "loading": "lazy",
+        "decoding": "async",
+        "data-nimg": "fill",
+        "class": "object-contain transition duration-500 hover:scale-[1.02]",
+        "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+        "src": "/projects/furtherup-drive/further-up-2.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ]
+  },
+  {
+    "path": "/projeler/maritime-horizon-segmentation",
+    "missing_same_document_fragments_ssr": [],
+    "h1_count": 1,
+    "description": [
+      "Deniz taşıtlarının otonom sürüş güvenliğini desteklemek amacıyla, video ve görüntülerde deniz ufuk çizgisini, gökyüzünü, kara parçalarını ve deniz üzerindeki…"
+    ],
+    "canonical": [
+      "https://bayessoft.com.tr/projeler/maritime-horizon-segmentation"
+    ],
+    "internal_links": [
+      "/",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ]
+  },
+  {
+    "path": "/projeler/military-aircraft-classification",
+    "missing_same_document_fragments_ssr": [],
+    "h1_count": 1,
+    "description": [
+      "EfficientNet-B4 derin öğrenme modelini kullanarak 89 farklı askeri uçak sınıfını görsellerden yüksek doğrulukla ayırt eden yapay zeka tabanlı bir sınıflandır…"
+    ],
+    "canonical": [
+      "https://bayessoft.com.tr/projeler/military-aircraft-classification"
+    ],
+    "internal_links": [
+      "/",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ]
+  },
+  {
+    "path": "/projeler/petnest-platform",
+    "missing_same_document_fragments_ssr": [],
+    "h1_count": 1,
+    "description": [
+      "Evcil hayvan sahiplerinin evcil hayvan dostu cafe, restoran, park gibi sosyal alanları keşfetmesini sağlayan; moderasyon, kullanıcı yorumları ve mekan sahibi…"
+    ],
+    "canonical": [
+      "https://bayessoft.com.tr/projeler/petnest-platform"
+    ],
+    "internal_links": [
+      "/",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ]
+  },
+  {
+    "path": "/projeler/smart-hospital",
+    "missing_same_document_fragments_ssr": [],
+    "h1_count": 1,
+    "description": [
+      "Hastane içi operasyonların, hasta acil durumlarının ve personel koordinasyonlarının zorlu ağ ve altyapı koşullarında dahi kesintisiz yönetilmesini sağlayan e…"
+    ],
+    "canonical": [
+      "https://bayessoft.com.tr/projeler/smart-hospital"
+    ],
+    "internal_links": [
+      "/",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ]
+  },
+  {
+    "path": "/projeler/tam-finans-fintech",
+    "missing_same_document_fragments_ssr": [],
+    "h1_count": 1,
+    "description": [
+      "Tam Finans KOBİ'lerinin bölgedeki ticari iş birliklerini artırmak ve kullanıcı bağlılığını yükseltmek amacıyla geliştirilmiş çok platformlu bir finansal tekn…"
+    ],
+    "canonical": [
+      "https://bayessoft.com.tr/projeler/tam-finans-fintech"
+    ],
+    "internal_links": [
+      "/",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler"
+    ],
+    "images": [
+      {
+        "alt": "BayesSoft",
+        "width": "2163",
+        "height": "371",
+        "decoding": "async",
+        "data-nimg": "1",
+        "style": "color:transparent",
+        "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+      },
+      {
+        "alt": "BayesSoft",
+        "loading": "lazy",
+        "width": "1327",
+        "height": "539",
+        "decoding": "async",
+        "data-nimg": "1",
+        "class": "h-20 w-auto object-contain md:h-24",
+        "style": "color:transparent",
+        "src": "/bayes_logo_white_cropped.png"
+      }
+    ]
+  }
+]

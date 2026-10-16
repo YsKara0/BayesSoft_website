@@ -1,0 +1,8 @@
+{
+  "baselineFiles": 297,
+  "changedExistingFiles": [
+    "app/projeler/page.tsx"
+  ],
+  "otherFilesUnchanged": true,
+  "newSourceFile": "components/interior/projects.module.css"
+}

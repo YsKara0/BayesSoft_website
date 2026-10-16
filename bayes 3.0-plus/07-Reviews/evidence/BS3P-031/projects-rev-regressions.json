@@ -1,0 +1,42 @@
+[
+  {
+    "route": "home",
+    "width": 1440,
+    "pngByteIdentical": true
+  },
+  {
+    "route": "hakkimizda",
+    "width": 1440,
+    "pngByteIdentical": true
+  },
+  {
+    "route": "hizmetler",
+    "width": 1440,
+    "pngByteIdentical": true
+  },
+  {
+    "route": "iletisim",
+    "width": 1440,
+    "pngByteIdentical": true
+  },
+  {
+    "route": "home",
+    "width": 390,
+    "pngByteIdentical": true
+  },
+  {
+    "route": "hakkimizda",
+    "width": 390,
+    "pngByteIdentical": true
+  },
+  {
+    "route": "hizmetler",
+    "width": 390,
+    "pngByteIdentical": true
+  },
+  {
+    "route": "iletisim",
+    "width": 390,
+    "pngByteIdentical": true
+  }
+]

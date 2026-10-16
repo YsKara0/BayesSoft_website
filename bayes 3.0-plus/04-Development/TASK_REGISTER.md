@@ -223,4 +223,4 @@ Durumlar: `planned` · `in-progress` · `blocked` · `completed` · `deferred` �
 |---|---|---|---|
 | BS3P-030 | Mobil referansları tek satır native-touch marquee’ye dönüştür | completed — user visually approved | [[BS3P-030-MOBILE-REFERENCES-MARQUEE]];320/375/390/desktop piksel eşitliği/touch/reduced/globalpause/Chromium-WebKit galeri/TS/lint/build-isolation geçti. Kullanıcı mevcut tasarımı şimdilik görsel onayladı; gerçek cihaz test iddiası yok. Master üzerinde yerel checkpoint yetkili; push/deploy yok |
 
-| BS3P-031 | Sitewide Page Inventory & Skeleton Migration | planned — next session | Kullanıcının sıradaki görev tanımı;030 kapanışında başlanmadı, uygulama/inceleme yapılmadı |
+| BS3P-031 | Sitewide Page Inventory & Skeleton Migration | in-progress — approved skeleton; final QA passed; production release pending | [[BS3P-031-SITEWIDE-PAGE-INVENTORY]];117states/15modals/24roundtrips/6coldposter;TS/lint/build/foundation/export/accesspassed;685files0prototype. Selective staging/Pages/live smoke next;SmartHospital content/catalog polish deferred |

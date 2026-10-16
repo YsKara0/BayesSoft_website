@@ -1,0 +1,4268 @@
+{
+  "fetched_at_utc": "2026-10-15T22:43:06.236601+00:00",
+  "method": "curl GET, redirect-follow, recursive first-party anchors + sitemap locs; no JS execution",
+  "pages": [
+    {
+      "path": "/",
+      "status": "200",
+      "final_url": "https://bayessoft.com.tr/",
+      "content_type": "text/html; charset=utf-8",
+      "error": "",
+      "title": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ",
+      "links": [
+        "#contact",
+        "#hero",
+        "#main-content",
+        "#selected-projects",
+        "#services",
+        "/cdn-cgi/l/email-protection#2d44434b426d4f4c54485e5e424b59034e424003595f",
+        "/cdn-cgi/l/email-protection#51383f373e113330283422223e37257f323e3c7f2523",
+        "/cdn-cgi/l/email-protection#82ebece4edc2e0e3fbe7f1f1ede4f6ace1edefacf6f0",
+        "/cdn-cgi/l/email-protection#afc6c1c9c0efcdced6cadcdcc0c9db81ccc0c281dbdd",
+        "/cdn-cgi/l/email-protection#d7beb9b1b897b5b6aeb2a4a4b8b1a3f9b4b8baf9a3a5",
+        "/projeler",
+        "/projeler/furtherup-drive",
+        "https://atlidepohizmetleri.com/",
+        "https://drive.further-up.net",
+        "https://drive.further-up.net/",
+        "https://esenyurtzirvecilingir.com/",
+        "https://github.com/bayessoft2024",
+        "https://hypersense.dev/",
+        "https://kanunieah.saglik.gov.tr/",
+        "https://linkedin.com/company/bayessoft",
+        "https://metekmakina.com/",
+        "https://reviel.com.tr/",
+        "https://www.arel.edu.tr/",
+        "https://www.tamfinans.com.tr/",
+        "https://www.teskilat.com.tr/",
+        "https://x.com/bayessoft"
+      ],
+      "images": [
+        {
+          "class": "static-art",
+          "src": "/hero/system-static.svg",
+          "width": "960",
+          "height": "540",
+          "alt": "",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "loading": "eager"
+        },
+        {
+          "src": "/hero/system-static.svg",
+          "width": "960",
+          "height": "540",
+          "alt": "Veri, kurallar ve web ile mobil arayüzlerden oluşan yazılım sistemi"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/tamfinans.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/tamfinans.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/metek.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/metek.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/reviel.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/reviel.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/further-up.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/further-up.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/arel.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/arel.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/atli.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/atli.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/kanuni_sultan_suleyman_hastanesi.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/kanuni_sultan_suleyman_hastanesi.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/teskilat-icom.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/teskilat-icom.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/hypersense.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/hypersense.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/zirve-cilingir.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/zirve-cilingir.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/tamfinans.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/tamfinans.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/metek.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/metek.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/reviel.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/reviel.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/further-up.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/further-up.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/arel.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/arel.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/atli.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/atli.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/kanuni_sultan_suleyman_hastanesi.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/kanuni_sultan_suleyman_hastanesi.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/teskilat-icom.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/teskilat-icom.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/hypersense.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/hypersense.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/zirve-cilingir.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/zirve-cilingir.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/tamfinans.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/tamfinans.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/metek.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/metek.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/reviel.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/reviel.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/further-up.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/further-up.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/arel.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/arel.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/atli.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/atli.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/kanuni_sultan_suleyman_hastanesi.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/kanuni_sultan_suleyman_hastanesi.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/teskilat-icom.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/teskilat-icom.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/hypersense.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/hypersense.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-neutral",
+          "src": "/references/zirve-cilingir.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        },
+        {
+          "class": "homepage-logo-color",
+          "src": "/references/zirve-cilingir.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "176",
+          "height": "64",
+          "loading": "eager",
+          "fetchpriority": "low",
+          "decoding": "async"
+        }
+      ],
+      "metadata": [
+        {
+          "charset": "utf-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/ttf"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "as": "image",
+          "href": "/hero/system-static.svg",
+          "fetchpriority": "high"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/a0b90a5851dc9388.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/bb88dec1857fde07.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "preload",
+          "as": "script",
+          "fetchpriority": "low",
+          "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+        },
+        {
+          "name": "next-size-adjust",
+          "content": ""
+        },
+        {
+          "rel": "preload",
+          "as": "image",
+          "href": "/hero/system-static.svg",
+          "media": "(max-width: 899px), (prefers-reduced-motion: reduce)",
+          "fetchpriority": "high"
+        },
+        {
+          "name": "theme-color",
+          "content": "#101827"
+        },
+        {
+          "name": "color-scheme",
+          "content": "dark light"
+        },
+        {
+          "name": "description",
+          "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+        },
+        {
+          "name": "application-name",
+          "content": "BayesSoft"
+        },
+        {
+          "rel": "author",
+          "href": "https://bayessoft.com.tr"
+        },
+        {
+          "name": "author",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "keywords",
+          "content": "BayesSoft,kurumsal yazılım şirketi,özel yazılım geliştirme,mobil uygulama geliştirme,yapay zekâ çözümleri,web uygulama geliştirme,bulut ve DevOps"
+        },
+        {
+          "name": "creator",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "publisher",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "robots",
+          "content": "index, follow"
+        },
+        {
+          "name": "googlebot",
+          "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+        },
+        {
+          "name": "category",
+          "content": "technology"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://bayessoft.com.tr"
+        },
+        {
+          "name": "format-detection",
+          "content": "telephone=no, address=no, email=no"
+        },
+        {
+          "property": "og:title",
+          "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+        },
+        {
+          "property": "og:description",
+          "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+        },
+        {
+          "property": "og:url",
+          "content": "https://bayessoft.com.tr"
+        },
+        {
+          "property": "og:site_name",
+          "content": "BayesSoft"
+        },
+        {
+          "property": "og:locale",
+          "content": "tr_TR"
+        },
+        {
+          "property": "og:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1733"
+        },
+        {
+          "property": "og:image:height",
+          "content": "907"
+        },
+        {
+          "property": "og:image:alt",
+          "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ"
+        },
+        {
+          "name": "twitter:description",
+          "content": "BayesSoft, iş operasyonlarını tek mühendislik ekibiyle web, mobil ve yapay zekâ katmanlarında çalışan dijital ürünlere dönüştüren yazılım şirketidir."
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "rel": "icon",
+          "href": "/bayes_logo_dark.png"
+        }
+      ],
+      "body_file": "8a5edab28263.body.txt",
+      "headers_file": "8a5edab28263.headers.txt",
+      "sha256": "5f44f8b6b02eee6d306e473a6e8d31de5d89ac832a9bbf8ebe9dfa0e78eed836",
+      "new_marker": true,
+      "legacy_marker": false,
+      "locs": []
+    },
+    {
+      "path": "/robots.txt",
+      "status": "200",
+      "final_url": "https://bayessoft.com.tr/robots.txt",
+      "content_type": "text/plain; charset=utf-8",
+      "error": "",
+      "title": "",
+      "links": [],
+      "images": [],
+      "metadata": [],
+      "body_file": "adada1317532.body.txt",
+      "headers_file": "adada1317532.headers.txt",
+      "sha256": "0ae6a76388cf1b19030dc4e78f030d12854073716b6b47c14803892778533816",
+      "new_marker": false,
+      "legacy_marker": false,
+      "locs": []
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": "200",
+      "final_url": "https://bayessoft.com.tr/sitemap.xml",
+      "content_type": "application/xml",
+      "error": "",
+      "title": "",
+      "links": [],
+      "images": [],
+      "metadata": [],
+      "body_file": "7efd2a819481.body.txt",
+      "headers_file": "7efd2a819481.headers.txt",
+      "sha256": "1ce8ba808f9b37cfac75e0f6b65c4f0cd7479d2a21b1547399266d313351b3bd",
+      "new_marker": false,
+      "legacy_marker": false,
+      "locs": [
+        "https://bayessoft.com.tr/",
+        "https://bayessoft.com.tr/hakkimizda",
+        "https://bayessoft.com.tr/hizmetler",
+        "https://bayessoft.com.tr/projeler",
+        "https://bayessoft.com.tr/iletisim",
+        "https://bayessoft.com.tr/projeler/tam-finans-fintech",
+        "https://bayessoft.com.tr/projeler/smart-hospital",
+        "https://bayessoft.com.tr/projeler/petnest-platform",
+        "https://bayessoft.com.tr/projeler/atli-logistics",
+        "https://bayessoft.com.tr/projeler/military-aircraft-classification",
+        "https://bayessoft.com.tr/projeler/ai-chatbot",
+        "https://bayessoft.com.tr/projeler/furtherup-drive",
+        "https://bayessoft.com.tr/projeler/maritime-horizon-segmentation"
+      ]
+    },
+    {
+      "path": "/hakkimizda",
+      "status": "200",
+      "final_url": "https://bayessoft.com.tr/hakkimizda",
+      "content_type": "text/html; charset=utf-8",
+      "error": "",
+      "title": "Hakkımızda | BayesSoft",
+      "links": [
+        "/",
+        "/cdn-cgi/l/email-protection#b0d9ded6dff0d2d1c9d5c3c3dfd6c49ed3dfdd9ec4c2",
+        "/cdn-cgi/l/email-protection#ea83848c85aa888b938f9999858c9ec4898587c49e98",
+        "/hakkimizda",
+        "/hizmetler",
+        "/iletisim",
+        "/projeler",
+        "https://bayessoft.com.tr",
+        "https://linkedin.com/company/bayessoft"
+      ],
+      "images": [
+        {
+          "alt": "BayesSoft",
+          "width": "2163",
+          "height": "371",
+          "decoding": "async",
+          "data-nimg": "1",
+          "style": "color:transparent",
+          "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "alt": "Batuhan Ersan, Full-Stack Developer",
+          "decoding": "async",
+          "data-nimg": "fill",
+          "class": "object-cover object-center transition duration-500 group-hover:scale-[1.04] grayscale saturate-0 contrast-110 opacity-70",
+          "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+          "src": "/team/batuhan_ersan.jpg"
+        },
+        {
+          "alt": "Ahmet B. Çınar, Backend Developer",
+          "decoding": "async",
+          "data-nimg": "fill",
+          "class": "object-cover object-center transition duration-500 group-hover:scale-[1.04] grayscale saturate-0 contrast-110 opacity-70",
+          "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+          "src": "/team/bugrahan_cinar.jpeg"
+        },
+        {
+          "alt": "Yavuz Selim Kara, Mobile Developer",
+          "loading": "lazy",
+          "decoding": "async",
+          "data-nimg": "fill",
+          "class": "object-cover object-center transition duration-500 group-hover:scale-[1.04] grayscale saturate-0 contrast-110 opacity-70",
+          "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+          "src": "/team/yavuz_selim_kara.jpg"
+        },
+        {
+          "alt": "Enes Keleş, Full-Stack Developer",
+          "loading": "lazy",
+          "decoding": "async",
+          "data-nimg": "fill",
+          "class": "object-cover object-center transition duration-500 group-hover:scale-[1.04] grayscale saturate-0 contrast-110 opacity-70",
+          "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+          "src": "/team/enes_keles.jpeg"
+        },
+        {
+          "alt": "Sefa Ağardan, Backend Developer",
+          "loading": "lazy",
+          "decoding": "async",
+          "data-nimg": "fill",
+          "class": "object-cover object-center transition duration-500 group-hover:scale-[1.04] grayscale saturate-0 contrast-110 opacity-70",
+          "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+          "src": "/team/sefa_agardan.jpg"
+        },
+        {
+          "alt": "BayesSoft",
+          "loading": "lazy",
+          "width": "1327",
+          "height": "539",
+          "decoding": "async",
+          "data-nimg": "1",
+          "class": "h-20 w-auto object-contain md:h-24",
+          "style": "color:transparent",
+          "src": "/bayes_logo_white_cropped.png"
+        }
+      ],
+      "metadata": [
+        {
+          "charset": "utf-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/ttf"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "as": "image",
+          "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "rel": "preload",
+          "as": "image",
+          "href": "/team/batuhan_ersan.jpg"
+        },
+        {
+          "rel": "preload",
+          "as": "image",
+          "href": "/team/bugrahan_cinar.jpeg"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/a0b90a5851dc9388.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/bb88dec1857fde07.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "preload",
+          "as": "script",
+          "fetchpriority": "low",
+          "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+        },
+        {
+          "name": "next-size-adjust",
+          "content": ""
+        },
+        {
+          "name": "theme-color",
+          "content": "#101827"
+        },
+        {
+          "name": "color-scheme",
+          "content": "dark light"
+        },
+        {
+          "name": "description",
+          "content": "BayesSoft'un kurumsal yazılım, mobil ürünler, yapay zekâ ve bulut sistemleri geliştiren ürün mühendisliği ekibini ve çalışma yaklaşımını tanıyın."
+        },
+        {
+          "name": "application-name",
+          "content": "BayesSoft"
+        },
+        {
+          "rel": "author",
+          "href": "https://bayessoft.com.tr"
+        },
+        {
+          "name": "author",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "keywords",
+          "content": "BayesSoft hakkında,yazılım geliştirme ekibi,ürün mühendisliği ekibi"
+        },
+        {
+          "name": "creator",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "publisher",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "robots",
+          "content": "index, follow"
+        },
+        {
+          "name": "googlebot",
+          "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+        },
+        {
+          "name": "category",
+          "content": "technology"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://bayessoft.com.tr/hakkimizda"
+        },
+        {
+          "name": "format-detection",
+          "content": "telephone=no, address=no, email=no"
+        },
+        {
+          "property": "og:title",
+          "content": "Hakkımızda | BayesSoft"
+        },
+        {
+          "property": "og:description",
+          "content": "BayesSoft'un kurumsal yazılım, mobil ürünler, yapay zekâ ve bulut sistemleri geliştiren ürün mühendisliği ekibini ve çalışma yaklaşımını tanıyın."
+        },
+        {
+          "property": "og:url",
+          "content": "https://bayessoft.com.tr/hakkimizda"
+        },
+        {
+          "property": "og:site_name",
+          "content": "BayesSoft"
+        },
+        {
+          "property": "og:locale",
+          "content": "tr_TR"
+        },
+        {
+          "property": "og:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1733"
+        },
+        {
+          "property": "og:image:height",
+          "content": "907"
+        },
+        {
+          "property": "og:image:alt",
+          "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Hakkımızda | BayesSoft"
+        },
+        {
+          "name": "twitter:description",
+          "content": "BayesSoft'un kurumsal yazılım, mobil ürünler, yapay zekâ ve bulut sistemleri geliştiren ürün mühendisliği ekibini ve çalışma yaklaşımını tanıyın."
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "rel": "icon",
+          "href": "/bayes_logo_dark.png"
+        }
+      ],
+      "body_file": "f3bd02d1e201.body.txt",
+      "headers_file": "f3bd02d1e201.headers.txt",
+      "sha256": "a0dda6ecaaa8e4bc1e72e002a56db31e6b91ebfc1e2c0bae2b72f12319323b80",
+      "new_marker": false,
+      "legacy_marker": true,
+      "locs": []
+    },
+    {
+      "path": "/hizmetler",
+      "status": "200",
+      "final_url": "https://bayessoft.com.tr/hizmetler",
+      "content_type": "text/html; charset=utf-8",
+      "error": "",
+      "title": "Kurumsal Yazılım Hizmetleri | BayesSoft",
+      "links": [
+        "/",
+        "/cdn-cgi/l/email-protection#1c75727a735c7e7d65796f6f737a68327f737132686e",
+        "/cdn-cgi/l/email-protection#60090e060f200201190513130f06144e030f0d4e1412",
+        "/hakkimizda",
+        "/hizmetler",
+        "/iletisim",
+        "/projeler",
+        "https://bayessoft.com.tr",
+        "https://linkedin.com/company/bayessoft"
+      ],
+      "images": [
+        {
+          "alt": "BayesSoft",
+          "width": "2163",
+          "height": "371",
+          "decoding": "async",
+          "data-nimg": "1",
+          "style": "color:transparent",
+          "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "alt": "BayesSoft",
+          "loading": "lazy",
+          "width": "1327",
+          "height": "539",
+          "decoding": "async",
+          "data-nimg": "1",
+          "class": "h-20 w-auto object-contain md:h-24",
+          "style": "color:transparent",
+          "src": "/bayes_logo_white_cropped.png"
+        }
+      ],
+      "metadata": [
+        {
+          "charset": "utf-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/ttf"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/5f515bcadd82fbbd-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "as": "image",
+          "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/a0b90a5851dc9388.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/bb88dec1857fde07.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/cbc2c88fb98ebe9e.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "preload",
+          "as": "script",
+          "fetchpriority": "low",
+          "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+        },
+        {
+          "name": "next-size-adjust",
+          "content": ""
+        },
+        {
+          "name": "theme-color",
+          "content": "#101827"
+        },
+        {
+          "name": "color-scheme",
+          "content": "dark light"
+        },
+        {
+          "name": "description",
+          "content": "Kurumsal web yazılımı, Flutter mobil uygulama, yapay zekâ entegrasyonu, bulut, güvenlik ve DevOps hizmetlerini tek ürün mimarisinde sunuyoruz."
+        },
+        {
+          "name": "application-name",
+          "content": "BayesSoft"
+        },
+        {
+          "rel": "author",
+          "href": "https://bayessoft.com.tr"
+        },
+        {
+          "name": "author",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "keywords",
+          "content": "kurumsal yazılım hizmetleri,mobil uygulama geliştirme,yapay zekâ entegrasyonu,DevOps danışmanlığı,özel yazılım çözümleri"
+        },
+        {
+          "name": "creator",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "publisher",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "robots",
+          "content": "index, follow"
+        },
+        {
+          "name": "googlebot",
+          "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+        },
+        {
+          "name": "category",
+          "content": "technology"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://bayessoft.com.tr/hizmetler"
+        },
+        {
+          "name": "format-detection",
+          "content": "telephone=no, address=no, email=no"
+        },
+        {
+          "property": "og:title",
+          "content": "Kurumsal Yazılım Hizmetleri | BayesSoft"
+        },
+        {
+          "property": "og:description",
+          "content": "Kurumsal web yazılımı, Flutter mobil uygulama, yapay zekâ entegrasyonu, bulut, güvenlik ve DevOps hizmetlerini tek ürün mimarisinde sunuyoruz."
+        },
+        {
+          "property": "og:url",
+          "content": "https://bayessoft.com.tr/hizmetler"
+        },
+        {
+          "property": "og:site_name",
+          "content": "BayesSoft"
+        },
+        {
+          "property": "og:locale",
+          "content": "tr_TR"
+        },
+        {
+          "property": "og:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1733"
+        },
+        {
+          "property": "og:image:height",
+          "content": "907"
+        },
+        {
+          "property": "og:image:alt",
+          "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Kurumsal Yazılım Hizmetleri | BayesSoft"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Kurumsal web yazılımı, Flutter mobil uygulama, yapay zekâ entegrasyonu, bulut, güvenlik ve DevOps hizmetlerini tek ürün mimarisinde sunuyoruz."
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "rel": "icon",
+          "href": "/bayes_logo_dark.png"
+        }
+      ],
+      "body_file": "9dc9cccd2c89.body.txt",
+      "headers_file": "9dc9cccd2c89.headers.txt",
+      "sha256": "477e9cbd4aca91b48fa864ca9534ed7de7cc464b4b07a26de258775902785f5a",
+      "new_marker": false,
+      "legacy_marker": true,
+      "locs": []
+    },
+    {
+      "path": "/iletisim",
+      "status": "200",
+      "final_url": "https://bayessoft.com.tr/iletisim",
+      "content_type": "text/html; charset=utf-8",
+      "error": "",
+      "title": "İletişim | BayesSoft",
+      "links": [
+        "/",
+        "/cdn-cgi/l/email-protection#7a13141c153a181b031f0909151c0e54191517540e08",
+        "/cdn-cgi/l/email-protection#afc6c1c9c0efcdced6cadcdcc0c9db81ccc0c281dbdd",
+        "/hakkimizda",
+        "/hizmetler",
+        "/iletisim",
+        "/projeler",
+        "https://bayessoft.com.tr",
+        "https://github.com/bayessoft2024",
+        "https://linkedin.com/company/bayessoft",
+        "https://x.com/bayessoft"
+      ],
+      "images": [
+        {
+          "alt": "BayesSoft",
+          "width": "2163",
+          "height": "371",
+          "decoding": "async",
+          "data-nimg": "1",
+          "style": "color:transparent",
+          "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "alt": "BayesSoft",
+          "loading": "lazy",
+          "width": "1327",
+          "height": "539",
+          "decoding": "async",
+          "data-nimg": "1",
+          "class": "h-20 w-auto object-contain md:h-24",
+          "style": "color:transparent",
+          "src": "/bayes_logo_white_cropped.png"
+        }
+      ],
+      "metadata": [
+        {
+          "charset": "utf-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/ttf"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "as": "image",
+          "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/a0b90a5851dc9388.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/bb88dec1857fde07.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "preload",
+          "as": "script",
+          "fetchpriority": "low",
+          "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+        },
+        {
+          "name": "next-size-adjust",
+          "content": ""
+        },
+        {
+          "name": "theme-color",
+          "content": "#101827"
+        },
+        {
+          "name": "color-scheme",
+          "content": "dark light"
+        },
+        {
+          "name": "description",
+          "content": "Kurumsal yazılım, mobil uygulama, yapay zekâ entegrasyonu veya sistem modernizasyonu projeniz için BayesSoft ile iletişime geçin."
+        },
+        {
+          "name": "application-name",
+          "content": "BayesSoft"
+        },
+        {
+          "rel": "author",
+          "href": "https://bayessoft.com.tr"
+        },
+        {
+          "name": "author",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "keywords",
+          "content": "BayesSoft iletişim,yazılım projesi teklif,kurumsal yazılım danışmanlığı"
+        },
+        {
+          "name": "creator",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "publisher",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "robots",
+          "content": "index, follow"
+        },
+        {
+          "name": "googlebot",
+          "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+        },
+        {
+          "name": "category",
+          "content": "technology"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://bayessoft.com.tr/iletisim"
+        },
+        {
+          "name": "format-detection",
+          "content": "telephone=no, address=no, email=no"
+        },
+        {
+          "property": "og:title",
+          "content": "İletişim | BayesSoft"
+        },
+        {
+          "property": "og:description",
+          "content": "Kurumsal yazılım, mobil uygulama, yapay zekâ entegrasyonu veya sistem modernizasyonu projeniz için BayesSoft ile iletişime geçin."
+        },
+        {
+          "property": "og:url",
+          "content": "https://bayessoft.com.tr/iletisim"
+        },
+        {
+          "property": "og:site_name",
+          "content": "BayesSoft"
+        },
+        {
+          "property": "og:locale",
+          "content": "tr_TR"
+        },
+        {
+          "property": "og:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1733"
+        },
+        {
+          "property": "og:image:height",
+          "content": "907"
+        },
+        {
+          "property": "og:image:alt",
+          "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "İletişim | BayesSoft"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Kurumsal yazılım, mobil uygulama, yapay zekâ entegrasyonu veya sistem modernizasyonu projeniz için BayesSoft ile iletişime geçin."
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "rel": "icon",
+          "href": "/bayes_logo_dark.png"
+        }
+      ],
+      "body_file": "0f769153362e.body.txt",
+      "headers_file": "0f769153362e.headers.txt",
+      "sha256": "ddbfb344702b5b452352a4cd2ffe768f3bb12231cf2dc1f61228c2a12fc62ec6",
+      "new_marker": false,
+      "legacy_marker": true,
+      "locs": []
+    },
+    {
+      "path": "/projeler",
+      "status": "200",
+      "final_url": "https://bayessoft.com.tr/projeler",
+      "content_type": "text/html; charset=utf-8",
+      "error": "",
+      "title": "Yazılım Projeleri ve Vaka Çalışmaları | BayesSoft",
+      "links": [
+        "/",
+        "/cdn-cgi/l/email-protection#177e7971785775766e7264647871633974787a396365",
+        "/cdn-cgi/l/email-protection#4c25222a230c2e2d35293f3f232a38622f232162383e",
+        "/hakkimizda",
+        "/hizmetler",
+        "/iletisim",
+        "/projeler",
+        "/projeler/ai-chatbot",
+        "/projeler/atli-logistics",
+        "/projeler/furtherup-drive",
+        "/projeler/maritime-horizon-segmentation",
+        "/projeler/military-aircraft-classification",
+        "/projeler/petnest-platform",
+        "/projeler/smart-hospital",
+        "/projeler/tam-finans-fintech",
+        "https://atlidepohizmetleri.com",
+        "https://bayessoft.com.tr",
+        "https://drive.further-up.net",
+        "https://github.com/g4stlyx/chatbot",
+        "https://github.com/g4stlyx/horizon_line_segmentation",
+        "https://linkedin.com/company/bayessoft"
+      ],
+      "images": [
+        {
+          "alt": "BayesSoft",
+          "width": "2163",
+          "height": "371",
+          "decoding": "async",
+          "data-nimg": "1",
+          "style": "color:transparent",
+          "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "alt": "BayesSoft",
+          "loading": "lazy",
+          "width": "1327",
+          "height": "539",
+          "decoding": "async",
+          "data-nimg": "1",
+          "class": "h-20 w-auto object-contain md:h-24",
+          "style": "color:transparent",
+          "src": "/bayes_logo_white_cropped.png"
+        }
+      ],
+      "metadata": [
+        {
+          "charset": "utf-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/ttf"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "as": "image",
+          "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/a0b90a5851dc9388.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/bb88dec1857fde07.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "preload",
+          "as": "script",
+          "fetchpriority": "low",
+          "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+        },
+        {
+          "name": "next-size-adjust",
+          "content": ""
+        },
+        {
+          "name": "theme-color",
+          "content": "#101827"
+        },
+        {
+          "name": "color-scheme",
+          "content": "dark light"
+        },
+        {
+          "name": "description",
+          "content": "BayesSoft'un fintech, sağlık, lojistik, mobil uygulama, yapay zekâ ve kurumsal yazılım alanlarında geliştirdiği projeleri inceleyin."
+        },
+        {
+          "name": "application-name",
+          "content": "BayesSoft"
+        },
+        {
+          "rel": "author",
+          "href": "https://bayessoft.com.tr"
+        },
+        {
+          "name": "author",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "keywords",
+          "content": "yazılım projeleri,kurumsal yazılım örnekleri,mobil uygulama projeleri,yapay zekâ projeleri,yazılım vaka çalışmaları"
+        },
+        {
+          "name": "creator",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "publisher",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "robots",
+          "content": "index, follow"
+        },
+        {
+          "name": "googlebot",
+          "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+        },
+        {
+          "name": "category",
+          "content": "technology"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://bayessoft.com.tr/projeler"
+        },
+        {
+          "name": "format-detection",
+          "content": "telephone=no, address=no, email=no"
+        },
+        {
+          "property": "og:title",
+          "content": "Yazılım Projeleri ve Vaka Çalışmaları | BayesSoft"
+        },
+        {
+          "property": "og:description",
+          "content": "BayesSoft'un fintech, sağlık, lojistik, mobil uygulama, yapay zekâ ve kurumsal yazılım alanlarında geliştirdiği projeleri inceleyin."
+        },
+        {
+          "property": "og:url",
+          "content": "https://bayessoft.com.tr/projeler"
+        },
+        {
+          "property": "og:site_name",
+          "content": "BayesSoft"
+        },
+        {
+          "property": "og:locale",
+          "content": "tr_TR"
+        },
+        {
+          "property": "og:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1733"
+        },
+        {
+          "property": "og:image:height",
+          "content": "907"
+        },
+        {
+          "property": "og:image:alt",
+          "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Yazılım Projeleri ve Vaka Çalışmaları | BayesSoft"
+        },
+        {
+          "name": "twitter:description",
+          "content": "BayesSoft'un fintech, sağlık, lojistik, mobil uygulama, yapay zekâ ve kurumsal yazılım alanlarında geliştirdiği projeleri inceleyin."
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "rel": "icon",
+          "href": "/bayes_logo_dark.png"
+        }
+      ],
+      "body_file": "c8134d457bdb.body.txt",
+      "headers_file": "c8134d457bdb.headers.txt",
+      "sha256": "fe5e7d4e31086a03eab98b229c3b555e6b9cd06772ad873903af7bc27d07a286",
+      "new_marker": false,
+      "legacy_marker": true,
+      "locs": []
+    },
+    {
+      "path": "/projeler/ai-chatbot",
+      "status": "200",
+      "final_url": "https://bayessoft.com.tr/projeler/ai-chatbot",
+      "content_type": "text/html; charset=utf-8",
+      "error": "",
+      "title": "AI-Powered Chatbot Platform",
+      "links": [
+        "/",
+        "/cdn-cgi/l/email-protection#234a4d454c6341425a4650504c45570d404c4e0d5751",
+        "/hakkimizda",
+        "/hizmetler",
+        "/iletisim",
+        "/projeler",
+        "https://bayessoft.com.tr",
+        "https://github.com/g4stlyx/chatbot",
+        "https://linkedin.com/company/bayessoft"
+      ],
+      "images": [
+        {
+          "alt": "BayesSoft",
+          "width": "2163",
+          "height": "371",
+          "decoding": "async",
+          "data-nimg": "1",
+          "style": "color:transparent",
+          "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "alt": "BayesSoft",
+          "loading": "lazy",
+          "width": "1327",
+          "height": "539",
+          "decoding": "async",
+          "data-nimg": "1",
+          "class": "h-20 w-auto object-contain md:h-24",
+          "style": "color:transparent",
+          "src": "/bayes_logo_white_cropped.png"
+        }
+      ],
+      "metadata": [
+        {
+          "charset": "utf-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/ttf"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "as": "image",
+          "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/a0b90a5851dc9388.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/bb88dec1857fde07.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "preload",
+          "as": "script",
+          "fetchpriority": "low",
+          "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+        },
+        {
+          "name": "next-size-adjust",
+          "content": ""
+        },
+        {
+          "name": "theme-color",
+          "content": "#101827"
+        },
+        {
+          "name": "color-scheme",
+          "content": "dark light"
+        },
+        {
+          "name": "description",
+          "content": "Llama3 modelini Ollama üzerinden yerel altyapıda çalıştıran, gelişmiş veri filtreleme, prompt injection korumaları ve yönetici denetim panelleriyle donatılmı…"
+        },
+        {
+          "name": "application-name",
+          "content": "BayesSoft"
+        },
+        {
+          "rel": "author",
+          "href": "https://bayessoft.com.tr"
+        },
+        {
+          "name": "author",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "keywords",
+          "content": "AI-Powered Chatbot Platform,AI Platform,Java / Spring Boot,React / Vite,Ollama,Redis,MySQL Database,Argon2id Şifreleme,TOTP 2FA (Google Authenticator),Docker"
+        },
+        {
+          "name": "creator",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "publisher",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "robots",
+          "content": "index, follow"
+        },
+        {
+          "name": "googlebot",
+          "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+        },
+        {
+          "name": "category",
+          "content": "technology"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://bayessoft.com.tr/projeler/ai-chatbot"
+        },
+        {
+          "name": "format-detection",
+          "content": "telephone=no, address=no, email=no"
+        },
+        {
+          "property": "og:title",
+          "content": "AI-Powered Chatbot Platform | BayesSoft"
+        },
+        {
+          "property": "og:description",
+          "content": "Llama3 modelini Ollama üzerinden yerel altyapıda çalıştıran, gelişmiş veri filtreleme, prompt injection korumaları ve yönetici denetim panelleriyle donatılmı…"
+        },
+        {
+          "property": "og:url",
+          "content": "https://bayessoft.com.tr/projeler/ai-chatbot"
+        },
+        {
+          "property": "og:site_name",
+          "content": "BayesSoft"
+        },
+        {
+          "property": "og:locale",
+          "content": "tr_TR"
+        },
+        {
+          "property": "og:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1733"
+        },
+        {
+          "property": "og:image:height",
+          "content": "907"
+        },
+        {
+          "property": "og:image:alt",
+          "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "AI-Powered Chatbot Platform | BayesSoft"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Llama3 modelini Ollama üzerinden yerel altyapıda çalıştıran, gelişmiş veri filtreleme, prompt injection korumaları ve yönetici denetim panelleriyle donatılmı…"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "rel": "icon",
+          "href": "/bayes_logo_dark.png"
+        }
+      ],
+      "body_file": "9c63f6255219.body.txt",
+      "headers_file": "9c63f6255219.headers.txt",
+      "sha256": "1381dca67d88a9a8fc118cc914f2200904c81aba7a4837fff04cdcd14752e6be",
+      "new_marker": false,
+      "legacy_marker": false,
+      "locs": []
+    },
+    {
+      "path": "/projeler/atli-logistics",
+      "status": "200",
+      "final_url": "https://bayessoft.com.tr/projeler/atli-logistics",
+      "content_type": "text/html; charset=utf-8",
+      "error": "",
+      "title": "Atlı Logistics - Workforce Management System",
+      "links": [
+        "/",
+        "/cdn-cgi/l/email-protection#b5dcdbd3daf5d7d4ccd0c6c6dad3c19bd6dad89bc1c7",
+        "/hakkimizda",
+        "/hizmetler",
+        "/iletisim",
+        "/projeler",
+        "https://atlidepohizmetleri.com",
+        "https://bayessoft.com.tr",
+        "https://linkedin.com/company/bayessoft"
+      ],
+      "images": [
+        {
+          "alt": "BayesSoft",
+          "width": "2163",
+          "height": "371",
+          "decoding": "async",
+          "data-nimg": "1",
+          "style": "color:transparent",
+          "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "alt": "BayesSoft",
+          "loading": "lazy",
+          "width": "1327",
+          "height": "539",
+          "decoding": "async",
+          "data-nimg": "1",
+          "class": "h-20 w-auto object-contain md:h-24",
+          "style": "color:transparent",
+          "src": "/bayes_logo_white_cropped.png"
+        }
+      ],
+      "metadata": [
+        {
+          "charset": "utf-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/ttf"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "as": "image",
+          "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/a0b90a5851dc9388.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/bb88dec1857fde07.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "preload",
+          "as": "script",
+          "fetchpriority": "low",
+          "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+        },
+        {
+          "name": "next-size-adjust",
+          "content": ""
+        },
+        {
+          "name": "theme-color",
+          "content": "#101827"
+        },
+        {
+          "name": "color-scheme",
+          "content": "dark light"
+        },
+        {
+          "name": "description",
+          "content": "Lojistik depolarının ve antrepolarının günlük ve dönemsel iş gücü ihtiyaçlarını karşılamak amacıyla geliştirilmiş; iş atamaları, çalışan doğrulamaları ve fin…"
+        },
+        {
+          "name": "application-name",
+          "content": "BayesSoft"
+        },
+        {
+          "rel": "author",
+          "href": "https://bayessoft.com.tr"
+        },
+        {
+          "name": "author",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "keywords",
+          "content": "Atlı Logistics - Workforce Management System,Operations,Java / Spring Boot,React / Bootstrap,MySQL Database,JWT Authentication,Argon2id Şifreleme,Spring Mail & Thymeleaf"
+        },
+        {
+          "name": "creator",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "publisher",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "robots",
+          "content": "index, follow"
+        },
+        {
+          "name": "googlebot",
+          "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+        },
+        {
+          "name": "category",
+          "content": "technology"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://bayessoft.com.tr/projeler/atli-logistics"
+        },
+        {
+          "name": "format-detection",
+          "content": "telephone=no, address=no, email=no"
+        },
+        {
+          "property": "og:title",
+          "content": "Atlı Logistics - Workforce Management System | BayesSoft"
+        },
+        {
+          "property": "og:description",
+          "content": "Lojistik depolarının ve antrepolarının günlük ve dönemsel iş gücü ihtiyaçlarını karşılamak amacıyla geliştirilmiş; iş atamaları, çalışan doğrulamaları ve fin…"
+        },
+        {
+          "property": "og:url",
+          "content": "https://bayessoft.com.tr/projeler/atli-logistics"
+        },
+        {
+          "property": "og:site_name",
+          "content": "BayesSoft"
+        },
+        {
+          "property": "og:locale",
+          "content": "tr_TR"
+        },
+        {
+          "property": "og:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1733"
+        },
+        {
+          "property": "og:image:height",
+          "content": "907"
+        },
+        {
+          "property": "og:image:alt",
+          "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Atlı Logistics - Workforce Management System | BayesSoft"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Lojistik depolarının ve antrepolarının günlük ve dönemsel iş gücü ihtiyaçlarını karşılamak amacıyla geliştirilmiş; iş atamaları, çalışan doğrulamaları ve fin…"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "rel": "icon",
+          "href": "/bayes_logo_dark.png"
+        }
+      ],
+      "body_file": "8f37402aaef5.body.txt",
+      "headers_file": "8f37402aaef5.headers.txt",
+      "sha256": "9cbec6a6cc4f89d5787d30b2b3577ea37d0e0000c24b2bd3e31c55c7e45e5010",
+      "new_marker": false,
+      "legacy_marker": false,
+      "locs": []
+    },
+    {
+      "path": "/projeler/furtherup-drive",
+      "status": "200",
+      "final_url": "https://bayessoft.com.tr/projeler/furtherup-drive",
+      "content_type": "text/html; charset=utf-8",
+      "error": "",
+      "title": "FurtherUp Drive",
+      "links": [
+        "/",
+        "/cdn-cgi/l/email-protection#7811161e17381a19011d0b0b171e0c561b1715560c0a",
+        "/hakkimizda",
+        "/hizmetler",
+        "/iletisim",
+        "/projeler",
+        "https://bayessoft.com.tr",
+        "https://drive.further-up.net",
+        "https://linkedin.com/company/bayessoft"
+      ],
+      "images": [
+        {
+          "alt": "BayesSoft",
+          "width": "2163",
+          "height": "371",
+          "decoding": "async",
+          "data-nimg": "1",
+          "style": "color:transparent",
+          "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "alt": "FurtherUp Drive 1",
+          "loading": "lazy",
+          "decoding": "async",
+          "data-nimg": "fill",
+          "class": "object-contain transition duration-500 hover:scale-[1.02]",
+          "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+          "src": "/projects/furtherup-drive/further-up-1.png"
+        },
+        {
+          "alt": "FurtherUp Drive 2",
+          "loading": "lazy",
+          "decoding": "async",
+          "data-nimg": "fill",
+          "class": "object-contain transition duration-500 hover:scale-[1.02]",
+          "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+          "src": "/projects/furtherup-drive/further-up-2.png"
+        },
+        {
+          "alt": "BayesSoft",
+          "loading": "lazy",
+          "width": "1327",
+          "height": "539",
+          "decoding": "async",
+          "data-nimg": "1",
+          "class": "h-20 w-auto object-contain md:h-24",
+          "style": "color:transparent",
+          "src": "/bayes_logo_white_cropped.png"
+        }
+      ],
+      "metadata": [
+        {
+          "charset": "utf-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/ttf"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "as": "image",
+          "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/a0b90a5851dc9388.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/bb88dec1857fde07.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "preload",
+          "as": "script",
+          "fetchpriority": "low",
+          "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+        },
+        {
+          "name": "next-size-adjust",
+          "content": ""
+        },
+        {
+          "name": "theme-color",
+          "content": "#101827"
+        },
+        {
+          "name": "color-scheme",
+          "content": "dark light"
+        },
+        {
+          "name": "description",
+          "content": "Kurumsal koçluk süreçlerini dijitalleştiren; danışanların gelişimini, koç atamalarını, psikometrik test değerlendirmelerini ve abonelik ödemelerini tek bir p…"
+        },
+        {
+          "name": "application-name",
+          "content": "BayesSoft"
+        },
+        {
+          "rel": "author",
+          "href": "https://bayessoft.com.tr"
+        },
+        {
+          "name": "author",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "keywords",
+          "content": "FurtherUp Drive,Enterprise Coaching,Java / Spring Boot,React / TypeScript / Vite,Tailwind CSS & Headless UI,MySQL Database,Iyzico API Entegrasyonu,Cloudflare R2 (AWS S3 SDK),JJWT (JSON Web Token),TOTP 2FA & Argon2id"
+        },
+        {
+          "name": "creator",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "publisher",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "robots",
+          "content": "index, follow"
+        },
+        {
+          "name": "googlebot",
+          "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+        },
+        {
+          "name": "category",
+          "content": "technology"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://bayessoft.com.tr/projeler/furtherup-drive"
+        },
+        {
+          "name": "format-detection",
+          "content": "telephone=no, address=no, email=no"
+        },
+        {
+          "property": "og:title",
+          "content": "FurtherUp Drive | BayesSoft"
+        },
+        {
+          "property": "og:description",
+          "content": "Kurumsal koçluk süreçlerini dijitalleştiren; danışanların gelişimini, koç atamalarını, psikometrik test değerlendirmelerini ve abonelik ödemelerini tek bir p…"
+        },
+        {
+          "property": "og:url",
+          "content": "https://bayessoft.com.tr/projeler/furtherup-drive"
+        },
+        {
+          "property": "og:site_name",
+          "content": "BayesSoft"
+        },
+        {
+          "property": "og:locale",
+          "content": "tr_TR"
+        },
+        {
+          "property": "og:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1733"
+        },
+        {
+          "property": "og:image:height",
+          "content": "907"
+        },
+        {
+          "property": "og:image:alt",
+          "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "FurtherUp Drive | BayesSoft"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Kurumsal koçluk süreçlerini dijitalleştiren; danışanların gelişimini, koç atamalarını, psikometrik test değerlendirmelerini ve abonelik ödemelerini tek bir p…"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "rel": "icon",
+          "href": "/bayes_logo_dark.png"
+        }
+      ],
+      "body_file": "0ecfc2713a12.body.txt",
+      "headers_file": "0ecfc2713a12.headers.txt",
+      "sha256": "c08b9701c4f6505058864ceb5b11b0df0ba3342bfad9303afdda319ea2b9754f",
+      "new_marker": false,
+      "legacy_marker": false,
+      "locs": []
+    },
+    {
+      "path": "/projeler/maritime-horizon-segmentation",
+      "status": "200",
+      "final_url": "https://bayessoft.com.tr/projeler/maritime-horizon-segmentation",
+      "content_type": "text/html; charset=utf-8",
+      "error": "",
+      "title": "Maritime Horizon Line Segmentation",
+      "links": [
+        "/",
+        "/cdn-cgi/l/email-protection#89e0e7efe6c9ebe8f0ecfafae6effda7eae6e4a7fdfb",
+        "/hakkimizda",
+        "/hizmetler",
+        "/iletisim",
+        "/projeler",
+        "https://bayessoft.com.tr",
+        "https://github.com/g4stlyx/horizon_line_segmentation",
+        "https://linkedin.com/company/bayessoft"
+      ],
+      "images": [
+        {
+          "alt": "BayesSoft",
+          "width": "2163",
+          "height": "371",
+          "decoding": "async",
+          "data-nimg": "1",
+          "style": "color:transparent",
+          "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "alt": "BayesSoft",
+          "loading": "lazy",
+          "width": "1327",
+          "height": "539",
+          "decoding": "async",
+          "data-nimg": "1",
+          "class": "h-20 w-auto object-contain md:h-24",
+          "style": "color:transparent",
+          "src": "/bayes_logo_white_cropped.png"
+        }
+      ],
+      "metadata": [
+        {
+          "charset": "utf-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/ttf"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "as": "image",
+          "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/a0b90a5851dc9388.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/bb88dec1857fde07.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "preload",
+          "as": "script",
+          "fetchpriority": "low",
+          "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+        },
+        {
+          "name": "next-size-adjust",
+          "content": ""
+        },
+        {
+          "name": "theme-color",
+          "content": "#101827"
+        },
+        {
+          "name": "color-scheme",
+          "content": "dark light"
+        },
+        {
+          "name": "description",
+          "content": "Deniz taşıtlarının otonom sürüş güvenliğini desteklemek amacıyla, video ve görüntülerde deniz ufuk çizgisini, gökyüzünü, kara parçalarını ve deniz üzerindeki…"
+        },
+        {
+          "name": "application-name",
+          "content": "BayesSoft"
+        },
+        {
+          "rel": "author",
+          "href": "https://bayessoft.com.tr"
+        },
+        {
+          "name": "author",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "keywords",
+          "content": "Maritime Horizon Line Segmentation,Computer Vision,Python / PyTorch,U-Net / SegFormer-B2 (Segmentasyon),RT-DETR / YOLOv8-seg (Nesne Tespiti),OpenCV (Görüntü İşleme),NumPy & scikit-learn"
+        },
+        {
+          "name": "creator",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "publisher",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "robots",
+          "content": "index, follow"
+        },
+        {
+          "name": "googlebot",
+          "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+        },
+        {
+          "name": "category",
+          "content": "technology"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://bayessoft.com.tr/projeler/maritime-horizon-segmentation"
+        },
+        {
+          "name": "format-detection",
+          "content": "telephone=no, address=no, email=no"
+        },
+        {
+          "property": "og:title",
+          "content": "Maritime Horizon Line Segmentation | BayesSoft"
+        },
+        {
+          "property": "og:description",
+          "content": "Deniz taşıtlarının otonom sürüş güvenliğini desteklemek amacıyla, video ve görüntülerde deniz ufuk çizgisini, gökyüzünü, kara parçalarını ve deniz üzerindeki…"
+        },
+        {
+          "property": "og:url",
+          "content": "https://bayessoft.com.tr/projeler/maritime-horizon-segmentation"
+        },
+        {
+          "property": "og:site_name",
+          "content": "BayesSoft"
+        },
+        {
+          "property": "og:locale",
+          "content": "tr_TR"
+        },
+        {
+          "property": "og:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1733"
+        },
+        {
+          "property": "og:image:height",
+          "content": "907"
+        },
+        {
+          "property": "og:image:alt",
+          "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Maritime Horizon Line Segmentation | BayesSoft"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Deniz taşıtlarının otonom sürüş güvenliğini desteklemek amacıyla, video ve görüntülerde deniz ufuk çizgisini, gökyüzünü, kara parçalarını ve deniz üzerindeki…"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "rel": "icon",
+          "href": "/bayes_logo_dark.png"
+        }
+      ],
+      "body_file": "4d05d21b852b.body.txt",
+      "headers_file": "4d05d21b852b.headers.txt",
+      "sha256": "cac9a1c42a7dbb27f50e35a7925603e846bde3f948c8934b0c9b1be65f50a07f",
+      "new_marker": false,
+      "legacy_marker": false,
+      "locs": []
+    },
+    {
+      "path": "/projeler/military-aircraft-classification",
+      "status": "200",
+      "final_url": "https://bayessoft.com.tr/projeler/military-aircraft-classification",
+      "content_type": "text/html; charset=utf-8",
+      "error": "",
+      "title": "Military Aircraft Classification System",
+      "links": [
+        "/",
+        "/cdn-cgi/l/email-protection#20494e464f604241594553534f46540e434f4d0e5452",
+        "/hakkimizda",
+        "/hizmetler",
+        "/iletisim",
+        "/projeler",
+        "https://bayessoft.com.tr",
+        "https://linkedin.com/company/bayessoft"
+      ],
+      "images": [
+        {
+          "alt": "BayesSoft",
+          "width": "2163",
+          "height": "371",
+          "decoding": "async",
+          "data-nimg": "1",
+          "style": "color:transparent",
+          "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "alt": "BayesSoft",
+          "loading": "lazy",
+          "width": "1327",
+          "height": "539",
+          "decoding": "async",
+          "data-nimg": "1",
+          "class": "h-20 w-auto object-contain md:h-24",
+          "style": "color:transparent",
+          "src": "/bayes_logo_white_cropped.png"
+        }
+      ],
+      "metadata": [
+        {
+          "charset": "utf-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/ttf"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "as": "image",
+          "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/a0b90a5851dc9388.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/bb88dec1857fde07.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "preload",
+          "as": "script",
+          "fetchpriority": "low",
+          "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+        },
+        {
+          "name": "next-size-adjust",
+          "content": ""
+        },
+        {
+          "name": "theme-color",
+          "content": "#101827"
+        },
+        {
+          "name": "color-scheme",
+          "content": "dark light"
+        },
+        {
+          "name": "description",
+          "content": "EfficientNet-B4 derin öğrenme modelini kullanarak 89 farklı askeri uçak sınıfını görsellerden yüksek doğrulukla ayırt eden yapay zeka tabanlı bir sınıflandır…"
+        },
+        {
+          "name": "application-name",
+          "content": "BayesSoft"
+        },
+        {
+          "rel": "author",
+          "href": "https://bayessoft.com.tr"
+        },
+        {
+          "name": "author",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "keywords",
+          "content": "Military Aircraft Classification System,Computer Vision,Python,PyTorch,EfficientNet-B4,Albumentations,scikit-learn & NumPy & Pandas"
+        },
+        {
+          "name": "creator",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "publisher",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "robots",
+          "content": "index, follow"
+        },
+        {
+          "name": "googlebot",
+          "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+        },
+        {
+          "name": "category",
+          "content": "technology"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://bayessoft.com.tr/projeler/military-aircraft-classification"
+        },
+        {
+          "name": "format-detection",
+          "content": "telephone=no, address=no, email=no"
+        },
+        {
+          "property": "og:title",
+          "content": "Military Aircraft Classification System | BayesSoft"
+        },
+        {
+          "property": "og:description",
+          "content": "EfficientNet-B4 derin öğrenme modelini kullanarak 89 farklı askeri uçak sınıfını görsellerden yüksek doğrulukla ayırt eden yapay zeka tabanlı bir sınıflandır…"
+        },
+        {
+          "property": "og:url",
+          "content": "https://bayessoft.com.tr/projeler/military-aircraft-classification"
+        },
+        {
+          "property": "og:site_name",
+          "content": "BayesSoft"
+        },
+        {
+          "property": "og:locale",
+          "content": "tr_TR"
+        },
+        {
+          "property": "og:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1733"
+        },
+        {
+          "property": "og:image:height",
+          "content": "907"
+        },
+        {
+          "property": "og:image:alt",
+          "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Military Aircraft Classification System | BayesSoft"
+        },
+        {
+          "name": "twitter:description",
+          "content": "EfficientNet-B4 derin öğrenme modelini kullanarak 89 farklı askeri uçak sınıfını görsellerden yüksek doğrulukla ayırt eden yapay zeka tabanlı bir sınıflandır…"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "rel": "icon",
+          "href": "/bayes_logo_dark.png"
+        }
+      ],
+      "body_file": "a32297a432ab.body.txt",
+      "headers_file": "a32297a432ab.headers.txt",
+      "sha256": "e59d5a97bdc5e3aa660900d53f8b1a6f95135150cf1c8933ee18a687034798e5",
+      "new_marker": false,
+      "legacy_marker": false,
+      "locs": []
+    },
+    {
+      "path": "/projeler/petnest-platform",
+      "status": "200",
+      "final_url": "https://bayessoft.com.tr/projeler/petnest-platform",
+      "content_type": "text/html; charset=utf-8",
+      "error": "",
+      "title": "PetNest - Pet-Friendly Venue Finder Platform",
+      "links": [
+        "/",
+        "/cdn-cgi/l/email-protection#f69f989099b694978f938585999082d895999bd88284",
+        "/hakkimizda",
+        "/hizmetler",
+        "/iletisim",
+        "/projeler",
+        "https://bayessoft.com.tr",
+        "https://linkedin.com/company/bayessoft"
+      ],
+      "images": [
+        {
+          "alt": "BayesSoft",
+          "width": "2163",
+          "height": "371",
+          "decoding": "async",
+          "data-nimg": "1",
+          "style": "color:transparent",
+          "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "alt": "BayesSoft",
+          "loading": "lazy",
+          "width": "1327",
+          "height": "539",
+          "decoding": "async",
+          "data-nimg": "1",
+          "class": "h-20 w-auto object-contain md:h-24",
+          "style": "color:transparent",
+          "src": "/bayes_logo_white_cropped.png"
+        }
+      ],
+      "metadata": [
+        {
+          "charset": "utf-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/ttf"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "as": "image",
+          "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/a0b90a5851dc9388.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/bb88dec1857fde07.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "preload",
+          "as": "script",
+          "fetchpriority": "low",
+          "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+        },
+        {
+          "name": "next-size-adjust",
+          "content": ""
+        },
+        {
+          "name": "theme-color",
+          "content": "#101827"
+        },
+        {
+          "name": "color-scheme",
+          "content": "dark light"
+        },
+        {
+          "name": "description",
+          "content": "Evcil hayvan sahiplerinin evcil hayvan dostu cafe, restoran, park gibi sosyal alanları keşfetmesini sağlayan; moderasyon, kullanıcı yorumları ve mekan sahibi…"
+        },
+        {
+          "name": "application-name",
+          "content": "BayesSoft"
+        },
+        {
+          "rel": "author",
+          "href": "https://bayessoft.com.tr"
+        },
+        {
+          "name": "author",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "keywords",
+          "content": "PetNest - Pet-Friendly Venue Finder Platform,Marketplace,Java / Spring Boot,Spring Security + JWT,MySQL / Hibernate,Flutter,React / Vite,Argon2id Şifreleme,TOTP 2FA (Google Authenticator),Cloudflare R2 & Bucket4j Rate Limiting"
+        },
+        {
+          "name": "creator",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "publisher",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "robots",
+          "content": "index, follow"
+        },
+        {
+          "name": "googlebot",
+          "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+        },
+        {
+          "name": "category",
+          "content": "technology"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://bayessoft.com.tr/projeler/petnest-platform"
+        },
+        {
+          "name": "format-detection",
+          "content": "telephone=no, address=no, email=no"
+        },
+        {
+          "property": "og:title",
+          "content": "PetNest - Pet-Friendly Venue Finder Platform | BayesSoft"
+        },
+        {
+          "property": "og:description",
+          "content": "Evcil hayvan sahiplerinin evcil hayvan dostu cafe, restoran, park gibi sosyal alanları keşfetmesini sağlayan; moderasyon, kullanıcı yorumları ve mekan sahibi…"
+        },
+        {
+          "property": "og:url",
+          "content": "https://bayessoft.com.tr/projeler/petnest-platform"
+        },
+        {
+          "property": "og:site_name",
+          "content": "BayesSoft"
+        },
+        {
+          "property": "og:locale",
+          "content": "tr_TR"
+        },
+        {
+          "property": "og:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1733"
+        },
+        {
+          "property": "og:image:height",
+          "content": "907"
+        },
+        {
+          "property": "og:image:alt",
+          "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "PetNest - Pet-Friendly Venue Finder Platform | BayesSoft"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Evcil hayvan sahiplerinin evcil hayvan dostu cafe, restoran, park gibi sosyal alanları keşfetmesini sağlayan; moderasyon, kullanıcı yorumları ve mekan sahibi…"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "rel": "icon",
+          "href": "/bayes_logo_dark.png"
+        }
+      ],
+      "body_file": "30a38f48c916.body.txt",
+      "headers_file": "30a38f48c916.headers.txt",
+      "sha256": "033f0e0fbcf058c14e55b90e3b6cd50626fbfcf2b08ee7204568831906d10264",
+      "new_marker": false,
+      "legacy_marker": false,
+      "locs": []
+    },
+    {
+      "path": "/projeler/smart-hospital",
+      "status": "200",
+      "final_url": "https://bayessoft.com.tr/projeler/smart-hospital",
+      "content_type": "text/html; charset=utf-8",
+      "error": "",
+      "title": "Smart Hospital System - Kanuni Sultan Süleyman Hospital",
+      "links": [
+        "/",
+        "/cdn-cgi/l/email-protection#5831363e37183a39213d2b2b373e2c763b3735762c2a",
+        "/hakkimizda",
+        "/hizmetler",
+        "/iletisim",
+        "/projeler",
+        "https://bayessoft.com.tr",
+        "https://linkedin.com/company/bayessoft"
+      ],
+      "images": [
+        {
+          "alt": "BayesSoft",
+          "width": "2163",
+          "height": "371",
+          "decoding": "async",
+          "data-nimg": "1",
+          "style": "color:transparent",
+          "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "alt": "BayesSoft",
+          "loading": "lazy",
+          "width": "1327",
+          "height": "539",
+          "decoding": "async",
+          "data-nimg": "1",
+          "class": "h-20 w-auto object-contain md:h-24",
+          "style": "color:transparent",
+          "src": "/bayes_logo_white_cropped.png"
+        }
+      ],
+      "metadata": [
+        {
+          "charset": "utf-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/ttf"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "as": "image",
+          "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/a0b90a5851dc9388.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/bb88dec1857fde07.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "preload",
+          "as": "script",
+          "fetchpriority": "low",
+          "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+        },
+        {
+          "name": "next-size-adjust",
+          "content": ""
+        },
+        {
+          "name": "theme-color",
+          "content": "#101827"
+        },
+        {
+          "name": "color-scheme",
+          "content": "dark light"
+        },
+        {
+          "name": "description",
+          "content": "Hastane içi operasyonların, hasta acil durumlarının ve personel koordinasyonlarının zorlu ağ ve altyapı koşullarında dahi kesintisiz yönetilmesini sağlayan e…"
+        },
+        {
+          "name": "application-name",
+          "content": "BayesSoft"
+        },
+        {
+          "rel": "author",
+          "href": "https://bayessoft.com.tr"
+        },
+        {
+          "name": "author",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "keywords",
+          "content": "Smart Hospital System - Kanuni Sultan Süleyman Hospital,Healthcare,Java / Spring Boot,Flutter,Electron & JavaScript,JWT Authentication,Cloudflare R2 Storage"
+        },
+        {
+          "name": "creator",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "publisher",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "robots",
+          "content": "index, follow"
+        },
+        {
+          "name": "googlebot",
+          "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+        },
+        {
+          "name": "category",
+          "content": "technology"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://bayessoft.com.tr/projeler/smart-hospital"
+        },
+        {
+          "name": "format-detection",
+          "content": "telephone=no, address=no, email=no"
+        },
+        {
+          "property": "og:title",
+          "content": "Smart Hospital System - Kanuni Sultan Süleyman Hospital | BayesSoft"
+        },
+        {
+          "property": "og:description",
+          "content": "Hastane içi operasyonların, hasta acil durumlarının ve personel koordinasyonlarının zorlu ağ ve altyapı koşullarında dahi kesintisiz yönetilmesini sağlayan e…"
+        },
+        {
+          "property": "og:url",
+          "content": "https://bayessoft.com.tr/projeler/smart-hospital"
+        },
+        {
+          "property": "og:site_name",
+          "content": "BayesSoft"
+        },
+        {
+          "property": "og:locale",
+          "content": "tr_TR"
+        },
+        {
+          "property": "og:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1733"
+        },
+        {
+          "property": "og:image:height",
+          "content": "907"
+        },
+        {
+          "property": "og:image:alt",
+          "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Smart Hospital System - Kanuni Sultan Süleyman Hospital | BayesSoft"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Hastane içi operasyonların, hasta acil durumlarının ve personel koordinasyonlarının zorlu ağ ve altyapı koşullarında dahi kesintisiz yönetilmesini sağlayan e…"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "rel": "icon",
+          "href": "/bayes_logo_dark.png"
+        }
+      ],
+      "body_file": "d53a58835e53.body.txt",
+      "headers_file": "d53a58835e53.headers.txt",
+      "sha256": "b9f593d13bcf4e663d34ad95c3e4da8bc17e293a67e8ed954e96ffd3a7bd39ee",
+      "new_marker": false,
+      "legacy_marker": false,
+      "locs": []
+    },
+    {
+      "path": "/projeler/tam-finans-fintech",
+      "status": "200",
+      "final_url": "https://bayessoft.com.tr/projeler/tam-finans-fintech",
+      "content_type": "text/html; charset=utf-8",
+      "error": "",
+      "title": "Tam Finans Multi-Platform Fintech System",
+      "links": [
+        "/",
+        "/cdn-cgi/l/email-protection#e78e898188a785869e829494888193c984888ac99395",
+        "/hakkimizda",
+        "/hizmetler",
+        "/iletisim",
+        "/projeler",
+        "https://bayessoft.com.tr",
+        "https://linkedin.com/company/bayessoft"
+      ],
+      "images": [
+        {
+          "alt": "BayesSoft",
+          "width": "2163",
+          "height": "371",
+          "decoding": "async",
+          "data-nimg": "1",
+          "style": "color:transparent",
+          "src": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "alt": "BayesSoft",
+          "loading": "lazy",
+          "width": "1327",
+          "height": "539",
+          "decoding": "async",
+          "data-nimg": "1",
+          "class": "h-20 w-auto object-contain md:h-24",
+          "style": "color:transparent",
+          "src": "/bayes_logo_white_cropped.png"
+        }
+      ],
+      "metadata": [
+        {
+          "charset": "utf-8"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/52e25459168ca65d-s.p.ttf",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/ttf"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/8e9860b6e62d6359-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/939c4f875ee75fbb-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/9e7b0a821b9dfcb4-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/bb3ef058b751a6ad-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "href": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+          "as": "font",
+          "crossorigin": "",
+          "type": "font/woff2"
+        },
+        {
+          "rel": "preload",
+          "as": "image",
+          "href": "/_next/static/media/bayes-logo-purple.060b6afb.png"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/a0b90a5851dc9388.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/bb88dec1857fde07.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/84fe0a4fea8e66ee.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/_next/static/css/c9fc1bf7ed1ec38b.css",
+          "data-precedence": "next"
+        },
+        {
+          "rel": "preload",
+          "as": "script",
+          "fetchpriority": "low",
+          "href": "/_next/static/chunks/webpack-3748f2c7648fd4f0.js"
+        },
+        {
+          "name": "next-size-adjust",
+          "content": ""
+        },
+        {
+          "name": "theme-color",
+          "content": "#101827"
+        },
+        {
+          "name": "color-scheme",
+          "content": "dark light"
+        },
+        {
+          "name": "description",
+          "content": "Tam Finans KOBİ'lerinin bölgedeki ticari iş birliklerini artırmak ve kullanıcı bağlılığını yükseltmek amacıyla geliştirilmiş çok platformlu bir finansal tekn…"
+        },
+        {
+          "name": "application-name",
+          "content": "BayesSoft"
+        },
+        {
+          "rel": "author",
+          "href": "https://bayessoft.com.tr"
+        },
+        {
+          "name": "author",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "keywords",
+          "content": "Tam Finans Multi-Platform Fintech System,Fintech,Java / Spring Boot,Spring Security (JWT & Refresh Token),MySQL,Flutter,React  ,Cloudflare R2 (S3 SDK),Google Authenticator (TOTP),JUnit & Mockito"
+        },
+        {
+          "name": "creator",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "publisher",
+          "content": "BayesSoft"
+        },
+        {
+          "name": "robots",
+          "content": "index, follow"
+        },
+        {
+          "name": "googlebot",
+          "content": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+        },
+        {
+          "name": "category",
+          "content": "technology"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://bayessoft.com.tr/projeler/tam-finans-fintech"
+        },
+        {
+          "name": "format-detection",
+          "content": "telephone=no, address=no, email=no"
+        },
+        {
+          "property": "og:title",
+          "content": "Tam Finans Multi-Platform Fintech System | BayesSoft"
+        },
+        {
+          "property": "og:description",
+          "content": "Tam Finans KOBİ'lerinin bölgedeki ticari iş birliklerini artırmak ve kullanıcı bağlılığını yükseltmek amacıyla geliştirilmiş çok platformlu bir finansal tekn…"
+        },
+        {
+          "property": "og:url",
+          "content": "https://bayessoft.com.tr/projeler/tam-finans-fintech"
+        },
+        {
+          "property": "og:site_name",
+          "content": "BayesSoft"
+        },
+        {
+          "property": "og:locale",
+          "content": "tr_TR"
+        },
+        {
+          "property": "og:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1733"
+        },
+        {
+          "property": "og:image:height",
+          "content": "907"
+        },
+        {
+          "property": "og:image:alt",
+          "content": "BayesSoft kurumsal yazılım ve teknoloji çözümleri"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Tam Finans Multi-Platform Fintech System | BayesSoft"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Tam Finans KOBİ'lerinin bölgedeki ticari iş birliklerini artırmak ve kullanıcı bağlılığını yükseltmek amacıyla geliştirilmiş çok platformlu bir finansal tekn…"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://bayessoft.com.tr/og.png"
+        },
+        {
+          "rel": "icon",
+          "href": "/bayes_logo_dark.png"
+        }
+      ],
+      "body_file": "e6919482f2a6.body.txt",
+      "headers_file": "e6919482f2a6.headers.txt",
+      "sha256": "76c277a0a75ab6324ca2f81002a5e56f69b672034452b0f75d84cb362509b541",
+      "new_marker": false,
+      "legacy_marker": false,
+      "locs": []
+    }
+  ],
+  "discovery_sources": {
+    "/": [
+      "/",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler",
+      "/projeler/ai-chatbot",
+      "/projeler/atli-logistics",
+      "/projeler/furtherup-drive",
+      "/projeler/maritime-horizon-segmentation",
+      "/projeler/military-aircraft-classification",
+      "/projeler/petnest-platform",
+      "/projeler/smart-hospital",
+      "/projeler/tam-finans-fintech",
+      "/sitemap.xml"
+    ],
+    "/projeler": [
+      "/",
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler",
+      "/projeler/ai-chatbot",
+      "/projeler/atli-logistics",
+      "/projeler/furtherup-drive",
+      "/projeler/maritime-horizon-segmentation",
+      "/projeler/military-aircraft-classification",
+      "/projeler/petnest-platform",
+      "/projeler/smart-hospital",
+      "/projeler/tam-finans-fintech",
+      "/sitemap.xml"
+    ],
+    "/projeler/furtherup-drive": [
+      "/",
+      "/projeler",
+      "/sitemap.xml"
+    ],
+    "/hakkimizda": [
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler",
+      "/projeler/ai-chatbot",
+      "/projeler/atli-logistics",
+      "/projeler/furtherup-drive",
+      "/projeler/maritime-horizon-segmentation",
+      "/projeler/military-aircraft-classification",
+      "/projeler/petnest-platform",
+      "/projeler/smart-hospital",
+      "/projeler/tam-finans-fintech",
+      "/sitemap.xml"
+    ],
+    "/hizmetler": [
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler",
+      "/projeler/ai-chatbot",
+      "/projeler/atli-logistics",
+      "/projeler/furtherup-drive",
+      "/projeler/maritime-horizon-segmentation",
+      "/projeler/military-aircraft-classification",
+      "/projeler/petnest-platform",
+      "/projeler/smart-hospital",
+      "/projeler/tam-finans-fintech",
+      "/sitemap.xml"
+    ],
+    "/iletisim": [
+      "/hakkimizda",
+      "/hizmetler",
+      "/iletisim",
+      "/projeler",
+      "/projeler/ai-chatbot",
+      "/projeler/atli-logistics",
+      "/projeler/furtherup-drive",
+      "/projeler/maritime-horizon-segmentation",
+      "/projeler/military-aircraft-classification",
+      "/projeler/petnest-platform",
+      "/projeler/smart-hospital",
+      "/projeler/tam-finans-fintech",
+      "/sitemap.xml"
+    ],
+    "/projeler/tam-finans-fintech": [
+      "/projeler",
+      "/sitemap.xml"
+    ],
+    "/projeler/smart-hospital": [
+      "/projeler",
+      "/sitemap.xml"
+    ],
+    "/projeler/petnest-platform": [
+      "/projeler",
+      "/sitemap.xml"
+    ],
+    "/projeler/atli-logistics": [
+      "/projeler",
+      "/sitemap.xml"
+    ],
+    "/projeler/military-aircraft-classification": [
+      "/projeler",
+      "/sitemap.xml"
+    ],
+    "/projeler/ai-chatbot": [
+      "/projeler",
+      "/sitemap.xml"
+    ],
+    "/projeler/maritime-horizon-segmentation": [
+      "/projeler",
+      "/sitemap.xml"
+    ]
+  }
+}

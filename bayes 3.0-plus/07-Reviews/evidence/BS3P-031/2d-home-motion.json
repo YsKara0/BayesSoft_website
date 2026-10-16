@@ -1,0 +1,26 @@
+[
+  {
+    "width": 1440,
+    "prismFourFaces": true,
+    "faceControl": true,
+    "scene": {
+      "ready": "true",
+      "mode": "webgl",
+      "canvas": 1
+    },
+    "homepageGalleryNextBack": true,
+    "marquee": null
+  },
+  {
+    "width": 390,
+    "prismFourFaces": true,
+    "faceControl": true,
+    "scene": null,
+    "homepageGalleryNextBack": true,
+    "marquee": {
+      "autoBefore": 6,
+      "nativeSwipe": 225,
+      "autoAfter": 7
+    }
+  }
+]

@@ -36,9 +36,15 @@ const { getSelectedProjects } = load(resolve(root, "data/selectedProjects.ts"));
 const details = load(resolve(root, "data/projectDetails.ts")).projectDetails;
 const prototypeCopy = load(resolve(root, "app/prototype/bs3p-homepage/i18n.ts")).homepageTranslations;
 const expectedLive = ["https://drive.further-up.net", "https://www.reviel.com.tr/", "https://metekmakina.com/urunler"];
+// BS3P-031: approved navigation labels; all other legacy copy stays frozen.
+const approvedAboutLabels = { tr: "Hakkımızda", en: "About Us", de: "Über uns" };
 for (const locale of ["tr", "en", "de"]) {
   const { homepage, ...legacy } = translations[locale];
-  assert.deepEqual(legacy, baseline[locale], `${locale} legacy translation changed`);
+  assert.equal(legacy.nav.about, approvedAboutLabels[locale], `${locale} approved about label changed`);
+  assert.deepEqual(legacy, {
+    ...baseline[locale],
+    nav: { ...baseline[locale].nav, about: approvedAboutLabels[locale] },
+  }, `${locale} legacy translation changed`);
   const { pauseMotion, resumeMotion, motionReducedInfo, scenePaused, ...approvedText } = homepage.text;
   assert.ok(pauseMotion && resumeMotion && motionReducedInfo && scenePaused, `${locale} motion copy missing`);
   assert.deepEqual({ ...homepage, text: approvedText }, prototypeCopy[locale], `${locale} approved homepage copy changed`);

@@ -249,3 +249,38 @@
 - Kullanıcı mobil marquee tasarımını şimdilik görsel onayladı; yeni uygulama/görsel değişiklik veya ek test istemedi. Önceki gerçek cihaz/test sınırları korunur.
 - Yalnız030uygulama/ilgiliMarkdown/gerekli030kanıtları açık dosya seçimiyle stage edilip master üzerinde `feat: improve mobile references marquee` mesajıyla commit edilir. Push/deploy/PR yetkisi verilmedi; kişisel/arşiv/harness dosyaları hariç.
 - Sonraki oturum görevi BS3P-031 — Sitewide Page Inventory & Skeleton Migration; bu kapanışta başlatılmaz. Gerçek commit SHA’sı oluşturulduktan sonra handoff’a kaydedilir.
+
+
+## D-040 — 2026-10-16 — BS3P-031 Aşama 1 analiz ve onay sınırı
+- Kullanıcı açıkça master üzerinde yalnız canlı/yerel envanter, içerik/tasarım analizi, bir günlük iskelet planı ve Obsidian teslimi istedi. Genel feature branch beklentisine rağmen bu görevde master korundu.
+- Aşama2 uygulama geliştirme kullanıcı onayına bağlı; bu analiz yeni uygulama/CSS/asset/paket/rota veya yayın yetkisi vermez. İlk öneri ortak iç çerçeve+Hakkımızda pilotudur; tasarım önerileri henüz kabul edilmiş karar değildir.
+- Mevcut13canonicalURL, TR/EN/DE/içerik/SEO/işlevler ve ana sayfa/hero/marquee/galeri korunur. Altı devprototip üretim sayfası sayılmaz; ekip profilleri ayrı rota değildir. YeniSaaS/Ürünler sayfası önerilmedi. Önceki dirtyhandoffgeçmişi korunur; kanıt07-Reviews/evidence/BS3P-031 altında.
+
+
+## D-041 — 2026-10-16 — BS3P-031 Aşama2A pilot kapsamı
+- Kullanıcı ortak3.0+ iççerçeve ve yalnızHakkımızda uygulamasını master’da açıkça yetkilendirdi;commit/push/deploy/görselkabul yetkisi verilmedi. Aşama2B otomatik başlamaz.
+- Yalnız `/hakkimizda` ve mevcut `/hakkimizda.html` alias’ı yeniInteriorShell’eopt-in;homepageve tüm diğerüretimroute’ları aynı renderkolunda kalır.ScopedCSSModule/globaltokenmutasyonuyok. Mevcutiçerik/foto/3dil/metadata/URLkorunur.
+- Ekip profilleri native dialog ile aynıveriden;Tabçevrimi,Escape,kapat/backdrop,scrolllockvefocusreturn hedeflikontroldengeçti.Yenirota/bağımlılık/içerik/3Deklenmedi. Testbaşarısı kullanıcıgörselonayı değildir.
+
+
+## D-042 — 2026-10-16 — Hakkımızda tasarım kabulü ve navigasyon revizyonu
+- Kullanıcı Aşama2A Hakkımızda tasarımını onayladı; TR/EN/DE Hakkımızda/About Us/Über uns etiketi ve ana sayfa header’ından tek gerçek Hakkımızda bağlantısı istedi. Son navigasyon revizyonu tekrar görsel onaya sunulur; commit/push yetkisi yok.
+- Onaylı ekip/BAYES/modal/ana sayfa içerikleri korunur. Kontrolde bulunan mevcut Almanca mobil uzun H1 taşmasına yalnız kelime kırma eklendi; başka tasarım/sayfa migration’ı yok.
+
+
+## D-043 — 2026-10-16 — Aşama2A/nav kabulü ve yalnız Aşama2B kapsamı
+- Kullanıcı Hakkımızda2A tasarımını/sonnavdüzeltmelerini onayladı;yalnızHizmetler/Projeler/İletişim iskeletlerini aynıiçsisteme taşımayı yetkilendirdi. OrtakShell/Intro/CTAve scopedCSS;Hizmetler’de4süreçadımı metni statik sunulur,eskiillüstrasyonkaynaklarıkorunur.
+- 9proje/8detaykoşulu,TR-EN-DE/içerik/SEO/URLveformPOSTsözleşmesi korunur;formhandlerbyteeşit,QAistekleriyereldeyakalanır/gerçekmesajyok. Homepage/Hakkımızda/BAYES/modal/nav/8ProjectDetailViewdeğişmez.
+- 2B kullanıcıgörselonayıbekler;2C,yeni branch,commit/push/deploy yetkisi yok. Öncekidirtydosyalar/handoffgeçmişi/userfiles korunur.
+
+
+## D-044 — 2026-10-16 — Yalnız Projeler vitrini; mevcut iki veri kaynağını birlikte sunma
+- Kullanıcı yalnız `/projeler` için büyük posterli FurtherUp/Reviel/Metek ve görsel destekli kalan kartları istedi. Dokuz katalog kaydı korunur;ana sayfa getSelectedProjects kaynağındaki Reviel/Metek ayrıca sunulur,FurtherUp tekrarlanmaz:11benzersiz görünüm. Veri modeline yeni kayıt eklenmez.
+- Mevcut productionposter/TR-EN-DE/canlıURL kaynakları kullanılır. Sekiz gerçek detay koşulu korunur;Reviel/Metek/ARELİM’e yeni detay uydurulmaz. Görselsizler dekoratifCSSmonogramı;uzun metinlernative açıklamada korunur.
+- Hizmetler/İletişim/Home/AboutveProjectDetailView aynı;yalnızprojectpage+yeni scopedCSS. Görselkabul beklenir,commit/push/deploy/2Cyetkisi yok.
+
+
+## D-045 — 2026-10-16 — 2A/2B iskelet kabulü; yalnız sekiz detay için2C
+- Kullanıcı2A/2B’yi iskelet düzeyinde ve Projeler vitrinini şimdilik kabul etti;vitrinin ileri görsel gelişimi sonraya bırakılır. Yalnız mevcut8proje detayı yeni ortakShell/Intro ile yenilenir;diğer sayfalar/navigasyon/veri/SEO/URL/görseller korunur.
+- MevcutTRuzun/EN-DEözet dönüşümü aynıdır. SmartHospitalplaceholder doldurulmaz;9uncu detay üretilmez. Etki için yalnız mevcutlocalizeProject.impact verisi kullanılır.
+- 2Cgörselkabulbekler;commit/push/deployyetkisiyok. Katalogdesktopilkposter yakalama farkı raporlu;kaynaklar aynı ve sonraki poster yüklenmesi teyitli,kesin neden kanıtlanmadı. Bu görev katalog revizyonuna dönüştürülmez.

@@ -1,0 +1,650 @@
+[
+  {
+    "width": 1440,
+    "route": "/",
+    "lang": "tr",
+    "label": "Hakkımızda",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 1440,
+      "scroll": 1440
+    },
+    "navBounds": {
+      "x": 691.265625,
+      "y": 34,
+      "width": 398.9375,
+      "height": 44
+    }
+  },
+  {
+    "width": 1440,
+    "route": "/",
+    "lang": "en",
+    "label": "About Us",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 1440,
+      "scroll": 1440
+    },
+    "navBounds": {
+      "x": 714.421875,
+      "y": 34,
+      "width": 357.8125,
+      "height": 44
+    }
+  },
+  {
+    "width": 1440,
+    "route": "/",
+    "lang": "de",
+    "label": "Über uns",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 1440,
+      "scroll": 1440
+    },
+    "navBounds": {
+      "x": 669.59375,
+      "y": 34,
+      "width": 398.578125,
+      "height": 44
+    }
+  },
+  {
+    "width": 1440,
+    "route": "/hakkimizda",
+    "lang": "tr",
+    "label": "Hakkımızda",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 1440,
+      "scroll": 1440
+    },
+    "navBounds": {
+      "x": 645.234375,
+      "y": 30,
+      "width": 419.46875,
+      "height": 44
+    }
+  },
+  {
+    "width": 1440,
+    "route": "/hakkimizda",
+    "lang": "en",
+    "label": "About Us",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 1440,
+      "scroll": 1440
+    },
+    "navBounds": {
+      "x": 687.640625,
+      "y": 30,
+      "width": 357.578125,
+      "height": 44
+    }
+  },
+  {
+    "width": 1440,
+    "route": "/hakkimizda",
+    "lang": "de",
+    "label": "Über uns",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 1440,
+      "scroll": 1440
+    },
+    "navBounds": {
+      "x": 659.265625,
+      "y": 30,
+      "width": 381.375,
+      "height": 44
+    }
+  },
+  {
+    "width": 1100,
+    "route": "/",
+    "lang": "tr",
+    "label": "Hakkımızda",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 1100,
+      "scroll": 1100
+    },
+    "navBounds": {
+      "x": 425.265625,
+      "y": 34,
+      "width": 366.9375,
+      "height": 44
+    }
+  },
+  {
+    "width": 1100,
+    "route": "/",
+    "lang": "en",
+    "label": "About Us",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 1100,
+      "scroll": 1100
+    },
+    "navBounds": {
+      "x": 448.421875,
+      "y": 34,
+      "width": 325.8125,
+      "height": 44
+    }
+  },
+  {
+    "width": 1100,
+    "route": "/",
+    "lang": "de",
+    "label": "Über uns",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 1100,
+      "scroll": 1100
+    },
+    "navBounds": {
+      "x": 403.59375,
+      "y": 34,
+      "width": 366.578125,
+      "height": 44
+    }
+  },
+  {
+    "width": 1100,
+    "route": "/hakkimizda",
+    "lang": "tr",
+    "label": "Hakkımızda",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 1100,
+      "scroll": 1100
+    },
+    "navBounds": {
+      "x": 385.234375,
+      "y": 30,
+      "width": 387.46875,
+      "height": 44
+    }
+  },
+  {
+    "width": 1100,
+    "route": "/hakkimizda",
+    "lang": "en",
+    "label": "About Us",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 1100,
+      "scroll": 1100
+    },
+    "navBounds": {
+      "x": 427.640625,
+      "y": 30,
+      "width": 325.578125,
+      "height": 44
+    }
+  },
+  {
+    "width": 1100,
+    "route": "/hakkimizda",
+    "lang": "de",
+    "label": "Über uns",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 1100,
+      "scroll": 1100
+    },
+    "navBounds": {
+      "x": 399.265625,
+      "y": 30,
+      "width": 349.375,
+      "height": 44
+    }
+  },
+  {
+    "width": 1024,
+    "route": "/",
+    "lang": "tr",
+    "label": "Hakkımızda",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 1024,
+      "scroll": 1024
+    },
+    "navBounds": {
+      "x": 349.265625,
+      "y": 34,
+      "width": 366.9375,
+      "height": 44
+    }
+  },
+  {
+    "width": 1024,
+    "route": "/",
+    "lang": "en",
+    "label": "About Us",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 1024,
+      "scroll": 1024
+    },
+    "navBounds": {
+      "x": 372.421875,
+      "y": 34,
+      "width": 325.8125,
+      "height": 44
+    }
+  },
+  {
+    "width": 1024,
+    "route": "/",
+    "lang": "de",
+    "label": "Über uns",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 1024,
+      "scroll": 1024
+    },
+    "navBounds": {
+      "x": 327.59375,
+      "y": 34,
+      "width": 366.578125,
+      "height": 44
+    }
+  },
+  {
+    "width": 1024,
+    "route": "/hakkimizda",
+    "lang": "tr",
+    "label": "Hakkımızda",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 1024,
+      "scroll": 1024
+    },
+    "navBounds": {
+      "x": 40,
+      "y": 92,
+      "width": 944,
+      "height": 398
+    }
+  },
+  {
+    "width": 1024,
+    "route": "/hakkimizda",
+    "lang": "en",
+    "label": "About Us",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 1024,
+      "scroll": 1024
+    },
+    "navBounds": {
+      "x": 40,
+      "y": 92,
+      "width": 944,
+      "height": 398
+    }
+  },
+  {
+    "width": 1024,
+    "route": "/hakkimizda",
+    "lang": "de",
+    "label": "Über uns",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 1024,
+      "scroll": 1024
+    },
+    "navBounds": {
+      "x": 40,
+      "y": 92,
+      "width": 944,
+      "height": 398
+    }
+  },
+  {
+    "width": 900,
+    "route": "/",
+    "lang": "tr",
+    "label": "Hakkımızda",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 900,
+      "scroll": 900
+    },
+    "navBounds": {
+      "x": 232,
+      "y": 34,
+      "width": 360.203125,
+      "height": 44
+    }
+  },
+  {
+    "width": 900,
+    "route": "/",
+    "lang": "en",
+    "label": "About Us",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 900,
+      "scroll": 900
+    },
+    "navBounds": {
+      "x": 248.421875,
+      "y": 34,
+      "width": 325.8125,
+      "height": 44
+    }
+  },
+  {
+    "width": 900,
+    "route": "/",
+    "lang": "de",
+    "label": "Über uns",
+    "mobile": false,
+    "ok": true,
+    "geom": {
+      "width": 900,
+      "scroll": 900
+    },
+    "navBounds": {
+      "x": 232,
+      "y": 34,
+      "width": 340.265625,
+      "height": 44
+    }
+  },
+  {
+    "width": 900,
+    "route": "/hakkimizda",
+    "lang": "tr",
+    "label": "Hakkımızda",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 900,
+      "scroll": 900
+    },
+    "navBounds": {
+      "x": 40,
+      "y": 92,
+      "width": 820,
+      "height": 398
+    }
+  },
+  {
+    "width": 900,
+    "route": "/hakkimizda",
+    "lang": "en",
+    "label": "About Us",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 900,
+      "scroll": 900
+    },
+    "navBounds": {
+      "x": 40,
+      "y": 92,
+      "width": 820,
+      "height": 398
+    }
+  },
+  {
+    "width": 900,
+    "route": "/hakkimizda",
+    "lang": "de",
+    "label": "Über uns",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 900,
+      "scroll": 900
+    },
+    "navBounds": {
+      "x": 40,
+      "y": 92,
+      "width": 820,
+      "height": 398
+    }
+  },
+  {
+    "width": 390,
+    "route": "/",
+    "lang": "tr",
+    "label": "Hakkımızda",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 390,
+      "scroll": 390
+    },
+    "navBounds": {
+      "x": 50,
+      "y": 66,
+      "width": 320,
+      "height": 391
+    }
+  },
+  {
+    "width": 390,
+    "route": "/",
+    "lang": "en",
+    "label": "About Us",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 390,
+      "scroll": 390
+    },
+    "navBounds": {
+      "x": 50,
+      "y": 66,
+      "width": 320,
+      "height": 391
+    }
+  },
+  {
+    "width": 390,
+    "route": "/",
+    "lang": "de",
+    "label": "Über uns",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 390,
+      "scroll": 390
+    },
+    "navBounds": {
+      "x": 50,
+      "y": 66,
+      "width": 320,
+      "height": 391
+    }
+  },
+  {
+    "width": 390,
+    "route": "/hakkimizda",
+    "lang": "tr",
+    "label": "Hakkımızda",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 390,
+      "scroll": 390
+    },
+    "navBounds": {
+      "x": 24,
+      "y": 76,
+      "width": 342,
+      "height": 398
+    }
+  },
+  {
+    "width": 390,
+    "route": "/hakkimizda",
+    "lang": "en",
+    "label": "About Us",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 390,
+      "scroll": 390
+    },
+    "navBounds": {
+      "x": 24,
+      "y": 76,
+      "width": 342,
+      "height": 398
+    }
+  },
+  {
+    "width": 390,
+    "route": "/hakkimizda",
+    "lang": "de",
+    "label": "Über uns",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 390,
+      "scroll": 390
+    },
+    "navBounds": {
+      "x": 24,
+      "y": 76,
+      "width": 342,
+      "height": 398
+    }
+  },
+  {
+    "width": 375,
+    "route": "/",
+    "lang": "tr",
+    "label": "Hakkımızda",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 375,
+      "scroll": 375
+    },
+    "navBounds": {
+      "x": 35,
+      "y": 66,
+      "width": 320,
+      "height": 391
+    }
+  },
+  {
+    "width": 375,
+    "route": "/",
+    "lang": "en",
+    "label": "About Us",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 375,
+      "scroll": 375
+    },
+    "navBounds": {
+      "x": 35,
+      "y": 66,
+      "width": 320,
+      "height": 391
+    }
+  },
+  {
+    "width": 375,
+    "route": "/",
+    "lang": "de",
+    "label": "Über uns",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 375,
+      "scroll": 375
+    },
+    "navBounds": {
+      "x": 35,
+      "y": 66,
+      "width": 320,
+      "height": 391
+    }
+  },
+  {
+    "width": 375,
+    "route": "/hakkimizda",
+    "lang": "tr",
+    "label": "Hakkımızda",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 375,
+      "scroll": 375
+    },
+    "navBounds": {
+      "x": 24,
+      "y": 76,
+      "width": 327,
+      "height": 398
+    }
+  },
+  {
+    "width": 375,
+    "route": "/hakkimizda",
+    "lang": "en",
+    "label": "About Us",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 375,
+      "scroll": 375
+    },
+    "navBounds": {
+      "x": 24,
+      "y": 76,
+      "width": 327,
+      "height": 398
+    }
+  },
+  {
+    "width": 375,
+    "route": "/hakkimizda",
+    "lang": "de",
+    "label": "Über uns",
+    "mobile": true,
+    "ok": true,
+    "geom": {
+      "width": 375,
+      "scroll": 375
+    },
+    "navBounds": {
+      "x": 24,
+      "y": 76,
+      "width": 327,
+      "height": 398
+    }
+  }
+]

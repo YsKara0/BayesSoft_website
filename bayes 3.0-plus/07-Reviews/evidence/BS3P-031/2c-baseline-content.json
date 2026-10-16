@@ -1,0 +1,429 @@
+{
+  "details": {
+    "tam-finans-fintech": {
+      "tr": {
+        "title": "Tam Finans Multi-Platform Fintech System",
+        "texts": [
+          "Tam Finans KOBİ'lerinin bölgedeki ticari iş birliklerini artırmak ve kullanıcı bağlılığını yükseltmek amacıyla geliştirilmiş çok platformlu bir finansal teknoloji ekosistemidir.",
+          "KOBİ'lerin aynı coğrafi bölgede faaliyet gösteren diğer işletmeleri kolayca keşfedip iş birliği yapabileceği güvenli bir konum tabanlı ağın olmaması ve kullanıcıların platformda aktif kalmasını sağlayacak etkileşim mekanizmalarının eksikliği temel sorundur. Bu süreçlerin yanı sıra, konum ve üyelik verilerinin korunması, yetkisiz veri erişimlerinin (IDOR) engellenmesi, bot saldırılarına karşı giriş güvenliğinin sağlanması ve yüksek işlem hacimlerinde API performansının optimize edilmesi gerekiyordu.",
+          "Sistem, Spring Boot tabanlı REST API, Flutter mobil uygulama ve React yönetim panelinden oluşan entegre bir yapıyla kuruldu.\n\nKonum tabanlı işletme keşfi (CivardaBul) için veritabanı düzeyinde Haversine formülü kullanılarak verimli mesafe sorgulamaları yapıldı. Medya dosyalarının güvenliği için Cloudflare R2 entegrasyonu sağlandı ve yüklenen görsellerin üstbilgileri yerine dosya içeriğindeki Magic Byte kodları doğrulanarak güvenli hale getirildi. Kimlik doğrulama katmanında ise Argon2id şifreleme algoritmaları, TOTP tabanlı iki faktörlü doğrulama (2FA), reCAPTCHA koruması ve hassas uç noktalarda rate-limiting (istek sınırlama) mekanizmaları uygulandı.",
+          "CivardaBul (Konum Tabanlı Keşif): Harita üzerinde lat/lng koordinat doğrulamaları ve Haversine formülüyle 100km yarıçaplı konum tabanlı KOBİ keşfi, uygulama içi mesajlaşma desteği.",
+          "Halleder Quiz Modülü: Kullanıcılara analitik ve davranışsal profiller çıkararak psikometrik veriler elde eden dinamik soru/cevap ve oturum yönetimi.",
+          "Gelişmiş Güvenlik: Access/Refresh token rotasyonu, TOTP tabanlı 2FA, reCAPTCHA doğrulaması, ve günlük otomatik MySQL yedekleme cron yapısı."
+        ],
+        "links": [
+          "/projeler"
+        ],
+        "images": []
+      },
+      "en": {
+        "title": "Tam Finans Multi-Platform Fintech System",
+        "texts": [
+          "A multi-platform fintech system built with a Spring Boot backend, Flutter mobile app and React management dashboard.",
+          "A fintech team needed to manage mobile users, an admin dashboard and secure services through one product flow.",
+          "A multi-platform fintech system built with a Spring Boot backend, Flutter mobile app and React management dashboard. Encrypted messaging, quizzes, audit logs, push notifications and local business discovery were integrated.",
+          "Encrypted messaging, quizzes, audit logs, push notifications and local business discovery were integrated."
+        ],
+        "links": [
+          "/projeler"
+        ],
+        "images": []
+      },
+      "de": {
+        "title": "Tam Finans Multi-Platform Fintech System",
+        "texts": [
+          "Ein plattformübergreifendes Fintech-System mit Spring-Boot-Backend, Flutter-App und React-Dashboard.",
+          "Mobile Nutzer, Admin-Oberfläche und sichere Services mussten in einem Produktablauf verwaltet werden.",
+          "Ein plattformübergreifendes Fintech-System mit Spring-Boot-Backend, Flutter-App und React-Dashboard. Verschlüsselte Nachrichten, Quizmodule, Audit-Logs, Push-Nachrichten und lokale Firmensuche wurden integriert.",
+          "Verschlüsselte Nachrichten, Quizmodule, Audit-Logs, Push-Nachrichten und lokale Firmensuche wurden integriert."
+        ],
+        "links": [
+          "/projeler"
+        ],
+        "images": []
+      },
+      "metadata": [
+        "<meta charset=\"utf-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+        "<meta name=\"next-size-adjust\" content=\"\">",
+        "<meta name=\"theme-color\" content=\"#101827\">",
+        "<meta name=\"color-scheme\" content=\"dark light\">"
+      ]
+    },
+    "smart-hospital": {
+      "tr": {
+        "title": "Smart Hospital System - Kanuni Sultan Süleyman Hospital",
+        "texts": [
+          "Hastane içi operasyonların, hasta acil durumlarının ve personel koordinasyonlarının zorlu ağ ve altyapı koşullarında dahi kesintisiz yönetilmesini sağlayan entegre bir akıllı sağlık platformudur.",
+          "Daha sonra eklenecek.",
+          "Daha sonra eklenecek.",
+          "Daha sonra eklenecek."
+        ],
+        "links": [
+          "/projeler"
+        ],
+        "images": []
+      },
+      "en": {
+        "title": "Smart Hospital System - Kanuni Sultan Süleyman Hospital",
+        "texts": [
+          "An integrated healthcare platform with patient and staff mobile apps, a desktop admin panel and Spring Boot backend.",
+          "Patient, staff and management flows had to work together even with limited hospital infrastructure.",
+          "An integrated healthcare platform with patient and staff mobile apps, a desktop admin panel and Spring Boot backend. Designed to support real-time guidance and emergency coordination in low-connectivity environments.",
+          "Designed to support real-time guidance and emergency coordination in low-connectivity environments."
+        ],
+        "links": [
+          "/projeler"
+        ],
+        "images": []
+      },
+      "de": {
+        "title": "Smart Hospital System - Kanuni Sultan Süleyman Hospital",
+        "texts": [
+          "Eine integrierte Gesundheitsplattform mit mobilen Apps, Desktop-Verwaltung und Spring-Boot-Backend.",
+          "Patienten-, Personal- und Verwaltungsabläufe mussten auch bei schwacher Infrastruktur gemeinsam funktionieren.",
+          "Eine integrierte Gesundheitsplattform mit mobilen Apps, Desktop-Verwaltung und Spring-Boot-Backend. Für Echtzeit-Navigation und Notfallkoordination in Umgebungen mit geringer Konnektivität konzipiert.",
+          "Für Echtzeit-Navigation und Notfallkoordination in Umgebungen mit geringer Konnektivität konzipiert."
+        ],
+        "links": [
+          "/projeler"
+        ],
+        "images": []
+      },
+      "metadata": [
+        "<meta charset=\"utf-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+        "<meta name=\"next-size-adjust\" content=\"\">",
+        "<meta name=\"theme-color\" content=\"#101827\">",
+        "<meta name=\"color-scheme\" content=\"dark light\">"
+      ]
+    },
+    "petnest-platform": {
+      "tr": {
+        "title": "PetNest - Pet-Friendly Venue Finder Platform",
+        "texts": [
+          "Evcil hayvan sahiplerinin evcil hayvan dostu cafe, restoran, park gibi sosyal alanları keşfetmesini sağlayan; moderasyon, kullanıcı yorumları ve mekan sahibi panellerini birleştiren geniş kapsamlı bir pazaryeri platformudur.",
+          "Pet sahipleri için mekanların evcil hayvan kabul koşullarının (büyük köpek kabulü, açık alan zorunluluğu vb.) net olmaması ve internetteki bilgilerin güncelliğini yitirmesi temel sorundu. Ek olarak, kullanıcılar tarafından yüklenen mekan fotoğraflarının ve yorumlarının filtrelenmeden yayına alınması platform güvenilirliğini zedeliyordu. Mekan sahiplerinin kendi menülerini ve kurallarını güncelleyebileceği, yöneticilerin ise tüm içeriği denetleyip onay süreçlerini yürütebileceği hiyerarşik, güvenli ve rate-limit korumalı bir yönetim altyapısına ihtiyaç duyuluyordu.",
+          "Spring Boot REST API mimarisi üzerinde inşa edilen PetNest, Flutter mobil uygulaması ve admin moderatörlerinin kullandığı responsive React web paneli ile entegre edildi.\n\nYüklenen mekan resimlerinin kötü amaçlı kod barındırmasını engellemek için dosya içeriğini Magic Byte seviyesinde inceleyen doğrulama katmanı yazıldı. Kullanıcıların aşırı istek atarak sunucuyu yormasını önlemek için rate-limiting algoritmaları uygulandı. Veritabanı mimarisinde Türkiye genelindeki il ve ilçe sınırları, evcil hayvan türleri (kedi, köpek, kuş vb.) ve mekan tipleri normalize edilerek hızlı arama sorguları için optimize edildi. Admin paneli tarafında ise Level 0 (Süper Yönetici), Level 1 (Yönetici) ve Level 2 (Moderatör) şeklinde hiyerarşik roller tanımlanarak yetki kontrolleri sıkılaştırıldı.",
+          "Merkezi Moderasyon Sistemi: Kullanıcı yorumlarının, puanlamaların ve mekan görsellerinin moderatör onayından geçerek yayına alınması.",
+          "Hiyerarşik Admin ve Rol Yapısı: Kullanıcı, mekan sahibi ve farklı yetki seviyelerine sahip admin hesaplarının yönetimi.",
+          "İçerik Güvenliği: Cloudflare R2 entegrasyonu ve yüklenen dosyalarda Magic Byte dosya tipi kontrolü.",
+          "Lokasyon Tabanlı Filtreleme: Şehir ve ilçe bazlı gelişmiş arama mimarisi ile evcil hayvan dostu mekanların anlık listelenmesi."
+        ],
+        "links": [
+          "/projeler"
+        ],
+        "images": []
+      },
+      "en": {
+        "title": "PetNest - Pet-Friendly Venue Finder Platform",
+        "texts": [
+          "A pet-friendly venue discovery platform built with a Spring Boot REST API, Flutter app and React dashboard.",
+          "Venue discovery, user trust and business management needed to scale within one secure product.",
+          "A pet-friendly venue discovery platform built with a Spring Boot REST API, Flutter app and React dashboard. Secured with JWT/Argon2id authentication, TOTP 2FA, rate limiting and automated backups.",
+          "Secured with JWT/Argon2id authentication, TOTP 2FA, rate limiting and automated backups."
+        ],
+        "links": [
+          "/projeler"
+        ],
+        "images": []
+      },
+      "de": {
+        "title": "PetNest - Pet-Friendly Venue Finder Platform",
+        "texts": [
+          "Eine Plattform für tierfreundliche Orte mit Spring Boot REST API, Flutter-App und React-Dashboard.",
+          "Standortsuche, Nutzervertrauen und Unternehmensverwaltung mussten sicher in einem Produkt skalieren.",
+          "Eine Plattform für tierfreundliche Orte mit Spring Boot REST API, Flutter-App und React-Dashboard. Abgesichert durch JWT/Argon2id, TOTP-2FA, Rate Limiting und automatische Backups.",
+          "Abgesichert durch JWT/Argon2id, TOTP-2FA, Rate Limiting und automatische Backups."
+        ],
+        "links": [
+          "/projeler"
+        ],
+        "images": []
+      },
+      "metadata": [
+        "<meta charset=\"utf-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+        "<meta name=\"next-size-adjust\" content=\"\">",
+        "<meta name=\"theme-color\" content=\"#101827\">",
+        "<meta name=\"color-scheme\" content=\"dark light\">"
+      ]
+    },
+    "atli-logistics": {
+      "tr": {
+        "title": "Atlı Logistics - Workforce Management System",
+        "texts": [
+          "Lojistik depolarının ve antrepolarının günlük ve dönemsel iş gücü ihtiyaçlarını karşılamak amacıyla geliştirilmiş; iş atamaları, çalışan doğrulamaları ve finansal hak edişlerin takibini otomatikleştiren operasyonel yönetim sistemidir.",
+          "İstanbul Avrupa Yakası'ndaki (Esenyurt, Hadımköy, Çatalca vb.) lojistik merkezlerinde çalışan yüzlerce günlük işçinin ve saha denetçisinin (supervisor) koordinasyonu manuel yöntemlerle yönetiliyordu. İş ilanlarının açılması, işçilerin hangi depoya atanacağı, günlük giriş/çıkış onayları ve hak edilen yevmiyelerin, avansların ve geriye kalan bakiyelerin takibi kağıt üzerinde yapıldığı için finansal hatalara ve operasyonel gecikmelere sebep oluyordu. Bu karmaşayı çözmek için verilerin anlık işlenebildiği, veri çakışmalarını önleyen güvenli bir yazılım altyapısı gerekiyordu.",
+          "Sistem; firmaların iş gücü talepleri oluşturduğu, saha yöneticilerinin işçi ataması yaptığı ve finans ekibinin ödemeleri takip ettiği web tabanlı, veritabanı işlemlerinde veri tutarlılığını garanti eden bir mimaride geliştirildi.\n\nSpring Boot backend API katmanında, veritabanı işlemlerinde çakışmaları engellemek için transaction izolasyonları ve pessimistic locking mekanizmaları uygulandı. React admin paneli aracılığıyla yöneticiler firmaları, supervisor'ları ve işçileri merkezi olarak yönetebilir hale geldi. Saha denetçileri (supervisor) kendilerine atanan işçilerin işe başlama ve bitiş durumlarını onayladığında yevmiyeler otomatik hesaplanarak cari bakiye sistemine yansıtılır. İşçilere yapılan elden avans ödemeleri sisteme girilerek anlık borç/alacak tablosu hatasız şekilde güncellenmektedir.",
+          "Supervisor Onay Mekanizması: Sahadaki denetçiler tarafından işçilerin çalışma saatlerinin doğrulanması ve otomatik yevmiye hesaplaması.",
+          "Cari Bakiye ve Avans Takibi: Hak edilen ücretler, alınan avanslar ve kalan bakiyelerin anlık ve geriye dönük raporlanması.",
+          "Hiyerarşik Erişim Kontrolü: Finans yetkilileri, saha sorumluları ve sistem yöneticileri için farklılaştırılmış işlem yetkileri.",
+          "Dinamik İş Talepleri: Lojistik firmalarının anlık iş gücü talebi oluşturabilmesi ve bu taleplerin supervisor'lara otomatik atanması."
+        ],
+        "links": [
+          "/projeler",
+          "https://atlidepohizmetleri.com"
+        ],
+        "images": []
+      },
+      "en": {
+        "title": "Atlı Logistics - Workforce Management System",
+        "texts": [
+          "A workforce platform with hierarchical admin roles, secure job assignment and worker verification flows.",
+          "Task assignment, worker verification and payment tracking in logistics required one central system.",
+          "A workforce platform with hierarchical admin roles, secure job assignment and worker verification flows. A scalable REST backend and responsive React dashboard improved payments and field coordination.",
+          "A scalable REST backend and responsive React dashboard improved payments and field coordination."
+        ],
+        "links": [
+          "/projeler",
+          "https://atlidepohizmetleri.com"
+        ],
+        "images": []
+      },
+      "de": {
+        "title": "Atlı Logistics - Workforce Management System",
+        "texts": [
+          "Ein Workforce-System mit hierarchischen Rollen, sicherer Einsatzplanung und Mitarbeiterprüfung.",
+          "Aufgabenzuweisung, Mitarbeiterprüfung und Zahlungsverfolgung brauchten ein zentrales System.",
+          "Ein Workforce-System mit hierarchischen Rollen, sicherer Einsatzplanung und Mitarbeiterprüfung. Skalierbares REST-Backend und responsives React-Dashboard verbesserten Zahlungen und Feldkoordination.",
+          "Skalierbares REST-Backend und responsives React-Dashboard verbesserten Zahlungen und Feldkoordination."
+        ],
+        "links": [
+          "/projeler",
+          "https://atlidepohizmetleri.com"
+        ],
+        "images": []
+      },
+      "metadata": [
+        "<meta charset=\"utf-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+        "<meta name=\"next-size-adjust\" content=\"\">",
+        "<meta name=\"theme-color\" content=\"#101827\">",
+        "<meta name=\"color-scheme\" content=\"dark light\">"
+      ]
+    },
+    "military-aircraft-classification": {
+      "tr": {
+        "title": "Military Aircraft Classification System",
+        "texts": [
+          "EfficientNet-B4 derin öğrenme modelini kullanarak 89 farklı askeri uçak sınıfını görsellerden yüksek doğrulukla ayırt eden yapay zeka tabanlı bir sınıflandırma hattıdır.",
+          "Askeri uçakların sınıflandırılmasında kullanılan açık kaynaklı veri setinin analizi sırasında, nesne tespiti (bounding box) yerine kırpılmış uçak gövdelerinden oluşan bir yapıda olduğu belirlendi. 38.000'den fazla görsel içeren veri setinde çok ciddi bir sınıf dengesizliği (imbalance) bulunmaktaydı; bazı uçak modellerinin binlerce görseli varken, KAAN, AKINCI veya B21 gibi kritik modellerin sadece 50-60 adet görseli mevcuttu. Bu dengesizlik, standart yapay zeka modellerinin az sayıda görseli olan uçakları tanıyamamasına ve aşırı öğrenmeye (overfitting) maruz kalmasına yol açıyordu.",
+          "Projede transfer öğrenimi (transfer learning) yöntemiyle EfficientNet-B4 derin öğrenme modeli PyTorch kütüphanesi üzerinde eğitildi.\n\nSınıf dengesizliğiyle başa çıkabilmek amacıyla Albumentations kütüphanesi entegre edilerek veri kısıtlılığı olan sınıflar için agresif veri artırımı (döndürme, açısal değişimler, kontrast ayarlamaları, gürültü ekleme) uygulandı. Eğitim sürecinde hata oranını minimize etmek için sınıf ağırlıklı kayıp fonksiyonu (class-weighted Cross Entropy Loss) kullanıldı. Model, Google Colab GPU altyapısında 90 epoch boyunca eğitildi ve erken durdurma (early stopping) kriterleri uygulanarak aşırı öğrenme engellendi. Sonuç olarak test veri setinde %92.86 Top-1 doğruluk ve %97.82 Top-5 doğruluk oranına başarıyla ulaşıldı.",
+          "Yüksek Doğruluk Performansı: Zorlu askeri uçak veri setinde elde edilen %92.86 Top-1 ve %97.82 Top-5 doğruluk oranları.",
+          "Albumentations Entegrasyonu: Kısıtlı veri setine sahip uçaklar için aşırı öğrenmeyi engelleyen dinamik veri artırım teknikleri.",
+          "Sınıf Ağırlıklı Loss Modeli: Veri dengesizliğinin modeli yanıltmasını önleyen weighted loss tasarımı.",
+          "Inference (Çıkarım) Yazılımı: Gönderilen bir uçak görselini analiz ederek en yüksek olasılıklı 5 sınıfı olasılık değerleriyle birlikte döndüren Python betiği."
+        ],
+        "links": [
+          "/projeler"
+        ],
+        "images": []
+      },
+      "en": {
+        "title": "Military Aircraft Classification System",
+        "texts": [
+          "A deep-learning pipeline using EfficientNet-B4 to classify 89 military aircraft types across 38,826 images.",
+          "Aircraft had to be classified accurately in a large, highly imbalanced multi-class image dataset.",
+          "A deep-learning pipeline using EfficientNet-B4 to classify 89 military aircraft types across 38,826 images. Weighted loss and extensive augmentation achieved 92.86% Top-1 accuracy.",
+          "Weighted loss and extensive augmentation achieved 92.86% Top-1 accuracy."
+        ],
+        "links": [
+          "/projeler"
+        ],
+        "images": []
+      },
+      "de": {
+        "title": "Military Aircraft Classification System",
+        "texts": [
+          "Eine EfficientNet-B4-Pipeline zur Klassifikation von 89 Militärflugzeugtypen in 38.826 Bildern.",
+          "Flugzeuge mussten in einem großen, stark unausgeglichenen Bilddatensatz präzise klassifiziert werden.",
+          "Eine EfficientNet-B4-Pipeline zur Klassifikation von 89 Militärflugzeugtypen in 38.826 Bildern. Gewichtete Loss-Funktion und intensive Augmentation erreichten 92,86 % Top-1-Genauigkeit.",
+          "Gewichtete Loss-Funktion und intensive Augmentation erreichten 92,86 % Top-1-Genauigkeit."
+        ],
+        "links": [
+          "/projeler"
+        ],
+        "images": []
+      },
+      "metadata": [
+        "<meta charset=\"utf-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+        "<meta name=\"next-size-adjust\" content=\"\">",
+        "<meta name=\"theme-color\" content=\"#101827\">",
+        "<meta name=\"color-scheme\" content=\"dark light\">"
+      ]
+    },
+    "ai-chatbot": {
+      "tr": {
+        "title": "AI-Powered Chatbot Platform",
+        "texts": [
+          "Llama3 modelini Ollama üzerinden yerel altyapıda çalıştıran, gelişmiş veri filtreleme, prompt injection korumaları ve yönetici denetim panelleriyle donatılmış kurumsal yapay zeka sohbet platformudur.",
+          "Yapay zeka modellerinin kurumsal ortamlarda kullanımı sırasında prompt injection (kötü niyetli girdi yönlendirmesi) saldırıları ile sistem kurallarının aşılması ve hassas sistem promptlarının dışarı sızması (prompt leakage) büyük bir güvenlik riski oluşturmaktadır. Ayrıca, LLM çağrılarının kontrolsüz yapılması sunucuda aşırı yüklenmeye sebep olmakta, geçmiş sohbet verilerinin düzenli saklanması ve kullanıcı yetkilendirmelerinin yönetilmesi zorlaşmaktadır.",
+          "Sistem, Spring Boot backend ve React frontend mimarisi üzerinde, Ollama ile yerel Llama3 modelini entegre edecek şekilde kurgulandı.\n\nGirdi ve çıktı güvenliğini sağlamak amacıyla 8 katmanlı bir filtreleme mekanizması yazıldı; bu katman kötü niyetli girdileri tararken, AI tarafından üretilen çıktıların da sistem promptunu sızdırmasını engeller. Sunucu performansını optimize etmek amacıyla Redis önbellek yapısı entegre edilerek sık kullanılan veriler RAM üzerinde tutuldu. Sohbet oturumları CRUD işlemleriyle yönetilip projeler altında renk/ikon bazlı gruplandırılabilir hale getirildi. Yönetim tarafında ise sistem logları, kullanıcı hareketleri ve engellenen güvenlik ihlalleri, TOTP 2FA korumalı admin paneli üzerinden anlık olarak takip edilmektedir.",
+          "8 Katmanlı Güvenlik Katmanı: Girdi ve çıktıları denetleyen prompt injection ve prompt leakage engelleme mekanizmaları.",
+          "Projelendirme ve Gruplama: Sohbet oturumlarının kullanıcı tanımlı projeler (renk ve ikon destekli) altında organize edilmesi.",
+          "Oturum Paylaşım Desteği: Sohbetlerin genel bağlantılarla paylaşılabilmesi ve diğer kullanıcıların bu sohbetleri kendi profillerine kopyalayabilmesi.",
+          "TOTP 2FA Admin Koruması: Sistem yöneticileri için Google Authenticator uyumlu iki adımlı doğrulama güvenliği."
+        ],
+        "links": [
+          "/projeler",
+          "https://github.com/g4stlyx/chatbot"
+        ],
+        "images": []
+      },
+      "en": {
+        "title": "AI-Powered Chatbot Platform",
+        "texts": [
+          "A Llama3 chatbot platform running on Ollama with JWT authentication, TOTP 2FA and multi-level admin dashboards.",
+          "An LLM chat experience needed production-ready identity, administration and prompt security.",
+          "A Llama3 chatbot platform running on Ollama with JWT authentication, TOTP 2FA and multi-level admin dashboards. Made production-ready with eight layers of prompt-injection protection, Redis caching and daily backups.",
+          "Made production-ready with eight layers of prompt-injection protection, Redis caching and daily backups."
+        ],
+        "links": [
+          "/projeler",
+          "https://github.com/g4stlyx/chatbot"
+        ],
+        "images": []
+      },
+      "de": {
+        "title": "AI-Powered Chatbot Platform",
+        "texts": [
+          "Eine Llama3-Plattform auf Ollama mit JWT, TOTP-2FA und mehrstufigen Admin-Dashboards.",
+          "Ein LLM-Chat benötigte produktionsreife Identität, Verwaltung und Prompt-Sicherheit.",
+          "Eine Llama3-Plattform auf Ollama mit JWT, TOTP-2FA und mehrstufigen Admin-Dashboards. Acht Schutzebenen gegen Prompt Injection, Redis-Cache und tägliche Backups machten das System produktionsreif.",
+          "Acht Schutzebenen gegen Prompt Injection, Redis-Cache und tägliche Backups machten das System produktionsreif."
+        ],
+        "links": [
+          "/projeler",
+          "https://github.com/g4stlyx/chatbot"
+        ],
+        "images": []
+      },
+      "metadata": [
+        "<meta charset=\"utf-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+        "<meta name=\"next-size-adjust\" content=\"\">",
+        "<meta name=\"theme-color\" content=\"#101827\">",
+        "<meta name=\"color-scheme\" content=\"dark light\">"
+      ]
+    },
+    "furtherup-drive": {
+      "tr": {
+        "title": "FurtherUp Drive",
+        "texts": [
+          "Kurumsal koçluk süreçlerini dijitalleştiren; danışanların gelişimini, koç atamalarını, psikometrik test değerlendirmelerini ve abonelik ödemelerini tek bir platformda birleştiren kapsamlı bir SaaS çalışma alanıdır.",
+          "Kurumsal koçluk operasyonlarında, danışanların hedeflerinin, ödevlerinin ve LifeWheel (Yaşam Çarkı) gibi gelişim grafiklerinin takibi genellikle farklı yazılımlar üzerinden yapılıyordu. Ayrıca, EQ, DriveDynamics gibi karmaşık değerlendirme testlerinin puanlanması ve raporlanması manuel yapıldığında büyük bir operasyonel yük oluşturmaktaydı. Bununla birlikte, koçların üyelik paketleri satın alabilmesi, Iyzico ödeme entegrasyonunun abonelik ve iptal işlemlerinde webhook güvenliğinin sağlanması ve veri çakışmalarının önlenmesi gerekiyordu.",
+          "Platform, Spring Boot backend ve modern React frontend mimarisi kullanılarak çoklu rol yetkilendirmesi (Client, Coach, Admin) ile geliştirildi.\n\nFarklı psikometrik testlerin (EQ, DriveDynamics, Learning Model vb.) anket soruları, puanlama algoritmaları ve görsel analiz raporlarını üreten gelişmiş bir test motoru entegre edildi. Koçlar için Iyzico abonelik akışları kurularak, Iyzico webhook çağrılarında imza doğrulaması ile ödeme güvenliği maksimuma çıkarıldı. Çift ödeme veya veri senkronizasyon hatalarını engellemek için veritabanında pessimistic locking (kararlı satır kilitleme) kullanıldı. Kullanıcıların yüklediği gelişim dosyaları ve profil medyaları Cloudflare R2 uyumlu S3 SDK entegrasyonu ile güvenli nesne depolama alanında saklanmaktadır.",
+          "Değerlendirme Test Motoru: EQ, DriveDynamics, Learning Model ve EnnaMap testlerinin otomatik hesaplanması ve grafiksel raporları.",
+          "Koçluk Gelişim Araçları: Danışanlar için hedefler, ödevler, kişisel notlar, LifeWheel ve EnergyLog modüllerinin yönetimi.",
+          "Iyzico Webhook ve Abonelik: Koç abonelik paketlerinin otomatik takibi, webhook imza doğrulaması ve pessimistic lock güvenliği.",
+          "Kurumsal Dosya Depolama: Cloudflare R2 nesne depolama entegrasyonu ile güvenli medya ve doküman yönetimi."
+        ],
+        "links": [
+          "/projeler",
+          "https://drive.further-up.net"
+        ],
+        "images": [
+          "/projects/furtherup-drive/further-up-1.png",
+          "/projects/furtherup-drive/further-up-2.png"
+        ]
+      },
+      "en": {
+        "title": "FurtherUp Drive",
+        "texts": [
+          "A React and Spring Boot coaching platform with role-based access, assessment engine, subscriptions and marketplace.",
+          "Enterprise coaching needed a secure multi-role workspace with assessments and payments.",
+          "A React and Spring Boot coaching platform with role-based access, assessment engine, subscriptions and marketplace. Delivered a robust workspace with automated scheduling, assessment flows and payment experiences.",
+          "Delivered a robust workspace with automated scheduling, assessment flows and payment experiences."
+        ],
+        "links": [
+          "/projeler",
+          "https://drive.further-up.net"
+        ],
+        "images": [
+          "/projects/furtherup-drive/further-up-1.png",
+          "/projects/furtherup-drive/further-up-2.png"
+        ]
+      },
+      "de": {
+        "title": "FurtherUp Drive",
+        "texts": [
+          "Eine React-/Spring-Boot-Plattform mit Rollen, Assessment Engine, Abonnements und Marktplatz.",
+          "Unternehmenscoaching benötigte einen sicheren Multi-Role-Arbeitsbereich mit Tests und Zahlungen.",
+          "Eine React-/Spring-Boot-Plattform mit Rollen, Assessment Engine, Abonnements und Marktplatz. Ein robuster Arbeitsbereich mit automatischer Planung, Assessments und Zahlungsabläufen wurde realisiert.",
+          "Ein robuster Arbeitsbereich mit automatischer Planung, Assessments und Zahlungsabläufen wurde realisiert."
+        ],
+        "links": [
+          "/projeler",
+          "https://drive.further-up.net"
+        ],
+        "images": [
+          "/projects/furtherup-drive/further-up-1.png",
+          "/projects/furtherup-drive/further-up-2.png"
+        ]
+      },
+      "metadata": [
+        "<meta charset=\"utf-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+        "<meta name=\"next-size-adjust\" content=\"\">",
+        "<meta name=\"theme-color\" content=\"#101827\">",
+        "<meta name=\"color-scheme\" content=\"dark light\">"
+      ]
+    },
+    "maritime-horizon-segmentation": {
+      "tr": {
+        "title": "Maritime Horizon Line Segmentation",
+        "texts": [
+          "Deniz taşıtlarının otonom sürüş güvenliğini desteklemek amacıyla, video ve görüntülerde deniz ufuk çizgisini, gökyüzünü, kara parçalarını ve deniz üzerindeki engelleri gerçek zamanlı tespit eden yapay zeka tabanlı bir segmentasyon projesidir.",
+          "Otonom deniz seyrüsefer sistemlerinde kamera görüntülerinden ufuk çizgisinin bulunması, geminin rotasını belirlemesi için hayati önem taşır. Ancak deniz yüzeyindeki yansımalar, dalga hareketleri, sisli ve puslu hava koşulları geleneksel kenar bulma (Canny, Sobel) algoritmalarını tamamen kararsız hale getirmekteydi. Dahası, ufuk çizgisinin önünde seyreden büyük gemiler çizgiyi kestiğinde, algoritmaların ufuk çizgisini geminin üstünden geçecek şekilde hatalı çizmesi seyrüsefer güvenliğini tehlikeye atmaktaydı.",
+          "Sorunu çözmek için geleneksel görüntü işleme yöntemlerinden modern derin öğrenme modellerine uzanan kapsamlı bir mimari geliştirildi.\n\nSegFormer-B2 anlamsal segmentasyon mimarisi kullanılarak gökyüzü, deniz, kara ve nesneleri ayıran 4 sınıflı bir segmentasyon modeli eğitildi. Görüntüdeki gemileri algılamak için RT-DETR ve YOLO nesne tespit modelleri çıkarım hattına (inference pipeline) dahil edildi. Algılanan gemi alanları maskelenerek ufuk çizgisinin geminin arkasından kesintisiz geçmesi sağlandı. Ufuk çizgisi ile nesnelerin merkez noktaları arasındaki piksel bazlı mesafeyi ve açısal kaymayı hesaplayan runner kodları geliştirildi. Testler Singapore Maritime Dataset ve LaRS veri setleri üzerinde gerçekleştirilerek yüksek kararlılık sağlandı.",
+          "4 Sınıflı Anlamsal Segmentasyon: SegFormer-B2 ile gökyüzü, deniz, kara ve gemilerin yüksek doğrulukla sınıflandırılması.",
+          "Gemi Duyarlı Maskeleme: RT-DETR/YOLO nesne tespitiyle ufuk çizgisinin gemilerin arkasında kesintisiz kalmasını sağlayan hibrit çıkarım.",
+          "Piksel Bazlı Uzaklık Hesabı: Algılanan engellerin ufuk çizgisine olan mesafesini piksel düzeyinde hesaplayan analiz yazılımı.",
+          "Çevresel Faktör Dayanıklılığı: Dalga, yansıma ve olumsuz hava koşullarından etkilenmeyen derin öğrenme tabanlı stabilite."
+        ],
+        "links": [
+          "/projeler",
+          "https://github.com/g4stlyx/horizon_line_segmentation"
+        ],
+        "images": []
+      },
+      "en": {
+        "title": "Maritime Horizon Line Segmentation",
+        "texts": [
+          "Research spanning classical vision and deep learning for maritime horizon-line detection and segmentation.",
+          "Sky, water, horizon and objects needed to be detected in real time in maritime imagery.",
+          "Research spanning classical vision and deep learning for maritime horizon-line detection and segmentation. U-Net and RT-DETR enabled real-time segmentation and pixel-distance estimates for sky, water and objects.",
+          "U-Net and RT-DETR enabled real-time segmentation and pixel-distance estimates for sky, water and objects."
+        ],
+        "links": [
+          "/projeler",
+          "https://github.com/g4stlyx/horizon_line_segmentation"
+        ],
+        "images": []
+      },
+      "de": {
+        "title": "Maritime Horizon Line Segmentation",
+        "texts": [
+          "Forschung von klassischer Bildverarbeitung bis Deep Learning für maritime Horizontsegmentierung.",
+          "Himmel, Wasser, Horizont und Objekte mussten in maritimen Bildern in Echtzeit erkannt werden.",
+          "Forschung von klassischer Bildverarbeitung bis Deep Learning für maritime Horizontsegmentierung. U-Net und RT-DETR ermöglichten Echtzeitsegmentierung und pixelbasierte Distanzschätzung.",
+          "U-Net und RT-DETR ermöglichten Echtzeitsegmentierung und pixelbasierte Distanzschätzung."
+        ],
+        "links": [
+          "/projeler",
+          "https://github.com/g4stlyx/horizon_line_segmentation"
+        ],
+        "images": []
+      },
+      "metadata": [
+        "<meta charset=\"utf-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+        "<meta name=\"next-size-adjust\" content=\"\">",
+        "<meta name=\"theme-color\" content=\"#101827\">",
+        "<meta name=\"color-scheme\" content=\"dark light\">"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": "22.23.3",
+  "typescript": "pass",
+  "targeted_and_release_lint": "pass",
+  "production_build": "pass",
+  "verify_production": {
+    "files": 685,
+    "prototypeArtifacts": 0,
+    "prototypeDependencies": 0
+  },
+  "foundation": "pass after explicit approved nav.about expectations; other copy comparisons preserved",
+  "production_access": "pass (10 denied prototype URLs)",
+  "git_origin_divergence_before": "0 0",
+  "real_form_messages": 0
+}

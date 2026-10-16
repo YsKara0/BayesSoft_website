@@ -1,0 +1,229 @@
+{
+  "sizes": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": "Uygulanabilir teknoloji kararları üreten bir yazılım ekibiyiz.",
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "people": 5
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": "Uygulanabilir teknoloji kararları üreten bir yazılım ekibiyiz.",
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "people": 5
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": "Uygulanabilir teknoloji kararları üreten bir yazılım ekibiyiz.",
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "people": 5
+    },
+    {
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Uygulanabilir teknoloji kararları üreten bir yazılım ekibiyiz.",
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "people": 5
+    }
+  ],
+  "profiles": [
+    {
+      "width": 1440,
+      "name": "Batuhan Ersan",
+      "bioLength": 171,
+      "links": 3,
+      "focusContained": true,
+      "focusRestored": true,
+      "close": "Escape"
+    },
+    {
+      "width": 1440,
+      "name": "Ahmet B. Çınar",
+      "bioLength": 187,
+      "links": 3,
+      "focusContained": true,
+      "focusRestored": true,
+      "close": "Escape"
+    },
+    {
+      "width": 1440,
+      "name": "Yavuz Selim Kara",
+      "bioLength": 183,
+      "links": 3,
+      "focusContained": true,
+      "focusRestored": true,
+      "close": "Escape"
+    },
+    {
+      "width": 1440,
+      "name": "Enes Keleş",
+      "bioLength": 158,
+      "links": 3,
+      "focusContained": true,
+      "focusRestored": true,
+      "close": "Escape"
+    },
+    {
+      "width": 1440,
+      "name": "Sefa Ağardan",
+      "bioLength": 180,
+      "links": 3,
+      "focusContained": true,
+      "focusRestored": true,
+      "close": "Escape"
+    },
+    {
+      "width": 768,
+      "name": "Batuhan Ersan",
+      "bioLength": 171,
+      "links": 3,
+      "focusContained": true,
+      "focusRestored": true,
+      "close": "Escape"
+    },
+    {
+      "width": 390,
+      "name": "Batuhan Ersan",
+      "bioLength": 171,
+      "links": 3,
+      "focusContained": true,
+      "focusRestored": true,
+      "close": "touch button"
+    },
+    {
+      "width": 375,
+      "name": "Batuhan Ersan",
+      "bioLength": 171,
+      "links": 3,
+      "focusContained": true,
+      "focusRestored": true,
+      "close": "touch button"
+    }
+  ],
+  "languages": [
+    {
+      "width": 1440,
+      "lang": "en",
+      "title": "We are a software team that makes technology decisions actionable.",
+      "overflow": false,
+      "saved": "en",
+      "bio": "An experienced web and mobile developer who turns product flows into fast, reliable interfaces, with additional experience in mobile design and hardware."
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "title": "Wir machen Technologieentscheidungen umsetzbar.",
+      "overflow": false,
+      "saved": "de",
+      "bio": "Ein erfahrener Web- und Mobile-Entwickler, der Produktabläufe in schnelle, zuverlässige Oberflächen überführt und auch Erfahrung mit Mobile Design und Hardware besitzt."
+    },
+    {
+      "width": 1440,
+      "lang": "tr",
+      "title": "Uygulanabilir teknoloji kararları üreten bir yazılım ekibiyiz.",
+      "overflow": false,
+      "saved": "tr",
+      "bio": "Web ve mobil ürünlerde deneyimli; ürün akışlarını hızlı ve güvenilir arayüzlere dönüştüren bir geliştirici. Mobil uygulama tasarımı ve donanım alanlarında da tecrübelidir."
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "title": "We are a software team that makes technology decisions actionable.",
+      "overflow": false,
+      "saved": "en",
+      "bio": "An experienced web and mobile developer who turns product flows into fast, reliable interfaces, with additional experience in mobile design and hardware."
+    },
+    {
+      "width": 768,
+      "lang": "de",
+      "title": "Wir machen Technologieentscheidungen umsetzbar.",
+      "overflow": false,
+      "saved": "de",
+      "bio": "Ein erfahrener Web- und Mobile-Entwickler, der Produktabläufe in schnelle, zuverlässige Oberflächen überführt und auch Erfahrung mit Mobile Design und Hardware besitzt."
+    },
+    {
+      "width": 768,
+      "lang": "tr",
+      "title": "Uygulanabilir teknoloji kararları üreten bir yazılım ekibiyiz.",
+      "overflow": false,
+      "saved": "tr",
+      "bio": "Web ve mobil ürünlerde deneyimli; ürün akışlarını hızlı ve güvenilir arayüzlere dönüştüren bir geliştirici. Mobil uygulama tasarımı ve donanım alanlarında da tecrübelidir."
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "title": "We are a software team that makes technology decisions actionable.",
+      "overflow": false,
+      "saved": "en",
+      "bio": "An experienced web and mobile developer who turns product flows into fast, reliable interfaces, with additional experience in mobile design and hardware."
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "title": "Wir machen Technologieentscheidungen umsetzbar.",
+      "overflow": false,
+      "saved": "de",
+      "bio": "Ein erfahrener Web- und Mobile-Entwickler, der Produktabläufe in schnelle, zuverlässige Oberflächen überführt und auch Erfahrung mit Mobile Design und Hardware besitzt."
+    },
+    {
+      "width": 390,
+      "lang": "tr",
+      "title": "Uygulanabilir teknoloji kararları üreten bir yazılım ekibiyiz.",
+      "overflow": false,
+      "saved": "tr",
+      "bio": "Web ve mobil ürünlerde deneyimli; ürün akışlarını hızlı ve güvenilir arayüzlere dönüştüren bir geliştirici. Mobil uygulama tasarımı ve donanım alanlarında da tecrübelidir."
+    },
+    {
+      "width": 375,
+      "lang": "en",
+      "title": "We are a software team that makes technology decisions actionable.",
+      "overflow": false,
+      "saved": "en",
+      "bio": "An experienced web and mobile developer who turns product flows into fast, reliable interfaces, with additional experience in mobile design and hardware."
+    },
+    {
+      "width": 375,
+      "lang": "de",
+      "title": "Wir machen Technologieentscheidungen umsetzbar.",
+      "overflow": false,
+      "saved": "de",
+      "bio": "Ein erfahrener Web- und Mobile-Entwickler, der Produktabläufe in schnelle, zuverlässige Oberflächen überführt und auch Erfahrung mit Mobile Design und Hardware besitzt."
+    },
+    {
+      "width": 375,
+      "lang": "tr",
+      "title": "Uygulanabilir teknoloji kararları üreten bir yazılım ekibiyiz.",
+      "overflow": false,
+      "saved": "tr",
+      "bio": "Web ve mobil ürünlerde deneyimli; ürün akışlarını hızlı ve güvenilir arayüzlere dönüştüren bir geliştirici. Mobil uygulama tasarımı ve donanım alanlarında da tecrübelidir."
+    }
+  ],
+  "regressions": [
+    {
+      "route": "/",
+      "bodyTextIdentical": true,
+      "interiorShell": false
+    },
+    {
+      "route": "/hizmetler",
+      "bodyTextIdentical": true,
+      "interiorShell": false
+    },
+    {
+      "route": "/projeler",
+      "bodyTextIdentical": true,
+      "interiorShell": false
+    },
+    {
+      "route": "/iletisim",
+      "bodyTextIdentical": true,
+      "interiorShell": false
+    }
+  ],
+  "errors": [],
+  "metadataUnchanged": true,
+  "pointerClose": true
+}

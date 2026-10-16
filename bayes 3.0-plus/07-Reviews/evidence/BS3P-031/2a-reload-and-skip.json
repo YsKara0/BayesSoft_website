@@ -1,0 +1,16 @@
+{
+  "en": {
+    "reloadPersisted": true,
+    "title": "We are a software team that makes technology decisions actionable."
+  },
+  "de": {
+    "reloadPersisted": true,
+    "title": "Wir machen Technologieentscheidungen umsetzbar."
+  },
+  "tr": {
+    "reloadPersisted": true,
+    "title": "Uygulanabilir teknoloji kararları üreten bir yazılım ekibiyiz."
+  },
+  "slashStatus": 404,
+  "skipLink": true
+}

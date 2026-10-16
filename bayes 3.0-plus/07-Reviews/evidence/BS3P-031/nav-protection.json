@@ -1,0 +1,9 @@
+{
+  "baselineFiles": 295,
+  "changedFiles": [
+    "components/homepage/Header.tsx",
+    "components/interior/interior.module.css",
+    "data/i18n.ts"
+  ],
+  "otherFilesUnchanged": true
+}

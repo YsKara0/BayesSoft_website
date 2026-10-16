@@ -1,0 +1,210 @@
+{
+  "routes": [
+    {
+      "width": 1440,
+      "route": "/hakkimizda",
+      "status": 200,
+      "h1": "Uygulanabilir teknoloji kararları üreten bir yazılım ekibiyiz.",
+      "header": "interior_header__HBlo7",
+      "canonical": "https://bayessoft.com.tr/hakkimizda",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/hakkimizda.html",
+      "status": 200,
+      "h1": "Uygulanabilir teknoloji kararları üreten bir yazılım ekibiyiz.",
+      "header": "interior_header__HBlo7",
+      "canonical": "https://bayessoft.com.tr/hakkimizda",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/hakkimizda",
+      "status": 200,
+      "h1": "Uygulanabilir teknoloji kararları üreten bir yazılım ekibiyiz.",
+      "header": "interior_header__HBlo7",
+      "canonical": "https://bayessoft.com.tr/hakkimizda",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/hakkimizda",
+      "status": 200,
+      "h1": "Uygulanabilir teknoloji kararları üreten bir yazılım ekibiyiz.",
+      "header": "interior_header__HBlo7",
+      "canonical": "https://bayessoft.com.tr/hakkimizda",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/hakkimizda",
+      "status": 200,
+      "h1": "Uygulanabilir teknoloji kararları üreten bir yazılım ekibiyiz.",
+      "header": "interior_header__HBlo7",
+      "canonical": "https://bayessoft.com.tr/hakkimizda",
+      "overflow": false
+    }
+  ],
+  "screens": [
+    {
+      "width": 1440,
+      "loadedPortraits": 5
+    },
+    {
+      "width": 768,
+      "loadedPortraits": 5
+    },
+    {
+      "width": 390,
+      "loadedPortraits": 5
+    },
+    {
+      "width": 375,
+      "loadedPortraits": 5
+    }
+  ],
+  "profiles": [
+    {
+      "width": 1440,
+      "name": "Batuhan Ersan",
+      "openedBy": "keyboard Enter",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 1440,
+      "name": "Ahmet B. Çınar",
+      "openedBy": "keyboard Enter",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 1440,
+      "name": "Yavuz Selim Kara",
+      "openedBy": "keyboard Enter",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 1440,
+      "name": "Enes Keleş",
+      "openedBy": "keyboard Enter",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 1440,
+      "name": "Sefa Ağardan",
+      "openedBy": "keyboard Enter",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 768,
+      "name": "Batuhan Ersan",
+      "openedBy": "keyboard Enter",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 768,
+      "name": "Ahmet B. Çınar",
+      "openedBy": "keyboard Enter",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 768,
+      "name": "Yavuz Selim Kara",
+      "openedBy": "keyboard Enter",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 768,
+      "name": "Enes Keleş",
+      "openedBy": "keyboard Enter",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 768,
+      "name": "Sefa Ağardan",
+      "openedBy": "keyboard Enter",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 390,
+      "name": "Batuhan Ersan",
+      "openedBy": "touch",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 390,
+      "name": "Ahmet B. Çınar",
+      "openedBy": "touch",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 390,
+      "name": "Yavuz Selim Kara",
+      "openedBy": "touch",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 390,
+      "name": "Enes Keleş",
+      "openedBy": "touch",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 390,
+      "name": "Sefa Ağardan",
+      "openedBy": "touch",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 375,
+      "name": "Batuhan Ersan",
+      "openedBy": "touch",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 375,
+      "name": "Ahmet B. Çınar",
+      "openedBy": "touch",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 375,
+      "name": "Yavuz Selim Kara",
+      "openedBy": "touch",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 375,
+      "name": "Enes Keleş",
+      "openedBy": "touch",
+      "focusLoop": true,
+      "focusReturned": true
+    },
+    {
+      "width": 375,
+      "name": "Sefa Ağardan",
+      "openedBy": "touch",
+      "focusLoop": true,
+      "focusReturned": true
+    }
+  ],
+  "errors": []
+}

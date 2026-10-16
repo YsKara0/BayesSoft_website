@@ -1,0 +1,394 @@
+{
+  "pages": [
+    {
+      "route": "/hizmetler",
+      "width": 1440,
+      "lang": "tr",
+      "h1": "Kurumsal ürünleri uçtan uca tasarlayan yazılım hizmetleri.",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "articles": 4
+    },
+    {
+      "route": "/hizmetler",
+      "width": 1440,
+      "lang": "en",
+      "h1": "Software services that design enterprise products end to end.",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "articles": 4
+    },
+    {
+      "route": "/hizmetler",
+      "width": 1440,
+      "lang": "de",
+      "h1": "Softwareleistungen für durchgängige Unternehmensprodukte.",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "articles": 4
+    },
+    {
+      "route": "/projeler",
+      "width": 1440,
+      "lang": "tr",
+      "h1": "Geliştirdiğimiz ürünler ve teknik çalışmalar.",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "articles": 9
+    },
+    {
+      "route": "/projeler",
+      "width": 1440,
+      "lang": "en",
+      "h1": "Products and technical work we have delivered.",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "articles": 9
+    },
+    {
+      "route": "/projeler",
+      "width": 1440,
+      "lang": "de",
+      "h1": "Produkte und technische Lösungen, die wir realisiert haben.",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "articles": 9
+    },
+    {
+      "route": "/iletisim",
+      "width": 1440,
+      "lang": "tr",
+      "h1": "Yeni projeniz ya da ürün fikriniz için konuşalım.",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "articles": 0
+    },
+    {
+      "route": "/iletisim",
+      "width": 1440,
+      "lang": "en",
+      "h1": "Let’s talk about your next project or product idea.",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "articles": 0
+    },
+    {
+      "route": "/iletisim",
+      "width": 1440,
+      "lang": "de",
+      "h1": "Sprechen wir über Ihr nächstes Projekt oder Ihre Produktidee.",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "articles": 0
+    },
+    {
+      "route": "/hizmetler",
+      "width": 390,
+      "lang": "tr",
+      "h1": "Kurumsal ürünleri uçtan uca tasarlayan yazılım hizmetleri.",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "articles": 4
+    },
+    {
+      "route": "/hizmetler",
+      "width": 390,
+      "lang": "en",
+      "h1": "Software services that design enterprise products end to end.",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "articles": 4
+    },
+    {
+      "route": "/hizmetler",
+      "width": 390,
+      "lang": "de",
+      "h1": "Softwareleistungen für durchgängige Unternehmensprodukte.",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "articles": 4
+    },
+    {
+      "route": "/projeler",
+      "width": 390,
+      "lang": "tr",
+      "h1": "Geliştirdiğimiz ürünler ve teknik çalışmalar.",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "articles": 9
+    },
+    {
+      "route": "/projeler",
+      "width": 390,
+      "lang": "en",
+      "h1": "Products and technical work we have delivered.",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "articles": 9
+    },
+    {
+      "route": "/projeler",
+      "width": 390,
+      "lang": "de",
+      "h1": "Produkte und technische Lösungen, die wir realisiert haben.",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "articles": 9
+    },
+    {
+      "route": "/iletisim",
+      "width": 390,
+      "lang": "tr",
+      "h1": "Yeni projeniz ya da ürün fikriniz için konuşalım.",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "articles": 0
+    },
+    {
+      "route": "/iletisim",
+      "width": 390,
+      "lang": "en",
+      "h1": "Let’s talk about your next project or product idea.",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "articles": 0
+    },
+    {
+      "route": "/iletisim",
+      "width": 390,
+      "lang": "de",
+      "h1": "Sprechen wir über Ihr nächstes Projekt oder Ihre Produktidee.",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "articles": 0
+    },
+    {
+      "route": "/hizmetler",
+      "width": 375,
+      "lang": "tr",
+      "h1": "Kurumsal ürünleri uçtan uca tasarlayan yazılım hizmetleri.",
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "articles": 4
+    },
+    {
+      "route": "/hizmetler",
+      "width": 375,
+      "lang": "en",
+      "h1": "Software services that design enterprise products end to end.",
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "articles": 4
+    },
+    {
+      "route": "/hizmetler",
+      "width": 375,
+      "lang": "de",
+      "h1": "Softwareleistungen für durchgängige Unternehmensprodukte.",
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "articles": 4
+    },
+    {
+      "route": "/projeler",
+      "width": 375,
+      "lang": "tr",
+      "h1": "Geliştirdiğimiz ürünler ve teknik çalışmalar.",
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "articles": 9
+    },
+    {
+      "route": "/projeler",
+      "width": 375,
+      "lang": "en",
+      "h1": "Products and technical work we have delivered.",
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "articles": 9
+    },
+    {
+      "route": "/projeler",
+      "width": 375,
+      "lang": "de",
+      "h1": "Produkte und technische Lösungen, die wir realisiert haben.",
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "articles": 9
+    },
+    {
+      "route": "/iletisim",
+      "width": 375,
+      "lang": "tr",
+      "h1": "Yeni projeniz ya da ürün fikriniz için konuşalım.",
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "articles": 0
+    },
+    {
+      "route": "/iletisim",
+      "width": 375,
+      "lang": "en",
+      "h1": "Let’s talk about your next project or product idea.",
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "articles": 0
+    },
+    {
+      "route": "/iletisim",
+      "width": 375,
+      "lang": "de",
+      "h1": "Sprechen wir über Ihr nächstes Projekt oder Ihre Produktidee.",
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "articles": 0
+    }
+  ],
+  "links": [
+    {
+      "width": 1440,
+      "servicesCTA": true
+    },
+    {
+      "slug": "tam-finans-fintech",
+      "status": 200
+    },
+    {
+      "slug": "smart-hospital",
+      "status": 200
+    },
+    {
+      "slug": "petnest-platform",
+      "status": 200
+    },
+    {
+      "slug": "atli-logistics",
+      "status": 200
+    },
+    {
+      "slug": "military-aircraft-classification",
+      "status": 200
+    },
+    {
+      "slug": "ai-chatbot",
+      "status": 200
+    },
+    {
+      "slug": "furtherup-drive",
+      "status": 200
+    },
+    {
+      "slug": "maritime-horizon-segmentation",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "servicesCTA": true
+    },
+    {
+      "width": 375,
+      "servicesCTA": true
+    }
+  ],
+  "regressions": [
+    {
+      "route": "/",
+      "width": 1440,
+      "textIdentical": true
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 1440,
+      "textIdentical": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "textIdentical": true
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 390,
+      "textIdentical": true
+    }
+  ],
+  "form": {
+    "fieldsUnchanged": true,
+    "nativeRequired": true,
+    "emailValidation": true,
+    "successResetAndSendingLock": true,
+    "httpErrorRetainsValues": true,
+    "networkError": true,
+    "requests": [
+      {
+        "url": "https://api.bayessoft.com.tr/api/v1/contact",
+        "method": "POST",
+        "headers": {
+          "accept": "application/json",
+          "accept-language": "tr-TR",
+          "content-type": "application/json",
+          "origin": "http://127.0.0.1:3030",
+          "referer": "http://127.0.0.1:3030/",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+          "sec-ch-ua": "\"Google Chrome\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "body": {
+          "full_name": "Local QA",
+          "email": "qa@example.invalid",
+          "project_type": "Kurumsal yazılım",
+          "budget_timeline": "Local mock only",
+          "message": "Local intercepted test. Never send."
+        }
+      },
+      {
+        "url": "https://api.bayessoft.com.tr/api/v1/contact",
+        "method": "POST",
+        "headers": {
+          "accept": "application/json",
+          "accept-language": "tr-TR",
+          "content-type": "application/json",
+          "origin": "http://127.0.0.1:3030",
+          "referer": "http://127.0.0.1:3030/",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+          "sec-ch-ua": "\"Google Chrome\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "body": {
+          "full_name": "Local QA",
+          "email": "qa@example.invalid",
+          "project_type": "Kurumsal yazılım",
+          "budget_timeline": "Local mock only",
+          "message": "Local intercepted test. Never send."
+        }
+      },
+      {
+        "url": "https://api.bayessoft.com.tr/api/v1/contact",
+        "method": "POST",
+        "headers": {
+          "accept": "application/json",
+          "accept-language": "tr-TR",
+          "content-type": "application/json",
+          "origin": "http://127.0.0.1:3030",
+          "referer": "http://127.0.0.1:3030/",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+          "sec-ch-ua": "\"Google Chrome\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "body": {
+          "full_name": "Local QA",
+          "email": "qa@example.invalid",
+          "project_type": "Kurumsal yazılım",
+          "budget_timeline": "Local mock only",
+          "message": "Local intercepted test. Never send."
+        }
+      }
+    ],
+    "realNetworkMessages": 0,
+    "keyboard": true
+  },
+  "errors": []
+}

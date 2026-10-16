@@ -1,0 +1,48 @@
+{
+  "head": "0e4ec3d15072cf78f5b7b3ad060d1d9d1916047c",
+  "route_files": [
+    "app/hakkimizda/page.tsx",
+    "app/hizmetler/page.tsx",
+    "app/iletisim/page.tsx",
+    "app/page.tsx",
+    "app/projeler/[slug]/page.tsx",
+    "app/projeler/page.tsx",
+    "app/prototype/bs3p-homepage/route.ts",
+    "app/prototype/bs3p-project-showcase-r2/route.ts",
+    "app/prototype/bs3p-project-showcase/route.ts",
+    "app/prototype/bs3p-right-3d/route.ts",
+    "app/prototype/spatial-hero-plus/route.ts",
+    "app/prototype/spatial-hero/route.ts",
+    "app/robots.ts",
+    "app/sitemap.ts"
+  ],
+  "project_detail_slugs": [
+    "tam-finans-fintech",
+    "smart-hospital",
+    "petnest-platform",
+    "atli-logistics",
+    "military-aircraft-classification",
+    "ai-chatbot",
+    "furtherup-drive",
+    "maritime-horizon-segmentation"
+  ],
+  "production_page_count": 13,
+  "prototype_count": 6,
+  "existing_export_html_files": [
+    "out/404.html",
+    "out/hakkimizda.html",
+    "out/hizmetler.html",
+    "out/iletisim.html",
+    "out/index.html",
+    "out/projeler.html",
+    "out/projeler/ai-chatbot.html",
+    "out/projeler/atli-logistics.html",
+    "out/projeler/furtherup-drive.html",
+    "out/projeler/maritime-horizon-segmentation.html",
+    "out/projeler/military-aircraft-classification.html",
+    "out/projeler/petnest-platform.html",
+    "out/projeler/smart-hospital.html",
+    "out/projeler/tam-finans-fintech.html"
+  ],
+  "export_note": "Existing artifact inspected; not rebuilt; freshness not assumed."
+}

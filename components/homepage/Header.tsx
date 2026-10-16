@@ -3,9 +3,15 @@ import { useEffect, useRef } from "react";
 import { useLanguage } from "@/components/LanguageProvider";
 import { contactHref } from "@/data/config";
 import { useHomepageCopy } from "./useHomepageCopy";
-export function NavigationLinks() {
+export function NavigationLinks({ includeAbout = false }: { includeAbout?: boolean }) {
   const t = useHomepageCopy();
-  return <>{([["home", "#hero"], ["projects", "#selected-projects"], ["services", "#services"], ["contact", "#contact"]] as const).map(([key, href]) => <a key={key} href={href}>{t[key]}</a>)}</>;
+  const { copy } = useLanguage();
+  const links = [
+    [t.home, "#hero"], [t.projects, "#selected-projects"], [t.services, "#services"],
+    ...(includeAbout ? [[copy.nav.about, "/hakkimizda"]] : []),
+    [t.contact, "#contact"],
+  ];
+  return <>{links.map(([label, href]) => <a key={href} href={href}>{label}</a>)}</>;
 }
 function Languages() {
   const { locale, setLocale } = useLanguage();
@@ -28,7 +34,7 @@ export function Header() {
       <a className="wordmark" href="#hero" aria-label={t.homeLabel}>BayesSoft</a>
       <div className="header-links">
         <nav className="desktop-nav" aria-label={t.navigation}>
-          <NavigationLinks />
+          <NavigationLinks includeAbout />
         </nav>
         <div className="header-actions">
           <Languages />{cta}</div>
@@ -36,7 +42,7 @@ export function Header() {
       <details className="mobile-nav" ref={menu}>
         <summary>{t.menu}</summary>
         <nav aria-label={t.navigation} onClick={e => { if ((e.target as HTMLElement).closest("a")) menu.current!.open = false; }}>
-          <NavigationLinks />
+          <NavigationLinks includeAbout />
           <Languages />{cta}</nav>
       </details>
     </header>

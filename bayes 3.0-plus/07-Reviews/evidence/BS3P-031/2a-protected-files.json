@@ -1,0 +1,9 @@
+{
+  "baselineFileCount": 305,
+  "changedExistingFiles": [
+    "app/hakkimizda/page.tsx",
+    "components/SiteChrome.tsx"
+  ],
+  "missingFiles": [],
+  "allOtherBaselineFilesHashUnchanged": true
+}

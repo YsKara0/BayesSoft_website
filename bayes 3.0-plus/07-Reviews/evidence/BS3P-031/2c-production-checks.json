@@ -1,0 +1,137 @@
+{
+  "routes": [
+    {
+      "route": "/projeler/tam-finans-fintech",
+      "status": 200,
+      "canonicalPreserved": true
+    },
+    {
+      "route": "/projeler/tam-finans-fintech.html",
+      "status": 200,
+      "canonicalPreserved": true
+    },
+    {
+      "route": "/projeler/smart-hospital",
+      "status": 200,
+      "canonicalPreserved": true
+    },
+    {
+      "route": "/projeler/smart-hospital.html",
+      "status": 200,
+      "canonicalPreserved": true
+    },
+    {
+      "route": "/projeler/petnest-platform",
+      "status": 200,
+      "canonicalPreserved": true
+    },
+    {
+      "route": "/projeler/petnest-platform.html",
+      "status": 200,
+      "canonicalPreserved": true
+    },
+    {
+      "route": "/projeler/atli-logistics",
+      "status": 200,
+      "canonicalPreserved": true
+    },
+    {
+      "route": "/projeler/atli-logistics.html",
+      "status": 200,
+      "canonicalPreserved": true
+    },
+    {
+      "route": "/projeler/military-aircraft-classification",
+      "status": 200,
+      "canonicalPreserved": true
+    },
+    {
+      "route": "/projeler/military-aircraft-classification.html",
+      "status": 200,
+      "canonicalPreserved": true
+    },
+    {
+      "route": "/projeler/ai-chatbot",
+      "status": 200,
+      "canonicalPreserved": true
+    },
+    {
+      "route": "/projeler/ai-chatbot.html",
+      "status": 200,
+      "canonicalPreserved": true
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "status": 200,
+      "canonicalPreserved": true
+    },
+    {
+      "route": "/projeler/furtherup-drive.html",
+      "status": 200,
+      "canonicalPreserved": true
+    },
+    {
+      "route": "/projeler/maritime-horizon-segmentation",
+      "status": 200,
+      "canonicalPreserved": true
+    },
+    {
+      "route": "/projeler/maritime-horizon-segmentation.html",
+      "status": 200,
+      "canonicalPreserved": true
+    }
+  ],
+  "screens": [
+    {
+      "slug": "furtherup-drive",
+      "width": 1440
+    },
+    {
+      "slug": "tam-finans-fintech",
+      "width": 1440
+    },
+    {
+      "slug": "smart-hospital",
+      "width": 1440
+    },
+    {
+      "slug": "furtherup-drive",
+      "width": 390
+    },
+    {
+      "slug": "tam-finans-fintech",
+      "width": 390
+    },
+    {
+      "slug": "smart-hospital",
+      "width": 390
+    },
+    {
+      "slug": "furtherup-drive",
+      "width": 375
+    },
+    {
+      "slug": "tam-finans-fintech",
+      "width": 375
+    },
+    {
+      "slug": "smart-hospital",
+      "width": 375
+    }
+  ],
+  "errors": [],
+  "catalogPixelDiff": {
+    "differentPixels": 234353,
+    "bounds": {
+      "minX": 65,
+      "minY": 585,
+      "maxX": 481,
+      "maxY": 1146
+    },
+    "size": {
+      "width": 1440,
+      "height": 5395
+    }
+  },
+  "ninthDetail404": true
+}

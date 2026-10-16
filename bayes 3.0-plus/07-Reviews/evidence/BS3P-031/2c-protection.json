@@ -1,0 +1,9 @@
+{
+  "baselineFiles": 298,
+  "changedExistingFiles": [
+    "components/ProjectDetailView.tsx",
+    "components/SiteChrome.tsx"
+  ],
+  "allOtherBaselineSourceFilesUnchanged": true,
+  "newSourceFile": "components/interior/project-detail.module.css"
+}

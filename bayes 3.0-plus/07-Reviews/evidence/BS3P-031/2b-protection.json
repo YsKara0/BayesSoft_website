@@ -1,0 +1,12 @@
+{
+  "baselineFiles": 295,
+  "changedExistingFiles": [
+    "app/iletisim/page.tsx",
+    "app/hizmetler/page.tsx",
+    "app/projeler/page.tsx",
+    "components/SiteChrome.tsx",
+    "components/interior/InteriorShell.tsx"
+  ],
+  "allOtherBaselineSourceFilesUnchanged": true,
+  "submitHandlerByteIdentical": true
+}

@@ -3,11 +3,13 @@
 import { useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft, ArrowUpRight, ChevronLeft, ChevronRight, Code2, LockKeyhole } from "lucide-react";
+import { ArrowLeft, ArrowUpRight, ChevronLeft, ChevronRight, Code2 } from "lucide-react";
 import { useLanguage } from "@/components/LanguageProvider";
 import { localizeProject } from "@/data/projectTranslations";
 import type { ProjectDetail } from "@/data/projectDetails";
 import type { Project } from "@/data/site";
+import { InteriorIntro } from "@/components/interior/InteriorIntro";
+import styles from "@/components/interior/project-detail.module.css";
 
 export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; project: Project }) {
   const { copy, locale } = useLanguage();
@@ -42,123 +44,77 @@ export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; 
     goToScreenshot(currentScreenshot + direction);
   };
 
-  return (
-    <main className="theme-dark bs-detail min-h-screen bg-[var(--bs-tone-bg)] pb-24 text-[color:var(--bs-tone-text)]">
-      <div className="mx-auto max-w-[1216px] px-5 md:px-8">
-        <Link href="/projeler" className="group inline-flex items-center gap-2 rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-soft)] px-4 py-3 font-label text-[10px] uppercase tracking-[0.12em] text-[color:var(--bs-tone-text)] shadow-[var(--bs-shadow-soft)] transition hover:border-[color:var(--bs-primary)] hover:bg-[var(--bs-primary)] hover:text-white">
-          <ArrowLeft className="size-4 transition group-hover:-translate-x-1" /> {labels.back}
-        </Link>
+  const monogram = view.title.split(/[\s-]+/).filter(Boolean).slice(0, 2).map(word => word[0]).join("");
 
-        <header className="theme-dark relative mt-8 overflow-hidden rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-bg)] px-6 py-12 text-[color:var(--bs-tone-text)] shadow-[var(--bs-shadow-soft)] md:px-12 md:py-16">
-          <div className="absolute -right-20 -top-20 size-72 bg-[var(--bs-tone-soft)] blur-3xl" />
-          <span className="relative inline-flex rounded-[var(--bs-radius-control)] border border-[color:var(--bs-primary)] bg-[var(--bs-tone-soft)] px-4 py-2 font-label text-[10px] font-semibold uppercase tracking-[0.14em] text-[color:var(--bs-tone-accent)]">{view.domain}</span>
-          <h1 className="font-display relative mt-7 max-w-5xl text-4xl leading-[1.02] text-[color:var(--bs-tone-text)] md:text-6xl lg:text-7xl">{view.title}</h1>
-          <p className="relative mt-7 max-w-3xl text-lg leading-8 text-[color:var(--bs-tone-muted)] md:text-xl">{view.overview}</p>
-        </header>
-
-        {isCompact ? <div className="mt-6 flex items-start gap-3 rounded-[var(--bs-radius-control)] border border-[color:var(--bs-primary)] bg-[var(--bs-tone-card)] p-5 text-sm leading-7 text-[color:var(--bs-tone-muted)]"><LockKeyhole className="mt-1 size-4 shrink-0 text-[color:var(--bs-tone-accent)]" />{labels.compactNotice}</div> : null}
-        {view.note ? <div className="mt-6 rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-card)] p-6"><p className="font-label text-[10px] font-semibold uppercase tracking-[0.14em] text-[color:var(--bs-tone-accent)]">{labels.privacy}</p><p className="mt-3 text-sm leading-7 text-[color:var(--bs-tone-muted)]">{view.note}</p></div> : null}
-
-        <div className="mt-10 grid gap-8 lg:grid-cols-[1fr_360px]">
-          <div className="space-y-6">
-            {[[labels.technicalProblem, view.problem], [labels.architecture, view.solution]].map(([title, text]) => (
-              <section key={title} className="theme-light rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-card)] p-6 shadow-[var(--bs-shadow-soft)] md:p-9">
-                <h2 className="font-display text-2xl text-[color:var(--bs-tone-text)] md:text-3xl">{title}</h2>
-                <p className="mt-5 whitespace-pre-line text-base leading-8 text-[color:var(--bs-tone-muted)] md:text-lg">{text}</p>
-              </section>
-            ))}
-
-            {view.screenshots?.length ? (
-              <section className="theme-light rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-card)] p-6 shadow-[var(--bs-shadow-soft)] md:p-9">
-                <h2 className="font-display text-2xl text-[color:var(--bs-tone-text)] md:text-3xl">{labels.screenshots}</h2>
-                <div className="relative mt-6">
-                  <div
-                    ref={screenshotsRef}
-                    onScroll={(event) => {
-                      const slider = event.currentTarget;
-                      setCurrentScreenshot(Math.round(slider.scrollLeft / (slider.clientWidth + 16)));
-                    }}
-                    className="flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-smooth [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
-                  >
-                    {view.screenshots.map((src, index) => (
-                      <div key={src} className="relative aspect-video w-full shrink-0 snap-center overflow-hidden rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-card)]">
-                        <Image
-                          src={src}
-                          alt={`${view.title} ${index + 1}`}
-                          fill
-                          sizes="(min-width: 1280px) 800px, (min-width: 1024px) 60vw, 100vw"
-                          className="object-contain transition duration-500 hover:scale-[1.02]"
-                        />
-                      </div>
-                    ))}
-                  </div>
-
-                  {view.screenshots.length > 1 ? (
-                    <>
-                      <div className="pointer-events-none absolute inset-x-2 top-1/2 flex -translate-y-1/2 justify-between md:inset-x-4">
-                        <button
-                          type="button"
-                          onClick={() => scrollScreenshots(-1)}
-                          disabled={currentScreenshot === 0}
-                          aria-label={labels.previousScreenshot}
-                          className="pointer-events-auto flex size-11 items-center justify-center rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-card)] text-[color:var(--bs-tone-text)] shadow-[var(--bs-shadow-soft)] backdrop-blur transition hover:border-[color:var(--bs-primary)] hover:bg-[var(--bs-primary)] hover:text-white disabled:opacity-0 md:size-11"
-                        >
-                          <ChevronLeft className="size-4" aria-hidden="true" />
-                        </button>
-                        <button
-                          type="button"
-                          onClick={() => scrollScreenshots(1)}
-                          disabled={currentScreenshot === view.screenshots.length - 1}
-                          aria-label={labels.nextScreenshot}
-                          className="pointer-events-auto flex size-11 items-center justify-center rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-card)] text-[color:var(--bs-tone-text)] shadow-[var(--bs-shadow-soft)] backdrop-blur transition hover:border-[color:var(--bs-primary)] hover:bg-[var(--bs-primary)] hover:text-white disabled:opacity-0 md:size-11"
-                        >
-                          <ChevronRight className="size-4" aria-hidden="true" />
-                        </button>
-                      </div>
-
-                      <div className="mt-4 flex items-center justify-center gap-2">
-                        {view.screenshots.map((src, index) => (
-                          <button
-                            key={src}
-                            type="button"
-                            onClick={() => goToScreenshot(index)}
-                            aria-label={`${labels.screenshots} ${index + 1}`}
-                            aria-current={currentScreenshot === index ? "true" : undefined}
-                            className={`h-2 transition-all ${
-                              currentScreenshot === index
-                                ? "w-6 bg-[var(--bs-primary)]"
-                                : "w-2 bg-[var(--bs-tone-soft)]"
-                            }`}
-                          />
-                        ))}
-                      </div>
-                    </>
-                  ) : null}
-                </div>
-              </section>
-            ) : null}
-          </div>
-
-          <aside className="space-y-6 lg:sticky lg:top-28 lg:self-start">
-            <section className="rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-bg)] p-6 text-[color:var(--bs-tone-text)] shadow-[var(--bs-shadow-soft)]">
-              <h2 className="font-subheading text-xl text-[color:var(--bs-tone-accent)]">{labels.features}</h2>
-              <ul className="mt-5 space-y-4">
-                {view.keyFeatures.map((feature) => <li key={feature} className="border-l-2 border-[color:var(--bs-primary)] pl-4 text-sm leading-7 text-[color:var(--bs-tone-muted)]">{feature}</li>)}
-              </ul>
-            </section>
-
-            <section className="theme-light rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-card)] p-6 shadow-[var(--bs-shadow-soft)]">
-              <h2 className="font-subheading text-xl text-[color:var(--bs-tone-text)]">{labels.technologies}</h2>
-              <div className="mt-5 flex flex-wrap gap-2">{view.techStack.map((tech) => <span key={tech} className="rounded-[var(--bs-radius-control)] border border-[color:var(--bs-tone-border)] bg-[var(--bs-tone-soft)] px-3 py-2 font-label text-[10px] uppercase tracking-[0.08em] text-[color:var(--bs-tone-muted)]">{tech}</span>)}</div>
-            </section>
-
-            {(liveUrl || sourceUrl) ? <div className="grid gap-3">
-              {liveUrl ? <a href={liveUrl} target="_blank" rel="noopener noreferrer" className="action-primary gap-2 px-5">{labels.live}<ArrowUpRight className="size-4" /></a> : null}
-              {sourceUrl ? <a href={sourceUrl} target="_blank" rel="noopener noreferrer" className="action-secondary gap-2 px-5">{labels.source}<Code2 className="size-4" /></a> : null}
-            </div> : null}
-          </aside>
-        </div>
+  return <main id="main-content" tabIndex={-1} className={styles.detail}>
+    <Link href="/projeler" className={styles.back}><ArrowLeft size={17} aria-hidden="true" />{labels.back}</Link>
+    <div className={styles.intro}><InteriorIntro eyebrow={view.domain} title={view.title}>{view.overview}</InteriorIntro></div>
+    <section className={styles.profile} aria-labelledby="technologies-title">
+      <span className={styles.mark} aria-hidden="true">{monogram}</span>
+      <div><h2 id="technologies-title">{labels.technologies}</h2>
+        <ul className={styles.technologies}>{view.techStack.map(technology => <li key={technology}>{technology}</li>)}</ul>
       </div>
-    </main>
-  );
+    </section>
+    {isCompact && <p className={styles.notice}>{labels.compactNotice}</p>}
+    {view.note && <section className={styles.privacy} aria-labelledby="privacy-title">
+      <h2 id="privacy-title">{labels.privacy}</h2><p>{view.note}</p>
+    </section>}
+    {view.screenshots?.length ? <section id="screenshots" className={styles.screenshots} aria-labelledby="screenshots-title">
+      <div className={styles.galleryHeading}>
+        <h2 id="screenshots-title">{labels.screenshots}</h2>
+        {view.screenshots.length > 1 && <div className={styles.galleryControls}>
+          <button type="button" onClick={() => scrollScreenshots(-1)} disabled={currentScreenshot === 0} aria-label={labels.previousScreenshot}><ChevronLeft size={19} aria-hidden="true" /></button>
+          <span className={styles.counter} role="status" aria-live="polite" aria-label={labels.screenshots}>{currentScreenshot + 1} / {view.screenshots.length}</span>
+          <button type="button" onClick={() => scrollScreenshots(1)} disabled={currentScreenshot === view.screenshots.length - 1} aria-label={labels.nextScreenshot}><ChevronRight size={19} aria-hidden="true" /></button>
+        </div>}
+      </div>
+      <div ref={screenshotsRef} className={styles.slider} role="group" tabIndex={0} aria-label={labels.screenshots}
+        onKeyDown={event => {
+          if (event.key === "ArrowRight" || event.key === "ArrowLeft") {
+            event.preventDefault(); scrollScreenshots(event.key === "ArrowRight" ? 1 : -1);
+          }
+        }}
+        onScroll={event => {
+          const slider = event.currentTarget;
+          setCurrentScreenshot(Math.max(0, Math.min((view.screenshots?.length ?? 1) - 1, Math.round(slider.scrollLeft / (slider.clientWidth + 16)))));
+        }}>
+        {view.screenshots.map((src, index) => <div key={src} className={styles.slide}>
+          <Image src={src} alt={`${view.title} ${index + 1}`} fill sizes="(max-width: 699px) calc(100vw - 48px), 90vw" />
+        </div>)}
+      </div>
+      {view.screenshots.length > 1 && <div className={styles.pager}>
+        {view.screenshots.map((src, index) => <button key={src} type="button" onClick={() => goToScreenshot(index)}
+          aria-label={`${labels.screenshots} ${index + 1}`} aria-current={currentScreenshot === index ? "true" : undefined}>
+          {String(index + 1).padStart(2, "0")}
+        </button>)}
+      </div>}
+    </section> : null}
+    <div className={styles.story}>
+      <nav className={styles.outline} aria-label={view.title}>
+        <a href="#problem">{labels.technicalProblem}</a>
+        <a href="#solution">{labels.architecture}</a>
+        <a href="#outcome">{labels.impact}</a>
+        {view.screenshots?.length ? <a href="#screenshots">{labels.screenshots}</a> : null}
+      </nav>
+      <div className={styles.storyBody}>
+        {[["problem", labels.technicalProblem, view.problem], ["solution", labels.architecture, view.solution]].map(([id, title, text]) => <section key={id} id={id} aria-labelledby={`${id}-title`}>
+          <h2 id={`${id}-title`}>{title}</h2>
+          <div className={styles.prose}>{text.split(/\n\s*\n/).map((paragraph, index) => <p key={index}>{paragraph}</p>)}</div>
+        </section>)}
+        <section id="outcome" aria-labelledby="outcome-title">
+          <h2 id="outcome-title">{labels.impact}</h2>
+          {!view.keyFeatures.includes(localized.impact) && <p className={styles.impact}>{localized.impact}</p>}
+          <h3>{labels.features}</h3>
+          <ul className={styles.features}>{view.keyFeatures.map(feature => {
+            const colon = feature.indexOf(":");
+            return <li key={feature}>{colon > 0 ? <><strong>{feature.slice(0, colon + 1)}</strong>{feature.slice(colon + 1)}</> : feature}</li>;
+          })}</ul>
+        </section>
+        {(liveUrl || sourceUrl) && <div className={styles.links}>
+          {liveUrl && <a href={liveUrl} target="_blank" rel="noopener noreferrer">{labels.live}<ArrowUpRight size={18} aria-hidden="true" /></a>}
+          {sourceUrl && <a href={sourceUrl} target="_blank" rel="noopener noreferrer">{labels.source}<Code2 size={18} aria-hidden="true" /></a>}
+        </div>}
+      </div>
+    </div>
+  </main>;
 }

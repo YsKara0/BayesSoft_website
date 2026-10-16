@@ -1,0 +1,62 @@
+[
+  {
+    "route": "home",
+    "beforeSize": [
+      1440,
+      3438,
+      3
+    ],
+    "afterSize": [
+      1440,
+      3438,
+      3
+    ],
+    "differentChannels": 0,
+    "identical": true
+  },
+  {
+    "route": "hizmetler",
+    "beforeSize": [
+      1440,
+      4168,
+      3
+    ],
+    "afterSize": [
+      1440,
+      4168,
+      3
+    ],
+    "differentChannels": 0,
+    "identical": true
+  },
+  {
+    "route": "projeler",
+    "beforeSize": [
+      1440,
+      6439,
+      3
+    ],
+    "afterSize": [
+      1440,
+      6439,
+      3
+    ],
+    "differentChannels": 0,
+    "identical": true
+  },
+  {
+    "route": "iletisim",
+    "beforeSize": [
+      1440,
+      2325,
+      3
+    ],
+    "afterSize": [
+      1440,
+      2325,
+      3
+    ],
+    "differentChannels": 0,
+    "identical": true
+  }
+]

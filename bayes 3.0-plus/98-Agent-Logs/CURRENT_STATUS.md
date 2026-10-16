@@ -1,13 +1,84 @@
+# CURRENT STATUS — BS3P-031 Aşama 2D yayın kapısı
+
+Kullanıcı iskeletleri ve koşullu yayını onayladı. Final production QA:117 durum/15modal/24liste turu/6cold poster/normal homepage motion geçti. TS/lint/build/foundation/export/access temiz;685dosya,0prototype. Master/origin aynı başlangıç SHA. Seçici commit ve Pages yayını hazırlanıyor; yayın henüz tamamlandı denemez.
+
+## Önceki kayıt — tarihsel içerik korunur
+
+# CURRENT STATUS — 2026-10-16 BS3P-031 Aşama2C
+
+Sekiz proje detayı ortak InteriorShell/Intro ile yerelde yenilendi;Aşama2C görsel kabul bekler.2A/2B iskelet ve vitrin şimdilik kabul edildi;vitrinin ileri görsel çalışması sonraya bırakıldı. Master/HEAD0e4ec3d aynı;commit/push/deploy yok.
+- YalnızProjectDetailView/SiteChrome+yeniproject-detail.module.css. İçerik/veri/slug/SEO/asset aynı;9uncu detay yok. TRuzun/EN-DEözet davranışı,SmartHospitalplaceholder korunur.
+- Chromium8×3dil×3genişlik72durum/eski metin-link-img koruma/24liste dönüşü/galeri kontrolü geçti.16prodrota+alias200,ninth404/9finalPNG/0pageerror;TS/lint/buildpassed685file0prototype.
+- Beşkorunanroute1440/390:9/10PNGbyteeşit. KatalogdesktopilkFurtherUpposterboş yakalandı;sonraki kontrolde3posterloaded/opacity1,fakatpixel0teyityok. Kaynak/asset hashleri aynı;bu sınır raporlu,katalog değiştirilmedi.
+- Rapor/031kanıtları/log/taskgüncel;öncekidirtygeçmiş korundu.3030dev açık;geçiciprodserverkapalı. Gerçekcihaz/Safari/fullQA/CI yok.
+
+## Önceki CURRENT_STATUS — tarihsel kayıt
+
+# CURRENT STATUS — 2026-10-16 BS3P-031 Projeler vitrin revizyonu
+
+Yalnız `/projeler` revize edildi; hedefli kontroller geçti, görsel onay beklenir. Master/HEAD0e4ec3d aynı; commit/push/deploy yok.
+- FurtherUp/Reviel/Metek mevcut posterleriyle öne çıkarıldı;9eski katalog kaydı korunur,FurtherUp tekrarsız.3öneçıkan+8kalan=11benzersiz çalışma.8gerçek detay;diğerlerine sahte link yok. Uzun metinler9native açıklamada;monogramlar görselsiz kayıtlarda.
+- Yalnız app/projeler/page.tsx ve yeni projects.module.css değişti. Diğer mevcut kaynaklar aynı;Hizmetler/İletişim/Home/About1440/390PNGbyteeşit8karşılaştırma.
+- Chromium1440/768/390/375×3dil12durum/poster/bağlantı/klavye/taşma geçti. TS/hedeflilint/buildpassed685file0prototype. Finalprod4ekran/alias/0pageerror. Gerçekcihaz/CI/fullQA yok.
+- Rapor/031kanıtları/handoff güncel.3030dev korunur;geçiciprodserver kapalı. Aşama2C başlamadı;önceki dirty kayıtlar aşağıda aynen korunur.
+
+## Önceki CURRENT_STATUS — tarihsel kayıt
+
+# CURRENT STATUS — 2026-10-16 BS3P-031 Aşama2B
+
+**Durum:** Yerel uygulama/hedefli kontroller tamamlandı;Aşama2B görsel onayı beklenir. Aşama2A ve nav kullanıcı onaylı. Master/HEAD0e4ec3d aynı;commit/push/deploy yok.
+- Hizmetler/Projeler/İletişim ortakInteriorShell/InteriorIntro’ya taşındı;iki yeniInteriorCTA/pagesCSSModule. Hizmet4satır/statiksüreç,Proje9kayıt/8gerçekdetay,İletişim aynıhandler/alanlarla2kolon.
+- Chromium1440/390/375×TR-EN-DE27durum,3CTA/8detay200,mockPOST200/500/abort/validation/sendinglock geçti.Gerçekmesaj0. Metadataalanlaraynı;3prodAlias/9prodEkran/0pageerror.
+- Home+About1440/390önce-sonraPNGbyteeşit.295baselinekaynakdosyadan5değişti/290aynı;homepage/ekip/modal/8detay/assets/veri/packagekorundu. TS/hedeflilint/buildpassed684file0prototype.
+- [[../04-Development/BS3P-031-SITEWIDE-PAGE-INVENTORY]] Aşama2B bölümü/031kanıtlarıgüncel.3030mevcutsunucuaçık;geçiciprodsunucukapalı. Gerçekbackend/Safari/iPhone/fullQA/CIyok;Aşama2Cbaşlamadı. Önceki dirtykayıtlar aşağıda aynen korunur.
+
+## Önceki CURRENT_STATUS — tarihsel kayıt
+
+# CURRENT STATUS — 2026-10-16 BS3P-031 navigasyon revizyonu
+
+Hakkımızda pilot tasarımı kullanıcı tarafından onaylandı. Son navigasyon düzeltmeleri yerelde hazır; bunların görsel onayı beklenir. Master/HEAD aynı; commit/push yok.
+- Ortak nav.about TR Hakkımızda / EN About Us / DE Über uns. Ana sayfa desktop/mobil header’a tek gerçek `/hakkimizda` bağlantısı eklendi; diğer öğeler aynı.
+- Mobil Almanca mevcut uzun H1 kelimesinin taşması yalnız kelime kırma ile giderildi. Onaylı BAYES/ekip/modal/hero/marquee/galeri kodu aynı. Başka sayfa migration’ı yok.
+- Chromium36sayfa/genişlik/dil kontrolü, gerçek link navigasyonu, tekil öğe ve mobil taşma kontrolü geçti. TS/ilgili lint/diffcheck geçti; yeni build/fullQA yok. Kanıt/rapor güncel. Önceki dirty kayıtlar aynen aşağıda korunur.
+
+## Önceki CURRENT_STATUS — tarihsel kayıt
+
+# CURRENT STATUS — 2026-10-16 BS3P-031 Aşama2A
+
+**Durum:** IMPLEMENTED / TARGETED CHECKS PASSED — kullanıcı görsel onayı beklenir; commit/push/deploy yok.
+**Branch / HEAD:** master /0e4ec3d15072cf78f5b7b3ad060d1d9d1916047c, aynı.
+**Teslim:** [[../04-Development/BS3P-031-SITEWIDE-PAGE-INVENTORY#BS3P-031 — Aşama 2A / Ortak İç Sayfa Çerçevesi + Hakkımızda Pilotu]].
+- YeniInteriorShell/InteriorIntro/TeamProfiles/CSSModule;yalnızHakkımızda+mevcut.htmlalias opt-in. Mineral açık zemin/InstrumentSans/editoryal ilkeler/beşkorunanfoto; içerik/TR-EN-DE/metadata aynı. Homepageve3D/marquee/galeri,diğer4aile/globalCSS/assets/veri/packageaynı.
+- Chromium1440/768/390/375taşma0.5profil×4genişlik20modalEnter/touch/Tab/ShiftTab/Escape/close/focusreturn geçti;fare/backdropayrıca.3dil+reload/skipfocus/alias200/metadata passed.4korunanroute1440reducedönce-sonraRGBfark0.Productionpageerror0.
+- TS/ilgiliESLint/finalbuildpassed,687file/0prototype.Nodev26.8.2;ilkfontDNSsandboxhatasıizinliağlaçözüldü.UbuntuCI/gerçekSafari/iPhone/fullQA yok.
+- Rapor/kanıt/task/karar/loggüncel;başlangıçdirtygeçmişiaynenkorundu.Yalnız2mevcutappdosyası+4yeniinteriordosyası;305baselinefilekontrolünde303diğerhashaynı.Önizlemehttp://localhost:3030/hakkimizda açık;geçicistatikservertestsonundakapatılır. YeniAşama2BveGit/yayınyetkisiyok.
+
+## Önceki CURRENT_STATUS — aynen korundu
+
+# CURRENT STATUS — 2026-10-16 BS3P-031 Aşama 1
+
+**Durum:** ANALYSIS COMPLETE — Aşama 2 için kullanıcı onayı beklenir.
+**Branch / HEAD:** `master` / `0e4ec3d15072cf78f5b7b3ad060d1d9d1916047c`; branch/index/HEAD değiştirilmedi.
+**Teslim:** [[../04-Development/BS3P-031-SITEWIDE-PAGE-INVENTORY]].
+- Canlı sitemap + gerçek iç bağlantı GET taraması:13 benzersiz canonical HTML,13/13 HTTP200;1 yeni ana sayfa,12 eski iç sayfa. Ek `/hakkimizda.html`200 alias’ı ayrı içerik sayılmadı. Robots/sitemap200.
+- Yerel5 sabit +8 gerçek detay=13 üretim sayfası; tek dinamik dosya/data.projectDetails slug kaynağı.9 proje kaydı/8 detay;5 ekip profili modal, hizmet detay rotası yok.6 dev prototipi canlı404.
+- `/hakkimizda/`404 /slash’siz200; ARELİM detay dışı slug404 (hasDetailsPage:false). SmartHospital TR placeholder, EN/DE kısa detay ve TR metadata farkları raporlu. Form/API gönderilmedi.
+- Chrome’da aile temsilcileri + homepage görsel gözlem; ham HTTP/SEO/link/kaynak kanıtları07-Reviews/evidence/BS3P-031. Tam mobil/cihaz QA veya TS/lint/build yok; plan-only.
+- Öneri:8 saatlik ortak iskelet planı; ilk uygulama işi iç shell+Hakkımızda pilotu. Yeni uygulama yetkisi yok. Homepage/hero/prizma/MP4/marquee/galeri, tüm uygulama/CSS/asset/paketler ve kişisel dosyalar korunur.
+- Önceki4 dirty handoff dosyasının içeriği silinmedi; yeni kayıtlar eklendi. Staging/commit/push/PR/merge/deploy yok; server başlatılmadı/durdurulmadı. Başlangıç/kapanış master...origin/master ahead/behind göstermiyor; fetch/uzakCI sorgusu yok. Kullanıcı030’un yayınlandığını bildiriyor; aşağıdaki push/deploy yok ifadeleri önceki kapanışın tarihsel kaydıdır.
+
+## Önceki CURRENT_STATUS — tarihsel kayıt, aynen korundu
+
 # CURRENT STATUS — 2026-10-16 BS3P-030 mobil referans marquee
 
-**Durum:** USER VISUALLY APPROVED — mevcut tasarım şimdilik kullanıcı tarafından görsel onaylandı; yerel commit yetkili, push/deploy yok.
-**Branch / HEAD:** `master` / `031c055dbee78197e3e0fa475605136b175856de`; kullanıcı master üzerinde kalınmasını açıkça istedi.
+**Durum:** USER VISUALLY APPROVED — mevcut tasarım şimdilik kullanıcı tarafından görsel onaylandı; yerel commit tamamlandı, push/deploy yok.
+**Branch / HEAD:** `master` / `0e4ec3d15072cf78f5b7b3ad060d1d9d1916047c`; kullanıcı master üzerinde kalınmasını açıkça istedi.
 **Sonraki görev:** BS3P-031 — Sitewide Page Inventory & Skeleton Migration; henüz başlatılmadı.
-**Kapanış:** Uygulama değişmedi, yeni test yok. Gerçek commit SHA’sı commit sonrası handoff’a kaydedilecek.
+**Kapanış:** Uygulama değişmedi, yeni test yok. 22 seçili dosya `0e4ec3d15072cf78f5b7b3ad060d1d9d1916047c` ile commit edildi: `feat: improve mobile references marquee`. Cached diff kontrolü geçti; bu SHA içeren son handoff notları commit dışındadır.
 **Teslim:** [[../04-Development/BS3P-030-MOBILE-REFERENCES-MARQUEE]].
 - Mobil referanslar tek satır/~iki logo; native swipe +120s otomatik döngü, touch/focus pause ve1600ms quiet resume. Global motion/reduced-motion korunur. Desktop mevcut CSS120s ve görseli aynı; yeni bağımlılık yok.
 - Chromium320/375/390, touch/reduced/focus, desktop piksel0, Chromium+otomatikWebKit seam/globalpause/üç proje galeri regresyonu geçti. TS/lint/nihai build geçti;686artifact/0prototype. GerçekSafari/iPhone/uzun QA yapılmadı.
-- Yalnız üç uygulama dosyası ve030kasa/kanıtları değişti. Hero/galeri/Safari/diğer bölümler ve userfiles korunur; staging/commit/push/PR/Gitmerge/deploy/branch değişimi yok.
+- Yalnız üç uygulama dosyası ve030kasa/kanıtları değişti. Hero/galeri/Safari/diğer bölümler ve userfiles korunur; ilk uygulama aşamasında Git kaydı yoktu; kapanışta yalnız030dosyaları stage/commit edildi. Push/PR/Gitmerge/deploy/branch değişimi yok.
 - Yerel inceleme http://localhost:3030/#references; mevcut tasarım kullanıcı tarafından görsel olarak onaylandı. Önceki029araştırmaları aşağıda tarihsel; bu görev hero netliğini değiştirmez.
 
 ## Önceki durum — BS3P-029C tarihsel kayıt
@@ -280,3 +351,12 @@ Bu oturumda branch `feature/bayessoft-3.0-plus`, HEAD `c5bf841` doğrulandı. Ö
 Kullanıcının BS3P-018A incelemesini ve BS3P-018B kapsam onayını bekle; BS3P-010/009 inceleme kayıtları korunur. Vitrin entegrasyonu tamamlandı; ek revizyon, çeviri/yasal içerik, A-B/production veya release işlemini otomatik başlatma. Açık kalite/izolasyon/kasa bulguları [[../07-Reviews/REVIEW_REGISTER]] ve ilgili görev notlarında; final QA ayrı kapsamdır.
 
 > Bu dosyayı her oturumda yeniden, yalnızca gerçek duruma göre güncelle. Eski anlık görüntüyü SESSION_LOG'a gömmek yerine gerekiyorsa tarihçede referansla.
+
+
+## BS3P-030 commit sonrası handoff — 2026-10-16
+- Yerel commit: `0e4ec3d15072cf78f5b7b3ad060d1d9d1916047c` / `feat: improve mobile references marquee` /22dosya. master, origin/master’a göre bir commit ileride; push/deploy yapılmadı.
+- Uygulama byte olarak korundu; ek test yapılmadı. Staged allowlist ve `git diff --cached --check` geçti; staging alanı artık boş.
+- **Sıradaki görev: BS3P-031 — Sitewide Page Inventory & Skeleton Migration.** Henüz başlanmadı. Yeni oturum bu commit sonrası yerel handoff notlarını korumalı; kişisel untracked dosyalar önceki gibi bırakıldı.
+- Bu SHA kaydını içeren CURRENT_STATUS/NEXT_STEPS/SESSION_LOG/günlük kayıtları commit sonrasında yazıldı; ikinci commit oluşturulmadı.
+
+- Aşama2A son kapanış: görevde açılan geçici statik3031 sunucusu kapatıldı; dev3030 görsel inceleme için açık bırakıldı. `git diff --check` geçti; master/HEAD ve boş index korundu. Tam Git çıktıları031kanıtklasöründeki `2a-git-status.txt` / `2a-git-diff-stat.txt` dosyalarında.

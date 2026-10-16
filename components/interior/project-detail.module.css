@@ -1,0 +1,72 @@
+/* Project details only. Shared interior tokens and typography are inherited. */
+.detail { color: var(--interior-ink); overflow-wrap: anywhere; }
+.back { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; margin-top: 44px; font-size: 14px; color: var(--interior-muted); }
+.back:hover { color: var(--interior-blue); }
+.intro > section { padding-block: 36px 48px; }
+.intro h1 { font-size: clamp(42px,4.7vw,68px); max-width: 1100px; }
+.intro > section > p:last-child { max-width: 760px; font-size: 19px; line-height: 1.75; }
+.profile { display: grid; grid-template-columns: 180px minmax(0,1fr); align-items: center; gap: 56px; padding-block: 36px; border-bottom: 1px solid var(--interior-line); }
+.mark { font-size: 76px; font-weight: 500; letter-spacing: -.075em; line-height: 1; color: #647e99; }
+.profile h2 { font-size: 14px; font-weight: 400; color: var(--interior-muted); }
+.technologies { display: flex; flex-wrap: wrap; gap: 10px 24px; list-style: none; padding: 0; margin: 20px 0 0; font-size: 14px; line-height: 1.7; }
+.notice { padding: 20px 24px; margin-top: 28px; border-left: 2px solid var(--interior-blue); background: #e9eff7; font-size: 15px; line-height: 1.7; color: var(--interior-muted); }
+.privacy { padding-block: 24px; border-bottom: 1px solid var(--interior-line); }
+.privacy h2 { font-size: 15px; font-weight: 500; }
+.privacy p { margin-top: 12px; max-width: 75ch; font-size: 17px; line-height: 1.75; color: var(--interior-muted); }
+.screenshots { padding-block: 48px; border-bottom: 1px solid var(--interior-line); }
+.galleryHeading { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-bottom: 24px; }
+.galleryHeading h2 { font-size: 28px; font-weight: 500; letter-spacing: -.025em; }
+.galleryControls { display: flex; align-items: center; gap: 12px; }
+.galleryControls button { display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid #b9c5d0; border-radius: 3px; background: transparent; color: var(--interior-ink); }
+.galleryControls button:hover:not(:disabled) { background: #e1e9f2; }
+.galleryControls button:disabled { opacity: .35; cursor: default; }
+.counter { min-width: 40px; font-size: 13px; color: var(--interior-muted); }
+.slider { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: thin; scrollbar-color: #aab9c8 transparent; }
+.slide { position: relative; flex: 0 0 100%; min-width: 0; aspect-ratio: 16/9; scroll-snap-align: center; background: #e5ebf1; border: 1px solid var(--interior-line); }
+.slide img { object-fit: contain; }
+.pager { display: flex; justify-content: center; gap: 8px; margin-top: 16px; }
+.pager button { min-width: 44px; min-height: 44px; padding: 8px; border: 1px solid transparent; border-radius: 3px; background: transparent; color: var(--interior-muted); font-size: 13px; }
+.pager button[aria-current="true"] { border-color: var(--interior-blue); color: var(--interior-blue); }
+.story { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,3fr); gap: 64px; padding-block: 64px 72px; }
+.outline { position: sticky; top: 28px; align-self: start; display: flex; flex-direction: column; gap: 8px; }
+.outline a { display: inline-flex; align-items: center; min-height: 44px; max-width: 22ch; font-size: 14px; line-height: 1.6; color: var(--interior-muted); }
+.outline a:hover { color: var(--interior-blue); text-decoration: underline; text-underline-offset: 5px; }
+.storyBody { min-width: 0; }
+.storyBody > section { padding-block: 40px; border-top: 1px solid var(--interior-line); scroll-margin-top: 24px; }
+.storyBody > section:first-child { padding-top: 0; border-top: 0; }
+.storyBody h2 { font-size: clamp(29px,3vw,42px); font-weight: 500; letter-spacing: -.035em; line-height: 1.2; margin-bottom: 28px; }
+.prose { max-width: 74ch; }
+.prose p { font-size: 18px; line-height: 1.85; color: var(--interior-muted); }
+.prose p + p { margin-top: 24px; }
+.impact { max-width: 65ch; margin-bottom: 36px !important; font-size: 23px; line-height: 1.6; letter-spacing: -.015em; }
+.storyBody h3 { font-size: 15px; font-weight: 500; color: var(--interior-muted); }
+.features { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 28px 36px; list-style: none; padding: 0; margin: 24px 0 0; }
+.features li { padding-top: 20px; border-top: 1px solid var(--interior-line); font-size: 16px; line-height: 1.75; color: var(--interior-muted); }
+.features strong { display: block; margin-bottom: 8px; font-size: 18px; font-weight: 500; line-height: 1.5; color: var(--interior-ink); }
+.features li:only-child { grid-column: 1/-1; max-width: 70ch; }
+.links { display: flex; flex-wrap: wrap; gap: 16px 32px; border-top: 1px solid var(--interior-line); padding-block: 28px 0; }
+.links a { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; font-size: 16px; color: var(--interior-blue); text-decoration: underline; text-underline-offset: 5px; }
+@media(max-width:1099px) {
+  .story { gap: 40px; grid-template-columns: minmax(0,1fr) minmax(0,2.5fr); }
+  .profile { grid-template-columns: 120px minmax(0,1fr); gap: 32px; }
+}
+@media(max-width:699px) {
+  .back { margin-top: 24px; }
+  .intro > section { padding-block: 24px 32px; }
+  .intro h1 { font-size: 40px; }
+  .intro > section > p:last-child { font-size: 17px; }
+  .profile { grid-template-columns: 1fr; gap: 24px; padding-block: 28px; }
+  .mark { font-size: 64px; }
+  .technologies { gap: 8px 20px; margin-top: 16px; }
+  .screenshots { padding-block: 32px; }
+  .galleryHeading { flex-direction: column; align-items: flex-start; gap: 20px; }
+  .galleryHeading h2 { font-size: 25px; }
+  .story { grid-template-columns: 1fr; gap: 32px; padding-block: 40px 48px; }
+  .outline { position: static; flex-direction: row; flex-wrap: wrap; gap: 8px 24px; padding-bottom: 24px; border-bottom: 1px solid var(--interior-line); }
+  .outline a { max-width: none; }
+  .storyBody h2 { font-size: 31px; margin-bottom: 24px; }
+  .prose p { font-size: 17px; line-height: 1.8; }
+  .features { grid-template-columns: 1fr; gap: 24px; }
+  .impact { font-size: 21px; }
+  .notice { padding: 16px 20px; }
+}

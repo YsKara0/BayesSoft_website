@@ -1,0 +1,798 @@
+{
+  "states": [
+    {
+      "slug": "tam-finans-fintech",
+      "width": 1440,
+      "lang": "tr",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "tam-finans-fintech",
+      "width": 1440,
+      "lang": "en",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "tam-finans-fintech",
+      "width": 1440,
+      "lang": "de",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "smart-hospital",
+      "width": 1440,
+      "lang": "tr",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "smart-hospital",
+      "width": 1440,
+      "lang": "en",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "smart-hospital",
+      "width": 1440,
+      "lang": "de",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "petnest-platform",
+      "width": 1440,
+      "lang": "tr",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "petnest-platform",
+      "width": 1440,
+      "lang": "en",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "petnest-platform",
+      "width": 1440,
+      "lang": "de",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "atli-logistics",
+      "width": 1440,
+      "lang": "tr",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "atli-logistics",
+      "width": 1440,
+      "lang": "en",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "atli-logistics",
+      "width": 1440,
+      "lang": "de",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "military-aircraft-classification",
+      "width": 1440,
+      "lang": "tr",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "military-aircraft-classification",
+      "width": 1440,
+      "lang": "en",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "military-aircraft-classification",
+      "width": 1440,
+      "lang": "de",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "ai-chatbot",
+      "width": 1440,
+      "lang": "tr",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "ai-chatbot",
+      "width": 1440,
+      "lang": "en",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "ai-chatbot",
+      "width": 1440,
+      "lang": "de",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "furtherup-drive",
+      "width": 1440,
+      "lang": "tr",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 2
+    },
+    {
+      "slug": "furtherup-drive",
+      "width": 1440,
+      "lang": "en",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 2
+    },
+    {
+      "slug": "furtherup-drive",
+      "width": 1440,
+      "lang": "de",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 2
+    },
+    {
+      "slug": "maritime-horizon-segmentation",
+      "width": 1440,
+      "lang": "tr",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "maritime-horizon-segmentation",
+      "width": 1440,
+      "lang": "en",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "maritime-horizon-segmentation",
+      "width": 1440,
+      "lang": "de",
+      "scroll": 1440,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "tam-finans-fintech",
+      "width": 390,
+      "lang": "tr",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "tam-finans-fintech",
+      "width": 390,
+      "lang": "en",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "tam-finans-fintech",
+      "width": 390,
+      "lang": "de",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "smart-hospital",
+      "width": 390,
+      "lang": "tr",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "smart-hospital",
+      "width": 390,
+      "lang": "en",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "smart-hospital",
+      "width": 390,
+      "lang": "de",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "petnest-platform",
+      "width": 390,
+      "lang": "tr",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "petnest-platform",
+      "width": 390,
+      "lang": "en",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "petnest-platform",
+      "width": 390,
+      "lang": "de",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "atli-logistics",
+      "width": 390,
+      "lang": "tr",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "atli-logistics",
+      "width": 390,
+      "lang": "en",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "atli-logistics",
+      "width": 390,
+      "lang": "de",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "military-aircraft-classification",
+      "width": 390,
+      "lang": "tr",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "military-aircraft-classification",
+      "width": 390,
+      "lang": "en",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "military-aircraft-classification",
+      "width": 390,
+      "lang": "de",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "ai-chatbot",
+      "width": 390,
+      "lang": "tr",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "ai-chatbot",
+      "width": 390,
+      "lang": "en",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "ai-chatbot",
+      "width": 390,
+      "lang": "de",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "furtherup-drive",
+      "width": 390,
+      "lang": "tr",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 2
+    },
+    {
+      "slug": "furtherup-drive",
+      "width": 390,
+      "lang": "en",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 2
+    },
+    {
+      "slug": "furtherup-drive",
+      "width": 390,
+      "lang": "de",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 2
+    },
+    {
+      "slug": "maritime-horizon-segmentation",
+      "width": 390,
+      "lang": "tr",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "maritime-horizon-segmentation",
+      "width": 390,
+      "lang": "en",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "maritime-horizon-segmentation",
+      "width": 390,
+      "lang": "de",
+      "scroll": 390,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "tam-finans-fintech",
+      "width": 375,
+      "lang": "tr",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "tam-finans-fintech",
+      "width": 375,
+      "lang": "en",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "tam-finans-fintech",
+      "width": 375,
+      "lang": "de",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "smart-hospital",
+      "width": 375,
+      "lang": "tr",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "smart-hospital",
+      "width": 375,
+      "lang": "en",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "smart-hospital",
+      "width": 375,
+      "lang": "de",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "petnest-platform",
+      "width": 375,
+      "lang": "tr",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "petnest-platform",
+      "width": 375,
+      "lang": "en",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "petnest-platform",
+      "width": 375,
+      "lang": "de",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "atli-logistics",
+      "width": 375,
+      "lang": "tr",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "atli-logistics",
+      "width": 375,
+      "lang": "en",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "atli-logistics",
+      "width": 375,
+      "lang": "de",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "military-aircraft-classification",
+      "width": 375,
+      "lang": "tr",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "military-aircraft-classification",
+      "width": 375,
+      "lang": "en",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "military-aircraft-classification",
+      "width": 375,
+      "lang": "de",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "ai-chatbot",
+      "width": 375,
+      "lang": "tr",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "ai-chatbot",
+      "width": 375,
+      "lang": "en",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "ai-chatbot",
+      "width": 375,
+      "lang": "de",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "furtherup-drive",
+      "width": 375,
+      "lang": "tr",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 2
+    },
+    {
+      "slug": "furtherup-drive",
+      "width": 375,
+      "lang": "en",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 2
+    },
+    {
+      "slug": "furtherup-drive",
+      "width": 375,
+      "lang": "de",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 2
+    },
+    {
+      "slug": "maritime-horizon-segmentation",
+      "width": 375,
+      "lang": "tr",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "maritime-horizon-segmentation",
+      "width": 375,
+      "lang": "en",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    },
+    {
+      "slug": "maritime-horizon-segmentation",
+      "width": 375,
+      "lang": "de",
+      "scroll": 375,
+      "font": "instrument, \"instrument Fallback\", sans-serif",
+      "allPreviousTextsAndLinksPreserved": true,
+      "images": 0
+    }
+  ],
+  "gallery": [
+    {
+      "width": 1440,
+      "arrows": true,
+      "keyboard": true,
+      "touch": false,
+      "imagesLoaded": true
+    },
+    {
+      "width": 390,
+      "arrows": true,
+      "keyboard": true,
+      "touch": true,
+      "imagesLoaded": true
+    },
+    {
+      "width": 375,
+      "arrows": true,
+      "keyboard": true,
+      "touch": true,
+      "imagesLoaded": true
+    }
+  ],
+  "transitions": [
+    {
+      "slug": "tam-finans-fintech",
+      "width": 1440,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "smart-hospital",
+      "width": 1440,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "petnest-platform",
+      "width": 1440,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "atli-logistics",
+      "width": 1440,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "military-aircraft-classification",
+      "width": 1440,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "ai-chatbot",
+      "width": 1440,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "furtherup-drive",
+      "width": 1440,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "maritime-horizon-segmentation",
+      "width": 1440,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "tam-finans-fintech",
+      "width": 390,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "smart-hospital",
+      "width": 390,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "petnest-platform",
+      "width": 390,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "atli-logistics",
+      "width": 390,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "military-aircraft-classification",
+      "width": 390,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "ai-chatbot",
+      "width": 390,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "furtherup-drive",
+      "width": 390,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "maritime-horizon-segmentation",
+      "width": 390,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "tam-finans-fintech",
+      "width": 375,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "smart-hospital",
+      "width": 375,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "petnest-platform",
+      "width": 375,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "atli-logistics",
+      "width": 375,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "military-aircraft-classification",
+      "width": 375,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "ai-chatbot",
+      "width": 375,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "furtherup-drive",
+      "width": 375,
+      "listRoundTrip": true
+    },
+    {
+      "slug": "maritime-horizon-segmentation",
+      "width": 375,
+      "listRoundTrip": true
+    }
+  ],
+  "errors": []
+}

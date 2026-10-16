@@ -1,0 +1,465 @@
+{
+  "screens": [
+    {
+      "lang": "tr",
+      "width": 1440,
+      "scroll": 1440,
+      "ids": [
+        "furtherup-drive",
+        "reviel",
+        "metek-makina",
+        "tam-finans-fintech",
+        "smart-hospital",
+        "petnest-platform",
+        "atli-logistics",
+        "military-aircraft-classification",
+        "ai-chatbot",
+        "maritime-horizon-segmentation",
+        "arelim-vulnerability-report"
+      ],
+      "detailLinkCount": 8,
+      "liveLinks": [
+        "https://drive.further-up.net",
+        "https://www.reviel.com.tr/",
+        "https://metekmakina.com/urunler",
+        "https://atlidepohizmetleri.com",
+        "https://github.com/g4stlyx/chatbot",
+        "https://github.com/g4stlyx/horizon_line_segmentation"
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "scroll": 1440,
+      "ids": [
+        "furtherup-drive",
+        "reviel",
+        "metek-makina",
+        "tam-finans-fintech",
+        "smart-hospital",
+        "petnest-platform",
+        "atli-logistics",
+        "military-aircraft-classification",
+        "ai-chatbot",
+        "maritime-horizon-segmentation",
+        "arelim-vulnerability-report"
+      ],
+      "detailLinkCount": 8,
+      "liveLinks": [
+        "https://drive.further-up.net",
+        "https://www.reviel.com.tr/",
+        "https://metekmakina.com/urunler",
+        "https://atlidepohizmetleri.com",
+        "https://github.com/g4stlyx/chatbot",
+        "https://github.com/g4stlyx/horizon_line_segmentation"
+      ]
+    },
+    {
+      "lang": "de",
+      "width": 1440,
+      "scroll": 1440,
+      "ids": [
+        "furtherup-drive",
+        "reviel",
+        "metek-makina",
+        "tam-finans-fintech",
+        "smart-hospital",
+        "petnest-platform",
+        "atli-logistics",
+        "military-aircraft-classification",
+        "ai-chatbot",
+        "maritime-horizon-segmentation",
+        "arelim-vulnerability-report"
+      ],
+      "detailLinkCount": 8,
+      "liveLinks": [
+        "https://drive.further-up.net",
+        "https://www.reviel.com.tr/",
+        "https://metekmakina.com/urunler",
+        "https://atlidepohizmetleri.com",
+        "https://github.com/g4stlyx/chatbot",
+        "https://github.com/g4stlyx/horizon_line_segmentation"
+      ]
+    },
+    {
+      "lang": "tr",
+      "width": 768,
+      "scroll": 768,
+      "ids": [
+        "furtherup-drive",
+        "reviel",
+        "metek-makina",
+        "tam-finans-fintech",
+        "smart-hospital",
+        "petnest-platform",
+        "atli-logistics",
+        "military-aircraft-classification",
+        "ai-chatbot",
+        "maritime-horizon-segmentation",
+        "arelim-vulnerability-report"
+      ],
+      "detailLinkCount": 8,
+      "liveLinks": [
+        "https://drive.further-up.net",
+        "https://www.reviel.com.tr/",
+        "https://metekmakina.com/urunler",
+        "https://atlidepohizmetleri.com",
+        "https://github.com/g4stlyx/chatbot",
+        "https://github.com/g4stlyx/horizon_line_segmentation"
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "scroll": 768,
+      "ids": [
+        "furtherup-drive",
+        "reviel",
+        "metek-makina",
+        "tam-finans-fintech",
+        "smart-hospital",
+        "petnest-platform",
+        "atli-logistics",
+        "military-aircraft-classification",
+        "ai-chatbot",
+        "maritime-horizon-segmentation",
+        "arelim-vulnerability-report"
+      ],
+      "detailLinkCount": 8,
+      "liveLinks": [
+        "https://drive.further-up.net",
+        "https://www.reviel.com.tr/",
+        "https://metekmakina.com/urunler",
+        "https://atlidepohizmetleri.com",
+        "https://github.com/g4stlyx/chatbot",
+        "https://github.com/g4stlyx/horizon_line_segmentation"
+      ]
+    },
+    {
+      "lang": "de",
+      "width": 768,
+      "scroll": 768,
+      "ids": [
+        "furtherup-drive",
+        "reviel",
+        "metek-makina",
+        "tam-finans-fintech",
+        "smart-hospital",
+        "petnest-platform",
+        "atli-logistics",
+        "military-aircraft-classification",
+        "ai-chatbot",
+        "maritime-horizon-segmentation",
+        "arelim-vulnerability-report"
+      ],
+      "detailLinkCount": 8,
+      "liveLinks": [
+        "https://drive.further-up.net",
+        "https://www.reviel.com.tr/",
+        "https://metekmakina.com/urunler",
+        "https://atlidepohizmetleri.com",
+        "https://github.com/g4stlyx/chatbot",
+        "https://github.com/g4stlyx/horizon_line_segmentation"
+      ]
+    },
+    {
+      "lang": "tr",
+      "width": 390,
+      "scroll": 390,
+      "ids": [
+        "furtherup-drive",
+        "reviel",
+        "metek-makina",
+        "tam-finans-fintech",
+        "smart-hospital",
+        "petnest-platform",
+        "atli-logistics",
+        "military-aircraft-classification",
+        "ai-chatbot",
+        "maritime-horizon-segmentation",
+        "arelim-vulnerability-report"
+      ],
+      "detailLinkCount": 8,
+      "liveLinks": [
+        "https://drive.further-up.net",
+        "https://www.reviel.com.tr/",
+        "https://metekmakina.com/urunler",
+        "https://atlidepohizmetleri.com",
+        "https://github.com/g4stlyx/chatbot",
+        "https://github.com/g4stlyx/horizon_line_segmentation"
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "scroll": 390,
+      "ids": [
+        "furtherup-drive",
+        "reviel",
+        "metek-makina",
+        "tam-finans-fintech",
+        "smart-hospital",
+        "petnest-platform",
+        "atli-logistics",
+        "military-aircraft-classification",
+        "ai-chatbot",
+        "maritime-horizon-segmentation",
+        "arelim-vulnerability-report"
+      ],
+      "detailLinkCount": 8,
+      "liveLinks": [
+        "https://drive.further-up.net",
+        "https://www.reviel.com.tr/",
+        "https://metekmakina.com/urunler",
+        "https://atlidepohizmetleri.com",
+        "https://github.com/g4stlyx/chatbot",
+        "https://github.com/g4stlyx/horizon_line_segmentation"
+      ]
+    },
+    {
+      "lang": "de",
+      "width": 390,
+      "scroll": 390,
+      "ids": [
+        "furtherup-drive",
+        "reviel",
+        "metek-makina",
+        "tam-finans-fintech",
+        "smart-hospital",
+        "petnest-platform",
+        "atli-logistics",
+        "military-aircraft-classification",
+        "ai-chatbot",
+        "maritime-horizon-segmentation",
+        "arelim-vulnerability-report"
+      ],
+      "detailLinkCount": 8,
+      "liveLinks": [
+        "https://drive.further-up.net",
+        "https://www.reviel.com.tr/",
+        "https://metekmakina.com/urunler",
+        "https://atlidepohizmetleri.com",
+        "https://github.com/g4stlyx/chatbot",
+        "https://github.com/g4stlyx/horizon_line_segmentation"
+      ]
+    },
+    {
+      "lang": "tr",
+      "width": 375,
+      "scroll": 375,
+      "ids": [
+        "furtherup-drive",
+        "reviel",
+        "metek-makina",
+        "tam-finans-fintech",
+        "smart-hospital",
+        "petnest-platform",
+        "atli-logistics",
+        "military-aircraft-classification",
+        "ai-chatbot",
+        "maritime-horizon-segmentation",
+        "arelim-vulnerability-report"
+      ],
+      "detailLinkCount": 8,
+      "liveLinks": [
+        "https://drive.further-up.net",
+        "https://www.reviel.com.tr/",
+        "https://metekmakina.com/urunler",
+        "https://atlidepohizmetleri.com",
+        "https://github.com/g4stlyx/chatbot",
+        "https://github.com/g4stlyx/horizon_line_segmentation"
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 375,
+      "scroll": 375,
+      "ids": [
+        "furtherup-drive",
+        "reviel",
+        "metek-makina",
+        "tam-finans-fintech",
+        "smart-hospital",
+        "petnest-platform",
+        "atli-logistics",
+        "military-aircraft-classification",
+        "ai-chatbot",
+        "maritime-horizon-segmentation",
+        "arelim-vulnerability-report"
+      ],
+      "detailLinkCount": 8,
+      "liveLinks": [
+        "https://drive.further-up.net",
+        "https://www.reviel.com.tr/",
+        "https://metekmakina.com/urunler",
+        "https://atlidepohizmetleri.com",
+        "https://github.com/g4stlyx/chatbot",
+        "https://github.com/g4stlyx/horizon_line_segmentation"
+      ]
+    },
+    {
+      "lang": "de",
+      "width": 375,
+      "scroll": 375,
+      "ids": [
+        "furtherup-drive",
+        "reviel",
+        "metek-makina",
+        "tam-finans-fintech",
+        "smart-hospital",
+        "petnest-platform",
+        "atli-logistics",
+        "military-aircraft-classification",
+        "ai-chatbot",
+        "maritime-horizon-segmentation",
+        "arelim-vulnerability-report"
+      ],
+      "detailLinkCount": 8,
+      "liveLinks": [
+        "https://drive.further-up.net",
+        "https://www.reviel.com.tr/",
+        "https://metekmakina.com/urunler",
+        "https://atlidepohizmetleri.com",
+        "https://github.com/g4stlyx/chatbot",
+        "https://github.com/g4stlyx/horizon_line_segmentation"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "width": 1440,
+      "images": [
+        {
+          "alt": "FurtherUp Drive",
+          "src": "http://127.0.0.1:3030/projects/covers/furtherup-drive-cover-640.webp",
+          "naturalWidth": 432,
+          "fit": "contain"
+        },
+        {
+          "alt": "Reviel",
+          "src": "http://127.0.0.1:3030/projects/covers/reviel-cover-640.webp",
+          "naturalWidth": 432,
+          "fit": "contain"
+        },
+        {
+          "alt": "Metek Makina",
+          "src": "http://127.0.0.1:3030/projects/covers/metek-makina-cover-640.webp",
+          "naturalWidth": 432,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "images": [
+        {
+          "alt": "FurtherUp Drive",
+          "src": "http://127.0.0.1:3030/projects/covers/furtherup-drive-cover-640.webp",
+          "naturalWidth": 337,
+          "fit": "contain"
+        },
+        {
+          "alt": "Reviel",
+          "src": "http://127.0.0.1:3030/projects/covers/reviel-cover-640.webp",
+          "naturalWidth": 337,
+          "fit": "contain"
+        },
+        {
+          "alt": "Metek Makina",
+          "src": "http://127.0.0.1:3030/projects/covers/metek-makina-cover-640.webp",
+          "naturalWidth": 337,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "images": [
+        {
+          "alt": "FurtherUp Drive",
+          "src": "http://127.0.0.1:3030/projects/covers/furtherup-drive-cover-640.webp",
+          "naturalWidth": 342,
+          "fit": "contain"
+        },
+        {
+          "alt": "Reviel",
+          "src": "http://127.0.0.1:3030/projects/covers/reviel-cover-640.webp",
+          "naturalWidth": 342,
+          "fit": "contain"
+        },
+        {
+          "alt": "Metek Makina",
+          "src": "http://127.0.0.1:3030/projects/covers/metek-makina-cover-640.webp",
+          "naturalWidth": 342,
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "images": [
+        {
+          "alt": "FurtherUp Drive",
+          "src": "http://127.0.0.1:3030/projects/covers/furtherup-drive-cover-640.webp",
+          "naturalWidth": 327,
+          "fit": "contain"
+        },
+        {
+          "alt": "Reviel",
+          "src": "http://127.0.0.1:3030/projects/covers/reviel-cover-640.webp",
+          "naturalWidth": 327,
+          "fit": "contain"
+        },
+        {
+          "alt": "Metek Makina",
+          "src": "http://127.0.0.1:3030/projects/covers/metek-makina-cover-640.webp",
+          "naturalWidth": 327,
+          "fit": "contain"
+        }
+      ]
+    }
+  ],
+  "regressions": [
+    {
+      "route": "/",
+      "width": 1440,
+      "bodyTextIdentical": true
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 1440,
+      "bodyTextIdentical": true
+    },
+    {
+      "route": "/hizmetler",
+      "width": 1440,
+      "bodyTextIdentical": true
+    },
+    {
+      "route": "/iletisim",
+      "width": 1440,
+      "bodyTextIdentical": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "bodyTextIdentical": true
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 390,
+      "bodyTextIdentical": true
+    },
+    {
+      "route": "/hizmetler",
+      "width": 390,
+      "bodyTextIdentical": true
+    },
+    {
+      "route": "/iletisim",
+      "width": 390,
+      "bodyTextIdentical": true
+    }
+  ],
+  "errors": []
+}

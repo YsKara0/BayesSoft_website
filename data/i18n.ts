@@ -6,7 +6,7 @@ const tr = {
   language: { label: "Dil", names: { tr: "Türkçe", en: "English", de: "Deutsch" } },
   nav: {
     home: "Ana Sayfa",
-    about: "Şirket",
+    about: "Hakkımızda",
     services: "Yetkinlikler",
     team: "Ekip",
     projects: "Çalışmalar",
@@ -117,7 +117,7 @@ const tr = {
 
 const en = {
   language: { label: "Language", names: { tr: "Türkçe", en: "English", de: "Deutsch" } },
-  nav: { home: "Home", about: "Company", services: "Capabilities", team: "Team", projects: "Work", contact: "Contact", menu: "Open or close menu", cta: "Contact" },
+  nav: { home: "Home", about: "About Us", services: "Capabilities", team: "Team", projects: "Work", contact: "Contact", menu: "Open or close menu", cta: "Contact" },
   hero: { eyebrow: "Enterprise software · Mobile products · Artificial intelligence", titleLead: "We turn complex ideas", titleAccent: "into products", titleEnd: "that work.", body: "We design and build secure backends, web dashboards, mobile apps and AI layers as one coherent product system for ambitious organizations.", primary: "Discuss your project", secondary: "Explore services", status: "Systems online", cardTitle: "Product engineering", cardBody: "One team from idea to production, with clear architecture and measurable outcomes.", signals: ["Web, mobile and backend in one team", "Secure, scalable architecture", "AI-powered products and automation"] },
   services: { eyebrow: "Services", title: "We do more than code products. We build complete systems.", intro: "We treat backend, mobile, dashboards, security and AI as connected parts of one product architecture.", more: "All services", items: [
     { title: "Enterprise Software", summary: "We turn operational needs into measurable, secure and maintainable web systems.", outcome: "Delivery: admin dashboard, role-based access, API documentation and a sustainable backend.", points: ["Admin dashboards", "REST API design", "Database architecture"] },
@@ -188,7 +188,7 @@ const en = {
 
 const de = {
   language: { label: "Sprache", names: { tr: "Türkçe", en: "English", de: "Deutsch" } },
-  nav: { home: "Start", about: "Unternehmen", services: "Kompetenzen", team: "Team", projects: "Projekte", contact: "Kontakt", menu: "Menü öffnen oder schließen", cta: "Kontakt" },
+  nav: { home: "Start", about: "Über uns", services: "Kompetenzen", team: "Team", projects: "Projekte", contact: "Kontakt", menu: "Menü öffnen oder schließen", cta: "Kontakt" },
   hero: { eyebrow: "Unternehmenssoftware · Mobile Produkte · Künstliche Intelligenz", titleLead: "Wir machen aus komplexen Ideen", titleAccent: "Produkte", titleEnd: "die funktionieren.", body: "Wir konzipieren und entwickeln sichere Backends, Web-Dashboards, mobile Apps und KI-Komponenten als ein zusammenhängendes Produktsystem.", primary: "Projekt besprechen", secondary: "Leistungen ansehen", status: "Systeme online", cardTitle: "Product Engineering", cardBody: "Ein Team von der Idee bis zur Produktion – mit klarer Architektur und messbaren Ergebnissen.", signals: ["Web, Mobile und Backend aus einem Team", "Sichere, skalierbare Architektur", "KI-gestützte Produkte und Automatisierung"] },
   services: { eyebrow: "Leistungen", title: "Wir programmieren nicht nur Produkte. Wir bauen vollständige Systeme.", intro: "Backend, Mobile, Dashboards, Sicherheit und KI behandeln wir als verbundene Teile einer Produktarchitektur.", more: "Alle Leistungen", items: [
     { title: "Unternehmenssoftware", summary: "Wir verwandeln operative Anforderungen in messbare, sichere und wartbare Websysteme.", outcome: "Lieferumfang: Admin-Dashboard, rollenbasierter Zugriff, API-Dokumentation und nachhaltiges Backend.", points: ["Admin-Dashboards", "REST-API-Design", "Datenbankarchitektur"] },

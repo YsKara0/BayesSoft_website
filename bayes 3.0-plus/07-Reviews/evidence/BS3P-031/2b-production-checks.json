@@ -1,0 +1,71 @@
+{
+  "pages": [
+    {
+      "route": "/hizmetler",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/projeler",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/iletisim",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "route": "/hizmetler",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/projeler",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/iletisim",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "route": "/hizmetler",
+      "width": 375,
+      "status": 200
+    },
+    {
+      "route": "/projeler",
+      "width": 375,
+      "status": 200
+    },
+    {
+      "route": "/iletisim",
+      "width": 375,
+      "status": 200
+    }
+  ],
+  "aliases": [
+    {
+      "route": "/hizmetler.html",
+      "status": 200,
+      "canonical": true,
+      "activeNav": true
+    },
+    {
+      "route": "/projeler.html",
+      "status": 200,
+      "canonical": true,
+      "activeNav": true
+    },
+    {
+      "route": "/iletisim.html",
+      "status": 200,
+      "canonical": true,
+      "activeNav": true
+    }
+  ],
+  "errors": [],
+  "detailRetainsLegacyChrome": true
+}

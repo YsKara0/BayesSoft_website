@@ -378,3 +378,79 @@
 - Kullanıcı mobil referans marquee tasarımını şimdilik görsel olarak onayladı; mevcut uygulama aynen korunur. Bu kapanışta yeni test veya görsel düzenleme yapılmadı.
 - Yalnız030uygulama/Markdown/kanıt kapsamını stage ve denetleme, master üzerinde `feat: improve mobile references marquee` commit’i için açık yetki verdi. Push/deploy yok; kişisel dosyalar/eski kasalar/MOV/harnessler dışarıda.
 - Commit sonrası gerçek SHA handoff’a yazılacak; ayrı ikinci commit yapılmadan bu son kayıtlar yerelde kalır. Sıradaki görev **BS3P-031 — Sitewide Page Inventory & Skeleton Migration**; henüz başlanmadı.
+
+
+## 2026-10-16 — BS3P-030 yerel commit tamamlandı / BS3P-031 handoff
+- Commit `0e4ec3d15072cf78f5b7b3ad060d1d9d1916047c` — `feat: improve mobile references marquee`; master üzerinde22seçili dosya. Commit kapsamı açık allowlist ile eşit; `git diff --cached --check` geçti. Uygulama hashleri değişmedi; yeni test/görsel değişiklik yok.
+- Push/deploy/PR/merge yapılmadı. Kişisel.obsidian/eski kasalar/MOV/ilgisiz harnessler commit dışında korundu.
+- Sıradaki görev **BS3P-031 — Sitewide Page Inventory & Skeleton Migration**; başlatılmadı. Gerçek SHA içeren dört handoff/log dosyası commit sonrasında güncellendi; bu son notlar ikinci commit yapılmadan yerel kalır.
+
+
+## 2026-10-16 — BS3P-031 / Aşama 1 canlı ve yerel envanter
+- [[../04-Development/BS3P-031-SITEWIDE-PAGE-INVENTORY]] tamamlandı; Aşama2 kullanıcı onayı bekler. Master/HEAD0e4ec3d korundu. Açılış yönergeleri ve ilgili kasa kayıtları gerçek kaynaklarla karşılaştırıldı.
+- CanlıGET/sitemap/içanchor taraması:13 canonical HTML/13HTTP200;1yeni12eski. Robots/sitemap200. EkHakkımızda.html200alias ayrı sayfa değil; Hakkımızda trailing slash404.6yerelprototip404; ARELİM detay dışı404/hasDetailsPagefalse. Yerel5sabit+8slug=13 üretim;6page dosyası/6prototip/2metadata endpoint’i. Canlı-yerelcanonical fark0.
+- Chrome’da homepage+4içsayfa+FurtherUpdetay üst görünümü; kaynak/SEO/görselreferans/içlink analizi.13SSR H1/description/canonical mevcut, aynıbelgefragment eksik0. Tam sayfa/mobil/gerçekcihaz/fullQA yok; form/API gönderilmedi. Webaracı ilkfarklıana sayfa çıktısı yerine doğrudanHTTP+Chromedoğrulaması esas alındı; deploySHA HTTP’den kesinleştirilmedi.
+- SmartHospitalTRplaceholder, EN/DEkısadetay/TRmetadata,9liste8detay,modala11y,globalstilsızıntısı/form/export riskleri raporlu. Ortakçerçeve/4sayfa/8detay/5profil için8saatlik iskelet planı; ilk öneri içshell+Hakkımızda pilotu. Yeni rota/içerik/animasyon geliştirilmedi.
+- Yalnız031rapor/07-Reviews/evidence/BS3P-031/kasa kayıtları değişti. Önceden dirty4handoff içerikleri aynen korundu; kaynakdiff kanıtta. Uygulama/CSS/asset/package/config/eski kasalar/userfiles değişmedi. TS/lint/build yok(plan-only); serverbaşlatma/durdurma,staging,commit,push,PR,merge,deploy,branchdeğişimi yok. UzakCI/fetch yapılmadı; master...origin/master ahead/behind göstermiyor.
+
+- Kapanış hedefli belge kontrolü:13canlı/13yerel/8slug/12eski+1yeni/6prototip404 tutarlılığı ve başlangıç dört handoff içeriğinin korunması doğrulandı. Production yollarında Git diff boş; index boş; `git diff --check` geçti. Bunlar uygulama testi değildir.
+
+
+## 2026-10-16 — BS3P-031 Aşama2A / ortak iç shell + Hakkımızda pilotu
+- Kullanıcı açıkuygulama yetkisiylemaster/HEAD0e4ec3dkorundu;yalnızHakkımızda yenilendi. YeniInteriorShell/InteriorIntro/TeamProfiles/scopedCSSModule;SiteChromeopt-inveaboutpagegövdesi.5üye/bio/foto/3dil/link/stats/principles/CTAmetadata korundu. Homepage/3D/prizma/MP4/marquee/galeri/diğersayfa/globalCSS/package/config/veriler aynı.
+- Chromium1440/768/390/375yataytaşma0;finalproduction5profil×4genişlik20açkapageçti:desktop/tabletEnter,mobiltap,Tab/ShiftTabcontainment,Escape/close/focusreturn;devfare/backdropda geçti.3dilH1/bio+savedlocaleveprodreloadpassed.SkipfocusiçinmainTabindex−1eklendi.Alias.htmlusePathnameiçinaçıkopt-in;prodcanonicalvealias200/aynımetadata,sunucuslash404modeli.
+- 4korunanroute1440reducedbodymetineşit/tamPNGpiksel0fark. TS/ilgiliESLint/finalbuildpassed;687file/0prototype.Nodev26.8.2;ilkfontDNSsandboxbuildbaşarısızizinliağlageçti.Testbetiğiheaderstrictselectorveerkenlazycaptureyöntemidüzeltildi;apphatasıdeğil. NativeTabçevrimisourcefixveyenidentestvar.Productionpageerror0.
+- [[../04-Development/BS3P-031-SITEWIDE-PAGE-INVENTORY]]Aşama2A bölümüve031kanıtlarıgüncel.305baselinefiledenyalnız2mevcutappdosyasıdeğişti/diğer303aynı;4yeniinteriorfileeklendi.Öncedendirty4handofftammetnikorundu.Esiharness/.obsidian/arşiv/userfiledokunulmadı.GerçekSafari/iPhone/fullQA/UbuntuCIyok.
+- Kullanıcıgörselonayıbeklenir;dev3030önizlemeaçık,geçicistatik3031testsonukapatılır.Staging/commit/push/PR/merge/deploy/branchdeğişimiyok.Aşama2Bbaşlatılmadı.
+
+- Aşama2A son kapanış: görevde açılan geçici statik3031 sunucusu kapatıldı; dev3030 görsel inceleme için açık bırakıldı. `git diff --check` geçti; master/HEAD ve boş index korundu. Tam Git çıktıları031kanıtklasöründeki `2a-git-status.txt` / `2a-git-diff-stat.txt` dosyalarında.
+
+
+## 2026-10-16 — Aşama 2A navigasyon düzeltmeleri
+
+**Kullanıcı kabulü:** Hakkımızda pilot tasarımı onaylandı. Bu son navigasyon revizyonu görsel onay bekler; master korunur, commit/push yok.
+
+- `data/i18n.ts`: ortak `nav.about` etiketi TR **Hakkımızda**, EN **About Us**, DE **Über uns** oldu. Bu kaynağı kullanan header ve footer bağlantılarında aynı etiket görünür; `/hakkimizda` hedefi değişmedi.
+- `components/homepage/Header.tsx`: ana sayfada mevcut Hakkımızda öğesi bulunmadığı doğrulandı; Hizmetler ile İletişim arasına tek `/hakkimizda` linki eklendi. Desktop ve mobil aynı `NavigationLinks includeAbout` verisini kullanır. Footer bu yardımcıyı varsayılanıyla kullandığından ana sayfa footer listesine yeni öğe eklenmedi. Mevcut diğer linkler ve CSS aynı.
+- `components/interior/interior.module.css`: testte mevcut Almanca mobil H1 kelimesi “Technologieentscheidungen” 342px alanda500px metin genişliğiyle viewport’u büyüttü. Yalnız mevcut mobil `.intro h1` kuralına `overflow-wrap:anywhere` eklendi; başlık metni, font/boyut/boşluk/desktop görünümü aynı. BAYES/ekip/foto/modal kaynakları değişmedi.
+- Chromium 1440/1100/1024/900/390/375px × ana sayfa/Hakkımızda × TR/EN/DE = **36 görünür navigasyon kontrolü geçti**. Her görünür nav’da tek Hakkımızda URL’si, doğru etiket, yinelenmeyen öğeler ve viewport içinde kalan menü/link sınırları doğrulandı. Mobilde hem document.scrollWidth hem innerWidth hedef viewport’u aşmıyor. Ana sayfadaki link tıklanarak Hakkımızda/H1’e ulaşım her genişlikte doğrulandı.
+- TypeScript ve ilgili ESLint geçti; `git diff --check` temiz. Bu küçük revizyonda yeni production build/full QA/gerçek cihaz testi yapılmadı. Önceki Aşama2A build/test sonuçları tarihsel kayıttır.
+- Açılış hash manifestine göre yalnız yukarıdaki üç uygulama dosyası değişti; diğer mevcut app/components/data/lib/public/assets/scripts dosyaları aynı. Hero/marquee/galeri ve onaylanan ekip/modal kodu, kişisel dosyalar, önceki untracked veriler ve dirty handoff geçmişi korundu. Yeni içerik bölümü/başka iç sayfa migration’ı yok.
+- Kanıt: `nav-checks.json`, `nav-protection.json`, `nav-home-1440.png`, `nav-home-390.png`, `nav-about-1440.png`, `nav-about-390.png` — mevcut `07-Reviews/evidence/BS3P-031/` altında. Önizleme: http://localhost:3030/ ve http://localhost:3030/hakkimizda ; mevcut dev sunucusuna dokunulmadı.
+
+
+## 2026-10-16 — BS3P-031 Aşama2B / üç iç sayfa
+- Kullanıcı2A/navkabulüve3sayfa uygulamayetkisiylemaster/HEADaynı. Hizmetler/Projeler/İletişim ortakShell/Intro’ya opt-in;3page+SiteChrome+InteriorShellgüncellendi,InteriorCTA/pages.module.cssyeni. Hakkımızda/ekip/modal/homepage/nav/8detay/veri/metadata/assets/packageaynı.
+- Hizmet4mevcutbaşlık/summary/outcome/points+4statiksüreçadımı/CTA. Proje9kayıt/8gerçekdetaylinki/ARELİMdetaylink0;aynıproblem/summary/impact/teknolojiler/externalURL. İletişimhandlerbyteeşit/aynıPOST-JSON5alan/headers/endpoint/validation/durumlar.
+- Chromium1440/390/375×TR-EN-DE27durumtaşma0;CTA3genişlik/8detayGET200. Mock3POSTyerelde200/500/abort;gerçekmesaj0. Required/email/disabledsending/successreset/errorretain/keyboardpassed. Configerrorruntimezorlanmadı;kodaynı. Metadata/alanDOMeşit.
+- Finalprod9ekran/3.htmlalias200/canonical/tekvisibleactivenav/0pageerror;detaillegacychromeaynı. Home+About1440/390PNGbyteeşit4karşılaştırma.295kaynakmanifest5mevcutdeğişik/290aynı;2yeniinteriorfile. TS/hedeflilint/buildpassed684file0prototype.Node26.8.2;gerçekCI/Safari/iPhone/fullQAyok.
+- Rapor/kanıt/task/karar/loggüncel;önceki4dirtylogtammetinolarakkorundu.Eskiharness/personalfilesdokunulmadı. Mevcut3030devkorundu;geçiciprodserverfinallykapandı. Görselonaybeklenir;Aşama2Cvecommit/push/PR/merge/deploy/branchdeğişimiyok.
+
+
+## 2026-10-16 — BS3P-031 yalnız Projeler vitrin revizyonu
+- Kullanıcı görsel ağırlık istedi;yalnızapp/projeler/page.tsx+yeniprojects.module.css. ProductiongetSelectedProjects/3WebPposterkullanıldı;asset/veri modeli aynı.9eski kayıt+2mevcut ana sayfa kaydı=11benzersiz;FurtherUp birkez.8gerçekdetay,Reviel/Metek/ARELİMsahte link0;eski canlı/kaynakURLkorundu.9problem/etki native açıklamalarda.
+- Chromium1440/768/390/375×TR-EN-DE12durum/taşma0/3posterdecode/8href/9disclosure/klavyedetail geçti. Metadataaynı. Home/About/Hizmetler/İletişim1440/390PNGbyteeşit8karşılaştırma;diğer kaynak hashleri aynı.
+- TS/hedeflilint/buildpassed685file0prototype;prod4ekran/alias/canonical/0pageerror. Gerçekcihaz/Safari/UbuntuCI/fullQA yok. Rapor/kanıt/task/karar/loggüncel;önceki4dirtylogtammetinkorundu.3030devkorundu;testprodserverkapalı.
+- Görselonaybeklenir;master/HEAD/indexaynı. Commit/push/deploy/Aşama2Cyok.Hizmetler/İletişim/Hakkımızda/anasayfa/8detay/userfilesdokunulmadı.
+
+
+## 2026-10-16 — BS3P-031 Aşama2C / sekiz proje detayı
+- Kullanıcı2A/2Biskeletkabulüvevitirinkabulü verdi;vitrininileri görselgelişimi sonraya bırakıldı. YalnızProjectDetailView/SiteChrome+yeniscopedproject-detail.module.css;8gerçekslug/aliasInteriorShell+Intro,yeniproblem/solution/etki/özellik/tech/galeri düzeni. Veriler/metadata/dil/URL/assetler aynı;eksik içerik uydurulmadı.
+- Chromium1440/390/375×8rota×TR-EN-DE72durumtaşma0,eskitext/link/imgkoruma/24listreturn geçti. FurtherUp2imgdecode/prev-next/keyboard/taptarget/reduced geçti.8canonical+8aliasprod200/ninth404/9finalPNG/0pageerror. TS/hedeflilint/buildpassed685file0prototype.Node26.8.2;gerçekcihaz/Safari/UbuntuCI/fullQAyok.
+- Home/About/Services/Projects/Contact1440/3909/10PNGbyteeşit. KatalogdesktopilkFurtherUpposterboş;farkyalnızposteralanı234353pixel. Tekrarda3imgloaded/opacity1;eskiylepikseleşitlikyok368252kanalfarkı;640/1080probe kesin nedenvermedi. Kaynak/assethashaynı,kataloga müdahale yok;farkveölçümsınırı raporlu.
+- SmartHospitalTRproblem/solution/featureplaceholderkorundu;EN/DEözetmevcutdavranış,kalan7projeyeni screenshotyok. Rapor/kanıt/task/karar/loggüncel;önceki4dirtylogtammetinkorundu. Master/HEAD/indexaynı;commit/push/deployyok.3030devkorundu,geçiciprodserverfinallykapandı;görselkabulbeklenir.
+
+
+### BS3P-031 Aşama2D — final QA / yayın öncesi
+Kullanıcı 2A/2B/2C iskeletlerini ve temiz kontroller koşuluyla production yayını onayladı. Kullanıcı talebi gereği `master` üzerinde kalındı; eski workflow branch beklentisi bu görev için uygulanmadı. `git fetch origin master` sonrasında HEAD/origin aynı `0e4ec3d15072cf78f5b7b3ad060d1d9d1916047c`, ayrışma `0 0`.
+
+- Production export üzerinde **13 rota × TR/EN/DE × 1440/390/375 = 117 durum** geçti: tek H1, dil, header etiketi/tekil Hakkımızda erişimi, footer, metadata/canonical ve taşma kontrolü. Bütün görünür yerel görseller decode edildi; JavaScript hatası ve başarısız asset isteği yok.
+- 8 detayın bütün eski dil içerikleri ve bağlantıları karşılaştırıldı; 24 liste→detay→liste turu geçti. Katalogda 9 özgün kayıt korunur; Reviel/Metek ile 11 benzersiz vitrin öğesi, yalnız 8 gerçek detay rotası vardır. Arelim/Reviel/Metek için sahte detay üretilmedi. FurtherUp galerisinde fare/dokunma ve klavye okları geçti.
+- 5 ekip modalı × 3 genişlik = 15 kontrol: açma, Escape/kapama, erişilebilir ad/açıklama, Tab döngüsü ve odağın tetikleyiciye dönüşü geçti. Mobil kontroller touch etkin Chromium'da yapıldı.
+- İletişim: required/e-posta doğrulaması, gönderim kilidi, başarı/reset, HTTP 500/verilerin korunması, ağ hatası ve Tab sırası geçti. **Üç POST tarayıcıda intercept/mock edildi; gerçek mesaj gönderilmedi.** Formun gerçek servis teslimatı bu testin kapsamı değildir.
+- 12 `.html` alias 200; bulunmayan rota, dokuzuncu proje detayı ve prototip rotası 404. robots/sitemap 200. Bunlar statik origin modelinde doğrulandı; canlı sonuç yayın sonrası ayrı kaydedilecek.
+- FurtherUp ilk yükleme: 1440/390/375 için ikişer yeni browser context, network-idle + decode + iki paint frame sonrası **6/6 kapak gerçekten çizildi** (cliplerde 6.947–7.798 renk). Önceki tek boş full-page yakalaması bu koşullarda yeniden üretilemedi. Sebebi kesinleşmiş sayılmadı; katalog/asset/CSS'e rastgele düzeltme yapılmadı. Kullanıcıda yeniden görülürse cold-load/video kanıtıyla ayrı teşhis.
+- Normal motion regression: desktop/mobile hero dört yüz ve yüz seçimi, desktop WebGL scene ready/canvas, ana sayfa galeri ileri/geri geçti. Mobil marquee otomatik ilerleme, native touch swipe ve bekleme sonrası devam geçti. Hero/marquee/galeri/Safari kaynakları, veri/asset/SEO/URL ve bağımlılıklar değişmedi.
+- Node **22.23.3**: `npm run typecheck`, release kaynakları + değişen iç sayfalarda hedefli ESLint, `npm run build`, `npm run verify:production`, `node scripts/check-foundation.mjs`, `node scripts/check-production-access.mjs --production-only` geçti. Export 685 dosya, 0 prototype artifact/dependency. Build Next 15.5.28 ile başarılı.
+- Mevcut foundation kontrolü önce eski `Şirket/Company/Unternehmen` sabiti nedeniyle durdu. Yalnız kullanıcı tarafından onaylanan `Hakkımızda/About Us/Über uns` değerleri açıkça assert edilerek baseline beklentisi güncellendi; diğer bütün legacy metin ve onaylı homepage metin karşılaştırmaları korunuyor. Yeni tasarım değişikliği yok.
+- Gerçek cihaz/Safari testi yapılmadı; Chromium emülasyonu kullanıldı. Smart Hospital TR placeholder'ları, EN/DE mevcut özet detay davranışı, yalnız FurtherUp'ta mevcut iki screenshot ve Projeler vitrininin sonraki görsel polish ihtiyacı korunur.

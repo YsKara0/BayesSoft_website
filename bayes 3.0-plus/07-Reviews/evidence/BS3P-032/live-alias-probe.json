@@ -1,0 +1,42 @@
+[
+  {
+    "route": "/projeler/furtherup-drive.html",
+    "width": 1440,
+    "http": 200,
+    "finalURL": "https://bayessoft.com.tr/projeler/furtherup-drive.html",
+    "lang": "de",
+    "h1": "FurtherUp Drive",
+    "nextError": false,
+    "errors": []
+  },
+  {
+    "route": "/projeler/furtherup-drive",
+    "width": 1440,
+    "http": 200,
+    "finalURL": "https://bayessoft.com.tr/projeler/furtherup-drive",
+    "lang": "de",
+    "h1": "FurtherUp Drive",
+    "nextError": false,
+    "errors": []
+  },
+  {
+    "route": "/projeler/furtherup-drive.html",
+    "width": 390,
+    "http": 200,
+    "finalURL": "https://bayessoft.com.tr/projeler/furtherup-drive.html",
+    "lang": "de",
+    "h1": "FurtherUp Drive",
+    "nextError": false,
+    "errors": []
+  },
+  {
+    "route": "/projeler/furtherup-drive",
+    "width": 390,
+    "http": 200,
+    "finalURL": "https://bayessoft.com.tr/projeler/furtherup-drive",
+    "lang": "de",
+    "h1": "FurtherUp Drive",
+    "nextError": false,
+    "errors": []
+  }
+]

@@ -1,3 +1,17 @@
+# BS3P-032 hızlı yayın talimatı — 2026-10-19
+
+Kullanıcı master üzerinden seçici commit/push ve yalnız Pages workflow takibini yetkilendirdi. Önceki başarılı testler kullanılır; yerel test/canlı kontrol tekrarlanmaz. Canlı görsel/işlev kontrolü kullanıcıda. Bu kayıt commit öncesidir; sonuç son teslimde. Yeni geliştirme ve ikinci dokümantasyon commit’i yok.
+
+## Önceki kayıt
+
+# NEXT STEPS — BS3P-032 inceleme bekliyor
+
+1. Yerel header/footer düzeltmesini ve032rapor/kanıtlarını incele.
+2. Ayrı açık talimat olmadan stage/commit/push/deploy yapma; master üzerinde kal. Canlı site bu düzeltmeyi henüz içermez.
+3. Yeni tasarım veya başka geliştirme başlatma. BS3P-031 içerik/polish riskleri ve kişisel dosyalar korunur.
+
+## Önceki kayıt — tarihsel içerik korunur
+
 # NEXT STEPS — BS3P-031 Aşama 2D tamamlandı
 
 1. Yayınlanan iskelet sürümü için kullanıcı geri bildirimini bekle; yeni geliştirme başlatma.

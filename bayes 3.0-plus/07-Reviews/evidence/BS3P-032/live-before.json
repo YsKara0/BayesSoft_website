@@ -1,0 +1,1628 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/hakkimizda",
+      "status": 200
+    },
+    {
+      "route": "/hizmetler",
+      "status": 200
+    },
+    {
+      "route": "/projeler",
+      "status": 200
+    },
+    {
+      "route": "/iletisim",
+      "status": 200
+    }
+  ],
+  "states": [
+    {
+      "route": "/",
+      "width": 1440,
+      "lang": "tr",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Ana Sayfa",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Projeler",
+          "href": "#selected-projects",
+          "current": null
+        },
+        {
+          "text": "Hizmetler",
+          "href": "#services",
+          "current": null
+        },
+        {
+          "text": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "İletişim",
+          "href": "#contact",
+          "current": null
+        },
+        {
+          "text": "Birlikte çalışalım",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Ana Sayfa",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Projeler",
+          "href": "#selected-projects",
+          "current": null
+        },
+        {
+          "text": "Hizmetler",
+          "href": "#services",
+          "current": null
+        },
+        {
+          "text": "İletişim",
+          "href": "#contact",
+          "current": null
+        },
+        {
+          "text": "GitHub ↗",
+          "href": "https://github.com/bayessoft2024",
+          "current": null
+        },
+        {
+          "text": "LinkedIn ↗",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "X ↗",
+          "href": "https://x.com/bayessoft",
+          "current": null
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "lang": "en",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Home",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Projects",
+          "href": "#selected-projects",
+          "current": null
+        },
+        {
+          "text": "Services",
+          "href": "#services",
+          "current": null
+        },
+        {
+          "text": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "Contact",
+          "href": "#contact",
+          "current": null
+        },
+        {
+          "text": "Let’s work together",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Home",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Projects",
+          "href": "#selected-projects",
+          "current": null
+        },
+        {
+          "text": "Services",
+          "href": "#services",
+          "current": null
+        },
+        {
+          "text": "Contact",
+          "href": "#contact",
+          "current": null
+        },
+        {
+          "text": "GitHub ↗",
+          "href": "https://github.com/bayessoft2024",
+          "current": null
+        },
+        {
+          "text": "LinkedIn ↗",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "X ↗",
+          "href": "https://x.com/bayessoft",
+          "current": null
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "lang": "de",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Startseite",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Projekte",
+          "href": "#selected-projects",
+          "current": null
+        },
+        {
+          "text": "Leistungen",
+          "href": "#services",
+          "current": null
+        },
+        {
+          "text": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "Kontakt",
+          "href": "#contact",
+          "current": null
+        },
+        {
+          "text": "Gemeinsam starten",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Startseite",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Projekte",
+          "href": "#selected-projects",
+          "current": null
+        },
+        {
+          "text": "Leistungen",
+          "href": "#services",
+          "current": null
+        },
+        {
+          "text": "Kontakt",
+          "href": "#contact",
+          "current": null
+        },
+        {
+          "text": "GitHub ↗",
+          "href": "https://github.com/bayessoft2024",
+          "current": null
+        },
+        {
+          "text": "LinkedIn ↗",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "X ↗",
+          "href": "https://x.com/bayessoft",
+          "current": null
+        }
+      ]
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 1440,
+      "lang": "tr",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Çalışmalar",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Yetkinlikler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "text": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "Birlikte çalışalım",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Çalışmalar",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Yetkinlikler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "text": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "Website",
+          "href": "https://bayessoft.com.tr",
+          "current": null
+        }
+      ]
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 1440,
+      "lang": "en",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Work",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Capabilities",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "About Us",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "text": "Contact",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "Let’s work together",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Work",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Capabilities",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "About Us",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "text": "Contact",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "Website",
+          "href": "https://bayessoft.com.tr",
+          "current": null
+        }
+      ]
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 1440,
+      "lang": "de",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Start",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Kompetenzen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "Über uns",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "text": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "Gemeinsam starten",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Start",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Kompetenzen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "Über uns",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "text": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "Website",
+          "href": "https://bayessoft.com.tr",
+          "current": null
+        }
+      ]
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 1440,
+      "lang": "tr",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Çalışmalar",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Yetkinlikler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "Birlikte çalışalım",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Çalışmalar",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Yetkinlikler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "Website",
+          "href": "https://bayessoft.com.tr",
+          "current": null
+        }
+      ]
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 1440,
+      "lang": "en",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Work",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Capabilities",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "Contact",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "Let’s work together",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Work",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Capabilities",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "Contact",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "Website",
+          "href": "https://bayessoft.com.tr",
+          "current": null
+        }
+      ]
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 1440,
+      "lang": "de",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Start",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Kompetenzen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "Gemeinsam starten",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Start",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Kompetenzen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "Website",
+          "href": "https://bayessoft.com.tr",
+          "current": null
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "lang": "tr",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Ana Sayfa",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Projeler",
+          "href": "#selected-projects",
+          "current": null
+        },
+        {
+          "text": "Hizmetler",
+          "href": "#services",
+          "current": null
+        },
+        {
+          "text": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "İletişim",
+          "href": "#contact",
+          "current": null
+        },
+        {
+          "text": "Birlikte çalışalım",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Ana Sayfa",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Projeler",
+          "href": "#selected-projects",
+          "current": null
+        },
+        {
+          "text": "Hizmetler",
+          "href": "#services",
+          "current": null
+        },
+        {
+          "text": "İletişim",
+          "href": "#contact",
+          "current": null
+        },
+        {
+          "text": "GitHub ↗",
+          "href": "https://github.com/bayessoft2024",
+          "current": null
+        },
+        {
+          "text": "LinkedIn ↗",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "X ↗",
+          "href": "https://x.com/bayessoft",
+          "current": null
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "lang": "en",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Home",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Projects",
+          "href": "#selected-projects",
+          "current": null
+        },
+        {
+          "text": "Services",
+          "href": "#services",
+          "current": null
+        },
+        {
+          "text": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "Contact",
+          "href": "#contact",
+          "current": null
+        },
+        {
+          "text": "Let’s work together",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Home",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Projects",
+          "href": "#selected-projects",
+          "current": null
+        },
+        {
+          "text": "Services",
+          "href": "#services",
+          "current": null
+        },
+        {
+          "text": "Contact",
+          "href": "#contact",
+          "current": null
+        },
+        {
+          "text": "GitHub ↗",
+          "href": "https://github.com/bayessoft2024",
+          "current": null
+        },
+        {
+          "text": "LinkedIn ↗",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "X ↗",
+          "href": "https://x.com/bayessoft",
+          "current": null
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "lang": "de",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Startseite",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Projekte",
+          "href": "#selected-projects",
+          "current": null
+        },
+        {
+          "text": "Leistungen",
+          "href": "#services",
+          "current": null
+        },
+        {
+          "text": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "Kontakt",
+          "href": "#contact",
+          "current": null
+        },
+        {
+          "text": "Gemeinsam starten",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Startseite",
+          "href": "#hero",
+          "current": null
+        },
+        {
+          "text": "Projekte",
+          "href": "#selected-projects",
+          "current": null
+        },
+        {
+          "text": "Leistungen",
+          "href": "#services",
+          "current": null
+        },
+        {
+          "text": "Kontakt",
+          "href": "#contact",
+          "current": null
+        },
+        {
+          "text": "GitHub ↗",
+          "href": "https://github.com/bayessoft2024",
+          "current": null
+        },
+        {
+          "text": "LinkedIn ↗",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "X ↗",
+          "href": "https://x.com/bayessoft",
+          "current": null
+        }
+      ]
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 390,
+      "lang": "tr",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Çalışmalar",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Yetkinlikler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "text": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "Birlikte çalışalım",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Çalışmalar",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Yetkinlikler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "text": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "Website",
+          "href": "https://bayessoft.com.tr",
+          "current": null
+        }
+      ]
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 390,
+      "lang": "en",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Work",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Capabilities",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "About Us",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "text": "Contact",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "Let’s work together",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Work",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Capabilities",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "About Us",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "text": "Contact",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "Website",
+          "href": "https://bayessoft.com.tr",
+          "current": null
+        }
+      ]
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 390,
+      "lang": "de",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Start",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Kompetenzen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "Über uns",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "text": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "Gemeinsam starten",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Start",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Kompetenzen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "Über uns",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "text": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "Website",
+          "href": "https://bayessoft.com.tr",
+          "current": null
+        }
+      ]
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 390,
+      "lang": "tr",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Çalışmalar",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Yetkinlikler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "Birlikte çalışalım",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Çalışmalar",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Yetkinlikler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "Website",
+          "href": "https://bayessoft.com.tr",
+          "current": null
+        }
+      ]
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 390,
+      "lang": "en",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Work",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Capabilities",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "Contact",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "Let’s work together",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Work",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Capabilities",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "Contact",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "Website",
+          "href": "https://bayessoft.com.tr",
+          "current": null
+        }
+      ]
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 390,
+      "lang": "de",
+      "header": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Start",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Kompetenzen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "Gemeinsam starten",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "text": "BayesSoft",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "info@bayessoft.com.tr",
+          "href": "mailto:info@bayessoft.com.tr",
+          "current": null
+        },
+        {
+          "text": "Start",
+          "href": "/",
+          "current": null
+        },
+        {
+          "text": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "text": "Kompetenzen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "text": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "text": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://linkedin.com/company/bayessoft",
+          "current": null
+        },
+        {
+          "text": "Website",
+          "href": "https://bayessoft.com.tr",
+          "current": null
+        }
+      ]
+    }
+  ]
+}

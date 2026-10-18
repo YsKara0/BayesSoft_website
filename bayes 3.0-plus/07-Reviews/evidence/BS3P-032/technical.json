@@ -1,0 +1,14 @@
+{
+  "node": "22.23.3",
+  "typecheck": "pass",
+  "targetedLint": "pass",
+  "foundation": "pass",
+  "productionBuild": "pass",
+  "export": {
+    "files": 685,
+    "prototypeArtifacts": 0,
+    "prototypeDependencies": 0
+  },
+  "initialLintIssue": "root logo anchors required next/link; fixed and all checks rerun successfully",
+  "commitPushDeploy": false
+}

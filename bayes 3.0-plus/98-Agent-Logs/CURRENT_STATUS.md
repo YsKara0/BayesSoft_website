@@ -1,3 +1,15 @@
+# BS3P-032 onaylandı — hızlı yayın — 2026-10-19
+
+Kullanıcı master üzerinden seçici commit/push ve yalnız Pages workflow takibini yetkilendirdi. Önceki başarılı testler kullanılır; yerel test/canlı kontrol tekrarlanmaz. Canlı görsel/işlev kontrolü kullanıcıda. Bu kayıt commit öncesidir; sonuç son teslimde. Yeni geliştirme ve ikinci dokümantasyon commit’i yok.
+
+## Önceki kayıt
+
+# CURRENT STATUS — BS3P-032 yerel navigasyon düzeltmesi
+
+BS3P-031 canlı sürümü86e593a korunur. BS3P-032 yerelde hazır ve hedefli QA geçti; yayınlanmadı. Ortak beş gerçek nav rotası, tutarlı TR/EN/DE ve aktif konum; CSS/ana sayfa içerikleri değişmedi. 36durum/130tıklama/8logo/history/menu/TS/lint/foundation/build geçti. Kullanıcı incelemesi/ayrı yayın talimatı bekleniyor.
+
+## Önceki kayıt — tarihsel içerik korunur
+
 # CURRENT STATUS — BS3P-031 Aşama 2D yayınlandı
 
 Onaylanan12içsayfa mevcut homepage ile production’da. Uygulama `c44fa17f723c1a7ccd5adb4d61f97df6914a85f1`; Pages build/deploy success (#38932198707); canlı13rota+12mobil+12alias ve8detaytur geçti. Yerel117durum/15modal/6coldposter/formmock/normalmotion/TS/lint/build/foundation/export/access temiz. Gerçek mesaj gönderilmedi. Uygulama kodu yayın sonrası aynı; yalnız yayın kayıtları kapanıyor. Yeni geliştirme yok.

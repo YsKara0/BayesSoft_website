@@ -1,17 +1,17 @@
 "use client";
 import { useEffect, useRef } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useLanguage } from "@/components/LanguageProvider";
 import { contactHref } from "@/data/config";
+import { navigationLinks, navigationCurrent } from "@/data/navigation";
 import { useHomepageCopy } from "./useHomepageCopy";
-export function NavigationLinks({ includeAbout = false }: { includeAbout?: boolean }) {
+export function NavigationLinks() {
   const t = useHomepageCopy();
   const { copy } = useLanguage();
-  const links = [
-    [t.home, "#hero"], [t.projects, "#selected-projects"], [t.services, "#services"],
-    ...(includeAbout ? [[copy.nav.about, "/hakkimizda"]] : []),
-    [t.contact, "#contact"],
-  ];
-  return <>{links.map(([label, href]) => <a key={href} href={href}>{label}</a>)}</>;
+  const pathname = usePathname();
+  return <>{navigationLinks.map(([key, href]) => <Link key={href} href={href}
+    aria-current={navigationCurrent(pathname, href)}>{key === "about" ? copy.nav.about : t[key]}</Link>)}</>;
 }
 function Languages() {
   const { locale, setLocale } = useLanguage();
@@ -31,10 +31,10 @@ export function Header() {
   return <>
     <a className="skip-link" href="#main-content">{t.skip}</a>
     <header className="prototype-header integrated-header homepage-header">
-      <a className="wordmark" href="#hero" aria-label={t.homeLabel}>BayesSoft</a>
+      <Link className="wordmark" href="/" aria-label={t.homeLabel}>BayesSoft</Link>
       <div className="header-links">
         <nav className="desktop-nav" aria-label={t.navigation}>
-          <NavigationLinks includeAbout />
+          <NavigationLinks />
         </nav>
         <div className="header-actions">
           <Languages />{cta}</div>
@@ -42,7 +42,7 @@ export function Header() {
       <details className="mobile-nav" ref={menu}>
         <summary>{t.menu}</summary>
         <nav aria-label={t.navigation} onClick={e => { if ((e.target as HTMLElement).closest("a")) menu.current!.open = false; }}>
-          <NavigationLinks includeAbout />
+          <NavigationLinks />
           <Languages />{cta}</nav>
       </details>
     </header>

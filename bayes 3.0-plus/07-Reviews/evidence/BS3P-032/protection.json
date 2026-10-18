@@ -1,0 +1,15 @@
+{
+  "baselineSources": 160,
+  "unchangedSources": 157,
+  "changedExistingSources": [
+    "components/homepage/Footer.tsx",
+    "components/homepage/Header.tsx",
+    "components/interior/InteriorShell.tsx"
+  ],
+  "newSource": "data/navigation.ts",
+  "cssChanged": false,
+  "contentAndTranslationDataChanged": false,
+  "siteChromeChanged": false,
+  "gitHead": "86e593a75abc31cbb8179b867f9dceddc84e7203",
+  "stagedFiles": []
+}

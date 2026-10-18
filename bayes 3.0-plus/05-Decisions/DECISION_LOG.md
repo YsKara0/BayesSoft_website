@@ -284,3 +284,9 @@
 - Kullanıcı2A/2B’yi iskelet düzeyinde ve Projeler vitrinini şimdilik kabul etti;vitrinin ileri görsel gelişimi sonraya bırakılır. Yalnız mevcut8proje detayı yeni ortakShell/Intro ile yenilenir;diğer sayfalar/navigasyon/veri/SEO/URL/görseller korunur.
 - MevcutTRuzun/EN-DEözet dönüşümü aynıdır. SmartHospitalplaceholder doldurulmaz;9uncu detay üretilmez. Etki için yalnız mevcutlocalizeProject.impact verisi kullanılır.
 - 2Cgörselkabulbekler;commit/push/deployyetkisiyok. Katalogdesktopilkposter yakalama farkı raporlu;kaynaklar aynı ve sonraki poster yüklenmesi teyitli,kesin neden kanıtlanmadı. Bu görev katalog revizyonuna dönüştürülmez.
+
+
+## D-046 — 2026-10-16 — BS3P-032 sayfa navigasyonu ve bölüm etkileşimlerini ayırma
+- Kullanıcı üst düzey Ana Sayfa/Hakkımızda/Hizmetler/Projeler/İletişim öğelerinin gerçek mevcut sayfalara gitmesini istedi. Homepage header/mobile/footer ve logosunda doğrulanan anchor hedefleri yerelde düzeltildi; bölüm içi CTA/skip/scroll etkileşimleri korunur.
+- Mevcut header/shell bileşenleri kullanılır; key/URL/aktif konum ortak data/navigation.ts kaynağında. Var olan homepage çevirileri ve copy.nav.about, production menülerinde ortak etiket kaynağıdır; çeviri metinleri değişmez. Tam sayfa/alias aria-current page; proje detayı üst Projeler location.
+- CSS/yeni header/yeni paket/görsel tasarım veya içerik revizyonu yok. Master üzerinde yalnız yerel uygulama ve test yetkisi; commit/push/deploy ayrı kullanıcı talimatına bağlıdır.

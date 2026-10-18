@@ -1,0 +1,3332 @@
+{
+  "states": [
+    {
+      "route": "/",
+      "width": 1440,
+      "lang": "tr",
+      "header": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": "page"
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": "page"
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "lang": "en",
+      "header": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": "page"
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": "page"
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "lang": "de",
+      "header": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": "page"
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": "page"
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 1440,
+      "lang": "tr",
+      "header": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 1440,
+      "lang": "en",
+      "header": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 1440,
+      "lang": "de",
+      "header": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/hizmetler",
+      "width": 1440,
+      "lang": "tr",
+      "header": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": "page"
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": "page"
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/hizmetler",
+      "width": 1440,
+      "lang": "en",
+      "header": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": "page"
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": "page"
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/hizmetler",
+      "width": 1440,
+      "lang": "de",
+      "header": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": "page"
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": "page"
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/projeler",
+      "width": 1440,
+      "lang": "tr",
+      "header": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": "page"
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": "page"
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/projeler",
+      "width": 1440,
+      "lang": "en",
+      "header": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": "page"
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": "page"
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/projeler",
+      "width": 1440,
+      "lang": "de",
+      "header": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": "page"
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": "page"
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/iletisim",
+      "width": 1440,
+      "lang": "tr",
+      "header": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": "page"
+        }
+      ],
+      "footer": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": "page"
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/iletisim",
+      "width": 1440,
+      "lang": "en",
+      "header": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": "page"
+        }
+      ],
+      "footer": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": "page"
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/iletisim",
+      "width": 1440,
+      "lang": "de",
+      "header": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": "page"
+        }
+      ],
+      "footer": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": "page"
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 1440,
+      "lang": "tr",
+      "header": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": "location"
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": "location"
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 1440,
+      "lang": "en",
+      "header": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": "location"
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": "location"
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 1440,
+      "lang": "de",
+      "header": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": "location"
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": "location"
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "lang": "tr",
+      "header": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": "page"
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": "page"
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "lang": "en",
+      "header": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": "page"
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": "page"
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "lang": "de",
+      "header": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": "page"
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": "page"
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 390,
+      "lang": "tr",
+      "header": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 390,
+      "lang": "en",
+      "header": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 390,
+      "lang": "de",
+      "header": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": "page"
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/hizmetler",
+      "width": 390,
+      "lang": "tr",
+      "header": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": "page"
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": "page"
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/hizmetler",
+      "width": 390,
+      "lang": "en",
+      "header": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": "page"
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": "page"
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/hizmetler",
+      "width": 390,
+      "lang": "de",
+      "header": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": "page"
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": "page"
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/projeler",
+      "width": 390,
+      "lang": "tr",
+      "header": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": "page"
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": "page"
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/projeler",
+      "width": 390,
+      "lang": "en",
+      "header": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": "page"
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": "page"
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/projeler",
+      "width": 390,
+      "lang": "de",
+      "header": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": "page"
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": "page"
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/iletisim",
+      "width": 390,
+      "lang": "tr",
+      "header": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": "page"
+        }
+      ],
+      "footer": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": "page"
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/iletisim",
+      "width": 390,
+      "lang": "en",
+      "header": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": "page"
+        }
+      ],
+      "footer": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": "page"
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/iletisim",
+      "width": 390,
+      "lang": "de",
+      "header": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": "page"
+        }
+      ],
+      "footer": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": null
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": "page"
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 390,
+      "lang": "tr",
+      "header": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": "location"
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Ana Sayfa",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projeler",
+          "href": "/projeler",
+          "current": "location"
+        },
+        {
+          "label": "Hizmetler",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Hakkımızda",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "İletişim",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 390,
+      "lang": "en",
+      "header": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": "location"
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Home",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projects",
+          "href": "/projeler",
+          "current": "location"
+        },
+        {
+          "label": "Services",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "About Us",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Contact",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/projeler/furtherup-drive",
+      "width": 390,
+      "lang": "de",
+      "header": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": "location"
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "footer": [
+        {
+          "label": "Startseite",
+          "href": "/",
+          "current": null
+        },
+        {
+          "label": "Projekte",
+          "href": "/projeler",
+          "current": "location"
+        },
+        {
+          "label": "Leistungen",
+          "href": "/hizmetler",
+          "current": null
+        },
+        {
+          "label": "Über uns",
+          "href": "/hakkimizda",
+          "current": null
+        },
+        {
+          "label": "Kontakt",
+          "href": "/iletisim",
+          "current": null
+        }
+      ],
+      "overflow": false
+    }
+  ],
+  "clicks": [
+    {
+      "from": "/projeler/furtherup-drive",
+      "surface": "detail-header",
+      "target": "/",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/projeler/furtherup-drive",
+      "surface": "detail-header",
+      "target": "/projeler",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/projeler/furtherup-drive",
+      "surface": "detail-header",
+      "target": "/hizmetler",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/projeler/furtherup-drive",
+      "surface": "detail-header",
+      "target": "/hakkimizda",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/projeler/furtherup-drive",
+      "surface": "detail-header",
+      "target": "/iletisim",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/projeler",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/hizmetler",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/hakkimizda",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/iletisim",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/projeler",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/hizmetler",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/hakkimizda",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/iletisim",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/projeler",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/hizmetler",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/hakkimizda",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/iletisim",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/projeler",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/hizmetler",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/hakkimizda",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/iletisim",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/projeler",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/hizmetler",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/hakkimizda",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/iletisim",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/projeler",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/hizmetler",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/hakkimizda",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/iletisim",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/projeler",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/hizmetler",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/hakkimizda",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/iletisim",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/projeler",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/hizmetler",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/hakkimizda",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/iletisim",
+      "width": 1440,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/projeler",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/hizmetler",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/hakkimizda",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/iletisim",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/projeler",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/hizmetler",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/hakkimizda",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/iletisim",
+      "width": 1440,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/projeler",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/hizmetler",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/hakkimizda",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/iletisim",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/projeler",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/hizmetler",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/hakkimizda",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/iletisim",
+      "width": 1440,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/projeler/furtherup-drive",
+      "surface": "detail-header",
+      "target": "/",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/projeler/furtherup-drive",
+      "surface": "detail-header",
+      "target": "/projeler",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/projeler/furtherup-drive",
+      "surface": "detail-header",
+      "target": "/hizmetler",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/projeler/furtherup-drive",
+      "surface": "detail-header",
+      "target": "/hakkimizda",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/projeler/furtherup-drive",
+      "surface": "detail-header",
+      "target": "/iletisim",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/projeler",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/hizmetler",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/hakkimizda",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/iletisim",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/projeler",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/hizmetler",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/hakkimizda",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/iletisim",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/projeler",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/hizmetler",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/hakkimizda",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/iletisim",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/projeler",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/hizmetler",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/hakkimizda",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/iletisim",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/projeler",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/hizmetler",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/hakkimizda",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "header",
+      "target": "/iletisim",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/projeler",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/hizmetler",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/hakkimizda",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/",
+      "surface": "footer",
+      "target": "/iletisim",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/projeler",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/hizmetler",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/hakkimizda",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/iletisim",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/projeler",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/hizmetler",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/hakkimizda",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/iletisim",
+      "width": 390,
+      "lang": "tr",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/projeler",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/hizmetler",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/hakkimizda",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/iletisim",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/projeler",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/hizmetler",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/hakkimizda",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/iletisim",
+      "width": 390,
+      "lang": "en",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/projeler",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/hizmetler",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/hakkimizda",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "header",
+      "target": "/iletisim",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/projeler",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/hizmetler",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/hakkimizda",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    },
+    {
+      "from": "/hakkimizda",
+      "surface": "footer",
+      "target": "/iletisim",
+      "width": 390,
+      "lang": "de",
+      "realClick": true
+    }
+  ],
+  "history": [
+    {
+      "width": 1440,
+      "reload": true,
+      "back": true,
+      "forward": true,
+      "localePersists": "de"
+    },
+    {
+      "width": 1440,
+      "alias": "/hakkimizda.html",
+      "activeCorrect": true
+    },
+    {
+      "width": 1440,
+      "alias": "/projeler/furtherup-drive.html",
+      "activeCorrect": true
+    },
+    {
+      "width": 390,
+      "reload": true,
+      "back": true,
+      "forward": true,
+      "localePersists": "de"
+    },
+    {
+      "width": 390,
+      "alias": "/hakkimizda.html",
+      "activeCorrect": true
+    },
+    {
+      "width": 390,
+      "alias": "/projeler/furtherup-drive.html",
+      "activeCorrect": true
+    }
+  ],
+  "logos": [
+    {
+      "source": "/",
+      "surface": "header",
+      "width": 1440,
+      "target": "/"
+    },
+    {
+      "source": "/",
+      "surface": "footer",
+      "width": 1440,
+      "target": "/"
+    },
+    {
+      "source": "/hakkimizda",
+      "surface": "header",
+      "width": 1440,
+      "target": "/"
+    },
+    {
+      "source": "/hakkimizda",
+      "surface": "footer",
+      "width": 1440,
+      "target": "/"
+    },
+    {
+      "source": "/",
+      "surface": "header",
+      "width": 390,
+      "target": "/"
+    },
+    {
+      "source": "/",
+      "surface": "footer",
+      "width": 390,
+      "target": "/"
+    },
+    {
+      "source": "/hakkimizda",
+      "surface": "header",
+      "width": 390,
+      "target": "/"
+    },
+    {
+      "source": "/hakkimizda",
+      "surface": "footer",
+      "width": 390,
+      "target": "/"
+    }
+  ],
+  "menus": [
+    {
+      "source": "/",
+      "width": 390,
+      "escape": true,
+      "focusRestore": true,
+      "outside": true,
+      "keyboardToggle": true
+    },
+    {
+      "source": "/hakkimizda",
+      "width": 390,
+      "escape": true,
+      "focusRestore": true,
+      "outside": true,
+      "keyboardToggle": true
+    }
+  ],
+  "errors": [],
+  "screens": [
+    {
+      "route": "/",
+      "width": 1440
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 1440
+    },
+    {
+      "route": "/",
+      "width": 390
+    },
+    {
+      "route": "/hakkimizda",
+      "width": 390
+    }
+  ],
+  "sectionTargetsPreserved": true,
+  "testHarnessNote": "Main matrix/click/history passed. Final outside-click check targeted the homepage sr-only H1 and timed out; only remaining menu/alias/section checks resumed against visible background. No application change. Supplemental server initially omitted decodeURIComponent for encoded [slug] chunk paths; decoding fixed the fixture, no app change. Hidden desktop clone excluded from visible mobile alias count. Remaining checks passed.",
+  "pass": true
+}

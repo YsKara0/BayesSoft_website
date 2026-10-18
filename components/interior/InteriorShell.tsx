@@ -5,12 +5,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLanguage } from "@/components/LanguageProvider";
 import { contactHref, siteConfig } from "@/data/config";
+import { navigationLinks, navigationCurrent } from "@/data/navigation";
 import styles from "./interior.module.css";
-
-const links = [
-  ["home", "/"], ["projects", "/projeler"], ["services", "/hizmetler"],
-  ["about", "/hakkimizda"], ["contact", "/iletisim"],
-] as const;
 
 export function InteriorShell({ children }: { children: ReactNode }) {
   const { copy, locale, setLocale } = useLanguage();
@@ -36,8 +32,8 @@ export function InteriorShell({ children }: { children: ReactNode }) {
     };
   }, []);
 
-  const navigation = links.map(([key, href]) => (
-    <Link key={key} href={href} aria-current={(pathname === href || pathname === `${href}.html`) ? "page" : undefined}>{copy.nav[key]}</Link>
+  const navigation = navigationLinks.map(([key, href]) => (
+    <Link key={key} href={href} aria-current={navigationCurrent(pathname, href)}>{key === "about" ? copy.nav.about : t[key]}</Link>
   ));
   const languages = <div className={styles.languages} role="group" aria-label={copy.language.label}>
     {(["tr", "en", "de"] as const).map(language => <button type="button" key={language} lang={language}

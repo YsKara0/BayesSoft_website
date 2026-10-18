@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { contactHref, siteConfig } from "@/data/config";
 import { socialLinks } from "@/data/site";
 import { NavigationLinks } from "./Header";
@@ -7,7 +8,7 @@ const links = socialLinks.filter(link => ["GitHub", "LinkedIn", "X"].includes(li
 export function Footer() {
   const t = useHomepageCopy(); return <footer className="homepage-footer" aria-label={t.footer}>
     <div className="homepage-footer-brand">
-      <a className="wordmark" href="#hero" aria-label={t.homeLabel}>BayesSoft</a>
+      <Link className="wordmark" href="/" aria-label={t.homeLabel}>BayesSoft</Link>
       <p>{t.footerBrand}</p>
       <a className="homepage-email" href={contactHref}>{siteConfig.contactEmail}</a>
     </div>

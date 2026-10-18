@@ -464,3 +464,14 @@ Kullanıcı 2A/2B/2C iskeletlerini ve temiz kontroller koşuluyla production yay
 - İlk smoke betiğinin son assertion'ı bütün arka plan POST'larını form sanarak durdu; form gönderimi yapılmamıştı. Tekrarda hedef URL'ler ayrıldı: `{'bayessoft.com.tr/cdn-cgi/rum': 60}`. Bütün POST'lar intercept ile engellendi; contact endpoint'ine0istek. Bu bir ürün düzeltmesi değildir; yanlış geniş test assertion'ı düzeltildi.
 - QA/commit/push sonrasında17uygulama/doğrulama dosyasının hash'i aynı. Uygulama koduna tekrar dokunulmadı. Yayın sonrası yalnız bu sonuca ait Markdown kayıtları ayrı seçici commit'e alınır; CI ve canlı smoke JSON/PNG dosyaları yerel031kanıt dizininde korunur.
 - Bilinen sınırlar: SmartHospitalTRplaceholder, EN/DE mevcut özetler, FurtherUp dışı detayların mevcut screenshot eksikleri. Projeler vitrininin ileri görsel polish'i sonraki tura bırakıldı. FurtherUp cold-load boşkapak6/6denemede yeniden üretilemedi; paint bug'ının kök nedeni kesinleşmiş sayılmaz. Safari/gerçekcihazQA ve gerçek iletişim servis teslimatı yapılmadı.
+
+## BS3P-032 — Sitewide Header & Navigation Audit (2026-10-16)
+- Canlıda homepage header/mobile/footer menülerinin4ana öğesi anchor'a gidiyordu; logo da #hero idi. Beş gerçek hedef200 ve18canlı dil/genişlik durumu doğrulandı.
+- Yerel4uygulama kaynağı: homepage Header/Footer + InteriorShell ve yeni data/navigation.ts. Ortak5pageURL/etiket kaynağı, homepage footer Hakkımızda, logo `/`, doğru page/location aktif semantiği. CSS/SiteChrome/içerik/i18n/hero/marquee/galeri/modal/asset/bağımlılık değişmedi;157diğer kaynak byte aynı.
+- Production Chromium1440/390×3dil×6sayfa36durum,130gerçektıklama,8logo,history/reload/dil/alias/menu/taşma/0JSerror geçti. TS/hedeflilint/foundation/build geçti;685export/0prototype. İlk Link lint uyarısı doğru Next Link ile giderildi; kural kapatılmadı.
+- #main-content skip ve bölüm id/CTA/scroll davranışları korunur; yalnız üst düzey menü anchor'ları gerçek sayfalara geçti. Gerçekcihaz/Safari/genişişlevQA tekrarlanmadı.
+- Master/HEAD86e593a ve boş index aynı; commit/push/deploy yok. Kullanıcı incelemesi ve ayrı yayın talimatı bekleniyor. Ayrıntı:[[../04-Development/BS3P-032-SITEWIDE-NAVIGATION-AUDIT]]. Önceki kayıtlar ve kişisel untracked korunur;3030devserver kapatılmadı, geçici QAserver kapandı.
+
+
+## 2026-10-19 — BS3P-032 hızlı yayın onayı
+Kullanıcı navigasyon düzeltmelerini ve master üzerinden commit/push/Pages yayınını onayladı. Önceki başarılı QA/TS/lint/build sonuçları kullanılır; bu oturumda test, tarayıcı veya canlı ziyaret yok. Bu not commit öncesidir; kesin SHA ve workflow sonucu son teslimde bildirilir. Kullanıcı canlı görsel/işlev doğrulamasını kendisi yapacak; ikinci dokümantasyon commit’i yok.

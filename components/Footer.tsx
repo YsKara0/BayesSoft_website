@@ -9,7 +9,6 @@ import { useLanguage } from "@/components/LanguageProvider";
 
 const footerSocialLinks = [
   { label: "LinkedIn", href: siteConfig.linkedinUrl, icon: "linkedin" as const },
-  { label: "Website", href: siteConfig.siteUrl, icon: "website" as const },
 ];
 
 const footerLinks = [

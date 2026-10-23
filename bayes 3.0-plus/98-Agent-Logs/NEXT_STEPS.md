@@ -1,3 +1,39 @@
+# BS3P-033/034 — yetkili push — 2026-10-23
+
+Yalnız5uygulama dosyası ve6ilgili Markdown kaydını seçici stage/commit et; staged diff kontrolünden sonra origin master pushla. Push uzak SHA ile doğrulanır. Mevcut Pages otomatik tetiklenir; CI doğrulanmadan yayın başarılı deme. Yeni geliştirme yok.
+
+## Önceki kayıtlar
+
+# BS3P-034 — yerel değerlendirme — 2026-10-23
+
+localhost:3030/hakkimizda üzerinden istatistik şeridinin kaldırılmasını ve footerı değerlendir.033hizmet değerlendirmesi açık; süreç özgün halindedir. Ayrı talimat olmadan yeni geliştirme/commit/push/deploy yok.
+
+## Önceki kayıtlar
+
+# BS3P-033 — hizmet değerlendirmesi — 2026-10-23
+
+localhost:3030/hizmetler: süreç özgün görünümünde, hizmetler ikinci denemede. Kullanıcı geri bildirimini bekle; ayrı talimat olmadan yeni tasarım/commit/push/deploy yapma.
+
+## Önceki kayıtlar
+
+# BS3P-033 — ikinci yönü değerlendir — 2026-10-23
+
+localhost:3030/hizmetler ikinci yönü incele. İlk deneme reddedildi; ikinci yön görsel onaylı sayılmaz. Tarayıcı erişimi düzeldiğinde desktop/mobil hedefli kontrol tamamlanabilir. Geri alma istenirse başlangıç sayfa yedeğiyle yalnız033denemesini geri al; commit/push/deploy yetkisi yok.
+
+## Önceki kayıtlar
+
+# BS3P-033 — görsel değerlendirme — 2026-10-23
+
+http://localhost:3030/hizmetler üzerinden denemeyi değerlendir. Kullanıcı isterse yalnız033değişikliğini saklanan sayfa yedeğiyle geri al. Ayrı talimat olmadan yeni geliştirme/commit/push/deploy yok.
+
+## Önceki kayıtlar
+
+# BS3P-033 — sonraki adım — 2026-10-23
+
+Kullanıcı tasarım yönünü değerlendirir. Uygulama talebi gelmeden production kodu değiştirilmez; öneri kabul edilmiş karar değildir.
+
+## Önceki kayıtlar
+
 # BS3P-032 hızlı yayın talimatı — 2026-10-19
 
 Kullanıcı master üzerinden seçici commit/push ve yalnız Pages workflow takibini yetkilendirdi. Önceki başarılı testler kullanılır; yerel test/canlı kontrol tekrarlanmaz. Canlı görsel/işlev kontrolü kullanıcıda. Bu kayıt commit öncesidir; sonuç son teslimde. Yeni geliştirme ve ikinci dokümantasyon commit’i yok.

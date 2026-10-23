@@ -3,6 +3,7 @@
 import { InteriorIntro } from "@/components/interior/InteriorIntro";
 import { InteriorCTA } from "@/components/interior/InteriorCTA";
 import { useLanguage } from "@/components/LanguageProvider";
+import cards from "@/components/interior/services-cards.module.css";
 import styles from "@/components/interior/pages.module.css";
 
 export default function ServicesPage() {
@@ -15,11 +16,11 @@ export default function ServicesPage() {
         <p className={styles.eyebrow}>{copy.services.eyebrow}</p>
         <div><h2 id="services-title">{copy.services.title}</h2><p>{copy.services.intro}</p></div>
       </div>
-      <div className={styles.serviceList}>{copy.services.items.map(service => <article key={service.title} className={styles.service}>
+      <div className={cards.serviceList}>{copy.services.items.map(service => <article key={service.title} className={cards.service}>
         <h3>{service.title}</h3>
-        <div><p className={styles.serviceSummary}>{service.summary}</p>
-          <p className={styles.outcome}>{service.outcome}</p>
-          <ul className={styles.servicePoints}>{service.points.map(point => <li key={point}>{point}</li>)}</ul>
+        <div><p className={cards.serviceSummary}>{service.summary}</p>
+          <p className={cards.outcome}>{service.outcome}</p>
+          <ul className={cards.servicePoints}>{service.points.map(point => <li key={point}>{point}</li>)}</ul>
         </div>
       </article>)}</div>
     </section>

@@ -1,3 +1,39 @@
+# BS3P-033/034 — push yetkili, preflight geçti — 2026-10-23
+
+Kullanıcı mevcut yerel sonucu kabul edip GitHub push istedi. Fetch sonrası master/origin253fe1a aynı; TS/lint/build/export685dosya0prototype geçti. Seçici commit/push hazırlanıyor; bu kayıt commit öncesidir, kesin sonuç son teslimde. Kişisel dosyalar/yedekler hariç.
+
+## Önceki kayıtlar
+
+# BS3P-034 — istenen öğeler kaldırıldı — 2026-10-23
+
+Hakkımızda09/05/04istatistik şeridi ve ortak iç/legacyfooter Website bağlantısı yerelde kaldırıldı.3kaynak/5satır silme; hedefli lint/diffcheck geçti.033hizmetler ve özgün süreç görünümü korunur. Commit/push/deploy yok.
+
+## Önceki kayıtlar
+
+# BS3P-033 — süreç özgün haline döndü — 2026-10-23
+
+Kullanıcı talebiyle yalnız Nasıl çalışıyoruz başlangıç markup/stillerine döndü; yedekle birebir eşitlik kontrol edildi. Hizmetlerin ikinci yönü korunur. Diffcheck geçti; yeni tarayıcı/test turu yok. Commit/push/deploy yok.
+
+## Önceki kayıtlar
+
+# BS3P-033 — ikinci deneme hazır — 2026-10-23
+
+İlk ikonlu kart denemesi kullanıcı tarafından reddedildi. İkinci yön: açık hizmet panelleri + tek mavi süreç yüzeyi. TS/lint/diffcheck geçti; tarayıcı kontrol sorunu nedeniyle yeni görsel QA tamamlanmadı. Yerel önizleme ve başlangıç yedeği mevcut; kullanıcı değerlendirmesi beklenir. Yayın yok.
+
+## Önceki kayıtlar
+
+# BS3P-033 — yerel deneme hazır — 2026-10-23
+
+Kullanıcı talebiyle /hizmetler 2×2 hizmet kartları + bağlantılı süreç kartlarına geçti. Desktop/mobil görsel kontrol, TypeScript ve hedefli ESLint geçti. Görsel kullanıcı kabulü bekleniyor. Yedek mevcut; master ve localhost:3030 korunur. Commit/push/deploy yok.
+
+## Önceki kayıtlar
+
+# BS3P-033 — tasarım önerisi tamamlandı — 2026-10-23
+
+Hizmet/süreç için 2×2 geniş hizmet kartları + kompakt bağlantılı süreç kartları önerildi. Kaynak incelemesi yapıldı; tarayıcı/test ve uygulama yok. Master ve mevcut kullanıcı dosyaları korundu.
+
+## Önceki kayıtlar
+
 # BS3P-032 onaylandı — hızlı yayın — 2026-10-19
 
 Kullanıcı master üzerinden seçici commit/push ve yalnız Pages workflow takibini yetkilendirdi. Önceki başarılı testler kullanılır; yerel test/canlı kontrol tekrarlanmaz. Canlı görsel/işlev kontrolü kullanıcıda. Bu kayıt commit öncesidir; sonuç son teslimde. Yeni geliştirme ve ikinci dokümantasyon commit’i yok.

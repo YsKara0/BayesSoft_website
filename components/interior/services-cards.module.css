@@ -1,0 +1,44 @@
+/* BS3P-033: open service panels; process uses its original shared styles. */
+.serviceList {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 64px;
+  row-gap: 56px;
+  margin-top: 64px;
+}
+.service { display: flex; flex-direction: column; padding: 32px 0 0; border-top: 2px solid var(--interior-ink); }
+.service h3 {
+  max-width: 20ch;
+  min-height: 2.3em;
+  font-size: clamp(30px, 3.1vw, 44px);
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -.04em;
+  text-wrap: balance;
+}
+.service > div { display: flex; flex: 1; flex-direction: column; }
+.serviceSummary { max-width: 52ch; margin-top: 28px !important; font-size: 19px; line-height: 1.65; }
+.outcome { max-width: 58ch; margin-top: 20px !important; margin-bottom: 32px !important; color: var(--interior-muted); font-size: 16px; line-height: 1.7; }
+.servicePoints {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  padding: 20px 0 0;
+  margin: auto 0 0;
+  border-top: 1px solid var(--interior-line);
+  color: var(--interior-muted);
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.6;
+}
+@media (max-width: 1099px) {
+  .serviceList { column-gap: 40px; }
+}
+@media (max-width: 699px) {
+  .serviceList { grid-template-columns: 1fr; row-gap: 40px; margin-top: 36px; }
+  .service { padding-top: 24px; }
+  .service h3 { min-height: 0; max-width: 19ch; font-size: 34px; }
+  .serviceSummary { margin-top: 24px !important; font-size: 18px; }
+  .outcome { margin-bottom: 24px !important; }
+  .servicePoints { gap: 8px 20px; }
+}

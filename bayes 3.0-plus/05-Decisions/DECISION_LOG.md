@@ -290,3 +290,24 @@
 - Kullanıcı üst düzey Ana Sayfa/Hakkımızda/Hizmetler/Projeler/İletişim öğelerinin gerçek mevcut sayfalara gitmesini istedi. Homepage header/mobile/footer ve logosunda doğrulanan anchor hedefleri yerelde düzeltildi; bölüm içi CTA/skip/scroll etkileşimleri korunur.
 - Mevcut header/shell bileşenleri kullanılır; key/URL/aktif konum ortak data/navigation.ts kaynağında. Var olan homepage çevirileri ve copy.nav.about, production menülerinde ortak etiket kaynağıdır; çeviri metinleri değişmez. Tam sayfa/alias aria-current page; proje detayı üst Projeler location.
 - CSS/yeni header/yeni paket/görsel tasarım veya içerik revizyonu yok. Master üzerinde yalnız yerel uygulama ve test yetkisi; commit/push/deploy ayrı kullanıcı talimatına bağlıdır.
+
+
+## D-047 — 2026-10-23 — BS3P-033 geri alınabilir yerel kart denemesi
+- Kullanıcı hizmetler/süreç kart önerisini denemeyi açıkça yetkilendirdi; beğenmezse geri alma beklentisini belirtti. Bu, yerel uygulama iznidir; görsel kabul veya commit/push/deploy izni değildir.
+- Yalnız /hizmetler ve ayrı CSSModule; önceki sayfa yedeği tutulur, ortak stiller korunur. Master üzerinde branch/index değiştirilmeden çalışıldı.
+
+
+## D-048 — 2026-10-23 — BS3P-033 ilk deneme reddi
+- Kullanıcı ikonlu/yuvarlatılmış ilk kart denemesini reddetti ve farklı yerel yön istedi. İkinci yön uygulaması yetkili; görsel kabul/yayın yetkisi değildir. İlk yön tekrar kabul edilmiş tasarım olarak kullanılmaz.
+
+
+## D-049 — 2026-10-23 — yalnız süreç geri alma
+- Kullanıcı Nasıl çalışıyoruz bölümünün tüm033denemelerinden önceki haline dönmesini istedi. Yalnız süreç geri alındı; hizmetlerin mevcut ikinci yönü korunur. Yayın yetkisi verilmedi.
+
+
+## D-050 — 2026-10-23 — BS3P-034 içerik kaldırma talebi
+- Kullanıcı Hakkımızda09/05/04istatistik şeridi ve footer Website bağlantısını kaldırmayı açıkça istedi. İlgili yerel render öğeleri kaldırıldı; veri/çeviri kaynakları ve LinkedIn korundu. Commit/push/deploy yetkisi yok.
+
+
+## D-051 — 2026-10-23 — 033/034 seçici commit/push onayı
+- Kullanıcı mevcut sonucu kabul ederek GitHub push istedi. Mevcut033hizmet yönü/özgün süreç ve034istatistik-footer kaldırmaları ilgili kayıtlarla master üzerinden commit/push edilir. Mevcut Pages workflow otomatik tetiklenir. Kişisel untracked/deneme yedekleri kapsam dışıdır.

@@ -67,7 +67,6 @@ export function InteriorShell({ children }: { children: ReactNode }) {
       <nav aria-label={t.navigation}><h2>{t.footerLinks}</h2>{navigation}</nav>
       <nav aria-label={t.footerSocial}><h2>{t.footerSocial}</h2>
         <a href={siteConfig.linkedinUrl} aria-label="BayesSoft LinkedIn">LinkedIn</a>
-        <a href={siteConfig.siteUrl} aria-label="BayesSoft Website">Website</a>
       </nav>
       <p className={styles.copyright}>© {new Date().getFullYear()} BayesSoft. {copy.footer.rights}</p>
     </footer>

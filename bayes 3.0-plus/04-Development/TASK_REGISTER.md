@@ -226,3 +226,10 @@ Durumlar: `planned` · `in-progress` · `blocked` · `completed` · `deferred` �
 | BS3P-031 | Sitewide Page Inventory & Skeleton Migration | completed — approved skeleton released; final QA and live smoke passed | [[BS3P-031-SITEWIDE-PAGE-INVENTORY]];app c44fa17/105files;Pages38932198707build+deploysuccess;live13routes+12mobile+12aliases/8roundtrips;local117states/15modals/6coldposter/TS-lint-build-foundation-export-accesspassed. SmartHospital/content/catalogpolishdeferred |
 
 | BS3P-032 | Sitewide Header & Navigation Audit | completed — user approved; fast release authorized 2026-10-19 | [[BS3P-032-SITEWIDE-NAVIGATION-AUDIT]];5live targets200/18live states;36local states/130clicks/8logos/history/menu/TS-lint-foundation-buildpassed;3existingnavsources+shareddata;noCSS/content/release |
+
+| BS3P-033 | Hizmetler / Nasıl Çalışıyoruz kart denemesi | implemented — visual acceptance pending | 2026-10-23; süreç kullanıcı talebiyle özgün haline döndü/yedek eşitliği ve diffcheck geçti; hizmetlerde ikinci açık panel yönü korunur, görsel kabul bekler; yayın yok |
+
+| BS3P-034 | Hakkımızda istatistik şeridi ve footer Website kaldırma | completed locally | 2026-10-23; kullanıcı ekran görüntüsü talebi;3kaynak/5satır silme, hedefli lint/diffcheck geçti; yayın yok |
+
+### 2026-10-23 — 033/034 yayın takibi
+Kullanıcı mevcut sonucu kabul edip seçici commit/push istedi. TS/lint/build/export geçti; commit/push sonucu henüz bekleniyor. Önceki kullanıcı kabulü bekleyen ifadeler tarihsel kayıttır.

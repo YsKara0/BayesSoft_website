@@ -475,3 +475,44 @@ Kullanıcı 2A/2B/2C iskeletlerini ve temiz kontroller koşuluyla production yay
 
 ## 2026-10-19 — BS3P-032 hızlı yayın onayı
 Kullanıcı navigasyon düzeltmelerini ve master üzerinden commit/push/Pages yayınını onayladı. Önceki başarılı QA/TS/lint/build sonuçları kullanılır; bu oturumda test, tarayıcı veya canlı ziyaret yok. Bu not commit öncesidir; kesin SHA ve workflow sonucu son teslimde bildirilir. Kullanıcı canlı görsel/işlev doğrulamasını kendisi yapacak; ikinci dokümantasyon commit’i yok.
+
+
+## 2026-10-23 — BS3P-033 hizmet/süreç kart düzeni önerisi
+- Kullanıcı iki bölüm için kart düzeni ve ardışık tekrarın azaltılmasına yönelik görüş istedi; yalnız öneri, uygulama onayı yok.
+- Gerçek kaynak: app/hizmetler/page.tsx ve components/interior/pages.module.css. Hizmetler yatay satırlar; süreç desktop dört sütun, mobil iki sütun ve üst çizgili adımlar. Tarayıcı görsel incelemesi/test yapılmadı.
+- Öneri: hizmetlerde geniş 2×2 kartlar; süreçte daha kompakt, 01–04 bağlantılı yatay kart akışı ve hafif farklı bölüm zemini. Mobilde hizmetler tek sütun, süreç dikey bağlantılı kompakt kartlar. Henüz kabul edilmiş tasarım kararı değildir.
+- Branch master; rehberin feature beklentisi ile farklılık raporlandı, branch değiştirilmedi. Başlangıçta tracked değişiklik yok, mevcut untracked çalışmalar korundu. Production/Git index/commit/push/deploy değişikliği yok.
+
+
+## 2026-10-23 — BS3P-033 yerel kart denemesi
+- Kullanıcı öneriyi denemeyi açıkça istedi; beğenmezse geri alma beklentisi var. Yalnız /hizmetler uygulandı; görsel kabul/yayın yetkisi yok.
+- app/hizmetler/page.tsx ve yeni components/interior/services-cards.module.css: 2×2 beyaz hizmet kartları/mevcut lucide ikonları; farklı zemin üzerinde 4 bağlantılı süreç kartı. 1099px altında süreç dikey, 699px altında hizmetler tek sütun. Statik kartlar; yeni motion/etkileşim yok.
+- Önceki sayfa evidence/BS3P-033/services-page.before.tsx dosyasında saklandı; ortak pages.module.css değişmedi. Geri alma: yalnız sayfa dosyasını bu yedekten geri yükle; yeni CSS importu kalkınca deneme devre dışı kalır. Başka kullanıcı değişikliği varsa önce karşılaştır.
+- npm run typecheck, hedefli ESLint ve git diff --check geçti. Native Chrome yerel desktop: iki hizmet sütunu ve 4 yatay süreç kartı; mobil 400px hizmet kartı ve 390px dikey süreç akışı görsel incelendi. Mobil metinler okunur/bağlantı çizgileri görünür. Tam QA/build/Safari/gerçek cihaz ve EN-DE tarayıcı turu yapılmadı; çeviri/veri/metadata dosyaları değişmedi.
+- Master korundu; commit/push/deploy yok. localhost:3030/hizmetler dev önizlemesi açık. Kaynak kapsamı iki dosya; homepage/hero/prizma/video/diğer sayfalar ve önceki kullanıcı dosyaları korunur.
+
+
+## 2026-10-23 — BS3P-033 ikinci tasarım yönü
+- Kullanıcı ilk denemeyi “çok ai slop” olarak reddetti ve farklı yol istedi. İlk deneme kullanıcı kabulü almadı; rejected-v1 TSX/CSS yedekleri033kanıt dizininde saklandı. Başlangıç öncesi sayfa yedeği de korunur.
+- Aynı iki kaynakta ikinci yön uygulandı: ikonsuz/rozetsiz, açık 2×2 hizmet panelleri, büyük başlıklar ve düz yetkinlik listeleri; süreçte mevcut marka mavisiyle tek yüzey ve dört ayrılmış numaralı hücre. Tablet2×2/mobil tek sütun süreç; ana sayfa ve ortak stiller değişmedi.
+- TypeScript/hedefli ESLint/diffcheck geçti. Dev sunucusu yeni modülleri derledi ve /hizmetler200 döndü. CUA eski üst bölüm görüntüsünde kaldı, bir scroll isteği noWindowsAvailable verdi; pencereyi tekrar seçme/Raise da görünümü değiştirmedi. Bu nedenle ikinci tasarımın desktop/mobil görsel QA'sı tamamlanmadı; önceki denemenin QA'sı bu tasarıma atfedilmez. Build/fullQA/yayın yok.
+- Önizleme localhost:3030/hizmetler açık; master/index korunur, commit/push/deploy yok. Kullanıcı görsel değerlendirmesi beklenir.
+
+
+## 2026-10-23 — BS3P-033 yalnız süreç geri alındı
+- Kullanıcı Nasıl çalışıyoruz bölümünü en baştaki haline döndürmeyi istedi. Sayfa process/processSteps/stepNumber referansları özgün pages.module.css sınıflarına döndü; deneme CSS'indeki kullanılmayan süreç kuralları kaldırıldı. Hizmetlerin ikinci yönü korundu.
+- Süreç section markup'ı services-page.before.tsx yedeğiyle birebir eşit; hizmet section markup'ı bu işlem öncesiyle birebir eşit. git diff --check geçti. Ortak CSS değişmedi. Yeni tarayıcı/TS/lint/build veya geniş QA yapılmadı; önceki QA bu geri alma için tekrar yapılmış sayılmaz.
+- Master korundu; commit/push/deploy yok. Kullanıcının hizmet değerlendirmesi beklenir.
+
+
+## 2026-10-23 — BS3P-034 istatistik şeridi ve footer Website kaldırma
+- Kullanıcı ekran görüntüsündeki09/05/04istatistik şeridini ve footer Website bağlantısını kaldırmayı açıkça istedi. app/hakkimizda/page.tsx stats section kaldırıldı; components/interior/InteriorShell.tsx ve eski components/Footer.tsx Website öğeleri kaldırıldı. Ana sayfanın mevcut footer filtresi zaten Website göstermiyor; ona dokunulmadı.
+- Yalnız3kaynakta5satır silindi; LinkedIn, ekip, navigasyon, çeviri/veri/SEO ve033hizmet/süreç durumu korundu. Ortak iç footer değişikliği TR/EN/DE için geçerli.
+- Hedefli ESLint ve git diff --check geçti. Yeni tarayıcı/TS/build/geniş QA yapılmadı. Master ve mevcut kullanıcı dosyaları korundu; commit/push/deploy yok.
+
+
+## 2026-10-23 — BS3P-033/034 GitHub push onayı ve preflight
+- Kullanıcı mevcut sonucu beğendiğini belirterek GitHub push istedi; mevcut yerel033hizmet düzeni/özgün süreç ve034kaldırmalar için seçici commit/push yetkilendirildi. Master push mevcut Pages workflow'unu otomatik tetikler.
+- Fetch sonrası HEAD/origin-master253fe1a, ahead/behind0/0; boş index. Beş uygulama dosyası ve ilgili altı Markdown kaydı seçilir; kişisel untracked/artifact/yedekler dahil edilmez.
+- TypeScript/hedefli ESLint/diffcheck geçti. İlk build font DNS sandbox sınırında durdu; izinli ağla tekrar production build ve export doğrulaması geçti:685dosya,0prototype artifact/dependency. Yeni tarayıcı/gerçek cihaz/geniş QA yapılmadı; ikinci yön görsel QA sınırı önceki kayıtlardadır.
+- Bu kayıt commit öncesidir; push/CI/deploy henüz tamamlandı sayılmaz. Sonuç final teslimde bildirilir.

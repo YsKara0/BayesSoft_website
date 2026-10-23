@@ -22,9 +22,6 @@ export default function AboutPage() {
         <h3>{principle.title}</h3><p>{principle.text}</p>
       </article>)}</div>
     </section>
-    <section className={styles.stats}>
-      {copy.stats.map(stat => <div key={stat.label}><p className={styles.statValue}>{stat.value}</p><p>{stat.label}</p></div>)}
-    </section>
     <TeamProfiles />
     <section className={styles.cta} aria-labelledby="cta-title">
       <p className={styles.eyebrow}>{copy.cta.eyebrow}</p>

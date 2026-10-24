@@ -1,0 +1,230 @@
+{
+  "matrix": [
+    {
+      "width": 320,
+      "lang": "tr",
+      "heroes": 1,
+      "mobileHeroes": 1,
+      "oldPrisms": 0,
+      "oldScenes": 0,
+      "overflow": false,
+      "headlines": [
+        "Dijitalde güçlü bir\ndeneyim.",
+        "Her yerde çalışan\nçözümler.",
+        "Veriden akıllı\nkararlara.",
+        "İşinize göre\nyazılım."
+      ],
+      "stage": "custom"
+    },
+    {
+      "width": 375,
+      "lang": "tr",
+      "heroes": 1,
+      "mobileHeroes": 1,
+      "oldPrisms": 0,
+      "oldScenes": 0,
+      "overflow": false,
+      "headlines": [
+        "Dijitalde güçlü bir\ndeneyim.",
+        "Her yerde çalışan\nçözümler.",
+        "Veriden akıllı\nkararlara.",
+        "İşinize göre\nyazılım."
+      ],
+      "stage": "custom"
+    },
+    {
+      "width": 390,
+      "lang": "tr",
+      "heroes": 1,
+      "mobileHeroes": 1,
+      "oldPrisms": 0,
+      "oldScenes": 0,
+      "overflow": false,
+      "headlines": [
+        "Dijitalde güçlü bir\ndeneyim.",
+        "Her yerde çalışan\nçözümler.",
+        "Veriden akıllı\nkararlara.",
+        "İşinize göre\nyazılım."
+      ],
+      "stage": "custom"
+    },
+    {
+      "width": 430,
+      "lang": "tr",
+      "heroes": 1,
+      "mobileHeroes": 1,
+      "oldPrisms": 0,
+      "oldScenes": 0,
+      "overflow": false,
+      "headlines": [
+        "Dijitalde güçlü bir\ndeneyim.",
+        "Her yerde çalışan\nçözümler.",
+        "Veriden akıllı\nkararlara.",
+        "İşinize göre\nyazılım."
+      ],
+      "stage": "custom"
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "heroes": 1,
+      "mobileHeroes": 1,
+      "oldPrisms": 0,
+      "oldScenes": 0,
+      "overflow": false,
+      "headlines": [
+        "A stronger digital\nexperience.",
+        "Solutions that work\nanywhere.",
+        "Turn data into\nsmart decisions.",
+        "Software for\nyour business."
+      ],
+      "stage": "custom"
+    },
+    {
+      "width": 375,
+      "lang": "en",
+      "heroes": 1,
+      "mobileHeroes": 1,
+      "oldPrisms": 0,
+      "oldScenes": 0,
+      "overflow": false,
+      "headlines": [
+        "A stronger digital\nexperience.",
+        "Solutions that work\nanywhere.",
+        "Turn data into\nsmart decisions.",
+        "Software for\nyour business."
+      ],
+      "stage": "custom"
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "heroes": 1,
+      "mobileHeroes": 1,
+      "oldPrisms": 0,
+      "oldScenes": 0,
+      "overflow": false,
+      "headlines": [
+        "A stronger digital\nexperience.",
+        "Solutions that work\nanywhere.",
+        "Turn data into\nsmart decisions.",
+        "Software for\nyour business."
+      ],
+      "stage": "custom"
+    },
+    {
+      "width": 430,
+      "lang": "en",
+      "heroes": 1,
+      "mobileHeroes": 1,
+      "oldPrisms": 0,
+      "oldScenes": 0,
+      "overflow": false,
+      "headlines": [
+        "A stronger digital\nexperience.",
+        "Solutions that work\nanywhere.",
+        "Turn data into\nsmart decisions.",
+        "Software for\nyour business."
+      ],
+      "stage": "custom"
+    },
+    {
+      "width": 320,
+      "lang": "de",
+      "heroes": 1,
+      "mobileHeroes": 1,
+      "oldPrisms": 0,
+      "oldScenes": 0,
+      "overflow": false,
+      "headlines": [
+        "Starke digitale\nErlebnisse.",
+        "Überall nutzbare\nLösungen.",
+        "Daten für kluge\nEntscheidungen.",
+        "Software für\nIhr Unternehmen."
+      ],
+      "stage": "custom"
+    },
+    {
+      "width": 375,
+      "lang": "de",
+      "heroes": 1,
+      "mobileHeroes": 1,
+      "oldPrisms": 0,
+      "oldScenes": 0,
+      "overflow": false,
+      "headlines": [
+        "Starke digitale\nErlebnisse.",
+        "Überall nutzbare\nLösungen.",
+        "Daten für kluge\nEntscheidungen.",
+        "Software für\nIhr Unternehmen."
+      ],
+      "stage": "custom"
+    },
+    {
+      "width": 390,
+      "lang": "de",
+      "heroes": 1,
+      "mobileHeroes": 1,
+      "oldPrisms": 0,
+      "oldScenes": 0,
+      "overflow": false,
+      "headlines": [
+        "Starke digitale\nErlebnisse.",
+        "Überall nutzbare\nLösungen.",
+        "Daten für kluge\nEntscheidungen.",
+        "Software für\nIhr Unternehmen."
+      ],
+      "stage": "custom"
+    },
+    {
+      "width": 430,
+      "lang": "de",
+      "heroes": 1,
+      "mobileHeroes": 1,
+      "oldPrisms": 0,
+      "oldScenes": 0,
+      "overflow": false,
+      "headlines": [
+        "Starke digitale\nErlebnisse.",
+        "Überall nutzbare\nLösungen.",
+        "Daten für kluge\nEntscheidungen.",
+        "Software für\nIhr Unternehmen."
+      ],
+      "stage": "custom"
+    }
+  ],
+  "desktop": [
+    {
+      "width": 1440,
+      "changedPixels": 0
+    },
+    {
+      "width": 1920,
+      "changedPixels": 0
+    }
+  ],
+  "errors": [],
+  "checks": {
+    "approvedMobilePixelDifference": 0,
+    "navigation": true,
+    "references": true,
+    "referenceScroll": true,
+    "galleryNames": [
+      "FurtherUp Drive",
+      "Reviel",
+      "Metek Makina"
+    ],
+    "stages": [
+      "web",
+      "mobile",
+      "ai",
+      "custom"
+    ],
+    "loop": true,
+    "pause": true,
+    "resume": true,
+    "reduced": true,
+    "heroLayoutShifts": [],
+    "ssrSingleVisibleHero": true
+  }
+}

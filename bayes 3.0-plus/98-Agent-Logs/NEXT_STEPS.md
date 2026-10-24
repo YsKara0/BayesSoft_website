@@ -1,3 +1,27 @@
+# BS3P-033 — yetkili release / kullanıcı canlı kontrolü — 2026-10-24
+
+Seçici staged liste+cached diff kontrolü ardından `feat: integrate unified mobile hero` commit'i ve origin/master push. Yalnız GitHub Pages workflow sonucu doğrulanır; canlı site/test/kayıt açılmaz. Kullanıcı canlı mobil son kontrolü yapacak. İkinci dokümantasyon commit'i veya başka geliştirme yok. Yayın öncesi kontroller temizdir; bu kayıt commit öncesidir.
+
+## Önceki kayıtlar — tarihsel
+
+# BS3P-033 — R3 görsel değerlendirmesi — 2026-10-24
+
+http://localhost:3033/prototype/bs3p-mobile-hero üzerinden20s döngüyü ve dört değişen başlığı değerlendir. [[../04-Development/BS3P-033-MOBILE-UNIFIED-HERO|Rapor]] dört hizmet ekranı, R2karşılaştırması ve GIF/WebP içerir. R3 kullanıcı görsel onayı olmadan production'a taşınmaz;commit/push/merge/deploy yok. Safari/iPhone ve düşük güçlü cihaz performansı doğrulanmadı. Kullanıcı geri bildirimi beklenir.
+
+## Önceki kayıtlar — tarihsel
+
+# BS3P-033 — R2 görsel değerlendirmesi — 2026-10-24
+
+http://localhost:3033/prototype/bs3p-mobile-hero üzerinden R2'yi 375/390px değerlendir. Yeni ilk/orta/tamamlanmış kare ve9sGIF/WebP raporda. Tek parça yaklaşım doğru; R1 görsel kabul edilmedi, R2 de henüz kabul edilmiş sayılmaz. Ayrı açık kullanıcı talimatı olmadan production taşıma/commit/push/deploy yok. Safari/gerçek cihazperf doğrulaması açık.
+
+## Önceki kayıtlar — tarihsel
+
+# BS3P-033 — Mobile Unified Hero değerlendirmesi — 2026-10-24
+
+http://localhost:3033/prototype/bs3p-mobile-hero üzerinden 375/390 mobil kompozisyonu ve 9s hareketi değerlendir. [[../04-Development/BS3P-033-MOBILE-UNIFIED-HERO|Rapor]] son ekranlar ve açık Safari/cihaz/perf sınırlarını içerir. Görsel kabulden sonra gerekirse yalnız bu prototipi rafine et; production taşıma için ayrı açık onay gerekir. Commit/push/deploy yetkisi yok. Eski033hizmet kayıtları tarihsel olarak korunur.
+
+## Önceki kayıtlar — tarihsel
+
 # BS3P-033/034 — yetkili push — 2026-10-23
 
 Yalnız5uygulama dosyası ve6ilgili Markdown kaydını seçici stage/commit et; staged diff kontrolünden sonra origin master pushla. Push uzak SHA ile doğrulanır. Mevcut Pages otomatik tetiklenir; CI doğrulanmadan yayın başarılı deme. Yeni geliştirme yok.

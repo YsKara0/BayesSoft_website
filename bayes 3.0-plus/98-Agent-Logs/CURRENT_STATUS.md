@@ -1,3 +1,27 @@
+# BS3P-033 — R3 kabul / production preflight geçti — 2026-10-24
+
+R3kullanıcı onaylı; mobil production entegrasyonu ve seçici commit/push/Pages yetkili. Paylaşılan MobileHero/timeline, aynı20sSVGveTR/EN/DE. Yerel12mobil/tekhero/motion/SSR/CLS/nav/ref/galeri/TS-lint-build-export geçti;mobile390ve desktop1440/1920pixel0,normaldesktop4yüz. Bu kayıt commit öncesi; kesin SHA/Pages sonucu final teslimde. Canlı site açılmayacak;Safari yapılmadı. Büyük/kişisel dosyalar hariç;masterkorunur.
+
+## Önceki kayıtlar — tarihsel
+
+# BS3P-033 — R3 Premium Unified Mobile Hero — 2026-10-24
+
+R3 yerelde hazır; görsel kabul beklenir. Kullanıcı R2'yi yaklaşık6.5/10 değerlendirdi. Aynı SVG ürün yüzeyi Web→Mobil→AI→Özel yazılım dönüşüyor;20s tek saat başlık/geometri/aktif etiketi senkron tutuyor. TR/EN/DE iki satır başlık, sabit etiket alanları, pause/reduced/offscreen/visibility korunur.48hizmet görünümü/12kombinasyon taşmasız ve son cold-load CLS boş;loop0/20s piksel0. Desktop1440/1920statik piksel0, normalWebGL4yüz doğrulandı. TS/lint geçti. Safari/gerçek cihazperf açık. Master03779c2;production/commit/push/deploy yok. [[../04-Development/BS3P-033-MOBILE-UNIFIED-HERO|R3 raporu]], mobile-unified-r3 kanıtları ve localhost:3033/prototype/bs3p-mobile-hero. R1/R2 ve kullanıcı dosyaları korunur.
+
+## Önceki kayıtlar — tarihsel
+
+# BS3P-033 — Mobile Unified Hero R2 — 2026-10-24
+
+İkinci mobil prototip hazır; görsel onay beklenir. Ana ürün büyütüldü; kompakt işlem yüzeyi+ürün+mobil çıktı üç net katman. Üç veri işareti tek9s saatte ürün satırlarına dönüşür. Yalnız iki prototip kaynak dosyası değişti; R1ve kişisel dosyalar korunur.12mobil/TR-EN-DE/kısaekran/motion/SSR/CLS/TS-lint geçti; desktop1440/1920pixel0 ve hareketli WebGL4yüz doğrulandı. WebKit yok/gerçek cihazperf açık. Master03779c2;commit/push/deploy/production taşıma yok. [[../04-Development/BS3P-033-MOBILE-UNIFIED-HERO|Güncel rapor]], mobile-unified-r2 kanıtları; localhost:3033/prototype/bs3p-mobile-hero.
+
+## Önceki kayıtlar — tarihsel
+
+# BS3P-033 — Mobile Unified Hero prototipi — 2026-10-24
+
+Master/HEAD03779c2 korundu. İzole `/prototype/bs3p-mobile-hero` hazır; görsel onay beklenir. Production kodu değişmedi; commit/push/deploy yok. SVG/tek9s saat, mevcut motion/dil provider'ları. 12mobil durum taşmasız;1440/1920 statik desktop piksel farkı0; hareketli desktop WebGL/4yüz doğrulandı. Pause/resume/reduced/offscreen/899-900/SSR/TS/hedefli lint geçti; son cold-load smoke CLS kaydı yok. WebKit executable eksik; Safari/gerçek cihaz/perf testi yapılmadı. [[../04-Development/BS3P-033-MOBILE-UNIFIED-HERO|Rapor]] ve mobile-unified kanıtları. 033eski hizmet göreviyle kimlik çakışması raporlu; geçmiş korundu.
+
+## Önceki kayıtlar — tarihsel
+
 # BS3P-033/034 — push yetkili, preflight geçti — 2026-10-23
 
 Kullanıcı mevcut yerel sonucu kabul edip GitHub push istedi. Fetch sonrası master/origin253fe1a aynı; TS/lint/build/export685dosya0prototype geçti. Seçici commit/push hazırlanıyor; bu kayıt commit öncesidir, kesin sonuç son teslimde. Kişisel dosyalar/yedekler hariç.

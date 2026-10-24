@@ -1,0 +1,4 @@
+/* This stylesheet is imported only by the excluded prototype route. */
+:global(body):has(.shell) > :global(header),
+:global(body):has(.shell) > :global(footer) { display: none !important; }
+.shell { min-height: 100vh; }

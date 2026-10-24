@@ -1,0 +1,27 @@
+{
+  "approvedMobileFunctionByteEqual": true,
+  "approvedTimelineEqualExceptComment": true,
+  "desktopContentByteEqual": true,
+  "protectedSourcesEqualHEAD": {
+    "components/homepage/HeroPrism.tsx": true,
+    "components/homepage/HeroSystemScene.tsx": true,
+    "components/homepage/Header.tsx": true,
+    "components/homepage/homepage.css": true,
+    "components/homepage/ReferencesMarquee.tsx": true,
+    "components/homepage/SelectedProjects.tsx": true,
+    "components/homepage/GalleryStage.tsx": true,
+    "lib/homepage/system/scene.ts": true,
+    "lib/homepage/system/motion.ts": true,
+    "app/page.tsx": true,
+    "package.json": true,
+    "package-lock.json": true
+  },
+  "typecheckExitCode": 0,
+  "targetedLintExitCode": 0,
+  "buildExitCode": 0,
+  "productionExport": {
+    "files": 686,
+    "prototypeArtifacts": 0,
+    "prototypeDependencies": 0
+  }
+}

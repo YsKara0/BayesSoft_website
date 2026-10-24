@@ -233,3 +233,19 @@ Durumlar: `planned` · `in-progress` · `blocked` · `completed` · `deferred` �
 
 ### 2026-10-23 — 033/034 yayın takibi
 Kullanıcı mevcut sonucu kabul edip seçici commit/push istedi. TS/lint/build/export geçti; commit/push sonucu henüz bekleniyor. Önceki kullanıcı kabulü bekleyen ifadeler tarihsel kayıttır.
+
+
+## BS3P-033 — Mobile Unified Hero (2026-10-24; ayrı kullanıcı görevi)
+
+| ID | Görev | Durum | Bağımlılık / kabul ölçütü |
+|---|---|---|---|
+| BS3P-033 (mobile hero) | Yalnız mobil bütünleşik hero ve sürekli dönüşüm animasyonu | R3 approved — production integrated, preflight passed; release authorized | [[BS3P-033-MOBILE-UNIFIED-HERO]];izole rota/SVG20s;48hizmetgörünümü/12dil-boyut,senkronbaşlık,CLS0/desktop1440-1920pixel0/motion/SSR/breakpoint/TS-lintpassed;WebKit unavailable,cihazperf açık;production/commit/push/deploy yok. Önceki033hizmet görevi kaydı korunur |
+
+### BS3P-033 mobile R2 — 2026-10-24
+R1görselkabul edilmedi;aynıyönrevize.Üçkatman/büyükürün/veri→satırdönüşümü.12mobil+kısaekran/motion/SSR/CLS/TS-lintpassed;desktop1440/1920pixel0;WebKit unavailable/cihazperf açık. R2kanıtları/raporgüncel;yalnızyerelgörselonaybeklenir.
+
+### BS3P-033 mobile R3 — 2026-10-24
+R2yaklaşık6.5/10 kullanıcı değerlendirmesi;R3aynısisteminWeb/Mobil/AI/Özel yazılım dönüşümü ve senkronTR/EN/DEbaşlıklar.20smerkezisaat.48görünüm/16geçiş/pause-reduced-visibility/SSR/shortscreen/CLS/TS-lintpassed;desktop1440-1920pixel0. R1/R2korundu;WebKit/cihazperf açık. R3görselonaybekler;production/commit/push/merge/deployyok.
+
+### BS3P-033 production release — 2026-10-24
+Kullanıcı R3onayı/production+commit-push-Pageyetkisi. OrtakmobilSVG/timelineentegre;12mobil/nav-ref-gallery/motion/TS-lint-build-exportpassed;mobile390/desktop1440-1920pixel0. Bu kayıt commitöncesi;SHA/Pages sonucu finalteslimde. Canlıtest yok;kullanıcısonkontrol.

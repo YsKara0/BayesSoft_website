@@ -1,0 +1,1848 @@
+{
+  "matrix": [
+    {
+      "lang": "tr",
+      "width": 320,
+      "states": [
+        {
+          "time": "0.976",
+          "stage": "web",
+          "svgStage": "web",
+          "active": [
+            "web"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "web",
+              "text": "Dijitalde güçlü bir\ndeneyim.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 70.71875,
+          "heroHeight": 420.71875,
+          "svgTop": 184.71875,
+          "frame": [
+            6,
+            24,
+            338,
+            244
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "tr"
+        },
+        {
+          "time": "5.984",
+          "stage": "mobile",
+          "svgStage": "mobile",
+          "active": [
+            "mobile"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "mobile",
+              "text": "Her yerde çalışan\nçözümler.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 70.71875,
+          "heroHeight": 420.71875,
+          "svgTop": 184.71875,
+          "frame": [
+            102,
+            8,
+            146,
+            300
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "tr"
+        },
+        {
+          "time": "10.976",
+          "stage": "ai",
+          "svgStage": "ai",
+          "active": [
+            "ai"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "ai",
+              "text": "Veriden akıllı\nkararlara.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 70.71875,
+          "heroHeight": 420.71875,
+          "svgTop": 184.71875,
+          "frame": [
+            28,
+            112,
+            290,
+            194
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "tr"
+        },
+        {
+          "time": "15.984",
+          "stage": "custom",
+          "svgStage": "custom",
+          "active": [
+            "custom"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "custom",
+              "text": "İşinize göre\nyazılım.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 70.71875,
+          "heroHeight": 420.71875,
+          "svgTop": 184.71875,
+          "frame": [
+            8,
+            82,
+            334,
+            216
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "tr"
+        }
+      ],
+      "layoutShifts": []
+    },
+    {
+      "lang": "tr",
+      "width": 375,
+      "states": [
+        {
+          "time": "0.976",
+          "stage": "web",
+          "svgStage": "web",
+          "active": [
+            "web"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "web",
+              "text": "Dijitalde güçlü bir\ndeneyim.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 82.671875,
+          "heroHeight": 482.953125,
+          "svgTop": 196.671875,
+          "frame": [
+            6,
+            24,
+            338,
+            244
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "tr"
+        },
+        {
+          "time": "5.984",
+          "stage": "mobile",
+          "svgStage": "mobile",
+          "active": [
+            "mobile"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "mobile",
+              "text": "Her yerde çalışan\nçözümler.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 82.671875,
+          "heroHeight": 482.953125,
+          "svgTop": 196.671875,
+          "frame": [
+            102,
+            8,
+            146,
+            300
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "tr"
+        },
+        {
+          "time": "10.976",
+          "stage": "ai",
+          "svgStage": "ai",
+          "active": [
+            "ai"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "ai",
+              "text": "Veriden akıllı\nkararlara.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 82.671875,
+          "heroHeight": 482.953125,
+          "svgTop": 196.671875,
+          "frame": [
+            28,
+            112,
+            290,
+            194
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "tr"
+        },
+        {
+          "time": "15.984",
+          "stage": "custom",
+          "svgStage": "custom",
+          "active": [
+            "custom"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "custom",
+              "text": "İşinize göre\nyazılım.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 82.671875,
+          "heroHeight": 482.953125,
+          "svgTop": 196.671875,
+          "frame": [
+            8,
+            82,
+            334,
+            216
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "tr"
+        }
+      ],
+      "layoutShifts": []
+    },
+    {
+      "lang": "tr",
+      "width": 390,
+      "states": [
+        {
+          "time": "0.976",
+          "stage": "web",
+          "svgStage": "web",
+          "active": [
+            "web"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "web",
+              "text": "Dijitalde güçlü bir\ndeneyim.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 85.984375,
+          "heroHeight": 499.984375,
+          "svgTop": 199.984375,
+          "frame": [
+            6,
+            24,
+            338,
+            244
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "tr"
+        },
+        {
+          "time": "5.984",
+          "stage": "mobile",
+          "svgStage": "mobile",
+          "active": [
+            "mobile"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "mobile",
+              "text": "Her yerde çalışan\nçözümler.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 85.984375,
+          "heroHeight": 499.984375,
+          "svgTop": 199.984375,
+          "frame": [
+            102,
+            8,
+            146,
+            300
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "tr"
+        },
+        {
+          "time": "10.976",
+          "stage": "ai",
+          "svgStage": "ai",
+          "active": [
+            "ai"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "ai",
+              "text": "Veriden akıllı\nkararlara.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 85.984375,
+          "heroHeight": 499.984375,
+          "svgTop": 199.984375,
+          "frame": [
+            28,
+            112,
+            290,
+            194
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "tr"
+        },
+        {
+          "time": "15.984",
+          "stage": "custom",
+          "svgStage": "custom",
+          "active": [
+            "custom"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "custom",
+              "text": "İşinize göre\nyazılım.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 85.984375,
+          "heroHeight": 499.984375,
+          "svgTop": 199.984375,
+          "frame": [
+            8,
+            82,
+            334,
+            216
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "tr"
+        }
+      ],
+      "layoutShifts": []
+    },
+    {
+      "lang": "tr",
+      "width": 430,
+      "states": [
+        {
+          "time": "0.976",
+          "stage": "web",
+          "svgStage": "web",
+          "active": [
+            "web"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "web",
+              "text": "Dijitalde güçlü bir\ndeneyim.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 94.796875,
+          "heroHeight": 545.359375,
+          "svgTop": 208.796875,
+          "frame": [
+            6,
+            24,
+            338,
+            244
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "tr"
+        },
+        {
+          "time": "5.984",
+          "stage": "mobile",
+          "svgStage": "mobile",
+          "active": [
+            "mobile"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "mobile",
+              "text": "Her yerde çalışan\nçözümler.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 94.796875,
+          "heroHeight": 545.359375,
+          "svgTop": 208.796875,
+          "frame": [
+            102,
+            8,
+            146,
+            300
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "tr"
+        },
+        {
+          "time": "10.976",
+          "stage": "ai",
+          "svgStage": "ai",
+          "active": [
+            "ai"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "ai",
+              "text": "Veriden akıllı\nkararlara.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 94.796875,
+          "heroHeight": 545.359375,
+          "svgTop": 208.796875,
+          "frame": [
+            28,
+            112,
+            290,
+            194
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "tr"
+        },
+        {
+          "time": "15.984",
+          "stage": "custom",
+          "svgStage": "custom",
+          "active": [
+            "custom"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "custom",
+              "text": "İşinize göre\nyazılım.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 94.796875,
+          "heroHeight": 545.359375,
+          "svgTop": 208.796875,
+          "frame": [
+            8,
+            82,
+            334,
+            216
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "tr"
+        }
+      ],
+      "layoutShifts": []
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "states": [
+        {
+          "time": "0.976",
+          "stage": "web",
+          "svgStage": "web",
+          "active": [
+            "web"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "web",
+              "text": "A stronger digital\nexperience.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 70.71875,
+          "heroHeight": 420.71875,
+          "svgTop": 184.71875,
+          "frame": [
+            6,
+            24,
+            338,
+            244
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "en"
+        },
+        {
+          "time": "5.984",
+          "stage": "mobile",
+          "svgStage": "mobile",
+          "active": [
+            "mobile"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "mobile",
+              "text": "Solutions that work\nanywhere.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 70.71875,
+          "heroHeight": 420.71875,
+          "svgTop": 184.71875,
+          "frame": [
+            102,
+            8,
+            146,
+            300
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "en"
+        },
+        {
+          "time": "10.976",
+          "stage": "ai",
+          "svgStage": "ai",
+          "active": [
+            "ai"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "ai",
+              "text": "Turn data into\nsmart decisions.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 70.71875,
+          "heroHeight": 420.71875,
+          "svgTop": 184.71875,
+          "frame": [
+            28,
+            112,
+            290,
+            194
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "en"
+        },
+        {
+          "time": "15.984",
+          "stage": "custom",
+          "svgStage": "custom",
+          "active": [
+            "custom"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "custom",
+              "text": "Software for\nyour business.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 70.71875,
+          "heroHeight": 420.71875,
+          "svgTop": 184.71875,
+          "frame": [
+            8,
+            82,
+            334,
+            216
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "en"
+        }
+      ],
+      "layoutShifts": []
+    },
+    {
+      "lang": "en",
+      "width": 375,
+      "states": [
+        {
+          "time": "0.976",
+          "stage": "web",
+          "svgStage": "web",
+          "active": [
+            "web"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "web",
+              "text": "A stronger digital\nexperience.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 82.671875,
+          "heroHeight": 482.953125,
+          "svgTop": 196.671875,
+          "frame": [
+            6,
+            24,
+            338,
+            244
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "en"
+        },
+        {
+          "time": "5.984",
+          "stage": "mobile",
+          "svgStage": "mobile",
+          "active": [
+            "mobile"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "mobile",
+              "text": "Solutions that work\nanywhere.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 82.671875,
+          "heroHeight": 482.953125,
+          "svgTop": 196.671875,
+          "frame": [
+            102,
+            8,
+            146,
+            300
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "en"
+        },
+        {
+          "time": "10.976",
+          "stage": "ai",
+          "svgStage": "ai",
+          "active": [
+            "ai"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "ai",
+              "text": "Turn data into\nsmart decisions.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 82.671875,
+          "heroHeight": 482.953125,
+          "svgTop": 196.671875,
+          "frame": [
+            28,
+            112,
+            290,
+            194
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "en"
+        },
+        {
+          "time": "15.984",
+          "stage": "custom",
+          "svgStage": "custom",
+          "active": [
+            "custom"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "custom",
+              "text": "Software for\nyour business.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 82.671875,
+          "heroHeight": 482.953125,
+          "svgTop": 196.671875,
+          "frame": [
+            8,
+            82,
+            334,
+            216
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "en"
+        }
+      ],
+      "layoutShifts": []
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "states": [
+        {
+          "time": "0.976",
+          "stage": "web",
+          "svgStage": "web",
+          "active": [
+            "web"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "web",
+              "text": "A stronger digital\nexperience.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 85.984375,
+          "heroHeight": 499.984375,
+          "svgTop": 199.984375,
+          "frame": [
+            6,
+            24,
+            338,
+            244
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "en"
+        },
+        {
+          "time": "5.984",
+          "stage": "mobile",
+          "svgStage": "mobile",
+          "active": [
+            "mobile"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "mobile",
+              "text": "Solutions that work\nanywhere.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 85.984375,
+          "heroHeight": 499.984375,
+          "svgTop": 199.984375,
+          "frame": [
+            102,
+            8,
+            146,
+            300
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "en"
+        },
+        {
+          "time": "10.976",
+          "stage": "ai",
+          "svgStage": "ai",
+          "active": [
+            "ai"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "ai",
+              "text": "Turn data into\nsmart decisions.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 85.984375,
+          "heroHeight": 499.984375,
+          "svgTop": 199.984375,
+          "frame": [
+            28,
+            112,
+            290,
+            194
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "en"
+        },
+        {
+          "time": "15.984",
+          "stage": "custom",
+          "svgStage": "custom",
+          "active": [
+            "custom"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "custom",
+              "text": "Software for\nyour business.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 85.984375,
+          "heroHeight": 499.984375,
+          "svgTop": 199.984375,
+          "frame": [
+            8,
+            82,
+            334,
+            216
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "en"
+        }
+      ],
+      "layoutShifts": []
+    },
+    {
+      "lang": "en",
+      "width": 430,
+      "states": [
+        {
+          "time": "0.976",
+          "stage": "web",
+          "svgStage": "web",
+          "active": [
+            "web"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "web",
+              "text": "A stronger digital\nexperience.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 94.796875,
+          "heroHeight": 545.359375,
+          "svgTop": 208.796875,
+          "frame": [
+            6,
+            24,
+            338,
+            244
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "en"
+        },
+        {
+          "time": "5.984",
+          "stage": "mobile",
+          "svgStage": "mobile",
+          "active": [
+            "mobile"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "mobile",
+              "text": "Solutions that work\nanywhere.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 94.796875,
+          "heroHeight": 545.359375,
+          "svgTop": 208.796875,
+          "frame": [
+            102,
+            8,
+            146,
+            300
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "en"
+        },
+        {
+          "time": "10.976",
+          "stage": "ai",
+          "svgStage": "ai",
+          "active": [
+            "ai"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "ai",
+              "text": "Turn data into\nsmart decisions.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 94.796875,
+          "heroHeight": 545.359375,
+          "svgTop": 208.796875,
+          "frame": [
+            28,
+            112,
+            290,
+            194
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "en"
+        },
+        {
+          "time": "15.984",
+          "stage": "custom",
+          "svgStage": "custom",
+          "active": [
+            "custom"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "custom",
+              "text": "Software for\nyour business.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 94.796875,
+          "heroHeight": 545.359375,
+          "svgTop": 208.796875,
+          "frame": [
+            8,
+            82,
+            334,
+            216
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "en"
+        }
+      ],
+      "layoutShifts": []
+    },
+    {
+      "lang": "de",
+      "width": 320,
+      "states": [
+        {
+          "time": "0.976",
+          "stage": "web",
+          "svgStage": "web",
+          "active": [
+            "web"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "web",
+              "text": "Starke digitale\nErlebnisse.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 70.71875,
+          "heroHeight": 420.71875,
+          "svgTop": 184.71875,
+          "frame": [
+            6,
+            24,
+            338,
+            244
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "de"
+        },
+        {
+          "time": "5.984",
+          "stage": "mobile",
+          "svgStage": "mobile",
+          "active": [
+            "mobile"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "mobile",
+              "text": "Überall nutzbare\nLösungen.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 70.71875,
+          "heroHeight": 420.71875,
+          "svgTop": 184.71875,
+          "frame": [
+            102,
+            8,
+            146,
+            300
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "de"
+        },
+        {
+          "time": "10.976",
+          "stage": "ai",
+          "svgStage": "ai",
+          "active": [
+            "ai"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "ai",
+              "text": "Daten für kluge\nEntscheidungen.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 70.71875,
+          "heroHeight": 420.71875,
+          "svgTop": 184.71875,
+          "frame": [
+            28,
+            112,
+            290,
+            194
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "de"
+        },
+        {
+          "time": "15.984",
+          "stage": "custom",
+          "svgStage": "custom",
+          "active": [
+            "custom"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "custom",
+              "text": "Software für\nIhr Unternehmen.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 70.71875,
+          "heroHeight": 420.71875,
+          "svgTop": 184.71875,
+          "frame": [
+            8,
+            82,
+            334,
+            216
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "de"
+        }
+      ],
+      "layoutShifts": []
+    },
+    {
+      "lang": "de",
+      "width": 375,
+      "states": [
+        {
+          "time": "0.976",
+          "stage": "web",
+          "svgStage": "web",
+          "active": [
+            "web"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "web",
+              "text": "Starke digitale\nErlebnisse.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 82.671875,
+          "heroHeight": 482.953125,
+          "svgTop": 196.671875,
+          "frame": [
+            6,
+            24,
+            338,
+            244
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "de"
+        },
+        {
+          "time": "5.984",
+          "stage": "mobile",
+          "svgStage": "mobile",
+          "active": [
+            "mobile"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "mobile",
+              "text": "Überall nutzbare\nLösungen.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 82.671875,
+          "heroHeight": 482.953125,
+          "svgTop": 196.671875,
+          "frame": [
+            102,
+            8,
+            146,
+            300
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "de"
+        },
+        {
+          "time": "10.976",
+          "stage": "ai",
+          "svgStage": "ai",
+          "active": [
+            "ai"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "ai",
+              "text": "Daten für kluge\nEntscheidungen.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 82.671875,
+          "heroHeight": 482.953125,
+          "svgTop": 196.671875,
+          "frame": [
+            28,
+            112,
+            290,
+            194
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "de"
+        },
+        {
+          "time": "15.984",
+          "stage": "custom",
+          "svgStage": "custom",
+          "active": [
+            "custom"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "custom",
+              "text": "Software für\nIhr Unternehmen.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 82.671875,
+          "heroHeight": 482.953125,
+          "svgTop": 196.671875,
+          "frame": [
+            8,
+            82,
+            334,
+            216
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "de"
+        }
+      ],
+      "layoutShifts": []
+    },
+    {
+      "lang": "de",
+      "width": 390,
+      "states": [
+        {
+          "time": "0.976",
+          "stage": "web",
+          "svgStage": "web",
+          "active": [
+            "web"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "web",
+              "text": "Starke digitale\nErlebnisse.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 85.984375,
+          "heroHeight": 499.984375,
+          "svgTop": 199.984375,
+          "frame": [
+            6,
+            24,
+            338,
+            244
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "de"
+        },
+        {
+          "time": "5.984",
+          "stage": "mobile",
+          "svgStage": "mobile",
+          "active": [
+            "mobile"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "mobile",
+              "text": "Überall nutzbare\nLösungen.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 85.984375,
+          "heroHeight": 499.984375,
+          "svgTop": 199.984375,
+          "frame": [
+            102,
+            8,
+            146,
+            300
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "de"
+        },
+        {
+          "time": "10.976",
+          "stage": "ai",
+          "svgStage": "ai",
+          "active": [
+            "ai"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "ai",
+              "text": "Daten für kluge\nEntscheidungen.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 85.984375,
+          "heroHeight": 499.984375,
+          "svgTop": 199.984375,
+          "frame": [
+            28,
+            112,
+            290,
+            194
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "de"
+        },
+        {
+          "time": "15.984",
+          "stage": "custom",
+          "svgStage": "custom",
+          "active": [
+            "custom"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "custom",
+              "text": "Software für\nIhr Unternehmen.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 85.984375,
+          "heroHeight": 499.984375,
+          "svgTop": 199.984375,
+          "frame": [
+            8,
+            82,
+            334,
+            216
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "de"
+        }
+      ],
+      "layoutShifts": []
+    },
+    {
+      "lang": "de",
+      "width": 430,
+      "states": [
+        {
+          "time": "0.976",
+          "stage": "web",
+          "svgStage": "web",
+          "active": [
+            "web"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "web",
+              "text": "Starke digitale\nErlebnisse.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 94.796875,
+          "heroHeight": 545.359375,
+          "svgTop": 208.796875,
+          "frame": [
+            6,
+            24,
+            338,
+            244
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "de"
+        },
+        {
+          "time": "5.984",
+          "stage": "mobile",
+          "svgStage": "mobile",
+          "active": [
+            "mobile"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "mobile",
+              "text": "Überall nutzbare\nLösungen.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 94.796875,
+          "heroHeight": 545.359375,
+          "svgTop": 208.796875,
+          "frame": [
+            102,
+            8,
+            146,
+            300
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "de"
+        },
+        {
+          "time": "10.976",
+          "stage": "ai",
+          "svgStage": "ai",
+          "active": [
+            "ai"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "ai",
+              "text": "Daten für kluge\nEntscheidungen.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 94.796875,
+          "heroHeight": 545.359375,
+          "svgTop": 208.796875,
+          "frame": [
+            28,
+            112,
+            290,
+            194
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "de"
+        },
+        {
+          "time": "15.984",
+          "stage": "custom",
+          "svgStage": "custom",
+          "active": [
+            "custom"
+          ],
+          "visibleTitles": [
+            {
+              "stage": "custom",
+              "text": "Software für\nIhr Unternehmen.",
+              "opacity": 1
+            }
+          ],
+          "titleHeight": 94.796875,
+          "heroHeight": 545.359375,
+          "svgTop": 208.796875,
+          "frame": [
+            8,
+            82,
+            334,
+            216
+          ],
+          "overflow": false,
+          "canvas": 0,
+          "language": "de"
+        }
+      ],
+      "layoutShifts": []
+    }
+  ],
+  "transitions": [
+    {
+      "time": "0.000",
+      "stage": "web",
+      "svgStage": "web",
+      "active": [
+        "web"
+      ],
+      "visibleTitles": [
+        {
+          "stage": "web",
+          "text": "Dijitalde güçlü bir\ndeneyim.",
+          "opacity": 1
+        }
+      ],
+      "titleHeight": 85.984375,
+      "heroHeight": 499.984375,
+      "svgTop": 199.984375,
+      "frame": [
+        6,
+        24,
+        338,
+        244
+      ],
+      "overflow": false,
+      "canvas": 0,
+      "language": "tr"
+    },
+    {
+      "time": "3.376",
+      "stage": "web",
+      "svgStage": "web",
+      "active": [
+        "web"
+      ],
+      "visibleTitles": [
+        {
+          "stage": "web",
+          "text": "Dijitalde güçlü bir\ndeneyim.",
+          "opacity": 1
+        }
+      ],
+      "titleHeight": 85.984375,
+      "heroHeight": 499.984375,
+      "svgTop": 199.984375,
+      "frame": [
+        6,
+        24,
+        338,
+        244
+      ],
+      "overflow": false,
+      "canvas": 0,
+      "language": "tr"
+    },
+    {
+      "time": "3.776",
+      "stage": "web",
+      "svgStage": "web",
+      "active": [
+        "web"
+      ],
+      "visibleTitles": [
+        {
+          "stage": "web",
+          "text": "Dijitalde güçlü bir\ndeneyim.",
+          "opacity": 0.544946
+        }
+      ],
+      "titleHeight": 85.984375,
+      "heroHeight": 499.984375,
+      "svgTop": 199.984375,
+      "frame": [
+        19.413048000000224,
+        21.76449199999996,
+        311.17390399999954,
+        251.82427800000013
+      ],
+      "overflow": false,
+      "canvas": 0,
+      "language": "tr"
+    },
+    {
+      "time": "4.176",
+      "stage": "web",
+      "svgStage": "web",
+      "active": [
+        "web"
+      ],
+      "visibleTitles": [],
+      "titleHeight": 85.984375,
+      "heroHeight": 499.984375,
+      "svgTop": 199.984375,
+      "frame": [
+        51.840648000000186,
+        16.35989199999997,
+        246.31870399999963,
+        270.7403780000001
+      ],
+      "overflow": false,
+      "canvas": 0,
+      "language": "tr"
+    },
+    {
+      "time": "4.576",
+      "stage": "mobile",
+      "svgStage": "mobile",
+      "active": [
+        "mobile"
+      ],
+      "visibleTitles": [
+        {
+          "stage": "mobile",
+          "text": "Her yerde çalışan\nçözümler.",
+          "opacity": 0.455054
+        }
+      ],
+      "titleHeight": 85.984375,
+      "heroHeight": 499.984375,
+      "svgTop": 199.984375,
+      "frame": [
+        85.34824800000028,
+        10.775291999999952,
+        179.30350399999944,
+        290.28647800000016
+      ],
+      "overflow": false,
+      "canvas": 0,
+      "language": "tr"
+    },
+    {
+      "time": "4.976",
+      "stage": "mobile",
+      "svgStage": "mobile",
+      "active": [
+        "mobile"
+      ],
+      "visibleTitles": [
+        {
+          "stage": "mobile",
+          "text": "Her yerde çalışan\nçözümler.",
+          "opacity": 0.997354
+        }
+      ],
+      "titleHeight": 85.984375,
+      "heroHeight": 499.984375,
+      "svgTop": 199.984375,
+      "frame": [
+        101.93584800000001,
+        8.010691999999999,
+        146.12830399999999,
+        299.962578
+      ],
+      "overflow": false,
+      "canvas": 0,
+      "language": "tr"
+    },
+    {
+      "time": "8.384",
+      "stage": "mobile",
+      "svgStage": "mobile",
+      "active": [
+        "mobile"
+      ],
+      "visibleTitles": [
+        {
+          "stage": "mobile",
+          "text": "Her yerde çalışan\nçözümler.",
+          "opacity": 1
+        }
+      ],
+      "titleHeight": 85.984375,
+      "heroHeight": 499.984375,
+      "svgTop": 199.984375,
+      "frame": [
+        102,
+        8,
+        146,
+        300
+      ],
+      "overflow": false,
+      "canvas": 0,
+      "language": "tr"
+    },
+    {
+      "time": "9.184",
+      "stage": "mobile",
+      "svgStage": "mobile",
+      "active": [
+        "mobile"
+      ],
+      "visibleTitles": [],
+      "titleHeight": 85.984375,
+      "heroHeight": 499.984375,
+      "svgTop": 199.984375,
+      "frame": [
+        66.10985199999968,
+        58.44020800000046,
+        215.84028800000064,
+        248.58978799999954
+      ],
+      "overflow": false,
+      "canvas": 0,
+      "language": "tr"
+    },
+    {
+      "time": "9.984",
+      "stage": "ai",
+      "svgStage": "ai",
+      "active": [
+        "ai"
+      ],
+      "visibleTitles": [
+        {
+          "stage": "ai",
+          "text": "Veriden akıllı\nkararlara.",
+          "opacity": 0.998816
+        }
+      ],
+      "titleHeight": 85.984375,
+      "heroHeight": 499.984375,
+      "svgTop": 199.984375,
+      "frame": [
+        28.022051999999974,
+        111.96900800000003,
+        289.95708800000006,
+        194.03158799999997
+      ],
+      "overflow": false,
+      "canvas": 0,
+      "language": "tr"
+    },
+    {
+      "time": "13.376",
+      "stage": "ai",
+      "svgStage": "ai",
+      "active": [
+        "ai"
+      ],
+      "visibleTitles": [
+        {
+          "stage": "ai",
+          "text": "Veriden akıllı\nkararlara.",
+          "opacity": 1
+        }
+      ],
+      "titleHeight": 85.984375,
+      "heroHeight": 499.984375,
+      "svgTop": 199.984375,
+      "frame": [
+        28,
+        112,
+        290,
+        194
+      ],
+      "overflow": false,
+      "canvas": 0,
+      "language": "tr"
+    },
+    {
+      "time": "14.176",
+      "stage": "ai",
+      "svgStage": "ai",
+      "active": [
+        "ai"
+      ],
+      "visibleTitles": [],
+      "titleHeight": 85.984375,
+      "heroHeight": 499.984375,
+      "svgTop": 199.984375,
+      "frame": [
+        18.44986499999983,
+        97.67479749999974,
+        311.0102970000004,
+        204.5051485000002
+      ],
+      "overflow": false,
+      "canvas": 0,
+      "language": "tr"
+    },
+    {
+      "time": "14.976",
+      "stage": "custom",
+      "svgStage": "custom",
+      "active": [
+        "custom"
+      ],
+      "visibleTitles": [
+        {
+          "stage": "custom",
+          "text": "İşinize göre\nyazılım.",
+          "opacity": 0.997354
+        }
+      ],
+      "titleHeight": 85.984375,
+      "heroHeight": 499.984375,
+      "svgTop": 199.984375,
+      "frame": [
+        8.013364999999986,
+        82.02004749999998,
+        333.970597,
+        215.9852985
+      ],
+      "overflow": false,
+      "canvas": 0,
+      "language": "tr"
+    },
+    {
+      "time": "18.384",
+      "stage": "custom",
+      "svgStage": "custom",
+      "active": [
+        "custom"
+      ],
+      "visibleTitles": [
+        {
+          "stage": "custom",
+          "text": "İşinize göre\nyazılım.",
+          "opacity": 1
+        }
+      ],
+      "titleHeight": 85.984375,
+      "heroHeight": 499.984375,
+      "svgTop": 199.984375,
+      "frame": [
+        8,
+        82,
+        334,
+        216
+      ],
+      "overflow": false,
+      "canvas": 0,
+      "language": "tr"
+    },
+    {
+      "time": "19.184",
+      "stage": "custom",
+      "svgStage": "custom",
+      "active": [
+        "custom"
+      ],
+      "visibleTitles": [],
+      "titleHeight": 85.984375,
+      "heroHeight": 499.984375,
+      "svgTop": 199.984375,
+      "frame": [
+        7.029996000000644,
+        53.86988400001867,
+        335.9400079999987,
+        229.58005599999098
+      ],
+      "overflow": false,
+      "canvas": 0,
+      "language": "tr"
+    },
+    {
+      "time": "19.968",
+      "stage": "web",
+      "svgStage": "web",
+      "active": [
+        "web"
+      ],
+      "visibleTitles": [
+        {
+          "stage": "web",
+          "text": "Dijitalde güçlü bir\ndeneyim.",
+          "opacity": 0.995328
+        }
+      ],
+      "titleHeight": 85.984375,
+      "heroHeight": 499.984375,
+      "svgTop": 199.984375,
+      "frame": [
+        6.002368000000062,
+        24.068672000001804,
+        337.99526399999985,
+        243.96684799999912
+      ],
+      "overflow": false,
+      "canvas": 0,
+      "language": "tr"
+    },
+    {
+      "time": "20.000",
+      "stage": "web",
+      "svgStage": "web",
+      "active": [
+        "web"
+      ],
+      "visibleTitles": [
+        {
+          "stage": "web",
+          "text": "Dijitalde güçlü bir\ndeneyim.",
+          "opacity": 1
+        }
+      ],
+      "titleHeight": 85.984375,
+      "heroHeight": 499.984375,
+      "svgTop": 199.984375,
+      "frame": [
+        6,
+        24,
+        338,
+        244
+      ],
+      "overflow": false,
+      "canvas": 0,
+      "language": "tr"
+    }
+  ],
+  "desktop": [
+    {
+      "width": 1440,
+      "changedPixels": 0
+    },
+    {
+      "width": 1920,
+      "changedPixels": 0
+    }
+  ],
+  "errors": [],
+  "checks": {
+    "pauseAll": true,
+    "resume": true,
+    "reduced": true,
+    "offscreen": true,
+    "shortScreen": {
+      "labels": 4,
+      "reachable": true,
+      "overflow": false
+    },
+    "recordingEnd": {
+      "time": "20.000",
+      "stage": "web",
+      "svgStage": "web",
+      "active": [
+        "web"
+      ],
+      "visibleTitles": [
+        {
+          "stage": "web",
+          "text": "Dijitalde güçlü bir\ndeneyim.",
+          "opacity": 1
+        }
+      ],
+      "titleHeight": 85.984375,
+      "heroHeight": 499.984375,
+      "svgTop": 199.984375,
+      "frame": [
+        6,
+        24,
+        338,
+        244
+      ],
+      "overflow": false,
+      "canvas": 0,
+      "language": "tr"
+    },
+    "ssr": true
+  },
+  "webkit": {
+    "available": false,
+    "reason": "browserType.launch: Executable doesn't exist at /Users/yavuz/Library/Caches/ms-playwright/webkit-2336/pw_run.sh"
+  }
+}

@@ -311,3 +311,26 @@
 
 ## D-051 — 2026-10-23 — 033/034 seçici commit/push onayı
 - Kullanıcı mevcut sonucu kabul ederek GitHub push istedi. Mevcut033hizmet yönü/özgün süreç ve034istatistik-footer kaldırmaları ilgili kayıtlarla master üzerinden commit/push edilir. Mevcut Pages workflow otomatik tetiklenir. Kişisel untracked/deneme yedekleri kapsam dışıdır.
+
+
+## D-052 — 2026-10-24 — BS3P-033 Mobile Unified Hero yalnız prototip
+- Kullanıcı mobil hero için analiz+yerel tasarım/hareket prototipi istedi; master üzerinde kalma ve production/desktop sınırları açık. Önceki033hizmet kimliği/yayın yetkisi ayrı tarihsel kayıttır.
+- Yerel teknik seçim: mevcut mobil statik WebGL politikasını/desktop sahneyi değiştirmeden, ayrı app/prototype rotasında SVG+tek9s requestAnimationFrame. Mevcut MotionProvider/LanguageProvider ve desktop bileşenleri yeniden kullanılır; yeni dependency/slogan yok. Reduced-motion tamamlanmış ürün karesi, pause kare tutma ve offscreen durma vardır.
+- Bu prototip için uygulanan teknik tercih görsel kullanıcı kabulü veya production mimari kararı değildir. [[../04-Development/BS3P-033-MOBILE-UNIFIED-HERO|Rapor]] son testleri ve WebKit/cihazperformans sınırlarını içerir. Ayrı açık onaysız production taşıma/commit/push/deploy yok.
+
+
+## D-053 — 2026-10-24 — BS3P-033 R1 kabul edilmedi; aynı yönde R2 prototip
+- Kullanıcı tek parça mobil hero yaklaşımını doğru buldu; mevcut sahnenin basit/sıkışık/küçük olması nedeniyle görsel kabul vermedi ve aynı prototipin revizyonunu istedi. Bu karar production/yayın onayı değildir.
+- R2yalnız mobilde: büyük ana ürün, kompakt işlem yüzeyi, ikincil mobil çıktı; en fazlaüç netgörselkatman. Mevcut SVG/tek9s/motion-dilproviderkorunur,veri işaretleri ürünsatırlarına dönüşür. Dörthizmetetiketilinksizkalır. Desktop/diğerbölümler aynıdır.
+- R2hazır;görselkabulbekler. Safari/gerçekcihazperformans doğrulaması açık. Masterkorunur;commit/push/deploy/productiontaşıma yetkisi yok. [[../04-Development/BS3P-033-MOBILE-UNIFIED-HERO|Rapor]]/mobile-unified-r2kanıtları.
+
+
+## D-054 — 2026-10-24 — BS3P-033 R3 dört dönüşüm ve senkron başlık prototipi
+- Kullanıcı R2'yi yaklaşık6.5/10 değerlendirdi; statik infografik/sabit başlık yetersiz. Aynı tek sahne içinde dört hizmet ve aktif hizmete bağlı doğalTR/EN/DEbaşlıklar için yalnız mobil R3 revizyonu yetkilendirildi. Tasarım metinleri production copy onayı değildir.
+- SVG/tek20sframe hesabı:aynı ürün/modüller web→telefon→veri+AI/işmantığı→özel sistem olarak dönüşür. Başlık ve etiketler aynı hesapla yönetilir; headline fade-out tamamlanmadan yenisi görünmez. Mevcut motion/dilprovider ve anlamlı statik/reduced fallback korunur. Etiketler linksizdir; yeni navigasyon yok.
+- R1/R2kanıtları ve kaynak yedeği korunur. R3yerelde hazır, görsel kabul bekler. Desktop/diğerbölümler/production/branch/index aynı;commit/push/merge/deploy yetkisi yok. Safari/cihazperf açık. [[../04-Development/BS3P-033-MOBILE-UNIFIED-HERO|R3 raporu]]/mobile-unified-r3kanıtları.
+
+
+## D-055 — 2026-10-24 — BS3P-033 R3 görsel onayı ve production release yetkisi
+- Kullanıcı R3mobil tasarımını/animasyonunu onayladı;aynıtasarımın productionmobile entegrasyonu ve temiz hedeflikontroller sonrası seçici commit/push/Pagesyayını yetkili. Commit mesajı `feat: integrate unified mobile hero`;masterkorunur. Desktop/diğerbölümler değiştirilmez.
+- Prototip+production tekMobileHero/CSS/timeline kaynağı kullanır. BüyükGIF/video/kişiselfile/ilgisizkanıt stage dışı. Canlı site tarayıcı/test/kayıt açılmaz;sonkontrol kullanıcıda. Yayınsonrası ikinci dokümantasyoncommit'i yok.

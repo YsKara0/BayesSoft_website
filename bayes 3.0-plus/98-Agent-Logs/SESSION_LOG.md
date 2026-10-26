@@ -546,3 +546,35 @@ Kullanıcı navigasyon düzeltmelerini ve master üzerinden commit/push/Pages ya
 - Kullanıcı R3ve yalnız mobil production yayını/commit-push izni verdi. MobileHero/CSS/timeline ortak production kaynaklarına çıkarıldı; prototip aynı kodu kullanır. Onaylı fonksiyon/timeline ve desktop içerik byteeşit; header/nav/ref/galeri/içsayfa/SEO/dependency aynı.
 - Yerel static production12mobil/TR-EN-DE/tekhero/SSR/CLS/dört hizmet/pause-resume/reduced/loop/nav/refscroll/üçgaleri geçti. Mobile390approved0pixel;desktop1440/1920TR0pixel ve normalWebGL1canvas4yüz. İlk karşılaştırma DEtestkoşulu nedeniyle farkverdi;TRile0olduğu doğrulandı. TS/hedeflilint/build/export geçti:686dosya0prototype. Safari/canlıtest yok.
 - Fetch sonrası master/origin03779c2,0/0. Bu kayıt commit öncesi; seçici stage/cachedcheck/feat: integrate unified mobile hero/Pages takibi yetkili, sonuç finalteslimde. Büyükanimasyon/hamkare/MOV/.obsidian/eski kasalar/ilgisizharness'ler stage dışı. Yayınsonrası ikincidokcommit yok;canlısonkontrol kullanıcıda.
+
+
+### BS3P-033 kesin yayın sonucu — 2026-10-24
+Yayın tamamlandı: `adeed1904371f2b38d69cfcb1a46c72ddd3a0d31` origin/master ile eşit; [Pages #40098010607](https://github.com/YsKara0/BayesSoft_website/actions/runs/40098010607) build+deploy success. Canlı site açılmadı; son mobil kontrol kullanıcıda. Bu kesin sonuç yayın sonrası yerel kayıttır; ikinci dokümantasyon commit'i yapılmadı.
+
+
+## 2026-10-25 — BS3P-034 Mobil Hero Kontrolü ve Zirve Çilingir
+- Master/adeed19 doğrulandı; altı mevcut yayın-handoffMarkdown değişikliği ve kullanıcı/asset/untracked geçmişi korundu. Aynı034kimlikli eski stats/footer görevi ayrı tarihsel kayıt olarak kaldı.
+- Yalnız5kaynak: MobileHero kontrolü/toggle kullanımı ve transportCSS kaldırıldı;44pxboşluk kalktı. R3SVG/timeline/globalmotion/desktop aynı. Site/projectDetails/projectTranslations yeniZirvekaydı:Next.js/SpringBoot/CMS/tüm içeriklerinpaneldenyönetimi.9→10katalogverisi,8→9detay;önceki kayıtlar ASTeşit. screenshots[]/ortakgaleri gizli;link/özellik/metrik uydurulmadı.
+- Zirve referansı ve publiclogo zaten mevcut; yeni kayıt/URL eklenmedi. Kullanıcı asset kopyası byteeşit;desktop/mobil contain yüklendi. Marquee koduna dokunulmadı.
+- SonChrome375/390mobileauto/reduced/noControl/overflow,1440desktop control+1WebGL4yüz/0pixel,katalog→detay3dil/metadata/static/sitemap/noGallery/noBrokenImage geçti. TS/hedefliESLint/diffcheck/buildpassed688file0prototype. Yerel statik sunucu stale/dizin önceliği test hataları3038ile giderildi;uygulamabrowsererror0. Safari/gerçekcihaz/fullQA/canlıtest yok.
+-034rapor/task/decision/handoff/günlük güncellendi. Önizleme3038açık;görselonaybeklenir. Stage/commit/push/deploy yok.
+
+
+## 2026-10-26 — BS3P-034 ek kapsam / ekip unvanları
+- Yalnız data/i18n.ts ve TeamProfiles.tsx: üç unvan tek çeviri sözlüğünde; mevcut ekip role değerlerinden5kişilikdiziler türetilir. Kart/modal ve fotoğrafaltmetni aynıçeviri. Ekip verisi/CSS byteeşit;isim/fotoğraf/sıra/rol/BAYES korunur. Önceki034/Zirve/mobil/handoff ve kişisel/untracked çalışmalar korunur.
+- YerelChrome1440/375×TR/EN/DE=6durum;30kart30modal/doğrueşleşme/yeni yükleme olmadan dildeğişimi/Almanca taşma0/Escape/focusreturn geçti. TS/hedefliESLint/diffcheck geçti. Yeni build/fullQA/Safari/cihaztesti yok.034rapor ve team-roleskanıtları güncel;3033geliştirme önizlemesi güncel. Masteradeed19,stage/commit/push/deployyok;görselonaybeklenir.
+
+
+## 2026-10-26 — BS3P-035 Safari ortak main focus düzeltmesi
+- Gerçek macOS Safari27.0.1'de main#main-content üzerinde router programatik focus + focus-visible kaynaklı 2px mavi outline doğrulandı. Yalnız app/globals.css landmark outline kuralı; tabIndex/focus/alt öğelerin göstergeleri korunur. Tasarım/layout/animasyon kaynakları aynı;034 ve kişisel/untracked dosyalar korundu.
+- Safari altı rota×doğrudan/gezinme=12durum temiz; Tab(input)/Option-Tab(link,buton) 2px odak korundu. Chromium6açılış/5gezinme/skip-link/kontrol odakları/hata0;TS/hedefliESLint/PostCSS/diffcheck geçti. Build/gerçekmobilcihaz/tamsiteQA yapılmadı. Geçici previewdiagnostic kaldırıldı ve motiontercihi geri yüklendi.035rapor/kanıtlar güncel. Masteradeed19;stage/commit/push/deploy yok,onaybekler.
+
+
+## 2026-10-26 — BS3P-036 Safari header navigasyon kayması
+- NativeSafari27.0.1 Projeler→Hizmetler: router focus sonrası145ms içinde scroll0→80/header24→-56. Yalnız globals.css main scroll-margin-top mevcutheader token;focus/tabIndex/router/history/tasarım aynı.034/035vekişiseldosyalarbytekorundu.
+- Altınormalgeçiş0/header24;midpage793→detay0;geri793/ileri0;TRreload793→793/üst0. ENreload793→760 aynı kuralyokken devar;ayrımevcutbulgu/kesinnedenizoleedilmedi. Chromiumtemel+375/390/skip-focus/TS/hedeflilint/CSSpassed. SafariOptionTabbuton2px/mainnone;035korundu. Geçicipreviewdiagnostic kaldırıldı,ENtercihigeriyüklendi.036rapor/kanıtlar güncel;masteradeed19,indexboş;commit/push/deployyok,onaybekler.
+
+
+## 2026-10-27 — BS3P-037 toplu release preflight
+- Kullanıcı034/035/036yayınını ve037unvanını onayladı. Batuhan role tek alanda AI Integration and Development Engineer;merkezi fallback3dildeaynı,diğer4rol korunur. Yerel1440/375×3dil30kart6modal/taşma0/Escape-focus;homepage375/1440ref/motionayrımı;Zirve3dildetay/static-sitemap/TS-lint-build688passed. EskiSafari testleri tekrarlanmadı;kanıtlar korunur. ENreload33pxmevcutbulgu/gerçekmobilcihaz sınırları raporda.
+- Master/originadeed19fetchileeşit. Seçicicode/Markdown/küçükkanıtallowlist ve cachedcheck ardından tekcommit/push/Pagesyetkili. Kesinyayınsonucu bu kayıt anında bekleniyor. Canlıtest/ikinci dokcommit yok;033handoff/kişiselfile/.obsidian/MOV/ilgisizharness korunur.

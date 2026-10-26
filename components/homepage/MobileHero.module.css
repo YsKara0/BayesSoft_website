@@ -3,11 +3,6 @@
 @media (max-width: 899px) {
   .desktop { display: none; }
   .mobileHero { display: block; position: relative; padding-top: 8px; }
-  .transport { display: flex; justify-content: flex-end; min-height: 44px; }
-  .transport button { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; max-width: 100%; padding: 0 4px; border: 0; color: #53677a; background: transparent; font-size: 11px; cursor: pointer; }
-  .transport button span { display: inline-block; width: 170px; text-align: left; }
-  .transport button svg { flex-shrink: 0; }
-  .transport button[aria-disabled=true] { cursor: default; }
   .mobileHero .title { position: relative; z-index: 1; max-width: 520px; display: grid; min-height: 2.08em; font-size: clamp(34px, 10.6vw, 50px); line-height: 1.04; font-weight: 500; letter-spacing: -.055em; overflow-wrap: anywhere; }
   .headline { grid-area: 1 / 1; align-self: start; white-space: pre-line; will-change: opacity, transform; }
   .art { display: block; width: 100%; max-width: 520px; height: auto; margin: -2px auto 0; overflow: visible; pointer-events: none; }

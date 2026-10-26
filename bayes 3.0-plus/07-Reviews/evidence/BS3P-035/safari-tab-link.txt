@@ -1,0 +1,4 @@
+						9 metin BS3P035 /
+ACTIVE A# tabindex=null focus=true visible=true outline=solid/2px/rgb(40, 91, 214) border=0px bounds=149x44
+MAIN MAIN#main-content tabindex=null focus=false visible=false outline=none/3px/rgb(23, 43, 67) border=0px bounds=1342x2912
+LAST A# tabindex=null focus=true visible=true outline=solid/2px/rgb(40, 91, 214) border=0px bounds=149x44

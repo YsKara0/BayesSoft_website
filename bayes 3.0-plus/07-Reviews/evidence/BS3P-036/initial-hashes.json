@@ -1,0 +1,16 @@
+{
+  "app/layout.tsx": "c6517ce1c5539b531e4a6b5d6837f362c71760bdd7762e1115c77b8559d45027",
+  "app/globals.css": "a675b3adf8bdbbb468180e8e290dd4786891fce69d8a7e24ae1d3acb860e7fe9",
+  "components/SiteChrome.tsx": "fbcc2288edfbc1491beacd31dffaa50aed208f0c9fc4b52d8d009ae754a86584",
+  "components/interior/InteriorShell.tsx": "6892446dc98ec46af521f72284ec2155a358b5b47419252fd6d5c9c8f8d46cfc",
+  "components/homepage/Header.tsx": "544da3433012482ec14758f415e53f7b3240ec8cf17a14b3b6eda870aa90c14d",
+  "components/interior/interior.module.css": "b57e7136b0700449971281beb35a56c3b087d992af14b088b377bc8890c8897e",
+  "components/homepage/homepage.css": "bc98912c6e910455e10894fcabca0504b4d727dc7147d26c2162fed1adc83f19",
+  "components/homepage/MobileHero.tsx": "e0c858ab7f2aac1b5ff7b069f0097376ef52a41bc0bd3738d86c40e7a81b0971",
+  "components/homepage/MobileHero.module.css": "5073a502fd15944d47cf890094cd72a7dd9fcafb3f74e62253cf0aaa386506de",
+  "components/interior/TeamProfiles.tsx": "86740f48466393dd2d4728c16030c09c27f91e397ecb4e2e1383f6a9b11cf1a6",
+  "data/i18n.ts": "5788991da690937be407722405130179ac22aa0ca2ec6d529b4a00ddb73da2f2",
+  "data/projectDetails.ts": "f829ee4681bb590021d476a97f3441ccd1ddc28650d1be3d8576abfaee371e7a",
+  "data/projectTranslations.ts": "a051709abe230d7c06d7b01671b154ee2d26bd0660de226a3f204113b0fee036",
+  "data/site.ts": "9ab1733364523ac51c9be37e43a4b7540cad7d1eb1fbce91f6024dd58585d367"
+}

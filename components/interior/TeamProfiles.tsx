@@ -44,7 +44,7 @@ export function TeamProfiles() {
       {teamMembers.map((person, index) => <article key={person.id} data-active={active === person.id}
         onMouseEnter={() => setActive(person.id)} onFocus={() => setActive(person.id)}>
         <div className={styles.portrait}>
-          <Image src={person.image} alt={`${person.name}, ${person.role}`} fill
+          <Image src={person.image} alt={`${person.name}, ${copy.team.roles[index] ?? person.role}`} fill
             sizes="(min-width: 1100px) 19vw, (min-width: 700px) 30vw, 46vw" />
         </div>
         <h3>{person.name}</h3><p>{copy.team.roles[index] ?? person.role}</p>

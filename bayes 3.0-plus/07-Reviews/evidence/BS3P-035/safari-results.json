@@ -1,0 +1,86 @@
+{
+  "browser": "Native macOS Safari",
+  "version": "27.0.1",
+  "cases": [
+    {
+      "mode": "cold",
+      "path": "/",
+      "main": "MAIN MAIN#main-content tabindex=null focus=false visible=false outline=none/3px/rgb(23, 43, 67) border=0px bounds=1342x2912",
+      "evidence": "safari-cold-home.png"
+    },
+    {
+      "mode": "cold",
+      "path": "/hakkimizda",
+      "main": "MAIN MAIN#main-content tabindex=-1 focus=false visible=false outline=none/3px/rgb(32, 45, 61) border=0px bounds=1342x2753",
+      "evidence": "safari-cold-about.png"
+    },
+    {
+      "mode": "cold",
+      "path": "/hizmetler",
+      "main": "MAIN MAIN#main-content tabindex=-1 focus=false visible=false outline=none/3px/rgb(32, 45, 61) border=0px bounds=1342x2706",
+      "evidence": "safari-cold-services.png"
+    },
+    {
+      "mode": "cold",
+      "path": "/projeler",
+      "main": "MAIN MAIN#main-content tabindex=-1 focus=false visible=false outline=none/3px/rgb(32, 45, 61) border=0px bounds=1342x5353",
+      "evidence": "safari-cold-projects.png"
+    },
+    {
+      "mode": "cold",
+      "path": "/iletisim",
+      "main": "MAIN MAIN#main-content tabindex=-1 focus=false visible=false outline=none/3px/rgb(32, 45, 61) border=0px bounds=1342x1458",
+      "evidence": "safari-cold-contact.png"
+    },
+    {
+      "mode": "cold",
+      "path": "/projeler/zirve-cilingir",
+      "main": "MAIN MAIN#main-content tabindex=-1 focus=false visible=false outline=none/3px/rgb(32, 45, 61) border=0px bounds=1342x1441",
+      "evidence": "safari-cold-detail.png"
+    },
+    {
+      "mode": "after",
+      "path": "/",
+      "main": "MAIN MAIN#main-content tabindex=null focus=false visible=false outline=none/3px/rgb(23, 43, 67) border=0px bounds=1342x2912",
+      "evidence": "safari-after-home.png"
+    },
+    {
+      "mode": "after",
+      "path": "/hakkimizda",
+      "main": "MAIN MAIN#main-content tabindex=-1 focus=true visible=true outline=none/3px/rgb(32, 45, 61) border=0px bounds=1342x2753",
+      "evidence": "safari-after-about.png"
+    },
+    {
+      "mode": "after",
+      "path": "/hizmetler",
+      "main": "MAIN MAIN#main-content tabindex=-1 focus=true visible=true outline=none/3px/rgb(32, 45, 61) border=0px bounds=1342x2706",
+      "evidence": "safari-after-services.png"
+    },
+    {
+      "mode": "after",
+      "path": "/projeler",
+      "main": "MAIN MAIN#main-content tabindex=-1 focus=true visible=true outline=none/3px/rgb(32, 45, 61) border=0px bounds=1342x5353",
+      "evidence": "safari-after-projects.png"
+    },
+    {
+      "mode": "after",
+      "path": "/iletisim",
+      "main": "MAIN MAIN#main-content tabindex=-1 focus=true visible=true outline=none/3px/rgb(32, 45, 61) border=0px bounds=1342x1458",
+      "evidence": "safari-after-contact.png"
+    },
+    {
+      "mode": "after",
+      "path": "/projeler/zirve-cilingir",
+      "main": "MAIN MAIN#main-content tabindex=-1 focus=true visible=true outline=none/3px/rgb(32, 45, 61) border=0px bounds=1342x1441",
+      "evidence": "safari-after-detail.png"
+    }
+  ],
+  "keyboard": {
+    "link": "ACTIVE A# tabindex=null focus=true visible=true outline=solid/2px/rgb(40, 91, 214) border=0px bounds=149x44",
+    "button": "ACTIVE BUTTON# tabindex=null focus=true visible=true outline=solid/2px/rgb(40, 91, 214) border=1px bounds=48x48",
+    "input": "ACTIVE INPUT# tabindex=null focus=true visible=true outline=solid/2px/rgb(40, 91, 214) border=1px bounds=402x50"
+  },
+  "keyboardMethod": "Tab for input; Option-Tab for link/button under existing Safari keyboard preferences",
+  "diagnosticProbeRemoved": true,
+  "originalMotionPreferenceRestored": true
+}

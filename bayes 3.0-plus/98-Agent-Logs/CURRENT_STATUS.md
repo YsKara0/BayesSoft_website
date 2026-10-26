@@ -1,3 +1,39 @@
+# BS3P-037 — Toplu release preflight geçti — 2026-10-27
+
+034/035/036 kullanıcı onaylı;Batuhan unvanı tüm dillerde AI Integration and Development Engineer. Yerel1440/375×3dil30kart6modal/taşma0,Zirve/ref/motion ayrımı/TS-lint-build688passed. ÖncekiSafari kanıtları korundu,tekrarlanmadı. Tekseçicicommit/push/Pagesyetkili;kesinSHA/workflowsonucu yayın sonrası yerel kayıtta. Canlısiteaçılmayacak;sonkontrolkullanıcıda. [[../04-Development/BS3P-037-TEAM-TITLE-PRODUCTION-RELEASE|Rapor]].
+
+## Önceki kayıtlar
+
+# BS3P-036 — Safari header kayması yerelde düzeltildi — 2026-10-26
+
+Native Safari27.0.1 router main.focus() sonrası smooth-scroll0→80/header24→-56 doğrulandı. Yalnız globals.css main scroll-margin-top mevcut header token'ı;yerleşim/focus/history aynı. Altı geçiş0/header24;geri793/ileri0;TRrefresh793→793/üst0. ENrefresh793→760 eskiCSSiledeaynı;ayrımevcutbulgu raporda. Chromium/375-390/odak/TS-lint-CSS geçti. [[../04-Development/BS3P-036-SAFARI-HEADER-NAVIGATION-SCROLL|Rapor]].034/035vekişiselfilekorundu;masteradeed19/indexboş/commit-push-deployyok.
+
+## Önceki kayıtlar
+
+# BS3P-035 — Safari sayfa boyu focus çerçevesi yerelde düzeltildi — 2026-10-26
+
+Native Safari 27.0.1: Next router'ın main odağı + geniş focus-visible kuralı 2px mavi outline üretiyor. Yalnız app/globals.css içinde main#main-content:focus outline bastırıldı; kontrol odakları/skip-link korunur. Altı rota doğrudan+gezinme (12 durum), klavye link/buton/input, Chromium ve TS/hedefli lint/CSS parse geçti. [[../04-Development/BS3P-035-SITEWIDE-SAFARI-FOCUS-OUTLINE|Rapor/kanıt]]. Önceki034/kişisel dosyalar korundu. Master/adeed19 aynı; commit/push/deploy yok. Yerel onay beklenir.
+
+## Önceki kayıtlar
+
+# BS3P-034 — Ekip unvanları TR/EN/DE yerelde hazır — 2026-10-26
+
+İki dosyada merkezi unvan sözlüğü+ekip verisinden türetilen diziler; kart/modal/fotoğrafaltmetni aynıçeviri. İsim/fotoğraf/sıra/rol eşleştirmesi/BAYES/CSS aynı. Chrome1440/375×3dil30kart30modal/yenilemesizgeçiş/taşma/Escape-focusreturn veTS/hedeflilint geçti. Önceki034mobil/Zirve/handoff/kişisel dosyalar korunur. Masteradeed19;commit/push/deploy yok,onaybeklenir. http://localhost:3033/hakkimizda;034rapor/kanıtlar güncel.
+
+## Önceki kayıtlar
+
+# BS3P-034 — Mobil kontrol + Zirve Çilingir yerelde hazır — 2026-10-25
+
+Mobil duraklatma kontrolü/44pxalanı kaldırıldı;R3timeline/reduced/globalstate ve desktop aynı. Zirve katalog+9uncu detay olarakTR/EN/DEeklendi;görsel yok/galeri gizli. Logo referans verisinde zaten vardı, doğru public kaynak ve tekil görünüm doğrulandı.375/390mobil,1440desktop0pixel/Three.js,katalog-detay3dil/metadata-sitemap/TS-lint-buildpassed(688file0prototype). Masteradeed19;commit/push/deploy yok,görselonaybeklenir. [[../04-Development/BS3P-034-MOBILE-HERO-ZIRVE-CILINGIR|Rapor]];http://localhost:3038. Önceki033handoff/kişisel dosyalar korunur.
+
+## Önceki kayıtlar
+
+# BS3P-033 — R3 production yayını tamamlandı — 2026-10-24
+
+Yayın tamamlandı: `adeed1904371f2b38d69cfcb1a46c72ddd3a0d31` origin/master ile eşit; [Pages #40098010607](https://github.com/YsKara0/BayesSoft_website/actions/runs/40098010607) build+deploy success. Canlı site açılmadı; son mobil kontrol kullanıcıda. Bu kesin sonuç yayın sonrası yerel kayıttır; ikinci dokümantasyon commit'i yapılmadı.
+
+## Önceki kayıtlar
+
 # BS3P-033 — R3 kabul / production preflight geçti — 2026-10-24
 
 R3kullanıcı onaylı; mobil production entegrasyonu ve seçici commit/push/Pages yetkili. Paylaşılan MobileHero/timeline, aynı20sSVGveTR/EN/DE. Yerel12mobil/tekhero/motion/SSR/CLS/nav/ref/galeri/TS-lint-build-export geçti;mobile390ve desktop1440/1920pixel0,normaldesktop4yüz. Bu kayıt commit öncesi; kesin SHA/Pages sonucu final teslimde. Canlı site açılmayacak;Safari yapılmadı. Büyük/kişisel dosyalar hariç;masterkorunur.

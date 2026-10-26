@@ -1,0 +1,24 @@
+{
+  "preservedSinceTaskStart": {
+    "app/layout.tsx": true,
+    "components/SiteChrome.tsx": true,
+    "components/interior/InteriorShell.tsx": true,
+    "components/homepage/Header.tsx": true,
+    "components/interior/interior.module.css": true,
+    "components/homepage/homepage.css": true,
+    "components/homepage/MobileHero.tsx": true,
+    "components/homepage/MobileHero.module.css": true,
+    "components/interior/TeamProfiles.tsx": true,
+    "data/i18n.ts": true,
+    "data/projectDetails.ts": true,
+    "data/projectTranslations.ts": true,
+    "data/site.ts": true
+  },
+  "previewLayoutRestored": true,
+  "previewCSSMatchesRepository": true,
+  "typecheckExitCode": 0,
+  "targetedESLintExitCode": 0,
+  "postcssParse": "passed",
+  "motionPreferenceUnchanged": true,
+  "localeRestoredToOriginal": "en"
+}

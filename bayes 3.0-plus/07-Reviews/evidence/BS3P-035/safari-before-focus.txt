@@ -1,0 +1,5 @@
+				5 HTML içerik Description: Kurumsal Yazılım Hizmetleri | BayesSoft, URL: localhost:3033/hizmetler
+						116 metin BS3P035 /hizmetler
+ACTIVE MAIN#main-content tabindex=-1 focus=true visible=true outline=solid/2px/rgb(40, 91, 214) border=0px bounds=1342x2706
+MAIN MAIN#main-content tabindex=-1 focus=true visible=true outline=solid/2px/rgb(40, 91, 214) border=0px bounds=1342x2706
+LAST MAIN#main-content tabindex=-1 focus=true visible=true outline=solid/2px/rgb(40, 91, 214) border=0px bounds=1342x2706

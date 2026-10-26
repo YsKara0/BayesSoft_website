@@ -1,0 +1,268 @@
+{
+  "cold": [
+    {
+      "path": "/",
+      "main": {
+        "outline": "none",
+        "tabindex": null,
+        "width": 1312,
+        "height": 2887.609375
+      },
+      "skip": {
+        "tag": "A",
+        "id": "",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "tabindex": null
+      },
+      "landmark": {
+        "tag": "BODY",
+        "id": "",
+        "focusVisible": false,
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "tabindex": null
+      },
+      "next": {
+        "tag": "BUTTON",
+        "id": "",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "tabindex": null
+      }
+    },
+    {
+      "path": "/hakkimizda",
+      "main": {
+        "outline": "none",
+        "tabindex": "-1",
+        "width": 1312,
+        "height": 2684.78125
+      },
+      "skip": {
+        "tag": "A",
+        "id": "",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "tabindex": null
+      },
+      "landmark": {
+        "tag": "MAIN",
+        "id": "main-content",
+        "focusVisible": true,
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "tabindex": "-1"
+      },
+      "next": {
+        "tag": "BUTTON",
+        "id": "",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "tabindex": null
+      }
+    },
+    {
+      "path": "/hizmetler",
+      "main": {
+        "outline": "none",
+        "tabindex": "-1",
+        "width": 1312,
+        "height": 2731.65625
+      },
+      "skip": {
+        "tag": "A",
+        "id": "",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "tabindex": null
+      },
+      "landmark": {
+        "tag": "MAIN",
+        "id": "main-content",
+        "focusVisible": true,
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "tabindex": "-1"
+      },
+      "next": {
+        "tag": "A",
+        "id": "",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "tabindex": null
+      }
+    },
+    {
+      "path": "/projeler",
+      "main": {
+        "outline": "none",
+        "tabindex": "-1",
+        "width": 1312,
+        "height": 5338.453125
+      },
+      "skip": {
+        "tag": "A",
+        "id": "",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "tabindex": null
+      },
+      "landmark": {
+        "tag": "MAIN",
+        "id": "main-content",
+        "focusVisible": true,
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "tabindex": "-1"
+      },
+      "next": {
+        "tag": "A",
+        "id": "",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "tabindex": null
+      }
+    },
+    {
+      "path": "/iletisim",
+      "main": {
+        "outline": "none",
+        "tabindex": "-1",
+        "width": 1312,
+        "height": 1438.4375
+      },
+      "skip": {
+        "tag": "A",
+        "id": "",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "tabindex": null
+      },
+      "landmark": {
+        "tag": "MAIN",
+        "id": "main-content",
+        "focusVisible": true,
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "tabindex": "-1"
+      },
+      "next": {
+        "tag": "INPUT",
+        "id": "",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "tabindex": null
+      }
+    },
+    {
+      "path": "/projeler/zirve-cilingir",
+      "main": {
+        "outline": "none",
+        "tabindex": "-1",
+        "width": 1312,
+        "height": 1533.59375
+      },
+      "skip": {
+        "tag": "A",
+        "id": "",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "tabindex": null
+      },
+      "landmark": {
+        "tag": "MAIN",
+        "id": "main-content",
+        "focusVisible": true,
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "tabindex": "-1"
+      },
+      "next": {
+        "tag": "A",
+        "id": "",
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "2px",
+        "tabindex": null
+      }
+    }
+  ],
+  "navigation": [
+    {
+      "path": "/hakkimizda",
+      "tag": "MAIN",
+      "id": "main-content",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "outlineWidth": "3px",
+      "tabindex": "-1"
+    },
+    {
+      "path": "/hizmetler",
+      "tag": "MAIN",
+      "id": "main-content",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "outlineWidth": "3px",
+      "tabindex": "-1"
+    },
+    {
+      "path": "/projeler",
+      "tag": "MAIN",
+      "id": "main-content",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "outlineWidth": "3px",
+      "tabindex": "-1"
+    },
+    {
+      "path": "/iletisim",
+      "tag": "MAIN",
+      "id": "main-content",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "outlineWidth": "3px",
+      "tabindex": "-1"
+    },
+    {
+      "path": "/",
+      "tag": "BODY",
+      "id": "",
+      "focusVisible": false,
+      "outlineStyle": "none",
+      "outlineWidth": "3px",
+      "tabindex": null
+    }
+  ],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "outlineWidth": "2px",
+      "tabindex": null
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "outlineWidth": "2px",
+      "tabindex": null
+    }
+  ],
+  "errors": []
+}

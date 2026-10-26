@@ -329,3 +329,11 @@ main > #capabilities.bs-home-section {
   );
   border-bottom-color: transparent;
 }
+
+/* Next.js/skip-link focus must not draw a page-sized ring on the landmark.
+   Interactive descendants keep their own focus-visible indicators. */
+main#main-content:focus { outline: none; }
+
+/* Keep the header in view when Safari scrolls the router-focused landmark.
+   Scroll margin changes the focus target area, not the page layout or history. */
+main#main-content { scroll-margin-top: var(--bs-header-height); }

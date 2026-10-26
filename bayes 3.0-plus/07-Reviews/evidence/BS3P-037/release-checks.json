@@ -1,0 +1,21 @@
+{
+  "typecheck": 0,
+  "targetedLint": 0,
+  "buildExitCode": 0,
+  "exportFiles": 688,
+  "prototypeArtifacts": 0,
+  "prototypeDependencies": 0,
+  "zirveStaticRoute": true,
+  "zirveSitemap": true,
+  "newRoleInStaticHTML": true,
+  "logoAlreadyTracked": true,
+  "protectedEqualsHEAD": {
+    "components/homepage/MotionProvider.tsx": true,
+    "components/interior/InteriorShell.tsx": true,
+    "components/homepage/Header.tsx": true,
+    "components/ProjectDetailView.tsx": true,
+    "data/references.ts": true
+  },
+  "nativeSafariNotRepeated": "Prior 035/036 evidence retained; globals.css rules unchanged",
+  "buildInitialFailure": "Sandbox Google Fonts network; authorized retry passed"
+}

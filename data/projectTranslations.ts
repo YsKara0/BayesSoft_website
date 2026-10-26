@@ -4,6 +4,12 @@ import type { Project } from "@/data/site";
 type ProjectCopy = Pick<Project, "domain" | "problem" | "summary" | "impact">;
 
 const en: Record<string, ProjectCopy> = {
+  "zirve-cilingir": {
+    domain: "Corporate website / CMS",
+    problem: "All website content needed to be managed through a single administration panel.",
+    summary: "A CMS-based corporate website built with a Next.js frontend and Spring Boot backend, with all site content managed through an administration panel.",
+    impact: "All site content can be managed from the administration panel.",
+  },
   "tam-finans-fintech": { domain: "Fintech", problem: "A fintech team needed to manage mobile users, an admin dashboard and secure services through one product flow.", summary: "A multi-platform fintech system built with a Spring Boot backend, Flutter mobile app and React management dashboard.", impact: "Encrypted messaging, quizzes, audit logs, push notifications and local business discovery were integrated." },
   "smart-hospital": { domain: "Healthcare", problem: "Patient, staff and management flows had to work together even with limited hospital infrastructure.", summary: "An integrated healthcare platform with patient and staff mobile apps, a desktop admin panel and Spring Boot backend.", impact: "Designed to support real-time guidance and emergency coordination in low-connectivity environments." },
   "petnest-platform": { domain: "Marketplace", problem: "Venue discovery, user trust and business management needed to scale within one secure product.", summary: "A pet-friendly venue discovery platform built with a Spring Boot REST API, Flutter app and React dashboard.", impact: "Secured with JWT/Argon2id authentication, TOTP 2FA, rate limiting and automated backups." },
@@ -16,6 +22,12 @@ const en: Record<string, ProjectCopy> = {
 };
 
 const de: Record<string, ProjectCopy> = {
+  "zirve-cilingir": {
+    domain: "Unternehmenswebsite / CMS",
+    problem: "Sämtliche Website-Inhalte sollten über ein zentrales Administrationspanel verwaltet werden.",
+    summary: "Eine CMS-basierte Unternehmenswebsite mit Next.js-Frontend und Spring-Boot-Backend, deren gesamte Inhalte über ein Administrationspanel verwaltet werden.",
+    impact: "Alle Website-Inhalte lassen sich über das Administrationspanel verwalten.",
+  },
   "tam-finans-fintech": { domain: "Fintech", problem: "Mobile Nutzer, Admin-Oberfläche und sichere Services mussten in einem Produktablauf verwaltet werden.", summary: "Ein plattformübergreifendes Fintech-System mit Spring-Boot-Backend, Flutter-App und React-Dashboard.", impact: "Verschlüsselte Nachrichten, Quizmodule, Audit-Logs, Push-Nachrichten und lokale Firmensuche wurden integriert." },
   "smart-hospital": { domain: "Gesundheit", problem: "Patienten-, Personal- und Verwaltungsabläufe mussten auch bei schwacher Infrastruktur gemeinsam funktionieren.", summary: "Eine integrierte Gesundheitsplattform mit mobilen Apps, Desktop-Verwaltung und Spring-Boot-Backend.", impact: "Für Echtzeit-Navigation und Notfallkoordination in Umgebungen mit geringer Konnektivität konzipiert." },
   "petnest-platform": { domain: "Marktplatz", problem: "Standortsuche, Nutzervertrauen und Unternehmensverwaltung mussten sicher in einem Produkt skalieren.", summary: "Eine Plattform für tierfreundliche Orte mit Spring Boot REST API, Flutter-App und React-Dashboard.", impact: "Abgesichert durch JWT/Argon2id, TOTP-2FA, Rate Limiting und automatische Backups." },

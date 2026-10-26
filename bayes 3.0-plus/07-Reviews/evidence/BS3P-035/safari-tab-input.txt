@@ -1,0 +1,4 @@
+						9 metin BS3P035 /iletisim
+ACTIVE INPUT# tabindex=null focus=true visible=true outline=solid/2px/rgb(40, 91, 214) border=1px bounds=402x50
+MAIN MAIN#main-content tabindex=-1 focus=false visible=false outline=none/3px/rgb(32, 45, 61) border=0px bounds=1342x1458
+LAST INPUT# tabindex=null focus=true visible=true outline=solid/2px/rgb(40, 91, 214) border=1px bounds=402x50

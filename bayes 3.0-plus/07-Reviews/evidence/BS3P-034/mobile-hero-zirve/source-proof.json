@@ -1,0 +1,50 @@
+{
+  "records": {
+    "site": {
+      "projects": {
+        "before": 9,
+        "after": 10
+      }
+    },
+    "details": {
+      "projectDetails": {
+        "before": 8,
+        "after": 9
+      }
+    },
+    "translations": {
+      "en": {
+        "before": 9,
+        "after": 10
+      },
+      "de": {
+        "before": 9,
+        "after": 10
+      }
+    }
+  },
+  "protected": {
+    "data/references.ts": true,
+    "lib/homepage/reference-links.ts": true,
+    "lib/homepage/reference-sizing.ts": true,
+    "components/homepage/ReferencesMarquee.tsx": true,
+    "components/homepage/useMobileReferenceMarquee.ts": true,
+    "components/homepage/Header.tsx": true,
+    "components/homepage/MotionControl.tsx": true,
+    "components/homepage/MotionProvider.tsx": true,
+    "components/homepage/HeroPrism.tsx": true,
+    "components/homepage/HeroSystemScene.tsx": true,
+    "lib/homepage/system/scene.ts": true,
+    "lib/homepage/mobile-hero-motion.ts": true,
+    "components/homepage/SelectedProjects.tsx": true,
+    "components/ProjectDetailView.tsx": true
+  },
+  "logoCopiesEqual": true,
+  "typecheck": 0,
+  "targetedLint": 0,
+  "productionBuild": {
+    "exitCode": 0,
+    "files": 688,
+    "prototypeArtifacts": 0
+  }
+}

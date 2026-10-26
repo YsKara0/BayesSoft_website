@@ -1,0 +1,110 @@
+[
+  {
+    "name": "after-01-home-projects",
+    "state": "7 container BS3P036 /projeler y=0 header=24 main=80 active=MAIN#main-content smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "after-02-projects-services",
+    "state": "7 container BS3P036 /hizmetler y=0 header=24 main=80 active=MAIN#main-content smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "after-03-services-about",
+    "state": "7 container BS3P036 /hakkimizda y=0 header=24 main=80 active=MAIN#main-content smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "after-04-about-contact",
+    "state": "7 container BS3P036 /iletisim y=0 header=24 main=80 active=MAIN#main-content smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "after-05-detail-projects",
+    "state": "7 container BS3P036 /projeler y=0 header=24 main=80 active=MAIN#main-content smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "history-projects-scrolled",
+    "state": "7 container BS3P036 /projeler y=793 header=-769 main=-713 active=MAIN#main-content smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "after-07-midpage-detail",
+    "state": "7 container BS3P036 /projeler/furtherup-drive y=0 header=24 main=80 active=MAIN#main-content smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "after-06-back",
+    "state": "7 container BS3P036 /projeler y=793 header=-769 main=-713 active=BODY smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "after-06-forward",
+    "state": "7 container BS3P036 /projeler/furtherup-drive y=0 header=24 main=80 active=BODY smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "refresh-before",
+    "state": "7 container BS3P036 /projeler/furtherup-drive y=793 header=-769 main=-713 active=BODY smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "after-08-refresh-middle",
+    "state": "7 container BS3P036 /projeler/furtherup-drive y=853 header=-829 main=-773 active=BODY smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "refresh-services-before",
+    "state": "7 container BS3P036 /hizmetler y=0 header=24 main=80 active=BODY smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "refresh-services-before",
+    "state": "7 container BS3P036 /hizmetler y=0 header=24 main=80 active=BODY smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "refresh-services-before",
+    "state": "7 container BS3P036 /hizmetler y=793 header=-769 main=-713 active=MAIN#main-content smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "after-08-refresh-middle-services",
+    "state": "7 container BS3P036 /hizmetler y=760 header=-736 main=-680 active=BODY smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "after-scrolled-header-nav",
+    "state": "7 container BS3P036 /hakkimizda y=0 header=24 main=80 active=MAIN#main-content smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "after-keyboard-control",
+    "state": "7 container BS3P036 /hakkimizda y=1300 header=-1276 main=-1220 active=BUTTON smooth=smooth restore=auto ring=solid/2px"
+  },
+  {
+    "name": "refresh-tr-before",
+    "state": "7 container BS3P036 /hizmetler y=793 header=-769 main=-713 active=MAIN#main-content smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "after-08-refresh-tr",
+    "state": "7 container BS3P036 /hizmetler y=793 header=-769 main=-713 active=BODY smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "after-tr-header-nav",
+    "state": "7 container BS3P036 /hakkimizda y=0 header=24 main=80 active=MAIN#main-content smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "after-tr-back",
+    "state": "7 container BS3P036 /hizmetler y=0 header=24 main=80 active=MAIN#main-content smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "after-tr-forward",
+    "state": "7 container BS3P036 /hakkimizda y=0 header=24 main=80 active=BODY smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "refresh-top-before",
+    "state": "7 container BS3P036 /hizmetler y=0 header=24 main=80 active=MAIN#main-content smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "after-08-refresh-top",
+    "state": "7 container BS3P036 /hizmetler y=0 header=24 main=80 active=BODY smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "baseline-en-refresh-before",
+    "state": "7 container BS3P036 /hizmetler y=793 header=-769 main=-713 active=MAIN#main-content smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "baseline-en-refresh-after",
+    "state": "7 container BS3P036 /hizmetler y=760 header=-736 main=-680 active=BODY smooth=smooth restore=auto ring=none/3px"
+  },
+  {
+    "name": "final-services-projects",
+    "state": "7 container BS3P036 /projeler y=0 header=24 main=80 active=MAIN#main-content smooth=smooth restore=auto ring=none/3px"
+  }
+]

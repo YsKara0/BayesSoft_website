@@ -239,7 +239,7 @@ Kullanıcı mevcut sonucu kabul edip seçici commit/push istedi. TS/lint/build/e
 
 | ID | Görev | Durum | Bağımlılık / kabul ölçütü |
 |---|---|---|---|
-| BS3P-033 (mobile hero) | Yalnız mobil bütünleşik hero ve sürekli dönüşüm animasyonu | R3 approved — production integrated, preflight passed; release authorized | [[BS3P-033-MOBILE-UNIFIED-HERO]];izole rota/SVG20s;48hizmetgörünümü/12dil-boyut,senkronbaşlık,CLS0/desktop1440-1920pixel0/motion/SSR/breakpoint/TS-lintpassed;WebKit unavailable,cihazperf açık;production/commit/push/deploy yok. Önceki033hizmet görevi kaydı korunur |
+| BS3P-033 (mobile hero) | Yalnız mobil bütünleşik hero ve sürekli dönüşüm animasyonu | completed — R3 integrated and published; Pages build/deploy success | [[BS3P-033-MOBILE-UNIFIED-HERO]];izole rota/SVG20s;48hizmetgörünümü/12dil-boyut,senkronbaşlık,CLS0/desktop1440-1920pixel0/motion/SSR/breakpoint/TS-lintpassed;WebKit unavailable,cihazperf açık;production/commit/push/deploy yok. Önceki033hizmet görevi kaydı korunur |
 
 ### BS3P-033 mobile R2 — 2026-10-24
 R1görselkabul edilmedi;aynıyönrevize.Üçkatman/büyükürün/veri→satırdönüşümü.12mobil+kısaekran/motion/SSR/CLS/TS-lintpassed;desktop1440/1920pixel0;WebKit unavailable/cihazperf açık. R2kanıtları/raporgüncel;yalnızyerelgörselonaybeklenir.
@@ -249,3 +249,39 @@ R2yaklaşık6.5/10 kullanıcı değerlendirmesi;R3aynısisteminWeb/Mobil/AI/Öze
 
 ### BS3P-033 production release — 2026-10-24
 Kullanıcı R3onayı/production+commit-push-Pageyetkisi. OrtakmobilSVG/timelineentegre;12mobil/nav-ref-gallery/motion/TS-lint-build-exportpassed;mobile390/desktop1440-1920pixel0. Bu kayıt commitöncesi;SHA/Pages sonucu finalteslimde. Canlıtest yok;kullanıcısonkontrol.
+
+### BS3P-033 yayın sonucu
+Yayın tamamlandı: `adeed1904371f2b38d69cfcb1a46c72ddd3a0d31` origin/master ile eşit; [Pages #40098010607](https://github.com/YsKara0/BayesSoft_website/actions/runs/40098010607) build+deploy success. Canlı site açılmadı; son mobil kontrol kullanıcıda. Bu kesin sonuç yayın sonrası yerel kayıttır; ikinci dokümantasyon commit'i yapılmadı.
+
+
+## BS3P-034 — Mobil Hero Kontrolü ve Zirve Çilingir (2026-10-25)
+
+| ID | Görev | Durum | Kanıt / sınır |
+|---|---|---|---|
+| BS3P-034 (Zirve) | Mobil kontrolü kaldır;Zirve katalog/detay entegrasyonu | local implementation — visual acceptance pending | [[BS3P-034-MOBILE-HERO-ZIRVE-CILINGIR]];5kaynak/3dil/statik-sitemap/375-390mobile/1440desktop0pixel/TS-lint-buildpassed;referans zaten vardı,korundu;yayın yok. Eski034stats/footer kaydı ayrı tutulur |
+
+### BS3P-034 ek kapsam — 2026-10-26 ekip unvanları
+Yerelde hazır/onaybekler. MerkeziTR/EN/DEunvan sözlüğü;mevcut5kişi eşleşmeleri korunur;kart/modal/altmetin aynıçeviri.1440/375×3dil30kart30modal/yenilemesiz/taşma/Escape-focus/TS-lintpassed. Önceki034kapsamıkorunur;commit/push/deployyok. [[BS3P-034-MOBILE-HERO-ZIRVE-CILINGIR|Rapor]].
+
+
+## BS3P-035 — Sitewide Safari Blue Outline Fix (2026-10-26)
+
+| ID | Görev | Durum | Kanıt / sınır |
+|---|---|---|---|
+| BS3P-035 | Ortak main focus çerçevesini kaldır; gerçek kontrol odaklarını koru | local fix verified — user acceptance pending | [[BS3P-035-SITEWIDE-SAFARI-FOCUS-OUTLINE]];native Safari12durum+3kontrol/Chromium/TS-lint-CSS passed;yalnız globals.css;034korunur;commit/push/deploy yok |
+
+
+## BS3P-036 — Safari Header Navigation Scroll (2026-10-26)
+
+| ID | Görev | Durum | Kanıt / sınır |
+|---|---|---|---|
+| BS3P-036 | Safari normal navigasyonda header kaymasını gider | local fix verified — user acceptance pending | [[BS3P-036-SAFARI-HEADER-NAVIGATION-SCROLL]];nativefocuskökneden/6geçiş/history/TRrefresh/Chromium/TS-lintpassed;ENreloadmevcut33pxfarkA/B;034/035korunur;yayınyok |
+
+
+## BS3P-037 — Toplu production release (2026-10-27)
+
+| ID | Görev | Durum | Kanıt / sınır |
+|---|---|---|---|
+| BS3P-037 | Batuhan unvanı ve034/035/036tek release | preflight passed — release authorized | [[BS3P-037-TEAM-TITLE-PRODUCTION-RELEASE]];30kart/6modal/3dil/Zirve/ref/motion/TS-lint-build688passed;kesinSHA/Pagesbekleniyor;canlıkontrolkullanıcıda |
+
+034/035/036 kullanıcı tarafından037talebinde onaylandı;önceki pending kayıtlar tarihsel olarak korunur. Bu satır yayın öncesidir.

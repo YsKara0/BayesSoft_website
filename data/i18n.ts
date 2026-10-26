@@ -1,6 +1,14 @@
 import { createHomepageTranslations } from "./homepage";
+import { teamMembers } from "./site";
 
 export type Locale = "tr" | "en" | "de";
+
+const teamRoleLabels: Record<string, Record<Locale, string>> = {
+  "Full-Stack Developer": { tr: "Full-Stack Geliştirici", en: "Full-Stack Developer", de: "Full-Stack-Entwickler" },
+  "Backend Developer": { tr: "Backend Geliştirici", en: "Backend Developer", de: "Backend-Entwickler" },
+  "Mobile Developer": { tr: "Mobil Uygulama Geliştiricisi", en: "Mobile Developer", de: "Mobile-Entwickler" },
+};
+const teamRoles = (locale: Locale) => teamMembers.map(({ role }) => teamRoleLabels[role]?.[locale] ?? role);
 
 const tr = {
   language: { label: "Dil", names: { tr: "Türkçe", en: "English", de: "Deutsch" } },
@@ -101,7 +109,7 @@ const tr = {
     projects: { eyebrow: "Projeler", title: "Geliştirdiğimiz ürünler ve teknik çalışmalar.", body: "Her projeyi çözdüğü problem, kurduğu sistem ve ürettiği ölçülebilir etki üzerinden anlatıyoruz." },
     contact: { eyebrow: "İletişim", title: "Yeni projeniz ya da ürün fikriniz için konuşalım.", body: "İhtiyacınız kurumsal panel, mobil uygulama, yapay zeka entegrasyonu veya mevcut sistem modernizasyonu olabilir. İlk adım net bir teknik çerçeve çıkarmak." },
   },
-  team: { eyebrow: "Ekip", title: "Biz Kimiz", intro: "İsmimiz kurucuların isimlerinin baş harflerinden gelir. Ölçeklenebilir projelerimizin mimarlarını daha yakından tanıyın.", more: "Daha fazla", close: "Ekip üyesi detaylarını kapat", roles: ["Full-Stack Developer", "Backend Developer", "Mobile Developer", "Full-Stack Developer", "Backend Developer"], bios: [
+  team: { eyebrow: "Ekip", title: "Biz Kimiz", intro: "İsmimiz kurucuların isimlerinin baş harflerinden gelir. Ölçeklenebilir projelerimizin mimarlarını daha yakından tanıyın.", more: "Daha fazla", close: "Ekip üyesi detaylarını kapat", roles: teamRoles("tr"), bios: [
     "Web ve mobil ürünlerde deneyimli; ürün akışlarını hızlı ve güvenilir arayüzlere dönüştüren bir geliştirici. Mobil uygulama tasarımı ve donanım alanlarında da tecrübelidir.",
     "Karmaşık iş kurallarını sürdürülebilir servis mimarilerine, güvenli API katmanlarına ve anlaşılır veri akışlarına dönüştürür. Veritabanı, sistem tasarımı ve ürün yönetiminde deneyimlidir.",
     "Ürün fikrini mobil deneyim, teknik planlama ve üretime hazır sistemler arasında bütünlüklü bir yapıya taşır. Kullanıcı deneyimi, mobil güvenlik ve oyun geliştirme alanlarında çalışır.",
@@ -174,7 +182,7 @@ const en = {
     projects: { eyebrow: "Projects", title: "Products and technical work we have delivered.", body: "We present every project through the problem it solves, the system it builds and the measurable impact it creates." },
     contact: { eyebrow: "Contact", title: "Let’s talk about your next project or product idea.", body: "Whether you need an enterprise dashboard, mobile app, AI integration or system modernization, the first step is a clear technical frame." },
   },
-  team: { eyebrow: "Team", title: "Who We Are", intro: "Our name comes from the founders’ initials. Meet the people behind our scalable products.", more: "Learn more", close: "Close team member details", roles: ["Full-Stack Developer", "Backend Developer", "Mobile Developer", "Full-Stack Developer", "Backend Developer"], bios: [
+  team: { eyebrow: "Team", title: "Who We Are", intro: "Our name comes from the founders’ initials. Meet the people behind our scalable products.", more: "Learn more", close: "Close team member details", roles: teamRoles("en"), bios: [
     "An experienced web and mobile developer who turns product flows into fast, reliable interfaces, with additional experience in mobile design and hardware.",
     "Transforms complex business rules into sustainable service architectures, secure APIs and clear data flows, with experience in databases, system design and product management.",
     "Connects product ideas, mobile experiences, technical planning and production-ready systems, with expertise in user experience, mobile security and game development.",
@@ -245,7 +253,7 @@ const de = {
     projects: { eyebrow: "Projekte", title: "Produkte und technische Lösungen, die wir realisiert haben.", body: "Jedes Projekt erklären wir über sein Problem, das entwickelte System und seine messbare Wirkung." },
     contact: { eyebrow: "Kontakt", title: "Sprechen wir über Ihr nächstes Projekt oder Ihre Produktidee.", body: "Ob Unternehmens-Dashboard, mobile App, KI-Integration oder Modernisierung: Der erste Schritt ist ein klarer technischer Rahmen." },
   },
-  team: { eyebrow: "Team", title: "Wer wir sind", intro: "Unser Name stammt aus den Initialen der Gründer. Lernen Sie die Menschen hinter unseren skalierbaren Produkten kennen.", more: "Mehr erfahren", close: "Details zum Teammitglied schließen", roles: ["Full-Stack-Entwickler", "Backend-Entwickler", "Mobile-Entwickler", "Full-Stack-Entwickler", "Backend-Entwickler"], bios: [
+  team: { eyebrow: "Team", title: "Wer wir sind", intro: "Unser Name stammt aus den Initialen der Gründer. Lernen Sie die Menschen hinter unseren skalierbaren Produkten kennen.", more: "Mehr erfahren", close: "Details zum Teammitglied schließen", roles: teamRoles("de"), bios: [
     "Ein erfahrener Web- und Mobile-Entwickler, der Produktabläufe in schnelle, zuverlässige Oberflächen überführt und auch Erfahrung mit Mobile Design und Hardware besitzt.",
     "Überführt komplexe Geschäftsregeln in nachhaltige Servicearchitekturen, sichere APIs und klare Datenflüsse; erfahren in Datenbanken, Systemdesign und Produktmanagement.",
     "Verbindet Produktideen, mobile Erlebnisse, technische Planung und produktionsreife Systeme mit Know-how in UX, mobiler Sicherheit und Spieleentwicklung.",

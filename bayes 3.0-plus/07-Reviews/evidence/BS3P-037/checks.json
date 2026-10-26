@@ -1,0 +1,292 @@
+{
+  "states": [
+    {
+      "width": 1440,
+      "lang": "tr",
+      "letters": "BAYES",
+      "names": [
+        "Batuhan Ersan",
+        "Ahmet B. Çınar",
+        "Yavuz Selim Kara",
+        "Enes Keleş",
+        "Sefa Ağardan"
+      ],
+      "roles": [
+        "AI Integration and Development Engineer",
+        "Backend Geliştirici",
+        "Mobil Uygulama Geliştiricisi",
+        "Full-Stack Geliştirici",
+        "Backend Geliştirici"
+      ],
+      "images": [
+        "/team/batuhan_ersan.jpg",
+        "/team/bugrahan_cinar.jpeg",
+        "/team/yavuz_selim_kara.jpg",
+        "/team/enes_keles.jpeg",
+        "/team/sefa_agardan.jpg"
+      ],
+      "alts": [
+        "Batuhan Ersan, AI Integration and Development Engineer",
+        "Ahmet B. Çınar, Backend Geliştirici",
+        "Yavuz Selim Kara, Mobil Uygulama Geliştiricisi",
+        "Enes Keleş, Full-Stack Geliştirici",
+        "Sefa Ağardan, Backend Geliştirici"
+      ],
+      "overflow": false,
+      "roleOverflow": false,
+      "modals": [
+        {
+          "name": "Batuhan Ersan",
+          "role": "AI Integration and Development Engineer",
+          "overflow": false
+        }
+      ],
+      "noReload": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "letters": "BAYES",
+      "names": [
+        "Batuhan Ersan",
+        "Ahmet B. Çınar",
+        "Yavuz Selim Kara",
+        "Enes Keleş",
+        "Sefa Ağardan"
+      ],
+      "roles": [
+        "AI Integration and Development Engineer",
+        "Backend Developer",
+        "Mobile Developer",
+        "Full-Stack Developer",
+        "Backend Developer"
+      ],
+      "images": [
+        "/team/batuhan_ersan.jpg",
+        "/team/bugrahan_cinar.jpeg",
+        "/team/yavuz_selim_kara.jpg",
+        "/team/enes_keles.jpeg",
+        "/team/sefa_agardan.jpg"
+      ],
+      "alts": [
+        "Batuhan Ersan, AI Integration and Development Engineer",
+        "Ahmet B. Çınar, Backend Developer",
+        "Yavuz Selim Kara, Mobile Developer",
+        "Enes Keleş, Full-Stack Developer",
+        "Sefa Ağardan, Backend Developer"
+      ],
+      "overflow": false,
+      "roleOverflow": false,
+      "modals": [
+        {
+          "name": "Batuhan Ersan",
+          "role": "AI Integration and Development Engineer",
+          "overflow": false
+        }
+      ],
+      "noReload": true
+    },
+    {
+      "width": 1440,
+      "lang": "de",
+      "letters": "BAYES",
+      "names": [
+        "Batuhan Ersan",
+        "Ahmet B. Çınar",
+        "Yavuz Selim Kara",
+        "Enes Keleş",
+        "Sefa Ağardan"
+      ],
+      "roles": [
+        "AI Integration and Development Engineer",
+        "Backend-Entwickler",
+        "Mobile-Entwickler",
+        "Full-Stack-Entwickler",
+        "Backend-Entwickler"
+      ],
+      "images": [
+        "/team/batuhan_ersan.jpg",
+        "/team/bugrahan_cinar.jpeg",
+        "/team/yavuz_selim_kara.jpg",
+        "/team/enes_keles.jpeg",
+        "/team/sefa_agardan.jpg"
+      ],
+      "alts": [
+        "Batuhan Ersan, AI Integration and Development Engineer",
+        "Ahmet B. Çınar, Backend-Entwickler",
+        "Yavuz Selim Kara, Mobile-Entwickler",
+        "Enes Keleş, Full-Stack-Entwickler",
+        "Sefa Ağardan, Backend-Entwickler"
+      ],
+      "overflow": false,
+      "roleOverflow": false,
+      "modals": [
+        {
+          "name": "Batuhan Ersan",
+          "role": "AI Integration and Development Engineer",
+          "overflow": false
+        }
+      ],
+      "noReload": true
+    },
+    {
+      "width": 375,
+      "lang": "tr",
+      "letters": "BAYES",
+      "names": [
+        "Batuhan Ersan",
+        "Ahmet B. Çınar",
+        "Yavuz Selim Kara",
+        "Enes Keleş",
+        "Sefa Ağardan"
+      ],
+      "roles": [
+        "AI Integration and Development Engineer",
+        "Backend Geliştirici",
+        "Mobil Uygulama Geliştiricisi",
+        "Full-Stack Geliştirici",
+        "Backend Geliştirici"
+      ],
+      "images": [
+        "/team/batuhan_ersan.jpg",
+        "/team/bugrahan_cinar.jpeg",
+        "/team/yavuz_selim_kara.jpg",
+        "/team/enes_keles.jpeg",
+        "/team/sefa_agardan.jpg"
+      ],
+      "alts": [
+        "Batuhan Ersan, AI Integration and Development Engineer",
+        "Ahmet B. Çınar, Backend Geliştirici",
+        "Yavuz Selim Kara, Mobil Uygulama Geliştiricisi",
+        "Enes Keleş, Full-Stack Geliştirici",
+        "Sefa Ağardan, Backend Geliştirici"
+      ],
+      "overflow": false,
+      "roleOverflow": false,
+      "modals": [
+        {
+          "name": "Batuhan Ersan",
+          "role": "AI Integration and Development Engineer",
+          "overflow": false
+        }
+      ],
+      "noReload": true
+    },
+    {
+      "width": 375,
+      "lang": "en",
+      "letters": "BAYES",
+      "names": [
+        "Batuhan Ersan",
+        "Ahmet B. Çınar",
+        "Yavuz Selim Kara",
+        "Enes Keleş",
+        "Sefa Ağardan"
+      ],
+      "roles": [
+        "AI Integration and Development Engineer",
+        "Backend Developer",
+        "Mobile Developer",
+        "Full-Stack Developer",
+        "Backend Developer"
+      ],
+      "images": [
+        "/team/batuhan_ersan.jpg",
+        "/team/bugrahan_cinar.jpeg",
+        "/team/yavuz_selim_kara.jpg",
+        "/team/enes_keles.jpeg",
+        "/team/sefa_agardan.jpg"
+      ],
+      "alts": [
+        "Batuhan Ersan, AI Integration and Development Engineer",
+        "Ahmet B. Çınar, Backend Developer",
+        "Yavuz Selim Kara, Mobile Developer",
+        "Enes Keleş, Full-Stack Developer",
+        "Sefa Ağardan, Backend Developer"
+      ],
+      "overflow": false,
+      "roleOverflow": false,
+      "modals": [
+        {
+          "name": "Batuhan Ersan",
+          "role": "AI Integration and Development Engineer",
+          "overflow": false
+        }
+      ],
+      "noReload": true
+    },
+    {
+      "width": 375,
+      "lang": "de",
+      "letters": "BAYES",
+      "names": [
+        "Batuhan Ersan",
+        "Ahmet B. Çınar",
+        "Yavuz Selim Kara",
+        "Enes Keleş",
+        "Sefa Ağardan"
+      ],
+      "roles": [
+        "AI Integration and Development Engineer",
+        "Backend-Entwickler",
+        "Mobile-Entwickler",
+        "Full-Stack-Entwickler",
+        "Backend-Entwickler"
+      ],
+      "images": [
+        "/team/batuhan_ersan.jpg",
+        "/team/bugrahan_cinar.jpeg",
+        "/team/yavuz_selim_kara.jpg",
+        "/team/enes_keles.jpeg",
+        "/team/sefa_agardan.jpg"
+      ],
+      "alts": [
+        "Batuhan Ersan, AI Integration and Development Engineer",
+        "Ahmet B. Çınar, Backend-Entwickler",
+        "Yavuz Selim Kara, Mobile-Entwickler",
+        "Enes Keleş, Full-Stack-Entwickler",
+        "Sefa Ağardan, Backend-Entwickler"
+      ],
+      "overflow": false,
+      "roleOverflow": false,
+      "modals": [
+        {
+          "name": "Batuhan Ersan",
+          "role": "AI Integration and Development Engineer",
+          "overflow": false
+        }
+      ],
+      "noReload": true
+    }
+  ],
+  "errors": [],
+  "home375": {
+    "mobileButtons": 0,
+    "desktopMotion": 0,
+    "logo": true,
+    "outlineRule": true,
+    "margin": "76px"
+  },
+  "home1440": {
+    "mobileButtons": 0,
+    "desktopMotion": 1,
+    "logo": true,
+    "outlineRule": true,
+    "margin": "88px"
+  },
+  "zirvetr": {
+    "title": "Zirve Çilingir",
+    "canonical": "https://bayessoft.com.tr/projeler/zirve-cilingir",
+    "galleryImages": 0
+  },
+  "zirveen": {
+    "title": "Zirve Çilingir",
+    "canonical": "https://bayessoft.com.tr/projeler/zirve-cilingir",
+    "galleryImages": 0
+  },
+  "zirvede": {
+    "title": "Zirve Çilingir",
+    "canonical": "https://bayessoft.com.tr/projeler/zirve-cilingir",
+    "galleryImages": 0
+  }
+}

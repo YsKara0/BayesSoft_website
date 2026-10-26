@@ -1,3 +1,39 @@
+# BS3P-037 — Yetkili toplu yayın — 2026-10-27
+
+Allowlist/cachedcheck sonrası tek `feat: add Zirve Cilingir and polish site experience` commit ve origin/master push. Pagesbuild/deploy sonucu doğrulanacak;canlısite tarayıcıda açılmayacak. Soncanlıkontrol kullanıcıda. Yayınsonrası ikincidokcommit veya başka geliştirme yok. Preflight geçti;033ayrıhandoff/kişiseluntracked dosyaları koru.
+
+## Önceki kayıtlar
+
+# BS3P-036 — Yerel Safari navigasyon düzeltmesi onayı — 2026-10-26
+
+http://localhost:3033;[[../04-Development/BS3P-036-SAFARI-HEADER-NAVIGATION-SCROLL|rapor]] nativeSafariönce/sonra vehistorykanıtlarınıiçerir. Kullanıcıonayıbeklenir;034/035çalışmalarıaynı. ENreload'daki mevcut33pxanchoring farkı düzeltme olmadan da doğrulandı;ayrı kapsam olmadan dil/restoration sistemi değiştirilmez. Commit/push/deploy veya yeni görev başlatma.
+
+## Önceki kayıtlar
+
+# BS3P-035 — Yerel Safari düzeltmesi onayı — 2026-10-26
+
+http://localhost:3033 üzerinde ortak main focus çerçevesi düzeltmesi hazır. Gerçek Safari ve Chromium hedefli kontrolleri geçti; [[../04-Development/BS3P-035-SITEWIDE-SAFARI-FOCUS-OUTLINE|rapor]] önce/sonra kanıtlarını içerir. BS3P-034 görsel onay süreci ve mevcut handoff kayıtları korunur. Kullanıcı talimatı olmadan commit/push/deploy veya yeni geliştirme yok.
+
+## Önceki kayıtlar
+
+# BS3P-034 — Ekip unvanları görsel onayı — 2026-10-26
+
+http://localhost:3033/hakkimizda üzerinde TR/EN/DE ekip kartları ve profilleri değerlendir. Güncel034kapsamı önceki mobilhero/Zirve değişikliklerini de korur. Önceki3038statikönizleme ekip ekini içermez. Ayrı kullanıcı onayı olmadan commit/push/deploy yok.
+
+## Önceki kayıtlar
+
+# BS3P-034 — Yerel görsel onay — 2026-10-25
+
+http://localhost:3038 üzerinden mobil hero, /projeler ve /projeler/zirve-cilingir görünümünü değerlendir. [[../04-Development/BS3P-034-MOBILE-HERO-ZIRVE-CILINGIR|Rapor]] testleri ve ekranları içerir. Görseller gelince aynı screenshots dizisine eklenebilir; şimdilik boş galeri yok. Kullanıcı görsel onayı beklenir;commit/push/deploy yok.
+
+## Önceki kayıtlar
+
+# BS3P-033 — Kullanıcı canlı mobil kontrolü — 2026-10-24
+
+Onaylı R3 canlıya çıktı; Pages build/deploy success. Canlı son kontrol kullanıcıda. Yeni geliştirme/yayın veya ikinci dokümantasyon commit’i yapılmayacak.
+
+## Önceki kayıtlar
+
 # BS3P-033 — yetkili release / kullanıcı canlı kontrolü — 2026-10-24
 
 Seçici staged liste+cached diff kontrolü ardından `feat: integrate unified mobile hero` commit'i ve origin/master push. Yalnız GitHub Pages workflow sonucu doğrulanır; canlı site/test/kayıt açılmaz. Kullanıcı canlı mobil son kontrolü yapacak. İkinci dokümantasyon commit'i veya başka geliştirme yok. Yayın öncesi kontroller temizdir; bu kayıt commit öncesidir.

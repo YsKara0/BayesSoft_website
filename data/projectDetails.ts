@@ -14,6 +14,21 @@ export type ProjectDetail = {
 };
 
 export const projectDetails: Record<string, ProjectDetail> = {
+  "zirve-cilingir": {
+    title: "Zirve Çilingir",
+    domain: "Kurumsal web / CMS",
+    slug: "zirve-cilingir",
+    overview: "Next.js frontend ve Spring Boot backend ile geliştirilen, tüm site içerikleri yönetim panelinden yönetilebilen CMS tabanlı kurumsal web sitesi.",
+    problem: "Web sitesinin tüm içeriklerinin tek bir yönetim panelinden yönetilmesi gerekiyordu.",
+    solution: "Next.js frontend ve Spring Boot backend ile CMS tabanlı bir web sitesi geliştirildi. Site içeriklerinin tamamı yönetim panelinden yönetilebilir.",
+    keyFeatures: [
+      "Frontend: Next.js tabanlı web arayüzü.",
+      "Backend: Spring Boot tabanlı uygulama katmanı.",
+      "İçerik yönetimi: Tüm site içeriklerinin yönetim panelinden yönetilmesi.",
+    ],
+    techStack: ["Next.js", "Spring Boot", "CMS"],
+    screenshots: [],
+  },
   "tam-finans-fintech": {
     title: "Tam Finans Multi-Platform Fintech System",
     domain: "Fintech",

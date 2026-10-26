@@ -1,0 +1,164 @@
+Window: "Kurumsal Yazılım Hizmetleri | BayesSoft", App: Safari.
+0 standart pencere Kurumsal Yazılım Hizmetleri | BayesSoft, ID: SafariWindow?IsSecure=false&UUID=2C338547-194E-4266-AAC9-8FECC9496232, Secondary Actions: Raise
+	1 ayırma grubu
+		2 ayırıcı (disabled, settable, float) -1
+		3 sekme grubu
+			4 sarma alanı
+				5 HTML içerik Description: Kurumsal Yazılım Hizmetleri | BayesSoft, URL: localhost:3033/hizmetler
+					6 container
+						7 container BS3P036 /hizmetler y=793 header=-769 main=-713 active=BODY smooth=smooth restore=auto ring=none/3px
+							8 metin BS3P036 /hizmetler y=793 header=-769 main=-713 active=BODY smooth=smooth restore=auto ring=none/3px
+						9 container 0 probe ready
+							10 metin 0 probe ready
+						11 container 170 pageshow persisted=false /hizmetler y=0 header=24 main=80 active=BODY smooth=smooth restore=auto ring=none/3px
+							12 metin 170 pageshow persisted=false /hizmetler y=0 header=24 main=80 active=BODY smooth=smooth restore=auto ring=none/3px
+						13 container 181 scroll /hizmetler y=793 header=-769 main=-713 active=BODY smooth=smooth restore=auto ring=none/3px
+							14 metin 181 scroll /hizmetler y=793 header=-769 main=-713 active=BODY smooth=smooth restore=auto ring=none/3px
+						15 container 193 replaceState /hizmetler y=793 header=-769 main=-713 active=BODY smooth=smooth restore=auto ring=none/3px
+							16 metin 193 replaceState /hizmetler y=793 header=-769 main=-713 active=BODY smooth=smooth restore=auto ring=none/3px
+					17 link İçeriğe geç, Value: localhost:3033/hizmetler#main-content
+					18 container
+						19 link BayesSoft ana sayfa, Value: localhost:3033/
+						20 container Ana gezinme
+							21 link Ana Sayfa, Value: localhost:3033/
+							22 link Projeler, Value: localhost:3033/projeler
+							23 link Hizmetler, Value: localhost:3033/hizmetler
+							24 link Hakkımızda, Value: localhost:3033/hakkimizda
+							25 link İletişim, Value: localhost:3033/iletisim
+						26 container Dil
+							27 düğmeyi aç/kapat Türkçe, Value: on
+							28 düğmeyi aç/kapat English, Value: off
+							29 düğmeyi aç/kapat Deutsch, Value: off
+						30 link Birlikte çalışalım, Value: mailto:info@bayessoft.com.tr
+					31 container
+						32 container Kurumsal ürünleri uçtan uca tasarlayan yazılım hizmetleri.
+							33 metin Hizmetler
+							34 başlık Kurumsal ürünleri uçtan uca tasarlayan yazılım hizmetleri., Value: 1
+								35 metin Kurumsal ürünleri uçtan uca tasarlayan yazılım hizmetleri.
+							36 metin Web panellerinden mobil uygulamalara, yapay zeka entegrasyonlarından bulut altyapısına kadar ürünün ihtiyacı olan parçaları aynı sistem içinde kuruyoruz.
+						37 container Ürünü yalnızca kodlamıyor, sistem olarak kuruyoruz.
+							38 metin Hizmetler
+							39 başlık Ürünü yalnızca kodlamıyor, sistem olarak kuruyoruz., Value: 2
+								40 metin Ürünü yalnızca kodlamıyor, sistem olarak kuruyoruz.
+							41 metin Backend, mobil, panel, güvenlik ve yapay zeka katmanlarını birbirinden kopuk işler gibi değil; aynı ürün mimarisinin parçaları olarak ele alıyoruz.
+							42 container Kurumsal Yazılım Geliştirme
+								43 başlık Kurumsal Yazılım Geliştirme, Value: 3
+									44 metin Kurumsal Yazılım Geliştirme
+								45 metin Operasyonel ihtiyaçları ölçülebilir, güvenli ve bakımı kolay web sistemlerine dönüştürüyoruz.
+								46 metin Teslim: yönetim paneli, rol bazlı yetkilendirme, API dokümantasyonu ve sürdürülebilir backend yapısı.
+								47 container
+									48 container Admin panelleri
+									49 container REST API tasarımı
+									50 container Veritabanı mimarisi
+							51 container Mobil Ürün Mühendisliği
+								52 başlık Mobil Ürün Mühendisliği, Value: 3
+									53 metin Mobil Ürün Mühendisliği
+								54 metin Flutter tabanlı mobil uygulamaları backend servisleri ve yönetim panelleriyle birlikte uçtan uca kurguluyoruz.
+								55 metin Teslim: iOS/Android uygulama, bildirim akışları, backend bağlantıları ve yayın öncesi test paketi.
+								56 container
+									57 container iOS / Android
+									58 container Push bildirimleri
+									59 container Offline akışlar
+							60 container Yapay Zeka ve Görü Sistemleri
+								61 başlık Yapay Zeka ve Görü Sistemleri, Value: 3
+									62 metin Yapay Zeka ve Görü Sistemleri
+								63 metin Chatbot, sınıflandırma ve bilgisayarlı görü projelerini üretim ortamına uygun güvenlik katmanlarıyla geliştiriyoruz.
+								64 metin Teslim: model entegrasyonu, güvenli kullanım katmanı, panel bağlantısı ve ölçülebilir çıktı raporu.
+								65 container
+									66 container LLM entegrasyonu
+									67 container Computer vision
+									68 container Prompt güvenliği
+							69 container Bulut, Güvenlik ve DevOps
+								70 başlık Bulut, Güvenlik ve DevOps, Value: 3
+									71 metin Bulut, Güvenlik ve DevOps
+								72 metin Sistemleri izlenebilir, yedekli, erişim kontrollü ve ölçeklenebilir hale getiren altyapı kararlarını uyguluyoruz.
+								73 metin Teslim: dağıtım akışı, depolama yapısı, erişim güvenliği, yedekleme ve ortam konfigürasyonu.
+								74 container
+									75 container Docker
+									76 container Cloud storage
+									77 container RBAC / JWT
+						78 container Dört adım. Tek bir çalışan ürün.
+							79 metin Nasıl çalışıyoruz
+							80 başlık Dört adım. Tek bir çalışan ürün., Value: 2
+								81 metin Dört adım. Tek bir çalışan ürün.
+							82 metin İhtiyacı anlar, deneyimi tasarlar, geliştirir ve birlikte büyütürüz.
+							83 container
+								84 container Anla İhtiyacı ve hedefi netleştiririz.
+									85 başlık Anla, Value: 3
+										86 metin Anla
+									87 metin İhtiyacı ve hedefi netleştiririz.
+								88 container Tasarla Çözümün yapısını kurarız.
+									89 başlık Tasarla, Value: 3
+										90 metin Tasarla
+									91 metin Çözümün yapısını kurarız.
+								92 container Geliştir Ürünü birlikte inşa ederiz.
+									93 başlık Geliştir, Value: 3
+										94 metin Geliştir
+									95 metin Ürünü birlikte inşa ederiz.
+								96 container İşlet Yayımlar, izler ve iyileştiririz.
+									97 başlık İşlet, Value: 3
+										98 metin İşlet
+									99 metin Yayımlar, izler ve iyileştiririz.
+						100 container Dijital ürüne dönüşmesi gereken bir operasyonunuz mu var?
+							101 metin Bir sonraki ürün
+							102 başlık Dijital ürüne dönüşmesi gereken bir operasyonunuz mu var?, Value: 2
+								103 metin Dijital ürüne dönüşmesi gereken bir operasyonunuz mu var?
+							104 metin İşinizin nasıl çalıştığını anlatın. Yazılımın onun etrafında nasıl çalışması gerektiğini birlikte çıkaralım.
+							105 link Birlikte geliştirelim, Value: localhost:3033/iletisim
+							106 link E-posta gönder, Value: mailto:info@bayessoft.com.tr
+					107 container Site alt bilgisi
+						108 link BayesSoft, Value: localhost:3033/
+						109 metin İş operasyonlarından yaşayan dijital ürünlere.
+						110 link info@bayessoft.com.tr, Value: mailto:info@bayessoft.com.tr
+						111 container Ana gezinme
+							112 başlık Bağlantılar, Value: 2
+								113 metin Bağlantılar
+							114 link Ana Sayfa, Value: localhost:3033/
+							115 link Projeler, Value: localhost:3033/projeler
+							116 link Hizmetler, Value: localhost:3033/hizmetler
+							117 link Hakkımızda, Value: localhost:3033/hakkimizda
+							118 link İletişim, Value: localhost:3033/iletisim
+						119 container Bizi takip edin
+							120 başlık Bizi takip edin, Value: 2
+								121 metin Bizi takip edin
+							122 link BayesSoft LinkedIn, Value: linkedin.com/company/bayessoft
+						123 metin © 2026 BayesSoft. Tüm hakları saklıdır.
+					124 açılır düğme Open Next.js Dev Tools
+				125 sarma çubuğu (settable, float) 0.3193717
+	126 container
+		127 araç çubuğu
+			128 container Secondary Actions: Öncekine taşı, Sonrakine taşı, Araç çubuğundan kaldır
+				129 düğme Description: kenar çubuğunu göster, Help: Kenar çubuğunu göster, ID: SidebarButton
+				130 menü düğmesi Description: Sekme grubu seçici, ID: TabGroupPickerButton?TabGroup=
+			131 container BackForwardSegmentedControl
+				132 düğme Description: Geri git, Help: Önceki sayfayı göster, ID: BackButton
+				133 düğme (disabled) Description: İleri git, Help: Sonraki sayfayı göster, ID: ForwardButton
+			134 container Secondary Actions: Öncekine taşı, Sonrakine taşı, Araç çubuğundan kaldır
+				135 düğme Sayfa Menüsü, ID: AssistantButton
+				136 düğme Sayfayı Okuma Listesi’ne ekle, ID: OneStepBookmarkingButton
+				137 metin alanı (settable) Description: akıllı arama alanı, Value: localhost:3033/hizmetler, ID: WEB_BROWSER_ADDRESS_AND_SEARCH_FIELD
+				138 düğme Çeviri Kullanılabilir, ID: TranslationButton
+				139 düğme Bu sayfayı yeniden yükle, ID: ReloadButton
+			140 düğme Description: Paylaş, ID: ShareButton, Secondary Actions: Öncekine taşı, Sonrakine taşı, Araç çubuğundan kaldır
+			141 düğme Description: Yeni Sekme, ID: NewTabButton, Secondary Actions: Öncekine taşı, Sonrakine taşı, Araç çubuğundan kaldır
+			142 düğme Description: Sekmelere Genel Bakış, ID: TabOverviewButton, Secondary Actions: Öncekine taşı, Araç çubuğundan kaldır
+		143 sekme grubu Description: Sekme çubuğu, 3 sekme, ID: TabBar?isSeparate=false
+			144 sekme BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ, Value: off, Secondary Actions: sekmeyi kapat, ID: TabBarTab?isNarrow=false&isExpanded=false&tabCount=&isPinned=false&isCluster=false&clusterID=&isActive=false
+				145 görüntü FaviconImageView
+				146 metin Value: BayesSoft | Dijital Ürün Mühendisliği — Web, Mobil ve Yapay Zekâ, ID: UnifiedTabBarButton._titleTextField
+			147 sekme Hakkımızda | BayesSoft, Value: off, Secondary Actions: sekmeyi kapat, ID: TabBarTab?isNarrow=false&isExpanded=false&tabCount=&isPinned=false&isCluster=false&clusterID=&isActive=false
+				148 görüntü FaviconImageView
+				149 metin Value: Hakkımızda | BayesSoft, ID: UnifiedTabBarButton._titleTextField
+			150 sekme Kurumsal Yazılım Hizmetleri | BayesSoft, Help: Bu düğmedeki öğelerle etkileşimde bulunmak için Kontrol-Option-Shift-Aşağı Ok tuşlarına basın., Value: on, Secondary Actions: sekmeyi kapat, ID: TabBarTab?isNarrow=false&isExpanded=false&tabCount=&isPinned=false&isCluster=false&clusterID=&isActive=true
+				151 görüntü FaviconImageView
+				152 metin Value: Kurumsal Yazılım Hizmetleri | BayesSoft, ID: UnifiedTabBarButton._titleTextField
+				153 düğme Description: aşağı git, ID: BrowserTabViewItem._clusteringAccessoryButton
+154 menu bar
+	155 Safari
+	156 Dosya
+	157 Düzen
+	158 Görüntü, ID: SafariViewMenu
+	159 Geçmiş
+	160 Yer İşaretleri, ID: SafariBookmarksMenu
+	161 Pencere, ID: SafariWindowMenu
+	162 Yardım, ID: SafariHelpMenu

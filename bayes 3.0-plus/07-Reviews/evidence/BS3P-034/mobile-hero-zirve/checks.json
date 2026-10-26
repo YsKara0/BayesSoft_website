@@ -1,0 +1,88 @@
+{
+  "mobile": [
+    {
+      "width": 375,
+      "buttonCount": 0,
+      "playing": true,
+      "overflow": false,
+      "reducedStatic": true
+    },
+    {
+      "width": 390,
+      "buttonCount": 0,
+      "playing": true,
+      "overflow": false,
+      "reducedStatic": true
+    }
+  ],
+  "desktop": [
+    {
+      "canvas": 1,
+      "faces": 4,
+      "control": true
+    }
+  ],
+  "project": [
+    {
+      "lang": "tr",
+      "title": "Zirve Çilingir",
+      "text": "Projelere geri dönKurumsal web / CMSZirve ÇilingirNext.js frontend ve Spring Boot backend ile geliştirilen, tüm site içerikleri yönetim panelinden yönetilebilen CMS tabanlı kurumsal web sitesi.ZÇKullanılan teknolojilerNext.jsSpring BootCMSTeknik problem ve gereksinimMimari ve teknik çözümEtkiTeknik problem ve gereksinimWeb sitesinin tüm içeriklerinin tek bir yönetim panelinden yönetilmesi gerekiyordu.Mimari ve teknik çözümNext.js frontend ve Spring Boot backend ile CMS tabanlı bir web sitesi geliştirildi. Site içeriklerinin tamamı yönetim panelinden yönetilebilir.EtkiSite içeriklerinin tamamı yönetim paneli üzerinden yönetilebiliyor.Öne çıkan özelliklerFrontend: Next.js tabanlı web arayüzü.Backend: Spring Boot tabanlı uygulama katmanı.İçerik yönetimi: Tüm site içeriklerinin yönetim panelinden yönetilmesi.",
+      "canonical": "https://bayessoft.com.tr/projeler/zirve-cilingir",
+      "description": "Next.js frontend ve Spring Boot backend ile geliştirilen, tüm site içerikleri yönetim panelinden yönetilebilen CMS tabanlı kurumsal web sitesi.",
+      "metadataTitle": "Zirve Çilingir",
+      "gallery": 0,
+      "galleryLinks": 0,
+      "broken": 0,
+      "overflow": false,
+      "catalog": true
+    },
+    {
+      "lang": "en",
+      "title": "Zirve Çilingir",
+      "text": "Back to projectsCorporate website / CMSZirve ÇilingirA CMS-based corporate website built with a Next.js frontend and Spring Boot backend, with all site content managed through an administration panel.ZÇTechnologiesNext.jsSpring BootCMSA concise version of this case study is shown in your selected language.Technical problem and requirementsArchitecture and technical solutionImpactTechnical problem and requirementsAll website content needed to be managed through a single administration panel.Architecture and technical solutionA CMS-based corporate website built with a Next.js frontend and Spring Boot backend, with all site content managed through an administration panel. All site content can be managed from the administration panel.ImpactKey featuresAll site content can be managed from the administration panel.",
+      "canonical": "https://bayessoft.com.tr/projeler/zirve-cilingir",
+      "description": "Next.js frontend ve Spring Boot backend ile geliştirilen, tüm site içerikleri yönetim panelinden yönetilebilen CMS tabanlı kurumsal web sitesi.",
+      "metadataTitle": "Zirve Çilingir",
+      "gallery": 0,
+      "galleryLinks": 0,
+      "broken": 0,
+      "overflow": false,
+      "catalog": true
+    },
+    {
+      "lang": "de",
+      "title": "Zirve Çilingir",
+      "text": "Zurück zu den ProjektenUnternehmenswebsite / CMSZirve ÇilingirEine CMS-basierte Unternehmenswebsite mit Next.js-Frontend und Spring-Boot-Backend, deren gesamte Inhalte über ein Administrationspanel verwaltet werden.ZÇTechnologienNext.jsSpring BootCMSDiese Fallstudie wird in Ihrer Sprache als kompakte Fassung angezeigt.Technisches Problem und AnforderungenArchitektur und technische LösungWirkungTechnisches Problem und AnforderungenSämtliche Website-Inhalte sollten über ein zentrales Administrationspanel verwaltet werden.Architektur und technische LösungEine CMS-basierte Unternehmenswebsite mit Next.js-Frontend und Spring-Boot-Backend, deren gesamte Inhalte über ein Administrationspanel verwaltet werden. Alle Website-Inhalte lassen sich über das Administrationspanel verwalten.WirkungKernfunktionenAlle Website-Inhalte lassen sich über das Administrationspanel verwalten.",
+      "canonical": "https://bayessoft.com.tr/projeler/zirve-cilingir",
+      "description": "Next.js frontend ve Spring Boot backend ile geliştirilen, tüm site içerikleri yönetim panelinden yönetilebilen CMS tabanlı kurumsal web sitesi.",
+      "metadataTitle": "Zirve Çilingir",
+      "gallery": 0,
+      "galleryLinks": 0,
+      "broken": 0,
+      "overflow": false,
+      "catalog": true
+    }
+  ],
+  "references": [
+    {
+      "loaded": true,
+      "width": 1680,
+      "height": 639,
+      "fit": "contain",
+      "src": "/references/zirve-cilingir.png",
+      "viewport": 375
+    },
+    {
+      "loaded": true,
+      "width": 1680,
+      "height": 639,
+      "fit": "contain",
+      "src": "/references/zirve-cilingir.png",
+      "viewport": 1440
+    }
+  ],
+  "errors": [],
+  "desktopPixelDifference": 0,
+  "sitemap": true,
+  "staticRoute": true
+}

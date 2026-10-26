@@ -1,0 +1,169 @@
+{
+  "navigation": [
+    {
+      "path": "/projeler",
+      "y": 0,
+      "headerY": 24,
+      "headerHeight": 56,
+      "mainY": 80,
+      "margin": "88px",
+      "active": "MAIN",
+      "ring": "none",
+      "restore": "auto"
+    },
+    {
+      "path": "/hizmetler",
+      "y": 0,
+      "headerY": 24,
+      "headerHeight": 56,
+      "mainY": 80,
+      "margin": "88px",
+      "active": "MAIN",
+      "ring": "none",
+      "restore": "auto"
+    },
+    {
+      "path": "/hakkimizda",
+      "y": 0,
+      "headerY": 24,
+      "headerHeight": 56,
+      "mainY": 80,
+      "margin": "88px",
+      "active": "MAIN",
+      "ring": "none",
+      "restore": "auto"
+    },
+    {
+      "path": "/iletisim",
+      "y": 0,
+      "headerY": 24,
+      "headerHeight": 56,
+      "mainY": 80,
+      "margin": "88px",
+      "active": "MAIN",
+      "ring": "none",
+      "restore": "auto"
+    },
+    {
+      "path": "/projeler",
+      "y": 0,
+      "headerY": 24,
+      "headerHeight": 56,
+      "mainY": 80,
+      "margin": "88px",
+      "active": "MAIN",
+      "ring": "none",
+      "restore": "auto"
+    },
+    {
+      "path": "/projeler/furtherup-drive",
+      "y": 0,
+      "headerY": 24,
+      "headerHeight": 56,
+      "mainY": 80,
+      "margin": "88px",
+      "active": "MAIN",
+      "ring": "none",
+      "restore": "auto"
+    }
+  ],
+  "history": [
+    {
+      "path": "/projeler",
+      "y": 683,
+      "headerY": -659,
+      "headerHeight": 56,
+      "mainY": -603,
+      "margin": "88px",
+      "active": "BODY",
+      "ring": "none",
+      "restore": "auto"
+    },
+    {
+      "path": "/projeler/furtherup-drive",
+      "y": 700,
+      "headerY": -676,
+      "headerHeight": 56,
+      "mainY": -620,
+      "margin": "88px",
+      "active": "BODY",
+      "ring": "none",
+      "restore": "auto"
+    }
+  ],
+  "keyboard": [
+    {
+      "path": "/hakkimizda",
+      "y": 0,
+      "headerY": 24,
+      "headerHeight": 56,
+      "mainY": 80,
+      "margin": "88px",
+      "active": "MAIN",
+      "ring": "none",
+      "restore": "auto"
+    },
+    {
+      "path": "/hakkimizda",
+      "y": 0,
+      "headerY": 24,
+      "headerHeight": 56,
+      "mainY": 80,
+      "margin": "88px",
+      "active": "BUTTON",
+      "ring": "solid",
+      "restore": "auto"
+    }
+  ],
+  "mobile": [
+    {
+      "width": 375,
+      "path": "/hizmetler",
+      "y": 0,
+      "headerY": 20,
+      "headerHeight": 44,
+      "mainY": 64,
+      "margin": "76px",
+      "active": "MAIN",
+      "ring": "none",
+      "restore": "auto"
+    },
+    {
+      "width": 390,
+      "path": "/hizmetler",
+      "y": 0,
+      "headerY": 20,
+      "headerHeight": 44,
+      "mainY": 64,
+      "margin": "76px",
+      "active": "MAIN",
+      "ring": "none",
+      "restore": "auto"
+    }
+  ],
+  "errors": [],
+  "refresh": {
+    "before": {
+      "path": "/hizmetler",
+      "y": 650,
+      "headerY": -626,
+      "headerHeight": 56,
+      "mainY": -570,
+      "margin": "88px",
+      "active": "BODY",
+      "ring": "none",
+      "restore": "auto"
+    },
+    "after": {
+      "path": "/hizmetler",
+      "y": 650,
+      "headerY": -626,
+      "headerHeight": 56,
+      "mainY": -570,
+      "margin": "88px",
+      "active": "BODY",
+      "ring": "none",
+      "restore": "auto"
+    }
+  }
+}

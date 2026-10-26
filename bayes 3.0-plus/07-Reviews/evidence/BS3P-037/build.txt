@@ -1,0 +1,44 @@
+
+> bayessoft-website@1.0.0 build
+> node scripts/build-production.mjs
+
+   ▲ Next.js 15.5.28
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 4.4s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/19) ...
+   Generating static pages (4/19)
+   Generating static pages (9/19)
+   Generating static pages (14/19)
+ ✓ Generating static pages (19/19)
+   Finalizing page optimization ...
+   Collecting build traces ...
+   Exporting (0/2) ...
+ ✓ Exporting (2/2)
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                    13.1 kB         139 kB
+├ ○ /_not-found                            994 B         104 kB
+├ ○ /hakkimizda                          3.09 kB         133 kB
+├ ○ /hizmetler                            1.9 kB         126 kB
+├ ○ /iletisim                            3.83 kB         124 kB
+├ ○ /projeler                            5.66 kB         137 kB
+├ ● /projeler/[slug]                     6.04 kB         136 kB
+├   ├ /projeler/zirve-cilingir
+├   ├ /projeler/tam-finans-fintech
+├   ├ /projeler/smart-hospital
+├   └ [+6 more paths]
+├ ○ /robots.txt                            140 B         103 kB
+└ ○ /sitemap.xml                           140 B         103 kB
++ First Load JS shared by all             103 kB
+  ├ chunks/5d08d3ca-2cf9d6d008e53af1.js  54.2 kB
+  ├ chunks/950-622eb9bf05a17a1d.js       46.4 kB
+  └ other shared chunks (total)          2.06 kB
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+Verified production export: {"files":688,"prototypeArtifacts":0,"prototypeDependencies":0}

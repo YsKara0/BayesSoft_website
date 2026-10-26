@@ -15,7 +15,7 @@ export function MobileHero() {
   const t = useHomepageCopy();
   const { locale } = useLanguage();
   const l = labels[locale];
-  const { paused, reduced, ready, toggle } = useHomepageMotion();
+  const { paused, reduced, ready } = useHomepageMotion();
   const svg = useRef<SVGSVGElement>(null);
   const hero = useRef<HTMLElement>(null);
   const time = useRef(0);
@@ -87,9 +87,6 @@ export function MobileHero() {
     return ()=>cancelAnimationFrame(frameId);
   }, [paused, reduced, ready, visible, locale]);
   return <section id="mobile-hero" ref={hero} className={styles.mobileHero} data-stage="web">
-    <div className={styles.transport}><button type="button" aria-pressed={paused} aria-disabled={reduced || !ready} aria-controls="mobile-hero references" title={reduced ? t.motionReducedInfo : undefined} onClick={toggle}>
-      <svg width="14" height="14" viewBox="0 0 20 20" aria-hidden="true"><path d={paused ? "m7 4 9 6-9 6Z" : "M7 4v12M13 4v12"} fill="none" stroke="currentColor" strokeWidth="1.5" /></svg><span>{paused ? t.resumeMotion : t.pauseMotion}</span>
-    </button></div>
     <h1 className={styles.title}>
       <span className="sr-only">{t.hero0} {SERVICES.map(key=>t[key]).join(", ")}</span>
       {headlines[locale].map((text,i)=><span key={i} className={styles.headline} data-headline={SERVICES[i]} aria-hidden="true" style={{opacity:i===0?1:0}}>{text}</span>)}

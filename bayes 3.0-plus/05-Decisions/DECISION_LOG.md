@@ -334,3 +334,29 @@
 ## D-055 — 2026-10-24 — BS3P-033 R3 görsel onayı ve production release yetkisi
 - Kullanıcı R3mobil tasarımını/animasyonunu onayladı;aynıtasarımın productionmobile entegrasyonu ve temiz hedeflikontroller sonrası seçici commit/push/Pagesyayını yetkili. Commit mesajı `feat: integrate unified mobile hero`;masterkorunur. Desktop/diğerbölümler değiştirilmez.
 - Prototip+production tekMobileHero/CSS/timeline kaynağı kullanır. BüyükGIF/video/kişiselfile/ilgisizkanıt stage dışı. Canlı site tarayıcı/test/kayıt açılmaz;sonkontrol kullanıcıda. Yayınsonrası ikinci dokümantasyoncommit'i yok.
+
+
+## D-056 — 2026-10-25 — BS3P-034 yalnız yerel mobil kontrol ve Zirve kaydı
+- Kullanıcı yalnız mobil hero kontrolünü kaldırmayı ve Zirve Çilingir CMS projesini mevcut katalog/detay mimarisine eklemeyi yetkilendirdi. Desktop kontrolü/ortak motion/R3timeline korunur;reduced-motion devam eder. Mobil kontrolün44pxalanı kaldırılır.
+- Zirve referans/logo/bağlantısı mevcut kaynakta zaten tekil bulundu;çoğaltılmaz veya yeniURLüretilmez. Yeni proje yalnız verilenNext.js/SpringBoot/CMS/panel yönetimi bilgilerini içerir. screenshots[];ortak detay bileşeni boşgaleriyi gizler. Eski034görevi tarihsel olarak korunur.
+- Yerelgörselonay aşamasıdır;commit/push/deploy yok. [[../04-Development/BS3P-034-MOBILE-HERO-ZIRVE-CILINGIR|Rapor]].
+
+
+## D-057 — 2026-10-26 — BS3P-034 ekip unvanı yerelleştirmesi
+- Kullanıcı beş kişinin eşleşmelerini koruyarak unvanlarınTR/EN/DEdeğişmesini istedi;yalnız yerel ekkapsam. Üç mesleki rolün çevirisi data/i18n.ts içinde tek sözlükte;mevcut ekip role verisinden diziler türetilir. Kart/modal/fotoğrafaltmetni aynıçeviri kullanır;kişiye özel tekrar/yenitasarım yok.
+- Master/önceki034çalışmaları korunur;commit/push/deployyetkisi yok. Görselonaybeklenir;034rapor/team-roleskanıtları güncel.
+
+
+## D-058 — 2026-10-26 — BS3P-035 yalnız ana içerik landmark outline düzeltmesi
+- Kullanıcı sitewide Safari sorunu için önce kesin DOM nedenini doğrulamayı istedi. Native Safari'de router'ın main odağı geniş focus-visible kuralını tetikliyor; ölçülen çerçeve border değil outline.
+- Tek ortak düzeltme app/globals.css main#main-content:focus outline:none. Focus/tabIndex/skip-link ve etkileşimli alt öğelerin klavye göstergeleri korunur;global outline iptali yok. Yerelkontroller tamamlandı;034değişiklikleri/masterkorunur. Kullanıcı onayı olmadan commit/push/deploy yok.
+
+
+## D-059 — 2026-10-26 — BS3P-036 landmark scroll hedef payı
+- Native Safari'de Next router main.focus() sonrası0→80scroll/headerkaybı ölçüldü. Mevcut header token ile main scroll-margin-top A/B kaymayı engelledi;tek globals.css kuralı yeterli. Main focus/035outline/Link/hedefler/geri-ileri korunur;zorunlu scrollTo/manualrestoration/JS eklenmez.
+- ENreload'da33px ek konum düzeltmesi yeni kural yokken devar;kesinikinci neden ayrıştırılmadı, bu görevde LanguageProvider/anchoring değiştirilmez. Yalnızyerel;kullanıcıonayıolmadan commit/push/deployyok. [[../04-Development/BS3P-036-SAFARI-HEADER-NAVIGATION-SCROLL|Rapor]].
+
+
+## D-060 — 2026-10-27 — BS3P-037 unvan ve toplu release onayı
+- Kullanıcı034/035/036yayınını veBatuhan için037tekİngilizceunvanını onayladı:AI Integration and Development Engineer. Tekrole alanı/merkezi fallback;diğer4kişi çokdilli kalır.
+- Temizhedeflikontroller sonrası tek `feat: add Zirve Cilingir and polish site experience` commit/originmasterpush/Pagesyetkili. İlgilikod/Markdown/küçükkanıtlar seçilir;kişisel/MOV/eski kasalar/.obsidian/ilgisizdosyalar korunur. Canlısiteaçılmaz;sonkontrolkullanıcıda,ikinci dokcommit yok.

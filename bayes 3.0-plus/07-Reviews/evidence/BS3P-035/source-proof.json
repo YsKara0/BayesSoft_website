@@ -1,0 +1,16 @@
+{
+  "protectedLayoutAndFocusSourcesEqualHEAD": {
+    "app/layout.tsx": true,
+    "components/SiteChrome.tsx": true,
+    "components/interior/InteriorShell.tsx": true,
+    "components/interior/interior.module.css": true,
+    "components/homepage/Header.tsx": true,
+    "components/homepage/homepage.css": true
+  },
+  "repositoryLayoutNeverInstrumented": true,
+  "temporaryPreviewLayoutRestored": true,
+  "typecheckExitCode": 0,
+  "targetedESLintExitCode": 0,
+  "postcssParse": "passed",
+  "change": "Only main#main-content:focus outline is suppressed; focus, tabIndex and descendant indicators retained."
+}

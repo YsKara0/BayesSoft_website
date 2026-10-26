@@ -61,7 +61,7 @@ const profileLinks = ({
 export const teamMembers: TeamMember[] = [
   {
     name: "Batuhan Ersan",
-    role: "Full-Stack Developer",
+    role: "AI Integration and Development Engineer",
     id: "batuhan-ersan",
     letter: "B",
     image: "/team/batuhan_ersan.jpg",
@@ -132,6 +132,16 @@ export const teamMembers: TeamMember[] = [
 ];
 
 export const projects: Project[] = [
+  {
+    title: "Zirve Çilingir",
+    domain: "Kurumsal web / CMS",
+    slug: "zirve-cilingir",
+    hasDetailsPage: true,
+    problem: "Web sitesinin tüm içeriklerinin tek bir yönetim panelinden yönetilmesi gerekiyordu.",
+    summary: "Next.js frontend ve Spring Boot backend ile geliştirilen, tüm site içerikleri yönetim panelinden yönetilebilen CMS tabanlı kurumsal web sitesi.",
+    impact: "Site içeriklerinin tamamı yönetim paneli üzerinden yönetilebiliyor.",
+    technologies: ["Next.js", "Spring Boot", "CMS"],
+  },
   {
     title: "Tam Finans Multi-Platform Fintech System",
     domain: "Fintech",

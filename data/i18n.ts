@@ -4,6 +4,7 @@ import { teamMembers } from "./site";
 export type Locale = "tr" | "en" | "de";
 
 const teamRoleLabels: Record<string, Record<Locale, string>> = {
+  "Mobile and Full-Stack Developer": { tr: "Mobil ve Full-Stack Geliştirici", en: "Mobile and Full-Stack Developer", de: "Mobile- und Full-Stack-Entwickler" },
   "Full-Stack Developer": { tr: "Full-Stack Geliştirici", en: "Full-Stack Developer", de: "Full-Stack-Entwickler" },
   "Backend Developer": { tr: "Backend Geliştirici", en: "Backend Developer", de: "Backend-Entwickler" },
   "Mobile Developer": { tr: "Mobil Uygulama Geliştiricisi", en: "Mobile Developer", de: "Mobile-Entwickler" },

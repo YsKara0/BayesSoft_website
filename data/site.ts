@@ -75,7 +75,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Ahmet B. Çınar",
-    role: "Backend Developer",
+    role: "Mobile and Full-Stack Developer",
     id: "ahmet-bugrahan-cinar",
     letter: "A",
     image: "/team/bugrahan_cinar.jpeg",

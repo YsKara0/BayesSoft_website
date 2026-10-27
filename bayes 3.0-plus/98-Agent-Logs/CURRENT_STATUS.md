@@ -1,3 +1,11 @@
+# BS3P-038 — Ahmet unvanı tüm dillerde hazır — 2026-10-27
+
+Ahmet B. Çınar için TR: Mobil ve Full-Stack Geliştirici; EN: Mobile and Full-Stack Developer; DE: Mobile- und Full-Stack-Entwickler. data/site.ts canonical role ve data/i18n.ts merkezi sözlük güncellendi; kart/modal/fotoğraf altmetni aynı kaynağı kullanır. Diğer üyeler, biyografiler, linkler, fotoğraflar ve diğer çeviriler HEAD ile çalışma zamanı karşılaştırmasında eşit. TypeScript, iki dosyada hedefli ESLint geçti. Yeni build/tarayıcı/tam QA yapılmadı. Kullanıcı production değişikliği ve GitHub push istedi; mevcut master ve önceki yerel çalışmalar korunur.
+
+Seçici commit/push hazırlanıyor; kesin Git sonucu final teslimde.
+
+## Önceki kayıtlar
+
 # BS3P-037 — Toplu release preflight geçti — 2026-10-27
 
 034/035/036 kullanıcı onaylı;Batuhan unvanı tüm dillerde AI Integration and Development Engineer. Yerel1440/375×3dil30kart6modal/taşma0,Zirve/ref/motion ayrımı/TS-lint-build688passed. ÖncekiSafari kanıtları korundu,tekrarlanmadı. Tekseçicicommit/push/Pagesyetkili;kesinSHA/workflowsonucu yayın sonrası yerel kayıtta. Canlısiteaçılmayacak;sonkontrolkullanıcıda. [[../04-Development/BS3P-037-TEAM-TITLE-PRODUCTION-RELEASE|Rapor]].

@@ -1,3 +1,9 @@
+# BS3P-038 — Yetkili GitHub push — 2026-10-27
+
+Yalnız038kod/ilgili kayıtları seçici commit et;origin/master push ve uzakSHA eşitliğini doğrula. Pages otomatik tetiklenir; workflow doğrulanmadan yayın başarısı iddia edilmez. Önceki yerel değişiklikleri koru.
+
+## Önceki kayıtlar
+
 # BS3P-037 — Yetkili toplu yayın — 2026-10-27
 
 Allowlist/cachedcheck sonrası tek `feat: add Zirve Cilingir and polish site experience` commit ve origin/master push. Pagesbuild/deploy sonucu doğrulanacak;canlısite tarayıcıda açılmayacak. Soncanlıkontrol kullanıcıda. Yayınsonrası ikincidokcommit veya başka geliştirme yok. Preflight geçti;033ayrıhandoff/kişiseluntracked dosyaları koru.

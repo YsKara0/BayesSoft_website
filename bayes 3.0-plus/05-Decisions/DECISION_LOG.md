@@ -360,3 +360,8 @@
 ## D-060 — 2026-10-27 — BS3P-037 unvan ve toplu release onayı
 - Kullanıcı034/035/036yayınını veBatuhan için037tekİngilizceunvanını onayladı:AI Integration and Development Engineer. Tekrole alanı/merkezi fallback;diğer4kişi çokdilli kalır.
 - Temizhedeflikontroller sonrası tek `feat: add Zirve Cilingir and polish site experience` commit/originmasterpush/Pagesyetkili. İlgilikod/Markdown/küçükkanıtlar seçilir;kişisel/MOV/eski kasalar/.obsidian/ilgisizdosyalar korunur. Canlısiteaçılmaz;sonkontrolkullanıcıda,ikinci dokcommit yok.
+
+
+## D-061 — 2026-10-27 — BS3P-038 Ahmet unvanı ve GitHub push
+- Kullanıcı Ahmet Buğrahan Çınar unvanını mobil ve full stack developer olarak tüm dillerde değiştirmeyi ve GitHub push işlemini açıkça istedi. TR/EN/DE merkezi rol çevirileriyle kart/modal/altmetin güncellenir. Biyografi/diğer üyeler değişmez.
+- Mevcut master/son yayın hattı korunur; yalnız038değişiklikleri seçici commit/push edilir, önceki yerel kayıtlar dahil edilmez.

@@ -285,3 +285,8 @@ Yerelde hazır/onaybekler. MerkeziTR/EN/DEunvan sözlüğü;mevcut5kişi eşleş
 | BS3P-037 | Batuhan unvanı ve034/035/036tek release | preflight passed — release authorized | [[BS3P-037-TEAM-TITLE-PRODUCTION-RELEASE]];30kart/6modal/3dil/Zirve/ref/motion/TS-lint-build688passed;kesinSHA/Pagesbekleniyor;canlıkontrolkullanıcıda |
 
 034/035/036 kullanıcı tarafından037talebinde onaylandı;önceki pending kayıtlar tarihsel olarak korunur. Bu satır yayın öncesidir.
+
+
+## BS3P-038 — Ahmet çokdilli unvan güncellemesi — 2026-10-27
+
+Uygulama tamamlandı; hedefli kontroller geçti, commit/push yetkili ve hazırlanıyor. [[BS3P-038-AHMET-MOBILE-FULL-STACK-TITLE]]. Kesin Git sonucu teslimde.

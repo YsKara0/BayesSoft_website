@@ -3,9 +3,10 @@ export type ClientReference = {
   src: string;
   website?: string;
   dark?: boolean;
+  hidden?: boolean;
 };
 
-export const clientReferences: ClientReference[] = [
+const allClientReferences: ClientReference[] = [
   { name: "Tam Finans", src: "/references/tamfinans.png", website: "https://www.tamfinans.com.tr/" },
   { name: "Metek Makina", src: "/references/metek.png", website: "https://metekmakina.com/" },
   { name: "Reviel", src: "/references/reviel.png", website: "https://reviel.com.tr/" },
@@ -13,7 +14,10 @@ export const clientReferences: ClientReference[] = [
   { name: "Arel Üniversitesi", src: "/references/arel.png", website: "https://www.arel.edu.tr/" },
   { name: "Atlı Lojistik", src: "/references/atli.png", website: "https://atlidepohizmetleri.com/" },
   { name: "Kanuni Sultan Süleyman Hastanesi", src: "/references/kanuni_sultan_suleyman_hastanesi.png", website: "https://kanunieah.saglik.gov.tr/" },
-  { name: "Teşkilat ICOM", src: "/references/teskilat-icom.png", website: "https://www.teskilat.com.tr/", dark: true },
+  // Temporarily hidden; remove hidden: true to restore this reference.
+  { name: "Teşkilat ICOM", src: "/references/teskilat-icom.png", website: "https://www.teskilat.com.tr/", dark: true, hidden: true },
   { name: "Hypersense", src: "/references/hypersense.png", website: "https://hypersense.dev/" },
   { name: "Zirve Çilingir", src: "/references/zirve-cilingir.png", website: "https://esenyurtzirvecilingir.com/" },
 ];
+
+export const clientReferences: ClientReference[] = allClientReferences.filter(reference => !reference.hidden);

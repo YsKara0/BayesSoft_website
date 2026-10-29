@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLanguage } from "@/components/LanguageProvider";
+import { LanguageMenu } from "@/components/LanguageMenu";
 import { contactHref } from "@/data/config";
 import { navigationLinks, navigationCurrent } from "@/data/navigation";
 import { useHomepageCopy } from "./useHomepageCopy";
@@ -12,11 +13,6 @@ export function NavigationLinks() {
   const pathname = usePathname();
   return <>{navigationLinks.map(([key, href]) => <Link key={href} href={href}
     aria-current={navigationCurrent(pathname, href)}>{key === "about" ? copy.nav.about : t[key]}</Link>)}</>;
-}
-function Languages() {
-  const { locale, setLocale } = useLanguage();
-  const t = useHomepageCopy();
-  return <div className="language-options" role="group" aria-label={t.language}>{(["tr", "en", "de"] as const).map(language => <button key={language} type="button" data-locale={language} lang={language} aria-pressed={locale === language} onClick={() => setLocale(language)}>{language.toUpperCase()}</button>)}</div>;
 }
 export function Header() {
   const t = useHomepageCopy();
@@ -37,13 +33,13 @@ export function Header() {
           <NavigationLinks />
         </nav>
         <div className="header-actions">
-          <Languages />{cta}</div>
+          <LanguageMenu />{cta}</div>
       </div>
       <details className="mobile-nav" ref={menu}>
         <summary>{t.menu}</summary>
         <nav aria-label={t.navigation} onClick={e => { if ((e.target as HTMLElement).closest("a")) menu.current!.open = false; }}>
           <NavigationLinks />
-          <Languages />{cta}</nav>
+          <LanguageMenu inline />{cta}</nav>
       </details>
     </header>
   </>;

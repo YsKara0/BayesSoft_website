@@ -365,3 +365,22 @@
 ## D-061 — 2026-10-27 — BS3P-038 Ahmet unvanı ve GitHub push
 - Kullanıcı Ahmet Buğrahan Çınar unvanını mobil ve full stack developer olarak tüm dillerde değiştirmeyi ve GitHub push işlemini açıkça istedi. TR/EN/DE merkezi rol çevirileriyle kart/modal/altmetin güncellenir. Biyografi/diğer üyeler değişmez.
 - Mevcut master/son yayın hattı korunur; yalnız038değişiklikleri seçici commit/push edilir, önceki yerel kayıtlar dahil edilmez.
+
+
+## D-062 — 2026-10-29 — BS3P-039 iç sayfalar ana sayfa dilini kullanır
+- Kullanıcı iç sayfa yenileme önerilerinin tamamını onayladı. İç sayfa footer'ı ve kapanış CTA'sı ana sayfa metinlerini (homepage.text footerBrand/contactTitle/contactBody/cta) kullanır; copy.cta/copy.footer.statement iç sayfalarda artık gösterilmez (veri silinmedi).
+- Hizmet görselleri metinsiz ve aria-hidden; yeni çeviri anahtarı eklenmedi. Projeler filtresi 9 projede düşük değer nedeniyle eklenmedi. Ana sayfa, prizma, video, URL ve içerik metinleri değişmez. Yerel; commit/push/deploy onaya bağlı.
+
+## D-063 — 2026-10-29 — BS3P-039 revizyon: proje etiketleri, logolar, Teşkilat
+- Kullanıcı her projeye Metek tarzı "tür / çıktı" etiketi, marka logoları ve logosuz projelerin ayrı grupta toplanmasını istedi. Etiketler mevcut proje özetlerinden türetildi; yeni metrik/iddia yok. Arelim → Arel Üniversitesi logosu.
+- Kullanıcı, Yavuz Selim Kara'nın 7c95847 ile "geçici" gizlediği Teşkilat ICOM referansının geri eklenmesini istedi; hidden bayrağı kaldırıldı. Yerel; commit/push onaya bağlı.
+
+## D-064 — 2026-10-29 — Tek ikonlu dil menüsü, tüm site
+- Kullanıcı dil seçiminin tek ikondan yapılmasını istedi; seçenekler arasından "menü açılsın" ve "tüm site" seçildi. Ortak LanguageMenu bileşeni ana sayfa ve iç sayfa header'larında kullanılır. Yerel; commit/push onaya bağlı.
+
+## D-065 — 2026-10-29 — Sayfaya özgü kimlikler ve Batuhan unvanı
+- Kullanıcı iç sayfaların aynı kalıbı tekrarlamasını reddetti; Hizmetler "sistem" (görselli giriş, sekmeli gezgin, tek koyu bant), Hakkımızda "insanlar" (ortalanmış giriş, ekip önce, manifesto) yönü onaylandı. Koyu bant yalnız Hizmetler'e ayrıldı.
+- Batuhan Ersan unvanı TR'de Türkçeleştirildi, EN/DE İngilizce kaldı (D-060 güncellenir); biyografi kullanıcı talimatıyla yapay zekâ odaklı yazıldı. Yerel; commit/push onaya bağlı.
+
+## D-066 — 2026-10-29 — Koyu lacivert zemin yasak
+- Kullanıcı Hizmetler'deki lacivert süreç bandını reddetti ve bu rengin bir daha kullanılmamasını istedi. D-065'teki "tek koyu bant" kararı iptal; sayfa ayrımı yerleşim/görsel/tipografi ile yapılır. Lacivert yalnız yazı rengi olarak kalır; logo için koyu zemin gerekirse nötr grafit kullanılır.

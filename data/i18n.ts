@@ -4,6 +4,7 @@ import { teamMembers } from "./site";
 export type Locale = "tr" | "en" | "de";
 
 const teamRoleLabels: Record<string, Record<Locale, string>> = {
+  "AI Integration and Development Engineer": { tr: "Yapay Zekâ Entegrasyon ve Geliştirme Mühendisi", en: "AI Integration and Development Engineer", de: "AI Integration and Development Engineer" },
   "Mobile and Full-Stack Developer": { tr: "Mobil ve Full-Stack Geliştirici", en: "Mobile and Full-Stack Developer", de: "Mobile- und Full-Stack-Entwickler" },
   "Full-Stack Developer": { tr: "Full-Stack Geliştirici", en: "Full-Stack Developer", de: "Full-Stack-Entwickler" },
   "Backend Developer": { tr: "Backend Geliştirici", en: "Backend Developer", de: "Backend-Entwickler" },
@@ -48,7 +49,7 @@ const tr = {
     items: [
       { title: "Kurumsal Yazılım Geliştirme", summary: "Operasyonel ihtiyaçları ölçülebilir, güvenli ve bakımı kolay web sistemlerine dönüştürüyoruz.", outcome: "Teslim: yönetim paneli, rol bazlı yetkilendirme, API dokümantasyonu ve sürdürülebilir backend yapısı.", points: ["Admin panelleri", "REST API tasarımı", "Veritabanı mimarisi"] },
       { title: "Mobil Ürün Mühendisliği", summary: "Flutter tabanlı mobil uygulamaları backend servisleri ve yönetim panelleriyle birlikte uçtan uca kurguluyoruz.", outcome: "Teslim: iOS/Android uygulama, bildirim akışları, backend bağlantıları ve yayın öncesi test paketi.", points: ["iOS / Android", "Push bildirimleri", "Offline akışlar"] },
-      { title: "Yapay Zeka ve Görü Sistemleri", summary: "Chatbot, sınıflandırma ve bilgisayarlı görü projelerini üretim ortamına uygun güvenlik katmanlarıyla geliştiriyoruz.", outcome: "Teslim: model entegrasyonu, güvenli kullanım katmanı, panel bağlantısı ve ölçülebilir çıktı raporu.", points: ["LLM entegrasyonu", "Computer vision", "Prompt güvenliği"] },
+      { title: "Yapay Zeka ve Görüntü Sistemleri", summary: "Chatbot, sınıflandırma ve görüntü işleme projelerini üretim ortamına uygun güvenlik katmanlarıyla geliştiriyoruz.", outcome: "Teslim: model entegrasyonu, güvenli kullanım katmanı, panel bağlantısı ve ölçülebilir çıktı raporu.", points: ["LLM entegrasyonu", "Computer vision", "Prompt güvenliği"] },
       { title: "Bulut, Güvenlik ve DevOps", summary: "Sistemleri izlenebilir, yedekli, erişim kontrollü ve ölçeklenebilir hale getiren altyapı kararlarını uyguluyoruz.", outcome: "Teslim: dağıtım akışı, depolama yapısı, erişim güvenliği, yedekleme ve ortam konfigürasyonu.", points: ["Docker", "Cloud storage", "RBAC / JWT"] },
     ],
   },
@@ -111,7 +112,7 @@ const tr = {
     contact: { eyebrow: "İletişim", title: "Yeni projeniz ya da ürün fikriniz için konuşalım.", body: "İhtiyacınız kurumsal panel, mobil uygulama, yapay zeka entegrasyonu veya mevcut sistem modernizasyonu olabilir. İlk adım net bir teknik çerçeve çıkarmak." },
   },
   team: { eyebrow: "Ekip", title: "Biz Kimiz", intro: "İsmimiz kurucuların isimlerinin baş harflerinden gelir. Ölçeklenebilir projelerimizin mimarlarını daha yakından tanıyın.", more: "Daha fazla", close: "Ekip üyesi detaylarını kapat", roles: teamRoles("tr"), bios: [
-    "Web ve mobil ürünlerde deneyimli; ürün akışlarını hızlı ve güvenilir arayüzlere dönüştüren bir geliştirici. Mobil uygulama tasarımı ve donanım alanlarında da tecrübelidir.",
+    "Yapay zekâ entegrasyonu ve geliştirme alanında çalışır. Görüntü işleme ve görüntü üretimi, model eğitimi ve chatbot altyapıları üzerine projeler geliştirir.",
     "Karmaşık iş kurallarını sürdürülebilir servis mimarilerine, güvenli API katmanlarına ve anlaşılır veri akışlarına dönüştürür. Veritabanı, sistem tasarımı ve ürün yönetiminde deneyimlidir.",
     "Ürün fikrini mobil deneyim, teknik planlama ve üretime hazır sistemler arasında bütünlüklü bir yapıya taşır. Kullanıcı deneyimi, mobil güvenlik ve oyun geliştirme alanlarında çalışır.",
     "Arayüz mimarisi, etkileşim kalitesi ve sistem tasarımına odaklanır. Finans sektöründeki deneyimiyle ağ güvenliği ve ağ yönetimi alanlarında da uzmanlık sunar.",
@@ -184,7 +185,7 @@ const en = {
     contact: { eyebrow: "Contact", title: "Let’s talk about your next project or product idea.", body: "Whether you need an enterprise dashboard, mobile app, AI integration or system modernization, the first step is a clear technical frame." },
   },
   team: { eyebrow: "Team", title: "Who We Are", intro: "Our name comes from the founders’ initials. Meet the people behind our scalable products.", more: "Learn more", close: "Close team member details", roles: teamRoles("en"), bios: [
-    "An experienced web and mobile developer who turns product flows into fast, reliable interfaces, with additional experience in mobile design and hardware.",
+    "Works on AI integration and development. He builds projects in image processing and image generation, model training and chatbot infrastructure.",
     "Transforms complex business rules into sustainable service architectures, secure APIs and clear data flows, with experience in databases, system design and product management.",
     "Connects product ideas, mobile experiences, technical planning and production-ready systems, with expertise in user experience, mobile security and game development.",
     "Focuses on interface architecture, interaction quality and system design, adding experience in network security and administration from the finance sector.",
@@ -255,7 +256,7 @@ const de = {
     contact: { eyebrow: "Kontakt", title: "Sprechen wir über Ihr nächstes Projekt oder Ihre Produktidee.", body: "Ob Unternehmens-Dashboard, mobile App, KI-Integration oder Modernisierung: Der erste Schritt ist ein klarer technischer Rahmen." },
   },
   team: { eyebrow: "Team", title: "Wer wir sind", intro: "Unser Name stammt aus den Initialen der Gründer. Lernen Sie die Menschen hinter unseren skalierbaren Produkten kennen.", more: "Mehr erfahren", close: "Details zum Teammitglied schließen", roles: teamRoles("de"), bios: [
-    "Ein erfahrener Web- und Mobile-Entwickler, der Produktabläufe in schnelle, zuverlässige Oberflächen überführt und auch Erfahrung mit Mobile Design und Hardware besitzt.",
+    "Arbeitet an KI-Integration und -Entwicklung. Er entwickelt Projekte in Bildverarbeitung und Bildgenerierung, Modelltraining und Chatbot-Infrastruktur.",
     "Überführt komplexe Geschäftsregeln in nachhaltige Servicearchitekturen, sichere APIs und klare Datenflüsse; erfahren in Datenbanken, Systemdesign und Produktmanagement.",
     "Verbindet Produktideen, mobile Erlebnisse, technische Planung und produktionsreife Systeme mit Know-how in UX, mobiler Sicherheit und Spieleentwicklung.",
     "Konzentriert sich auf Interface-Architektur, Interaktionsqualität und Systemdesign und bringt Erfahrung in Netzwerksicherheit und -verwaltung aus dem Finanzsektor ein.",

@@ -1,3 +1,9 @@
+# BS3P-039 — İç sayfa estetik yenilemesi yerelde hazır — 2026-10-29
+
+Kullanıcı iç sayfaların (Hakkımızda, Hizmetler, Projeler, proje detayı, İletişim) ana sayfa kalitesine getirilmesini onayladı. Ortak: footer içeriği ana sayfayla aynı (slogan, GitHub/LinkedIn/X), CTA ana sayfa iletişim bandıyla aynı metin/kompozisyon, beyaz/gri bant ritmi, derli hero. Projeler: monogram kartlar yerine numaralı satır listesi. Hizmetler: metinsiz dekoratif sistem minyatürleri + bağlı süreç çizelgesi. Hakkımızda: BAYES harfleri portrelerde, numaralı ilke kartları. Detay: teknoloji çipleri + üst bağlantılar, sticky outline, vurgulu etki. İletişim: form kartı ve odak durumları. Ana sayfa/prizma/video/içerik/URL değişmedi. TS + hedefli ESLint geçti; 1440/390/768 ve TR/EN/DE yatay taşma 0. Build/Safari/gerçek cihaz yapılmadı. Commit/push/deploy yok; kullanıcı görsel onayı bekleniyor. Not: çalışma `master` üzerinde (AGENTS beklentisi `feature/bayessoft-3.0-plus`). [[../04-Development/BS3P-039-INTERIOR-PAGES-REFRESH|Rapor]].
+
+## Önceki kayıtlar
+
 # BS3P-038 — Ahmet unvanı tüm dillerde hazır — 2026-10-27
 
 Ahmet B. Çınar için TR: Mobil ve Full-Stack Geliştirici; EN: Mobile and Full-Stack Developer; DE: Mobile- und Full-Stack-Entwickler. data/site.ts canonical role ve data/i18n.ts merkezi sözlük güncellendi; kart/modal/fotoğraf altmetni aynı kaynağı kullanır. Diğer üyeler, biyografiler, linkler, fotoğraflar ve diğer çeviriler HEAD ile çalışma zamanı karşılaştırmasında eşit. TypeScript, iki dosyada hedefli ESLint geçti. Yeni build/tarayıcı/tam QA yapılmadı. Kullanıcı production değişikliği ve GitHub push istedi; mevcut master ve önceki yerel çalışmalar korunur.

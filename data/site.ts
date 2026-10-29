@@ -66,7 +66,7 @@ export const teamMembers: TeamMember[] = [
     letter: "B",
     image: "/team/batuhan_ersan.jpg",
     accent: "blue",
-    bio: "Web ve mobil uygulamaları projelerine katkıda bulunmuştur, ürün akışlarını hızlı ve güvenilir arayüzlere dönüştüren geliştirici. Mobil uygulama tasarımında deneyimlidir. Ayırca Ersan'ın donanım sektöründe tecrübesi bulunur.",
+    bio: "Yapay zekâ entegrasyonu ve geliştirme alanında çalışır. Görüntü işleme ve görüntü üretimi, model eğitimi ve chatbot altyapıları üzerine projeler geliştirir.",
     socials: profileLinks({
       website: "https://example.com/batuhan-ersan",
       github: "https://github.com/BatuErsann",
@@ -141,6 +141,22 @@ export const projects: Project[] = [
     summary: "Next.js frontend ve Spring Boot backend ile geliştirilen, tüm site içerikleri yönetim panelinden yönetilebilen CMS tabanlı kurumsal web sitesi.",
     impact: "Site içeriklerinin tamamı yönetim paneli üzerinden yönetilebiliyor.",
     technologies: ["Next.js", "Spring Boot", "CMS"],
+    liveUrl: "https://esenyurtzirvecilingir.com/",
+  },
+  {
+    title: "Teşkilat ICOM",
+    domain: "Reklam ajansı / Kurumsal web",
+    slug: "teskilat-icom",
+    hasDetailsPage: true,
+    problem:
+      "Ajansın işlerini, ekibini, marka referanslarını ve duyurularını teknik destek gerektirmeden güncelleyebileceği bir web platformuna ihtiyaç vardı.",
+    summary:
+      "React ve Node.js ile geliştirilen; portföy, ekip, marka ve duyuru içeriklerinin yönetim panelinden yönetildiği kreatif ajans web platformu.",
+    impact:
+      "İşler, videolar, ekip, markalar, hizmetler ve duyurular tek yönetim panelinden yönetiliyor; iletişim formu e-posta bildirimiyle çalışıyor.",
+    technologies: ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "MySQL", "JWT"],
+    liveUrl: "https://www.teskilat.com.tr/",
+    sourceUrl: "https://github.com/BatuErsann/TeskilatICOM",
   },
   {
     title: "Tam Finans Multi-Platform Fintech System",
@@ -304,7 +320,7 @@ export const projects: Project[] = [
     problem:
       "Deniz görüntülerinde ufuk çizgisi, gökyüzü, su ve nesne ayrımının gerçek zamanlı tahmin edilmesi hedeflendi.",
     summary:
-      "Deniz ufuk çizgisi tespiti için geleneksel bilgisayarlı görü yöntemlerinden derin öğrenme modellerine uzanan araştırma projesi.",
+      "Deniz ufuk çizgisi tespiti için geleneksel görüntü işleme yöntemlerinden derin öğrenme modellerine uzanan araştırma projesi.",
     impact:
       "U-Net ve RT-DETR ile gökyüzü/su/nesne ayrımı ve piksel mesafesi tahmini yapan gerçek zamanlı segmentasyon elde edildi.",
     technologies: [
@@ -356,9 +372,9 @@ export const services: Service[] = [
     points: ["iOS / Android", "Push bildirimleri", "Offline akışlar"],
   },
   {
-    title: "Yapay Zeka ve Görü Sistemleri",
+    title: "Yapay Zeka ve Görüntü Sistemleri",
     summary:
-      "Chatbot, sınıflandırma ve bilgisayarlı görü projelerini üretim ortamına uygun güvenlik katmanlarıyla geliştiriyoruz.",
+      "Chatbot, sınıflandırma ve görüntü işleme projelerini üretim ortamına uygun güvenlik katmanlarıyla geliştiriyoruz.",
     outcome:
       "Teslim: model entegrasyonu, güvenli kullanım katmanı, panel bağlantısı ve ölçülebilir çıktı raporu.",
     points: ["LLM entegrasyonu", "Computer vision", "Prompt güvenliği"],

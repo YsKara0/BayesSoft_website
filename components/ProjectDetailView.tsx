@@ -10,6 +10,7 @@ import type { ProjectDetail } from "@/data/projectDetails";
 import type { Project } from "@/data/site";
 import { InteriorIntro } from "@/components/interior/InteriorIntro";
 import styles from "@/components/interior/project-detail.module.css";
+import shared from "@/components/interior/interior.module.css";
 
 export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; project: Project }) {
   const { copy, locale } = useLanguage();
@@ -44,16 +45,17 @@ export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; 
     goToScreenshot(currentScreenshot + direction);
   };
 
-  const monogram = view.title.split(/[\s-]+/).filter(Boolean).slice(0, 2).map(word => word[0]).join("");
-
   return <main id="main-content" tabIndex={-1} className={styles.detail}>
     <Link href="/projeler" className={styles.back}><ArrowLeft size={17} aria-hidden="true" />{labels.back}</Link>
     <div className={styles.intro}><InteriorIntro eyebrow={view.domain} title={view.title}>{view.overview}</InteriorIntro></div>
     <section className={styles.profile} aria-labelledby="technologies-title">
-      <span className={styles.mark} aria-hidden="true">{monogram}</span>
       <div><h2 id="technologies-title">{labels.technologies}</h2>
         <ul className={styles.technologies}>{view.techStack.map(technology => <li key={technology}>{technology}</li>)}</ul>
       </div>
+      {(liveUrl || sourceUrl) && <div className={styles.profileLinks}>
+        {liveUrl && <a href={liveUrl} target="_blank" rel="noopener noreferrer">{labels.live}<ArrowUpRight size={18} aria-hidden="true" /></a>}
+        {sourceUrl && <a href={sourceUrl} target="_blank" rel="noopener noreferrer">{labels.source}<Code2 size={18} aria-hidden="true" /></a>}
+      </div>}
     </section>
     {isCompact && <p className={styles.notice}>{labels.compactNotice}</p>}
     {view.note && <section className={styles.privacy} aria-labelledby="privacy-title">
@@ -89,7 +91,7 @@ export function ProjectDetailView({ detail, project }: { detail: ProjectDetail; 
         </button>)}
       </div>}
     </section> : null}
-    <div className={styles.story}>
+    <div className={`${styles.story} ${shared.band}`}>
       <nav className={styles.outline} aria-label={view.title}>
         <a href="#problem">{labels.technicalProblem}</a>
         <a href="#solution">{labels.architecture}</a>

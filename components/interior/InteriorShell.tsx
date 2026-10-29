@@ -4,12 +4,16 @@ import { useEffect, useRef, type ReactNode } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLanguage } from "@/components/LanguageProvider";
+import { LanguageMenu } from "@/components/LanguageMenu";
 import { contactHref, siteConfig } from "@/data/config";
 import { navigationLinks, navigationCurrent } from "@/data/navigation";
+import { socialLinks } from "@/data/site";
 import styles from "./interior.module.css";
 
+const footerSocials = socialLinks.filter(link => ["GitHub", "LinkedIn", "X"].includes(link.label));
+
 export function InteriorShell({ children }: { children: ReactNode }) {
-  const { copy, locale, setLocale } = useLanguage();
+  const { copy } = useLanguage();
   const t = copy.homepage.text;
   const pathname = usePathname();
   const menu = useRef<HTMLDetailsElement>(null);
@@ -35,11 +39,6 @@ export function InteriorShell({ children }: { children: ReactNode }) {
   const navigation = navigationLinks.map(([key, href]) => (
     <Link key={key} href={href} aria-current={navigationCurrent(pathname, href)}>{key === "about" ? copy.nav.about : t[key]}</Link>
   ));
-  const languages = <div className={styles.languages} role="group" aria-label={copy.language.label}>
-    {(["tr", "en", "de"] as const).map(language => <button type="button" key={language} lang={language}
-      aria-label={copy.language.names[language]} aria-pressed={locale === language}
-      onClick={() => setLocale(language)}>{language.toUpperCase()}</button>)}
-  </div>;
 
   return <div className={styles.shell}>
     <a className={styles.skip} href="#main-content">{t.skip}</a>
@@ -47,28 +46,28 @@ export function InteriorShell({ children }: { children: ReactNode }) {
       <Link className={styles.wordmark} href="/" aria-label={t.homeLabel}>BayesSoft</Link>
       <div className={styles.desktop}>
         <nav className={styles.navigation} aria-label={t.navigation}>{navigation}</nav>
-        {languages}
+        <LanguageMenu />
         <a className={styles.button} href={contactHref}>{t.cta}</a>
       </div>
       <details className={styles.mobileMenu} ref={menu}>
         <summary>{t.menu}</summary>
         <nav aria-label={t.navigation} onClick={event => {
           if ((event.target as HTMLElement).closest("a") && menu.current) menu.current.open = false;
-        }}>{navigation}{languages}<a className={styles.button} href={contactHref}>{t.cta}</a></nav>
+        }}>{navigation}<LanguageMenu inline /><a className={styles.button} href={contactHref}>{t.cta}</a></nav>
       </details>
     </header>
     {children}
     <footer className={styles.footer} aria-label={t.footer}>
       <div className={styles.footerBrand}>
         <Link className={styles.wordmark} href="/">BayesSoft</Link>
-        <p>{copy.footer.statement}</p>
+        <p>{t.footerBrand}</p>
         <a href={contactHref}>{siteConfig.contactEmail}</a>
       </div>
-      <nav aria-label={t.navigation}><h2>{t.footerLinks}</h2>{navigation}</nav>
       <nav aria-label={t.footerSocial}><h2>{t.footerSocial}</h2>
-        <a href={siteConfig.linkedinUrl} aria-label="BayesSoft LinkedIn">LinkedIn</a>
+        {footerSocials.map(link => <a key={link.href} href={link.href} target="_blank" rel="noopener noreferrer"
+          aria-label={`${link.label} — ${t.external}`}>{link.label} <span aria-hidden="true">↗</span></a>)}
       </nav>
-      <p className={styles.copyright}>© {new Date().getFullYear()} BayesSoft. {copy.footer.rights}</p>
+      <p className={styles.copyright}>© {new Date().getFullYear()} BayesSoft. {t.rights}</p>
     </footer>
   </div>;
 }

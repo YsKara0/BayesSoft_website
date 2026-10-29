@@ -4,6 +4,7 @@ import { type FormEvent, useState } from "react";
 import { AlertCircle, ArrowUpRight, CheckCircle2, LoaderCircle } from "lucide-react";
 import { InteriorIntro } from "@/components/interior/InteriorIntro";
 import styles from "@/components/interior/pages.module.css";
+import shared from "@/components/interior/interior.module.css";
 import { SocialIcon } from "@/components/SocialIcon";
 import { contactHref, siteConfig } from "@/data/config";
 import { socialLinks } from "@/data/site";
@@ -57,7 +58,7 @@ export default function ContactPage() {
 
   return <main id="main-content" tabIndex={-1} className={styles.page}>
     <InteriorIntro eyebrow={page.eyebrow} title={page.title}>{page.body}</InteriorIntro>
-    <section className={styles.contactLayout} aria-labelledby="contact-form-title">
+    <section className={`${styles.contactLayout} ${shared.band}`} aria-labelledby="contact-form-title">
       <form onSubmit={handleSubmit} className={styles.form}>
         <p className={styles.eyebrow}>{form.form}</p>
         <h2 id="contact-form-title">{form.title}</h2>

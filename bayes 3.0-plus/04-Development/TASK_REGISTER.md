@@ -290,3 +290,10 @@ Yerelde hazır/onaybekler. MerkeziTR/EN/DEunvan sözlüğü;mevcut5kişi eşleş
 ## BS3P-038 — Ahmet çokdilli unvan güncellemesi — 2026-10-27
 
 Uygulama tamamlandı; hedefli kontroller geçti, commit/push yetkili ve hazırlanıyor. [[BS3P-038-AHMET-MOBILE-FULL-STACK-TITLE]]. Kesin Git sonucu teslimde.
+
+
+## BS3P-039 — İç sayfa estetik yenilemesi — 2026-10-29
+
+| ID | Görev | Durum | Kanıt / sınır |
+|---|---|---|---|
+| BS3P-039 | İç sayfaları ana sayfa görsel diline getir | local implementation — visual acceptance pending | [[BS3P-039-INTERIOR-PAGES-REFRESH]];TS/hedefli lint;1440/768/390×TR/EN/DE taşma0;build/Safari yok;commit/push/deploy yok |

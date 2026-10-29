@@ -1,3 +1,9 @@
+# BS3P-039 — İç sayfa görsel onayı — 2026-10-29
+
+http://localhost:3041 üzerinde /hizmetler, /projeler, /hakkimizda, /iletisim ve bir proje detayını değerlendir. Revizyon isteklerine göre ince ayar; onay sonrası ayrı talimatla commit/push. Açık öneri: Projeler listesine filtre (9 projede düşük değer, eklenmedi).
+
+## Önceki kayıtlar
+
 # BS3P-038 — Yetkili GitHub push — 2026-10-27
 
 Yalnız038kod/ilgili kayıtları seçici commit et;origin/master push ve uzakSHA eşitliğini doğrula. Pages otomatik tetiklenir; workflow doğrulanmadan yayın başarısı iddia edilmez. Önceki yerel değişiklikleri koru.

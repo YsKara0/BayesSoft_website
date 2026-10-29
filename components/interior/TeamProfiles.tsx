@@ -29,23 +29,16 @@ export function TeamProfiles() {
   }, [selected]);
 
   const member = selected === null ? null : teamMembers[selected];
-  return <section id="ekip" className={styles.team} aria-labelledby="team-title">
-    <div className={styles.sectionHeading}>
-      <p className={styles.eyebrow}>{copy.team.eyebrow}</p>
-      <div><h2 id="team-title">{copy.team.title}</h2><p>{copy.team.intro}</p></div>
-    </div>
-    <div className={styles.letters} aria-label="BAYES" onMouseLeave={() => setActive(null)}>
-      {teamMembers.map(person => <button key={person.id} type="button"
-        aria-label={`${person.name} ${person.letter}`} aria-pressed={active === person.id}
-        onFocus={() => setActive(person.id)} onMouseEnter={() => setActive(person.id)}
-        onClick={() => setActive(person.id)}>{person.letter}</button>)}
-    </div>
+  // The portraits lead the About page; the heading stays for screen readers and the intro becomes a caption.
+  return <section id="ekip" className={`${styles.team} ${styles.band}`} aria-labelledby="team-title">
+    <h2 id="team-title" className={styles.srOnly}>{copy.team.title}</h2>
     <div className={styles.people} onMouseLeave={() => setActive(null)}>
       {teamMembers.map((person, index) => <article key={person.id} data-active={active === person.id}
         onMouseEnter={() => setActive(person.id)} onFocus={() => setActive(person.id)}>
         <div className={styles.portrait}>
           <Image src={person.image} alt={`${person.name}, ${copy.team.roles[index] ?? person.role}`} fill
             sizes="(min-width: 1100px) 19vw, (min-width: 700px) 30vw, 46vw" />
+          <span className={styles.letter} aria-hidden="true">{person.letter}</span>
         </div>
         <h3>{person.name}</h3><p>{copy.team.roles[index] ?? person.role}</p>
         <button type="button" className={styles.profileButton} aria-haspopup="dialog"
@@ -54,6 +47,7 @@ export function TeamProfiles() {
         </button>
       </article>)}
     </div>
+    <p className={styles.teamCaption}><strong>{copy.team.title}</strong>{copy.team.intro}</p>
     {member && selected !== null && <dialog ref={dialog} className={styles.dialog}
       aria-labelledby={`profile-${member.id}`} aria-describedby={`bio-${member.id}`}
       onKeyDown={event => {

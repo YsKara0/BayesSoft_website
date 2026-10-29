@@ -29,6 +29,22 @@ export const projectDetails: Record<string, ProjectDetail> = {
     techStack: ["Next.js", "Spring Boot", "CMS"],
     screenshots: [],
   },
+  "teskilat-icom": {
+    title: "Teşkilat ICOM",
+    domain: "Reklam ajansı / Kurumsal web",
+    slug: "teskilat-icom",
+    overview: "React ve Node.js ile geliştirilen; portföy, ekip, marka ve duyuru içeriklerinin yönetim panelinden yönetildiği kreatif ajans web platformu.",
+    problem: "Ajansın işlerini, ekibini, marka referanslarını ve duyurularını teknik destek gerektirmeden güncelleyebileceği bir web platformuna ihtiyaç vardı. Görsel ve video ağırlıklı portföyün hızlı yüklenmesi, yönetim panelinin ise yetkisiz erişime karşı korunması gerekiyordu.",
+    solution: "React 18 ve Vite ile geliştirilen ön yüz ile Express.js tabanlı REST API'den oluşan full-stack bir yapı kuruldu. İşler, videolar, ekip üyeleri, markalar, hizmetler, duyurular ve site metinleri MySQL veritabanında tutuluyor ve korumalı yönetim panelinden düzenlenebiliyor.\n\nGüvenlik tarafında JWT kimlik doğrulama, bcrypt ile parola hashleme, TOTP tabanlı iki faktörlü doğrulama, Helmet güvenlik başlıkları, rate limiting ve güvenlik olay kayıtları kullanıldı. Veritabanı ve yüklenen dosyalar için zamanlanmış yedekleme ve geri yükleme rehberi hazırlandı.",
+    keyFeatures: [
+      "Portföy yönetimi: Görsel ve video destekli işler, filtrelenebilir iş listesi ve öne çıkan işler.",
+      "İçerik yönetimi: Ekip, marka, hizmet, duyuru ve site metinlerinin yönetim panelinden güncellenmesi.",
+      "Güvenlik: JWT, bcrypt, TOTP 2FA, Helmet, rate limiting ve güvenlik logları.",
+      "Operasyon: E-posta bildirimli iletişim formu, zamanlanmış yedekleme ve geri yükleme rehberi.",
+    ],
+    techStack: ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "MySQL", "JWT", "Nodemailer"],
+    screenshots: [],
+  },
   "tam-finans-fintech": {
     title: "Tam Finans Multi-Platform Fintech System",
     domain: "Fintech",

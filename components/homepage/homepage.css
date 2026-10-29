@@ -554,3 +554,21 @@ body:has(.bs3p-react-homepage){background:#f3f5f7;overflow-x:clip;color-scheme:l
   .bs3p-react-homepage .scene[data-mode=loading] .static-art{visibility:visible}
   .bs3p-react-homepage .scene[data-mode=loading] .loading-placeholder{visibility:hidden}
 }
+
+/* BS3P-039: same compact contact band and footer as the interior pages. */
+.bs3p-react-homepage .homepage-section.homepage-contact{padding:40px 0;gap:80px}
+.bs3p-react-homepage .homepage-contact h2{font-size:clamp(32px,3vw,44px)}
+.bs3p-react-homepage .homepage-contact-details>p{font-size:17px}
+.bs3p-react-homepage .homepage-contact-actions{margin-top:16px}
+.bs3p-react-homepage .homepage-footer{grid-template-columns:minmax(0,1fr) auto;gap:20px 48px;padding:32px 0 16px}
+.bs3p-react-homepage .homepage-footer-brand p{margin:12px 0 4px;font-size:16px}
+.bs3p-react-homepage .homepage-footer nav{flex-direction:column;align-items:flex-start;gap:0}
+.bs3p-react-homepage .homepage-footer nav h2{margin:0 0 4px}
+.bs3p-react-homepage .homepage-footer nav a{gap:6px;min-height:36px}
+.bs3p-react-homepage .homepage-footer .homepage-copyright{padding-top:14px}
+@media(max-width:699px){
+ .bs3p-react-homepage .homepage-section.homepage-contact{padding:32px 0;gap:12px}
+ .bs3p-react-homepage .homepage-contact h2{font-size:32px}
+ .bs3p-react-homepage .homepage-footer{grid-template-columns:1fr;gap:16px;padding:28px 0 16px}
+ .bs3p-react-homepage .homepage-footer nav a{min-height:44px}
+}

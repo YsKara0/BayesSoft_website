@@ -4,6 +4,12 @@ import type { Project } from "@/data/site";
 type ProjectCopy = Pick<Project, "domain" | "problem" | "summary" | "impact">;
 
 const en: Record<string, ProjectCopy> = {
+  "teskilat-icom": {
+    domain: "Advertising agency / Corporate website",
+    problem: "The agency needed a web platform where it could update its work, team, brand references and announcements without technical support.",
+    summary: "A creative agency web platform built with React and Node.js, with portfolio, team, brand and announcement content managed from an admin dashboard.",
+    impact: "Work, videos, team, brands, services and announcements are managed from one dashboard; the contact form sends email notifications.",
+  },
   "zirve-cilingir": {
     domain: "Corporate website / CMS",
     problem: "All website content needed to be managed through a single administration panel.",
@@ -22,6 +28,12 @@ const en: Record<string, ProjectCopy> = {
 };
 
 const de: Record<string, ProjectCopy> = {
+  "teskilat-icom": {
+    domain: "Werbeagentur / Unternehmenswebsite",
+    problem: "Die Agentur brauchte eine Webplattform, auf der sie Arbeiten, Team, Markenreferenzen und Ankündigungen ohne technische Unterstützung pflegen kann.",
+    summary: "Eine Webplattform für eine Kreativagentur mit React und Node.js, deren Portfolio-, Team-, Marken- und Ankündigungsinhalte über ein Admin-Dashboard verwaltet werden.",
+    impact: "Arbeiten, Videos, Team, Marken, Leistungen und Ankündigungen werden in einem Dashboard verwaltet; das Kontaktformular sendet E-Mail-Benachrichtigungen.",
+  },
   "zirve-cilingir": {
     domain: "Unternehmenswebsite / CMS",
     problem: "Sämtliche Website-Inhalte sollten über ein zentrales Administrationspanel verwaltet werden.",

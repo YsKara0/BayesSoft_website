@@ -1,5 +1,6 @@
 "use client";
 
+import type { ReactNode } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Plus } from "lucide-react";
@@ -9,7 +10,9 @@ import { useLanguage } from "@/components/LanguageProvider";
 import { projects, type Project } from "@/data/site";
 import { getSelectedProjects } from "@/data/selectedProjects";
 import { localizeProject } from "@/data/projectTranslations";
+import { otherProjectsLabel, projectMeta } from "@/data/projectMeta";
 import styles from "@/components/interior/projects.module.css";
+import shared from "@/components/interior/interior.module.css";
 
 function ProjectLinks({ name, detailHref, liveHref, sourceHref }: {
   name: string; detailHref?: string | null; liveHref?: string | null; sourceHref?: string;
@@ -32,16 +35,38 @@ function ProjectNotes({ project }: { project: Project }) {
   </details>;
 }
 
+function ProjectRow({ source, marker }: { source: Project; marker: ReactNode }) {
+  const { locale } = useLanguage();
+  const project = localizeProject(source, locale);
+  const detailHref = project.hasDetailsPage && project.slug ? `/projeler/${project.slug}` : null;
+  const kind = project.slug ? projectMeta[project.slug]?.kind[locale] : undefined;
+  return <li className={styles.row} data-project-id={project.slug}>
+    {marker}
+    <div className={styles.rowTitle}>
+      <h3>{detailHref ? <Link href={detailHref}>{project.title}</Link> : project.title}</h3>
+    </div>
+    <div className={styles.rowBody}>
+      <p className={styles.description}>{project.summary}</p>
+      {kind && <p className={styles.kind}>{kind}</p>}
+      {!detailHref && <ProjectNotes project={project} />}
+    </div>
+    <ProjectLinks name={project.title} detailHref={detailHref} liveHref={project.liveUrl} sourceHref={project.sourceUrl} />
+  </li>;
+}
+
 export default function ProjectsPage() {
   const { copy, locale } = useLanguage();
   const page = copy.pages.projects;
   const selected = getSelectedProjects(locale);
   const featuredIds = new Set(selected.map(project => project.id as string));
   const remaining = projects.filter(project => !project.slug || !featuredIds.has(project.slug));
+  const logoOf = (project: Project) => project.slug ? projectMeta[project.slug]?.logo : undefined;
+  const branded = remaining.filter(project => logoOf(project));
+  const others = remaining.filter(project => !logoOf(project));
 
   return <main id="main-content" tabIndex={-1} className={styles.catalog}>
-    <div className={styles.intro}><InteriorIntro eyebrow={page.eyebrow} title={page.title}>{page.body}</InteriorIntro></div>
-    <section className={styles.featured} aria-labelledby="featured-projects-title">
+    <InteriorIntro eyebrow={page.eyebrow} title={page.title}>{page.body}</InteriorIntro>
+    <section className={`${styles.featured} ${shared.band}`} aria-labelledby="featured-projects-title">
       <div className={styles.heading}>
         <p>{copy.homepage.text.selected}</p>
         <h2 id="featured-projects-title">{copy.homepage.text.works}</h2>
@@ -49,7 +74,7 @@ export default function ProjectsPage() {
       <div className={styles.featuredGrid}>{selected.map((project, index) => {
         const source = projects.find(item => item.slug === project.id);
         const catalogProject = source ? localizeProject(source, locale) : null;
-        const technologies = catalogProject?.technologies ?? project.technologyLabels;
+        const kind = projectMeta[project.id]?.kind[locale];
         return <article className={styles.feature} key={project.id} data-project-id={project.id}>
           <picture className={styles.poster}>
             <source srcSet={`${project.posterSmallSrc} 640w, ${project.posterSrc} 1080w`} sizes="(max-width: 699px) calc(100vw - 48px), (max-width: 1099px) 44vw, 30vw" />
@@ -57,12 +82,10 @@ export default function ProjectsPage() {
               priority={index === 0} sizes="(max-width: 699px) 90vw, 30vw" />
           </picture>
           <div className={styles.featureBody}>
-            <p className={styles.category}>{project.category}</p>
-            <h3>{project.name}</h3>
+            <h3>{project.detailHref ? <Link href={project.detailHref}>{project.name}</Link> : project.name}</h3>
             <p className={styles.description}>{catalogProject?.summary ?? project.description}</p>
-            {technologies.length > 0 && <ul className={styles.tags} aria-label={copy.projects.technologies}>{technologies.map(technology => <li key={technology}>{technology}</li>)}</ul>}
+            {kind && <p className={styles.kind}>{kind}</p>}
             <ProjectLinks name={project.name} detailHref={project.detailHref} liveHref={project.liveHref} sourceHref={catalogProject?.sourceUrl} />
-            {catalogProject && <ProjectNotes project={catalogProject} />}
           </div>
         </article>;
       })}</div>
@@ -72,22 +95,13 @@ export default function ProjectsPage() {
         <p>{copy.projects.eyebrow}</p>
         <div><h2 id="projects-title">{copy.projects.title}</h2><p className={styles.sectionDescription}>{copy.projects.intro}</p></div>
       </div>
-      <div className={styles.cardGrid}>{remaining.map(source => {
-        const project = localizeProject(source, locale);
-        const detailHref = project.hasDetailsPage && project.slug ? `/projeler/${project.slug}` : null;
-        const monogram = project.title.split(/[\s-]+/).filter(Boolean).slice(0, 2).map(word => word[0]).join("");
-        return <article className={styles.card} key={project.slug ?? project.title} data-project-id={project.slug}>
-          <div className={styles.monogram} aria-hidden="true"><span>{monogram}</span><small>{project.technologies.slice(0, 2).join(" / ")}</small></div>
-          <div className={styles.cardBody}>
-            <p className={styles.category}>{project.domain}</p>
-            <h3>{detailHref ? <Link href={detailHref}>{project.title}</Link> : project.title}</h3>
-            <p className={styles.description}>{project.summary}</p>
-            <ul className={styles.tags} aria-label={copy.projects.technologies}>{project.technologies.map(technology => <li key={technology}>{technology}</li>)}</ul>
-            <ProjectLinks name={project.title} detailHref={detailHref} liveHref={project.liveUrl} sourceHref={project.sourceUrl} />
-            <ProjectNotes project={project} />
-          </div>
-        </article>;
-      })}</div>
+      <ol className={styles.rows}>{branded.map(source => <ProjectRow key={source.slug ?? source.title} source={source}
+        marker={<span className={`${styles.logo}${source.slug && projectMeta[source.slug]?.logoDark ? ` ${styles.logoDark}` : ""}`}><Image src={logoOf(source)!} alt="" width={140} height={56} sizes="140px" /></span>} />)}</ol>
+      {others.length > 0 && <>
+        <h3 className={styles.groupTitle} id="other-projects-title">{otherProjectsLabel[locale]}</h3>
+        <ol className={styles.rows} aria-labelledby="other-projects-title">{others.map((source, index) => <ProjectRow key={source.slug ?? source.title} source={source}
+          marker={<span className={styles.index} aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>} />)}</ol>
+      </>}
     </section>
     <InteriorCTA />
   </main>;

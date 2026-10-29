@@ -583,3 +583,11 @@ Yayın tamamlandı: `adeed1904371f2b38d69cfcb1a46c72ddd3a0d31` origin/master ile
 ## 2026-10-27 — BS3P-038 Ahmet unvanı
 Ahmet B. Çınar için TR: Mobil ve Full-Stack Geliştirici; EN: Mobile and Full-Stack Developer; DE: Mobile- und Full-Stack-Entwickler. data/site.ts canonical role ve data/i18n.ts merkezi sözlük güncellendi; kart/modal/fotoğraf altmetni aynı kaynağı kullanır. Diğer üyeler, biyografiler, linkler, fotoğraflar ve diğer çeviriler HEAD ile çalışma zamanı karşılaştırmasında eşit. TypeScript, iki dosyada hedefli ESLint geçti. Yeni build/tarayıcı/tam QA yapılmadı. Kullanıcı production değişikliği ve GitHub push istedi; mevcut master ve önceki yerel çalışmalar korunur.
 Commit/push öncesi kayıt; kesin sonuç teslimde.
+
+
+## 2026-10-29 — BS3P-039 iç sayfa estetik yenilemesi
+- **Amaç:** İç sayfaları ana sayfanın görsel diline yaklaştırmak; kullanıcı önerilerin tamamını onayladı.
+- **Değişen:** app/{hakkimizda,hizmetler,projeler,iletisim}/page.tsx, components/ProjectDetailView.tsx, components/interior/* (yeni ServiceVisual.tsx).
+- **Doğrulama:** tsc, hedefli eslint; Chrome 1440 tam sayfa, Playwright 390/768 + TR/EN/DE scrollWidth=clientWidth.
+- **Yapılmayan:** build/export, Safari, gerçek cihaz, erişilebilirlik tam taraması.
+- **Durum:** yerel, görsel onay bekliyor; commit/push/deploy yok.

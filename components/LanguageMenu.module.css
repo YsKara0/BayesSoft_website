@@ -1,0 +1,17 @@
+.menu { position: relative; display: inline-flex; font-family: inherit; }
+/* Doubled selectors outrank the host shells' generic `button { font: inherit }` rules. */
+.menu .trigger { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 10px; border: 1px solid transparent; border-radius: 3px; background: transparent; color: #53677a; font: inherit; font-size: 14px; font-weight: 500; line-height: 1.5; letter-spacing: normal; cursor: pointer; transition: color .16s ease, border-color .16s ease, background .16s ease; }
+.menu .trigger:hover, .menu .trigger[aria-expanded="true"] { color: #172b43; border-color: #d3dce5; background: rgb(255 255 255 / .6); }
+.trigger:focus-visible, .panel button:focus-visible { outline: 2px solid #285bd6; outline-offset: 3px; }
+.chevron { transition: transform .16s ease; }
+.trigger[aria-expanded="true"] .chevron { transform: rotate(180deg); }
+.panel { position: absolute; top: calc(100% + 6px); right: 0; z-index: 10; display: grid; min-width: 176px; padding: 6px; border: 1px solid #d4dfe9; border-radius: 4px; background: #fff; box-shadow: 0 12px 32px rgb(23 43 67 / .1); }
+.panel[hidden] { display: none; }
+.menu .panel button { display: grid; grid-template-columns: 1fr auto 16px; align-items: center; gap: 10px; min-height: 44px; padding: 0 10px; border: 0; border-radius: 3px; background: transparent; color: #172b43; font: inherit; font-size: 14px; font-weight: 400; line-height: 1.5; letter-spacing: normal; text-align: left; cursor: pointer; }
+.menu .panel button:hover { background: #f1f5f9; }
+.menu .panel button[aria-pressed="true"] { color: #285bd6; font-weight: 500; }
+.menu .panel small { font-size: 12px; font-weight: 400; color: #647b91; }
+.inline { display: grid; }
+.inline .trigger.trigger { justify-content: flex-start; padding-inline: 8px; }
+.inline .panel { position: static; margin-top: 4px; box-shadow: none; }
+@media (prefers-reduced-motion: reduce) { .trigger, .chevron { transition: none; } }

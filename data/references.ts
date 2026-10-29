@@ -14,8 +14,7 @@ const allClientReferences: ClientReference[] = [
   { name: "Arel Üniversitesi", src: "/references/arel.png", website: "https://www.arel.edu.tr/" },
   { name: "Atlı Lojistik", src: "/references/atli.png", website: "https://atlidepohizmetleri.com/" },
   { name: "Kanuni Sultan Süleyman Hastanesi", src: "/references/kanuni_sultan_suleyman_hastanesi.png", website: "https://kanunieah.saglik.gov.tr/" },
-  // Temporarily hidden; remove hidden: true to restore this reference.
-  { name: "Teşkilat ICOM", src: "/references/teskilat-icom.png", website: "https://www.teskilat.com.tr/", dark: true, hidden: true },
+  { name: "Teşkilat ICOM", src: "/references/teskilat-icom.png", website: "https://www.teskilat.com.tr/", dark: true },
   { name: "Hypersense", src: "/references/hypersense.png", website: "https://hypersense.dev/" },
   { name: "Zirve Çilingir", src: "/references/zirve-cilingir.png", website: "https://esenyurtzirvecilingir.com/" },
 ];
